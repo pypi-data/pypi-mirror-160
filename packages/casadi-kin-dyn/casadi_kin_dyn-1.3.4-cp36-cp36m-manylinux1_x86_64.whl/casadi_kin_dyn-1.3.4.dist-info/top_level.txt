@@ -1,0 +1,2 @@
+casadi_kin_dyn
+pycasadi_kin_din
