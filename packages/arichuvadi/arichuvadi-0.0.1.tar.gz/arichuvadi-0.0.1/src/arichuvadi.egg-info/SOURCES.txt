@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+src/arichuvadi.py
+src/arichuvadi.egg-info/PKG-INFO
+src/arichuvadi.egg-info/SOURCES.txt
+src/arichuvadi.egg-info/dependency_links.txt
+src/arichuvadi.egg-info/top_level.txt
