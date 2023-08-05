@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+cool_maps/__init__.py
+cool_maps/_version.py
+cool_maps/plot.py
+cool_maps.egg-info/PKG-INFO
+cool_maps.egg-info/SOURCES.txt
+cool_maps.egg-info/dependency_links.txt
+cool_maps.egg-info/not-zip-safe
+cool_maps.egg-info/requires.txt
+cool_maps.egg-info/top_level.txt
