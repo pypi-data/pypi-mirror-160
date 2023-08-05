@@ -1,0 +1,2 @@
+[console_scripts]
+xfaster = xfaster:xfaster_main

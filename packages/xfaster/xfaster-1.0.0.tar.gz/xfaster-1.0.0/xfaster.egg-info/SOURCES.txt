@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+xfaster/__init__.py
+xfaster/batch_tools.py
+xfaster/parse_tools.py
+xfaster/spec_tools.py
+xfaster/xfaster_class.py
+xfaster/xfaster_exec.py
+xfaster.egg-info/PKG-INFO
+xfaster.egg-info/SOURCES.txt
+xfaster.egg-info/dependency_links.txt
+xfaster.egg-info/entry_points.txt
+xfaster.egg-info/requires.txt
+xfaster.egg-info/top_level.txt
