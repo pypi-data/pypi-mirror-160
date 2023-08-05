@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "gecos"
+version = "2.0.0"
+description = "Generated color schemes for sequence alignment visualizations"
+readme = "README.rst"
+license = "BSD-3-Clause"
+authors = ["Patrick Kunzmann <patrick.kunzm@gmail.com>"]
+homepage = "https://gecos.biotite-python.org"
+repository = "https://github.com/biotite-dev/gecos"
+documentation = "https://gecos.biotite-python.org"
+keywords = [
+    "Bioinformatics",
+    "Computational biology",
+    "Data visualization"
+]
+classifiers = [
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: BSD License",
+        "Operating System :: OS Independent",
+        "Topic :: Scientific/Engineering :: Bio-Informatics",
+        "Topic :: Scientific/Engineering :: Visualization"
+]
+packages = [
+    { include = "gecos", from = "src" },
+]
+
+[tool.poetry.scripts]
+gecos = "gecos.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.13"
+biotite = ">= 0.21"
+scikit-image = ">= 0.17"
+matplotlib = "^3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+sphinx = "^3.0"
+numpydoc = ">= 0.8"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
