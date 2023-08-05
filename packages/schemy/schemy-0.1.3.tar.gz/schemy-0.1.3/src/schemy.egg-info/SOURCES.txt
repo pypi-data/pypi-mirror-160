@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/schemy/__init__.py
+src/schemy/sql.py
+src/schemy.egg-info/PKG-INFO
+src/schemy.egg-info/SOURCES.txt
+src/schemy.egg-info/dependency_links.txt
+src/schemy.egg-info/top_level.txt
