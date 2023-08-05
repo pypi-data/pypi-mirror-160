@@ -1,0 +1,11 @@
+restalker/__init__.py,sha256=fGBtaSp8gakHaU9eu02CI01awtpaAmQpRaGkmyRDxfA,124
+restalker/link_extractors.py,sha256=hYJ-iMUGS3R2gyvvXNB-OHq9NNVuu7mlYHGvwF2aw1E,3190
+restalker/metadata.py,sha256=MH2sy9UFyA6IvopBTzDZ3YP_rtIohepEU2bY5WLJbfE,3257
+restalker/restalker.py,sha256=x5bu8O0JXmcrgj9GDeVCybg0LPLapFQJgnSm6u2ZZfI,19520
+restalker/textan.py,sha256=ftdSvdH95JWLneMreXcYJff4L42FdjxR7jwuRaHELJk,356
+restalker-1.2.1.dist-info/LICENSE,sha256=QCz736R5blZwAskmBLluILIDgh_c-c-P-CqgUrjeP7g,1124
+restalker-1.2.1.dist-info/METADATA,sha256=VcabAQOya3lvc8UbbV4E5lKVeXAXtfhLnL888jjKgqE,1311
+restalker-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+restalker-1.2.1.dist-info/entry_points.txt,sha256=f9YmDQowcr2i9VZbOSQpxZIiLQRMhQGi6h0YZbFzYbo,55
+restalker-1.2.1.dist-info/top_level.txt,sha256=CKm4IDcMxIAoYGfFU5-1VZEQ2ltWH2-CspNTRM2RCPM,10
+restalker-1.2.1.dist-info/RECORD,,
