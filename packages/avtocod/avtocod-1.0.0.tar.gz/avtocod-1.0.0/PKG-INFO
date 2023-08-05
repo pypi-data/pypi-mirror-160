@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: avtocod
+Version: 1.0.0
+Summary: Avtocod - неофициальный, элегантный, асинхронный враппер автокода
+Home-page: https://github.com/Fom123/avtocod
+License: MIT
+Keywords: avtocod,api
+Author: Fom123
+Author-email: gamemode1.459@gmail.com
+Maintainer: Fom123
+Maintainer-email: gamemode1.459@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Typing :: Typed
+Provides-Extra: fast
+Provides-Extra: proxy
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: pydantic (>=1.9.0,<1.10.0)
+Project-URL: Repository, https://github.com/Fom123/avtocod
+Description-Content-Type: text/markdown
+
+***This version still in development***
+

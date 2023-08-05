@@ -1,0 +1,95 @@
+[tool.poetry]
+name = "avtocod"
+version = "1.0.0"
+description = "Avtocod - неофициальный, элегантный, асинхронный враппер автокода"
+license = "MIT"
+readme = "README.md"
+keywords = ["avtocod", "api"]
+repository = "https://github.com/Fom123/avtocod"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Framework :: AsyncIO",
+    "Typing :: Typed",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+maintainers = [
+    "Fom123 <gamemode1.459@gmail.com>",
+]
+authors = ["Fom123 <gamemode1.459@gmail.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "~=1.9.0"
+aiohttp = "^3.8.1"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.1.1"
+black = "^22.1"
+isort = "^5.8.0"
+flake8 = "^4.0.1"
+flake8-html = "^0.4.1"
+mypy = "^0.961"
+pytest = "^7.0.1"
+pytest-html = "^3.1.1"
+pytest-asyncio = "^0.18.2"
+pytest-lazy-fixture = "^0.6.3"
+pytest-mock = "^3.6.0"
+pytest-mypy = "^0.9.1"
+pytest-cov = "^3.0.0"
+pytest-aiohttp = "^1.0.4"
+pre-commit = "^2.15.0"
+
+
+[tool.poetry.extras]
+fast = ["uvloop"]
+proxy = ["aiohttp-socks"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 99
+target-version = ['py37', 'py38']
+exclude = '''
+(
+    \.eggs
+  | \.git
+  | \.tox
+  | build
+  | dist
+  | venv
+  | docs
+)
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 99
+known_third_party = [
+    "aiofiles",
+    "aiohttp",
+    "aiohttp_socks",
+    "aresponses",
+    "packaging",
+    "pkg_resources",
+    "pydantic",
+    "pytest"
+]
+
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: run integration tests (deselect with '-m \"not integration\"')",
+]
