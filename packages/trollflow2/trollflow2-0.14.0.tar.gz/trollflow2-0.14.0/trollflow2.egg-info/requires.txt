@@ -1,0 +1,6 @@
+dpath
+posttroll
+pyorbital
+pyyaml
+satpy>=0.32.0
+trollsift
