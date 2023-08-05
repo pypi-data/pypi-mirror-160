@@ -1,0 +1,8 @@
+# Python
+/venv
+/dist
+*.pyc
+*.egg-info
+
+# Mac
+.DS_Store

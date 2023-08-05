@@ -1,0 +1,23 @@
+[project]
+name = "pypdf-utils"
+version = "0.0.1"
+description = "Utility scripts for PDF manipulation using PyPDF2"
+license = {file = "LICENSE"}
+readme = "README.md"
+authors = [
+	{ name="Guilherme Lima", email="guilima10@gmail.com" },
+]
+dependencies = [
+	"PyPDF2~=2.4.2"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/limaa/pypdf-utils"
+"Source Code" = "https://github.com/limaa/pypdf-utils"
+
+[project.scripts]
+pypdf-join = "pypdf_utils.join:main"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
