@@ -1,0 +1,2 @@
+[console_scripts]
+nmoo = nmoo.__main__:main
