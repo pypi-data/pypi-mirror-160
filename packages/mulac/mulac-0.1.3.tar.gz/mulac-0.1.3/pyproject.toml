@@ -1,0 +1,27 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mulac"
+version = "0.1.3"
+description = "A simple way to distribute the computing work among a group of process-independent (or thread-independent) agents."
+readme = "README.md"
+authors = [{ name = "NiL", email = "csningli@qq.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ['mulac', ]
+dependencies = [
+    'pyzmq >= 22.3.0',
+]
+
+requires-python = ">=3.7.11"
+
+[project.urls]
+Homepage = "https://github.com/csningli/mulac"
