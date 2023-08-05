@@ -1,0 +1,18 @@
+=== 2.0.0 ===
+- psu_base template reorg
+
+=== 1.2.0 ===
+- Use the database column name when specified, proprty name when not specified
+- Updated psu_base version requirement
+
+=== 1.1.1 ===
+- Use new S3 bucket: psu-bi-export.wdt.pdx.edu
+
+=== 1.0.1 ===
+- Updated scheduler version for ability to modify schedules
+
+=== 1.0.0 ===
+- Shortened dynamic role syntax
+
+=== 0.7.2 ===
+- First version that is able to be scheduled to run from AWS Health Check

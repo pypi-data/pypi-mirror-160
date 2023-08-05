@@ -1,0 +1,4 @@
+boto3
+pandas>=1.4.3
+psu-base>=6.0.0
+psu-scheduler>=2.0.0
