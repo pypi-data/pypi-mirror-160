@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: base64-to-hex-converter
+Version: 0.3.0
+Summary: Base64 to Hexadecimal Converter
+Home-page: https://github.com/guidanoli/base64-to-hex-converter
+Author: Guilherme Dantas
+Author-email: guidanoli@hotmail.com
+License: GNU General Public License v3.0
+Project-URL: Bug Tracker, https://github.com/guidanoli/base64-to-hex-converter/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Base64 to Hexadecimal Converter
+
+A Python package that converts Base64-encoded strings to Hexadecimal strings.
+
+## Help
+
+Run `python -m b64to16 -h`

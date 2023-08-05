@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/b64to16/__init__.py
+src/b64to16/__main__.py
+src/b64to16/b64to16.py
+src/b64to16/version.py
+src/base64_to_hex_converter.egg-info/PKG-INFO
+src/base64_to_hex_converter.egg-info/SOURCES.txt
+src/base64_to_hex_converter.egg-info/dependency_links.txt
+src/base64_to_hex_converter.egg-info/top_level.txt
