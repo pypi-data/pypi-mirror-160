@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+engine/__init__.py
+engine/client.py
+engine/control_db.py
+engine/handler.py
+engine/listen.py
+rsqlite_sync.egg-info/PKG-INFO
+rsqlite_sync.egg-info/SOURCES.txt
+rsqlite_sync.egg-info/dependency_links.txt
+rsqlite_sync.egg-info/not-zip-safe
+rsqlite_sync.egg-info/top_level.txt
