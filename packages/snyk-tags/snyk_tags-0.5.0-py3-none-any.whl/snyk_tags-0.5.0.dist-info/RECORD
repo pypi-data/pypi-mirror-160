@@ -1,0 +1,12 @@
+snyk_tags/__init__.py,sha256=TUuYSjdWNWcZ8ldWxUyOJTFvBnYyKaLiGOA21esA6Fs,211
+snyk_tags/__main__.py,sha256=JdE8caEQ_HLSnHDAnKWhSCNzPrsJQE6WKs6XpiPGoNc,154
+snyk_tags/attribute.py,sha256=nv7oxFRLG7bq-VF4eKwIZlEu8y2aqJSwfRLCHkywvcQ,4324
+snyk_tags/collection.py,sha256=YQhMPhgRyTECScCZqvUiNtbT6e7cU8gDpQjuMauWfdE,3053
+snyk_tags/list.py,sha256=8ke2Kz0QLQLlqPgAxi8K7tULBbbwrDnhCkE8KBpyAKk,2443
+snyk_tags/tag.py,sha256=oHkPjXYAMl2YaHfzTK2G55skVP4NUdxZA2T4gx8rlBM,13704
+snyk_tags/tags.py,sha256=nPGgnkxq0PTj7TDaAiD10C6TOBgWuGxzVQn_pJaseQ0,1670
+snyk_tags-0.5.0.dist-info/entry_points.txt,sha256=HzeLORk4rJGYgAupCx3ttBD63m_MzSDRm5Cws3W4egI,48
+snyk_tags-0.5.0.dist-info/LICENSE.md,sha256=Xho_UwsQw0KMao_7pKeoRPQMNnGTh3-XYaQe02jAEOQ,2156
+snyk_tags-0.5.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+snyk_tags-0.5.0.dist-info/METADATA,sha256=3pVD3ODdnAMSxo_tAdicpWA2Wsh7CTTuZu3hDSw_LwQ,6413
+snyk_tags-0.5.0.dist-info/RECORD,,
