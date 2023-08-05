@@ -1,0 +1,8 @@
+__pycache__
+input/*
+!input/empty
+output/*
+!output/empty
+dist
+src/PluginsPy.egg-info
+build
