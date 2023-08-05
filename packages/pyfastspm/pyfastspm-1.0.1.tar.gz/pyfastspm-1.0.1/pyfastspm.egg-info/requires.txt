@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-image
+matplotlib
+pillow
+tqdm
+h5py
+packaging
+scikit-image
