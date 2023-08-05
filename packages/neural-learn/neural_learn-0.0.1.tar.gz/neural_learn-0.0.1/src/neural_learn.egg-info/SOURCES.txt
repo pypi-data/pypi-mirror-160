@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/neural_learn/__init__.py
+src/neural_learn/main.py
+src/neural_learn.egg-info/PKG-INFO
+src/neural_learn.egg-info/SOURCES.txt
+src/neural_learn.egg-info/dependency_links.txt
+src/neural_learn.egg-info/top_level.txt

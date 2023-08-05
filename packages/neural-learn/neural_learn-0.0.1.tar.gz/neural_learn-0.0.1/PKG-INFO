@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: neural_learn
+Version: 0.0.1
+Summary: A Deep Learning library based on Pytorch and PyTorch Lightning which makes Deep Learning even simpler.
+Home-page: https://github.com/edreate/neural_learn
+Author: Edreate
+Author-email: edreate.dev@gmail.com
+Project-URL: Bug Tracker, https://github.com/edreate/neural_learn/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Neural Learn
+A Deep Learning library based on Pytorch and PyTorch Lightning which makes Deep Learning even simpler.
