@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+scann_ascii/__init__.py
+scann_ascii/pipeline.py
+scann_ascii/utils.py
+scann_ascii.egg-info/PKG-INFO
+scann_ascii.egg-info/SOURCES.txt
+scann_ascii.egg-info/dependency_links.txt
+scann_ascii.egg-info/top_level.txt
