@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: leelee
+Version: 0.1.5
+Summary: PUT THE PACKAGE DESCRIPTION
+Home-page: https://github.com/rlduqdl94
+Author: leelee
+Author-email: dlrlduq94@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown
+
+test leelee module
+
