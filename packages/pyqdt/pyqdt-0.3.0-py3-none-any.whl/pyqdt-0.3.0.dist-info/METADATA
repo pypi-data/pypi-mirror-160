@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyqdt
+Version: 0.3.0
+Home-page: https://pyqdt.itsop.cc
+Author: John Lui
+Author-email: johnlui@live.cn
+License: LGPLv3
+License-File: LICENSE
+Requires-Dist: pandas (>=0.25)
+
