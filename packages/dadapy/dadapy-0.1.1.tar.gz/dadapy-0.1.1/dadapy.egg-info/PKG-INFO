@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dadapy
+Version: 0.1.1
+Summary: A Python package for Distance-based Analysis of DAta-manifolds.
+Home-page: https://dadapy.readthedocs.io/
+Provides-Extra: dev
+License-File: LICENSE
+
+A Python package for Distance-based Analysis of DAta-manifolds.
