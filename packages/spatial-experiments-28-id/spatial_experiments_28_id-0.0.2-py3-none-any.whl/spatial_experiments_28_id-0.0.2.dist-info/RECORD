@@ -1,0 +1,14 @@
+spatial_experiments_28_id/__init__.py,sha256=C-n3hLfLJbK61tZQVnyG3f4NeJ5UcDq-0CThqpaRROI,97
+spatial_experiments_28_id/_version.py,sha256=jF4nZYKzH7gCUyxTuEAlPLH6WEpAbaHV1OJVmd-eET0,518
+spatial_experiments_28_id/movement_builder.py,sha256=oVE1xJYCBSfF2joLJAZS29yPqxTBBlEXdSk2YkTfB90,2536
+spatial_experiments_28_id/run_without_gui.py,sha256=NX7rRy8M1eQfEhY8uBYoA7SMcZQxpW4rBW8DwpbCHuc,9812
+spatial_experiments_28_id/spatial_experiments_28_id.py,sha256=5xDLuJBQA5F6bCqNVp23ftZ_HEVvP8AXSZekXGE1L2A,75498
+spatial_experiments_28_id/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spatial_experiments_28_id/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spatial_experiments_28_id/tests/test_examples.py,sha256=uQBsZxf5sOSJSUwus3gS01xynWt2kTDZ3ZTMkL-VKa4,102
+spatial_experiments_28_id-0.0.2.dist-info/AUTHORS.rst,sha256=ReYrGiUasZZoUn3yVH2k11sb7EmxGAtfYXOFYD63ORc,194
+spatial_experiments_28_id-0.0.2.dist-info/LICENSE,sha256=7Lv5-rXfnhvPwLe8PSMM2tiojmf_UTFk1hUqPetuzXc,1552
+spatial_experiments_28_id-0.0.2.dist-info/METADATA,sha256=Yn6FQfF2jNUjd5QhXvVKR0tdyZ0UlwD0UgCYhQ33zug,1180
+spatial_experiments_28_id-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spatial_experiments_28_id-0.0.2.dist-info/top_level.txt,sha256=Blm4qMoiu9QDqANdoMssnqeHK6Ew_DEwAPT4lUOQ_vw,26
+spatial_experiments_28_id-0.0.2.dist-info/RECORD,,
