@@ -1,0 +1,2 @@
+# flagify
+`pip install flagify`
