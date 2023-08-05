@@ -1,0 +1,2 @@
+[console_scripts]
+braumeister = braumeister.braumeister:main
