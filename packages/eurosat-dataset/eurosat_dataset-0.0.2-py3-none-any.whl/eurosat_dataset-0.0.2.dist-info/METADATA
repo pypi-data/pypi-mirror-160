@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: eurosat-dataset
+Version: 0.0.2
+Summary: EUROSAT dataset loaders
+Home-page: UNKNOWN
+Author: DEEL
+Author-email: collaborateurs.du.projet.deel@irt-saintexupery.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: deel-datasets
+
+# EUROSAT deel dataset plugin
+
+This project implements the EUROSAT dataset plugin for the DEEL dataset manager.
+
+A deel dataset plugin is an extension of the Dataset class defined in the [DEEL dataset manager project](https://github.com/deel-ai/deel_dataset_manager).
+It allows to access to specific dataset files using the `load` method and other defined modes.
+
+EUROSAT dataset plugin use the default mode `path`to load `EuroSAT.zip` using the http protocol.
+
+## Installation
+
+The latest release can be installed from pypi. All needed python packages will also be installed as a dependency.
+
+```bash
+pip install eurosat-dataset
+```
+
+
+Otherwize the ssh or HTTPS version should work but you will have to enter your credentials manually:
+
+```bash
+
+# SSH version (with proper SSH key setup):
+pip install git+ssh://git@github.com:deel-ai/eurosat_dataset.git
+
+# HTTPS version:
+pip install git+https://github.com/deel-ai/eurosat_dataset.git
+```
+
+**Note:** EUROSAT dataset loading name is `eurosat`.
+
+## Examples of usage
+
+### Basic usage
+
+To load EUROSAT dataset, you can simply do:
+
+```python
+import deel.datasets
+
+# Load the default mode of eurosat dataset:
+eurosat_data_path = deel.datasets.load("eurosat")
+```
+
+The `deel.datasets.load` function is the basic entry to access the datasets.
+By passing `with_info=True`, extra information can be retrieved as a python
+dictionary. Information are not standardized, so each dataset may provide
+different ones:
+The `mode` argument can be used to load different "version" of the dataset. By default,
+only the `path` mode is available and will return the path to the local folder
+containing the dataset.
+
+### Command line utilities
+
+The `deel-datasets` package comes with some command line utilities that can be accessed using:
+
+```
+python -m deel.datasets ARGS...
+```
+
+The `--help` option can be used to view the full capabilities of the command line program.
+By default, the program uses the configuration at `$HOME/.deel/config.yml`, but the `-c`
+argument can be used to specified a custom configuration file.
+
+The following commands are available (not exhaustive):
+
+- `list` &mdash; List the available datasets. If the configuration specify a remote provider
+  (e.g., WebDAV), this will list the datasets available remotely. To list the dataset already
+  downloaded, you can use the `--local` option.
+
+```bash
+$ python -m deel.datasets list
+Listing datasets at https://datasets.deel.ai:
+  dataset-a: 3.0.1 [latest], 3.0.0
+  dataset-b: 1.0 [latest]
+  dataset-c: 1.0 [latest]
+$ python -m deel.datasets list --local
+Listing datasets at /local_path_to/datasets:
+  dataset-a: 3.0.1 [latest], 3.0.0
+  eurosat: 1.0.0 [latest]
+```
+
+- `download NAME[:VERSION]` &mdash; Download the specified dataset. If the configuration
+  does not specify a remote provider, this does nothing except outputing some information.
+  The `:VERSION` can be omitted, in which case `:latest` is implied. To force the re-download
+  of a dataset, the `--force` option can be used.
+
+  #### Example
+
+```bash
+$ python -m deel.datasets download eurosat
+Fetching eurosat...
+EuroSAT.zip: 100%|██████████████████████████████████████████████████| 89.9M/89.9M [00:56<00:00, 1.67Mbytes/s]
+Dataset eurosat loaded and stored at '/home/justin.plakoo/.deel/datasets/eurosat/1.0.0'.
+```
+
+

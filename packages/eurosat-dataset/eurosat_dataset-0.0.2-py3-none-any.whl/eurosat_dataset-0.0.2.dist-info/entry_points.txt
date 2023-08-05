@@ -1,0 +1,3 @@
+[plugins.deel.dataset]
+eurosat = eurosat:EurosatDataset
+
