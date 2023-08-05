@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: c2qa-qiskit
+Version: 5.0.1
+Summary: National Quantum Initiative Co-design Center for Quantum Advantage bosonic Qiskit simulator
+Home-page: https://github.com/C2QA/c2qa-qiskit.git
+Author: Tim Stavenger
+Author-email: timothy.stavenger@pnnl.gov
+Requires-Dist: qiskit (==0.34.2)
+Requires-Dist: matplotlib (==3.2.2)
+Requires-Dist: pylatexenc (==2.8)
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: cryptography (==3.2.1)
+
+IBM Qiskit extension supporting simulation of bosonic qumodes reprsented as 2^n qubits within Qiskit
