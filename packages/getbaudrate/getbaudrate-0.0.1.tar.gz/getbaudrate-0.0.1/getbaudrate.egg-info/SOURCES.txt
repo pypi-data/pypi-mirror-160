@@ -1,0 +1,7 @@
+LICENCE
+README
+setup.py
+getbaudrate.egg-info/PKG-INFO
+getbaudrate.egg-info/SOURCES.txt
+getbaudrate.egg-info/dependency_links.txt
+getbaudrate.egg-info/top_level.txt
