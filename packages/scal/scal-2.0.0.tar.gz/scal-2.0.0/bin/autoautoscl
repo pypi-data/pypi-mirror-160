@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Auto-generate .scl files
+export PYTHONPATH="$(cd $(dirname $0)/lib && pwd):$PYTHONPATH"
+python3 -m autoautoscl $@

@@ -1,0 +1,18 @@
+calendar:
+  start: {{start}}
+  end: {{end}}
+
+variables:
+  # Configuration
+  language: {{language}}
+  papersize: {{papersize}}
+
+holidays:
+  # Holidays
+  {%- for description, start, end in holidays -%}
+  {%- if start == end %}
+  {{ start }}: {{ description }}
+  {%- else %}
+  {{ start }} {{ end }}: {{ description }}
+  {%- endif -%}
+  {%- endfor -%}
