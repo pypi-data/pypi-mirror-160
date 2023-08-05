@@ -1,0 +1,8 @@
+[console_scripts]
+generate_calibration_image=sand.calibration.generate_calibration_image:main
+image_calibration=sand.calibration.image_calibration:main
+image_downloader=sand.calibration.image_download:main
+image_focal=sand.calibration.image_focal:main
+map_calibration=sand.calibration.map_calibration:main
+sand=sand.cli:run
+

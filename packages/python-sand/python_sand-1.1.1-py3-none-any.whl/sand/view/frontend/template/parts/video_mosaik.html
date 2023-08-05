@@ -1,0 +1,38 @@
+{% for config in camera_configs %}
+<div class="col-4">
+    <div class="card mb-3 text-white bg-secondary">
+        <div class="card-header">{{ config.0 }}</div>
+        <div class="card-body" id="little|{{ config.0 }}|{{ config.1 }}"></div>
+    </div>
+</div>
+{% endfor %}
+
+<script defer>
+    const camera_list = document.querySelectorAll('[id^="little"]');
+
+    console.log(`Adding real streams for cameras: ${camera_list}`);
+
+    for (const { id } of camera_list) {
+        console.log(`camera: ${id}`);
+
+        const get_camera_url = (host, port, resolution) =>
+            `http://${host}:${port}/mjpeg?resolution=${resolution}&neural=true`;
+
+        const [_, camera_name, camera_port] = id.split("|");
+        const host = window.location.host.replace(/:.*$/, "");
+
+        const img = document.createElement("img");
+        img.className = "img-fluid";
+        img.alt = "mjpeg stream";
+        img.src = get_camera_url(host, camera_port, "360x240");
+
+        const link = document.createElement("a");
+        link.href = get_camera_url(host, camera_port, "1280x720");
+        link.target = "_blank";
+        link.rel = "noopener";
+
+        link.append(img);
+
+        document.getElementById(id).append(link);
+    }
+</script>
