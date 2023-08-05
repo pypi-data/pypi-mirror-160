@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+animepy/__init__.py
+animepy/anigamer.py
+animepy/main_test.py
+animepy/response/__init__.py
+animepy/response/anigamer.py
+animepy/response/anisearch.py
+animepy/response/errors.py
+newanimepy.egg-info/PKG-INFO
+newanimepy.egg-info/SOURCES.txt
+newanimepy.egg-info/dependency_links.txt
+newanimepy.egg-info/requires.txt
+newanimepy.egg-info/top_level.txt
