@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+daisyRec.egg-info/PKG-INFO
+daisyRec.egg-info/SOURCES.txt
+daisyRec.egg-info/dependency_links.txt
+daisyRec.egg-info/not-zip-safe
+daisyRec.egg-info/requires.txt
+daisyRec.egg-info/top_level.txt
