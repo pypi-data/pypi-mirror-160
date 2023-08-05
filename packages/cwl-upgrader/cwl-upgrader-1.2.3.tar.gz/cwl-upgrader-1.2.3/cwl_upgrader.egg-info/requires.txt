@@ -1,0 +1,12 @@
+setuptools
+ruamel.yaml<0.17.22,>=0.15.71
+schema_salad
+
+[:python_version >= "3.10"]
+ruamel.yaml<0.17.22,>=0.16.0
+
+[:python_version >= "3.8"]
+ruamel.yaml<0.17.22,>=0.15.78
+
+[:python_version >= "3.9"]
+ruamel.yaml<0.17.22,>=0.15.98
