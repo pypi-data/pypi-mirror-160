@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pkgmt
+Version: 0.0.9
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: toml
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: click
+Provides-Extra: all
+Requires-Dist: nbclient ; extra == 'all'
+Requires-Dist: jupytext ; extra == 'all'
+Requires-Dist: ipykernel ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: yapf ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: invoke ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+UNKNOWN
+
