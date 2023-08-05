@@ -1,0 +1,13 @@
+LICENSE
+README.md
+restconf_cli.py
+setup.cfg
+setup.py
+restconf_cli.egg-info/PKG-INFO
+restconf_cli.egg-info/SOURCES.txt
+restconf_cli.egg-info/dependency_links.txt
+restconf_cli.egg-info/entry_points.txt
+restconf_cli.egg-info/requires.txt
+restconf_cli.egg-info/top_level.txt
+tests/__init__.py
+tests/test_restconf_cli.py
