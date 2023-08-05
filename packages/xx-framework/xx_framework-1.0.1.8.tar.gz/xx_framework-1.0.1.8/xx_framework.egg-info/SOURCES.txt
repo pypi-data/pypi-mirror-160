@@ -1,0 +1,17 @@
+README.md
+setup.py
+test/__init__.py
+test/config_test.py
+xx_framework/__init__.py
+xx_framework.egg-info/PKG-INFO
+xx_framework.egg-info/SOURCES.txt
+xx_framework.egg-info/dependency_links.txt
+xx_framework.egg-info/requires.txt
+xx_framework.egg-info/top_level.txt
+xx_framework/conf/__init__.py
+xx_framework/conf/default_config.py
+xx_framework/logs/__init__.py
+xx_framework/redis/__init__.py
+xx_framework/redis/wrappers.py
+xx_framework/utils/__init__.py
+xx_framework/utils/image_process.py
