@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dymaxionlabs
+Version: 1.0.0a1
+Summary: Python client for Dymaxion Labs Platform API
+License: Apache-2.0
+Author: Damián Silvani
+Author-email: munshkr@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: google-resumable-media (==0.5.1)
+Requires-Dist: requests (>=2.28.0,<3.0.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Requires-Dist: urllib3 (>=1.26.9,<2.0.0)
