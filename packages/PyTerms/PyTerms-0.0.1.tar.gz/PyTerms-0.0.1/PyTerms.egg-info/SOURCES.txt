@@ -1,0 +1,7 @@
+setup.py
+PyTerm/__init__.py
+PyTerm/main.py
+PyTerms.egg-info/PKG-INFO
+PyTerms.egg-info/SOURCES.txt
+PyTerms.egg-info/dependency_links.txt
+PyTerms.egg-info/top_level.txt

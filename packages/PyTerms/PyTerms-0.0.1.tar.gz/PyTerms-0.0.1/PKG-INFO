@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyTerms
+Version: 0.0.1
+Summary: PyTerm is cross-platform terminal utility library
+Home-page: https://github.com/Its-Vichy/PyTerm
+Author: Its_Vichy
+Author-email: its_vichy@protonmail.com
+License: MIT License
+Keywords: cross-platform console terminal PyTerm
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
