@@ -1,0 +1,2 @@
+[papermill.engine]
+ploomber-engine = ploomber_engine.engine:PloomberClientEngine

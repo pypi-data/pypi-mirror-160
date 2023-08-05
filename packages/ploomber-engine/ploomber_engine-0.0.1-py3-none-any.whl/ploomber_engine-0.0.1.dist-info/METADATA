@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ploomber-engine
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: papermill
+Requires-Dist: ipykernel
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: invoke ; extra == 'dev'
+
