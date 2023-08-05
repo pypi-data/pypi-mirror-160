@@ -1,0 +1,9 @@
+README.md
+setup.py
+MultiOCRPlot/__init__.py
+MultiOCRPlot/get_performance_plot.py
+MultiOCRPlot/get_time_plot.py
+MultiOCRPlot.egg-info/PKG-INFO
+MultiOCRPlot.egg-info/SOURCES.txt
+MultiOCRPlot.egg-info/dependency_links.txt
+MultiOCRPlot.egg-info/top_level.txt
