@@ -1,0 +1,11 @@
+sca3s-cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sca3s-cli/cli.py,sha256=1WRAHds7lKTiqRLPEA6eKNDjazdQxQ262Sru-eS5s3Y,928
+sca3s-cli/functions.py,sha256=ILdrxg4TVlcnIPUOaMwGGMsc-CHIhFNuztiDmPuy2t4,1664
+sca3s-cli/parser.py,sha256=nsGlHMt6VObBY4ULYhyQV59QAhJ--FU4HkOocj0leQ8,631
+sca3s_cli-1.0.1.data/scripts/cli.py,sha256=1WRAHds7lKTiqRLPEA6eKNDjazdQxQ262Sru-eS5s3Y,928
+sca3s_cli-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sca3s_cli-1.0.1.dist-info/METADATA,sha256=9sZJzkAZEhP5RQapdHpSWGnHsYCubVKAqC_DjAPNIW4,1511
+sca3s_cli-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sca3s_cli-1.0.1.dist-info/top_level.txt,sha256=UrNZapaGjmmiAB-RV57IcychK3H2Zrges8mv2OIJMJM,10
+sca3s_cli-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sca3s_cli-1.0.1.dist-info/RECORD,,
