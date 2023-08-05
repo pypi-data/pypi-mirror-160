@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+rsqlite_sync.egg-info/PKG-INFO
+rsqlite_sync.egg-info/SOURCES.txt
+rsqlite_sync.egg-info/dependency_links.txt
+rsqlite_sync.egg-info/not-zip-safe
+rsqlite_sync.egg-info/top_level.txt
+src/__init__.py
