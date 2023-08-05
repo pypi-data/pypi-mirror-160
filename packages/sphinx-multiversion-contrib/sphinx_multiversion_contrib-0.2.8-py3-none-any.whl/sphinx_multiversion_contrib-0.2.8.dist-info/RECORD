@@ -1,0 +1,11 @@
+sphinx_multiversion/__init__.py,sha256=QZrZdI1RAZLnYPDghVyrc3IZBdunCXWshEGJoh7nVPU,136
+sphinx_multiversion/__main__.py,sha256=PNR4VK_AmPDyZOgfL6byWv0Zu2RHF7kh8xNlAkcL2f0,99
+sphinx_multiversion/git.py,sha256=Uib766ywQ6KO4gzzjNgHAHFY9vdoB2rz_GSI1jjH2lo,4674
+sphinx_multiversion/main.py,sha256=7HXTZ7iSP7labm5A-V8DMATFAkCWesf0G7fT7BooGmU,12935
+sphinx_multiversion/sphinx.py,sha256=3NzgPPeUd7z2m7a0FwJddx5DhUE6EUGdnKkP_RZPTbo,6617
+sphinx_multiversion_contrib-0.2.8.dist-info/LICENSE,sha256=EnfxiBRRhdRa0mueslhly8aL6A9N35thobHYe0-8UVo,1356
+sphinx_multiversion_contrib-0.2.8.dist-info/METADATA,sha256=7rAWTi9LD9teI0NPcjgJRQThys9Enm6TzWIoZhyeUAM,989
+sphinx_multiversion_contrib-0.2.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sphinx_multiversion_contrib-0.2.8.dist-info/entry_points.txt,sha256=seOc0KfZVTroDQlzIXNyCZ00HkWgIqp8-4UR2wII6RM,65
+sphinx_multiversion_contrib-0.2.8.dist-info/top_level.txt,sha256=awXyLRFA7NWHH6Sk7iKrT7Zs6SNil1moxOVrcOwfuBA,20
+sphinx_multiversion_contrib-0.2.8.dist-info/RECORD,,
