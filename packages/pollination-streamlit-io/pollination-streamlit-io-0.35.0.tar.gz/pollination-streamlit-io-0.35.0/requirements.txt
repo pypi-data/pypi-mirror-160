@@ -1,0 +1,2 @@
+streamlit>=1.10.0
+pollination-streamlit>=0.3.0
