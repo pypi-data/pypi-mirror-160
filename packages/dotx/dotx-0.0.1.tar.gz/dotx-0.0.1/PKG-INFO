@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dotx
+Version: 0.0.1
+Summary: A command-line tool to install a link-farm to your dotfiles
+Project-URL: Homepage, https://github.com/wolf/dotx
+Project-URL: Bug Tracker, https://github.com/wolf/dotx/issues
+Author-email: Wolf <wolf@zv.cx>
+License: MIT License
+        
+        Copyright (c) 2022 Wolf
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+## The Basic Idea
+
+High-level: we're going to fill in a data-structure that maps file-paths to actions/states where the actions/states
+are: "create", "link", "skip", "exists".  "exists" means the named source directory already exists in the
+destination, and therefore does not need to be linked.  If "exists" applied to a file, it should cancel the whole
+operations: a file is "in the way" of the install.  "skip" means the named source file or directory will
+automatically be installed by linking a higher-level directory.  "link" means the named source file or directory
+must be installed by creating a symbolic link from the destination to the source object.  "create" means the source
+directory does not exist in the destination, and cannot be linked, so it must be created as a real directory with
+the appropriate name at the destination.
+
+The data-structure we'll use as the "plan" will be a simple dictionary mapping pathlib.Path to str, where the str is
+the action/state as described above.
