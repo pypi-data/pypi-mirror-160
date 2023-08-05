@@ -1,0 +1,15 @@
+readme_patcher/__init__.py,sha256=qVhgrVyEU8jhQjtlWKoeaQAUhkXtlju0FJVgq13K_6c,924
+readme_patcher/badge.py,sha256=JcYPrJaxNsj9agq8NBSobp3s-QoYIZU_hpqJ8wqUJpM,2074
+readme_patcher/config.py,sha256=CV3DlSO7D7frj7DHvuT_OwBPsPnaPOVrVUaH7VYk3Cs,373
+readme_patcher/file.py,sha256=p3UlD8eLiP3Rqxbciz1S2KK-_69uO3JHKzJeqKIbnJ0,2410
+readme_patcher/filters.py,sha256=VtGYuG13-d-ya1x_J1XQlxauqQX8yRqtUk3fvlQM8b0,1598
+readme_patcher/functions.py,sha256=ycUMhcfu4imPYDbNhEme9aWr1jMhu_-FtE7gia83QTI,1061
+readme_patcher/github.py,sha256=NhqIuC1SQg3djuA8J6u9dmz2n1oJ58bYqbYZBtFqkB0,712
+readme_patcher/project.py,sha256=yFlVGT7h0BhgjXhZRWxao1PuHVX0S8BDKUawyfOe61A,2452
+readme_patcher/py_project.py,sha256=ZoXzNnUxmjJWFpUXNf5UNvWBS9JMEUY3-cQ3OjhUTBw,944
+readme_patcher/template.py,sha256=ZPjOUAu5JK0bAvJgjZs7uX6CjdUdOHcqEEccbQlHrL8,1240
+readme_patcher-0.6.0.dist-info/entry_points.txt,sha256=T1YEeghpKfltmBgad6MXM_teZhpG6WKBW3lYSgii4oQ,54
+readme_patcher-0.6.0.dist-info/LICENSE,sha256=ejqFH_nPFaJO1iQ8-bQJcoUWk2DlhJmsmTlmcB9bb2s,1096
+readme_patcher-0.6.0.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+readme_patcher-0.6.0.dist-info/METADATA,sha256=nMW9XOqpo-2dLB9M8mE1km-4SccmdW2V4zLYEaPsg2g,3503
+readme_patcher-0.6.0.dist-info/RECORD,,
