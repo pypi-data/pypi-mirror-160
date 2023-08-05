@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: calour
+Version: 2019.5.1
+Summary: CALOUR: exploratory and interactive microbiome analyses based on heatmap
+Home-page: http://biocore.github.io/calour
+Author: calour development team
+Author-email: zhenjiang.xu@gmail.com
+Maintainer: calour development team
+License: BSD
+Keywords: microbiome heatmap analysis bioinformatics
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Provides-Extra: test
+Provides-Extra: coverage
+Provides-Extra: doc
+Provides-Extra: dendrogram
+License-File: COPYING.txt
+
+CALOUR
+======
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/biocore/calour/master?filepath=doc%2Fsource%2Fnotebooks)
+[![Build Status](https://travis-ci.org/biocore/calour.png?branch=master)](https://travis-ci.org/biocore/calour)
+[![Coverage Status](https://coveralls.io/repos/github/biocore/calour/badge.svg?branch=master)](https://coveralls.io/github/biocore/calour?branch=master)
+
+exploratory and interactive microbiome analysis based on heatmaps
+
+
+[Installation](https://github.com/biocore/calour/blob/master/INSTALL.md)
+========================================================================
+
+
+[Documentation](http://biocore.github.io/calour)
+================================================
+
+
+[Mouse & Keyboard Operation](http://biocore.github.io/calour/generated/calour.heatmap.plot.html#calour.heatmap.plot)
+====================================================================================================================
+
+
+[Change History](https://github.com/biocore/calour/blob/master/CHANGELOG.md)
+============================================================================
+
+
+[How to Contribute](https://github.com/biocore/calour/blob/master/CONTRIBUTING.md)
+==================================================================================
+
+
+Please Cite
+===========
+[Xu ZZ, Amir A, Sanders J, Zhu Q, Morton JT, Bletz MC, Tripathi A, Huang S, McDonald D, Jiang L, et al. (2019) Calour: an Interactive, Microbe-Centric Analysis Tool. mSystems, 4, e00269-18.](https://msystems.asm.org/content/4/1/e00269-18)
