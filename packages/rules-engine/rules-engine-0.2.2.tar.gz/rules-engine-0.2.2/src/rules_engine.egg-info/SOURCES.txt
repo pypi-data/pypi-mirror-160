@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+./src/rules_engine.egg-info/PKG-INFO
+./src/rules_engine.egg-info/SOURCES.txt
+./src/rules_engine.egg-info/dependency_links.txt
+./src/rules_engine.egg-info/top_level.txt
+src/rules_engine/__init__.py
+src/rules_engine.egg-info/PKG-INFO
+src/rules_engine.egg-info/SOURCES.txt
+src/rules_engine.egg-info/dependency_links.txt
+src/rules_engine.egg-info/top_level.txt
