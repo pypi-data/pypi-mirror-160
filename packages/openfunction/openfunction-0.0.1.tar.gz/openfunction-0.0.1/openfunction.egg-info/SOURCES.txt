@@ -1,0 +1,8 @@
+LICENCE
+README
+setup.py
+openfunction/__init__.py
+openfunction.egg-info/PKG-INFO
+openfunction.egg-info/SOURCES.txt
+openfunction.egg-info/dependency_links.txt
+openfunction.egg-info/top_level.txt
