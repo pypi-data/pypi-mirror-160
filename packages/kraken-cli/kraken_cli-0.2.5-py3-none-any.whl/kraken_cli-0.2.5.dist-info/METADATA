@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: kraken-cli
+Version: 0.2.5
+Summary: 
+License: MIT
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: kraken-core (>=0.3.0,<0.4.0)
+Requires-Dist: nr.python.environment (>=0.1.2,<0.2.0)
+Requires-Dist: packaging (>=20.0)
+Requires-Dist: setuptools (>=33.0.0)
+Requires-Dist: slap.core.cli (>=0.3.1,<0.4.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Requires-Dist: types-termcolor (>=1.1.5,<2.0.0)
+Description-Content-Type: text/markdown
+
+# kraken-cli
+
+[![Python application](https://github.com/kraken-build/kraken-cli/actions/workflows/python-package.yml/badge.svg)](https://github.com/kraken-build/kraken-cli/actions/workflows/python-package.yml)
+[![PyPI version](https://badge.fury.io/py/kraken-cli.svg)](https://badge.fury.io/py/kraken-cli)
+
+The command-line interface to the Kraken CLI.
+
