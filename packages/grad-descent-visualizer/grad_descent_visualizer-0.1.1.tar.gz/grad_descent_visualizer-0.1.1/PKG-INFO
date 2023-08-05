@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: grad_descent_visualizer
+Version: 0.1.1
+Summary: A package for visualizing test functions and gradient descent.
+Author: Jacob Bumgarner
+License: GPLv3+
+Project-URL: GitHub, https://github.com/JacobBumgarner/grad-descent-visualizer
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Grad-Descent-Visualizer
+A small package used to visualize test function landscapes and gradient descent.
+
+
+<video src="https://user-images.githubusercontent.com/70919881/180077858-14bd8b91-c189-4e52-80d4-332ae5ca2db4.mov"></video>
+
+
+## Install
+```shell-session
+pip install grad-descent-visualizer
+```
+
+## Usage
+**Example 1:**
+```python
+from grad_descent_visualizer import DescentPlotter
+```
