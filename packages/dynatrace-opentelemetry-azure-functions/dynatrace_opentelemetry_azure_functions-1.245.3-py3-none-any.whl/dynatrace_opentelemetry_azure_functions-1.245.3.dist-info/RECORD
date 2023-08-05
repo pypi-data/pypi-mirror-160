@@ -1,0 +1,12 @@
+dynatrace/opentelemetry/azure/functions/__init__.py,sha256=xHk7CaEhtWB0iwia4zXY-hr9ch2QLBsa0J03YpZyQgY,109
+dynatrace/opentelemetry/azure/functions/_bindings.py,sha256=aRMw5lv4MIllwd5Yv09K5rps1WqO8WnxZ0sN4SocdlM,3370
+dynatrace/opentelemetry/azure/functions/_resource.py,sha256=ZGqMuvRlivEyHvXjsXl0XKhlKyJEtLRJvl3GlIT3ULY,2985
+dynatrace/opentelemetry/azure/functions/_triggers.py,sha256=FUqzjhZPXJYkCgBbLMnBzSuJChGHQVb8NjOBOwnhsy0,6190
+dynatrace/opentelemetry/azure/functions/_wrapper.py,sha256=O1dJaZ0scTn0ffjVZG4ARvaHq-Ek0ecslppDdGA6Zfg,7605
+dynatrace/opentelemetry/azure/functions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynatrace/opentelemetry/azure/functions/version.py,sha256=RYCy1jMkfPQhLrqSR2Bu21LeuBPdAXEyCSbFvANUrZo,24
+dynatrace_opentelemetry_azure_functions-1.245.3.dist-info/LICENSE,sha256=OUyLShRPZFGLXlxbnRr7Of_8mNYYQ_qda632uhGSIaY,11342
+dynatrace_opentelemetry_azure_functions-1.245.3.dist-info/METADATA,sha256=Fonh4CMUOjWUYpFo-R1O-IRgWDJ4IxysIGOvaflcjnA,1175
+dynatrace_opentelemetry_azure_functions-1.245.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dynatrace_opentelemetry_azure_functions-1.245.3.dist-info/top_level.txt,sha256=uP7LCY6wi6upc_ziVV2uJ6QMh_reDN4lCDyQSREXI_w,10
+dynatrace_opentelemetry_azure_functions-1.245.3.dist-info/RECORD,,
