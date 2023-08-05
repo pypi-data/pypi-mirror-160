@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+anycmd/__init__.py
+anycmd/anycmd.py
+anycmd_jupyter_magic.egg-info/PKG-INFO
+anycmd_jupyter_magic.egg-info/SOURCES.txt
+anycmd_jupyter_magic.egg-info/dependency_links.txt
+anycmd_jupyter_magic.egg-info/requires.txt
+anycmd_jupyter_magic.egg-info/top_level.txt
