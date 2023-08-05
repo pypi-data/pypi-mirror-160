@@ -1,0 +1,9 @@
+dyff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dyff/cli.py,sha256=Z974cwLaRS2UWISRikY6GdkA7wwaHqEBiwCBu9BtqeU,1995
+dyff/dyff.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dyff-0.0.6.dist-info/LICENSE,sha256=7V_nT3Qhotfd2TwOBKWF05gvXjR6LtZUP_hw69yKSWA,1054
+dyff-0.0.6.dist-info/METADATA,sha256=Nuw8Otin59FMLEyHgekn5WDx-jpFa6j7eZXqjG-xDqM,7205
+dyff-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dyff-0.0.6.dist-info/entry_points.txt,sha256=C6TiMV1wS9tYUM64TYwFv9GgmliT0vaP8Ei6Y7tYePg,44
+dyff-0.0.6.dist-info/top_level.txt,sha256=9e3VVdeX73t_sUJOPQPCcGtYO1JhoErhHIi3WoWGcFI,5
+dyff-0.0.6.dist-info/RECORD,,
