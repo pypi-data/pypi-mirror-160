@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: analytics-zoo
+Version: 0.12.0b2022072101
+Summary: A unified Data Analytics and AI platform for distributed TensorFlow, Keras, PyTorch, Apache Spark/Flink and Ray
+Home-page: https://github.com/intel-analytics/analytics-zoo
+Author: Analytics Zoo Authors
+Author-email: bigdl-user-group@googlegroups.com
+License: Apache License, Version 2.0
+Platform: mac
+Platform: linux
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark (==2.4.6)
+Requires-Dist: bigdl (==0.13.1.dev1)
+Requires-Dist: conda-pack (==0.3.1)
+Requires-Dist: packaging
+Requires-Dist: filelock
+Provides-Extra: automl
+Requires-Dist: tensorflow (<2.0.0,>=1.15.0) ; extra == 'automl'
+Requires-Dist: h5py (==2.10.0) ; extra == 'automl'
+Requires-Dist: ray[tune] (==1.2.0) ; extra == 'automl'
+Requires-Dist: psutil ; extra == 'automl'
+Requires-Dist: aiohttp (==3.7.0) ; extra == 'automl'
+Requires-Dist: aioredis (==1.1.0) ; extra == 'automl'
+Requires-Dist: setproctitle ; extra == 'automl'
+Requires-Dist: hiredis (==1.1.0) ; extra == 'automl'
+Requires-Dist: pandas (==1.0.3) ; extra == 'automl'
+Requires-Dist: scikit-learn (<=0.22.0,>=0.20.0) ; extra == 'automl'
+Requires-Dist: requests ; extra == 'automl'
+Requires-Dist: scipy (==1.5) ; extra == 'automl'
+Requires-Dist: protobuf (==3.12.0) ; extra == 'automl'
+Requires-Dist: torch (==1.8.1) ; extra == 'automl'
+Requires-Dist: tsfresh (==0.17.0) ; extra == 'automl'
+Provides-Extra: ray
+Requires-Dist: ray (==1.2.0) ; extra == 'ray'
+Requires-Dist: psutil ; extra == 'ray'
+Requires-Dist: aiohttp (==3.7.0) ; extra == 'ray'
+Requires-Dist: aioredis (==1.1.0) ; extra == 'ray'
+Requires-Dist: setproctitle ; extra == 'ray'
+Requires-Dist: hiredis (==1.1.0) ; extra == 'ray'
+Requires-Dist: async-timeout (==3.0.1) ; extra == 'ray'
+
+[**Analytics Zoo**](https://github.com/intel-analytics/analytics-zoo/)
+is an open source _**Big Data AI**_ platform, and includes the following
+features for scaling end-to-end AI to distributed Big Data:
+
+- [Orca](https://github.com/intel-analytics/analytics-zoo#getting-started-with-orca):
+seamlessly scale out TensorFlow and PyTorch for Big Data (using Spark & Ray)
+
+- [RayOnSpark](https://github.com/intel-analytics/analytics-zoo#getting-started-with-rayonspark):
+run Ray programs directly on Big Data clusters
+
+- [BigDL
+Extensions](https://github.com/intel-analytics/analytics-zoo#getting-started-with-bigdl-extensions):
+high-level Spark ML pipeline and Keras-like APIs for BigDL
+
+- [Chronos](https://github.com/intel-analytics/analytics-zoo#getting-started-with-chronos):
+scalable time series analysis using AutoML
+
+- [PPML](https://github.com/intel-analytics/analytics-zoo#ppml-privacy-preserving-machine-learning):
+privacy preserving big data analysis and machine learning (*experimental*)
+
+For more information, you may [read the docs](https://analytics-zoo.readthedocs.io/).
+
+
