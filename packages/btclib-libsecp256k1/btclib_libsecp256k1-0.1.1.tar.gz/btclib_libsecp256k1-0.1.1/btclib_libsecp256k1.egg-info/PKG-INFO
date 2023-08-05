@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: btclib-libsecp256k1
+Version: 0.1.1
+Summary: Simple python bindings to libsecp256k1
+Home-page: https://btclib.org
+Author: Giacomo Caironi
+Author-email: giacomo.caironi@gmail.com
+License: MIT
+Project-URL: Download, https://github.com/btclib-org/btclib_libsecp256k1/releases
+Project-URL: GitHub, https://github.com/btclib-org/btclib_libsecp256k1
+Project-URL: Issues, https://github.com/btclib-org/btclib_libsecp256k1/issues
+Project-URL: Pull Requests, https://github.com/btclib-org/btclib_libsecp256k1/pulls
+Keywords: bitcoin,libsecp256k1
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# btclib_libsecp256k1
+Simple python bindings to libsecp256k1. It is intended to be used with the [btclib](https://github.com/btclib-org/btclib) bitcoin library.
+
+To install (and/or upgrade):
+
+    python -m pip install --upgrade btclib_libsecp256k1
+
+Some development tools are required to develop and test btclib_libsecp256k1;
+they can be installed with:
+
+    python -m pip install --upgrade -r requirements-dev.txt
