@@ -1,0 +1,28 @@
+[HOBO]
+query_endpoint = https://webservice.hobolink.com/ws/data/file/JSON/user
+user_id =
+token_endpoint = https://webservice.hobolink.com/ws/auth/token
+client_id =
+client_secret =
+start_date_time =
+end_date_time =
+#start_date_time = 2021-10-03 08:00:00
+#end_date_time = 2021-05-21 17:50:00
+polling_interval_minutes = 60
+max_map_items = 1000
+max_map_items = 1000000
+max_api_query_items = 99999
+max_api_time_delta_minutes = 1440
+min_api_time_delta_minutes = 5
+request_timeout = 90
+
+[HSDS]
+hsds_filename = hdf5://home/hobouser/hobo/uva_test.h5
+hsds_endpoint = http://hsdshdflab.hdfgroup.org
+
+[META]
+meta_repo = https://gitlab.com/uva-arc/deployment-metadata
+meta_local_dir = /tmp/
+meta_root_path = alaska/uva-arc.yml
+meta_loggers_dir = alaska/loggers
+meta_sensors_dir = alaska/sensors
