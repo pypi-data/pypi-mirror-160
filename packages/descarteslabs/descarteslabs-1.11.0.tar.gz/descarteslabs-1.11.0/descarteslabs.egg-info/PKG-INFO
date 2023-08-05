@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: descarteslabs
+Version: 1.11.0
+Summary: Descartes Labs Python Client
+Home-page: https://github.com/descarteslabs/descarteslabs-python
+Download-URL: https://github.com/descarteslabs/descarteslabs-python/archive/v1.11.0.tar.gz
+Author: Descartes Labs
+Author-email: hello@descarteslabs.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ~=3.7
+Provides-Extra: visualization
+Provides-Extra: tables
+Provides-Extra: complete
+Provides-Extra: tests
+License-File: LICENSE
+
+.. code-block:: bash
+
+    pip install descarteslabs[complete]
+
+Documentation is available at https://docs.descarteslabs.com.
+
+Source code and version information is at
+https://github.com/descarteslabs/descarteslabs-python.
+
+The Descartes Labs Platform simplifies analysis of **global-scale raster data**
+by providing:
+
+    * Access to a catalog of petabytes of disparate geospatial data,
+      all normalized and interoperable through one **common interface**
+    * A Python client library to access these systems
+

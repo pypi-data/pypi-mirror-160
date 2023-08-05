@@ -1,0 +1,2 @@
+[console_scripts]
+descarteslabs = descarteslabs._dl_modules.client.scripts.__main__:main
