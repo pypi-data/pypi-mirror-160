@@ -1,0 +1,5 @@
+docker>=5.0.3
+opencv-python>=4.6.0.66
+parrot-olympe>=7.3.0
+requests>=2.22.0
+pysdl2-dll>=2.0.22
