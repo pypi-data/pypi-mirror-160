@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyquicklog/__init__.py
+src/pyquicklog/__version__.py
+src/pyquicklog/getpath.py
+src/pyquicklog/output.py
+src/pyquicklog/quicklog.py
+src/pyquicklog/save.py
+src/pyquicklog/timer.py
+src/pyquicklog.egg-info/PKG-INFO
+src/pyquicklog.egg-info/SOURCES.txt
+src/pyquicklog.egg-info/dependency_links.txt
+src/pyquicklog.egg-info/top_level.txt
