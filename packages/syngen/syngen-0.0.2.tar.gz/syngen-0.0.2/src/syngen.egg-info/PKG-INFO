@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: syngen
+Version: 0.0.2
+Summary: The tool uncovers patterns, trends, and correlations hidden within your production datasets.
+Home-page: https://github.com/tdspora/syngen
+Author: EPAM Systems, Inc.
+Maintainer: Pavel Bobyrev
+License: GPLv3 License
+Keywords: data,generation,synthetic,vae,tabular
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ~=3.7,~=3.8
+License-File: LICENCE.txt
+
+# open-ppe
+
+Open Source version of the Privacy-Preserving Engine (aka SynGen)
