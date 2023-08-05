@@ -1,0 +1,15 @@
+mylogging
+tabulate
+typeguard
+
+[all]
+IPython
+matplotlib
+pandas
+plotly
+
+[plots]
+IPython
+matplotlib
+pandas
+plotly
