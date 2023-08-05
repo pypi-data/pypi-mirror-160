@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "digital-literacy"
+version = "0.1.0"
+description = "Level at which course modules of German/Bavarian universities teach about Digitalization"
+authors = [
+    "Sanjay Jayaprakash <sanjay.jayaprakash@tum.de>",
+    "Nicole Kubitza <nicole.kubitza@tum.de>",
+    "Nikola Wullenweber <nikola.wullenweber@tum.de>",
+    "Joseph Kong <joseph.kong@tum.de>"
+]
+packages = [
+    { include = "crawler", from = "src/" },
+    { include = "spiders", from = "src/crawler/" },
+    { include = "parsers", from = "src/crawler/" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^3.141.0"
+scrapy = "^2.6.1"
+pytest = "^7.1.2"
+black = "^22.6.0"
+pymupdf = "^1.20.0"
+hyperopt = "^0.2.7"
+pandas = "^1.3.4"
+sklearn = "*"
+tqdm = "^4.62.3"
+nltk = "^3.6.5"
+jupyter = "*"
+bs4 = "*"
+matplotlib = "^3.4.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
+
+[repositories]
+[repositories.my-gitlab]
+url = "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi"
