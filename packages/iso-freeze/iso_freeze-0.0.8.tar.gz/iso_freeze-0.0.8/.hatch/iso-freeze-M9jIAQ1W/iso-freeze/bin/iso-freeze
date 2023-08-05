@@ -1,0 +1,8 @@
+#!/Users/cecep/python_projects/iso-freeze/.hatch/iso-freeze-M9jIAQ1W/iso-freeze/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from iso_freeze.iso_freeze import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

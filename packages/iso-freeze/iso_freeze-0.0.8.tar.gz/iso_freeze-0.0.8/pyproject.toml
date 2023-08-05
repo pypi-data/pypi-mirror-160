@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "iso-freeze"
+version = "0.0.8"
+authors = [
+  { name="Stefan Baack" },
+]
+description = "Call pip freeze in an isolated venv to cleanly separate pinned requirements for different optional dependencies."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "tomli >= 1.1.0 ; python_version < '3.11'"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sbaack/iso-freeze"
+"Bug Tracker" = "https://github.com/sbaack/iso-freeze/issues"
+
+[project.scripts]
+iso-freeze = "iso_freeze.iso_freeze:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-mock"
+]
+
+[tool.hatch.envs.tests]
+features = [
+    "dev"
+]
+
+[tool.hatch.envs.tests.scripts]
+test = "python -m pytest"
+
+[[tool.hatch.envs.tests.matrix]]
+python = ["39", "310", "311"]
