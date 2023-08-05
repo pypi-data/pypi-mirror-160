@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, height=device-height, initial-scale=1, minimal-ui" name="viewport" />
+	<title>Share File WEB UI v{{ data.version }}</title>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='img/share.png')}}" />
+	<link href="{{ url_for('static', filename='css/app.css')}}?v={{data.version}}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="app">
+		<h1>Share File WEB UI <span class="version">v{{data.version}}</span></h1>
+		<div id="sharefile-container">
+			<div>Click to download:&nbsp;</div>
+			<div>"<a href="/{{ data.shared_file_url }}">{{ data.shared_file_title }}</a>"</div>
+		</div>
+
+		<div class="distance-100"></div>
+		<div class="footer">
+			<div><a href="https://pypi.org/project/sharefile-webui/">PyPi</a></div>
+			<div><a href="https://gitlab.com/alda78/sharefile-webui">GitLab</a></div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
