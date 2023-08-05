@@ -1,0 +1,1 @@
+from fedexrates.rates import Rate
