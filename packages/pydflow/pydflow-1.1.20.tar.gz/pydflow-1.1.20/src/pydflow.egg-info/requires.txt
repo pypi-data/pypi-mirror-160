@@ -1,0 +1,11 @@
+six
+python-dateutil
+urllib3
+certifi
+typeguard
+argo-workflows==5.0.0
+jsonpickle
+minio
+kubernetes
+pyyaml
+cloudpickle
