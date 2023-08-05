@@ -1,0 +1,76 @@
+---
+stages:
+  - build
+  - test
+  - release
+
+variables:
+  TWINE_USERNAME: __token__
+  TWINE_PASSWORD: secret
+
+default:
+  image: python:3.9
+
+build-pypi-package:
+  stage: build
+  before_script:
+    - pip install --upgrade pip
+    - pip install --upgrade build
+  script:
+    - python -m build
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - dist/
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - if: '$CI_COMMIT_BRANCH'
+    - if: '$CI_COMMIT_TAG'
+
+.run_test:
+  stage: test
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    - python -m venv /venv
+    - /venv/bin/python -m pip install dist/*.whl
+  script:
+    - /venv/bin/tango-gateway --help
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - if: '$CI_COMMIT_BRANCH'
+    - if: '$CI_COMMIT_TAG'
+
+test-python36:
+  extends: .run_test
+  image: python:3.6
+
+test-python37:
+  extends: .run_test
+  image: python:3.7
+
+test-python38:
+  extends: .run_test
+  image: python:3.8
+
+test-python39:
+  extends: .run_test
+  image: python:3.9
+
+test-python310:
+  extends: .run_test
+  image: python:3.10
+
+release-pypi-package:
+  stage: release
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    - pip install twine
+  script:
+    - twine upload dist/*
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: manual
