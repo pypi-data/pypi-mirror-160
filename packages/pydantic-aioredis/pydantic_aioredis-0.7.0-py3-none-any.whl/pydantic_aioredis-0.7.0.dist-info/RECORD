@@ -1,0 +1,14 @@
+pydantic_aioredis/__init__.py,sha256=MB2X2No0u3jJznMQYcX4_VtBuqgIhzNxMMB4rkgDir0,236
+pydantic_aioredis/abstract.py,sha256=bkX5bLOYG_ElEZ0F-hAg_J7k3L9-Cn4gwyp-p63ciXk,6044
+pydantic_aioredis/config.py,sha256=gmZIv1If6yTnH4kUKgi-lHPjuWrmgZNzPOZldZc7vcA,756
+pydantic_aioredis/ext/FastAPI/__init__.py,sha256=BSncfAKaF7tDEqNWPsh9suiv-LbMolLYvBRrenzW540,442
+pydantic_aioredis/ext/FastAPI/crudrouter.py,sha256=lblGt_mctvpy5kEjk_AHj8w_VrRl4FyaKFBEKScGquc,3863
+pydantic_aioredis/ext/FastAPI/model.py,sha256=9X3hL5wnORCL1uzUB5BfE2EngPc2n46l3606Ti0lqFk,926
+pydantic_aioredis/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_aioredis/model.py,sha256=tZvzOpv5ZnJUluIK7iJGVNsWd7F2RfYLsb-YBtCnKyA,6495
+pydantic_aioredis/store.py,sha256=9aaUSGYMwtO54bGQJ9Y_toAZ66yYb0ADVlweHz7LjC4,1610
+pydantic_aioredis/utils.py,sha256=mmFYYLSoQwDa0g6v8BLhxMqnBiVVr5ycxj0rxiFQpN0,178
+pydantic_aioredis-0.7.0.dist-info/LICENSE,sha256=MtTS12HrYWv7CCZIGjIjuMrV-sHLlmFxlCXnVQr91jY,1262
+pydantic_aioredis-0.7.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pydantic_aioredis-0.7.0.dist-info/METADATA,sha256=95ERDD1v767bK51THPJfSv40Icjyu1ijTzf3K5UkE7U,5753
+pydantic_aioredis-0.7.0.dist-info/RECORD,,
