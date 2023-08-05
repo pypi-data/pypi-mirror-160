@@ -1,0 +1,15 @@
+astroplan>=0.7
+astropy
+astroquery
+coveralls
+flask
+geopandas
+html5lib
+lxml
+pandas
+penquins
+matplotlib
+numpy
+shapely
+tqdm
+ztfquery
