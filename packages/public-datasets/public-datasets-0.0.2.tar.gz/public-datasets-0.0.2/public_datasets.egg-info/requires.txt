@@ -1,0 +1,7 @@
+tqdm
+scipy
+numpy
+matplotlib
+Pillow
+python-mnist
+deel-datasets

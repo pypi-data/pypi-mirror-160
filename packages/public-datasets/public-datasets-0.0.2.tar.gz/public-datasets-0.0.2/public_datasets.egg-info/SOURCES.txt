@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+public/__init__.py
+public/cifra10/__init__.py
+public/mnist/__init__.py
+public/svhn/__init__.py
+public_datasets.egg-info/PKG-INFO
+public_datasets.egg-info/SOURCES.txt
+public_datasets.egg-info/dependency_links.txt
+public_datasets.egg-info/entry_points.txt
+public_datasets.egg-info/requires.txt
+public_datasets.egg-info/top_level.txt
