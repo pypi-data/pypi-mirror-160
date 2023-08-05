@@ -1,0 +1,3 @@
+[build-system]
+requires = ["setuptools"] # support for `build_sdist`
+build-backend = "setuptools.build_meta"
