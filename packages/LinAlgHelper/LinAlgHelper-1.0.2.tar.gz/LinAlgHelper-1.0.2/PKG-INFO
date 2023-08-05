@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: LinAlgHelper
+Version: 1.0.2
+Summary: A Linear Algebra library
+Home-page: https://github.com/NoahPinel/LinearAlgLib
+Author: Noah Pinel
+Author-email: noah@binaryfox.ca
+License: MIT
+Keywords: LinearAlgebra
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Linear Algebra Helper
+---------------------
+This is a simple linear algebra lib, basic functions for elementary LA operations are included.
+The point of this library is to alleviate tedious calculations that are encountered when 
+studying this topic.
+
