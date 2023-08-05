@@ -1,0 +1,63 @@
+{% extends 'psu_base/layout/main.html' %}
+{% load base_taglib %}
+
+{%block title%}Manage New Authorities{%endblock%}}
+{% block scripts %}
+    <link rel="stylesheet" href="{% static_content_url%}/wdt/datatables/datatables.min.css" />
+    <script src="{% static_content_url%}/wdt/datatables/datatables.min.js"></script>
+{% endblock %}
+
+
+{% block pagecontent %}
+    <div id="authority-form" >
+    <h1>Add New Authorities</h1>
+    <table style="width: 100%;max-width:800px;">
+        <tr>
+            <td>
+                <label for="auth_code">Authority Code:</label>
+            </td>
+            <td>
+                 <input type="text" name="authority_code" id="auth_code" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="auth_title">Title:</label>
+            </td>
+            <td>
+                 <input type="text" name="title" id="auth_title" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="auth_desc">Description:</label>
+            </td>
+            <td>
+                <input type="text" name="description" id="auth_desc" class="form-control" />
+            </td>
+        </tr>
+    </table>
+
+    <button type="button" class="btn btn-success" id="new-authority-btn" onclick="new_authority();">
+        Submit
+    </button>
+    </div>
+    <br><br>
+    <table id="authority_table" class="table table-condensed table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Authority Code</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% include 'psu_authorize/authorities/_rows.html' with authorities=authorities%}
+    </tbody>
+    </table>
+
+    <script type="text/javascript">
+        {%include 'psu_authorize/authorities/index.js'%}
+    </script>
+{% endblock %}

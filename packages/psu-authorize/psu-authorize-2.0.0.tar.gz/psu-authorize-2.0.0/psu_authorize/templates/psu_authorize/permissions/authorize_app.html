@@ -1,0 +1,134 @@
+{% extends 'psu_base/layout/main.html' %}
+{% load base_taglib %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title%}Permissions for {{app_info.title}}{%endblock%}}</title>
+    {% block scripts %}
+        <link rel="stylesheet" href="{% static_content_url%}/wdt/datatables/datatables.min.css" />
+        <script src="{% static_content_url%}/wdt/datatables/datatables.min.js"></script>
+    {% endblock %}
+</head>
+<body>
+    {% block pagecontent %}
+
+    <h1>Manage {{app_info.title}} Permissions</h1>
+    <button type="button" class="btn btn-success" id="grant-permission-btn" onclick="toggle_grant_form();">
+        {%fa fa-unlock%}
+        Grant Permission
+    </button>
+    <div id="grant-permission-form" class="hidden">
+            <b>Grant Permission:</b>
+            <table style="width: 100%;max-width:800px;">
+                <tr>
+                    <td>
+                        <label for="grant_application">Application:</label>
+                    </td>
+                    <td>
+                        {%if has_app_options%}
+                            {%select_menu name="app_code" id="grant_application" options=application_options class="form-control" value=selected_app%}
+                        {%else%}
+                            {{selected_app}}
+                        {%endif%}
+                    </td>
+                    <td rowspan="3">
+                        <button type="button" class="btn btn-success" id="grant-permission-btn" onclick="grant_permission();">
+                            Submit
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="grant_authority">Authority:</label>
+                    </td>
+                    <td>
+                        {%select_menu name="authority_id" id="grant_authority" options=app_permissions.authority_options class="form-control"%}
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="grant_grantee">Grantee:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="grantee" id="grant_grantee" class="form-control" />
+                    </td>
+                </tr>
+            </table>
+    </div>
+
+    <br />
+    <br />
+    <h2>{{app_info.title}} Permissions</h2>
+    <table id="permission_table" class="table table-condensed table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Level</th>
+            <th scope="col">Authority</th>
+            <th scope="col">User</th>
+            <th scope="col">Via</th>
+            <th scope="col">Date Assigned</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    {%for descriptor, detail_map in app_permissions.granted_authorities.items%}
+        {%for pp in detail_map.new%}
+            {% include 'psu_authorize/permissions/_app_permission.html' with pp=pp %}
+        {%endfor%}
+
+        {%for pp in detail_map.local.direct%}
+            {% include 'psu_authorize/permissions/_app_permission.html' with pp=pp %}
+        {%endfor%}
+
+        {%for pp in detail_map.local.indirect%}
+            {% include 'psu_authorize/permissions/_app_permission.html' with pp=pp %}
+        {%endfor%}
+    {%endfor%}
+    </tbody>
+    </table>
+
+    <div id="global-container" {%if app_info.code == 'GLOBAL'%}class="hidden"{%endif%}>
+        <br />
+        <br />
+        <h2>Global Permissions</h2>
+        <table id="global_table" class="table table-condensed table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Level</th>
+                <th scope="col">Authority</th>
+                <th scope="col">User</th>
+                <th scope="col">Via</th>
+                <th scope="col">Date Assigned</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%for descriptor, detail_map in app_permissions.granted_authorities.items%}
+                {%for pp in detail_map.global.direct%}
+                    {% include 'psu_authorize/permissions/_app_permission.html' with pp=pp %}
+                {%endfor%}
+
+                {%for pp in detail_map.global.indirect%}
+                    {% include 'psu_authorize/permissions/_app_permission.html' with pp=pp %}
+                {%endfor%}
+            {%endfor%}
+        </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript">
+        {% include 'psu_authorize/permissions/permissions.js'%}
+    </script>
+    <style>
+        .table-condensed td{
+            padding: 3px;
+        }
+    </style>
+
+    {% endblock %}
+</body>
+</html>

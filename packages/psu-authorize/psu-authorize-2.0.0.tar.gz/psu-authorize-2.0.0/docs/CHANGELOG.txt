@@ -1,0 +1,32 @@
+=== 2.0.0 ===
+- Reorganized templates into psu_authorize folder
+- psu_base templated reorganized
+
+=== 1.1.2 ===
+- Uncomment _DEFAULTS
+
+=== 1.1.1 ===
+- Rename app_code variable to selected_app on permission management
+  template to avoid conflict with app_code in psu.util context
+
+=== 1.1.0 ===
+- Remove admin menu items
+
+=== 1.0.4 ===
+- Split global and local permissions into two separate tables
+- Automated code cleanup
+
+=== 1.0.3 ===
+- Enforce length limits on application cods and titles
+
+=== 1.0.2 ===
+- Shortened dynamic role syntax
+
+=== 1.0.1 ===
+- Added some error handling and updated required psu_base version
+
+=== 0.7.0 ===
+- Nishna's UI changes
+
+=== 0.6.2 ===
+- Initial Release
