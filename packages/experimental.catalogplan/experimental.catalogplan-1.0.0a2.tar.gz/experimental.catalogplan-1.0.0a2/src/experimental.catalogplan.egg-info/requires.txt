@@ -1,0 +1,5 @@
+setuptools
+Products.ZCatalog
+
+[test]
+Products.CMFPlone[test]
