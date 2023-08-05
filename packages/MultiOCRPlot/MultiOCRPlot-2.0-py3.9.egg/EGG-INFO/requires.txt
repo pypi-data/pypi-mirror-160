@@ -1,0 +1,4 @@
+MultiCloudOCR==1.0
+matplotlib
+numpy
+time
