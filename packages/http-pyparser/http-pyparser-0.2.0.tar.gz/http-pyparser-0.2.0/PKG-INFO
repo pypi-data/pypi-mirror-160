@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: http-pyparser
+Version: 0.2.0
+Summary: Parse HTTP messages simply and quickly with Python
+Home-page: https://github.com/jaedsonpys/http-pyparser
+Author: Jaedson Silva
+Author-email: imunknowuser@protonmail.com
+License: Apache 2.0
+Keywords: http,parser,python,request
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HTTP Parser
+
+Parse HTTP messages ***simply and quickly*** with Python, with `http_pyparser` you can get:
+
+- All headers from message;
+- Path and method;
+- Request body;
+- Get query string;
+- Cookies.
+
+All this *accessible* through an object.
+
+## License
+
+```
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+```
+
+This project uses the `Apache 2.0` license, see the [LICENSE](https://github.com/x07ex/http_parser/blob/main/LICENSE) file for **more information**.
