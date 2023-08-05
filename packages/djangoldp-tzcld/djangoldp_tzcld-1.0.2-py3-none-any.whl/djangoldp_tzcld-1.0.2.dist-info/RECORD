@@ -1,0 +1,14 @@
+djangoldp_tzcld/__init__.py,sha256=3PAFePZj4f6JmJ-Pn4MTWi92FMV9pPENpHyI4nIwL4Y,47
+djangoldp_tzcld/admin.py,sha256=kGYctIBZp6u7dX5uty7scHLr6PaL2U9M0G3CjF3-Ad8,2249
+djangoldp_tzcld/apps.py,sha256=HXI3Uh7KrXcF8NXXKP4nhasLH8LBeIXm3FikOEYPjMk,104
+djangoldp_tzcld/models.py,sha256=_HaFKWAodexhzFHMMVs53BQ4NbKY-xvfarvJpMtH7uk,6803
+djangoldp_tzcld/permissions.py,sha256=WUtehjtm-2Tx7qmR_H4HtvVk9AVLyfZ5Utc_6bBgRVM,1085
+djangoldp_tzcld/settings.py,sha256=3TdpOIEdKaKXUP45sA6NAmT_1-jG2P5vsb_1CVL6vCw,161
+djangoldp_tzcld/migrations/0001_initial.py,sha256=ECcqIVzoAmxECmAk1Un5n8tiUI548qdALPWBoTV5y2E,9812
+djangoldp_tzcld/migrations/0002_tzcldcommunity_contact_job.py,sha256=hm_5JP_17p4BpKR_OontZtGn2kxtqt_mtLCh22muedM,431
+djangoldp_tzcld/migrations/0003_auto_20220720_1242.py,sha256=y256iDnkZyanDVzOv-DrSwSg8PFG522wrnkkhC76AQ4,1774
+djangoldp_tzcld/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoldp_tzcld-1.0.2.dist-info/METADATA,sha256=-WXlCpyF2sXMoKfCIJ8QI1lzLD1MyvZgax53kmxJFNY,305
+djangoldp_tzcld-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+djangoldp_tzcld-1.0.2.dist-info/top_level.txt,sha256=WTJdsNwBax0E938fUBNKOUSfeSTXJZ63ym396jaXVg0,16
+djangoldp_tzcld-1.0.2.dist-info/RECORD,,
