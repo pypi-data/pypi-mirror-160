@@ -1,0 +1,10 @@
+README.md
+find_duplicates.py
+restore_exif.py
+setup.py
+whatsapp_media_tools.egg-info/PKG-INFO
+whatsapp_media_tools.egg-info/SOURCES.txt
+whatsapp_media_tools.egg-info/dependency_links.txt
+whatsapp_media_tools.egg-info/entry_points.txt
+whatsapp_media_tools.egg-info/requires.txt
+whatsapp_media_tools.egg-info/top_level.txt
