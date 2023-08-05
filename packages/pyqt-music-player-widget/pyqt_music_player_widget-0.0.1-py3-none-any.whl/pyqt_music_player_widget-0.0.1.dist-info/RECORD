@@ -1,0 +1,11 @@
+pyqt_music_player_widget/__init__.py,sha256=forpM1RZuGvHSGw4UXrdKkkePYnxu0AkTUGZiSeMSWQ,32
+pyqt_music_player_widget/musicPlayerWidget.py,sha256=r7C2qkOYpsUHEzCY69EOoLPpQCdhcxchbLJ7cD4P5WI,5301
+pyqt_music_player_widget/ico/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyqt_music_player_widget/ico/pause.svg,sha256=qLyz8oAsY9DWB3lH2iVeIa5u-tRnY-7ehRqb9cEUJY4,1481
+pyqt_music_player_widget/ico/play.svg,sha256=CUHMO3By4RERekKapvfno0w2e4JKdxRuKQewHFDt6W0,1306
+pyqt_music_player_widget/ico/stop.svg,sha256=4b2d6O43NX-ZyXfIYTxtmWAlxLNWOWbbVdxBFRjdg4g,421
+pyqt_music_player_widget-0.0.1.dist-info/LICENSE,sha256=MxhG1QOUqldtE27rtgWNXrExKaQRgOx0ZRphvHSGF7Q,1091
+pyqt_music_player_widget-0.0.1.dist-info/METADATA,sha256=1RPXXnOpaRMwecyNh8U_DtQN-IXj_1KI55b6nmMeiHY,2364
+pyqt_music_player_widget-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyqt_music_player_widget-0.0.1.dist-info/top_level.txt,sha256=8wHyLVZMh4Kf02N89226x1VQ85yYzZv-Vu9UzB2Wv6w,25
+pyqt_music_player_widget-0.0.1.dist-info/RECORD,,
