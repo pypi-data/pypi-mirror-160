@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+WYDomain/__init__.py
+WYDomain/domain.py
+WYDomain/domain.txt
+WYDomain.egg-info/PKG-INFO
+WYDomain.egg-info/SOURCES.txt
+WYDomain.egg-info/dependency_links.txt
+WYDomain.egg-info/top_level.txt
+wydomain/domain.txt

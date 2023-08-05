@@ -1,0 +1,1 @@
+from WYDomain.domain import WYDomain

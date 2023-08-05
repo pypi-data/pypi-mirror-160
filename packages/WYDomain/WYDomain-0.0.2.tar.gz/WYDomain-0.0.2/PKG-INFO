@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: WYDomain
+Version: 0.0.2
+Summary: A tool of check Chinese domain is licensed
+Home-page: https://github.com/WYTool/wydomain_python
+Author: WYTool
+Author-email: wytoolsoft@gmail.com
+License: MIT Licence
+Description: A tool of check Chinese domain is licensed
+Keywords: pip,WYDomain,domain licensed
+Platform: any
