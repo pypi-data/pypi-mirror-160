@@ -1,0 +1,9 @@
+metagene/cli.py,sha256=SJueT1UzmO5jzsKXcBcNae3VlPh2Dqw53rC3Kc7BHAI,1298
+metagene/data/GRCh38.bed.gz,sha256=1ZIMhUhf86b0vskvSiE0JGRsLkylOwfG6SPt4HqLJFI,2989344
+metagene/data/input.bed.gz,sha256=bpfP_ECTWiDMYDCfGzhfa69eBiq5bLzz_GUcpUPxcWQ,55130
+metagene/get_features.py,sha256=LbrUppbgUHculY2DKavoxsu8meulH-dLc2bQjidgek0,3388
+metagene/overlap.py,sha256=HCzTngflhvr6Ti6rbC70Ow70KJzeK2lVOhSUqFbi5q8,2458
+metagene-0.0.0.dev4.dist-info/entry_points.txt,sha256=JsTWLFdGrx_fZg8j3PyrkH5qj6Gmv7fyTIaXh_5sWN0,45
+metagene-0.0.0.dev4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+metagene-0.0.0.dev4.dist-info/METADATA,sha256=fsBHZSrZftQuzWcR3Pxwm0Y-ylNgmBuTBaNaS8KnrZQ,1355
+metagene-0.0.0.dev4.dist-info/RECORD,,
