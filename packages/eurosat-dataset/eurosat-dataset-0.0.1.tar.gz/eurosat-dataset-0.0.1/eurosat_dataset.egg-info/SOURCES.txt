@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+eurosat/__init__.py
+eurosat_dataset.egg-info/PKG-INFO
+eurosat_dataset.egg-info/SOURCES.txt
+eurosat_dataset.egg-info/dependency_links.txt
+eurosat_dataset.egg-info/entry_points.txt
+eurosat_dataset.egg-info/top_level.txt
