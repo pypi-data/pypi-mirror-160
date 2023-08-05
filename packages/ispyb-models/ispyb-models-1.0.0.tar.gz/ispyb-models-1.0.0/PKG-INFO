@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ispyb-models
+Version: 1.0.0
+Summary: SQLAlchemy ORM models for the ISPyB database
+Home-page: https://github.com/ispyb/ispyb-models
+Author: ISPyB
+Author-email: py-ispyb-dev@esrf.fr
+License: Apache License, Version 2.0
+Keywords: ISPyB,database,SQLAlchemy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+
+UNKNOWN
+
