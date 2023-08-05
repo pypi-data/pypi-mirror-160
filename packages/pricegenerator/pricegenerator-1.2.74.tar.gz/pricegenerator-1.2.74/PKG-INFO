@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pricegenerator
+Version: 1.2.74
+Summary: A simple price generator similar to real stock prices, but you can control the statistics of their distribution. Generates chain of candlesticks with predefined statistical parameters, return pandas dataframe or saving as .csv-file with OHLCV-candlestick in every strings.
+Home-page: https://github.com/Tim55667757/PriceGenerator/
+Download-URL: https://github.com/Tim55667757/PriceGenerator.git
+Author: Timur Gilmullin
+Author-email: tim55667757@gmail.com
+License: Apache-2.0
+Keywords: history,csv,stock,forex,prices,candlesticks,parser,generator,statistics,testing,testdata
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+GitHub Pages: https://tim55667757.github.io/PriceGenerator
