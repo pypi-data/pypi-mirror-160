@@ -1,0 +1,23 @@
+[project]
+name = "notrition"
+version = "0.0.1"
+authors = [
+  { name="Robert Dillon", email="robdillon94@gmail.com" },
+]
+description = "Python script to save recipes directly to a Notion database."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/RobertDillon/notrition"
+"Bug Tracker" = "https://github.com/RobertDillon/notrition/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
