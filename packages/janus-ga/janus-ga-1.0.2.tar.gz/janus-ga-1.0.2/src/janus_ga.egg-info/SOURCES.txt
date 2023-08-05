@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/janus/__init__.py
+src/janus/crossover.py
+src/janus/features.py
+src/janus/fragment.py
+src/janus/janus.py
+src/janus/mutate.py
+src/janus/network.py
+src/janus/utils.py
+src/janus_ga.egg-info/PKG-INFO
+src/janus_ga.egg-info/SOURCES.txt
+src/janus_ga.egg-info/dependency_links.txt
+src/janus_ga.egg-info/requires.txt
+src/janus_ga.egg-info/top_level.txt
