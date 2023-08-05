@@ -1,0 +1,10 @@
+qoi/qoi.cpython-38-i386-linux-gnu.so,sha256=QnU9t_-uszOtRS61p61Awxklr5-JHilA-EUUuw7Z76M,1121388
+qoi/qoi.pxd,sha256=Eg4kSq-l5TYhzfaCEN2LEBOgzezwwpC2QV3jFqGRTig,547
+qoi/benchmark.py,sha256=oEXTY73ljrO_syD8suEghahNqg2s0CRjVVhvQIaFq0Y,10353
+qoi/__init__.py,sha256=q0obagcj2a-VnIHvosON57bT9bf-n7pHwvoBeLDeLyk,100
+qoi/_version.py,sha256=1KhrBItVjTCR-Sumh0o09b_aKrjTTcJrpTBh5GBw6Lk,21
+qoi-0.2.0.dist-info/LICENSE,sha256=JsYO0mRPceEvqyUWIMBwDgfRofQ2ETOGGshxEPvSr2g,1066
+qoi-0.2.0.dist-info/METADATA,sha256=FrfdetshhusgwDbw23_NACUp-N78PFSd7wfIrvyrjOc,9614
+qoi-0.2.0.dist-info/top_level.txt,sha256=LWoYKSrABOwLHx5X8OQc2EXjI9a6J_2UM4srvK4KcI8,4
+qoi-0.2.0.dist-info/WHEEL,sha256=FmLDGqpWEOfEnUFU9jICFtX-RwKlXJnSLuUr_FVR28o,209
+qoi-0.2.0.dist-info/RECORD,,
