@@ -1,0 +1,12 @@
+matplotlib
+netCDF4
+h5netcdf
+scipy
+numpy
+pyyaml
+xarray
+pooch
+Shapely
+scikit-image
+numba
+h5py
