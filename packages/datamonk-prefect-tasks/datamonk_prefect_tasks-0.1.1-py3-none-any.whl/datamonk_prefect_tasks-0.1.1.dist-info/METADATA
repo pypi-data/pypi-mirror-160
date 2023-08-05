@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datamonk-prefect-tasks
+Version: 0.1.1
+Summary: 
+Author: Vit Mrnavek
+Author-email: vit.mrnavek@datamonk.cz
+Requires-Python: >=3.8.0,<3.10.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: datamonk-invest-tools (>=0.1.1,<0.2.0)
+Requires-Dist: datamonk-scriptorium (>=0.5.0,<0.6.0)
+Requires-Dist: datamonk-utils (>=0.1.0,<0.2.0)
+Requires-Dist: prefect (>=1.2.4,<2.0.0)
