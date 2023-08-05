@@ -1,0 +1,4 @@
+aioredis~=2.0
+
+[fakeredis]
+fakeredis[lua]>=1.7.1
