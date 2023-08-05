@@ -1,0 +1,10 @@
+dymaxionlabs/__init__.py,sha256=fMHq32bn5TlPiezCjo6xGi8aCXerhRn3_Qt9-jyOwYg,589
+dymaxionlabs/files.py,sha256=9QQhAXCR_-wMWN9TEnGPqZmUeBCmmOQa1BBU6JGn3eY,6869
+dymaxionlabs/models.py,sha256=BjXKM_tiLQxMKNRVM8zy1FmedVT7N76Ojzmemnklw-c,12351
+dymaxionlabs/tasks.py,sha256=H4tRcsvEjqqGMcxH-ff2bV-Ac8oolKlFhqKNdB69zSo,5644
+dymaxionlabs/upload.py,sha256=3Kc7TOFyTek9msgUuRRaKOGCAxpSGt_9FRR5IxBxr60,2148
+dymaxionlabs/utils.py,sha256=WuyFRafkL8hqgM_3HY5mAf3ncZYJL0UmzkhdJvcOFqs,3588
+dymaxionlabs-1.0.0a0.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dymaxionlabs-1.0.0a0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dymaxionlabs-1.0.0a0.dist-info/METADATA,sha256=kfToR8HyCAHhKnPDmvzWS9WP9A8-SNErFhSPrQblChg,648
+dymaxionlabs-1.0.0a0.dist-info/RECORD,,
