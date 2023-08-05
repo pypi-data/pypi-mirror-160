@@ -1,0 +1,23 @@
+[package]
+name = "y-py"
+version = "0.5.3"
+rust-version = "1.58"
+authors = ["John Waidhofer <waidhoferj@gmail.com>", "Kevin Jahns <kevin.jahns@protonmail.com>", "Pierre-Olivier Simonard <pierre.olivier.simonard@gmail.com>"]
+edition = "2018"
+homepage = "https://github.com/y-crdt/ypy"
+repository = "https://github.com/y-crdt/ypy"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "y_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+lib0 = "0.10.2"
+yrs = "0.10.2"
+
+
+[dependencies.pyo3]
+version = "0.16.5"
+features = ["extension-module"]
