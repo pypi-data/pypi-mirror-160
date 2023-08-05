@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PyGorse
+Version: 0.4.2
+Summary: Python SDK for gorse recommender system
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests (>=2.14.0)
+
+UNKNOWN
+
