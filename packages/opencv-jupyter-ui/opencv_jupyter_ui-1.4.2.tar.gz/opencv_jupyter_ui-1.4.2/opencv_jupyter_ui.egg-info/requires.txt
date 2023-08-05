@@ -1,0 +1,4 @@
+ipycanvas
+jupyter-ui-poll
+ipywidgets
+numpy
