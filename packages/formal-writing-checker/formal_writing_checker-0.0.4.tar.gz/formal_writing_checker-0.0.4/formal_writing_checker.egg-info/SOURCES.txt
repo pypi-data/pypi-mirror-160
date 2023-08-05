@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+formal_writing_checker/__init__.py
+formal_writing_checker/main.py
+formal_writing_checker/nlp.py
+formal_writing_checker.egg-info/PKG-INFO
+formal_writing_checker.egg-info/SOURCES.txt
+formal_writing_checker.egg-info/dependency_links.txt
+formal_writing_checker.egg-info/entry_points.txt
+formal_writing_checker.egg-info/requires.txt
+formal_writing_checker.egg-info/top_level.txt

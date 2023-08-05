@@ -1,0 +1,3 @@
+[console_scripts]
+formal-writing-checker = formal_writing_checker.main:app
+formal-writing-checker-install = formal_writing_checker.main:install_app
