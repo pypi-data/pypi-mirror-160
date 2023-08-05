@@ -1,0 +1,81 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "kraken-cli"
+version = "0.2.5"
+description = ""
+authors = ["Niklas Rosenstein <rosensteinniklas@gmail.com>"]
+license = "MIT"
+readme = "readme.md"
+packages = [{ include = "kraken/cli", from = "src" }]
+classifiers = []
+keywords = []
+
+[tool.poetry.urls]
+# "Bug Tracker" = ""
+# Documentation = ""
+# Homepage = ""
+# Repository = ""
+
+[tool.poetry.dependencies]
+python = "^3.7"
+"slap.core.cli" = "^0.3.1"
+kraken-core = "^0.3.0"
+packaging = ">=20.0"
+setuptools = ">=33.0.0"
+termcolor = "^1.1.0"
+types-termcolor = "^1.1.5"
+"nr.python.environment" = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+pytest = "*"
+
+[tool.poetry.extras]
+docs = ["mkdocs", "mkdocs-material", "novella==0.2.3"]
+
+[tool.poetry.scripts]
+kraken = "kraken.cli.__main__:_entrypoint"
+
+[tool.slap]
+typed = true
+
+[tool.slap.test]
+check = "slap check"
+mypy = "dmypy run src/"
+pytest = "pytest src/tests/ -vv"
+black = "black --check src/"
+isort = "isort --check-only src/"
+flake8 = "flake8 src/"
+
+[tool.slap.run]
+fmt = "black src/ && isort src/"
+"docs:build" = "cd docs && novella --base-url kraken-cli/"
+"docs:dev" = "cd docs && novella --serve"
+
+[tool.mypy]
+python_version = "3.7"
+explicit_package_bases = true
+mypy_path = ["src"]
+namespace_packages = true
+pretty = true
+show_error_codes = true
+show_error_context = true
+strict = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_unreachable = true
+warn_unused_ignores = true
+
+[tool.isort]
+profile = "black"
+line_length = 120
+combine_as_imports = true
+
+[tool.black]
+line-length = 120
