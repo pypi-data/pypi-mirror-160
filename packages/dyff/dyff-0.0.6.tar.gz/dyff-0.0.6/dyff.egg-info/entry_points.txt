@@ -1,0 +1,3 @@
+[console_scripts]
+dyff = dyff.cli:cli_main
+
