@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+main.py
+requirements.txt
+setup.py
+GenderPrediction/__init__.py
+GenderPrediction/config.py
+GenderPrediction/gender_model-Bilstm128-25-10-retrained.h5
+GenderPrediction/gender_prediction.py
+GenderPrediction.egg-info/PKG-INFO
+GenderPrediction.egg-info/SOURCES.txt
+GenderPrediction.egg-info/dependency_links.txt
+GenderPrediction.egg-info/requires.txt
+GenderPrediction.egg-info/top_level.txt

@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: GenderPrediction
+Version: 3.0
+Summary: Classify the name based on given name
+Home-page: UNKNOWN
+Author: Sounak-Mukherjee
+Author-email: sounak@pratilipi.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+
+# Gender Prediction
+
+Now predict your Gender just from your First Name.
+
+### Example Code:
+
+* Predict for Single Name:
+
+```python
+from GenderPrediction.gender_prediction import GenderPredictor
+
+input_name = 'ENTER YOUR NAME'
+gp = GenderPredictor(name=input_name)
+print(gp.predict())
+```
+
+* Predict in Batch:
+```python
+from GenderPrediction.gender_prediction import GenderPredictor
+
+input_name = '[ENTER MULTIPLE NAMES IN A LIST]'
+gp = GenderPredictor(name=input_name)
+print(gp.batch_predict())
+```
+
