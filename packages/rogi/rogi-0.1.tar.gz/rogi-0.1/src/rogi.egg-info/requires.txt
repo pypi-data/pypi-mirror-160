@@ -1,0 +1,5 @@
+numpy
+scipy>=1.4
+fastcluster
+pandas
+scikit-learn>=1
