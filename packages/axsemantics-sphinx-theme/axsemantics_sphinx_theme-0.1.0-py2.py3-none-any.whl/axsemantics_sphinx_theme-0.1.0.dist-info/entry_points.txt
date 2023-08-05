@@ -1,0 +1,2 @@
+[sphinx.html_themes]
+axsemantics_sphinx_theme = axsemantics_sphinx_theme
