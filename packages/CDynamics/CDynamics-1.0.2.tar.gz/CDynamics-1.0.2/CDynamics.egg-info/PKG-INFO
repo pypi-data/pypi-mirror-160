@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: CDynamics
+Version: 1.0.2
+Summary: Plot Julia sets of rational functions
+Home-page: UNKNOWN
+Author: Kanak Dhotre
+Author-email: dhotrekanak@gmail.com
+License: UNKNOWN
+Description: A package that allows users to visualize julia sets of rational holormorhphic self-maps defined on the Riemann sphere
+Keywords: python,complex dynamics,julia set,filled julia sets
+Platform: UNKNOWN
