@@ -1,0 +1,12 @@
+id_schema/__init__.py,sha256=C9169m2M_s_L9UYJpP_EOZHDm7gv-n-dtKYWLjYa-yQ,58
+id_schema/id_schema.py,sha256=6iR-QYpZeymzNccekHBUjO3Cz4wZpbGL_GkqBEm2lnc,1539
+id_schema/components/__init__.py,sha256=-TbIQApmNpdtAFO5YSPeobEC0Zfbrd1es3LGVzuw6u0,177
+id_schema/components/base_component.py,sha256=-RQBvI7oPh-_pZ7LBJYL8-BCA0TZVifSw0Oit9itktY,378
+id_schema/components/exact_literal.py,sha256=lmbjiNsUSEv5n-Y3J4oAi-FB3oxY_Gm1RG8yQqK-8Fg,507
+id_schema/components/one_of.py,sha256=_cHoV1w6xDS2qqCKv8GMSDoj3aC_jjmR16NX08kouls,1394
+id_schema/components/random_group.py,sha256=m2hk8H5NbAtQw8V7ZUiR9x3wDx0Cpb-eafxP-Qu_iUk,3336
+id_schema-1.0.6.dist-info/LICENSE,sha256=XV1Yo28_5dV7HlTYPM0MQkDfYYlcYuoJWdoQt0CIwMU,1090
+id_schema-1.0.6.dist-info/METADATA,sha256=yo6lnKPkTb68ZhhpbBgH9qvDU9YPAeWRvziORaWNC7Q,4135
+id_schema-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+id_schema-1.0.6.dist-info/top_level.txt,sha256=nw8soe5y_hlecBwWBOsf6xX21IYv0A69tRcIXjX9V0c,10
+id_schema-1.0.6.dist-info/RECORD,,
