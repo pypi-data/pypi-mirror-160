@@ -1,0 +1,2 @@
+[console_scripts]
+pytp = torrent_parser:__main
