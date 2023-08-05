@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: flake8_allure_tree
+Version: 1.0.1
+Summary: Flake8 plugin to check allure decorators on test classes and methods
+Author: Petr Alekseev
+Author-email: petrmissial@gmail.com
+License: MIT license
+Keywords: flake8,pytest,py.test,allure
+Classifier: Framework :: Pytest
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# flake8-allure-tree
+
+Plugin for checking the order of allure tags
+
+You can set tag tree by options:
+
+```
+--class-tag-tree=feature>story>label>tag
+--method-tag-tree=title>tag
+--test-class-name=Test*
+--test-method-name=test_*
+--strict-tree=False
+```
+
+Use `--strict-tree` options if you want your tests to be strictly allure tagged.
+By default, tests are checked that contain at least one allure decorator.
+
+Install:
+
+`pip install -e git+https://github.com/missial/flake8-allure-tree#egg=flake8-allure-tree`

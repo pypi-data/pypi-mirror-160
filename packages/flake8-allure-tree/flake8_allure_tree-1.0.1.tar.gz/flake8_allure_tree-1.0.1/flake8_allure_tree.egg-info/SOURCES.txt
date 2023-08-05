@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+flake8_allure_tree/__init__.py
+flake8_allure_tree/flake8_allure.py
+flake8_allure_tree.egg-info/PKG-INFO
+flake8_allure_tree.egg-info/SOURCES.txt
+flake8_allure_tree.egg-info/dependency_links.txt
+flake8_allure_tree.egg-info/entry_points.txt
+flake8_allure_tree.egg-info/not-zip-safe
+flake8_allure_tree.egg-info/requires.txt
+flake8_allure_tree.egg-info/top_level.txt
