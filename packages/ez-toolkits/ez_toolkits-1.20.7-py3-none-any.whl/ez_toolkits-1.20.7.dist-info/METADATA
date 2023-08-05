@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ez-toolkits
+Version: 1.20.7
+Summary: Easy toolkits
+Author: septvean
+Author-email: septvean@gmail.com
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: loguru (>=0.6.0)
+
