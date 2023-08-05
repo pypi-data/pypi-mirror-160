@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/easy_dependency_injection.egg-info/PKG-INFO
+src/easy_dependency_injection.egg-info/SOURCES.txt
+src/easy_dependency_injection.egg-info/dependency_links.txt
+src/easy_dependency_injection.egg-info/requires.txt
+src/easy_dependency_injection.egg-info/top_level.txt
+src/easy_di/__init__.py
+src/easy_di/di_storage.py
+src/easy_di/exceptions.py
+src/easy_di/injection.py
+src/easy_di/loaders_patching.py
+src/easy_di/main.py
+src/easy_di/resource_locator.py
