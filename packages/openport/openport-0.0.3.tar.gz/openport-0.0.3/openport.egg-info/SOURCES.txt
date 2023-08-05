@@ -1,0 +1,8 @@
+LICENCE
+README
+setup.py
+AddCalculator/__init__.py
+openport.egg-info/PKG-INFO
+openport.egg-info/SOURCES.txt
+openport.egg-info/dependency_links.txt
+openport.egg-info/top_level.txt
