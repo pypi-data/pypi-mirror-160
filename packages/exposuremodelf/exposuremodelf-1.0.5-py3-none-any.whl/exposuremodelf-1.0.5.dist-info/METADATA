@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: exposuremodelf
+Version: 1.0.5
+Author: Sha
+Author-email: sliu23009@gmail.com
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: Pillow
+Requires-Dist: torchvision
+
