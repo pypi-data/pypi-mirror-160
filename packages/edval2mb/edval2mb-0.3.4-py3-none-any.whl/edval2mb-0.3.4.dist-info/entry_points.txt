@@ -1,0 +1,3 @@
+[console_scripts]
+edval2mb=edval2mb.cli.main:main
+
