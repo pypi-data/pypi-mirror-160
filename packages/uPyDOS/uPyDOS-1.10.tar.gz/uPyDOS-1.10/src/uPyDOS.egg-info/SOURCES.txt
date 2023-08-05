@@ -1,0 +1,120 @@
+LICENSE
+README.md
+pyproject.toml
+src/uPyDOS/PyDOS.py
+src/uPyDOS/__init__.py
+src/uPyDOS/basicpython.py
+src/uPyDOS/blink.py
+src/uPyDOS/boot.py
+src/uPyDOS/cls.py
+src/uPyDOS/code.py
+src/uPyDOS/diff.py
+src/uPyDOS/edit.py
+src/uPyDOS/fileview.py
+src/uPyDOS/fsedit.py
+src/uPyDOS/i2cscan.py
+src/uPyDOS/lcdprint.py
+src/uPyDOS/lcdscroll.py
+src/uPyDOS/main.py
+src/uPyDOS/piano.py
+src/uPyDOS/prtglbvar.py
+src/uPyDOS/pydospins.py
+src/uPyDOS/pye.py
+src/uPyDOS/pye_gen.py
+src/uPyDOS/reboot.py
+src/uPyDOS/rgbblink.py
+src/uPyDOS/rgbrainbow.py
+src/uPyDOS/rgbset.py
+src/uPyDOS/run.py
+src/uPyDOS/sdmount.py
+src/uPyDOS/sdumount.py
+src/uPyDOS/setboard.py
+src/uPyDOS/setenv.py
+src/uPyDOS/sound.py
+src/uPyDOS/tsound.py
+src/uPyDOS/wrap_off.py
+src/uPyDOS/wrap_on.py
+src/uPyDOS.egg-info/PKG-INFO
+src/uPyDOS.egg-info/SOURCES.txt
+src/uPyDOS.egg-info/dependency_links.txt
+src/uPyDOS.egg-info/top_level.txt
+src/uPyDOS/PyBasic/PyBasic.py
+src/uPyDOS/PyBasic/basicdata.py
+src/uPyDOS/PyBasic/basicparser.py
+src/uPyDOS/PyBasic/basictoken.py
+src/uPyDOS/PyBasic/flowsignal.py
+src/uPyDOS/PyBasic/lexer.py
+src/uPyDOS/PyBasic/program.py
+src/uPyDOS/cpython/code.py
+src/uPyDOS/cpython/fs.py
+src/uPyDOS/cpython/main.py
+src/uPyDOS/cpython/runvm.py
+src/uPyDOS/cpython/CytronMPP/lib/cyt_mpp_board.py
+src/uPyDOS/cpython/ESP32/code.py
+src/uPyDOS/cpython/ESP32/cpython_wifi.py
+src/uPyDOS/cpython/ESP32/main.py
+src/uPyDOS/cpython/ESP32/requests_https_circuitpython.py
+src/uPyDOS/cpython/ESP32/wifi_finance.py
+src/uPyDOS/cpython/ESP32/wifi_test.py
+src/uPyDOS/cpython/ESP32/wifi_weather.py
+src/uPyDOS/cpython/NanoConnect/connect_wifi.py
+src/uPyDOS/cpython/NanoConnect/lib/adafruit_esp32spi/__init__.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_adafruit_feather_esp32s2.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_adafruit_feather_rp2040.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_adafruit_itsybitsy_rp2040.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_adafruit_qtpy_esp32c3.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_adafruit_qtpy_esp32s2.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_adafruit_qtpy_rp2040.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_arduino_nano_rp2040_connect.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_cytron_maker_pi_pico.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_cytron_maker_pi_rp2040.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_espressif_esp32s3_devkitc_1_n8r2.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_itsybitsy_nrf52840_express.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_lilygo_ttgo_t8_s2_st7789.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_raspberry_pi_pico.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_sparkfun_nrf52840_mini.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_sparkfun_samd51_thing_plus.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_sparkfun_thing_plus_rp2040.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_swan_r5.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_teensy41.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_unexpectedmaker_feathers2.py
+src/uPyDOS/cpython/boardconfigs/pydos_bcfg_unexpectedmaker_feathers3.py
+src/uPyDOS/cpython/kbdFeatherWing/factory_test.py
+src/uPyDOS/cpython/kbdFeatherWing/lib/bbq10keyboard.py
+src/uPyDOS/cpython/kbdFeatherWing/lib/kfw_pico_board.py
+src/uPyDOS/cpython/kbdFeatherWing/lib/kfw_s2_board.py
+src/uPyDOS/cpython/kbdFeatherWing/lib/pydos_ui_kfw.py
+src/uPyDOS/cpython/lib/circuitpython_i2c_lcd.py
+src/uPyDOS/cpython/lib/lcd_api.py
+src/uPyDOS/cpython/lib/adafruit_bus_device/__init__.py
+src/uPyDOS/lib/pydos_bcfg.py
+src/uPyDOS/lib/pydos_hw.py
+src/uPyDOS/lib/pydos_ui.py
+src/uPyDOS/mpython/badblink.py
+src/uPyDOS/mpython/code.py
+src/uPyDOS/mpython/main.py
+src/uPyDOS/mpython/runasthread.py
+src/uPyDOS/mpython/setdate.py
+src/uPyDOS/mpython/settime.py
+src/uPyDOS/mpython/stopthread.py
+src/uPyDOS/mpython/temperature.py
+src/uPyDOS/mpython/ESP32/mpython_wifi.py
+src/uPyDOS/mpython/ESP32/wifi_financeMP.py
+src/uPyDOS/mpython/NanoConnect/connect_wifiMP.py
+src/uPyDOS/mpython/NanoConnect/lib/mp_esp32spi.py
+src/uPyDOS/mpython/NanoConnect/lib/spidevice.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_Adafruit Feather RP2040 with RP2040.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_Adafruit ItsyBitsy RP2040 with RP2040.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_Adafruit QT Py RP2040 with RP2040.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_Arduino Nano RP2040 Connect with RP2040.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_Cytron Maker Pi Pico.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_ESP32C3 module with ESP32C3.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_ESP32S3 module (spiram) with ESP32S3.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_FeatherS2 with ESP32-S2.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_FeatherS3 with ESP32-S3.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_Raspberry Pi Pico with RP2040.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_SparkFun Thing Plus RP2040 with RP2040.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_Teensy 4.1 with MIMXRT1062DVJ6A.py
+src/uPyDOS/mpython/boardconfigs/pydos_bcfg_TinyPICO with ESP32-PICO-D4.py
+src/uPyDOS/mpython/lib/lcd2004.py
+src/uPyDOS/mpython/lib/sdcard.py
