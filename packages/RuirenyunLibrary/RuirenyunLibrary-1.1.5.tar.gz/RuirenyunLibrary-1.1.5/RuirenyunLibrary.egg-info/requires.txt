@@ -1,0 +1,7 @@
+selenium
+requests
+robotframework
+PyYAML
+PyMySQL
+python-dateutil
+robotframework-seleniumlibrary
