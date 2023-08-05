@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+python_onfleet.egg-info/PKG-INFO
+python_onfleet.egg-info/SOURCES.txt
+python_onfleet.egg-info/dependency_links.txt
+python_onfleet.egg-info/not-zip-safe
+python_onfleet.egg-info/requires.txt
+python_onfleet.egg-info/top_level.txt
