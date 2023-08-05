@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+truecallerpy/__init__.py
+truecallerpy/phonesList.py
+truecallerpy/truecallerLogin.py
+truecallerpy/version.py
+truecallerpy/version.txt
+truecallerpy.egg-info/PKG-INFO
+truecallerpy.egg-info/SOURCES.txt
+truecallerpy.egg-info/dependency_links.txt
+truecallerpy.egg-info/entry_points.txt
+truecallerpy.egg-info/requires.txt
+truecallerpy.egg-info/top_level.txt
