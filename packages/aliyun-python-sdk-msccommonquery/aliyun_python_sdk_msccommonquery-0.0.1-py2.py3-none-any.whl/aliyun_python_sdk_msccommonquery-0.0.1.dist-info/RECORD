@@ -1,0 +1,9 @@
+aliyunsdkmsccommonquery/__init__.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+aliyunsdkmsccommonquery/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkmsccommonquery/request/v20210407/ListMessagesRequest.py,sha256=0pql-5887yPgbYwl8Ivac704gmDo00nEKIWshTOTnd8,2124
+aliyunsdkmsccommonquery/request/v20210407/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_msccommonquery-0.0.1.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_msccommonquery-0.0.1.dist-info/METADATA,sha256=FyEzvl11L_EWOC8jh5UulkCaUlWwZZPbpEWx3sZVf-s,1510
+aliyun_python_sdk_msccommonquery-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aliyun_python_sdk_msccommonquery-0.0.1.dist-info/top_level.txt,sha256=eir7JOGkOEZYWrpMy_QWjEnCNQRa6byasQomyVdD09I,24
+aliyun_python_sdk_msccommonquery-0.0.1.dist-info/RECORD,,
