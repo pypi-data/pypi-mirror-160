@@ -1,0 +1,14 @@
+COPYING
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+toelis.py
+tests/test_toelis.py
+toelis.egg-info/PKG-INFO
+toelis.egg-info/SOURCES.txt
+toelis.egg-info/dependency_links.txt
+toelis.egg-info/not-zip-safe
+toelis.egg-info/requires.txt
+toelis.egg-info/top_level.txt
