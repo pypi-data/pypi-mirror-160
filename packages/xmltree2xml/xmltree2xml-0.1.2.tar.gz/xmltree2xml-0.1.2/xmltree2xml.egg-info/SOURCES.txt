@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xmltree2xml/__init__.py
+xmltree2xml/main.py
+xmltree2xml.egg-info/PKG-INFO
+xmltree2xml.egg-info/SOURCES.txt
+xmltree2xml.egg-info/dependency_links.txt
+xmltree2xml.egg-info/entry_points.txt
+xmltree2xml.egg-info/top_level.txt
