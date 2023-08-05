@@ -1,0 +1,6 @@
+xmltodict
+click
+numpy
+matplotlib
+numpy
+pandas
