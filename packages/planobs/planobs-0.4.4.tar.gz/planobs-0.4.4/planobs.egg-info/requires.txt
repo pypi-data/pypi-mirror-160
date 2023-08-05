@@ -1,0 +1,16 @@
+astroplan>=0.7
+astropy
+coveralls
+geopandas
+pandas
+penquins
+lxml
+matplotlib
+shapely
+tqdm
+ztfquery
+
+[full]
+flask
+slack
+slackeventsapi
