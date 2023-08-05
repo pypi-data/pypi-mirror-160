@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ganesha-experimental
+Version: 5.0.0
+Summary: A small package experiment
+Home-page: https://gitlab.com/awakzdev/python-app
+Author: Elazar Chodjayev
+Author-email: zenmyx@gmail.com
+License: UNKNOWN
+Description: # A packaged PyPi application (Artifact)
+        Will create a random number between 2, 100 and calculate all Prime numbers that come before it, package and push to a private PyPi registry (Artifact)
+        
+        ### Functions
+        You must generate a random number (randint) and call `printPrime(number).`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

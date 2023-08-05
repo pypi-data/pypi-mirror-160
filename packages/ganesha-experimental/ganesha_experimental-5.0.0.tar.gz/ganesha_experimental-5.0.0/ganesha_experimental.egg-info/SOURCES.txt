@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ganesha_experimental/__init__.py
+ganesha_experimental/main.py
+ganesha_experimental.egg-info/PKG-INFO
+ganesha_experimental.egg-info/SOURCES.txt
+ganesha_experimental.egg-info/dependency_links.txt
+ganesha_experimental.egg-info/top_level.txt
