@@ -1,0 +1,7 @@
+numpy>=1.12
+scipy
+numexpr
+
+[:platform_system != "Windows"]
+jaxlib
+jax
