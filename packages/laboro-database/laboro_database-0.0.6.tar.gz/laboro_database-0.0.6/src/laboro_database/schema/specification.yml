@@ -1,0 +1,148 @@
+---
+class: Database
+methods:
+  - name: query
+    args:
+      - name: request
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: params
+        required: False
+        type: dict
+        implied: []
+        excluded: []
+        secret: False
+      - name: commit
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+      - name: verbose
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: True
+  - name: multi_query
+    args:
+      - name: request
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: paramlist
+        required: False
+        type: list
+        implied: []
+        excluded: []
+        secret: False
+      - name: commit
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+      - name: verbose
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+  - name: transaction
+    args:
+      - name: requests
+        required: True
+        type: list
+        implied: []
+        excluded: []
+        secret: False
+      - name: verbose
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+args:
+  - name: username
+    required: False
+    type: str
+    implied: []
+    excluded:
+      - service
+    secret: True
+    default: null
+  - name: password
+    required: False
+    type: str
+    implied: []
+    excluded:
+      - service
+    secret: True
+    default: null
+  - name: host
+    required: False
+    type: str
+    implied: []
+    excluded:
+      - service
+    secret: False
+    default: null
+  - name: port
+    required: False
+    type: int
+    implied: []
+    excluded:
+      - service
+    secret: True
+    default: null
+  - name: database
+    type: str
+    required: False
+    implied: []
+    excluded:
+      - service
+    secret: False
+    default: null
+  - name: service
+    required: False
+    type: str
+    implied: []
+    excluded:
+      - host
+      - port
+      - username
+      - password
+      - database
+    secret: False
+    default: null
+  - name: db_type
+    required: True
+    type: str
+    implied: []
+    excluded: []
+    secret: False
