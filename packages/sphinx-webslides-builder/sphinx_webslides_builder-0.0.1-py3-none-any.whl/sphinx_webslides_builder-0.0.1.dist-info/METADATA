@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sphinx-webslides-builder
+Version: 0.0.1
+Summary: sphinx builder that outputs webslides
+Home-page: https://github.com/creativerigor/webslides-builder
+Author: Creative Rigor, LLC
+Author-email: creativerigor@gmail.com
+License: MIT
+Keywords: sphinx docs documentation webslides
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: sphinx
+
+Sphinx extension with a builder for webslides
