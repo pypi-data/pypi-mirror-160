@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fedexrates
+Version: 0.1
+Summary: Libreria para conseguir cotizaciones sobre envio de paquetes con la API de shipengine (FedEx)
+Home-page: https://github.com/luisandresgc/fedexrates
+Author: Luis Contreras
+Author-email: desarrollo02@cebsa.mx
+License: MIT
+Download-URL: https://github.com/luisandresgc/fedexrates/tarball/0.1
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Libreria para conseguir cotizaciones sobre envio de paquetes con la API de shipengine (FedEx)
+

@@ -1,0 +1,8 @@
+README.md
+setup.py
+fedexrates/__init__.py
+fedexrates/rates.py
+fedexrates.egg-info/PKG-INFO
+fedexrates.egg-info/SOURCES.txt
+fedexrates.egg-info/dependency_links.txt
+fedexrates.egg-info/top_level.txt
