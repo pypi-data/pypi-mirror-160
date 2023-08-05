@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/c_origami/__init__.py
+src/c_origami/main.py
+src/c_origami.egg-info/PKG-INFO
+src/c_origami.egg-info/SOURCES.txt
+src/c_origami.egg-info/dependency_links.txt
+src/c_origami.egg-info/top_level.txt

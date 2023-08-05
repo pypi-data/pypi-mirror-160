@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: c-origami
+Version: 0.0.1
+Summary: C.Origami framework: cell type specific 3D chromatin architecture prediction.
+Home-page: https://github.com/ninashenker/c-origami
+Author: Nina Shenker-Tauris
+Author-email: nina.shenker-tauris@nyulangone.org
+Project-URL: Bug Tracker, https://github.com/ninashenker/c-origami/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
