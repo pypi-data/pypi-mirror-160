@@ -1,0 +1,3 @@
+[console_scripts]
+devcluster = devcluster.__main__:main
+
