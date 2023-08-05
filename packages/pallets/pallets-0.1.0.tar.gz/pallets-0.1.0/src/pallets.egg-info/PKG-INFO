@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pallets
+Version: 0.1.0
+Summary: Generate color palletes on the command line
+Author-email: Emil Kloeden <emilkloeden@gmail.com>
+License: MIT License
+        
+        Copyright (c) [2022] [Emil Kloeden]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://emilkloeden.github.io/pallets
+Project-URL: Github, https://github.com/emilkloeden/pallets
+Keywords: color,color scheme,color pallet,pallet,color pallete,colour
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Pallets
+
+Generate color palletes from the command line with Pallets.
+
+## Installation
+
+`pipx install pallets`
+
+## Usage
+
+Generate five color pallets of any color scheme type
+
+`pallets`
+
+Generate three color analagous color schemes, each with five colors and using "#00FF00 as a base"
+
+`pallets analagous --number 5 --max 3 --primary "#00FF00"`

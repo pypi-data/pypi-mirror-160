@@ -1,0 +1,2 @@
+[console_scripts]
+pallets = pallets.__main__:main
