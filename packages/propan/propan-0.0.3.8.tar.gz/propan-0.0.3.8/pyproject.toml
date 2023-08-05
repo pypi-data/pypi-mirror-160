@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "propan"
+version = "0.0.3.8"
+description = "Simple and fast framework to create message brokers based microservices"
+readme = "README.md"
+homepage = "https://github.com/PasNA6713/Propan"
+repository = "https://github.com/PasNA6713/Propan"
+documentation = "https://github.com/PasNA6713/Propan"
+keywords = ["rabbitmq", "framework", "message brokers"]
+authors = ["PasNA6713 <diementros@gmail.com>"]
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+[tool.poetry.scripts]
+propan = "propan:run"
+
+[tool.poetry.dependencies]
+python = ">3.8,<4"
+aiohttp = "^3.7.4.post0"
+PyYAML = "^5.4.1"
+pydantic = "^1.8.2"
+watchgod = "*"
+loguru = "*"
+click = "*"
+uvloop = { version = "*", markers = "sys_platform != 'win32' and implementation_name == 'cpython'", optional = true }
+aio-pika = { version = "^6.8.0", optional = true }
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-asyncio = "*"
+python-lsp-server = "*"
+importlib_metadata = "*"
+flake8 = "*"
+flake8-isort = "*"
+autopep8 = "*"
+
+[tool.poetry.extras]
+rabbit = ["aio-pika"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
