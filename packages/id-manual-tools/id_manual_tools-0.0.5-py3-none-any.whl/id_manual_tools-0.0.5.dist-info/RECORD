@@ -1,0 +1,14 @@
+id_manual_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+id_manual_tools/concatenate_traj.py,sha256=vEDdgFwqCXkk_WvmuG-tPICwScUTg0sGOSiHZJIzdP8,4018
+id_manual_tools/correct_trajectories.py,sha256=_wMJElFFnJ-DAT38tX-7natCVSZ7P5SGTVHQRy7h8Tc,25358
+id_manual_tools/get_nans.py,sha256=NVdoFOmcMb9QnyQkkzXyZyh110DBXVWlwv6Av7sccWA,2689
+id_manual_tools/matplotlib_gui.py,sha256=Fl4gl5hfZ27RRClnoX2m8NmAFiHSpkCA6vP2xxh9kGs,3439
+id_manual_tools/plot_trajectories.py,sha256=mkq5UiHmTs0-_zrVMreENDyg5YY2WF80oGx7aMbYO2A,6659
+id_manual_tools/set_corners.py,sha256=iCihkpxRLTgbnjUt6v9nfTtwP7XMtWke6doZZ4PvHRQ,7660
+id_manual_tools/utils.py,sha256=IqIlj0OlPjYyZFvLpi9EVk13ek_a9-EHKe8H_ND2Gy0,1761
+id_manual_tools-0.0.5.dist-info/LICENCE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+id_manual_tools-0.0.5.dist-info/METADATA,sha256=_kRy1k0g27QFIUJO98zDTWlf-n9SZQ32L2wjit6BPGw,1930
+id_manual_tools-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+id_manual_tools-0.0.5.dist-info/entry_points.txt,sha256=ONzisCP1tGu_AdTw8NGhEUsqZv3_qSHWGqBiZ9kogew,367
+id_manual_tools-0.0.5.dist-info/top_level.txt,sha256=zCNKp8ZRjil7H5mhkASxRmbhxsaiePTis5-pgDTTXHw,16
+id_manual_tools-0.0.5.dist-info/RECORD,,
