@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+userproperty/__init__.py
+userproperty/userproperty.py
+userproperty.egg-info/PKG-INFO
+userproperty.egg-info/SOURCES.txt
+userproperty.egg-info/dependency_links.txt
+userproperty.egg-info/not-zip-safe
+userproperty.egg-info/top_level.txt
