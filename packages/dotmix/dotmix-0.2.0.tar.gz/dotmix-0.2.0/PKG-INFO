@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dotmix
+Version: 0.2.0
+Summary: dotmix is a library and a cli that offers a template based solution to managing your dotfiles
+Author: Ian Mancini
+Author-email: ianmethyst@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=4.4.0,<5.0.0); extra == "docs"
+Requires-Dist: chevron (>=0.14.0,<0.15.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: colp (>=0.0.2,<0.0.3)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: sphinx-autoapi (>=1.8.4,<2.0.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=1.0.0,<2.0.0); extra == "docs"
+Requires-Dist: toml (>=0.10.2,<0.11.0)
