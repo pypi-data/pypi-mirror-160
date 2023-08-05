@@ -1,0 +1,6 @@
+uhttp>=0.2.0
+uhttp-negotiate>=0.1.1
+polars>=0.13.52
+pandas>=1.4.3
+pyarrow>=8.0.0
+orjson>=3.7.7

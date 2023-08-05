@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: osipyapi
+Version: 0.1.0
+Summary: Async client for OSIsoft's PI Web API
+Home-page: https://github.com/newvicx/osipyapi
+Author: Chris Newville
+Author-email: chrisnewville1396@gmail.com
+License: MIT
+Project-URL: Changelog, https://github.com/newvicx/osipyapi/blob/master/CHANGELOG.md
+Project-URL: Source, https://github.com/newvicx/osipyapi
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
