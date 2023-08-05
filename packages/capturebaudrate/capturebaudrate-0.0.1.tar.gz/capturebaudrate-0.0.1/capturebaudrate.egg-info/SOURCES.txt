@@ -1,0 +1,8 @@
+LICENCE
+README
+setup.py
+capturebaudrate/__init__.py
+capturebaudrate.egg-info/PKG-INFO
+capturebaudrate.egg-info/SOURCES.txt
+capturebaudrate.egg-info/dependency_links.txt
+capturebaudrate.egg-info/top_level.txt
