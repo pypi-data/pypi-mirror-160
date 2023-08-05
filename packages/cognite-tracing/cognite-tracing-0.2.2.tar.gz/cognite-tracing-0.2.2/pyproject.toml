@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "cognite-tracing"
+version = "0.2.2"
+description = "Library for tracing using Lightstep"
+authors = ["Vegard Stikbakke <vegard.stikbakke@gmail.com>"]
+packages = [
+    { include="cognite", from="." },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+opentracing = "^2.3.0"
+lightstep = "^4.4.7"
+elastic-apm = {version = "^6.6.1", extras = ["opentracing"]}
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.7.1"
+pytest = "^6.0.1"
+pytest-cov = "^2.10.1"
+
+[[tool.poetry.source]]
+name = "snakepit"
+url = "https://cognite.jfrog.io/cognite/api/pypi/snakepit/simple"
+
+[tool.black]
+line-length = 120
+target_version = ['py37']
+include = '\.py$'
+
+[tool.isort]
+line_length=120                # corresponds to -w  flag
+multi_line_output=3            # corresponds to -m  flag
+include_trailing_comma=true    # corresponds to -tc flag
+skip_glob = '^((?!py$).)*$'    # isort all Python files
+float_to_top=true
+known_third_party = []
+[tool.pytest.ini_options]
+[build-system]
+requires = ["poetry>=1.0.2"]
+build-backend = "poetry.masonry.api"
+
