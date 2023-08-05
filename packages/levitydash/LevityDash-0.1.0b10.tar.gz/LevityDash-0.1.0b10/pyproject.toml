@@ -1,0 +1,68 @@
+[tool.poetry]
+name = "LevityDash"
+authors = ["noblecloud <git@noblecloud.io>"]
+description = "A lightweight, desktop native, multi-source, modulear dashboard for macOS, Windows and Linux"
+
+version = "0.1.0-beta.10"
+readme = "README.md"
+license = "MIT"
+
+homepage = "https://levitydash.app"
+repository = "https://github.com/noblecloud/LevityDash"
+
+keywords = ["dashboard", "desktop", "app", "weather", "dash"]
+classifiers = [
+	"Programming Language :: Python :: 3.10",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Natural Language :: English",
+	"Development Status :: 4 - Beta",
+	"Topic :: Utilities",
+	"Topic :: Desktop Environment",
+	"Environment :: Plugins",
+	"Framework :: AsyncIO",
+	"Framework :: aiohttp",
+	"Intended Audience :: Developers",
+	"Intended Audience :: End Users/Desktop",
+	"Intended Audience :: Education",
+	"Intended Audience :: Information Technology",
+]
+
+include = ['src/LevityDash/example-config']
+packages = [
+	{ include = 'LevityDash', from = 'src' },
+]
+
+[tool.poetry.scripts]
+LevityDash = 'LevityDash:__main__.run'
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pylunar = "^0.6.0"
+WeatherUnits = "^0.6.3"
+numpy = "^1.18.0"
+pytz = "^2022.1"
+qasync = "^0.23.0"
+scipy = "^1.8.0"
+pysolar = "^0.10"
+python-dateutil = "^2.8.2"
+bleak = "^0.14.2"
+PyYAML = "^6.0"
+rich = "^12.3.0"
+aiohttp = "^3.8.1"
+PySide2 = "^5.15.2"
+appdirs = "^1.4.4"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/noblecloud/LevityDash/issues"
+"Documentation" = "https://levitydash.app/#/getting-started"
+"Discussions" = "https://github.com/noblecloud/LevityDash/discussions"
+
+[tool.poetry.dev-dependencies]
+pyinstaller = "^5.1"
+certifi = "^2022"
+WeatherUnits = { develop = true, path = "../WeatherUnits" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
