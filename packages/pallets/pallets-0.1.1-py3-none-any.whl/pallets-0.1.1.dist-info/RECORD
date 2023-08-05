@@ -1,0 +1,17 @@
+pallets/__init__.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+pallets/__main__.py,sha256=YCtmrvC70YcLLPBLgvvDVgHN4EqM8Fl--rEb0WWo2eU,3336
+pallets/color.py,sha256=JW0Va9OJ8tAUixdF0KBr6QwsDgrBHmerPYGGAx4ZTG0,6204
+pallets/columnpanelui.py,sha256=lO2-twoVCTgPKETOkUyFG461icjogZFiiFwiLoEXQuQ,3147
+pallets/consoleschemerenderer.py,sha256=nlT6-V0zThW5qyOa7Yjl6RxZLUFFZlCfcW7yFoeIQm0,566
+pallets/css.py,sha256=_lg3m5wrGJsGVioSi6IQzKLSIcOkqqXxKY1vfUkkIRw,4400
+pallets/namegenerator.py,sha256=Im6ZsT9gB23cSJWVzPQ2ZXFOzf1RQhzEPPuEWkspLAs,762
+pallets/scheme.py,sha256=-BrfojMOgROUK9rDhNN2b3LY52SsU39NCTqZ1cbmepg,1135
+pallets/schemegenerator.py,sha256=VguLjy2ZgCtbeDgOicKp0lAnPq0Lz0BHEZqH9sd7164,7622
+pallets/resources/adjectives.txt,sha256=Rf2RkzBEhUu3BZFRLSP3rEwnW0bMF8lVo_CZ4-5K7nQ,7496
+pallets/resources/nouns.txt,sha256=2Oc5rRTo6LrRsqF0l2mobFYAZ2bp1Sw8BbMX-WUTCvY,13233
+pallets-0.1.1.dist-info/LICENSE,sha256=Goxx37DYBKFLkjAS4EbCrnzu_ixph9_4bYBukSFHGU4,1094
+pallets-0.1.1.dist-info/METADATA,sha256=llLQYZDoj_EB9PHcc2QYvIpAFO3nGntSXrUQ9bRCWGU,2474
+pallets-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pallets-0.1.1.dist-info/entry_points.txt,sha256=pJ3112CeO0zFvFdmdEF4X3kdWEl2DRTNgMVKvT6lgNM,50
+pallets-0.1.1.dist-info/top_level.txt,sha256=P66l-GRSWXgt8ZYsCZLYsFvxGCMLtM_TllskSrwyq3U,8
+pallets-0.1.1.dist-info/RECORD,,
