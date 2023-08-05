@@ -1,0 +1,8 @@
+ispyb/__init__.py,sha256=-1iMQjGRSS3TIYUL5JouMBRalh1mGNnZ5CQ4nNorjNs,222
+ispyb/models/__init__.py,sha256=vTIjgLCzqwTFpPkI9fP9kMde5ccAH8GLEta1PhpICmw,271
+ispyb/models/_auto_db_schema.py,sha256=6ComQIoarZ1K1pXXLm8CyOv2BdeoPQTFHe96emvHmGQ,231469
+ispyb/models/base.py,sha256=yjjeGj482AdhBUv1vrHNUqLdOFVEHPIpci660iqNnxg,260
+ispyb_models-1.0.0.dist-info/METADATA,sha256=d-a5zR7HuvuGVX0D-ieKRUQmppFg4QoB8TpUPELe0Ts,934
+ispyb_models-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ispyb_models-1.0.0.dist-info/top_level.txt,sha256=fj5MFKnh9ReZRlt90Jf0IZRfgicfnOk3SZ0aqLuddmY,6
+ispyb_models-1.0.0.dist-info/RECORD,,
