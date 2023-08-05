@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+artifactory_catalog_connector/__init__.py
+artifactory_catalog_connector/_version.py
+artifactory_catalog_connector/artifactory-catalog.json
+artifactory_catalog_connector/artifactory_catalog_connector.py
+artifactory_catalog_connector/artifactory_schema_provider.py
+artifactory_catalog_connector/packaging_ports.py
+elyra_artifactory_catalog_connector.egg-info/PKG-INFO
+elyra_artifactory_catalog_connector.egg-info/SOURCES.txt
+elyra_artifactory_catalog_connector.egg-info/dependency_links.txt
+elyra_artifactory_catalog_connector.egg-info/entry_points.txt
+elyra_artifactory_catalog_connector.egg-info/top_level.txt
