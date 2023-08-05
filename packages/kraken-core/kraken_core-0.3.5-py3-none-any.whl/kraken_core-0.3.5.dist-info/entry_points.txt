@@ -1,0 +1,6 @@
+[kraken.core.loader]
+python_script=kraken.core.loader.python_script:PythonScriptProjectLoader
+
+[pytest11]
+kraken-testing=kraken.core.testing
+
