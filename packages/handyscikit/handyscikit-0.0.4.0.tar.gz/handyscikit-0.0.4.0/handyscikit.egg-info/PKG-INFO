@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: handyscikit
+Version: 0.0.4.0
+Summary: Upgrade square mesh interface inner implementation.
+Home-page: https://github.com/minho-hong/handyscikit.git
+Author: Hong Peng
+License: GPL
+Platform: UNKNOWN
+Requires-Python: >=3.7.0
+License-File: LICENSE
+
+UNKNOWN
+
