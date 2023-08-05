@@ -1,0 +1,13 @@
+laboro_database/__init__.py,sha256=R5zzIhiHfKSDcwn1Xuq7ktgO711Xm-CJXB9JUCTLws4,8615
+laboro_database/connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+laboro_database/connector/mysql/__init__.py,sha256=oLED0uKWojqqrihDnuizRsh6eLmNevpYKzcXLMo61uI,951
+laboro_database/connector/oracle/__init__.py,sha256=pfpZfeu-UvVpNL8hhYzkC81ZIvAu4ZcsdlIq-94YJ6I,889
+laboro_database/connector/pgsql/__init__.py,sha256=bs_3XP6cXy8e5cIC5IeicLh-c1ZqExopbKaEAL-BKWs,1059
+laboro_database/connector/sqlite3/__init__.py,sha256=1ZWSBjK1Lq7DA1ixzVWEG65nKaJNJ-ctPakE_DWnW4g,741
+laboro_database/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+laboro_database/schema/specification.yml,sha256=58s6kAkWtN6MSE0Ldtt0v6NVhZ9mq61SrY9Ep3q4R54,2808
+laboro_database-0.0.6.dist-info/LICENSE,sha256=CRBSVjTLB1adnMgaggRh-laeeZUikP1-o_R3JdVNBEo,1125
+laboro_database-0.0.6.dist-info/METADATA,sha256=P9yTP1B-Wb1P3qOuizzBPG2lENu8OwmgecNEY4FRhag,2061
+laboro_database-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+laboro_database-0.0.6.dist-info/top_level.txt,sha256=zJKoMyaDDTNOGk-AmffCnIEglzfATA0X9SzQRATIe5I,16
+laboro_database-0.0.6.dist-info/RECORD,,
