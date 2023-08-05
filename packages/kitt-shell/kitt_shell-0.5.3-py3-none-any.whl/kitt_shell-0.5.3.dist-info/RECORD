@@ -1,0 +1,14 @@
+kitt/__init__.py,sha256=JDa5yRKV87L4U7JKAO-04y8QFFCqtkTc1LyfEMXCDYg,85
+kitt/__version__.py,sha256=97UKrhrWEWbfgbWci_xZHK3UkIDLtNXohfmkwtTK25k,21
+kitt/container.py,sha256=XfB4rbdxBKZiYkCEcF9kzQFxbGKYcmTphSMSPS8SViQ,14235
+kitt/crypto.py,sha256=EpcCW8fiiftVgNDO0VLD3HBdTpFn0x_8Z4BuRaFFv-w,1240
+kitt/kitt.py,sha256=yV_OkLElRSzD9OXaXOVIj_Co4apJOBFW65GlhdkXGm8,3007
+kitt/logger.py,sha256=gdDzgyhAhevIyjRN556W56wNDXEgP3e75kGgrqQkVOE,927
+kitt/plugins.py,sha256=Uso2iF98LDYC6QZPrbh5ty_ucY7aTW0lGdAoOv-C-_E,5447
+kitt/static/Dockerfile.template,sha256=TwvdMsZCjD7DuhhzZTIW-pS4bQ_Ifh8uwyJcC7QIQyI,973
+kitt/static/default.toml,sha256=whRiaeRdr8r_nX0YKvSuH_0fxryO9BptpiKGRdypXGc,573
+kitt_shell-0.5.3.dist-info/METADATA,sha256=4WFYAsUXIUw2lAjevkYeSoOTE46pSQezBPcEPbNdY-A,5292
+kitt_shell-0.5.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kitt_shell-0.5.3.dist-info/entry_points.txt,sha256=ceVbTaobA0e95zdDTL0o_Pqz_Rfk8TPjuhdtC1Q1YCU,35
+kitt_shell-0.5.3.dist-info/top_level.txt,sha256=v_OqsT1C3EUQtyQAWey09cypFHEEZahBfu4VB_b2Sx0,5
+kitt_shell-0.5.3.dist-info/RECORD,,
