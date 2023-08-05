@@ -1,0 +1,10 @@
+rogi/__init__.py,sha256=mB7sa7NmTsfHmLFfLMz2Rj7ZHfK7eDWFNZFWXLXJjxg,192
+rogi/_version.py,sha256=lq1ZwQ436s23d7_i_HRW6ZbvRtVIiwAyCmYj8YmyEh0,495
+rogi/modi.py,sha256=uDczSLRSybqfNFKG2y3ph0_cZVea48Kq2MiqFmVqnBM,4202
+rogi/roughness_index.py,sha256=5qiuhMvfOJJCaQIC-hRHMZJQbhUtpCzfX6BsiBqUzME,15252
+rogi/sari.py,sha256=VHRcnsHNdhhZbCgXGV4CXSib1mI9N2qfcQQPPSFqXmk,5339
+rogi-0.1.dist-info/LICENSE,sha256=TvloL3Lt5nRCuf2XaBLDSITOm7w1tOtWyxZC9r3KKZ0,1067
+rogi-0.1.dist-info/METADATA,sha256=e479w_0JMRj941t7NsV4Pmuz-1tbhct5N8SH_hEuNb8,5898
+rogi-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rogi-0.1.dist-info/top_level.txt,sha256=l8ryjAHUzu0cuyjm-E_IQbVHN3UwS7XOlSGGP1J7GVQ,5
+rogi-0.1.dist-info/RECORD,,
