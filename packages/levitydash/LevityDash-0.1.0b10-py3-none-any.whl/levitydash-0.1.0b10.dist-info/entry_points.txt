@@ -1,0 +1,3 @@
+[console_scripts]
+LevityDash=LevityDash:__main__.run
+
