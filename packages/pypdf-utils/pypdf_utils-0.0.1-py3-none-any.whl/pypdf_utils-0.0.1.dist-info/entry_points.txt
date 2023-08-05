@@ -1,0 +1,2 @@
+[console_scripts]
+pypdf-join = pypdf_utils.join:main
