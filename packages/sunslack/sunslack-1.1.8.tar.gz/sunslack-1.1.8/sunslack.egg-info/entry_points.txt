@@ -1,0 +1,3 @@
+[console_scripts]
+animatemuf = animatemuf:main
+sunslack = sunslack:main

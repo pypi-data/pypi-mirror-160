@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+animatemuf.py
+config.sample
+setup.py
+sunslack.py
+misc/flux.png
+sunslack.egg-info/PKG-INFO
+sunslack.egg-info/SOURCES.txt
+sunslack.egg-info/dependency_links.txt
+sunslack.egg-info/entry_points.txt
+sunslack.egg-info/requires.txt
+sunslack.egg-info/top_level.txt
