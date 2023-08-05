@@ -1,0 +1,2 @@
+[console_scripts]
+GraphPed = graphped.plot:GraphPedCli
