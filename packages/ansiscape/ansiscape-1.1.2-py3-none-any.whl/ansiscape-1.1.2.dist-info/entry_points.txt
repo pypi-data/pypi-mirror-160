@@ -1,0 +1,2 @@
+[console_scripts]
+ansiscape = ansiscape.__main__:cli_entry
