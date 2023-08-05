@@ -1,0 +1,12 @@
+pricegenerator/PriceGenerator.py,sha256=9dCdss_reiZ1dAbwrqXlbWhddZyDiNUUXU5ZukO8xGc,65758
+pricegenerator/UniLogger.py,sha256=ulG3na421Sj7f_vS7aFHFBLyB5G9abrN7-lYyPL8sOQ,3718
+pricegenerator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pricegenerator/__main__.py,sha256=MD5mG12JAVUM2nmUvYw2Taa3yrnLWqCX1AEegcs-ASM,85
+pricegenerator/google_template_example.j2,sha256=wUNp7Y-9cPpDWxBGXd4V6m5BWX9ODd0AIZH11xMMUc4,4565
+pricegenerator-1.2.dev72.dist-info/LICENSE,sha256=WYmcYJG1QFgu1hfo7qrEkZ3Jhcz8NUWe6XUraZvlIFs,10172
+pricegenerator-1.2.dev72.dist-info/METADATA,sha256=272A4EID5kJ3RGx8ns7gDZngUKxxkUXyfaBpFqtMalk,1344
+pricegenerator-1.2.dev72.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pricegenerator-1.2.dev72.dist-info/entry_points.txt,sha256=nipkog94U5cQHvpgMFtZ6-ENMx-bD49b93btbB5HIio,70
+pricegenerator-1.2.dev72.dist-info/top_level.txt,sha256=b4dqXIRRkV2bkPvaSEpL8UW91EePYUN-mVXBgZ6WP_w,15
+pricegenerator-1.2.dev72.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pricegenerator-1.2.dev72.dist-info/RECORD,,
