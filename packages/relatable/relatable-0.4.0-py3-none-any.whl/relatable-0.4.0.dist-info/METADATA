@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: relatable
+Version: 0.4.0
+Summary: Document-oriented to relational data conversion
+Author-email: "Alexander M. Giordano" <am.giordano.carmena@gmail.com>
+License: Copyright (c) 2018 The Python Packaging Authority        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://github.com/am-giordano/relatable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# relatable
+
+__relatable__ is a Python package for converting a collection of documents, 
+such as a MongoDB collection, into an interrelated set of tables, such as a 
+schema in a relational database.
+
+## Installation
+
+```
+pip3 install relatable
+```
+
+## Example of use
+
+In this example we will walk through a use case of relatable for the sample dataset found in the repository of this 
+package in the data folder, `data/example_input.json`.
+
+Each document in this dataset has a complex structure with nested objects and lists.
+
+To generate a relational schema for this dataset, let's make an instance of __RelationalSchema__ with the list of 
+documents as input:
+
+```
+from relatable import RelationalSchema
+
+import json
+
+with open("data/example_input.json", "r") as fp:
+    docs = json.load(fp)
+
+rs = RelationalSchema(docs, "person")
+```
+
+Once the RelationalSchema is instantiated, we can check its metadata. This metadata is a list of flat dictionaries, so 
+we can make use of Pandas to load it into a DataFrame:
+
+```
+import pandas as pd
+
+pd.DataFrame(rs.generate_metadata())
+```
+
+|     | table                       | column                               | type    | nullable | unique |
+|----:|:----------------------------|:-------------------------------------|:--------|:---------|:-------|
+|   0 | person                      | person.\_\_id__                      | number  | False    | True   |
+|   1 | person                      | name                                 | string  | False    | True   |
+|   2 | person                      | age                                  | number  | False    | True   |
+|   3 | experience                  | experience.\_\_id__                  | number  | False    | True   |
+|   4 | experience                  | person.\_\_id__                      | number  | False    | False  |
+|   5 | experience                  | experience.company                   | string  | False    | True   |
+|   6 | experience                  | experience.role                      | string  | False    | True   |
+|   7 | experience                  | experience.from                      | number  | False    | True   |
+|   8 | experience                  | experience.to                        | number  | False    | False  |
+|   9 | experience.technologies     | experience.technologies.\_\_id__     | number  | False    | True   |
+|  10 | experience.technologies     | experience.\_\_id__                  | number  | False    | False  |
+|  11 | experience.technologies     | person.\_\_id__                      | number  | False    | False  |
+|  12 | experience.technologies     | experience.technologies.name         | string  | False    | True   |
+|  13 | experience.technologies     | experience.technologies.primary      | boolean | False    | False  |
+|  14 | experience.responsibilities | experience.responsibilities.\_\_id__ | number  | False    | True   |
+|  15 | experience.responsibilities | experience.\_\_id__                  | number  | False    | False  |
+|  16 | experience.responsibilities | person.\_\_id__                      | number  | False    | False  |
+|  17 | experience.responsibilities | experience.responsibilities.name     | string  | False    | True   |
+
+We can see that RelationalSchema has inferred a relational schema consisting of four tables with primary keys and 
+foreign keys interrelating the tables.
+
+The relationships between the tables are the following:
+
+- The table __person__ represents the main entity of the dataset, with a row for each person.
+- The table __experience__ references the table __person__.
+- The tables __experience.technologies__ and __experience.responsibilities__ reference the table __experience__, and 
+inherits the reference of __person__ from __experience__.
+
+Finally, let's look at each of the tables:
+
+```
+dfs = [pd.DataFrame(t.data).set_index(t.primary_key) for t in rs.tables]
+```
+
+Table __person__:
+
+| person.\_\_id__ | name  | age |
+|----------------:|:------|----:|
+|               0 | Alice |  34 |
+|               1 | Bob   |  27 | 
+
+Table __experience__:
+
+| experience.\_\_id__ | person.\_\_id__ | experience.company | experience.role       | experience.from | experience.to |
+|--------------------:|----------------:|:-------------------|:----------------------|----------------:|--------------:|
+|                   0 |               0 | Google             | Software Engineer     |            2020 |          2022 |
+|                   1 |               0 | Facebook           | Senior Data Scientist |            2017 |          2020 |
+|                   2 |               1 | OpenAI             | NLP Engineer          |            2019 |          2022 | 
+
+Table __experience.technologies__:
+
+| experience.technologies.\_\_id__ | experience.\_\_id__ | person.\_\_id__ | experience.technologies.name | experience.technologies.primary |
+|---------------------------------:|--------------------:|----------------:|:-----------------------------|:--------------------------------|
+|                                0 |                   0 |               0 | C++                          | True                            |
+|                                1 |                   0 |               0 | LolCode                      | False                           |
+|                                2 |                   1 |               0 | Python                       | True                            |
+|                                3 |                   1 |               0 | Excel                        | False                           |
+|                                4 |                   2 |               1 | Triton                       | True                            |
+|                                5 |                   2 |               1 | LaTeX                        | False                           |
+
+Table __experience.responsibilities__:
+
+| experience.responsibilities.\_\_id__ | experience.\_\_id__ | person.\_\_id__ | experience.responsibilities.name                           |
+|-------------------------------------:|--------------------:|----------------:|:-----------------------------------------------------------|
+|                                    0 |                   0 |               0 | Google stuff                                               |
+|                                    1 |                   0 |               0 | Mark TensorFlow issues as "Won't Do"                       |
+|                                    2 |                   1 |               0 | Censor media                                               |
+|                                    3 |                   1 |               0 | Learn the foundations of ML                                |
+|                                    4 |                   1 |               0 | Do Kaggle competitions                                     |
+|                                    5 |                   2 |               1 | Assert that GPT-2 is racist                                |
+|                                    6 |                   2 |               1 | Assert that GPT-3 is racist                                |
+|                                    7 |                   2 |               1 | Develop a prototype of a premium non-racist language model | 
+
+# Example of use with the Airbnb MongoDB sample dataset
+
+Another example of use with the Airbnb __MongoDB__ sample dataset, downloadable 
+[here](https://github.com/neelabalan/mongodb-sample-dataset/blob/main/sample_airbnb/listingsAndReviews.json) can be 
+found in the repository of this package in the script `examples/airbnb_example.py`
