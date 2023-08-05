@@ -1,0 +1,8 @@
+requests>=2.25.1pandas>=1.2.2
+bokeh>=2.3.0
+bkcharts>=0.2
+numpy>=1.20.1
+matplotlib>=3.3.4
+python-dateutil>=2.8.1
+jinja2>=2.11.3
+pandas_ta>=0.2.45b0
