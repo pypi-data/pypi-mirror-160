@@ -1,0 +1,13 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cats_serialization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cats_serialization/field.py,sha256=_b8VIf9gJiuHPBDjCulXZOWEBmS1ip0GZNg57nQvlKk,5076
+cats_serialization/interfacies.py,sha256=6YqwstZ6kwvvzE9l2IaebzcrKdKmeMIOEDEraMll1aQ,247
+cats_serialization/serializer.py,sha256=OzeyYqqOqyf8tjAaR6bruRcO9DkyRME7WSVKd373WRE,3927
+cats_serialization/validator.py,sha256=rvLR7AvWyK1nUSW2dwelwWDB4QBgWAnfKz022wFKzf0,3787
+cats_serialization/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cats_serialization/lib/utils.py,sha256=Ugn9sfI8aDU6coVEYkQQQLm_auNjSCy0j7E3qC36JnU,1951
+cats_serialization-1.1.5.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+cats_serialization-1.1.5.dist-info/METADATA,sha256=xnh1q1MokSs_xMJoKDLBQO1ePuIwga_WL2nGNUNttQg,14471
+cats_serialization-1.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cats_serialization-1.1.5.dist-info/top_level.txt,sha256=HQ3S9lJy0mslNZBBIAXMP7IKboe-rT-_4jLF13OvJvE,28
+cats_serialization-1.1.5.dist-info/RECORD,,
