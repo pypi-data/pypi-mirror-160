@@ -1,0 +1,9 @@
+README.md
+force_absolute_imports.py
+pyproject.toml
+setup.cfg
+force_absolute_imports.egg-info/PKG-INFO
+force_absolute_imports.egg-info/SOURCES.txt
+force_absolute_imports.egg-info/dependency_links.txt
+force_absolute_imports.egg-info/entry_points.txt
+force_absolute_imports.egg-info/top_level.txt

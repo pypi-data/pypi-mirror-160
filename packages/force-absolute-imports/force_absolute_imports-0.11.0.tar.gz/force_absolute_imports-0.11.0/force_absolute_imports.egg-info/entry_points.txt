@@ -1,0 +1,2 @@
+[console_scripts]
+force_absolute_imports = force_absolute_imports:main
