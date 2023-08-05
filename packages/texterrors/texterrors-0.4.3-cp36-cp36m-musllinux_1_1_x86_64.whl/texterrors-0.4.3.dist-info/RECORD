@@ -1,0 +1,11 @@
+texterrors_align.cpython-36m-x86_64-linux-gnu.so,sha256=ln4KcvMUH2vqiCsUCgJFkdaZ2jxRaF-CbelNypvH5hw,4510536
+texterrors.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+texterrors.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+texterrors/__init__.py,sha256=B_H9kt8Wd2r90ssTFjOjvkOzEqGNyfgAkMfJNpxRFME,157
+texterrors/texterrors.py,sha256=3SS_uoX-guEnG5i3JW2m2HP2FEfN6jdl-X5q7u0UdM4,30990
+texterrors-0.4.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+texterrors-0.4.3.dist-info/entry_points.txt,sha256=lhHDmb0ikulLuzdjpYDAR4cCzaLnVOiIY0Ke7Xqe7w0,58
+texterrors-0.4.3.dist-info/METADATA,sha256=f3i90f5mPF-BskhKUjRU4cAnMKpiwgJUrd2MPsWQlpI,4979
+texterrors-0.4.3.dist-info/top_level.txt,sha256=Slvya7i3dvlHuTdU9VmNKWbJ2vKKby0CighMQNZ0yIo,28
+texterrors-0.4.3.dist-info/WHEEL,sha256=rbVfYZzJiOCEiiKDVkaog3MWj3SC9SfTJ-H92vzqnHY,112
+texterrors-0.4.3.dist-info/RECORD,,
