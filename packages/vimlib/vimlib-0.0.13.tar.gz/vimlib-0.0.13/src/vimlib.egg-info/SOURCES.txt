@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/pyvim/__init__.py
+src/pyvim/current.py
+src/pyvim/function.py
+src/pyvim/highlighting.py
+src/pyvim/job.py
+src/pyvim/mapping.py
+src/pyvim/print.py
+src/pyvim/register.py
+src/pyvim/utilities.py
+src/vimlib.egg-info/PKG-INFO
+src/vimlib.egg-info/SOURCES.txt
+src/vimlib.egg-info/dependency_links.txt
+src/vimlib.egg-info/top_level.txt
