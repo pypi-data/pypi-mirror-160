@@ -1,0 +1,11 @@
+ccbuild/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+ccbuild/_compile.py,sha256=YnyalyFgHgDQZO1KMw17y0djJ0Yks6HVis53EqOt12Q,5369
+ccbuild/_version.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+ccbuild/main.py,sha256=QgBw3WB3fg3eFsYIWtqvNM3rgymHOeu0W04n2QoyXiM,694
+ccbuild/utils.py,sha256=KwrTVNDuMpn8efFbEQiDS2IOYzkXTkFUH6NUOOmu-A0,5827
+ccbuild-1.1.0.dist-info/LICENSE,sha256=NPhTiU6xEYnFPLB9rlmsTVfU7qLJHuBT6bmQ3KFkBgE,1094
+ccbuild-1.1.0.dist-info/METADATA,sha256=UCORW5GTx_ddj6GNmTMJ75Qr5T6-xN1haVgtQgefpwg,2487
+ccbuild-1.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+ccbuild-1.1.0.dist-info/entry_points.txt,sha256=akUXn-2ZSqntQw1tkX5OlhUcPIejqhz7VP51RW5b1Y0,47
+ccbuild-1.1.0.dist-info/top_level.txt,sha256=raWXdUuTBrX-Wu4EX7YGZZ4exVzwMba3ecIxFaiXB7w,8
+ccbuild-1.1.0.dist-info/RECORD,,
