@@ -1,0 +1,9 @@
+exposuremodelf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exposuremodelf/model.py,sha256=uF9wd0jrMfyWGi_8G1QsylT6p3BwxUTvilZTieySCEg,6801
+exposuremodelf/p_model.pth,sha256=JZcgNpTucquU42Vzi21cUK0HJBc5dxHF1gtbdUPsUMM,44784397
+exposuremodelf/ratings.csv,sha256=F7seyeZBCQs-Xh55eaisPc5D1T7JIaEoHrmKIjYUB0w,140065
+exposuremodelf-1.1.1.dist-info/LICENSE,sha256=bAlwqWI89L8bX6g7ZxuV_okRDx7-ZOoVzg2VXOVRMJ0,1055
+exposuremodelf-1.1.1.dist-info/METADATA,sha256=K6jDzRlweIInL4tE1oNlR8keFGygWEo5U8mc_bltnL4,296
+exposuremodelf-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+exposuremodelf-1.1.1.dist-info/top_level.txt,sha256=OW0QbEdZdidZbbpYBHFLI5ptkwuBH1AmJn6eT9SQU88,15
+exposuremodelf-1.1.1.dist-info/RECORD,,
