@@ -1,0 +1,11 @@
+rich==12.4.4
+
+[:python_version < "3.9"]
+importlib_resources
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
