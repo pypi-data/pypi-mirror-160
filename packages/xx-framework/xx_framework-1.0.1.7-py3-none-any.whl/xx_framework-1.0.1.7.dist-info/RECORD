@@ -1,0 +1,12 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/config_test.py,sha256=o-v175Y7KakHFRzWYBFYeUCkIbtrUC18SvXxsL6AV1A,38
+xx_framework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xx_framework/conf/__init__.py,sha256=f_Wp5aotSux7k8SxGKaGTMReH3BlZOHtNW83NTkUd8Q,752
+xx_framework/conf/default_config.py,sha256=az5FL6f7B_VEm1RI8KBNmNAZnQTv0SMyPwzkhbN3OEg,253
+xx_framework/logs/__init__.py,sha256=wUW3qNRA-OeHV1CaPrxQtxniz9sUD4GP_U9mKNvkHME,1917
+xx_framework/redis/__init__.py,sha256=X0L2IYvqy_d8pvl-WiFCM6grYsouKDQgmPDCwr4m2_g,633
+xx_framework/redis/wrappers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xx_framework-1.0.1.7.dist-info/METADATA,sha256=EQxmUbdbnhFguaVPzGFsAlMCP35mvhA-x0HCjGs1_BE,435
+xx_framework-1.0.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xx_framework-1.0.1.7.dist-info/top_level.txt,sha256=PNgFSS8RODlzR22LEtS4kWPqSUmVqnU68HEhXdcCX0s,18
+xx_framework-1.0.1.7.dist-info/RECORD,,
