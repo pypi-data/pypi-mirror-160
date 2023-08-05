@@ -1,0 +1,114 @@
+import abc
+from ..utils import import_name as import_name
+from .base import AbstractEntity as AbstractEntity
+from _typeshed import Incomplete
+from abc import abstractmethod
+from typing import Tuple
+
+class BaseFormatter(metaclass=abc.ABCMeta):
+    name: str
+    mimetypes: Tuple[str, ...]
+    @abstractmethod
+    def decode(self, value): ...
+    @abstractmethod
+    def encode(self, value): ...
+
+class AsIsFormatter(BaseFormatter):
+    @staticmethod
+    def decode(b): ...
+    @staticmethod
+    def encode(b): ...
+
+class ChainFormatter(BaseFormatter):
+    def __init__(self, formatters) -> None: ...
+    def decode(self, b): ...
+    def encode(self, b): ...
+
+class Registry(dict):
+    @classmethod
+    def new(cls): ...
+    def new_child(self): ...
+    def __call__(self, cls) -> None: ...
+    def get(self, name): ...
+
+class StringFormatter(BaseFormatter):
+    name: str
+    mimetypes: Incomplete
+    @staticmethod
+    def decode(b): ...
+    @staticmethod
+    def encode(b): ...
+
+class FromStringFormatter(BaseFormatter):
+    name: str
+    @staticmethod
+    def decode(b): ...
+    @staticmethod
+    def encode(b): ...
+
+class NewLineFormatter(BaseFormatter):
+    name: str
+    linesep: str
+    @staticmethod
+    def decode(b): ...
+    @classmethod
+    def encode(cls, b): ...
+
+class BytesNewLineFormatter(NewLineFormatter):
+    name: str
+    linesep: Incomplete
+
+class PickleFormatter(BaseFormatter):
+    name: str
+    def __init__(self) -> None: ...
+    def decode(self, b): ...
+    def encode(self, b): ...
+
+class JsonFormatter(BaseFormatter):
+    name: str
+    mimetypes: Incomplete
+    converters: Incomplete
+    def __init__(self): ...
+    def decode(self, b): ...
+    def encode(self, b): ...
+    @classmethod
+    def add_converter(cls, klass, conv, score: int = ...): ...
+
+class YamlFormatter(JsonFormatter):
+    name: str
+    mimetypes: Incomplete
+    def __init__(self): ...
+    def encode(self, b): ...
+
+class ZLibFormatter(BaseFormatter, metaclass=abc.ABCMeta):
+    name: str
+    decode: Incomplete
+    encode: Incomplete
+    def __init__(self) -> None: ...
+
+class LzmaFormatter(BaseFormatter, metaclass=abc.ABCMeta):
+    name: str
+    encode: Incomplete
+    decode: Incomplete
+    def __init__(self): ...
+
+class MsgPackFormatter(BaseFormatter, metaclass=abc.ABCMeta):
+    name: str
+    decode: Incomplete
+    encode: Incomplete
+    def __init__(self) -> None: ...
+
+class BsonFormatter(BaseFormatter, metaclass=abc.ABCMeta):
+    name: str
+    decode: Incomplete
+    encode: Incomplete
+    def __init__(self) -> None: ...
+
+registry: Incomplete
+
+class FormattedEntity(AbstractEntity):
+    registry: Incomplete
+    def __init__(self, *args, **kwargs) -> None: ...
+    def set_config(self, config) -> None: ...
+    def decode(self, b): ...
+    def encode(self, b): ...
