@@ -1,0 +1,12 @@
+include *.txt
+include LICENSE
+include axsemantics_sphinx_theme/theme.conf
+recursive-include axsemantics_sphinx_theme *.conf
+recursive-include axsemantics_sphinx_theme *.css
+recursive-include axsemantics_sphinx_theme *.eot
+recursive-include axsemantics_sphinx_theme *.html
+recursive-include axsemantics_sphinx_theme *.js
+recursive-include axsemantics_sphinx_theme *.svg
+recursive-include axsemantics_sphinx_theme *.ttf
+recursive-include axsemantics_sphinx_theme *.woff
+recursive-include axsemantics_sphinx_theme *.woff2
