@@ -1,0 +1,9 @@
+symlib/__init__.py,sha256=GsgN-4OW_5DXvJVFWqmvb_6cu1NrGJc-862BoO-TFGA,1342
+symlib/lib.py,sha256=vXLPP3l7-IuUzxcamoeLx96MqV3FMODVG-n1AtxxJ1U,31127
+symlib/star_tagging.py,sha256=ZOVjhgvXG7ozZX4FraCi9JVdnpTKr6_mfQqGWKHBXKU,25774
+symlib/util.py,sha256=UEMMzVG7mjyYLxS4RwEVphzb_tFlC8EEcEoqInKJ6ok,7617
+symlib-0.0.14.dist-info/LICENSE,sha256=5Kao6uuJ59zTGJ507bcJAaSig1WGST9hKBASahQdzIo,1071
+symlib-0.0.14.dist-info/METADATA,sha256=oScyjMihAR_7p2LdoxETzdJoYhWnlwOXGkSYCaKaGJ0,773
+symlib-0.0.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+symlib-0.0.14.dist-info/top_level.txt,sha256=tjePFZp-EIYINS8mQ1JKK6l3KqF8rntUQepjfX77K6s,7
+symlib-0.0.14.dist-info/RECORD,,
