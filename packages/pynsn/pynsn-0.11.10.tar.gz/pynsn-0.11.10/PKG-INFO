@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: pynsn
+Version: 0.11.10
+Summary: Creating Non-Symbolic Number Displays
+Home-page: https://github.com/lindemann09/PyNSN
+Author: Oliver Lindemann
+Author-email: lindemann@cognitive-psychology.eu
+License: GNU GPLv3
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+Provides-Extra: gui
+Provides-Extra: pygame
+Provides-Extra: expyriment
+Provides-Extra: matplotlib
+License-File: LICENSE
+
+PyNSN
+=====
+
+**Creating Non-Symbolic Number Displays**
+
+---
+
+[![GitHub license](https://img.shields.io/github/license/lindemann09/PyNSN)](https://github.com/lindemann09/PyNSN/blob/master/LICENSE)
+[![Python Version](https://img.shields.io/pypi/pyversions/pynsn?style=flat)](https://www.python.org)
+[![PyPI](https://img.shields.io/pypi/v/pynsn?style=flat)](https://pypi.org/project/pynsn/)
+
+Oliver Lindemann (lindemann@cognitive-psychology.eu)
+
+Project homepage: https://github.com/lindemann09/PyNSN
+
+
+## Dependencies
+
+* Python 3 (>=3.6)
+* numpy (>=1.6)
+* scipy (>=1.0)
+* Pillow (>=5.0)
+* svgwrite (>=1.4)
+
+### Optional requirements
+
+Additional Python packages, which are optional and required only for 
+some features:
+
+* matplotlib (>=3.2)
+* pygame (>=1.9)
+* expyriment (>=0.9)
+* PyQT5 (>=5.14)
+
+
+## Installing via `pip`
+
+```
+python3 -m pip install pynsn
+```
+
+## Image formats
+
+By default, PyNSN is able to write [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) 
+or [Pillow](https://pillow.readthedocs.io/en/stable/) images. 
+To generate [Pygame](https://www.pygame.org/news) or
+[Matplotlib](https://matplotlib.org/stable/index.html) images or stimuli 
+for [Expyriment](http://expyriment.org), please install the respective
+packages.
+
+## Examples
+* [making arrays](https://lindemann09.github.io/PyNSN/make_object_arrays_demo.html): manually creating object arrays and exporting picture file
+  ([binder](https://mybinder.org/v2/gh/lindemann09/PyNSN/jupyter?labpath=examples%2Fmake_object_arrays_demo.ipynb))
+* [random arrays](https://lindemann09.github.io/PyNSN/pynsn_demo.html): Creating random dot arrays
+  ([binder](https://mybinder.org/v2/gh/lindemann09/PyNSN/jupyter?labpath=examples%2Fpynsn_demo.ipynb))
+* matching visual features
+* data base, sequences
+* [Euro flag example](https://lindemann09.github.io/PyNSN/euro_flag_demo.html): using pictures as objects in array
+  ([binder](https://mybinder.org/v2/gh/lindemann09/PyNSN/jupyter?labpath=examples%2Feuro_flag_demo.ipynb))
+
+RUN GUI tool (beta version)
+--------------------------
+
+*Note:* Using the PyNSN-GUI requires the installation of `PyQt5` 
+
+```
+python3 -m pynsn
+```
+
+or if installed correctly:
+
+```
+pynsn
+```
+
+
