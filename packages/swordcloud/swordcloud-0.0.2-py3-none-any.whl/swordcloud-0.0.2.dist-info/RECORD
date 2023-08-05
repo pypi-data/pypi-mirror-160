@@ -1,0 +1,10 @@
+swordcloud/__init__.py,sha256=rJaQFhEIRlhdEob3E1fXVYS0xS2HOyIz96nLdP4Uj2Q,421
+swordcloud/color_from_image.py,sha256=XZchfGfunHRmzLRTo-GTAVi_WUPvDU7JIbiR8hfNlWU,2621
+swordcloud/processing.py,sha256=CCwuvnDqLZ4n0j1H8mbjH55se_EO4lQnROYDMWB7TSU,5359
+swordcloud/query_integral_image.py,sha256=D4XPGQmtBeuCdbL2bg_Yb5GnwLh8V435Gx--MnLIpgU,2182
+swordcloud/tokenization.py,sha256=3pMFTgvtrmHcg4QI8P1fHcofYjo0-Eh1Af_sSTXPy7g,6247
+swordcloud/wordcloud.py,sha256=KdKa0nkRK16LIy_QElK4KreeQ9tfydAxJZuo9HBbAmk,42957
+swordcloud-0.0.2.dist-info/METADATA,sha256=2ZqaOnhiRkMjIujYjePZJHgFzqPKLvfXUPogqxPmbB4,799
+swordcloud-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+swordcloud-0.0.2.dist-info/top_level.txt,sha256=UbtH9ACi_9y8xHrSewERN8YvMbdYGPTu9dI9XqYGK1o,11
+swordcloud-0.0.2.dist-info/RECORD,,
