@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: readme-patcher
+Version: 0.5.0
+Summary: Generate README files from templates. Allow input from functions calls and cli output.
+Home-page: https://github.com/Josef-Friedrich/readme_patcher
+License: MIT
+Author: Josef Friedrich
+Author-email: josef@friedrich.rocks
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: pyproject-parser (>=0.7.0,<0.8.0)
+Requires-Dist: requests (>=2,<3)
+Requires-Dist: types-requests (>=2.28.2,<3.0.0)
+Project-URL: Repository, https://github.com/Josef-Friedrich/readme_patcher
+Description-Content-Type: text/x-rst
+
+.. image:: http://img.shields.io/pypi/v/readme-patcher.svg
+    :target: https://pypi.org/project/readme-patcher
+    :alt: This package on the Python Package Index
+
+.. image:: https://github.com/Josef-Friedrich/readme_patcher/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/Josef-Friedrich/readme_patcher/actions/workflows/tests.yml
+    :alt: Tests
+
+readme_patcher
+==============
+
+Generate README files from templates. Allow input from functions calls and cli
+output.
+
+.. code-block:: shell
+
+    cd your-project
+    vim README_template.rst
+    poetry add --group dev readme-patcher
+    poetry shell
+    readme-patcher # README.rst
+
+Global objects
+--------------
+
+py_project
+^^^^^^^^^^
+
+.. code-block:: jinja
+
+    {{ py_project.repository }}
+
+github
+^^^^^^
+
+.. code-block:: jinja
+
+    {{ github.name }}
+    {{ github.full_name }}
+    {{ github.description }}
+
+badge
+^^^^^
+
+.. code-block:: jinja
+
+    {{ badge.pypi }}
+    {{ badge.github_workflow('tests' 'Tests') }}
+    {{ badge.readthedocs }}
+
+Functions
+---------
+
+cli: Combined output (stdout and stderr) of command line interfaces (scripts / binaries)
+
+.. code-block:: jinja
+
+    {{ cli('awk --help') }}
+
+func: return values of Python functions
+
+.. code-block:: jinja
+
+    {{ func('os.getcwd') }}
+
+read: read text files
+
+.. code-block:: jinja
+
+    {{ read('code/example.py') | code('python') }}
+
+Filters
+-------
+
+code
+
+.. code-block:: jinja
+
+    {{ 'print("example")' | code('python') }}
+
+::
+
+    .. code-block:: python
+
+        print("example")
+
+literal
+
+.. code-block:: jinja
+
+    {{ func('os.getcwd') | literal }}
+
+::
+
+    ::
+
+        /home/repos/project
+
+Configuration
+-------------
+
+.. code-block:: toml
+
+    [[tool.readme_patcher.file]]
+    src = "README_template.rst"
+    dest = "README.rst"
+    variables = { cwd = "func:os.getcwd", fortune = "cli:fortune --help" }
+
