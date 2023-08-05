@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: shotstack-sdk
+Version: 0.2.5
+Summary: Shotstack
+Home-page: https://shotstack.io/product/sdk/python/
+Author: Shotstack
+Author-email: pypi@shotstack.io
+License: UNKNOWN
+Keywords: shotstack,video,video editing,video editor,video editing api,video generation,video manipulation,ffmpeg
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+    Shotstack is a video, image and audio editing service that allows for the automated generation of videos, images and audio using JSON 
+    and a RESTful API. You arrange and configure an edit and POST it to the API which will render your media and provide a file 
+    location when complete.
+    
+    For more details visit [shotstack.io](https://shotstack.io) or checkout our 
+    [getting started](https://shotstack.gitbook.io/docs/guides/getting-started) documentation.
+
+    View the GitHub repo for full [SDK documentation](https://github.com/shotstack/shotstack-sdk-python/).
+    
+
