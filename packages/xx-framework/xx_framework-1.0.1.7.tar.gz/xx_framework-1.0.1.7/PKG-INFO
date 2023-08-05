@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xx_framework
+Version: 1.0.1.7
+Summary: my framework
+Author: xingxing
+Author-email: chenxingyu@ndnu.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Python上位机轮子
+
