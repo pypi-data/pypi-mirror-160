@@ -1,0 +1,33 @@
+# https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/enabling-and-disabling-dependabot-version-updates
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - dependencies
+      # as dependabot bumps only the pinned test dependencies, is safe to:
+      - skip-changelog
+    open-pull-requests-limit: 3
+    # With 80+ dependencies we only use dependabot to upgrade important ones,
+    # for all the rest we do it manually via `tox -e deps`.
+    allow:
+      - dependency-name: ansible-compat
+      - dependency-name: ansible-core
+      - dependency-name: click
+      - dependency-name: cookiecutter
+      - dependency-name: enrich
+      - dependency-name: jinja2
+      - dependency-name: jsonschema
+      - dependency-name: pluggy
+      - dependency-name: pyyaml
+      - dependency-name: rich
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 3
+    labels:
+      - "dependencies"
+      - "skip-changelog"
