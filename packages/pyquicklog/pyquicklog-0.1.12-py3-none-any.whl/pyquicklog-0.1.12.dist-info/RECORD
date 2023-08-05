@@ -1,0 +1,12 @@
+pyquicklog/__init__.py,sha256=xf5HZPjVZTRGbDVbtvGe_rCuDMIpYxb2qN_c9qLRg7g,121
+pyquicklog/__version__.py,sha256=yc-8PRwYIVasN2-sX6sOOIThI5Yb5m34p7CWfsZB5pY,17
+pyquicklog/getpath.py,sha256=AXuB3Zi9i59JLDbpThKAIl3gK3JdtIHNePKW6ebVvaE,533
+pyquicklog/output.py,sha256=-4ZrptkXWaIJhNCbzUleQo5iKobFuwKXqbzj9i6gvUI,523
+pyquicklog/quicklog.py,sha256=FhuQ2k1pdaNr0i57tFTO7TTXwHJ8Aknjx9M9oNNXllE,3797
+pyquicklog/save.py,sha256=mJAO3PpiIyNQhc1bYAitg_QQuSN8qKAt8QCI6GBfjY4,703
+pyquicklog/timer.py,sha256=RbXgMmFG8X7sNr3i-kyXcK11_zOKwbo0z5zeLEXCgpI,339
+pyquicklog-0.1.12.dist-info/LICENSE,sha256=zpZeNIbvrhXKGNxV36xwvFRgrr0d8sBO6nqDPTaqz7c,1073
+pyquicklog-0.1.12.dist-info/METADATA,sha256=is6k8OC94AlwUZ5vo6YUWTQDMngaDUF_OKtr82mWM7o,547
+pyquicklog-0.1.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyquicklog-0.1.12.dist-info/top_level.txt,sha256=kIqwLbwRUHZz9n3VhFpvpLHCTQNyPZggMP9RGnRiCOs,11
+pyquicklog-0.1.12.dist-info/RECORD,,
