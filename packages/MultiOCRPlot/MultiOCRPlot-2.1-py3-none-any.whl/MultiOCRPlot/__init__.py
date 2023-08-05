@@ -1,0 +1,3 @@
+from MultiOCRPlot.get_performance_plot import getPerformancePlot as getPerformancePlot
+from MultiOCRPlot.get_time_plot import getTimePlot as getTimePlot
+from MultiOCRPlot.compute_performance import computePerformance as computePerformance

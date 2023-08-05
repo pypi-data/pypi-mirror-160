@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: MultiOCRPlot
+Version: 2.1
+Summary: UNKNOWN
+Home-page: https://github.com/snowroll/python-sdk.git
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: MultiCloudOCR (==1.0)
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+UNKNOWN
+
