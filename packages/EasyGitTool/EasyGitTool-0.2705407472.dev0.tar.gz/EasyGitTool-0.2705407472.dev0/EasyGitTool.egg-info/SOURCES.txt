@@ -1,0 +1,9 @@
+README.md
+setup.py
+EasyGitTool/__init__.py
+EasyGitTool/main.py
+EasyGitTool.egg-info/PKG-INFO
+EasyGitTool.egg-info/SOURCES.txt
+EasyGitTool.egg-info/dependency_links.txt
+EasyGitTool.egg-info/entry_points.txt
+EasyGitTool.egg-info/top_level.txt
