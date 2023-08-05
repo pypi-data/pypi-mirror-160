@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: smallscheme
+Version: 0.0.11
+Summary: A small implementation of enough Scheme to follow along in SICP
+Home-page: https://github.com/eigenhombre/smallscheme
+Author: John Jacobsen
+Author-email: eigenhombre@gmail.com
+License: MIT
+Keywords: lisp sicp scheme
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+
+A small implementation of enough Scheme to follow along in SICP.  See https://github.com/eigenhombre/smallscheme for more information.
