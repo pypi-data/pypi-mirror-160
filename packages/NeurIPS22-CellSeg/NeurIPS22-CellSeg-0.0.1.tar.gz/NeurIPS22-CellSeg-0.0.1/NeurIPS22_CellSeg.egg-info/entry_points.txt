@@ -1,0 +1,4 @@
+[console_scripts]
+model_training_3class = baseline.model_training_3class:main
+pre_process_3class = baseline.data.pre_process_3class:main
+predict = baseline.predict:main

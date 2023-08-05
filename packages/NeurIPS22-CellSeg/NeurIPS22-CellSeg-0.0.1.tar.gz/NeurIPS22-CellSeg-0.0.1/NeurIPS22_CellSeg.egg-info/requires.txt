@@ -1,0 +1,12 @@
+monai
+numpy
+nibabel
+scikit-image
+pillow
+tensorboard
+gdown
+torchvision
+tqdm
+psutil
+pandas
+einops
