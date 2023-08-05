@@ -1,0 +1,8 @@
+README.md
+setup.py
+AutoEIS/AutoEIS.py
+AutoEIS/__init__.py
+AutoEis.egg-info/PKG-INFO
+AutoEis.egg-info/SOURCES.txt
+AutoEis.egg-info/dependency_links.txt
+AutoEis.egg-info/top_level.txt
