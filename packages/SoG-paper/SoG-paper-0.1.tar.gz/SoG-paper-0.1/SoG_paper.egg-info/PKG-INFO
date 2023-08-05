@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: SoG-paper
+Version: 0.1
+Summary: Low-latency manuscript of speed of gravity measurement
+Home-page: http://gracedb.ligo.org
+Author: Brandon Piotrzkowski
+Author-email: brandon.piotrzkowski@ligo.org
+License: GNU General Public License Version 3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8
+
+UNKNOWN
+
