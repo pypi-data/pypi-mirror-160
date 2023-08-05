@@ -1,0 +1,3 @@
+[console_scripts]
+standup=standup_shows.standup:main
+
