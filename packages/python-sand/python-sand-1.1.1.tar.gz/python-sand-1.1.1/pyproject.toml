@@ -1,0 +1,180 @@
+[tool.poetry]
+name = "python-sand"
+version = "1.1.1"
+homepage = "https://gitlab.com/sand7/sand"
+repository = "https://gitlab.com/sand7/sand"
+documentation = "https://gitlab.com/sand7/sand/-/tree/main/doc"
+description = "Processing sensor and video data made easy"
+authors = [
+  "Moritz Sauter <sauter@synyx.de>",
+  "David Bauer <bauer@synyx.de>",
+  "Maximilian Otten <maximilian.otten@iml.fraunhofer.de>",
+]
+maintainers = [
+  "Moritz Sauter <sauter@synyx.de>",
+  "David Bauer <bauer@synyx.de>",
+]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: GPU",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Natural Language :: German",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: Multimedia :: Video :: Capture",
+  "Topic :: Multimedia :: Video :: Conversion",
+  "Topic :: Multimedia :: Video :: Display",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+
+packages = [{ include = "sand", from = "src" }]
+
+[tool.poetry.scripts]
+image_downloader = "sand.calibration.image_download:main"
+image_focal = "sand.calibration.image_focal:main"
+image_calibration = "sand.calibration.image_calibration:main"
+map_calibration = "sand.calibration.map_calibration:main"
+generate_calibration_image = "sand.calibration.generate_calibration_image:main"
+sand = "sand.cli:run"
+
+[tool.poetry.dependencies]
+# mlcvzoo-yolox 4.0.2 > yolox 0.3 > onnx==1.8.1 which breaks on py3.9||py3.10
+python = "~3.8"
+
+numpy = "^1.21.4"
+nptyping = "^2.2.0"
+python-prctl = "^1.8.1"
+overrides = "^6.1.0"
+yaml-config-builder = "^6.0.0"
+paho-mqtt = "^1.6.1"
+
+# fix to lower than 4.6 because pylint errors:
+# https://github.com/opencv/opencv-python/issues/676
+# https://github.com/opencv/opencv-python/issues/570
+opencv-contrib-python = "~4.5"
+
+flask = { version = "^2.1.2", optional = true }
+flask-socketio = { version = "^5.2.0", optional = true }
+eventlet = { version = "^0.33.1", optional = true }
+
+influxdb-client = { version = "^1.30.0", optional = true }
+
+mlcvzoo-base = { version = "^3.2.1", optional = true }
+mlcvzoo-mmdetection = { version = "^3.0.1", optional = true }
+mlcvzoo-yolox = { version = "^4.0.2", optional = true }
+
+[tool.poetry.extras]
+neural_base = ["mlcvzoo_base"]
+neural_yolox = ["mlcvzoo_base", "mlcvzoo_yolox"]
+neural_mmdet = ["mlcvzoo_base", "mlcvzoo_mmdetection"]
+neural_full = ["mlcvzoo_base", "mlcvzoo_yolox", "mlcvzoo_mmdetection"]
+publisher = ["flask", "flask-socketio", "eventlet"]
+metric = ["influxdb-client"]
+full = [
+  "mlcvzoo_base",
+  "mlcvzoo_yolox",
+  "mlcvzoo_mmdetection",
+  "flask",
+  "flask-socketio",
+  "eventlet",
+  "influxdb-client",
+]
+
+[tool.poetry.dev-dependencies]
+adr-tools-python = "*"
+black = "*"
+isort = "*"
+mock = "*"
+mypy = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+pyupgrade = "*"
+types-flask = "*"
+types-pkg_resources = "*"
+types-pyyaml = "*"
+types-toml = "*"
+
+[build-system]
+requires = ["poetry_core>=1.0.0", "setuptools"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+markers = [
+  "real_threads: Internal test marker for using real threads instead of mocks",
+]
+
+[tool.pylint.master]
+extension-pkg-whitelist = ["numpy", "cv2"]
+jobs = 0
+
+[tool.pylint.basic]
+good-names = ["i", "_", "__", "___", "T", "id"]
+
+[tool.pylint.typecheck]
+# pure c module
+generated-members = ["prctl.set_name"]
+# necessary, at least for systems without cuda
+# otherwise extension-pkg-whitelist should do the trick
+ignored-modules = ["cv2.fisheye"]
+
+[tool.pylint.message_control]
+disable = [
+  "missing-module-docstring",
+  "missing-class-docstring",
+  "missing-function-docstring",
+  "line-too-long",
+  "too-few-public-methods",
+  "duplicate-code",
+  "too-many-ancestors",
+]
+enable = ["useless-suppression"]
+
+[tool.pylint.design]
+max-attributes = 10
+
+[tool.mypy]
+junit_xml = "xunit-reports/xunit-result-mypy.xml"
+
+# output style configuration
+show_column_numbers = true
+show_error_codes = true
+pretty = true
+
+# additional warnings
+# strict = true # not yet
+warn_return_any = true
+warn_unused_ignores = true
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_no_return = true
+
+no_implicit_optional = true
+warn_unreachable = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+# disallow_any_explicit = true
+disallow_any_generics = true
+disallow_untyped_calls = true
+
+enable_error_code = ["ignore-without-code"]
+
+# ignores that library has no typing information with it
+[[tool.mypy.overrides]]
+module = [
+  "prctl",
+  "cv2",             # https://github.com/opencv/opencv/issues/14590
+  "cv2.fisheye",
+  "related",
+  "influxdb_client",
+  "paho.*",
+]
+ignore_missing_imports = true

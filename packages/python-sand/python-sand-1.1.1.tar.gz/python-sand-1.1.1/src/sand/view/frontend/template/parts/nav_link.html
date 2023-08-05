@@ -1,0 +1,9 @@
+<li class="nav-item mb-3">
+    {% if active_link == link %}
+        <a class="nav-item btn btn-danger w-100" href="{{ link }}">
+    {% else %}
+        <a class="nav-item btn btn-light w-100" href="{{ link }}">
+    {% endif %}
+    <span >{{ text }}</span>
+  </a>
+</li>

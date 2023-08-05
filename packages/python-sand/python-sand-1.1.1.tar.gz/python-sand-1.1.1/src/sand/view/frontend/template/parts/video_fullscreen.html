@@ -1,0 +1,21 @@
+<div class="col-12">
+    <div class="card mb-3 text-white bg-secondary">
+        <div class="card-header">{{ camera_config.0 }}</div>
+        <div class="card-body" id="full_{{ camera_config.0 }}">
+            <script>
+                const camera_name = "{{ camera_config.0 }}";
+                const camera_port = "{{ camera_config.1 }}";
+                const host = window.location.host.replace(/:.*$/, "");
+
+                camera_url = `http://${host}:${camera_port}/mjpeg?resolution=1024x640&neural=true`;
+
+                const img = document.createElement("img");
+                img.className = "img-fluid";
+                img.alt = "mjpeg stream";
+                img.src = camera_url;
+
+                document.getElementById(`full_${camera_name}`).append(img);
+            </script>
+        </div>
+    </div>
+</div>

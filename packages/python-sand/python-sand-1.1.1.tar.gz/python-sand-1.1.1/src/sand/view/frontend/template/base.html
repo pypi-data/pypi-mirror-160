@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <title>
+        Automodal Dashboard
+    </title>
+    <!-- CSS Files -->
+    <link id="pagestyle" href="../assets/css/dashboard.css" rel="stylesheet"/>
+    <link id="pagestyle" href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+
+<body class="g-sidenav-show bg-dark">
+<div class="container mt-3">
+    <div class="row" style="min-height: 100%; height: 100%;">
+    <aside class="navbar bg-secondary col-2 h-100 d-inline-block"
+           id="sidenav-main">
+        <div class="navbar-nav mb-3">
+            <img src="../assets/img/logo.png" class="img-rounded img-fluid" alt="main_logo">
+        </div>
+        <div>
+            <ul class="navbar-nav mb-2 flex-column">
+                {% set icon = "dashboard" %}
+                {% set link = "/" %}
+                {% set text = "Dashboard" %}
+                {% include "parts/nav_link.html" %}
+
+                <li class="nav-item mb-1">
+                    <h5>Cameras</h5>
+                </li>
+
+                {% for config in camera_configs %}
+                    {% set icon = "videocam" %}
+                    {% set link = "/camera/" + config.0 %}
+                    {% set text = config.0 %}
+                    {% include "parts/nav_link.html" %}
+                {% endfor %}
+
+                {% if is_map_active %}
+                    <li class="nav-item mb-2">
+                        <h5>Map</h5>
+                    </li>
+                    {% set icon = "map" %}
+                    {% set link = "/map" %}
+                    {% set text = "all" %}
+                    {% include "parts/nav_link.html" %}
+
+                    {% set icon = "map" %}
+                    {% set link = "/map_video_only" %}
+                    {% set text = "only video" %}
+                    {% include "parts/nav_link.html" %}
+                {% endif %}
+            </ul>
+        </div>
+    </aside>
+    <main class="main-content position-relative col-10">
+        <!-- End Navbar -->
+        <div class="row">
+            {% block content %}{% endblock %}
+            <footer class="footer py-4  ">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-lg-between">
+                        <div class="col-lg-12">
+                            <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                                <li class="nav-item">
+                                    <a href="https://www.synyx.de" class="nav-link text-muted" rel="noopener"
+                                       target="_blank">Synyx</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://www.contargo.de" class="nav-link text-muted" rel="noopener"
+                                       target="_blank">Contargo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://www.iml.fraunhofer.de/" class="nav-link text-muted" rel="noopener"
+                                       target="_blank">Fraunhofer IML</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+</div>
+</div>
+<script src="../assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

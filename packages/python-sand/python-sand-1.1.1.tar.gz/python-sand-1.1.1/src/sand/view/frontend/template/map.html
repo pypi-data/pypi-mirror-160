@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="col-12">
+        <div class="card mb-3 text-white bg-secondary ">
+            <div class="card-header">{{ name }}</div>
+            <div class="card-body" id="full_map">
+                <script>
+                    const camera_port = "{{ port }}";
+                    const host = window.location.host.replace(/:.*$/, "");
+
+                    camera_url = `http://${host}:${camera_port}/mjpeg?resolution=700x800`;
+
+                    const img = document.createElement("img");
+                    img.alt = "mjpeg stream";
+                    img.src = camera_url;
+
+                    document.getElementById("full_map").append(img);
+                </script>
+            </div>
+        </div>
+    </div>
+{% endblock %}
