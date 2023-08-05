@@ -1,0 +1,2 @@
+[console_scripts]
+flowui = flowui.cli:cli
