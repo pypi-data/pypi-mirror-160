@@ -1,0 +1,52 @@
+{% extends 'psu_base/layout/main.html' %}
+{% load base_taglib %}
+
+{%block title%}Manage New Applications{%endblock%}}
+{% block scripts %}
+    <link rel="stylesheet" href="{% static_content_url%}/wdt/datatables/datatables.min.css" />
+    <script src="{% static_content_url%}/wdt/datatables/datatables.min.js"></script>
+{% endblock %}
+
+{% block pagecontent %}
+    <div id="application-form" >
+    <h1>Add New Applications</h1>
+    <table style="width: 100%;max-width:800px;">
+        <tr>
+            <td>
+                <label for="app_code">Application:</label>
+            </td>
+            <td>
+                 <input type="text" name="app_code" id="app_code" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="app_title">Application Title:</label>
+            </td>
+            <td>
+                <input type="text" name="title" id="app_title" class="form-control" />
+            </td>
+        </tr>
+    </table>
+
+    <button type="button" class="btn btn-success" id="new-application-btn" onclick="new_application();">
+        Submit
+    </button>
+    </div>
+    <br><br>
+    <table id="applications_table" class="table table-condensed table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Application</th>
+            <th scope="col">Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% include 'psu_authorize/applications/_rows.html' with apps=apps%}
+    </tbody>
+    </table>
+
+    <script type="text/javascript">
+        {%include 'psu_authorize/applications/index.js'%}
+    </script>
+{% endblock %}
