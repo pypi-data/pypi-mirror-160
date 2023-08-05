@@ -1,0 +1,4 @@
+Click>=8.0
+attrs>=21.0
+pyyaml
+types-PyYAML
