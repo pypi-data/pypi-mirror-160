@@ -1,0 +1,5 @@
+[console_scripts]
+xmltree2xml = xmltree2xml.main:main
+
+[entry_points]
+xmltree2xml = xmltree2xml.main:main
