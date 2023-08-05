@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+Blender_Renderer.egg-info/PKG-INFO
+Blender_Renderer.egg-info/SOURCES.txt
+Blender_Renderer.egg-info/dependency_links.txt
+Blender_Renderer.egg-info/top_level.txt
+blender_renderer/__init__.py
+blender_renderer/cleaner.py
+blender_renderer/renderer.py
+blender_renderer/scripts/get_render_settings.py
+blender_renderer/scripts/get_texture_names.py
+blender_renderer/scripts/render.py
+blender_renderer/scripts/unpack.py
