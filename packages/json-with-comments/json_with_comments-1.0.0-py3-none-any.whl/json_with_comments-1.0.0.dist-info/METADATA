@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: json-with-comments
+Version: 1.0.0
+Summary: JSON with Comments for Python
+Home-page: https://github.com/n-takumasa/json-with-comments
+License: MIT
+Author: Takumasa Nakamura
+Author-email: n.takumasa@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/n-takumasa/json-with-comments
+Description-Content-Type: text/markdown
+
+# JSON with Comments for Python
+
+## Features
+* Remove single line (`//`) and block comments (`/* */`)
+* Remove trailing commas from arrays and objects
+
+## Usage
+
+```py
+import jsonc
+```
+And just like `json` module
+
