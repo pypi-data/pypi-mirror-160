@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mcpi-world
+Version: 1.0.1
+Summary: level.dat editor for MCPE versions => 0.8.1
+Home-page: UNKNOWN
+Author: The StevePi Organization
+Maintainer: LEHAtupointow
+Maintainer-email: leha2@tuxfamily.org
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: amulet-nbt
+
+# mcpi_world
+
+```
+pip3 install mcpi_world
+```
+
+
+
+## TODO
+
+- [ ] pre-set generator instead of blank file
+
+
