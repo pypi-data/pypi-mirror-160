@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: qkcli
+Version: 0.0.1
+Summary: Simple library to allow fast creation of CLI applications
+Home-page: https://github.com/dariusmaverick/qkcli
+Author: John D. Maverick
+Author-email: johndariusmaverick@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# qkcli
+
+Quick-CLI is a simple library that helps the creation of CLI applications.
+
+
