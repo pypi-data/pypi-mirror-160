@@ -1,0 +1,7 @@
+click
+pyyaml
+posthog
+
+[dev]
+pytest
+flake8
