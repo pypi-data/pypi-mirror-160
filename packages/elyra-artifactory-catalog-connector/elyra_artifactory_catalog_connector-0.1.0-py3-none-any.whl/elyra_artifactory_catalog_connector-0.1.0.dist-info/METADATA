@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: elyra-artifactory-catalog-connector
+Version: 0.1.0
+Summary: Elyra component catalog connector for Artifactory
+Home-page: https://github.com/elyra-ai/examples/tree/main/component-catalog-connectors/artifactory-connector
+Author: Elyra Maintainers
+License: Apache License Version 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+
+
+            Elyra component catalog connector for Artifactory
+            

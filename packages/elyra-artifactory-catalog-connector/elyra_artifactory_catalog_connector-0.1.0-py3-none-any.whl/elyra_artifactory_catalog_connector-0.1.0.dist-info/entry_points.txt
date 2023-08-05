@@ -1,0 +1,5 @@
+[elyra.component.catalog_types]
+artifactory-catalog = artifactory_catalog_connector.artifactory_catalog_connector:ArtifactoryComponentCatalogConnector
+
+[metadata.schemas_providers]
+artifactory-catalog-schema = artifactory_catalog_connector.artifactory_schema_provider:ArtifactorySchemasProvider
