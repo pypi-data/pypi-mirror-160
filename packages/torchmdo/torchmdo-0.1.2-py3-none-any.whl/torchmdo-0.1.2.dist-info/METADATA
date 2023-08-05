@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: torchmdo
+Version: 0.1.2
+Summary: Multidisciplinary design optimization made fast with PyTorch and modern automatic differentiation.
+Home-page: https://github.com/treforevans/torchmdo
+Author: Trefor Evans
+Author-email: trefor@infera.ai
+License: AGPL-3.0-or-later
+Project-URL: Documentation, https://torchmdo.readthedocs.io/
+Project-URL: Source, https://github.com/treforevans/torchmdo
+Keywords: Optimization,Engineering,Design,Aerodynamics,FEA
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Provides-Extra: all
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: check-manifest ; extra == 'all'
+Requires-Dist: ipython ; extra == 'all'
+Requires-Dist: ipykernel ; extra == 'all'
+Requires-Dist: nbsphinx ; extra == 'all'
+Requires-Dist: sphinx (~=5.0.2) ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: ipython ; extra == 'docs'
+Requires-Dist: ipykernel ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: sphinx (~=5.0.2) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: matplotlib ; extra == 'examples'
+
+torchMDO
+========
+
+Multidisciplinary design optimization made fast with PyTorch and modern automatic differentiation.
+
+At its heart, torchMDO is a library of optimizers and tools that allow you to build out large-scale
+models to assess a design in PyTorch (with its Numpy-like syntax) and to optimize the design extremely quickly by taking
+advantage of its automatic differentiation capabilities as well as its GPU acceleration.
+
+Also, if you have a model that has previously been built in Python, you can convert it to PyTorch (which is
+typically straightforward if it was originally implemented in Numpy) and
+you can immediately plug it into torchMDO.
+
+Online documentation (and examples):
+    https://torchmdo.readthedocs.io/
+
+Installation:
+    Install using pip::
+
+        pip install torchmdo # minimal install
+        pip install torchmdo[examples] # to be able to run the examples
+
+    To upgrade to the latest (unstable) version, run::
+
+        pip install --upgrade git+https://github.com/treforevans/torchmdo.git
+
+Source code repository (and issue tracker):
+    https://github.com/treforevans/torchmdo/
+
+License:
+    AGPL-3.0-or-later -- see the file ``LICENSE`` for details.
