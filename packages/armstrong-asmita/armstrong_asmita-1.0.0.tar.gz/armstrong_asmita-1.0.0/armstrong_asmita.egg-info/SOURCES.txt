@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+armstrong_asmita.egg-info/PKG-INFO
+armstrong_asmita.egg-info/SOURCES.txt
+armstrong_asmita.egg-info/dependency_links.txt
+armstrong_asmita.egg-info/top_level.txt
+package/armstrong.py
