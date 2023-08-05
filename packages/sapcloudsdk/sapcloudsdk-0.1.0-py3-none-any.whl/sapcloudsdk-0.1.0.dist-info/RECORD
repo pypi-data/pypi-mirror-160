@@ -1,0 +1,10 @@
+sapcloudsdk/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+sapcloudsdk/__main__.py,sha256=cmn-6jUNAUqO-M4TTZHBMabxPXStv3cYAyT44kLq1p0,94
+sapcloudsdk/arguments.py,sha256=bLaictgFzP-EG-T-583GgmpO5fJNuA4pjZ16fJyB6aI,1733
+sapcloudsdk/github.py,sha256=UfRrRxAqgxbgeovOXcbhUACGJSqUJW6jMtsmkGCFGrM,5193
+sapcloudsdk/run.py,sha256=ggsK5V-fUMKw9TwkJ1bw3qXwlJ6idr2slpYFl_yGc_o,1564
+sapcloudsdk/sdk.py,sha256=Mu8BZouaWQGJcqD_RiD3yhbwYkVXT6CrU5IcBAxRtnU,3145
+sapcloudsdk-0.1.0.dist-info/entry_points.txt,sha256=FAyv0osrlHpjLNX5cvW0Ld6GzNcJKJf0xPh4OFWS5L8,52
+sapcloudsdk-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sapcloudsdk-0.1.0.dist-info/METADATA,sha256=MSe0grDTUkO_zigOaT_Tf0rRy1YYTEL6KCZ0rjgR7CU,338
+sapcloudsdk-0.1.0.dist-info/RECORD,,
