@@ -1,0 +1,11 @@
+image: igwn/publisher:latest
+
+pdf:
+  before_script:
+      - cp SoG/test/files/macro_GW_GRB.tex .
+      - cp SoG/tex/files/* .
+  script: latexmk --pdf SoG_LIV_arxiv_aps.tex
+  artifacts:
+    paths:
+    - SoG_LIV_arxiv_aps.pdf
+    expire_in: 4 week
