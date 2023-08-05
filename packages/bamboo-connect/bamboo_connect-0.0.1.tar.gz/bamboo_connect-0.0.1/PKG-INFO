@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: bamboo_connect
+Version: 0.0.1
+Summary: Bamboo Connect is a lightweight ETL (Extract, Transform, Load) library with examples and templates. It enables developers to quickly extract, transform, reconcile and then load resulting data securely. This avoids time consuming manual error prone tasks.
+Home-page: https://github.com/LeadTechie/BambooConnect
+Author: Chris Rowe
+Author-email: leadtechie@gmail.com
+License: MIT
+Download-URL: https://github.com/LeadTechie/BambooConnect/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: ETL,PANDAS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
