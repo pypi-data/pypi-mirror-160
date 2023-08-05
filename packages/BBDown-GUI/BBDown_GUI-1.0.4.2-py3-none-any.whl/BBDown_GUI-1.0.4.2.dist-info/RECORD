@@ -1,0 +1,15 @@
+BBDown_GUI/BBDown.exe,sha256=n9kzCNTjjsrtSlZlEQUPjuB1qqyl7b5wm276dUNYs_A,22099456
+BBDown_GUI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BBDown_GUI/__main__.py,sha256=XPyD1R5hZBb6211i76O-9tMzocMSYbmRgO7fCncvfyQ,13626
+BBDown_GUI/aria2c.exe,sha256=JkbF0-uLD8V-hfMENM7z06Jh0B8GX8StI_Agwx8d1r0,5596672
+BBDown_GUI/ffmpeg.exe,sha256=h6ayebEfrKLbhSHKU-seON8hFBAMRrbPHiv0cwc5ryE,105342976
+BBDown_GUI/UI/about.py,sha256=D3eLyAk1EBCMbOnt5g6heFdUsvgX8Ce1Ho--2bOUaMk,5962
+BBDown_GUI/UI/favicon.ico,sha256=JoFWHrJOdDX-oazybzr5Xk78n31FFYe1i-9i8DDzN-k,4286
+BBDown_GUI/UI/main.py,sha256=aRKv3fDqHI2_fL9PtooJM_KtX6_QQetOZpsOijU5Abg,35697
+BBDown_GUI/UI/qrcode.py,sha256=ODP-jaYHQBIND250AG_JA6LYloPZ7Ruu7KYYJjlFfNc,1376
+BBDown_GUI-1.0.4.2.dist-info/LICENSE,sha256=zyGpfV7-zcfEUcExeGSdRqknWyg3Of08BTvlRtcRJuo,1084
+BBDown_GUI-1.0.4.2.dist-info/METADATA,sha256=TDQMl7nW8kflEYaRCha9aTDAAjgOMFXq_y5q9hUz19U,1883
+BBDown_GUI-1.0.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+BBDown_GUI-1.0.4.2.dist-info/entry_points.txt,sha256=Ipl96oCtnSrSx4sHKz4ZA4pft-9YLeVQVMm7KaYCgBU,168
+BBDown_GUI-1.0.4.2.dist-info/top_level.txt,sha256=ckoyAT-pySLeRk1Y8mSHeoLnMIaoziewqsdN450wXlQ,11
+BBDown_GUI-1.0.4.2.dist-info/RECORD,,
