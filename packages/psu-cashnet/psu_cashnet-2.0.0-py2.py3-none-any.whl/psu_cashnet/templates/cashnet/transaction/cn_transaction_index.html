@@ -1,0 +1,130 @@
+{% extends 'psu_base/layout/main.html' %}
+{% load base_taglib %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title%}Cashnet Transactions{%endblock%}</title>
+    {% block scripts %}
+
+    {% endblock %}
+</head>
+<body>
+    {% block pagecontent %}
+
+    <h1>Cashnet Transactions</h1>
+
+    <form method="get" class="float-right">
+        <label>
+            Filter:
+            <input type="text" name="keywords" value="{{keywords|default:''}}" />
+            <button type="submit">{%fa fa-filter%}</button>
+        </label>
+    </form><br style="clear:both;" />
+    {%if keywords%}
+        <span class="code" style="display: inline-block;margin-bottom: 5px;">
+            {{keywords}}
+            <a href="?keywords=" style="color: #777;">{%fa fa-times%}</a>
+        </span>
+    {%endif%}
+
+    <table class="table table-striped table-hover table-condensed" id="transaction_table">
+        <thead>
+            <tr>
+                <th scope="col"><a href="?sort=id">Transaction</a></th>
+                <th scope="col"><a href="?sort=customer_name">Customer</a></th>
+                <th scope="col"><a href="?sort=customer_psu_id">PSU ID</a></th>
+                <th scope="col"><a href="?sort=last_updated">Activity Date</a></th>
+                <th scope="col">Amount</th>
+                <th scope="col"><a href="?sort=reference_id">Object Reference</a></th>
+                <th scope="col"><a href="?sort=status_code">Transaction Status</a></th>
+                <th scope="col"><a href="?sort=post_processing_status">Post-Processing Status</a></th>
+            </tr>
+        </thead>
+        <tbody>
+        {%for ii in transactions%}
+            <tr>
+                <td><a href="{%url 'cashnet:transaction_detail' ii.id%}">{{ii.id}}</a></td>
+                <td>{{ii.customer_name}}</td>
+                <td>{{ii.customer_psu_id}}</td>
+                <td>{{ii.last_updated}}</td>
+                <td>{%format_currency ii.total_amount%}</td>
+                <td>
+                    {## Allow apps to easily override this (i.e. with a link or additional info) ##}
+                    {%include 'cashnet/transaction/_cn_tx_object_reference_list.html' with tx=ii%}
+                </td>
+                <td>
+                    {%if ii.status_code == 'R'%}
+
+                        {%if ii.cashnet_result_code == 0%}
+                            <div class="alert alert-danger">
+                                {{ii.status_desc}}
+                                <div class="text-warning sm"><b>Success</b></div>
+                            </div>
+                        {%else%}
+                            <div class="alert alert-danger">
+                                {{ii.status_desc}}
+                                <div class="text-muted sm">{{ii.cashnet_result_message}}</div>
+                            </div>
+                        {%endif%}
+                    {%else%}
+                        {{ii.status_desc}}
+                    {%endif%}
+                </td>
+                <td>
+                    {## Successful payment and not completed post-processing ##}
+                    {%if ii.cashnet_result_code == 0 and ii.post_processing_status != 'COMPLETE'%}
+                        {%fa fa-exclamation-triangle fa-fw text-danger%}
+                    {## Successfull payment and processing#}
+                    {%elif ii.cashnet_result_code == 0 %}
+                        {%fa fa-smile-o fa-fw text-success%}
+                    {%endif%}
+
+                    {{ii.post_processing_status}}
+                </td>
+            </tr>
+
+            {## Related Transactions (for the same object) ##}
+            {%for rel in related|get:ii.id%}
+                <tr>
+                    <td><a href="{%url 'cashnet:transaction_detail' rel.id%}">{{rel.id}}</a></td>
+                    <td class="text-muted">{{rel.customer_name}}</td>
+                    <td class="text-muted">{{rel.customer_psu_id}}</td>
+                    <td>{{rel.last_updated}}</td>
+                    <td class="text-muted">{%format_currency rel.total_amount%}</td>
+                    <td class="text-muted">
+                        {## Allow apps to easily override this (i.e. with a link or additional info) ##}
+                        {%include 'cashnet/transaction/_cn_tx_object_reference_list.html' with tx=rel%}
+                    </td>
+                    <td>
+                        {%if rel.status_code == 'S'%}
+
+                            <div class="alert alert-warning">
+                                {{rel.status_desc}}<br />
+                                <b>Potential Duplicate Payment</b>
+                            </div>
+                        {%endif%}
+                    </td>
+                    <td>
+                        {## Successful payment and not completed post-processing ##}
+                        {%if rel.cashnet_result_code == 0 and rel.post_processing_status != 'COMPLETE'%}
+                            {%fa fa-exclamation-triangle fa-fw text-danger%}
+                        {## Successful payment and processing - POSSIBLE DUPLICATE ##}
+                        {%elif rel.cashnet_result_code == 0 %}
+                            {%fa fa-bell fa-fw text-warning%}
+                        {%endif%}
+                        {{rel.post_processing_status}}
+                    </td>
+                </tr>
+            {%endfor%}
+        {%endfor%}
+        </tbody>
+    </table>
+
+    {%pagination transactions%}
+
+
+    {% endblock %}
+</body>
+</html>
