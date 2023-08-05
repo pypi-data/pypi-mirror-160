@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: daita
+Version: 0.0.1
+Summary: Upload Data To Daita Service
+Home-page: https://github.com/daita-technologies/daita-python-library
+Author: daita
+Author-email: contact@daita.tech
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
