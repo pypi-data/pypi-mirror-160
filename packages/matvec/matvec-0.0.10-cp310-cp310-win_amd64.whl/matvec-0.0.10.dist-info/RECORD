@@ -1,0 +1,7 @@
+matvec/__init__.py,sha256=t8SvO9Hz98kaHRrb52mOI4rGMy64GBtuxZ9KRrVXGWc,296
+matvec/matvec.py,sha256=-CtmblR4cnbOtfgt7TVku5du8dBaWzPkCAt79ZY5kY4,9661
+matvec/matvec/py.pyd,sha256=ZWzdzprhp4WerwzOPQstFODexnOz9B8z_kErGm_uGIA,34816
+matvec-0.0.10.dist-info/METADATA,sha256=5E0o4etN66ZFB-t9I0rsIZ7npCv0N9oAmRC8ymr8HyE,2004
+matvec-0.0.10.dist-info/WHEEL,sha256=XLhL6_LGbcSb6E23Xy6hQ7SBsl9Luvz0KHWMAPovEWA,102
+matvec-0.0.10.dist-info/top_level.txt,sha256=WbjHD87fptT0diZKLkLgAafiiw_9MEyKLu73VafwpbQ,21
+matvec-0.0.10.dist-info/RECORD,,
