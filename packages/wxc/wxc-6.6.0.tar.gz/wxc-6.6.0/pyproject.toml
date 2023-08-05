@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.black]
+line-length = 80
+
+[tool.coverage.run]
+omit = [
+  "setup.py",
+  "wxc/__main__.py",
+  "install_app.py",
+  "tests/data/*.py",
+]
+
+[tool.mypy]
+python_version = "3.7"
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest]
+filterwarnings = [
+  "error",
+]

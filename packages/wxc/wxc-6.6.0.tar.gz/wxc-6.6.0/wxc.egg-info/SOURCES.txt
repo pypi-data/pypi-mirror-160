@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wxc/__init__.py
+wxc/__main__.py
+wxc/api.py
+wxc/cli.py
+wxc/levenshtein.py
+wxc.egg-info/PKG-INFO
+wxc.egg-info/SOURCES.txt
+wxc.egg-info/dependency_links.txt
+wxc.egg-info/entry_points.txt
+wxc.egg-info/requires.txt
+wxc.egg-info/top_level.txt

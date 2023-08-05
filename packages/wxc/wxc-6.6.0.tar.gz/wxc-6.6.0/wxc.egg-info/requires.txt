@@ -1,0 +1,16 @@
+rich>=10.13.0
+
+[:python_version < "3.10"]
+stdlib-list>=0.8
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+matplotlib-inline
+numpy
+pytest>=6.0.2
+pytest-cov
+pytest-mock>=3.5.1
+schema>=0.7.2
+toml
