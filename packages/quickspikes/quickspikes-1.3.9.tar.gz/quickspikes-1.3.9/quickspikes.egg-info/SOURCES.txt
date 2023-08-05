@@ -1,0 +1,17 @@
+COPYING
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+quickspikes/__init__.py
+quickspikes/spikes.pyx
+quickspikes/tools.py
+quickspikes.egg-info/PKG-INFO
+quickspikes.egg-info/SOURCES.txt
+quickspikes.egg-info/dependency_links.txt
+quickspikes.egg-info/requires.txt
+quickspikes.egg-info/top_level.txt
+test/intra_spike.npy
+test/test_quickspikes.py
