@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+torchgaussianfilter/__init__.py
+torchgaussianfilter/gaussianfilter.py
+torchgaussianfilter.egg-info/PKG-INFO
+torchgaussianfilter.egg-info/SOURCES.txt
+torchgaussianfilter.egg-info/dependency_links.txt
+torchgaussianfilter.egg-info/not-zip-safe
+torchgaussianfilter.egg-info/requires.txt
+torchgaussianfilter.egg-info/top_level.txt
