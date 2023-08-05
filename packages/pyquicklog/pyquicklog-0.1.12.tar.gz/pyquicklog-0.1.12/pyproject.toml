@@ -1,0 +1,18 @@
+[project]
+name = "pyquicklog"
+version = "0.1.12"
+description = "A simple logger for python"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pyquicklog"]
+namespaces = false
