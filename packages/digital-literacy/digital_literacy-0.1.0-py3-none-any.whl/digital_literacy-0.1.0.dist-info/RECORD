@@ -1,0 +1,15 @@
+crawler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crawler/drivers/chromedriver.exe,sha256=gQRY6o2klYwu9YcIA1UuxWZ95X7VOmAj9Qhb9CwRvnc,11735552
+crawler/items.py,sha256=FuNrtkIWY-38KjGybKVQQmz93LiEpXThsG1-ROfaJUE,760
+crawler/middlewares.py,sha256=OoYIYtqMm3-fprr8UsO9YOBfGLhHvu_pSsnZRB13lWk,3706
+crawler/parsers/LMUParser.py,sha256=6HNPoSioMjmk4lhJ9808WC2W-bH45n_ehogmcSPuEWY,3874
+crawler/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crawler/pipelines.py,sha256=PIshAvUJaxzRq9adlQLunk6YrJXeeWb50C3e80EYero,3003
+crawler/settings.py,sha256=9-xC8nbHyXjEump9rSHzWeL_6w7OQbqbGsqGwd8QYfg,3272
+crawler/spiders/__init__.py,sha256=a-Jax6MTMZC2HOw3mUBcNu-T44dOUHDsb22Oly4HTnM,165
+crawler/spiders/lmu.py,sha256=77ixILDO8iHgqP6pJegtm_lrZHBE6w8eP8uj4wc4Fh4,7139
+crawler/spiders/tum.py,sha256=4-LyYNLvS0F2Ww3IAOl3MVitfG89OCaWVt5GXDaaNNw,4942
+digital_literacy-0.1.0.dist-info/LICENSE.txt,sha256=PmvR2kcKPvgfuFvFg-b-01GF34iO30fPC0TwARuKotw,1128
+digital_literacy-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+digital_literacy-0.1.0.dist-info/METADATA,sha256=yu-Ylfoe0hzcVwVhCKQvZzBkNaJMfSmGvZVwMgtQXok,917
+digital_literacy-0.1.0.dist-info/RECORD,,
