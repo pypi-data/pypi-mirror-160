@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/eplier/__init__.py
+src/eplier.egg-info/PKG-INFO
+src/eplier.egg-info/SOURCES.txt
+src/eplier.egg-info/dependency_links.txt
+src/eplier.egg-info/requires.txt
+src/eplier.egg-info/top_level.txt
