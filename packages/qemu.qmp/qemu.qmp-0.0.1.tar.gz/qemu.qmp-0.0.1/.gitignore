@@ -1,0 +1,28 @@
+# Python detritus
+__pycache__
+
+# linter/tooling cache
+.mypy_cache/
+.cache/
+
+# python packaging
+build/
+dist/
+qemu.qmp.egg-info/
+.eggs/
+
+# editor config, tool cache, etc.
+.idea/
+.vscode/
+.*~
+\#*\#
+
+# virtual environments (pipenv et al)
+.venv/
+.tox/
+.dev-venv/
+
+# Coverage.py reports
+.coverage
+.coverage.*
+htmlcov/

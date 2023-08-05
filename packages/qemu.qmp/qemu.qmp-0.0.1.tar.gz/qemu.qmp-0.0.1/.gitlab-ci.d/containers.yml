@@ -1,0 +1,28 @@
+# Heavily inspired-by/copy-pasted-from the
+# container template from the QEMU source tree.
+
+.container_job_template:
+  image: docker:stable
+  stage: containers
+  services:
+    - docker:dind
+  before_script:
+    - export TAG="$NAME"
+    - export FQTAG="$CI_REGISTRY_IMAGE/$TAG:latest"
+    - docker info
+    - docker login $CI_REGISTRY -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD"
+  script:
+    - echo "TAG:$TAG"
+    - echo "FQTAG:$FQTAG"
+    - cd .gitlab-ci.d
+    - docker pull "$FQTAG" || true
+    - docker build --cache-from "$FQTAG" -t "$TAG" -f "$NAME.Dockerfile" .
+    - docker tag "$TAG" "$FQTAG"
+    - docker push "$FQTAG"
+  after_script:
+    - docker logout
+
+python-container:
+  extends: .container_job_template
+  variables:
+    NAME: python

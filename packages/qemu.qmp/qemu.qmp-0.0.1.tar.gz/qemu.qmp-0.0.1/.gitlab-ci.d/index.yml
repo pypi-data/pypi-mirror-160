@@ -1,0 +1,14 @@
+# This file contains the set of jobs run by this project:
+# https://gitlab.com/qemu-project/python-qemu-qmp/-/pipelines
+
+stages:
+  - containers
+  - build
+  - test
+  - publish
+
+include:
+  - local: '/.gitlab-ci.d/containers.yml'
+  - local: '/.gitlab-ci.d/build.yml'
+  - local: '/.gitlab-ci.d/test.yml'
+  - local: '/.gitlab-ci.d/publish.yml'

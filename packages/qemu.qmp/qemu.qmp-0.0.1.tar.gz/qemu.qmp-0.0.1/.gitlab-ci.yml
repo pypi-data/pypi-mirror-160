@@ -1,0 +1,3 @@
+# Hello, is it me you're looking for?
+include:
+  - local: '/.gitlab-ci.d/index.yml'

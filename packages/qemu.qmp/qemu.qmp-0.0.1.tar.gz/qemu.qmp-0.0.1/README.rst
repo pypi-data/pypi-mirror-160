@@ -1,0 +1,189 @@
+qemu.qmp: QEMU Monitor Protocol Library
+=======================================
+
+Welcome! ``qemu.qmp`` is a `QEMU Monitor Protocol
+<https://gitlab.com/qemu-project/qemu/-/blob/master/docs/interop/qmp-intro.txt>`_
+(“QMP”) library written in Python, using `asyncio
+<https://docs.python.org/3/library/asyncio.html>`_. It is used to send
+QMP messages to running `QEMU <https://www.qemu.org/>`_ emulators. It
+requires Python 3.6+ and has no mandatory dependencies.
+
+This library can be used to communicate with QEMU emulators, the `QEMU
+Guest Agent
+<https://qemu.readthedocs.io/en/latest/interop/qemu-ga.html>`_ (QGA),
+the `QEMU Storage Daemon
+<https://qemu.readthedocs.io/en/latest/tools/qemu-storage-daemon.html>`_
+(QSD), or any other utility or application that `speaks QMP
+<https://gitlab.com/qemu-project/qemu/-/blob/master/docs/interop/qmp-intro.txt>`_.
+
+This library makes as few assumptions as possible about the actual
+version or what type of endpoint it will be communicating with;
+i.e. this library does not contain command definitions and does not seek
+to be an SDK or a replacement for tools like `libvirt
+<https://libvirt.org/>`_ or `virsh
+<https://libvirt.org/manpages/virsh.html>`_. It is "simply" the protocol
+(QMP) and not the vocabulary (`QAPI
+<https://www.qemu.org/docs/master/devel/qapi-code-gen.html>`_). It is up
+to the library user (you!) to know which commands and arguments you want
+to send.
+
+
+Who is this library for?
+------------------------
+
+It is firstly for developers of QEMU themselves; as the test
+infrastructure of QEMU itself needs a convenient and scriptable
+interface for testing QEMU. This library was split out of the QEMU
+source tree in order to share a reference version of a QMP library that
+was usable both within and outside of the QEMU source tree.
+
+Second, it's for those who are developing *for* QEMU by adding new
+architectures, devices, or functionality; as well as targeting those who
+are developing *with* QEMU, i.e. developers working on integrating QEMU
+features into other projects such as libvirt, KubeVirt, Kata Containers,
+etc. Occasionally, using existing virtual-machine (VM) management stacks
+that integrate QEMU+KVM can make developing, testing, and debugging
+features difficult. In these cases, having more 'raw' access to QEMU is
+beneficial. This library is for you.
+
+Lastly, it's for power users who already use QEMU directly without the
+aid of libvirt because they require the raw control and power this
+affords them.
+
+
+Who isn't this library for?
+---------------------------
+
+It is not designed for anyone looking for a turn-key solution for VM
+management. QEMU is a low-level component that resembles a particularly
+impressive Swiss Army knife. This library does not manage that
+complexity and is largely "VM-ignorant". It's not a replacement for
+projects like `libvirt <https://libvirt.org/>`_, `virt-manager
+<https://virt-manager.org/>`_, `GNOME Boxes
+<https://wiki.gnome.org/Apps/Boxes>`_, etc.
+
+
+Installing
+----------
+
+This package can be installed from PyPI with pip::
+
+  > pip3 install qemu.qmp
+
+
+Usage
+-----
+
+Launch QEMU with a monitor, e.g.::
+
+  > qemu-system-x86_64 -qmp unix:qmp.sock,server=on,wait=off
+
+
+Then, at its simplest, script-style usage looks like this::
+
+  import asyncio
+  from qemu.qmp import QMPClient
+
+  async def main():
+      qmp = QMPClient('my-vm-nickname')
+      await qmp.connect('qmp.sock')
+
+      res = await qmp.execute('query-status')
+      print(f"VM status: {res['status']}")
+
+      await qmp.disconnect()
+
+  asyncio.run(main())
+
+
+The above script will connect to the UNIX socket located at
+``qmp.sock``, query the VM's runstate, then print it out
+to the terminal::
+
+  > python3 example.py
+  VM status: running
+
+
+For more complex usages, especially those that make full advantage of
+monitoring asynchronous events, refer to the `online documentation
+<https://qemu-project.gitlab.io/python-qemu-qmp/>`_ or type
+``import qemu.qmp; help(qemu.qmp)`` in your Python terminal of choice.
+
+
+Contributing
+------------
+
+Contributions are quite welcome! Please file bugs using the `GitLab
+issue tracker
+<https://gitlab.com/qemu-project/python-qemu-qmp/-/issues>`_. This
+project will accept GitLab merge requests, but due to the close
+association with the QEMU project, there are some additional guidelines:
+
+1. Please use the "Signed-off-by" tag in your commit messages. See
+   https://wiki.linuxfoundation.org/dco for more information on this
+   requirement.
+
+2. This repository won't squash merge requests into a single commit on
+   pull; each commit should seek to be self-contained (within reason).
+
+3. Owing to the above, each commit sent as part of a merge request
+   should not introduce any temporary regressions, even if fixed later
+   in the same merge request. This is done to preserve bisectability.
+
+4. Please associate every merge request with at least one `GitLab issue
+   <https://gitlab.com/qemu-project/python-qemu-qmp/-/issues>`_. This
+   helps with generating Changelog text and staying organized. Thank you
+   🙇
+
+
+Developing
+^^^^^^^^^^
+
+Optional packages necessary for running code quality analysis for this
+package can be installed with the optional dependency group "devel":
+``pip install qemu.qmp[devel]``.
+
+``make develop`` can be used to install this package in editable mode
+(to the current environment) *and* bring in testing dependencies in one
+command.
+
+``make check`` can be used to run the available tests. Consult
+``make help`` for other targets and tests that make sense for different
+occasions.
+
+Before submitting a pull request, consider running
+``make check-tox && make check-pipenv`` locally to spot any issues that will
+cause the CI to fail. These checks use their own `virtual environments
+<https://docs.python.org/3/tutorial/venv.html>`_ and won't pollute your working
+space.
+
+
+Stability and Versioning
+------------------------
+
+This package uses a major.minor.micro `SemVer versioning
+<https://semver.org/>`_, with the following additional semantics during
+the alpha/beta period (Major version 0):
+
+This package treats 0.0.z versions as "alpha" versions. Each micro
+version update may change the API incompatibly. Early users are advised
+to pin against explicit versions, but check for updates often.
+
+A planned 0.1.z version will introduce the first "beta", whereafter each
+micro update will be backwards compatible, but each minor update will
+not be. The first beta version will be released after legacy.py is
+removed, and the API is tentatively "stable".
+
+Thereafter, normal `SemVer <https://semver.org/>`_ / `PEP440
+<https://peps.python.org/pep-0440/>`_ rules will apply; micro updates
+will always be bugfixes, and minor updates will be reserved for
+backwards compatible feature changes.
+
+
+Changelog
+---------
+
+0.0.1 (2022-07-20)
+^^^^^^^^^^^^^^^^^^
+
+- Initial public release. (API is still subject to change!)

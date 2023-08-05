@@ -1,0 +1,85 @@
+check-dco:
+  stage: test
+  image: python:alpine
+  needs: []
+  before_script:
+    - apk update
+    - apk add git
+  script:
+    - .gitlab-ci.d/check-dco.py
+      "https://gitlab.com/qemu-project/python-qemu-qmp.git"
+      "main"
+  variables:
+    GIT_DEPTH: 1000
+  rules:
+    # On the canonical repo, do not run check-dco as
+    # there is no "upstream" to compare against.
+    - if: '$CI_PROJECT_NAMESPACE == "qemu-project" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: never
+    # Run in every other circumstance, including fork merge request pipelines.
+    - when: on_success
+
+.avocado:
+  before_script:
+    - echo "" >> avocado.cfg
+    - echo "[datadir.paths]" >> avocado.cfg
+    - echo "logs_dir = ./test-results/" >> avocado.cfg
+  artifacts:
+    name: "$CI_JOB_NAME-$CI_COMMIT_REF_SLUG-$CI_COMMIT_SHORT_SHA"
+    when: always
+    expire_in: 7 days
+    paths:
+      - test-results/latest/results.xml
+      - test-results/latest/test-results
+    reports:
+      junit: test-results/latest/results.xml
+
+.python_test:
+  extends: .avocado
+  stage: test
+  image: $CI_REGISTRY_IMAGE/python:latest
+  variables:
+    GIT_DEPTH: 1
+  needs:
+    job: python-container
+
+check-python-pipenv:
+  extends: .python_test
+  script:
+    - make check-pipenv
+
+check-python-36:
+  extends: .python_test
+  script:
+    - QEMU_TOX_EXTRA_ARGS="-e py36" make check-tox
+  allow_failure: true
+
+check-python-37:
+  extends: .python_test
+  script:
+    - QEMU_TOX_EXTRA_ARGS="-e py37" make check-tox
+  allow_failure: true
+
+check-python-38:
+  extends: .python_test
+  script:
+    - QEMU_TOX_EXTRA_ARGS="-e py38" make check-tox
+  allow_failure: true
+
+check-python-39:
+  extends: .python_test
+  script:
+    - QEMU_TOX_EXTRA_ARGS="-e py39" make check-tox
+  allow_failure: true
+
+check-python-310:
+  extends: .python_test
+  script:
+    - QEMU_TOX_EXTRA_ARGS="-e py310" make check-tox
+  allow_failure: true
+
+check-python-311:
+  extends: .python_test
+  script:
+    - QEMU_TOX_EXTRA_ARGS="-e py311" make check-tox
+  allow_failure: true

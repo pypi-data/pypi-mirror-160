@@ -1,0 +1,16 @@
+
+[devel]
+avocado-framework>=90.0
+flake8>=3.6.0
+isort>=5.1.2
+mypy>=0.780
+pylint>=2.8.0
+tox>=3.18.0
+urwid>=2.1.2
+urwid-readline>=0.13
+Pygments>=2.9.0
+
+[tui]
+urwid>=2.1.2
+urwid-readline>=0.13
+Pygments>=2.9.0

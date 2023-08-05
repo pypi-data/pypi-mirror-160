@@ -1,0 +1,50 @@
+pages:
+  stage: publish
+  needs:
+    job: build-docs
+  script:
+    - mv docs/_build/html public
+  artifacts:
+    paths:
+      - public
+  variables:
+    GIT_DEPTH: 1
+  rules:
+    # On the canonical repo, only publish on pushes to the main branch.
+    - if: '$CI_PROJECT_NAMESPACE == "qemu-project" && $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: on_success
+    # Do not publish on the canonical repo otherwise.
+    - if: '$CI_PROJECT_NAMESPACE == "qemu-project"'
+      when: never
+    # For forks, do not publish for merge requests.
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    # Otherwise, for pushes to forks (on any branch), publish pages.
+    - when: on_success
+
+# This job publishes dev builds to the *GitLab* Python package repo,
+# It doesn't publish release builds to PyPI.
+publish-package:
+  stage: publish
+  image: $CI_REGISTRY_IMAGE/python:latest
+  needs:
+    job: build-package
+  script:
+    - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token
+      python3 -m twine upload
+      --verbose
+      --repository-url "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi"
+      dist/*
+  rules:
+    # The canonical repo only publishes packages when commits are pushed to the
+    # default, main branch.
+    - if: '$CI_PROJECT_NAMESPACE == "qemu-project" && $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: on_success
+    # Otherwise, packages are never published on the canonical repo.
+    - if: '$CI_PROJECT_NAMESPACE == "qemu-project"'
+      when: never
+    # Do not attempt to publish packages for forks during MR pipelines.
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    # Otherwise, publish dev packages for all forks for all branches.
+    - when: on_success
