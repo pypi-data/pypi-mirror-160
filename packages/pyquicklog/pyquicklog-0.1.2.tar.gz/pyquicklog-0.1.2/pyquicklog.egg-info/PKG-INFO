@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyquicklog
+Version: 0.1.2
+Summary: A simple logger for python
+Home-page: https://github.com/bbenouarets/quicklog.py
+Author: Björn Benouarets
+Author-email: kontakt@bbenouarets.site
+License: MIT license
+Keywords: quicklog quick log logger logme logging
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# QuickLog - A simple logger for python
+
+## Installation
+### Direct via pip:
+```shell
+pip install pyquicklog
+```
+
+### Clone repository via git:
+```shell
+git clone https://github.com/bbenouarets/quicklog.py.git
+mv quicklog.py pyquicklog
+```
+**If you want to use this module for your project, you must copy this module to your project folder.**
+```shell
+cp pyquicklog $YOUR_PROJECT/modules/
+```
