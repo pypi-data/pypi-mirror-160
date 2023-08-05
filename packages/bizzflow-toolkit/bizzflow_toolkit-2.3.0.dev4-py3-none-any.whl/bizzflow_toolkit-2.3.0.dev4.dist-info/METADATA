@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: bizzflow-toolkit
+Version: 2.3.0.dev4
+Summary: Bizzflow is ETL (extract - transform - load) template based on standard native cloud services. Supporting the three main cloud providers (Google Cloud Platform / Amazon AWS / MS Azure), it takes all the advantages. You pay only for services you really use. Perfect for teams who want to have direct relationship with their cloud provider. No matter if it is because of security or because you already have existing contract.
+Home-page: https://www.bizzflow.net/
+License: Apache-2.0
+Author: Bizztreat
+Author-email: owner@bizzflow.net
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: boto3 (<1.16)
+Requires-Dist: cffi (==1.14.0)
+Requires-Dist: fabric (>=2.5.0,<3.0.0)
+Requires-Dist: invoke (>=1.4.1,<2.0.0)
+Requires-Dist: jsonschema (>=3.2.0,<3.3.0)
+Requires-Dist: paramiko (>=2.7.2,<3.0.0)
+Requires-Dist: pyodbc (>=4.0.30,<5.0.0)
+Requires-Dist: python3-openid (>=3.2.0,<4.0.0)
+Requires-Dist: redshift-connector (>=2.0.907,<3.0.0)
+Requires-Dist: retry_helper (>=0.0.4,<0.0.5)
+Requires-Dist: sqlparse (>=0.4.1,<0.5.0)
+Requires-Dist: statsd (>=3.3.0,<4.0.0)
+Project-URL: Documentation, https://wiki.bizzflow.net/
+Project-URL: Repository, https://gitlab.com/bizzflow-etl/toolkit
+Description-Content-Type: text/markdown
+
+# Bizzflow R2 Toolkit
+
+![alt text][bizztreat-logo]
+
+Bizzflow R2 Toolkit is a version 2 of Bizzflow ETL Pipeline template written mostly in Python, using [Apache Airflow](https://airflow.apache.org/) as a scheduler and job executor. Bizzflow is meant to work in cloud, meaning any of the major cloud providers ([Google Cloud Platform](https://cloud.google.com), [Amazon Web Services](https://aws.amazon.com) and [Microsoft Azure](https://azure.microsoft.com)). If you would like to implement Bizzflow solution in your cloud, do not hesitate to contact [Bizztreat admin](https://bizztreat.com).
+
+
+## Contributing
+
+- [Building base image](doc/building_base.md)
+- [Dependency management](doc/dependency_management.md)
+
+
+## Crossroads
+
+- [Bizzflow R2 Toolkit Documentation](doc/README.md)
+- [Installation](doc/README.md#installation)
+- [Python API Reference](https://bizztreat.gitlab.io/bizzflow/r2/toolkit/index.html)
+- [Bizztreat](https://bizztreat.com)
+
+## Installation
+
+See [Installation instructions](doc/README.md#installation) for more information.
+
+## License
+
+**TODO:** To be decided yet.
+
+See details in [LICENSE](./LICENSE).
+
+[bizztreat-logo]: ./doc/bizztreatlogo.png "Bizztreat Logo"
+

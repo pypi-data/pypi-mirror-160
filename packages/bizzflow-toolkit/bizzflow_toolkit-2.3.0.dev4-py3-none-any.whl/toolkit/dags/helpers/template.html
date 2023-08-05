@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{level} - {dag._dag_id} - {task.task_id} failed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic"
+          rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic"
+          rel="stylesheet"/>
+</head>
+
+<body>
+<div style='font-family: "Open Sans", sans-serif;font-size: 14px;padding: 0;margin: 0; width: 100%;'>
+    <header>
+        <img style='max-width: 50%;max-height: 96px;' src="https://www.bizztreat.com/files/bizztreatlogo.png"
+             alt="Bizztreat Logo">
+        <h1>{level} - Bizzflow notification</h1>
+    </header>
+    <h2>DAG Failed</h2>
+    <p>An error occurred after {task_instance.duration} seconds of execution of dag <em>{dag._dag_id}</em>'s task
+        <strong>{task.task_id}</strong>.</p>
+    <div style='max-width: 100%;'>
+        <h2>Log's tail</h2>
+        <pre><code
+                style='font-family: "Roboto Mono", monospace;font-size: 12px;max-width: 100%;overflow: scroll;'>{log}</code></pre>
+    </div>
+    <p>See full log at <a href="{task_instance.log_url}">Airflow Site</a></p>
+</div>
+
+<div style="border: 2px ridge;">
+    <h2>Additional information</h2>
+    <hr>
+    <ul>
+        <li>DAG ID: {task_instance.dag_id}</li>
+        <li>TASK ID: {task_instance.task_id}</li>
+        <li>TRY NUMBER: {task_instance.try_number}</li>
+        <li>PID: {task_instance.pid}</li>
+        <li>TASK STATE: {task_instance.state}</li>
+
+        <li>EXECUTION DATE: {task_instance.execution_date}</li>
+        <li>START DATE: {task_instance.start_date}</li>
+        <li>END DATE: {task_instance.end_date}</li>
+        <li>TASK DURATION: {task_instance.duration}</li>
+    </ul>
+</div>
+
+</body>
+
+</html>

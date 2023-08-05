@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "type",
+      "input",
+      "output"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "input": {
+        "type": "array"
+      },
+      "output": {
+        "type": "string"
+      }
+    },
+    "oneOf": [
+      {
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "sql"
+            ]
+          },
+          "query_timeout": {
+            "type": "integer"
+          },
+          "source": {
+            "$ref": "_definitions.schema.json#/definitions/local"
+          },
+          "required": [
+            "source"
+          ]
+        }
+      },
+      {
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "docker"
+            ]
+          },
+          "source": {
+            "$ref": "_definitions.schema.json#/definitions/docker_component_source"
+          }
+        },
+        "required": [
+          "source"
+        ]
+      }
+    ]
+  }
+}

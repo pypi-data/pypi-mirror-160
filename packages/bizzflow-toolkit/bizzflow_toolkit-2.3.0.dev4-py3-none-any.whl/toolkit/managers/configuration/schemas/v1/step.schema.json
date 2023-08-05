@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "union",
+    "whitelist",
+    "filter",
+    "copy"
+  ],
+  "properties": {
+    "union": {
+      "type": "object",
+      "patternProperties": {
+        "^.*$": {
+          "type": "object",
+          "required": [
+            "sources",
+            "distinct"
+          ],
+          "properties": {
+            "sources": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "project",
+                  "kex",
+                  "table"
+                ],
+                "properties": {
+                  "project": {
+                    "type": "string"
+                  },
+                  "kex": {
+                    "type": "string"
+                  },
+                  "table": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "distinct": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "whitelist": {
+      "type": "object",
+      "patternProperties": {
+        "^.*$": {
+          "type": "object",
+          "required": [
+            "columns"
+          ],
+          "properties": {
+            "columns": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "filter": {
+      "type": "object",
+      "patternProperties": {
+        "^.*$": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": [
+                "columns"
+              ],
+              "properties": {
+                "columns": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "column",
+                      "type",
+                      "condition",
+                      "value"
+                    ],
+                    "properties": {
+                      "column": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "condition": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "object",
+              "required": [
+                "custom_query"
+              ],
+              "properties": {
+                "custom_query": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "copy": {
+      "type": "object",
+      "patternProperties": {
+        "^.*$": {
+          "type": "object",
+          "required": [
+            "incremental",
+            "mark_deletes",
+            "primary_key"
+          ],
+          "properties": {
+            "incremental": {
+              "type": "boolean"
+            },
+            "mark_deletes": {
+              "type": "boolean"
+            },
+            "destination": {
+              "type": "object",
+              "required": [
+                "project",
+                "kex",
+                "table"
+              ],
+              "properties": {
+                "project": {
+                  "type": "string"
+                },
+                "kex": {
+                  "type": "string"
+                },
+                "table": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "if": {
+            "properties": {
+              "incremental": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "primary_key": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "primary_key": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "project_id",
+    "git_project_path",
+    "git_toolkit_path",
+    "git_toolkit_tag",
+    "dataset_location",
+    "compute_zone",
+    "compute_region",
+    "notification_email",
+    "debug",
+    "live_bucket",
+    "archive_bucket",
+    "worker_machine",
+    "user",
+    "query_timeout",
+    "hostname",
+    "public_ip"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "git_project_path": {
+      "type": "string"
+    },
+    "git_toolkit_path": {
+      "type": "string"
+    },
+    "git_toolkit_update_schedule": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "git_toolkit_tag": {
+      "type": "string"
+    },
+    "dataset_location": {
+      "type": "string"
+    },
+    "compute_zone": {
+      "type": "string"
+    },
+    "compute_region": {
+      "type": "string"
+    },
+    "resource_group": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "azure_blob_account_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notification_email": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "debug": {
+      "type": "boolean"
+    },
+    "live_bucket": {
+      "type": "string"
+    },
+    "archive_bucket": {
+      "type": "string"
+    },
+    "worker_machine": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "host",
+          "user",
+          "components_path",
+          "data_path",
+          "config_path"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "host": {
+            "type": "string"
+          },
+          "user": {
+            "type": "string"
+          },
+          "components_path": {
+            "type": "string"
+          },
+          "data_path": {
+            "type": "string"
+          },
+          "config_path": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "user": {
+      "type": "string"
+    },
+    "query_timeout": {
+      "type": "integer"
+    },
+    "hostname": {
+      "type": "string"
+    },
+    "public_ip": {
+      "type": "string"
+    }
+  }
+}
