@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: newanimepy
+Version: 0.0.2
+Summary: An anime crawler
+Home-page: https://github.com/z20030818/NewAnimepy
+Author: Misaka0502
+Author-email: remisaka0502@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+
+# NewAnimepy
+An anime crawler for [anigamer](https://ani.gamer.com.tw/)
+
+## Installation
+
+## Usage
+You can use it to get new anime and search result of anigamer
+For more info, you can see [example.py](https://github.com/z20030818/NewAnimepy/blob/main/animepy/examples/example.py)
+
+## License
+MIT © [z20030818](https://github.com/z20030818/NewAnimepy/blob/main/LICENSE)

@@ -1,0 +1,12 @@
+animepy/__init__.py,sha256=iy3qIMCcA-NzBghfg7YEAUJ92SuSwQPY4hlJYs8bQaU,55
+animepy/anigamer.py,sha256=68vF8sqdQd3xBvk-ldKOAYXRj-5j2c0QxIsiyClFWdA,337
+animepy/main_test.py,sha256=09WJxcPj8saClNinRapms8lmYzbWn8J2kxruGkkCBEs,487
+animepy/response/__init__.py,sha256=_1xc0lI8WvvVW-waBSabRUjNeCHw6P7xzh9fhwRmHjo,132
+animepy/response/anigamer.py,sha256=AyRH3whuZc55F-CTbxbSL7VVj3KYKVyVMacRprjoLE4,2579
+animepy/response/anisearch.py,sha256=72TsCOy2cTzzhAIr5ktUOHsNVaUOsC6Ve8jVD09bPJc,3088
+animepy/response/errors.py,sha256=dgsu1qLRZSAMruaVeMyN1Hs_HYHedLGKErTo4QRQjxU,348
+newanimepy-0.0.2.dist-info/LICENSE,sha256=BybIqOwfklVsxOolpmRvtzZVICyk0TedOuV2ucH7mLI,1085
+newanimepy-0.0.2.dist-info/METADATA,sha256=w_86We2mkbN2LWztZgO4BdnELIZlK5gXhJp51AIhSf4,713
+newanimepy-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+newanimepy-0.0.2.dist-info/top_level.txt,sha256=-JAdcvyoRYrCmPM04MWQiaTe-r9TeUqkL2GD7emQ18k,8
+newanimepy-0.0.2.dist-info/RECORD,,
