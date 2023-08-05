@@ -1,0 +1,16 @@
+pyei/__init__.py,sha256=AZOfgX5Y7jlzwgVnhydChvaMJKwGByaCMeZ5yzFEJJs,192
+pyei/data.py,sha256=lc33lFLpj3WKa0kd7C5IrgAEXmxNnfpwWztVIz_FWgw,928
+pyei/distribution_utils.py,sha256=I8MFfpMeiaCIUlX690FV92inQso0WcrWSOgm-07yzsw,3112
+pyei/goodmans_er.py,sha256=0sIzY_Op-QyIBovjq6gwFnmuAqFYMxlyX8jZ7X_4uBA,12884
+pyei/greiner_quinn_gibbs_sampling.py,sha256=oLjPO8wGQBYTrAowuOZfW6QKFubuHB-LuS6lKwXQ-mU,21086
+pyei/io_utils.py,sha256=oK0K08eALADNiCViTlpNb_wS5PR99TXc3pmbzTWwykg,4031
+pyei/plot_utils.py,sha256=qiyk6aq48ZOF5sTIt7eNX178N07UrHzEt1aTcBCiVx8,30786
+pyei/r_by_c.py,sha256=nO9_20N5YtXyhuBz-vYLXGpt3NhrXc8rlyT4vsl_Cpk,45805
+pyei/r_by_c_models.py,sha256=BOIcL8MXE0RDrbBrJtzxUjqAXM-yI2DHwsC5CyJWVSg,5098
+pyei/r_by_c_utils.py,sha256=Mg1eOAV2BCWqiB9ezuEHyTGvRnrGROSfGRQnbpwI3lU,3256
+pyei/two_by_two.py,sha256=evsfKtwy8DFZ_aY_cykVJzwiYSCCIHw3VlGRCBUWXT4,41260
+pyei-1.0.0.dist-info/LICENSE,sha256=9KplVMzjL63NA8IQy4pNmVP9Uk2DRZ5DHTpUcUOMuI0,1097
+pyei-1.0.0.dist-info/METADATA,sha256=OFqkCoqS1RpCD_aRNlaayFnCCt5tbfI50JiU2nNBssg,5980
+pyei-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyei-1.0.0.dist-info/top_level.txt,sha256=QpVscTFrqRqJAn9ayxcWMrYtI-WpjeHcf8-g3hc0GA8,5
+pyei-1.0.0.dist-info/RECORD,,
