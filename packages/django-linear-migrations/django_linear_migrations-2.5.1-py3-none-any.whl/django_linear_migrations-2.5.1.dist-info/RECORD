@@ -1,0 +1,14 @@
+django_linear_migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_linear_migrations/apps.py,sha256=zzsTpaqlyEOGK_P2Qx2b65XhZmfG4wzx8uDLpfTbAl8,6845
+django_linear_migrations/compat.py,sha256=hVkUcoRRF3Wy5ESIKouOhSog0-VMSRbXunrQs5_ntgk,25578
+django_linear_migrations/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_linear_migrations/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_linear_migrations/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_linear_migrations/management/commands/create_max_migration_files.py,sha256=xEn53hvod-xuZzUNjz27X3IBblJyXoG0UQkE9G_Jt4U,2833
+django_linear_migrations/management/commands/makemigrations.py,sha256=b3gN_Gkn4hjhTX45Uc31F6Z0MVRAI_7ghevHX5iU2uQ,1043
+django_linear_migrations/management/commands/rebase_migration.py,sha256=8XlmY51KwgmqAF-ntzCC1zP87_AfGayzT_do7oMxvwI,7639
+django_linear_migrations-2.5.1.dist-info/LICENSE,sha256=pNIRZwlAza4kfutPU0BQkoJsPWl23NHnCMrbAC0INHk,1069
+django_linear_migrations-2.5.1.dist-info/METADATA,sha256=HCEsuwF1PiMu20I3b9adpfko2OocxkSc4vJbEfN9HbU,13367
+django_linear_migrations-2.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_linear_migrations-2.5.1.dist-info/top_level.txt,sha256=m8aZU7fxkxAs2Nb-9yExJMsps7UL8WSeMGAJthVq_zU,25
+django_linear_migrations-2.5.1.dist-info/RECORD,,
