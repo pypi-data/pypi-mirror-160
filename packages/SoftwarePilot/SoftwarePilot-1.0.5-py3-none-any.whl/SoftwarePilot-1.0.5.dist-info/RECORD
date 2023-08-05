@@ -1,0 +1,14 @@
+SoftwarePilot/AnafiCamera.py,sha256=DBTAcUvV4RmaFpBQTsFdm1VgrzWDBtzhQ-mu0NpEyZ0,1013
+SoftwarePilot/AnafiCameraControls.py,sha256=EMQaD9PmYufQNmMviGS3fg047GUORfnj2k8osK4VvPM,2322
+SoftwarePilot/AnafiCameraMedia.py,sha256=-EjQt5iEY0jA0-jYNY3jD3jlctatkWb3DeSoXFsA204,13874
+SoftwarePilot/AnafiController.py,sha256=kdfA_Xlpa4QCZymbDPXvjgCEunMrb7TNDp9Y6r9HqW0,3328
+SoftwarePilot/AnafiPiloting.py,sha256=pHH-Ixe0mVFyInslZfEKEq-OaAwhA_EJwEg0Ahs51SI,3479
+SoftwarePilot/AnafiRTH.py,sha256=MeD265BqrQl3jmUrG5jfARuocgNpqV_YbV_xvmUXtTQ,2870
+SoftwarePilot/SoftwarePilot.py,sha256=vHOXnlCH67H6Et44LI1Uq888gvn2mtgFvz5ogp4tLVA,2591
+SoftwarePilot/SoftwarePilotDocker.py,sha256=pQ-IHOmZmcQeXa9KRNGxe2mgGb2z4wcoU-Sl5xAove8,5287
+SoftwarePilot/SoftwarePilotService.py,sha256=2xYC5g1C9HTd5a971106NEh91gCSHDftA2MpINnrM9s,3382
+SoftwarePilot/__init__.py,sha256=mcj12dRiBscEK8wWi58fD45_5ArF18MCLx_a70Da1cE,41
+SoftwarePilot-1.0.5.dist-info/METADATA,sha256=SfmKqEFhQch5c2uoRFabKFmiEDvtnAKA97XSliMCSEs,1248
+SoftwarePilot-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SoftwarePilot-1.0.5.dist-info/top_level.txt,sha256=k0JsZGQRrC-vPMbSTgWnv4jwmHPhUcLGgXnoJANErIY,14
+SoftwarePilot-1.0.5.dist-info/RECORD,,
