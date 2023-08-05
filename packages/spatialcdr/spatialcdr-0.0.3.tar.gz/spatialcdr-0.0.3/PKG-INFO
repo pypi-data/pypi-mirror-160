@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: spatialcdr
+Version: 0.0.3
+Summary: Cell type prediction in spatial transcriptomics
+Home-page: UNKNOWN
+Author: Asish Kumar Swain
+Author-email: swainkasish@gmail.com
+License: MIT
+Keywords: willupdate
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Cell type deconvolution 
+
+Change Log
+==========
+
+0.0.1 (20/07/2022)
+0.0.2
+0.0.3 (20/07/2022)
+-------------------
+- First Release
+
+
