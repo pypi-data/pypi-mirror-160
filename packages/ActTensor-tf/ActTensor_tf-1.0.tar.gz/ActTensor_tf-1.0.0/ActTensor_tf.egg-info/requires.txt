@@ -1,0 +1,9 @@
+tensorflow>=2.9.1
+numpy
+keras
+
+[dev]
+check-manifest
+twine
+numpy
+black

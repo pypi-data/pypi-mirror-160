@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ActTensor_tf/__init__.py
+ActTensor_tf/activations.py
+ActTensor_tf/version.py
+ActTensor_tf.egg-info/PKG-INFO
+ActTensor_tf.egg-info/SOURCES.txt
+ActTensor_tf.egg-info/dependency_links.txt
+ActTensor_tf.egg-info/requires.txt
+ActTensor_tf.egg-info/top_level.txt
