@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: playlight
+Version: 0.6
+Summary: 基于playwright的通用版本，简约并提升稳定性。
+Home-page: https://gitee.com/teark/playlight.git
+Author: TEARK
+Author-email: 913355434@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: playwright
+
+基于playwright的通用版本，点击高亮，重写了is_visible等方法，提升稳定性。
+
