@@ -1,0 +1,8 @@
+setup.py
+pymatic/__init__.py
+pymatic/main.py
+pymatic.egg-info/PKG-INFO
+pymatic.egg-info/SOURCES.txt
+pymatic.egg-info/dependency_links.txt
+pymatic.egg-info/entry_points.txt
+pymatic.egg-info/top_level.txt
