@@ -1,0 +1,7 @@
+tskit>=0.2.3
+pandas>=1.2.0
+numpy>=1.21.0
+
+[dev]
+pytest>=3.7
+msprime==1.1.1

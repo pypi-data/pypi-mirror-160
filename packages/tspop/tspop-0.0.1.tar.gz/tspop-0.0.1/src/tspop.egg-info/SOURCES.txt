@@ -1,0 +1,8 @@
+README.rst
+setup.py
+src/tspop.py
+src/tspop.egg-info/PKG-INFO
+src/tspop.egg-info/SOURCES.txt
+src/tspop.egg-info/dependency_links.txt
+src/tspop.egg-info/requires.txt
+src/tspop.egg-info/top_level.txt
