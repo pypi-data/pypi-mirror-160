@@ -1,0 +1,14 @@
+scal/__init__.py,sha256=B_EjvOFmtT-Phch2-uXEp3GRc-N8ZJMkHi6GBUrI4mw,892
+scal/__main__.py,sha256=abdFX8GqHIiKygcXNWDKAwMKIODNjkwCQ7gH22a-RPo,1377
+scal/calendar.py,sha256=uh0HIlnhCLxJbI9heOgwq2CE3IxRhJ1kNt_5VB0YUoU,11338
+scal/errors.py,sha256=GlNgizVh5U3PXzpS8ltJemb1qUXB3Qps-dS_-6qzTY4,1009
+scal/options.py,sha256=E3QeXxKHWYwIrVri4FT7YoJtBJJn3ICsZhzYMugv8yo,2762
+scal/template.py,sha256=4kElrmRfJuiRuVVzI6RNeRmBg9rdVFgBrwid1Z8x5GE,2168
+scal/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scal-2.0.0.dist-info/AUTHORS,sha256=X7TYIj4k0AjeEe6iTOp7-KDz32OoVuzW8P8msPZQ9mI,17
+scal-2.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+scal-2.0.0.dist-info/METADATA,sha256=jXr6E4y2gZMHRn_MLcQvNFGWEw6shaO3TW56iWFavuw,5034
+scal-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scal-2.0.0.dist-info/entry_points.txt,sha256=aqTT-6E1UtyxBMetV21naj3bfe37F48lNYTOPn4r3-s,45
+scal-2.0.0.dist-info/top_level.txt,sha256=98Q5Yy5i_uAZgFae2J9-UD_Ib2jhcVvKPm67Vqqa8r0,5
+scal-2.0.0.dist-info/RECORD,,
