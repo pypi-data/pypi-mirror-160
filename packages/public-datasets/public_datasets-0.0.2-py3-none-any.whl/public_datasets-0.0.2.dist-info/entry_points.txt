@@ -1,0 +1,5 @@
+[plugins.deel.dataset]
+cifra10 = public:Cifra10Dataset
+mnist = public:MnistDataset
+svhn = public:SvhnDataset
+
