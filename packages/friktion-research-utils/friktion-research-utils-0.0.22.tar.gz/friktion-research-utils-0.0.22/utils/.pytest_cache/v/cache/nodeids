@@ -1,0 +1,17 @@
+[
+  "test_options.py::test_getIvFromDelta_sol_put[0.1]",
+  "test_options.py::test_getIvFromStrike[1000000]",
+  "test_options.py::test_getIvFromStrike[10000]",
+  "test_options.py::test_getIvFromStrike[1000]",
+  "test_options.py::test_getIvFromStrike[100]",
+  "test_options.py::test_getIvFromStrike[20000]",
+  "test_options.py::test_getIvFromStrike[50000]",
+  "test_options.py::test_getIvFromStrike_low[100]",
+  "test_options.py::test_getIvFromStrike_low_call[100]",
+  "test_options.py::test_getIvFromStrike_mid[20000]",
+  "test_options.py::test_getIvFromStrike_mid[25000]",
+  "test_options.py::test_getIvFromStrike_mid_call[25000]",
+  "test_options.py::test_getIvFromStrike_mid_high[250000]",
+  "test_options.py::test_getIvFromStrike_mid_put[25000]",
+  "test_options.py::test_getIvFromStrike_mid_put[25200]"
+]
