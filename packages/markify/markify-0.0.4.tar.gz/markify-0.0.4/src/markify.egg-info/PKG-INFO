@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: markify
+Version: 0.0.4
+Summary: A python command line application to scrape your interactions in social media(s) and generate new sentences based on them using markov chains
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
