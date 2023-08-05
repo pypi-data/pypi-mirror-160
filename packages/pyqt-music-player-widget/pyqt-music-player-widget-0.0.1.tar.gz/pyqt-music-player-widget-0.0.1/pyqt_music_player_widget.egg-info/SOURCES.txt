@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pyqt_music_player_widget/__init__.py
+pyqt_music_player_widget/musicPlayerWidget.py
+pyqt_music_player_widget.egg-info/PKG-INFO
+pyqt_music_player_widget.egg-info/SOURCES.txt
+pyqt_music_player_widget.egg-info/dependency_links.txt
+pyqt_music_player_widget.egg-info/requires.txt
+pyqt_music_player_widget.egg-info/top_level.txt
+pyqt_music_player_widget/ico/__init__.py
+pyqt_music_player_widget/ico/pause.svg
+pyqt_music_player_widget/ico/play.svg
+pyqt_music_player_widget/ico/stop.svg
