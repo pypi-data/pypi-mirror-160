@@ -1,0 +1,23 @@
+preprocessing:
+  categorical_columns: [converted, destination_created, events_sent, source_created, destination]
+
+# Data preparation
+data:
+  # Label column name
+  label_column: converted
+  entity_column: user_id
+  timestamp_column: timestamp
+  features_start_date: null
+  features_end_date: null
+  feature_name_column: feature_name
+  numeric_value_column: feature_value_numeric
+  str_value_column: feature_value_string
+
+  # Train, test, val split ratios. They must be each between 0 and 1, and sum to 1
+  train_size: 0.6
+  val_size: 0.2
+  test_size: 0.2
+
+output_files:
+  data_pipeline_file: data_pipeline.pkl
+  final_column_names_file: output_column_names.pkl
