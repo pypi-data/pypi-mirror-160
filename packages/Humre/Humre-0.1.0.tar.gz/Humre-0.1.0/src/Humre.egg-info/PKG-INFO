@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Humre
+Version: 0.1.0
+Summary: A human-readable regular expression module for Python.
+Home-page: https://github.com/asweigart/humre
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# humre
+A human-readable regular expression module for Python.
+
+UNDER CONSTRUCTION
+
