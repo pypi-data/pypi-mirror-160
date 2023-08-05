@@ -1,0 +1,12 @@
+AUTHORS.rst
+LICENSE
+README.rst
+setup.py
+blackbear/__init__.py
+blackbear/core.py
+blackbear.egg-info/PKG-INFO
+blackbear.egg-info/SOURCES.txt
+blackbear.egg-info/dependency_links.txt
+blackbear.egg-info/top_level.txt
+tests/__init__.py
+tests/test_methods.py
