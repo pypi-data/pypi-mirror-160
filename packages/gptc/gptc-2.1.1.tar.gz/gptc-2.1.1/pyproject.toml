@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gptc"
+version = "2.1.1"
+description = "General-purpose text classifier"
+readme = "README.md"
+authors = [{ name = "Samuel Sloniker", email = "sam@kj7rrv.com"}]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+emoji = ["emoji"]
+
+[project.urls]
+Homepage = "https://git.kj7rrv.com/kj7rrv/gptc"
+
+[project.scripts]
+gptc = "gptc.__main__:main"
+
+[tool.setuptools]
+packages = ["gptc"]
