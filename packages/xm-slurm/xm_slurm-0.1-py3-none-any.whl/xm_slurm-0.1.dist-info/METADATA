@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: xm-slurm
+Version: 0.1
+Author-email: Jesse Farebrother <jfarebro@cs.mcgill.ca>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
