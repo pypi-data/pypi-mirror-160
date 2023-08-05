@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: p360-interface-bundle
+Version: 0.0.2a2
+Summary: Persona360 interface bundle
+License: Proprietary
+Author: Datasentics
+Author-email: jiri.koutny@datasentics.com
+Requires-Python: >=3.8.10,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: daipe-core (>=1.4.2,<2.0.0)
+Requires-Dist: databricks-bundle (>=1.4.5,<2.0.0)
+Requires-Dist: feature-store-bundle (==2.5.0)
+Requires-Dist: pyfony-bundles (>=0.4.4,<0.5.0)
+Description-Content-Type: text/markdown
+
+# p360-interface-bundle
+
+Interface between Persona360 app instance and a project with Daipe Feature store.
+
+### Latest Changes
+
+* :arrow_up: `feature-store-bundle` upgraded to 2.5.0. PR [#12](https://github.com/DataSentics/p360-interface-bundle/pull/12) by [@matejoravec](https://github.com/matejoravec).
+* :memo: Post-version-bump README update. PR [#10](https://github.com/DataSentics/p360-interface-bundle/pull/10) by [@matejoravec](https://github.com/matejoravec).
+### 0.0.2-alpha.1
+
+* :bookmark: Bump version to 0.0.2-alpha.1. PR [#9](https://github.com/DataSentics/p360-interface-bundle/pull/9) by [@matejoravec](https://github.com/matejoravec).
+* :memo: Pre-version-bump README update. PR [#8](https://github.com/DataSentics/p360-interface-bundle/pull/8) by [@matejoravec](https://github.com/matejoravec).
+* :page_facing_up: License fix. PR [#7](https://github.com/DataSentics/p360-interface-bundle/pull/7) by [@matejoravec](https://github.com/matejoravec).
+
+### 0.0.2-alpha.0
+
+* :bookmark: Bump version to 0.0.2-alpha.0. PR [#6](https://github.com/DataSentics/p360-interface-bundle/pull/6) by [@matejoravec](https://github.com/matejoravec).
+* :construction_worker: Release pipeline. PR [#5](https://github.com/DataSentics/p360-interface-bundle/pull/5) by [@matejoravec](https://github.com/matejoravec).
+* :sparkles: Metadata adjustment post-action. PR [#4](https://github.com/DataSentics/p360-interface-bundle/pull/4) by [@matejoravec](https://github.com/matejoravec).
+* :bricks: Basic bundle infrastructure. PR [#3](https://github.com/DataSentics/p360-interface-bundle/pull/3) by [@matejoravec](https://github.com/matejoravec).
+* :construction_worker: Wrong main branch name fixed. PR [#2](https://github.com/DataSentics/p360-interface-bundle/pull/2) by [@matejoravec](https://github.com/matejoravec).
+

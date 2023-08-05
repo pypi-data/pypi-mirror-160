@@ -1,0 +1,56 @@
+parameters:
+  p360_interface_bundle:
+    featurestore:
+      post_actions:
+        metadata_adjustment:
+          export_path:
+          mapping:
+            general:
+              feature: id
+              description: title
+              feature_template: master_feature
+            category:
+              transaction_behaviour:
+                - card_transaction_channel
+                - card_transaction_general
+                - card_transaction_credit
+                - card_transaction_rejections
+              geolocation:
+                - card_transaction_country_channel
+                - card_transaction_country
+                - card_transaction_city
+              campaigns:
+                - digital_campaign
+              favourite_mechants:
+                - card_transaction_merchant
+                - card_transaction_merchant_category
+                - card_transaction_requestors
+              products:
+                - digital_product
+              interests:
+                - card_transaction_interest
+                - digital_interest
+                - digital_interest_surge
+              general:
+                - personal_data
+              "lifestyle_&_lifestage":
+                - lifestyle
+                - lifestage
+              digital_behaviour:
+                - digital_device
+                - digital_general
+                - device_type_last
+
+services:
+  p360_interface_bundle.featurestore.post_actions.metadata_adjustment.FolderContentRemover:
+
+  p360_interface_bundle.featurestore.post_actions.metadata_adjustment.MetadataJsonGetter:
+    arguments:
+      general_mapping: "%p360_interface_bundle.featurestore.post_actions.metadata_adjustment.mapping.general%"
+      category_mapping: "%p360_interface_bundle.featurestore.post_actions.metadata_adjustment.mapping.category%"
+
+  p360_interface_bundle.featurestore.post_actions.metadata_adjustment.MetadataWriter:
+
+  p360_interface_bundle.featurestore.post_actions.metadata_adjustment.CreateMetadataJsonFiles:
+    arguments:
+      export_path: "%p360_interface_bundle.featurestore.post_actions.metadata_adjustment.export_path%"
