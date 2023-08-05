@@ -1,0 +1,7 @@
+from wencaipy.stock import stock_prs
+
+from wencaipy.wencaipy.stock.stock_prs import stock_prs_oh_ol_volchg_inc_forecast_concept
+
+#stock_prs.stock_prs_oh_ol_volchg_inc()
+#stock_prs.stock_prs_oh_ol_volchg_inc_concept()
+stock_prs_oh_ol_volchg_inc_forecast_concept()

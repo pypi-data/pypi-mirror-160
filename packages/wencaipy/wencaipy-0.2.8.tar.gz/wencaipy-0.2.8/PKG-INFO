@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: wencaipy
+Version: 0.2.8
+Summary: 
+Author: romepeng
+Author-email: romepeng@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
