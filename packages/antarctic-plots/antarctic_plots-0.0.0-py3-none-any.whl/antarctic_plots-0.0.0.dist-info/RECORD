@@ -1,0 +1,12 @@
+antarctic_plots/__init__.py,sha256=NMwlVvuaL-PmhbPJBLthtfQN3TZ7MgW1LGoHHPWo4V4,495
+antarctic_plots/fetch.py,sha256=fYiXe2NP4MdqaTtM3HNPm5T0cOGYdI7CFbBbz5pxzrQ,9594
+antarctic_plots/profile.py,sha256=IkaMPDlJCRSHmIgV7zBNrgJutHH8e6Ulab7N-AMjPl4,12894
+antarctic_plots/tests/test_antarctic_plots.py,sha256=8Cs2R3kq0RV3QoTYp3UiKD_rAJRm8bQvJtTBbvHOCm4,176
+antarctic_plots/tests/test_fetch.py,sha256=R_9nCZfsF2PFooC0chnlRaTBVGWGort9AYqsJYe43nc,35
+antarctic_plots/tests/test_profile.py,sha256=05-88iUV1C6u0J37tpXww5hD0YZ14ilfq5QWx2uvGXg,37
+antarctic_plots/tests/test_utils.py,sha256=ZwtvZ86CVceB9spJLB-916tgYkIzY9YTB3Z0_CVU8Zw,35
+antarctic_plots/utils.py,sha256=HJWg1YJVsleX4I4Y-IaE0JiEp6eZjHSd6AgvDOAXT5Q,7931
+antarctic_plots-0.0.0.dist-info/LICENSE,sha256=sN381wFS8qfPeDrzD6iQB8zTkjHou_1dyZz2Puq8r4c,1103
+antarctic_plots-0.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+antarctic_plots-0.0.0.dist-info/METADATA,sha256=dvV4qSW7b5UM8Tx7xGXSjkdKbOLNPWSFX27n6v7cBV0,2190
+antarctic_plots-0.0.0.dist-info/RECORD,,
