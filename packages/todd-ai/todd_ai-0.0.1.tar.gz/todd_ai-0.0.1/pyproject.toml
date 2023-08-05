@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todd_ai"
+version = "0.0.1"
+description = "Toolkit for Object Detection Distillation"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "einops",
+    "lmdb",
+    "mmcv>=1.4.2",
+    "opencv-python",
+    "pandas",
+    "setuptools",
+    "timm",
+    "tqdm",
+    "typing_extensions",
+]
+
+[project.license]
+file = "LICENSE"
+
+[[project.authors]]
+name = "Luting Wang"
+email = "wangluting@buaa.edu.cn"
+
+[project.urls]
+Homepage = "https://github.com/LutingWang/todd"
+
+[project.optional-dependencies]
+docs = [
+    "python-docs-theme",
+    "sphinx",
+    "sphinx_rtd_theme",
+]
+lint = [
+    "codespell",
+    "isort",
+    "mypy",
+    "pre-commit",
+    "pydocstyle",
+    "yapf",
+]
+optionals = [
+    "ipdb",
+    "tensorboard",
+    "torch-tb-profiler",
+]
+tests = [
+    "coverage",
+    "pytest",
+]
+
+[tool.setuptools]
+packages = [
+    "todd",
+]
