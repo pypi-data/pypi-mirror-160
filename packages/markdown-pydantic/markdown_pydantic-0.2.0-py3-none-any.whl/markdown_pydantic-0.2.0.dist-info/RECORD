@@ -1,0 +1,12 @@
+markdown_pydantic/app.py,sha256=c_701MGqJ7Gfcg71nLbadfFaGP_pcolAMcOEnMnD1Q4,2382
+markdown_pydantic/extension.py,sha256=IghpZ1QXfOsgkfOl6gwi3dhgByLnrMnHjLXjRJVXFIE,2863
+markdown_pydantic/files.py,sha256=Awse9njqsbTsPpmZsvjr8ShWyY8RZUIolChVqpbc2f0,937
+markdown_pydantic/models/core.py,sha256=d_D37g6mNZfugMgbdvwFkyttL-uvBeRYBEL6WYXpaIQ,6383
+markdown_pydantic/processor.py,sha256=vPh0IKUAHOKBS_jR3SsHvC5X62zaG4l15cyoUK0CvQo,903
+markdown_pydantic/py.typed,sha256=QPIqsNETblYX8vmJ354NjcVQts2LluobpkVVIO0v_Kw,63
+markdown_pydantic/templates.py,sha256=sXvS75uBYc3qNURlO7UlaM1ReIAECs16Fw3N21xmczE,849
+markdown_pydantic/types/simple.py,sha256=qIDVFgJItb576IbIgX8-4xeX9LyCNVnIAqrPilBSwig,704
+markdown_pydantic-0.2.0.dist-info/entry_points.txt,sha256=tuy3xWFbUrEFGHVYj8RtmGQuwNDx0QREGSneNw2_1xE,63
+markdown_pydantic-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+markdown_pydantic-0.2.0.dist-info/METADATA,sha256=tMgJIXpG62sPbf-oRgNTm1d9MB9kUVaXqaRny8DRHjA,485
+markdown_pydantic-0.2.0.dist-info/RECORD,,

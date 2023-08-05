@@ -1,0 +1,3 @@
+[console_scripts]
+markdown-pydantic=markdown_pydantic.app:run
+
