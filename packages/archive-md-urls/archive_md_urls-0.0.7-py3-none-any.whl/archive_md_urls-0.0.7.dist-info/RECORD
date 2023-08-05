@@ -1,0 +1,10 @@
+archive_md_urls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archive_md_urls/cli.py,sha256=3FuE7CyfepAlTxf0J2ftwZk6ZH_IkAzqie907LQmiLI,2443
+archive_md_urls/gather_snapshots.py,sha256=Jf1PmM1q56wGpux9O13QyWPJsueEowo1ZvnEQyVbSl0,3967
+archive_md_urls/scan_md.py,sha256=Wf0SU7LnkwvmM8tQN-mQxX9GteoTLyGdEahotgGHX3I,4753
+archive_md_urls/update_files.py,sha256=TbIu6tAcTa5xNX6GBFlj8w5wv5pSNlvhwQirBnG6L0Y,1944
+archive_md_urls-0.0.7.dist-info/METADATA,sha256=OBIzxkg_lYOv35sgnAdP4y3v_4Hr4STqsT_fYG6Y6Ds,47973
+archive_md_urls-0.0.7.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+archive_md_urls-0.0.7.dist-info/entry_points.txt,sha256=nZGVgFNxF24KhCzeLeEIz6K_6DPXXNQe_Zlz6Nqdk1I,61
+archive_md_urls-0.0.7.dist-info/licenses/LICENSE,sha256=-JHhLXXB2RRUeojKiRRTDHyJ1QiOCtrDfwbahUOb6Yc,35150
+archive_md_urls-0.0.7.dist-info/RECORD,,
