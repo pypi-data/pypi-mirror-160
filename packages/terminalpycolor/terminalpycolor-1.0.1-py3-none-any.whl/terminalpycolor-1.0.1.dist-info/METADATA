@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: terminalpycolor
+Version: 1.0.1
+Summary: A simple python library that can be used on designing your Terminal
+Home-page: https://github.com/jiroawesome/terminalpycolor
+Author: jiroawesome
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jiroawesome/terminalpycolor/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# terminalpycolor
+
+- A simple python library that can be used on designing your Terminal.
+
+## Installation
+```
+pip install terminalpycolor
+```
+
+## Example
+```python
+from terminalpycolor import Colors
+design = Colors()
+print(design.red('Hello World'))
+```
+
