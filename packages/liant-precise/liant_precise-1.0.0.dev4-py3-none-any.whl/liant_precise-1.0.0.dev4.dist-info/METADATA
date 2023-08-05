@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: liant-precise
+Version: 1.0.0.dev4
+Summary: Mycroft Precise Wake Word Listener
+Home-page: http://github.com/MycroftAI/mycroft-precise
+Author: Matthew Scholefield
+Author-email: matthew.scholefield@mycroft.ai
+License: Apache-2.0
+Keywords: wakeword keyword wake word listener sound
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tensorflow (==2.3.1)
+Requires-Dist: sonopy
+Requires-Dist: pyaudio
+Requires-Dist: h5py
+Requires-Dist: wavio
+Requires-Dist: typing
+Requires-Dist: prettyparse (<1.0)
+Requires-Dist: precise-runner
+
+View more info at `the GitHub page <https://github.com/mycroftai/mycroft-precise#mycroft-precise>`_
