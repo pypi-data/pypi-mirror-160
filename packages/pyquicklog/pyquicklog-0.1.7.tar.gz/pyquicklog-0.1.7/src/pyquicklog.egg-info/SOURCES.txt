@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/pyquicklog.egg-info/PKG-INFO
+src/pyquicklog.egg-info/SOURCES.txt
+src/pyquicklog.egg-info/dependency_links.txt
+src/pyquicklog.egg-info/not-zip-safe
+src/pyquicklog.egg-info/top_level.txt
