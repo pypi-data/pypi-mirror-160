@@ -1,0 +1,5 @@
+[console_scripts]
+ipymote3 = pymote3.scripts.ipymote3:start_ipymote3
+
+[gui_scripts]
+pymote3-simgui = pymote3.gui.simulationgui:main
