@@ -1,0 +1,10 @@
+torch
+cycler
+matplotlib
+numpy
+pandas
+wandb
+torchvision
+scipy
+plotly
+scikit-learn
