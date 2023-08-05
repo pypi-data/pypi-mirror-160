@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Eikthyr
+Version: 0.4.0
+Summary: An wrapper to provide more utilities and completion checks to the luigi workflow library.
+Author-email: Hojin Koh <hojin-koh@users.noreply.github.com>
+Project-URL: Homepage, https://github.com/hojin-koh/Eikthyr
+Project-URL: Bug Tracker, https://github.com/hojin-koh/Eikthyr/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: luigi
+Requires-Dist: plumbum
+Requires-Dist: colorama
+Requires-Dist: logzero
+
+# Eikthyr
+
+An wrapper to provide more utilities and completion checks to the luigi workflow library.
