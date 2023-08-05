@@ -1,0 +1,6 @@
+defaults:
+  - /columns: feature
+  - datetime: default
+
+_target_: ekorpkit.info.column.FeatureInfo
+data:

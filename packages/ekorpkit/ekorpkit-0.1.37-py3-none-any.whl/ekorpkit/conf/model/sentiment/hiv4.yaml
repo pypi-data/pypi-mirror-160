@@ -1,0 +1,12 @@
+defaults:
+  - _default
+  - /model/ngram: hiv4
+  - features: hiv4
+  - override /_predict_: sentiment_hiv4
+
+name: hiv4sa
+_predict_:
+  lexicon_features:
+  features:
+    - polarity
+    - legal
