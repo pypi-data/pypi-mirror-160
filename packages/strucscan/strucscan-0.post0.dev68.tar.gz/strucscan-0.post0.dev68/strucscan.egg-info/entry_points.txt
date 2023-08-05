@@ -1,0 +1,2 @@
+[console_scripts]
+strucscan = strucscan.cli:main
