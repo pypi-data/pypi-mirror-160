@@ -1,0 +1,12 @@
+toolz<1,>=0.10.0
+pint<1,>=0.13
+deprecation<3,>=2.0.7
+
+[gemd.demo.tests]
+pandas<2,>=1.1.5
+
+[gemd.entity.bounds.tests]
+numpy
+
+[tests]
+pytest<7,>=6.2.5
