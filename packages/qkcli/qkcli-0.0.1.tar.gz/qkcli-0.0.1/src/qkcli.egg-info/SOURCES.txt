@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/qkcli.py
+src/qkcli.egg-info/PKG-INFO
+src/qkcli.egg-info/SOURCES.txt
+src/qkcli.egg-info/dependency_links.txt
+src/qkcli.egg-info/requires.txt
+src/qkcli.egg-info/top_level.txt
