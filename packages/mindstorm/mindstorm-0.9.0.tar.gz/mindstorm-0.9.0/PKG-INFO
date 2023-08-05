@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mindstorm
+Version: 0.9.0
+Summary: Mindstorm: Advanced analysis of neuroimaging data
+Home-page: https://github.com/mortonne/mindstorm
+Author: Neal Morton
+Author-email: mortonne@gmail.com
+License: GPL-3.0-or-later
+Keywords: fMRI,neuroimaging,RSA
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mindstorm
+[![PyPI version](https://badge.fury.io/py/mindstorm.svg)](https://badge.fury.io/py/mindstorm)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4248135.svg)](https://doi.org/10.5281/zenodo.4248135)
+
+Package for advanced neuroimaging analysis tools.
