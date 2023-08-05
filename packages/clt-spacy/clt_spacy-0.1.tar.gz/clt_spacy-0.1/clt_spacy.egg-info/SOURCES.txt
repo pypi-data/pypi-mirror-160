@@ -1,0 +1,7 @@
+setup.py
+clt_spacy/__init__.py
+clt_spacy.egg-info/PKG-INFO
+clt_spacy.egg-info/SOURCES.txt
+clt_spacy.egg-info/dependency_links.txt
+clt_spacy.egg-info/requires.txt
+clt_spacy.egg-info/top_level.txt
