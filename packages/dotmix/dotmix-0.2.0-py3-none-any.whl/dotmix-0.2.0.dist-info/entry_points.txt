@@ -1,0 +1,3 @@
+[console_scripts]
+dotmix=dotmix.cli:cli
+
