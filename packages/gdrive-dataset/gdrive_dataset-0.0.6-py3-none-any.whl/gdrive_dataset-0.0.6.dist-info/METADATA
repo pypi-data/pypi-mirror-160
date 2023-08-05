@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gdrive-dataset
+Version: 0.0.6
+Summary: easy downloader for google drive datasets
+Home-page: https://github.com/teddylee777/gdrive_datasets
+Author: teddylee777
+Author-email: teddylee777@gmail.com
+License: UNKNOWN
+Keywords: dacon,teddylee777
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Requires-Dist: googledrivedownloader
+
+UNKNOWN
+
+
