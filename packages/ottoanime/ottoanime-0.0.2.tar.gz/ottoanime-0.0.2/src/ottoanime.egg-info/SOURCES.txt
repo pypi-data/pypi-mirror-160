@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ottoanime/__init__.py
+src/ottoanime/ottoanime.py
+src/ottoanime.egg-info/PKG-INFO
+src/ottoanime.egg-info/SOURCES.txt
+src/ottoanime.egg-info/dependency_links.txt
+src/ottoanime.egg-info/top_level.txt
