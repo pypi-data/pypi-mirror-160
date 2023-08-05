@@ -1,0 +1,11 @@
+dotx/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dotx/ignore.py,sha256=a8IXCbhTgi1hYQXhXsiwtwPm-fhI75sF4ep3VvEBI-U,2989
+dotx/install.py,sha256=B5HOPFinxNU6VQ1390n-Y174z5D1HmqkRUF540QNMFo,7252
+dotx/options.py,sha256=3Ff7YPCaQaEo-99GV0XTsoF9dsuE6AS2hx4JxpZpti8,786
+dotx/plan.py,sha256=9D0VfHHWbjucY2QgnO27JhysXurTD-5S629m-mpwKu4,12088
+dotx/uninstall.py,sha256=OQyhIt7sHMxLw0IXHdMTi3fdvg8BMfO9ZVPtiX8TB1c,1968
+dotx-0.0.1.dist-info/METADATA,sha256=Xc76itYa_4dnMVy65GclcKaZcsBIInlzl5zeGEp_Ljk,2703
+dotx-0.0.1.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+dotx-0.0.1.dist-info/entry_points.txt,sha256=JkFZoUErXmZOwKBt8mak4tTLFyNWOf8cxpJrdq7KEeM,33
+dotx-0.0.1.dist-info/licenses/LICENSE,sha256=JxPcmUhz-Dayke21ps9w3_mIzN84DJO-om3JIIQUGk4,1061
+dotx-0.0.1.dist-info/RECORD,,
