@@ -1,0 +1,10 @@
+dgarbsutils/Cloudwatch.py,sha256=IssT2YvUwWu4Df4QaZGrSZk3JjDc2VwLe7EE1O-qE80,2301
+dgarbsutils/DynamoDB.py,sha256=NZxCKXZI3K_Ps96iTt7i_n4O9xOJqZKCU6gV9TWHxiA,4735
+dgarbsutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dgarbsutils/awsUtils.py,sha256=0ryNLJ3WhtcJ_zU47OTFyb-Ok9P7olwJrTvZLjEjIUA,4661
+dgarbsutils/utils.py,sha256=exaBt5K9sN4IlXCwsZMUBn4W3XARWFZlT2tQWpIeCO4,3564
+dgarbsutils-1.3.0.dist-info/LICENSE,sha256=bpSCKQ8dNUnBJC-upyFIxnTf4Gix9k-E5Wv-9KNn9lI,1072
+dgarbsutils-1.3.0.dist-info/METADATA,sha256=TAgA65SE63wYC1gCGY7z8U3uethyIJWIuKGbn-3PJic,989
+dgarbsutils-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dgarbsutils-1.3.0.dist-info/top_level.txt,sha256=goP3nMGJcGCLgsuhcAqOYog-KWKJd7pd91U99T5f_6k,12
+dgarbsutils-1.3.0.dist-info/RECORD,,
