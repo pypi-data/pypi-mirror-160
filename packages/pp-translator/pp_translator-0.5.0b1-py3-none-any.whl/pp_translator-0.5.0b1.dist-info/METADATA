@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pp-translator
+Version: 0.5.0b1
+Summary: Library for translating Zepben CIM network models to pandapower models
+Home-page: https://github.com/zepben/pp-translator
+Author: Zeppelin Bend
+Author-email: oss@zepben.com
+License: MPL 2.0
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: zepben.evolve (==0.28.0b11)
+Requires-Dist: pandapower (==2.9.0)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+Requires-Dist: hypothesis (<6) ; extra == 'test'
+
