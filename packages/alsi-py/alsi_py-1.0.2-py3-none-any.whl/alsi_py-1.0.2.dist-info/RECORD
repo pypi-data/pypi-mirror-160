@@ -1,0 +1,14 @@
+alsi/VERSION,sha256=v-wuNFg62n5q8stzmT-3Wj9xR6bJQ-X_X1xClPxXe5A,5
+alsi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alsi/exceptions.py,sha256=Ioh8wYK3EIXzi-4aJngA7kOJs6xM7raryelndnqO218,49
+alsi/pandas_client.py,sha256=ImdPLq3RUatVSMfZKW_zzwaXOOH0UTdjXByXYB8fSc4,5407
+alsi/raw_client.py,sha256=LbarYsTSnREhi13tPJshQZ0PglqoOkMa0TGDJFSXHIQ,8414
+alsi/timefilter.py,sha256=5iKnn3DFcDUkkMhyEYZrlDPTnJwAlV0_wjtLu-3Z8I0,239
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pandas_client.py,sha256=6RyabsflFuA-bP-qLCMRqNeEiXys4JEraxq3AKsSNuQ,2268
+tests/test_raw_client.py,sha256=5ndM6-V3tiHjJvyUVrrSMZMbSLHv8icKVhF4VN3jZO0,2901
+alsi_py-1.0.2.dist-info/LICENSE,sha256=0ZR6DYtxhNH-hwRi3JyVmY0uH3fF5BEuXxaD_zZoqtg,1081
+alsi_py-1.0.2.dist-info/METADATA,sha256=q5sOOiTFjVgWgrfhGFDSReCM6VRLpOUDsmdu8M2dGBw,3019
+alsi_py-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+alsi_py-1.0.2.dist-info/top_level.txt,sha256=tzWNd1X7bSx6WqWWvv8bwUJWQacLkprRG2F5nqxCDCE,11
+alsi_py-1.0.2.dist-info/RECORD,,
