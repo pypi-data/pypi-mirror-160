@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: datamonk-invest-tools
+Version: 0.1.2
+Summary: package for my personal investment activities
+Author: Vit Mrnavek
+Author-email: vit.mrnavek@datamonk.cz
+Requires-Python: >=3.9.0,<3.10.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: urllib3 (>=1.26.10,<2.0.0)
+Requires-Dist: xmltodict (>=0.13.0,<0.14.0)
