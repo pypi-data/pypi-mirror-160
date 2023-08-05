@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ShortPaw
+Version: 0.0.1
+Summary: A CLI Tools for ShortPaw
+Home-page: https://shortpaw.herokuapp.com
+Author: NoobScience
+Author-email: noobscience123@gmail.com
+License: MIT
+Project-URL: Author WebSite, https://newtoallofthis123.github.io/About
+Project-URL: Bug Tracker, https://github.com/newtoallofthis123/shortpaw/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ShortPaw CLI
+
+## Installation
+
+The Above is a simple application to use [ShortPaw]("https://shortpaw.herokuapp.com") from your commandline. Install With
+
+```bash
+pip install shortpaw
+````
+
+## Usage
+
+The Usage is very Simple
+
+```bash
+shortpaw [OPTIONS]
+-u : "URL"
+-c : "Optional CUSTOM URL"
+-i : "Interactive Mode"
+```
+
+# Check out [ShortPaw]("https://shortpaw.herokuapp.com")
+
+> By NoobScience 2022

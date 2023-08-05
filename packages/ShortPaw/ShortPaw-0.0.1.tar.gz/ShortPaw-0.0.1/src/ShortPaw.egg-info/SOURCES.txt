@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/ShortPaw.egg-info/PKG-INFO
+src/ShortPaw.egg-info/SOURCES.txt
+src/ShortPaw.egg-info/dependency_links.txt
+src/ShortPaw.egg-info/entry_points.txt
+src/ShortPaw.egg-info/requires.txt
+src/ShortPaw.egg-info/top_level.txt
+src/shortpaw/__init__.py
+src/shortpaw/__main__.py
