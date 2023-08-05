@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "standup-shows"
+version = "1.0.1"
+description = "Find stand-up comedy shows near you from the command line."
+authors = ["Cal Warhurst"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/calwarhurst/standup-shows"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fire = "*"
+beautifulsoup4 = "*"
+requests = "*"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+standup = 'standup_shows.standup:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
