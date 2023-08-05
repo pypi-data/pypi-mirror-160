@@ -1,0 +1,5 @@
+shellpy
+kubernetes
+simple-term-menu
+pync
+rich

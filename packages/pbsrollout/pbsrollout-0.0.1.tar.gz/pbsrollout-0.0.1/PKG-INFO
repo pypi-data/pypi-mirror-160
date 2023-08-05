@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pbsrollout
+Version: 0.0.1
+Summary: Utility to release the prebid server
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Author-email: Dimitri Wyzlic <dimitriwyzlic@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9.13
