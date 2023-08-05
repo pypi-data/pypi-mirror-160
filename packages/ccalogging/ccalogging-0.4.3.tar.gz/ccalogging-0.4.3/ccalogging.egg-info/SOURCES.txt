@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ccalogging/__init__.py
+ccalogging.egg-info/PKG-INFO
+ccalogging.egg-info/SOURCES.txt
+ccalogging.egg-info/dependency_links.txt
+ccalogging.egg-info/top_level.txt
