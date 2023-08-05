@@ -1,0 +1,3 @@
+[console_scripts]
+ProxyEater = ProxyEater.__main__:main
+

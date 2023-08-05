@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+lxml
+pandas
+html5lib
+log21
+importlib_resources

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ProxyEater/Proxy.py
+ProxyEater/Scraper.py
+ProxyEater/__init__.py
+ProxyEater/__main__.py
+ProxyEater/sources.json
+ProxyEater.egg-info/PKG-INFO
+ProxyEater.egg-info/SOURCES.txt
+ProxyEater.egg-info/dependency_links.txt
+ProxyEater.egg-info/entry_points.txt
+ProxyEater.egg-info/requires.txt
+ProxyEater.egg-info/top_level.txt
