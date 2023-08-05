@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/rapidrsa/__init__.py
+src/rapidrsa/rapidrsa.py
+src/rapidrsa.egg-info/PKG-INFO
+src/rapidrsa.egg-info/SOURCES.txt
+src/rapidrsa.egg-info/dependency_links.txt
+src/rapidrsa.egg-info/requires.txt
+src/rapidrsa.egg-info/top_level.txt
