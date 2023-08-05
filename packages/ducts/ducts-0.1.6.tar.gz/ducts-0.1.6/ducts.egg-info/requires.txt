@@ -1,0 +1,11 @@
+aiofiles
+aiohttp
+aiohttp-remotes
+aioredis
+async-timeout
+ifconf>=0.0.15
+iflb
+msgpack
+psutil
+python-daemon
+wave
