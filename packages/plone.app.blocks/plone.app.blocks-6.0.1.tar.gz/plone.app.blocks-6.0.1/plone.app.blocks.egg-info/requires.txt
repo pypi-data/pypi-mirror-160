@@ -1,0 +1,12 @@
+lxml
+plone.jsonserializer
+plone.subrequest
+plone.tiles
+Products.CMFPlone>=5.2
+repoze.xmliter
+setuptools
+
+[test]
+plone.app.tiles
+plone.app.testing
+plone.testing
