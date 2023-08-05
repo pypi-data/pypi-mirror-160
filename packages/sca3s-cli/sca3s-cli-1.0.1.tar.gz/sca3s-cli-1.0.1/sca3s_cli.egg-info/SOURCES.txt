@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sca3s-cli/__init__.py
+sca3s-cli/cli.py
+sca3s-cli/functions.py
+sca3s-cli/parser.py
+sca3s_cli.egg-info/PKG-INFO
+sca3s_cli.egg-info/SOURCES.txt
+sca3s_cli.egg-info/dependency_links.txt
+sca3s_cli.egg-info/requires.txt
+sca3s_cli.egg-info/top_level.txt
+sca3s_cli.egg-info/zip-safe
