@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: strucscan
+Version: 0.post0.dev68
+Summary: Lightweight Python-based framework for high-throughput material simulation by ICAMS, Ruhr University Bochum
+Home-page: https://github.com/ICAMS/strucscan
+Author: Isabel Pietka
+Author-email: isabel.pietka@rub.de
+License: GPL3
+Keywords: computational materials science
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: ase
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: spglib
+
