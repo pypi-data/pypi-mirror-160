@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: arseeding
+Version: 0.0.1
+Summary: Python sdk for arseeding
+Home-page: https://github.com/everFinance/arseeding.py
+Author: xiaojay
+Author-email: xiaojay@gmail.com
+License: MIT
+Download-URL: https://github.com/everFinance/arseeding.py/archive/refs/tags/v0.0.1.tar.gz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# everpay.py
+
+Python sdk for [arseeding] (https://github.com/everFinance/arseeding).
+
+Install with
+
+```
+pip install arseeding
+```
+
+
+- Quick start
+
+upload python.pdf to arweave using arseeding
+
+```python
+
+# ar account
+signer = everpay.ARSigner('ar_wallet.json')
+data = open('go.pdf', 'rb').read()
+o = send_and_pay(signer, 'usdc', data)
+print(o)
+
+```
+
