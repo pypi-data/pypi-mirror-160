@@ -1,0 +1,16 @@
+toml
+pyyaml
+requests
+click
+
+[all]
+nbclient
+jupytext
+ipykernel
+
+[dev]
+pytest
+yapf
+flake8
+invoke
+twine
