@@ -1,0 +1,8 @@
+standup_shows/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+standup_shows/models.py,sha256=XqrShU7eoRXolLgLG_XtyE_I1HaH6EsbLiQYzSdir0Q,3211
+standup_shows/standup.py,sha256=ZnQQfGVxl-E0O_frEE4kvYD-ZJW5yHKEbZuZlzZHbkQ,2714
+standup_shows-1.0.0.dist-info/entry_points.txt,sha256=OhveaabcsABBtV6oxrlmA8H1Ejk8kZV4V5qtf2zedVA,54
+standup_shows-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+standup_shows-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+standup_shows-1.0.0.dist-info/METADATA,sha256=Ue5je5Cu1H_wmSCKM-ENi8x4NzhuwCbQjPrvk77ZlBU,3043
+standup_shows-1.0.0.dist-info/RECORD,,
