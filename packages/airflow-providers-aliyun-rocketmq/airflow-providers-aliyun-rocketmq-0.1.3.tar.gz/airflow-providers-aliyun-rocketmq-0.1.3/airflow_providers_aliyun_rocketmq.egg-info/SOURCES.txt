@@ -1,0 +1,11 @@
+README.md
+setup.py
+airflow_providers_aliyun_rocketmq.egg-info/PKG-INFO
+airflow_providers_aliyun_rocketmq.egg-info/SOURCES.txt
+airflow_providers_aliyun_rocketmq.egg-info/dependency_links.txt
+airflow_providers_aliyun_rocketmq.egg-info/entry_points.txt
+airflow_providers_aliyun_rocketmq.egg-info/requires.txt
+airflow_providers_aliyun_rocketmq.egg-info/top_level.txt
+aliyun_rocketmq_provider/__init__.py
+aliyun_rocketmq_provider/hooks/__init__.py
+aliyun_rocketmq_provider/hooks/aliyun_rocketmq.py

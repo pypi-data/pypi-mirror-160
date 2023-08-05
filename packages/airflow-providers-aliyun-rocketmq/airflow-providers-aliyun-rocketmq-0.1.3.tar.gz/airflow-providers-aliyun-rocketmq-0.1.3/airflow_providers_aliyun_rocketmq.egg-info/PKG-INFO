@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: airflow-providers-aliyun-rocketmq
+Version: 0.1.3
+Summary: Airflow x Aliyun RocketMQ
+Home-page: https://github.com/Ed-XCF/airflow-providers-aliyun-rocketmq
+Author: Ed__xu__Ed
+Author-email: m.tofu@qq.com
+License: Apache License 2.0
+Description: <p align="center">
+          <a href="https://www.airflow.apache.org">
+            <img alt="Airflow" src="https://cwiki.apache.org/confluence/download/attachments/145723561/airflow_transparent.png?api=v2" width="60" />
+          </a>
+        </p>
+        <h1 align="center">
+          Airflow Provider for Aliyun RocketMQ
+        </h1>
+          <h3 align="center">
+        </h3>
+        
+        ![GitHub](https://img.shields.io/github/license/Ed-XCF/airflow-providers-aliyun-rocketmq)
+        [![Build Status](https://app.travis-ci.com/Ed-XCF/airflow-provider-aliyun-rocketmq.svg?branch=main)](https://app.travis-ci.com/Ed-XCF/airflow-provider-aliyun-rocketmq)
+        [![codecov](https://codecov.io/gh/Ed-XCF/airflow-provider-aliyun-rocketmq/branch/main/graph/badge.svg?token=RCI7A0MBOO)](https://codecov.io/gh/Ed-XCF/airflow-provider-aliyun-rocketmq)
+        ![PyPI](https://img.shields.io/pypi/v/airflow-providers-aliyun-rocketmq)
+        
+        Example
+        ```python
+        from aliyun_rocketmq_provider.hooks.aliyun_rocketmq import AliyunRocketMQHook
+        
+        message_push_topic = AliyunRocketMQHook(topic="message-push")
+        message_push_topic.run("helloWorld", fail_silently=True)
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
