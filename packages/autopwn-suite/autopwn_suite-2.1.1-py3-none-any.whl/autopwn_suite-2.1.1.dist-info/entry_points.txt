@@ -1,0 +1,3 @@
+[console_scripts]
+autopwn-suite = autopwn_suite.autopwn:main
+
