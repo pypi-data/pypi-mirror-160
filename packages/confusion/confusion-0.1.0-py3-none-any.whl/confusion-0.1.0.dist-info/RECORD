@@ -1,0 +1,9 @@
+confusion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+confusion/parser.py,sha256=hcGZjh-_G5L0ystBtoZJGuXQP5kkDT_Wkok_b9N2Mec,2545
+confusion/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+confusion/test/test_parser.py,sha256=0UgRuaOSUZbrwWUBxmlJYwLHFjmhPgwq0zMfoRgtBWg,3780
+confusion-0.1.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+confusion-0.1.0.dist-info/METADATA,sha256=JjU7JBnXV3pv_ayN35eTps_6luUirF11bn6s8iHPouA,30988
+confusion-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+confusion-0.1.0.dist-info/top_level.txt,sha256=HLrXWvOqsC8THWwQw8fvrwATHTqY4RjJNfoOCdty7eI,10
+confusion-0.1.0.dist-info/RECORD,,
