@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+restalker/__init__.py
+restalker/link_extractors.py
+restalker/metadata.py
+restalker/restalker.py
+restalker/textan.py
+restalker.egg-info/PKG-INFO
+restalker.egg-info/SOURCES.txt
+restalker.egg-info/dependency_links.txt
+restalker.egg-info/entry_points.txt
+restalker.egg-info/requires.txt
+restalker.egg-info/top_level.txt
