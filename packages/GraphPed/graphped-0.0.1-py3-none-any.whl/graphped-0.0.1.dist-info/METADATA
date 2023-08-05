@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: graphped
+Version: 0.0.1
+Summary: A pedigree visualization tool based on dot format and visualized by graphviz
+Home-page: https://github.com/changebio/graphped/tree/main/
+Author: Yin Huang
+Author-email: changebio@yeah.net
+License: Apache Software License 2.0
+Keywords: Complex Pedigrees,Graphviz,Jupiter notebook,Visualization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: graphviz
+
+# GraphPed: a novel graph-based visualization method for large and complex pedigrees
+> It can deal with complex families, wrong pedigrees, and multiple groups in a family.
+
+
+This file will become your README and also the index of your documentation.
+
+## Install
+
+`pip install graphped`
+
+## How to use
+
+```python
+1+1
+```
+
+
