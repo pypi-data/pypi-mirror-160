@@ -1,0 +1,7 @@
+[console_scripts]
+annotator = zephir.annotator.main:main
+extract_traces = zephir.methods.extract_traces:main
+overwrite_checkpoint = zephir.methods.overwrite_checkpoint:main
+recommend_frames = zephir.methods.recommend_frames:main
+zephir = zephir.main:main
+zephod = zephir.zephod.main:main
