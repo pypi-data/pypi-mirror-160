@@ -1,0 +1,7 @@
+numpy
+scikit-learn
+scikit-image
+statsmodels
+scipy
+matplotlib
+napari-skimage-regionprops>=0.3.1
