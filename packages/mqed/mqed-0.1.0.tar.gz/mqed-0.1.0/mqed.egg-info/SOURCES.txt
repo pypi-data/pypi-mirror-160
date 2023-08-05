@@ -1,0 +1,9 @@
+README.rst
+setup.py
+mqed.egg-info/PKG-INFO
+mqed.egg-info/SOURCES.txt
+mqed.egg-info/dependency_links.txt
+mqed.egg-info/entry_points.txt
+mqed.egg-info/not-zip-safe
+mqed.egg-info/requires.txt
+mqed.egg-info/top_level.txt
