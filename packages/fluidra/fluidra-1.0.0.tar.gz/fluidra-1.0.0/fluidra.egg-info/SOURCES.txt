@@ -1,0 +1,9 @@
+README.txt
+setup.py
+fluidra/__init__.py
+fluidra/elements.py
+fluidra.egg-info/PKG-INFO
+fluidra.egg-info/SOURCES.txt
+fluidra.egg-info/dependency_links.txt
+fluidra.egg-info/requires.txt
+fluidra.egg-info/top_level.txt
