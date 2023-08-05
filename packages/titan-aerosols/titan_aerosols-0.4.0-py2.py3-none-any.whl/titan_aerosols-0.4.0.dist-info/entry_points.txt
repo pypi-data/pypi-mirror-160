@@ -1,0 +1,3 @@
+[console_scripts]
+fractal_tholins = aerosols.cli:cli_fractal_tholins
+
