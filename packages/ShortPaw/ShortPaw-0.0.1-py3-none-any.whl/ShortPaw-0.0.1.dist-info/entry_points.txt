@@ -1,0 +1,2 @@
+[console_scripts]
+shortpaw = shortpaw.__main__:main
