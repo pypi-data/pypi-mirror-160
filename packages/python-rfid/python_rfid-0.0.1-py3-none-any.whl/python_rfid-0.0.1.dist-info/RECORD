@@ -1,0 +1,14 @@
+python_rfid/__init__.py,sha256=Ry9LYDH4asT7XZRCBA7GHiw78JX4O3Q_pCLbVK-ge9Y,211
+python_rfid/byte_utils.py,sha256=l9Q2FbMvLnbdmRbz6BLRt-94g2ceFOj-lURDbOTZrV0,2332
+python_rfid/debug_dump.py,sha256=o29fol0H_GWe65Y9O38ly6fZxm-eQnRS6rE8GRBPpzg,6949
+python_rfid/errors.py,sha256=0oKGAmX5EgkZsjzjqIrRf0zB9V1MfA56mWP0kyHvc4Y,1522
+python_rfid/mfrc522.py,sha256=qsafOXVH-OBAey0qNsJWq7WQ8rdhodgJhmNadnH4eoU,36919
+python_rfid/mifare_handler.py,sha256=GcwCTr_5SZe37F4ctZNcnJfwPKBLfsUbn0tcc7W0DDU,18922
+python_rfid/pcd_common.py,sha256=2QuKhD2kEE8AtAYm3CJppOfz3nK0QAzaim71LU4IMSk,995
+python_rfid/picc_common.py,sha256=P572Hfy5dwnqgeJtBsN4LV2a9WvlfaF344eLn02jl_g,4448
+python_rfid/picc_handler.py,sha256=pF9MxweRh295xlihxWABtt2hpBps3aPvtFYL8_Tq9bM,10906
+python_rfid/self_test_data.py,sha256=kfWArjiek_chmfREx3VfOpbv__BIrzvmobSwo1Jj0p4,2541
+python_rfid-0.0.1.dist-info/METADATA,sha256=JfXHVTfoh9fPMRpELEAhnyWAGiRIn52kvaDsTVsxiUY,1294
+python_rfid-0.0.1.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+python_rfid-0.0.1.dist-info/licenses/LICENSE,sha256=xeX6kM0Ky_80JBXiXetEDnUCbSJ8jjS0Dxtb0pKpAW0,1088
+python_rfid-0.0.1.dist-info/RECORD,,
