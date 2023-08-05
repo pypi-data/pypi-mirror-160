@@ -1,0 +1,11 @@
+kg_core/__communication.py,sha256=UWCQ9JInOV3bCdmsm66ST9Xc1n2IQabZBMv3vBx699Y,6784
+kg_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kg_core/kg.py,sha256=kJHbYdjeICki5L6paEZ33k-Ri-377s7ZCoLWjFpX3Ic,30683
+kg_core/oauth.py,sha256=VLvpTwo8oqzaTFtEaqKbsJ6UImaJJl-fzrCaszcdtdg,5784
+kg_core/request.py,sha256=CxDp7gdez_OPzQYjF6sWeyEcSmjvtqjORi9ctqCUXSY,2294
+kg_core/response.py,sha256=pGkEYysKFsw0p5-xWAIJKWdwVQgeREVPxsfnwsicKsQ,10810
+ebrains_kg_core-0.9.0.dist-info/LICENSE,sha256=ceMSZG9bWkNWoO4eHHJbCSNDLTvn4tWrxFX-Z3_LaSQ,11364
+ebrains_kg_core-0.9.0.dist-info/METADATA,sha256=1Z7Og6BR5D3ZlQLSyNdFg9QmeRV17PMp_HxcBNxmPU8,344
+ebrains_kg_core-0.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ebrains_kg_core-0.9.0.dist-info/top_level.txt,sha256=IDz8itm2TR2KM-0Rk2h6oNJITTCgqm6rIs3N2TubzjM,8
+ebrains_kg_core-0.9.0.dist-info/RECORD,,
