@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: c1algo1
+Version: 2.0.8
+Summary: scheduler algo!
+Home-page: https://github.com/seng499-company1/algorithm-1
+Author: SENG499 Company 1 - Algo 1
+Author-email: benjaminaustin@uvic.ca
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE.TXT
+Requires-Dist: treelib
+Requires-Dist: twine
+Requires-Dist: bump
+
