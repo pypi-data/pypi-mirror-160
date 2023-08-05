@@ -1,0 +1,9 @@
+network3_perseus/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+network3_perseus/network3_perseus.py,sha256=2k3jBay7-39DZIMthw4I2f5FU4w_VeuO1FGLbAZ97xM,3239
+network3_perseus/script.py,sha256=Cf8vv63O_5NNlCCJbagOx-ftZzPItwZGcWvGftnKcVI,65
+network3_perseus/templates/cisco/nxos/intended_config.j2,sha256=W5e6qQWnAjbWvoqwF4CkrtItMt9WRLS2XoB8zhSMlOw,2478
+network3_perseus-0.1.7.dist-info/entry_points.txt,sha256=T2Dr5u107PbFRAZqUfpveOlxjx-mhBthPOffuSQbeOk,64
+network3_perseus-0.1.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+network3_perseus-0.1.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+network3_perseus-0.1.7.dist-info/METADATA,sha256=jjxGRmbu-XUyDIUCVRTeh8wRZBD7gA6cpQih-J9mIeM,3915
+network3_perseus-0.1.7.dist-info/RECORD,,
