@@ -1,0 +1,3 @@
+[console_scripts]
+find-duplicate = find_duplicates:caller
+restore-exif = restore_exif:caller
