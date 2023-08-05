@@ -1,0 +1,9 @@
+[console_scripts]
+rlabs = rudderlabs.data.apps.scripts.rudderlabs:main
+
+[rlabs.aws.cli]
+run_pipeline = rudderlabs.data.apps.scripts.run_pipeline:run_pipeline
+
+[rlabs.cli]
+aws = rudderlabs.data.apps.scripts.aws:aws
+new = rudderlabs.data.apps.scripts.new:new
