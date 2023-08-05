@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wagtail-liveedit
+Version: 0.0.4
+Summary: Live editing add-on for Wagtail CMS
+Home-page: https://github.com/jonny5532/wagtail-liveedit
+Author: jonny5532
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Wagtail
+Requires-Dist: wagtail (>=2.13)
+
+UNKNOWN
+
+
