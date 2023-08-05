@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d1d477d-f063-4f9e-879e-a06c0eb1e097" name="Changes" comment="25/1/2022">
+      <change beforePath="$PROJECT_DIR$/Yair_code/Main_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yair_code/Main_File.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yair_code/Main_execution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yair_code/Main_execution.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22bK1xbTOyCYDeghiK9Fg14QsMc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowPython Console.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Desktop/for shahar.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="python.debugger.dataview.coloredbydefault" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\OneDrive - Technion\Desktop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\OneDrive - Technion\Master degree\Wave_Function_Propagation\Yair_code" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Main_execution">
+    <configuration name="DOS_BS_PLOT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Wave_Function_Propagation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../my_seminar/GaAS-AlAS/Bulk/AlAs/M4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../my_seminar/GaAS-AlAS/Bulk/AlAs/M4/DOS_BS_PLOT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Help_function_library_yair" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Wave_Function_Propagation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Yair_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yair_code/Help_function_library_yair.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main_File" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Wave_Function_Propagation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Yair_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yair_code/Main_File.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main_execution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Wave_Function_Propagation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Yair_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yair_code/Main_execution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Stage_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Wave_Function_Propagation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Yair_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Yair_code/Stage_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Wave_Function_Propagation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.DOS_BS_PLOT" />
+      <item itemvalue="Python.Help_function_library_yair" />
+      <item itemvalue="Python.Main_File" />
+      <item itemvalue="Python.Main_execution" />
+      <item itemvalue="Python.Stage_2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main_execution" />
+        <item itemvalue="Python.Help_function_library_yair" />
+        <item itemvalue="Python.Stage_2" />
+        <item itemvalue="Python.Main_File" />
+        <item itemvalue="Python.DOS_BS_PLOT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d1d477d-f063-4f9e-879e-a06c0eb1e097" name="Changes" comment="" />
+      <created>1640100636220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640100636220</updated>
+      <workItem from="1640100638020" duration="6225000" />
+      <workItem from="1640531158837" duration="34951000" />
+      <workItem from="1641492298821" duration="704000" />
+      <workItem from="1641493030594" duration="722000" />
+      <workItem from="1641663265832" duration="171000" />
+      <workItem from="1641739308935" duration="217000" />
+      <workItem from="1641739600114" duration="8246000" />
+      <workItem from="1641747928319" duration="12738000" />
+      <workItem from="1641980370583" duration="48716000" />
+      <workItem from="1642324635881" duration="1853000" />
+      <workItem from="1642405837471" duration="48855000" />
+      <workItem from="1642931350302" duration="41322000" />
+      <workItem from="1643534581965" duration="112027000" />
+      <workItem from="1644325576039" duration="19865000" />
+      <workItem from="1644391556648" duration="2001000" />
+      <workItem from="1644503649869" duration="32268000" />
+      <workItem from="1644846331026" duration="36167000" />
+      <workItem from="1645350172006" duration="22209000" />
+      <workItem from="1645626468992" duration="19127000" />
+      <workItem from="1645972801544" duration="31192000" />
+      <workItem from="1646126935696" duration="79545000" />
+      <workItem from="1646733042916" duration="36223000" />
+      <workItem from="1647165347415" duration="8163000" />
+      <workItem from="1647258808239" duration="46068000" />
+      <workItem from="1647449888505" duration="305000" />
+      <workItem from="1647523960048" duration="4781000" />
+      <workItem from="1647793894360" duration="83291000" />
+      <workItem from="1648750945787" duration="34811000" />
+      <workItem from="1649583409644" duration="24495000" />
+      <workItem from="1649765402656" duration="22489000" />
+      <workItem from="1649853385310" duration="337000" />
+      <workItem from="1651398067780" duration="2600000" />
+      <workItem from="1652278548751" duration="108212000" />
+      <workItem from="1653389846186" duration="27618000" />
+      <workItem from="1654611511766" duration="118092000" />
+      <workItem from="1655376742841" duration="33774000" />
+      <workItem from="1655628834201" duration="31503000" />
+      <workItem from="1655662221372" duration="32027000" />
+      <workItem from="1655798593079" duration="10117000" />
+      <workItem from="1655827323895" duration="286000" />
+      <workItem from="1655827802496" duration="34547000" />
+      <workItem from="1656064994147" duration="727000" />
+    </task>
+    <task id="LOCAL-00067" summary="25/1/2022">
+      <created>1649853636150</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1649853636151</updated>
+    </task>
+    <task id="LOCAL-00068" summary="25/1/2022">
+      <created>1652284248236</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1652284248236</updated>
+    </task>
+    <task id="LOCAL-00069" summary="25/1/2022">
+      <created>1652385095736</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1652385095736</updated>
+    </task>
+    <task id="LOCAL-00070" summary="25/1/2022">
+      <created>1652385115742</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1652385115742</updated>
+    </task>
+    <task id="LOCAL-00071" summary="25/1/2022">
+      <created>1652626773438</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1652626773438</updated>
+    </task>
+    <task id="LOCAL-00072" summary="25/1/2022">
+      <created>1652724145469</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1652724145470</updated>
+    </task>
+    <task id="LOCAL-00073" summary="25/1/2022">
+      <created>1652813189842</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1652813189842</updated>
+    </task>
+    <task id="LOCAL-00074" summary="25/1/2022">
+      <created>1652894218143</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1652894218144</updated>
+    </task>
+    <task id="LOCAL-00075" summary="25/1/2022">
+      <created>1653331039550</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1653331039550</updated>
+    </task>
+    <task id="LOCAL-00076" summary="25/1/2022">
+      <created>1653389815890</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1653389815891</updated>
+    </task>
+    <task id="LOCAL-00077" summary="25/1/2022">
+      <created>1653409119356</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1653409119356</updated>
+    </task>
+    <task id="LOCAL-00078" summary="25/1/2022">
+      <created>1655063328659</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1655063328659</updated>
+    </task>
+    <task id="LOCAL-00079" summary="25/1/2022">
+      <created>1655137104589</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1655137104589</updated>
+    </task>
+    <task id="LOCAL-00080" summary="25/1/2022">
+      <created>1655140540072</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1655140540072</updated>
+    </task>
+    <task id="LOCAL-00081" summary="25/1/2022">
+      <created>1655147180009</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1655147180009</updated>
+    </task>
+    <task id="LOCAL-00082" summary="25/1/2022">
+      <created>1655148541865</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1655148541865</updated>
+    </task>
+    <task id="LOCAL-00083" summary="25/1/2022">
+      <created>1655222162468</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1655222162468</updated>
+    </task>
+    <task id="LOCAL-00084" summary="25/1/2022">
+      <created>1655307785791</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1655307785792</updated>
+    </task>
+    <task id="LOCAL-00085" summary="25/1/2022">
+      <created>1655308100205</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1655308100205</updated>
+    </task>
+    <task id="LOCAL-00086" summary="25/1/2022">
+      <created>1655309302646</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1655309302646</updated>
+    </task>
+    <task id="LOCAL-00087" summary="25/1/2022">
+      <created>1655310312474</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1655310312474</updated>
+    </task>
+    <task id="LOCAL-00088" summary="25/1/2022">
+      <created>1655391770978</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1655391770979</updated>
+    </task>
+    <task id="LOCAL-00089" summary="25/1/2022">
+      <created>1655396796531</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1655396796531</updated>
+    </task>
+    <task id="LOCAL-00090" summary="25/1/2022">
+      <created>1655406259551</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1655406259551</updated>
+    </task>
+    <task id="LOCAL-00091" summary="25/1/2022">
+      <created>1655482058953</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1655482058953</updated>
+    </task>
+    <task id="LOCAL-00092" summary="25/1/2022">
+      <created>1655483709208</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1655483709208</updated>
+    </task>
+    <task id="LOCAL-00093" summary="25/1/2022">
+      <created>1655637794216</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1655637794216</updated>
+    </task>
+    <task id="LOCAL-00094" summary="25/1/2022">
+      <created>1655641663599</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1655641663599</updated>
+    </task>
+    <task id="LOCAL-00095" summary="25/1/2022">
+      <created>1655650183116</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1655650183116</updated>
+    </task>
+    <task id="LOCAL-00096" summary="25/1/2022">
+      <created>1655653442948</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1655653442948</updated>
+    </task>
+    <task id="LOCAL-00097" summary="25/1/2022">
+      <created>1655662189964</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1655662189969</updated>
+    </task>
+    <task id="LOCAL-00098" summary="25/1/2022">
+      <created>1655663174920</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1655663174920</updated>
+    </task>
+    <task id="LOCAL-00099" summary="25/1/2022">
+      <created>1655737144336</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1655737144336</updated>
+    </task>
+    <task id="LOCAL-00100" summary="25/1/2022">
+      <created>1655738206109</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1655738206109</updated>
+    </task>
+    <task id="LOCAL-00101" summary="25/1/2022">
+      <created>1655745848725</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1655745848725</updated>
+    </task>
+    <task id="LOCAL-00102" summary="25/1/2022">
+      <created>1655747552408</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1655747552408</updated>
+    </task>
+    <task id="LOCAL-00103" summary="25/1/2022">
+      <created>1655753171299</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1655753171299</updated>
+    </task>
+    <task id="LOCAL-00104" summary="25/1/2022">
+      <created>1655758872357</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1655758872357</updated>
+    </task>
+    <task id="LOCAL-00105" summary="25/1/2022">
+      <created>1655812267224</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1655812267225</updated>
+    </task>
+    <task id="LOCAL-00106" summary="25/1/2022">
+      <created>1655821203415</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1655821203415</updated>
+    </task>
+    <task id="LOCAL-00107" summary="25/1/2022">
+      <created>1655827904619</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1655827904619</updated>
+    </task>
+    <task id="LOCAL-00108" summary="25/1/2022">
+      <created>1655837727742</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1655837727742</updated>
+    </task>
+    <task id="LOCAL-00109" summary="25/1/2022">
+      <created>1655886481451</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1655886481451</updated>
+    </task>
+    <task id="LOCAL-00110" summary="25/1/2022">
+      <created>1655898084734</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1655898084734</updated>
+    </task>
+    <task id="LOCAL-00111" summary="25/1/2022">
+      <created>1655927836976</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1655927836976</updated>
+    </task>
+    <task id="LOCAL-00112" summary="25/1/2022">
+      <created>1655981451075</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1655981451075</updated>
+    </task>
+    <task id="LOCAL-00113" summary="25/1/2022">
+      <created>1655990884843</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1655990884843</updated>
+    </task>
+    <task id="LOCAL-00114" summary="25/1/2022">
+      <created>1656064512714</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1656064512714</updated>
+    </task>
+    <task id="LOCAL-00115" summary="25/1/2022">
+      <created>1656065011446</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1656065011446</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="test_branch" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="pep8 errors - fixed, but not completely." />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="no message" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Yair_code/Locpot_class.py&#10;#&#9;Yair_code/Stage_1.py&#10;#&#9;Yair_code/Stage_2.py" />
+    <MESSAGE value="25/1/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/1/2022" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Yair_code/Help_function_library_yair.py</url>
+          <line>574</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Yair_code/Help_function_library_yair.py</url>
+          <line>447</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Yair_code/Stage_1.py</url>
+          <line>251</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Yair_code/Stage_1.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="plt.plot(z,v)" language="Python" />
+        <watch expression="plt.scatter(minima_tot[:,0],minima_tot[:,1])" language="Python" />
+        <watch expression="plt.scatter(maxima_tot[:,0],maxima_tot[:,1])" language="Python" />
+        <watch expression="plt.scatter(z[minima_temp[0]],v[minima_temp[0]])" language="Python" />
+        <watch expression="plt.scatter(x[minima_temp[0]],y[minima_temp[0]])" language="Python" />
+        <watch expression="plt.scatter(x[maxima_temp[0]],y[maxima_temp[0]])" language="Python" />
+        <watch expression="plt.plot(z[(z_start &lt; z) &amp; (z &lt; z_finish)],v[(z_start &lt; z) &amp; (z &lt; z_finish)])" language="Python" />
+        <watch expression="plt.plot(x,y)" language="Python" />
+        <watch expression="plt.scatter(x[minima[0]],-y2[minima[0]])" language="Python" />
+        <watch expression="plt.scatter(x[maxima[0]],y[maxima[0]])" language="Python" />
+        <watch expression="plt.plot(E0num[:, 1], self.cons.J2eV(E0num[:, 0]), 'b', label='E0num')" language="Python" />
+      </configuration>
+      <configuration name="Python Console Debugger">
+        <watch expression="plt.plot(x,y)" language="Python" />
+        <watch expression="plt.show()" language="Python" />
+        <watch expression="__py_debug_temp_var_1180076537[0].drawStyles" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Stage_2_py$pydos_yair_with_interface_GaN_AlN_one_unit_cell_eeffe_0__1_.coverage" NAME="pydos_yair_with_interface_GaN_AlN_one_unit_cell_eeffe_0 (1) Coverage Results" MODIFIED="1647882160696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Tasks/Semester_3/GaN-AlN/Interface/One_unit_Cell/Strained/avg_lat" />
+    <SUITE FILE_PATH="coverage/savitzky_golay_py$Stage_2.coverage" NAME="Stage_2 Coverage Results" MODIFIED="1655656181951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Main_execution_py$Main_execution.coverage" NAME="Main_execution Coverage Results" MODIFIED="1655987453869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Stage_2_py$pydos_yair_with_interface_GaN_AlN_one_unit_cell_eeffe_0_05__1_.coverage" NAME="pydos_yair_with_interface_GaN_AlN_one_unit_cell_eeffe_0.05 (1) Coverage Results" MODIFIED="1647860412389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Tasks/Semester_3/GaN-AlN/Interface/X8/Unstrained" />
+    <SUITE FILE_PATH="coverage/Locpot_class_py$scratch_2.coverage" NAME="scratch_2 Coverage Results" MODIFIED="1644319932810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/savitzky_golay_py$Main_execution.coverage" NAME="Main_execution Coverage Results" MODIFIED="1655659351212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Stage_2_py$pydos_yair_with_interface_GaN_AlN_one_unit_cell_eeffe_0_05.coverage" NAME="pydos_yair_with_interface_GaN_AlN_one_unit_cell_eeffe_0.05 Coverage Results" MODIFIED="1647800109259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Tasks/Semester_3/GaN-AlN/Interface/One_unit_Cell/Unstrained" />
+    <SUITE FILE_PATH="coverage/Help_function_library_yair_py$Main_File.coverage" NAME="Main_File Coverage Results" MODIFIED="1641486630524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Locpot_class_py$DOS_BS_PLOT.coverage" NAME="DOS_BS_PLOT Coverage Results" MODIFIED="1645467519512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Tasks/Semester_3/InAs-GaSb/Bulk/InAs/Unstrained" />
+    <SUITE FILE_PATH="coverage/Locpot_class_py$pydos_yair_with_interface_Si_Ge.coverage" NAME="pydos_yair_with_interface_Si_Ge Coverage Results" MODIFIED="1654619459613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../my_seminar/Si-Ge/Interface/average" />
+    <SUITE FILE_PATH="coverage/Main_File_py$Main_File.coverage" NAME="Main_File Coverage Results" MODIFIED="1641819944473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Stage_2_py$pydos_yair_with_interface_InAs_GaSb_x8_eeffe_0_005.coverage" NAME="pydos_yair_with_interface_InAs_GaSb_x8_eeffe_0.005 Coverage Results" MODIFIED="1648038902745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Tasks/Semester_3/InAs-GaSb/Interface/X8/Unstrained" />
+    <SUITE FILE_PATH="coverage/Locpot_class_py$Stage_2.coverage" NAME="Stage_2 Coverage Results" MODIFIED="1646733638759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Stage_2_py$Structure_vis.coverage" NAME="Structure_vis Coverage Results" MODIFIED="1648138768639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Locpot_class_py$pydos_yair_with_interface_GaN_AlN_x8.coverage" NAME="pydos_yair_with_interface_GaN_AlN_x8 Coverage Results" MODIFIED="1645724420334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Tasks/Semester_3/GaN-AlN/Interface/X8/Unstrained" />
+    <SUITE FILE_PATH="coverage/Main_execution_py$Main_File.coverage" NAME="Main_File Coverage Results" MODIFIED="1653406886843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Locpot_class_py$Main_File.coverage" NAME="Main_File Coverage Results" MODIFIED="1655294459681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Stage_2_py$pydos_yair_with_interface_InAs_GaSb_x8_eeffe_0_0.coverage" NAME="pydos_yair_with_interface_InAs_GaSb_x8_eeffe_0.0 Coverage Results" MODIFIED="1648032942078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Tasks/Semester_3/InAs-GaSb/Interface/X8/Unstrained" />
+    <SUITE FILE_PATH="coverage/Main_execution_py$Stage_2.coverage" NAME="Stage_2 Coverage Results" MODIFIED="1655820081007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Stage_2_py$Main_File.coverage" NAME="Main_File Coverage Results" MODIFIED="1649001827628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Stage_2_py$pydos_yair_with_interface_GaN_AlN_one_unit_cell_eeffe_0_005.coverage" NAME="pydos_yair_with_interface_GaN_AlN_one_unit_cell_eeffe_0.005 Coverage Results" MODIFIED="1647968367314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Tasks/Semester_3/GaN-AlN/Interface/One_unit_Cell/Strained/long_lat" />
+    <SUITE FILE_PATH="coverage/Locpot_class_py$Main_execution.coverage" NAME="Main_execution Coverage Results" MODIFIED="1655306869563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+    <SUITE FILE_PATH="coverage/Stage_1_py$Main_execution.coverage" NAME="Main_execution Coverage Results" MODIFIED="1649784895218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yair_code" />
+  </component>
+</project>
