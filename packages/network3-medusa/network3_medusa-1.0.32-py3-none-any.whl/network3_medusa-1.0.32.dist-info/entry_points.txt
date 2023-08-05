@@ -1,0 +1,3 @@
+[console_scripts]
+network3_medusa=network3_medusa.script:run
+
