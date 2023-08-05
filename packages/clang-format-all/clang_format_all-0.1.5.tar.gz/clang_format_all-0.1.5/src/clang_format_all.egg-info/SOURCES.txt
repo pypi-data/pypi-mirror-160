@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/clang_format_all/__init__.py
+src/clang_format_all/clang_format_all.py
+src/clang_format_all.egg-info/PKG-INFO
+src/clang_format_all.egg-info/SOURCES.txt
+src/clang_format_all.egg-info/dependency_links.txt
+src/clang_format_all.egg-info/entry_points.txt
+src/clang_format_all.egg-info/requires.txt
+src/clang_format_all.egg-info/top_level.txt
