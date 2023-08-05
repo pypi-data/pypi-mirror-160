@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: bn-testing
+Version: 0.2.0
+Summary: A test bench to benchmark learn algorithms for graphical models
+Home-page: https://github.com/windisch/bn-test-bench
+Author: Tobias Windisch
+Author-email: tobias.windisch@posteo.de
+License: GNU GPL3
+Keywords: graphical models
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: pandas (>=1.3.0)
+Requires-Dist: networkx (>=2.5)
+Requires-Dist: tqdm (>4.6.0)
+
+# BN testing
+
+A test framework to evaluate methods that learn Bayesian Networks from
+high-dimensional observed data.
+
+
+## Sampling
+
+Set up the graphical model and sample  data
+```python
+from bn_testing.dags import GroupedGaussianBN
+
+model = GroupedGaussianBN(n_nodes=200, n_groups=10)
+df = model.sample(10000)
+```
+The observations are stored in a `pandas.DataFrame` where the columns
+are the nodes of the DAG and each row is an observation. The
+underlying DAG of the graphical model can be accessed with `model.dag`
+
+
