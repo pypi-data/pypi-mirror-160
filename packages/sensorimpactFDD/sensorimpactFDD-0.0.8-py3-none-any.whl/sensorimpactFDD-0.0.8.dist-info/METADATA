@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sensorimpactFDD
+Version: 0.0.8
+Summary: Sensor impact valuation and verification analysis for fault detection and diagnostics in buildings
+Home-page: https://github.com/NREL/sensor-impact-evaluation-and-verification
+Author: Liang Zhang
+Author-email: liang.zhang@nrel.gov
+Project-URL: Bug Tracker, https://github.com/NREL/sensor-impact-evaluation-and-verification/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: dask
+Requires-Dist: gdown
+Requires-Dist: scikit-learn
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
