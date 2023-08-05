@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://potato-oss.gitlab.io/google-cloud/django-gcloud-connectors/contributing/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Contributing & Testing - Django Gcloud Connectors Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Contributing \u0026 Testing";
+        var mkdocs_page_input_path = "contributing.md";
+        var mkdocs_page_url = "/google-cloud/django-gcloud-connectors/contributing/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Django Gcloud Connectors Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../installation/">Installation</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../concepts_limitations/">Concepts & limitations</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../fields/">Fields</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../transactions/">Transactions</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Contributing & Testing</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#get-started-with-development">Get started with development</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#pick-an-issue-send-a-merge-request">Pick an issue &amp; send a merge request</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#code-style">Code style</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#need-help">Need help?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#merge-request-requirements">Merge request requirements</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#running-tests">Running tests</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#release-process">Release process</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../commercial_support/">Commercial Support</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../work_with_potato/">Work with us!</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Django Gcloud Connectors Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Contributing & Testing</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://gitlab.com/potato-oss/google-cloud/django-gcloud-connectors/edit/master/docs/contributing.md"
+          class="icon icon-gitlab"> Edit on GitLab</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="contributing-to-gcloudc">Contributing to gcloudc</h1>
+<p>Django Glcoud Connectors is actively developed and maintained, so if you're thinking of contributing to the codebase, here is how to get started.</p>
+<h2 id="get-started-with-development">Get started with development</h2>
+<ol>
+<li>First off, head to <a href="https://gitlab.com/potato-oss/google-cloud/django-gcloud-connectors">our GitLab page</a> and fork the repository to have your own copy of it.</li>
+<li>Clone it locally to start setting up your development environment</li>
+<li>Run all tests to make sure your local version is working (see instructions in README.md).</li>
+</ol>
+<h2 id="pick-an-issue-send-a-merge-request">Pick an issue &amp; send a merge request</h2>
+<p>If you spotted a bug that you want to fix, it's a good idea to start off by
+<a href="https://gitlab.com/potato-oss/google-cloud/django-gcloud-connectors/-/issues/new">adding an issue</a>.
+This will allow us to verify that your issue is valid, and suggest ideas for fixing it, so
+no time is wasted for you.</p>
+<p>For help with creating the merge request, check out <a href="https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html">GitLab documentation</a>.</p>
+<h2 id="code-style">Code style</h2>
+<p>Code style should follow PEP-8 with a loose line length of 100 characters.</p>
+<h2 id="need-help">Need help?</h2>
+<p>Reach out to us on <a href="https://groups.google.com/forum/#!forum/djangae-users">djangae-users</a> mailing list.</p>
+<h2 id="merge-request-requirements">Merge request requirements</h2>
+<p>For pull request to be merged, following requirements should be met:</p>
+<ul>
+<li>Tests covering new or changed code are added or updated</li>
+<li>Relevant documentation should be updated or added</li>
+<li>Line item should be added to CHANGELOG.md, unless change is really irrelevant</li>
+</ul>
+<h2 id="running-tests">Running tests</h2>
+<p>On setting up the first time, you'll need to:</p>
+<ul>
+<li>Install the gcloud datastore emulator: <code>gcloud components install cloud-datastore-emulator</code><ul>
+<li>If you don't have <code>gcloud</code> (the Google Cloud SDK) installed, installation instructions can be found <a href="https://cloud.google.com/sdk/install">here</a></li>
+<li>Note that the Datastore emulator <a href="https://cloud.google.com/datastore/docs/tools/datastore-emulator">requires the Java JRE</a>.</li>
+</ul>
+</li>
+<li>Create a Python 3 virtualenv: <code>python3 -m venv .venv &amp;&amp; source ./.venv/bin/activate</code></li>
+<li>Install the prerequisites: <code>pip3 install tox</code></li>
+</ul>
+<p>Then you can run:</p>
+<pre><code>$ tox
+</code></pre>
+<p>Under the hood tox runs <code>./manage.py test</code>. To pass down arguments to this command simply separate them with a double hyphen. e.g.</p>
+<pre><code>tox -e py37 -- --failfast
+</code></pre>
+<h2 id="release-process">Release process</h2>
+<p>Release to pypi is managed by GitLab CI. To create a new release create the relevant tag
+and push it to the gitlab remote. But first you should do some version fiddling...</p>
+<pre><code>1. Update the version in setup.py to the new version by removing the 'a' suffix (most likely)
+2. Commit this change
+3. Run `git tag -a X.Y.Z -m &quot;Some description&quot;
+4. Run `git push origin master &amp;&amp; git push --tags`
+5. Open setup.py again, bump to the *next* release version, use an 'a' suffix
+6. Run `git commit -am &quot;Bump to alpha version&quot; &amp;&amp; git push origin master`
+</code></pre>
+<p>This will trigger a pipeline that will publish the package in test.pypi.org.
+If that is successful, you can then manually trigger the job <code>publish to prod pypi</code> on the same pipeline to deploy to the official pypi registry.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../transactions/" class="btn btn-neutral float-left" title="Transactions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../commercial_support/" class="btn btn-neutral float-right" title="Commercial Support">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://gitlab.com/potato-oss/google-cloud/django-gcloud-connectors/" class="icon icon-gitlab" style="color: #fcfcfc"> GitLab</a>
+        </span>
+    
+    
+      <span><a href="../transactions/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../commercial_support/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
