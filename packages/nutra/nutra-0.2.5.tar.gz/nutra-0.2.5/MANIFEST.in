@@ -1,0 +1,7 @@
+include requirements.txt
+include requirements-*.txt
+
+include ntclient/ntsqlite/sql/*.sql
+include ntclient/ntsqlite/sql/data/*.csv
+
+global-exclude nt.sqlite3
