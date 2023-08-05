@@ -1,0 +1,9 @@
+README.md
+setup.py
+shrpdf/__init__.py
+shrpdf/pdf2image.py
+shrpdf/pdf2text.py
+shrpdf.egg-info/PKG-INFO
+shrpdf.egg-info/SOURCES.txt
+shrpdf.egg-info/dependency_links.txt
+shrpdf.egg-info/top_level.txt
