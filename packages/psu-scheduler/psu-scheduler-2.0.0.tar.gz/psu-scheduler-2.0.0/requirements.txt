@@ -1,0 +1,2 @@
+psu-base>=6.0.0
+requests-futures
