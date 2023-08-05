@@ -1,0 +1,10 @@
+captcharun/__init__.py,sha256=YlxI7nOoQGUEptQDbbwRBYBA9zd8mtjA4Y0OToFBJFw,80
+captcharun/__version__.py,sha256=nWLARLSipDz6mxAjg7WwcTN2JeNFXWUP_-ZhqNHTakI,63
+captcharun/client.py,sha256=TNBCCwFyOySAiLkAXpta1O9SSjdQL0C86o4dKPkyEqg,1395
+captcharun/request.py,sha256=ZTaOCzzJ1Ml8tLMorCqFtLtOV-i7elDqS_4dCG4uLdU,1118
+captcharun/task.py,sha256=iPTeBm5Bc_w3J5DKX1PPn82PMkSk8wivqo7WaUBefkU,2381
+captcharun/utils.py,sha256=lc32QhHWT2iDNOnkhMGKno7fU-bwrKXOWDN8QtGBT3o,188
+captcharun-0.2.3.dist-info/LICENSE,sha256=xacnkn1wNfIpygUKxURVJVv8YmVdFUbRJvAcC1X67xk,11341
+captcharun-0.2.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+captcharun-0.2.3.dist-info/METADATA,sha256=R6Hn8JDnJTTBKtJrCS71hEuwd4LUlVrflTw7D9GsTP8,2250
+captcharun-0.2.3.dist-info/RECORD,,
