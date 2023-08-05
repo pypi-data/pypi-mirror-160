@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+disnake/ext/ipc/__init__.py
+disnake/ext/ipc/client.py
+disnake/ext/ipc/errors.py
+disnake/ext/ipc/server.py
+disnake_ext_ipc.egg-info/PKG-INFO
+disnake_ext_ipc.egg-info/SOURCES.txt
+disnake_ext_ipc.egg-info/dependency_links.txt
+disnake_ext_ipc.egg-info/requires.txt
+disnake_ext_ipc.egg-info/top_level.txt
