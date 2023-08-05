@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: flagify
+Version: 1.1.2
+Summary: put/remove flags for files and folders
+Author: Moses Dastmard
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# flagify
+`pip install flagify`
