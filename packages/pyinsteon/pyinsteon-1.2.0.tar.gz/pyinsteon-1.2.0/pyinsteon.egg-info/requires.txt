@@ -1,0 +1,6 @@
+aiofiles
+aiohttp
+pypubsub
+pyserial
+pyserial-asyncio>=0.5
+pyyaml
