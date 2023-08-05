@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/terminalpycolor/__init__.py
+src/terminalpycolor/color.py
+src/terminalpycolor.egg-info/PKG-INFO
+src/terminalpycolor.egg-info/SOURCES.txt
+src/terminalpycolor.egg-info/dependency_links.txt
+src/terminalpycolor.egg-info/top_level.txt
