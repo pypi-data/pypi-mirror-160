@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sqlalchemy_cubrid
+Version: 0.0.1.dev0
+Summary: Cubrid dialect for SQLAlchemy
+Author: Yeongseon Choe
+Author-email: yeongseon.choe@gmail.com
+License: MIT
+Keywords: SQLAlchemy Cubrid
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
