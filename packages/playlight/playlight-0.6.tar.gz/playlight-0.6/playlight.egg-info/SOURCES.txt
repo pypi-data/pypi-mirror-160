@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+playlight/__init__.py
+playlight/demo.py
+playlight/playlight.py
+playlight.egg-info/PKG-INFO
+playlight.egg-info/SOURCES.txt
+playlight.egg-info/dependency_links.txt
+playlight.egg-info/requires.txt
+playlight.egg-info/top_level.txt
