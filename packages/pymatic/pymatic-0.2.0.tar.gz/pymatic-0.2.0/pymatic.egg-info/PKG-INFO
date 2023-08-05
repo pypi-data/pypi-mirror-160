@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pymatic
+Version: 0.2.0
+Summary: Fetch Log Analytics alerts and raise them in TheHive
+Home-page: UNKNOWN
+Author: santal
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+
+UNKNOWN
+
