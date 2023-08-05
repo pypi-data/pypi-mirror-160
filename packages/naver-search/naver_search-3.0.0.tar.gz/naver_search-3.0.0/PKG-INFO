@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: naver_search
+Version: 3.0.0
+Summary: 네이버 API를 사용한 비공식 검색 라이브러리입니다.
+Home-page: https://github.com/VoidAsMad/Naver_Search
+Author: VoidAsMad
+Author-email: voidasmad@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+
+UNKNOWN
+
