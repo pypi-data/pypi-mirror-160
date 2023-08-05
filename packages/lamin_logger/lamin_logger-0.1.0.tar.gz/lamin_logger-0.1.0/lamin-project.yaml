@@ -1,0 +1,5 @@
+project_name: Lamin Logger
+description: Logging setup
+project_slug: lamin-logger
+repository_name: lamin-logger
+package_name: lamin_logger
