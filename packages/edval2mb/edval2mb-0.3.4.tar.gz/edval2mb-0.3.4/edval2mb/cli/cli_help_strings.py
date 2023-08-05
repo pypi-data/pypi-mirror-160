@@ -1,0 +1,5 @@
+academic_year_help = 'The value passed here will be output to each row of the output'
+day_help = 'If the exported csv uses days of week other than Mon, Tue, Wed Thu Friday, you can specify these by passing multiple --day Lundi --day Marchi etc in sequential order'
+period_start_help = 'Some schools have their timetable start with 0.  In this case, you can pass 0 to this option.'
+day_start_index_help = 'Some schools ManageBac timetable starts from day 0.  In this case, you can pass 0 to this option.'
+output_path_help = 'The path (including file name) of the output file'
