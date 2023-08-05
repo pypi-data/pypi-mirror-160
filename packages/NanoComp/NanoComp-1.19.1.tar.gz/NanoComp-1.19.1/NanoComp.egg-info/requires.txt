@@ -1,0 +1,8 @@
+NanoPlot>=1.39.0
+nanoget>=1.4.0
+nanomath>=1.0.0
+numpy>=1.16.5
+pandas
+plotly>=3.4.2
+psutil
+pyarrow
