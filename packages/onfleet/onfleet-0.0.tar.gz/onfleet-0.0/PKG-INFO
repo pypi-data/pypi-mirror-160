@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: onfleet
+Version: 0.0
+Summary: Onfleet's Python API Wrapper Package
+Home-page: https://pypi.python.org/pypi/pyonfleet/
+Author: James Li
+Author-email: support@onfleet.com
+Maintainer: UNKNOWN
+Maintainer-email: UNKNOWN
+License: UNKNOWN
+Platform: all
+
+Use `pyonfleet <https://pypi.python.org/pypi/pyonfleet/>`_ instead.
+
