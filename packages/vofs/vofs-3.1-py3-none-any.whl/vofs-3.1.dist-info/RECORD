@@ -1,0 +1,17 @@
+vofs/CacheMetaData.py,sha256=chwZLyA1BWttt4_M4HI33PTeLlmdegbGd5Igm6-QUP0,5344
+vofs/CadcCache.py,sha256=uUSUIwg0s-sNvgC7ZvXYZF6IEuwgDd0UYAlCDMnz2y4,57456
+vofs/SharedLock.py,sha256=TJtkoV7o93U78yfkW8vZQH2oy-7s3zUiyW9dPm-TZWA,3806
+vofs/__init__.py,sha256=zgHakxytZzUfVP3X6U3KiaM1BDyeTHPnPihr5rTRpwE,180
+vofs/mountvofs.py,sha256=8DFZL74hnXA24NHtfaoW1ENdzUveTgmRlzJCL5OqeX8,6689
+vofs/utils.py,sha256=5jTOuyzDWHRV0LJ0NmUwSc1vJIHqUprzxqhWha87y5Q,622
+vofs/version.py,sha256=rJbZ1kYFiPOjxE3mrHEH61i5naCpziscOxMrc6MKBtc,16
+vofs/vofs.py,sha256=x3JOL9IY1yTopfDtsENWL_ISx-b2sA0hdjmHdZwhGRM,31002
+vofs/tests/__init__.py,sha256=zY_qpNhnlA_418dd4DkDXgPt-xFJi_XvNVH7Ux9aDHU,57
+vofs/tests/test_cache_metadata.py,sha256=BiEfwmiPrAoPLztSK1CMqwyJMVEKhHL3rJrBivZTikQ,6314
+vofs/tests/test_cadc_cache.py,sha256=0rITQyNrIcLENzLNnKiYR_FRovqke-Ung2aeCsTC8Bw,89130
+vofs/tests/test_vofs.py,sha256=0J-hMfqqNEWdbvubZcy3LR350H7FhUMIY42gVhB5haI,50320
+vofs-3.1.dist-info/METADATA,sha256=FMkJb_ST4il9goW9z_Z-PPNZiWIU__QZCe03X2YRIkQ,3791
+vofs-3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vofs-3.1.dist-info/entry_points.txt,sha256=Mu6v_hAVAYwqXXw8LSMQns6R26_xuL_DsZjUEa8yILY,56
+vofs-3.1.dist-info/top_level.txt,sha256=OHiSqcbSUQfwzoyhIY6urdpgPILB6pftlRuuW4cINuA,5
+vofs-3.1.dist-info/RECORD,,
