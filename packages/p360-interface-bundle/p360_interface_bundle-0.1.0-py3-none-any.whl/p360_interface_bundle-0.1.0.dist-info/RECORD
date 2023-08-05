@@ -1,0 +1,13 @@
+p360_interface_bundle/P360InterfaceBundle.py,sha256=nuc8GCLK8PF82mE8ZbZI9F-JD4keY11Ma6PxjbbdL1U,86
+p360_interface_bundle/P360InterfaceBundleTest.py,sha256=d_aDC4NqVAmdMFXCFOVNbyXgGAxPyVKOZnGWRAbjXuE,345
+p360_interface_bundle/_config/config.yaml,sha256=zHN9ni_bwE2fyLpoUfg3wYxZhnx-PqU8OTE82Xlu94A,2126
+p360_interface_bundle/_config/config_test.yaml,sha256=sGuU8I1gpQTfUihxbCCf7Fw6ztm2CtxJisTB4Iuh6kk,209
+p360_interface_bundle/featurestore/post_actions/metadata_adjustment/CreateMetadataJsonFiles.py,sha256=_MRFJD8baDRe576QE7n01zOn3r1wJyDufv9MIUJTcQ4,1182
+p360_interface_bundle/featurestore/post_actions/metadata_adjustment/FolderContentRemover.py,sha256=FiD-qRjP4iDpAtj8Orii7ngl7AJYv66lo0t7fw3tO8A,368
+p360_interface_bundle/featurestore/post_actions/metadata_adjustment/MetadataJsonGetter.py,sha256=CCf8DUyyJ7MgT3c_aNR6cCUwhGkZxIkVM2GQB1tu5QI,2423
+p360_interface_bundle/featurestore/post_actions/metadata_adjustment/MetadataWriter.py,sha256=VE7TuO-ZbnLRnDbNgquMWWGBqZoB-vTO-W3QT5iHoIw,1142
+p360_interface_bundle-0.1.0.dist-info/entry_points.txt,sha256=AuflWxTUMmvNgeTAE1CDi3_CU09rSpdLJdu1wO8xsEo,86
+p360_interface_bundle-0.1.0.dist-info/LICENSE,sha256=xAykD40bkh8p427rTd5K31_5GN-JkCw_SB2rVLCkjcw,2469
+p360_interface_bundle-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+p360_interface_bundle-0.1.0.dist-info/METADATA,sha256=Iw1m-LOsyzHk1P2Jdn2hCrHaPd9wayI-PZxw-LrpX_M,3123
+p360_interface_bundle-0.1.0.dist-info/RECORD,,
