@@ -1,0 +1,11 @@
+pyzbar
+pillow
+reportlab
+qrcode
+tqdm
+opencv-python
+
+[dev]
+pytest
+bumpver
+setuptools
