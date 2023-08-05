@@ -1,0 +1,15 @@
+handyscikit/__init__.py,sha256=85t-sZb8XtILd66BdA9vQZ8Qh9EVL4FdJ60OlDhGOg0,34
+handyscikit/advanced_print.py,sha256=n4_apaUoPTPNwiviWosQfMmi8NrORbwN4KgJcDU_uIQ,939
+handyscikit/physics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+handyscikit/physics/lbm/__init__.py,sha256=Zrr7y5EEMwdEO3XEHMENbWj6H-2UFEL3DdP10y7SU08,41
+handyscikit/physics/lbm/dmqn.py,sha256=H33taX4MrMTkglihrvKmEgCh32G4sOQbE9HW859tYRo,2247
+handyscikit/physics/mesh/__init__.py,sha256=8DHanzOCMFon0FzsoXO4muTx_EGrrc7Z7QGyMG3n1C8,35
+handyscikit/physics/mesh/abstract_mesh.py,sha256=0Eib9dhT87fG1F8w0x12gUoeyZ0Vq482SrMwsS5Puhc,7758
+handyscikit/physics/mesh/square_mesh.py,sha256=mjrgWornAyWp1IfsSeGjFlvm86xHOUN9pWyXdD46z7c,10151
+handyscikit/plot/__init__.py,sha256=2ZJEH-S92wF1Rnm_meCHP2wt0DWDzEx3qrJsM1HdCzs,39
+handyscikit/plot/vtk_visualize.py,sha256=7jvvB99ZVmz80W4nInm6TBQWlXyJ2Y6b27KIvH_W5sA,3916
+handyscikit-0.0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+handyscikit-0.0.4.0.dist-info/METADATA,sha256=9rVVJhKEw_CfLCe8UGOQvjAx2Q2LLLkYPkU3Wr11oQU,321
+handyscikit-0.0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+handyscikit-0.0.4.0.dist-info/top_level.txt,sha256=K1wUmQwmki5w9_MaxJjdi9UuxDj05cnj09p8nB037ss,12
+handyscikit-0.0.4.0.dist-info/RECORD,,
