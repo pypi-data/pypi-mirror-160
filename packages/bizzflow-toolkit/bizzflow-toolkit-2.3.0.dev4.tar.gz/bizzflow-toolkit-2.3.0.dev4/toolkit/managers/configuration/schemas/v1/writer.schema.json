@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "type",
+    "config"
+  ],
+  "properties": {
+    "component_source": {
+      "$ref": "_definitions.schema.json#/definitions/component_source"
+    },
+    "type": {
+      "type": "string"
+    },
+    "config": {
+      "type": "object"
+    },
+    "id": {
+      "type": "string"
+    },
+    "in_kex": {
+      "type": [
+        "array",
+        "string"
+      ]
+    },
+    "input_kex": {
+      "type": [
+        "array",
+        "string"
+      ]
+    },
+    "in_kexes": {
+      "type": [
+        "array",
+        "string"
+      ]
+    },
+    "input_kexes": {
+      "type": [
+        "array",
+        "string"
+      ]
+    },
+    "in_tables": {
+      "type": "array"
+    },
+    "input_tables": {
+      "type": "array"
+    }
+  }
+}

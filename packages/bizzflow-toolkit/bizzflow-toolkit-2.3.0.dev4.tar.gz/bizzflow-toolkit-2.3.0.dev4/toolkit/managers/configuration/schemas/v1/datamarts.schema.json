@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "out_kex",
+      "dm_kex"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "out_kex": {
+        "type": "string"
+      },
+      "dm_kex": {
+        "type": "string"
+      },
+      "allowed_tables": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
