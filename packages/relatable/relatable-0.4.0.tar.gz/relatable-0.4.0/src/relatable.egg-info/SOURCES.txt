@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/relatable/__init__.py
+src/relatable/relational_schema.py
+src/relatable/table.py
+src/relatable/tabulator.py
+src/relatable.egg-info/PKG-INFO
+src/relatable.egg-info/SOURCES.txt
+src/relatable.egg-info/dependency_links.txt
+src/relatable.egg-info/top_level.txt

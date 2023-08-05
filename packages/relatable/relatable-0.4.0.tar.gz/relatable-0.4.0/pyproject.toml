@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relatable"
+version = "0.4.0"
+authors = [
+    { name="Alexander M. Giordano", email="am.giordano.carmena@gmail.com" }
+]
+description = "Document-oriented to relational data conversion"
+readme = "README.md"
+license = {file="LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/am-giordano/relatable"
