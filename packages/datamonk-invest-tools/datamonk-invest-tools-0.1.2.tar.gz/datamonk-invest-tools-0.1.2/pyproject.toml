@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "datamonk-invest-tools"
+version = "0.1.2"
+description = "package for my personal investment activities"
+authors = ["Vit Mrnavek <vit.mrnavek@datamonk.cz>"]
+packages = [
+    { include = "datamonk/invest_tools" }
+]
+[tool.poetry.dependencies]
+python = ">=3.9.0,<3.10.0"
+urllib3 = "^1.26.10"
+xmltodict = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
