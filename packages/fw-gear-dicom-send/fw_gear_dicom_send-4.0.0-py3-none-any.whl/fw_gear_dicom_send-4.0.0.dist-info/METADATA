@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fw-gear-dicom-send
+Version: 4.0.0
+Summary: 
+License: MIT
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: backoff (>=1.11.1,<2.0.0)
+Requires-Dist: flywheel-gear-toolkit (>=0.6.1,<0.7.0)
+Requires-Dist: fw-core-client (>=1.1.0,<2.0.0)
+Requires-Dist: fw-file[dicom] (>=1.3,<2.0)
+Requires-Dist: pathvalidate (>=2.5.0,<3.0.0)
+Requires-Dist: pynetdicom (>=2.0.2,<3.0.0)
