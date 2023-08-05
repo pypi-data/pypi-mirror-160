@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: truss
+Version: 0.0.29
+Summary: 
+Author: Pankaj Gupta
+Author-email: pankaj@baseten.co
+Requires-Python: >=3.7,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: msgpack (>=1.0.2)
+Requires-Dist: msgpack-numpy (>=0.4.7.1)
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: packaging (>=20.9,<21.0)
+Requires-Dist: python-json-logger (>=2.0.2)
+Requires-Dist: python-on-whales (>=0.46.0,<0.47.0)
+Requires-Dist: tenacity (>=8.0.1,<9.0.0)
