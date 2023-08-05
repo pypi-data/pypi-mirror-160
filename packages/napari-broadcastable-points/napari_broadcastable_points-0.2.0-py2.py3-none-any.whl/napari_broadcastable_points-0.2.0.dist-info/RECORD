@@ -1,0 +1,8 @@
+napari_broadcastable_points/__init__.py,sha256=g91LCRyWsFum5j5pNwF7-vFIB3tLOn9cTiujxK1apLA,307
+napari_broadcastable_points/_points.py,sha256=isrFVKTun3ErWV0dXuYPjqGrOwVrJMrlcYyf_C17eaE,2916
+napari_broadcastable_points/_version.py,sha256=diln-L6vS-HnAnl9N8-VYY3NwgodyNrCeC8U4tCF9QQ,176
+napari_broadcastable_points-0.2.0.dist-info/LICENSE,sha256=6OUyYmBDNG2SH7uYc-tPztLVr-Av9r8Ic9oKG04c_GM,1501
+napari_broadcastable_points-0.2.0.dist-info/METADATA,sha256=utD6RbA-phgMeFcnNg8ODsQ38kKxBoopinOQojrMVH8,4517
+napari_broadcastable_points-0.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+napari_broadcastable_points-0.2.0.dist-info/top_level.txt,sha256=xLYD-fCEdtNq0cS5sdb6wK9NTr47FBCwy9EmXgcM_Is,28
+napari_broadcastable_points-0.2.0.dist-info/RECORD,,
