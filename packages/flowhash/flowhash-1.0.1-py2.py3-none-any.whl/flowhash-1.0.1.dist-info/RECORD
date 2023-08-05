@@ -1,0 +1,7 @@
+flowhash/.gitignore,sha256=74oa8YR8gNxKxB6lCtoqmgtB2xpZnWM539Qsl4wI_lg,12
+flowhash/__init__.py,sha256=jsK03UBpCcWwd_uT95hNjU3OZwLUO5JXgUOxU-s8SW0,100
+flowhash/flowhash.py,sha256=7KcG8-x2LVoUIZHF8seIIcgK1Et0962LiQKU807DI4M,5455
+flowhash-1.0.1.dist-info/LICENSE,sha256=KyiokTkoPokWVJEAtgYMXoPG4vCgx3fEo-YBETIT9TQ,1080
+flowhash-1.0.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+flowhash-1.0.1.dist-info/METADATA,sha256=8wlvohVM6SuQyb5DcbGK5UDy9OwXIEnZJVetP0v2n9Y,3425
+flowhash-1.0.1.dist-info/RECORD,,
