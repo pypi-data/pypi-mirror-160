@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+scratchsession/__init__.py
+scratchsession/prepare_session.py
+scratchsession.egg-info/PKG-INFO
+scratchsession.egg-info/SOURCES.txt
+scratchsession.egg-info/dependency_links.txt
+scratchsession.egg-info/requires.txt
+scratchsession.egg-info/top_level.txt
