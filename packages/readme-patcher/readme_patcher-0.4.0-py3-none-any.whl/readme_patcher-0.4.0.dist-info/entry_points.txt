@@ -1,0 +1,3 @@
+[console_scripts]
+readme-patcher=readme_patcher:main
+
