@@ -1,0 +1,7 @@
+requests
+packaging
+pydantic==1.9.0
+
+[pytorch]
+torch
+torchdata
