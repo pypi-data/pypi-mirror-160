@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: GetMyIPsuruli
+Version: 1.0.11
+Summary: A simple Python project to get my IP
+Home-page: https://github.com/suruliamazon/getmyipsuruli
+Author: Kaviyarasu Suruli
+Author-email: suruli@amazon.com
+License: MIT
+Description: #############
+        GetMyIP
+        #############
+        
+        Simple Python script that is used for get mypublic IP
+        
+        *************
+        Installation
+        *************
+        
+            pip install getmyip
+        
+        
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: dev

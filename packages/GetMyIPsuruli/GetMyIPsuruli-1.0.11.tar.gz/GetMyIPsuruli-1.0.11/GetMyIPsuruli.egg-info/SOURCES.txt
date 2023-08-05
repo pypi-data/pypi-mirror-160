@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+GetMyIPsuruli.egg-info/PKG-INFO
+GetMyIPsuruli.egg-info/SOURCES.txt
+GetMyIPsuruli.egg-info/dependency_links.txt
+GetMyIPsuruli.egg-info/requires.txt
+GetMyIPsuruli.egg-info/top_level.txt
+bin/getip.py
+configurations/getmyip.yaml
+getmyipsuruli/__init__.py
+getmyipsuruli/getmyip.py
+getmyipsuruli/common/__init__.py
+getmyipsuruli/common/common.py
