@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pytest_idempotent/__init__.py
+pytest_idempotent/py.typed
+pytest_idempotent.egg-info/PKG-INFO
+pytest_idempotent.egg-info/SOURCES.txt
+pytest_idempotent.egg-info/dependency_links.txt
+pytest_idempotent.egg-info/entry_points.txt
+pytest_idempotent.egg-info/top_level.txt
