@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: zdppy-orm
+Version: 0.1.4
+Summary: Python的ORM框架
+Home-page: https://github.com/zhangdapeng520/zdppy_orm
+License: MIT
+Keywords: zhangdapeng,zhangdapeng520,zdppy,orm,zdppy_orm
+Author: zhangdapeng520
+Author-email: 1156956636@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: zdppy-mysql (>=0.2.5,<0.3.0)
+Project-URL: Repository, https://github.com/zhangdapeng520/zdppy_orm
+Description-Content-Type: text/markdown
+
+# zdppy_orm
+
+Python专用的ORM框架
+
+## 版本历史
+
+- v0.1.3 2022/07/15 新增：数据库连接池

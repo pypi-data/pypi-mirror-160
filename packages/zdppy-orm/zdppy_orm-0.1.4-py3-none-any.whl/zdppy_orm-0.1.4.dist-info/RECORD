@@ -1,0 +1,11 @@
+LICENSE,sha256=nxPT6MxxQBPHF50T4QMhpqG_MqqIRS5jKw0gwa8YqCA,1087
+README.md,sha256=6YTQG9nBqlkvLrNCKLIckaSbn0zluEQbm-Ro2n2Pc1U,109
+zdppy_orm/__init__.py,sha256=8Y-z9QfGEVPFUwUWXboMbnVvsvos8w06ZDvnHEuLOF8,280064
+zdppy_orm/model.py,sha256=ylfcFf7ogIgkI1E-zWCO_jteavIQbSNDl0uY2iogzd4,2341
+zdppy_orm/mysql_ext.py,sha256=nCTq35qSeNYPpKgkCu6bcnsjaLej5s7xQnxmnhbdEZY,2884
+zdppy_orm/pool.py,sha256=3SwBYe8VRyX7L7gUkQ5DAmCq-m8if8uxe3uTq0BAZL8,10382
+zdppy_orm/shortcuts.py,sha256=F89wKBCNs-sCmdDqrL_uW2h_YxHaXyJ6gj7V5hg7-S0,11137
+zdppy_orm-0.1.4.dist-info/LICENSE,sha256=nxPT6MxxQBPHF50T4QMhpqG_MqqIRS5jKw0gwa8YqCA,1087
+zdppy_orm-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+zdppy_orm-0.1.4.dist-info/METADATA,sha256=kvzd1Lvk-a4TkJfqrr2_dxUUB6CI7C5thlIVBb5OedY,924
+zdppy_orm-0.1.4.dist-info/RECORD,,
