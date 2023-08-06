@@ -1,0 +1,17 @@
+stockwell-1.0.7.dist-info/LICENSE.txt,sha256=rWJoZt3vach8ZNdLq-Ee5djzCMFnJ1gIfBeJU5RIop4,21782
+stockwell-1.0.7.dist-info/METADATA,sha256=bv9zfRi4e2cBSJ1QtDuw9D7smr7SR0bUkBPBd626NU8,5148
+stockwell-1.0.7.dist-info/top_level.txt,sha256=3gtl9vn5edrQB9mJMSrf868Bc1ng57oQSw6LZwD6HKU,18
+stockwell-1.0.7.dist-info/WHEEL,sha256=G2smH2H5oDUVbvlHY10Dxf6u2morKeo16glfOK-mgc4,111
+stockwell-1.0.7.dist-info/RECORD,,
+stockwell.libs/libfftw3-a2731c0c.so.3.5.8,sha256=8HdcqpMjPCroNSKdztiS75LbDTwwQ6lynWDtstPThyE,2032448
+stockwell/__init__.py,sha256=ADWx8rcRu6xxy1vL9aC2NgAI7YSVjNfi-lQ2jTVcfSU,207
+stockwell/_version.py,sha256=YgQeSR-nJCsdMpXnt_OPq_rLMmwpuf7VWm66TZJLYCA,497
+stockwell/c_libs/sinemodule.c,sha256=VTbVg-nO4Q6AiviB4SCAJ4Rf_rIrs4VYpuN08bznSQU,2472
+stockwell/c_libs/st_types.h,sha256=k4Ka2oiwSOggod8hYe6jF8WfzYKyl9VA7udthPadli4,63
+stockwell/c_libs/st.c,sha256=3yy1cGVmPcOs1_Puoc3gdkSgGm14j5cLv9ONJMt3VC4,8704
+stockwell/c_libs/stmodule.c,sha256=F3mPslxjYOl5sMEae8MsydN2mGbaTS49WAiNXSSWd3I,5025
+stockwell/lib/sine.cpython-39-x86_64-linux-gnu.so,sha256=XGbUoTp4iV0y16F2GIt68uSWp-UTEdEA4q8ak_75FA4,44848
+stockwell/lib/st.cpython-39-x86_64-linux-gnu.so,sha256=DVpuG5tItLR5RElBCfyMjVZMhuwfQsPc99mjRHYGmKU,75976
+stockwell/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockwell/tests/test_stockwell.py,sha256=v0C_cL_OVubAFjhmRC1RuS336oOsCQ2W-_64U7fX1Wo,665
+stockwell/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
