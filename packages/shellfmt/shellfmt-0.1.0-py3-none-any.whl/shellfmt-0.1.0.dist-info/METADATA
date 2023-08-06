@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: shellfmt
+Version: 0.1.0
+Summary: format .sh file
+Home-page: https://github.com/xmxoxo/
+Author: He xi
+Author-email: xmhexi@qq.com
+License: UNKNOWN
+Project-URL: Blog, https://blog.csdn.net/xmxoxo
+Keywords: shell file(.sh) formt tool
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# 格式化shell脚本
+
+
+## 工具说明
+
+开发环境为 win7, 测试环境和生产环境均为linux，经常出现这样的问题：
+在开发环境下写的shell脚本文件，发布到测试环境和生产环境，就会出现兼容问题，无法运行。
+
+## 安装及使用
+
+安装：
+```
+pip install shellfmt
+```
+
+使用：
+
+```
+shellfmt --fname=myproject.sh
+```
+
+或者对整个目录使用:
+
+```
+shellfmt --fname=d:\projet\myshell
+```
+
