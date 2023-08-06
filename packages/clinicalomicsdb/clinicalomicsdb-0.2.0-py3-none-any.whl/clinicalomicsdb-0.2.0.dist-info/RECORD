@@ -1,0 +1,9 @@
+clinicalomicsdb/.DS_Store,sha256=K5Of6f_fc9h8rPS9t8dvunZfsPPswDrvBc9PxU36RTo,6148
+clinicalomicsdb/__init__.py,sha256=3FobdMbQ6DuV7Lk5eTSsD-Yo9u5gUw-cop8b2L-wQ3o,794
+clinicalomicsdb/database_download.py,sha256=ZXcLMtO84J6Y37SXXVzmHzTJ402xeZ8gzs3S-krCVCY,2173
+clinicalomicsdb/exceptions.py,sha256=bKALIG9lRbwB_DYJ7qCcE6MM9dO2L50OVWWlv44z5Mk,3831
+clinicalomicsdb/file_download.py,sha256=en7LymKn_LjC7UZDJIzaR8JCORSap9ct-6IYkTn8MCQ,13444
+clinicalomicsdb/file_tools.py,sha256=4RFgaBMuffluA_AmLpowuGFsV144QHviebysYIqCuSQ,10518
+clinicalomicsdb-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+clinicalomicsdb-0.2.0.dist-info/METADATA,sha256=Az4gnm679mZdVbYaNFieIDjpPpHA04WU8ZPsScXRBmM,490
+clinicalomicsdb-0.2.0.dist-info/RECORD,,
