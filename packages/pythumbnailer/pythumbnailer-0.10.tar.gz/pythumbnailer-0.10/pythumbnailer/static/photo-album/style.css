@@ -1,0 +1,105 @@
+/* Part of pythumbnailer: https://gitlab.com/somini/pythumbnailer/ */
+
+.title {
+	text-align: center;
+}
+body {
+	display: flex;
+	flex-flow: column nowrap;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul#album {
+	display: flex;
+	flex-flow: row wrap;
+}
+#album > li {
+	margin: 1em;
+}
+ul#links {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+#links > li {
+	list-style: none;
+}
+
+/* Photos */
+li.photo {
+	display: flex;
+	flex-flow: column nowrap;
+	flex: 1 0 0%;
+	align-items: center;
+	justify-content: end;
+}
+.photo .info {
+	width: 100%;
+	text-align: center;
+}
+/* Information */
+.info.important {
+	font-weight: bold;
+}
+.info.attention {
+	font-style: italic;
+}
+.info.unimportant {
+	font-size: small;
+}
+
+/* Gallery: For JavaScript */
+#fullscreen {
+	/* Outer Location */
+	position: fixed;
+	top: 0; left: 0; bottom: 0; right: 0;
+	/* Inner Setup */
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+
+	background-color: darkgrey;
+}
+#fullscreen.hidden, #fullscreen .hidden {
+	display: none;
+}
+#fullscreen.simple .ui {
+	display: none;
+}
+#fullscreen .title {
+	margin: 0;
+	padding: 0.25em 0;
+}
+/* TODO: This seems impossible without hacks, use grid */
+#fullscreen.simple img, #fullscreen.simple video {
+	max-height: 100%;
+	max-width: 100%;
+}
+#fullscreen img, #fullscreen video {
+	align-self: center;
+	max-width: 100%;
+	max-height: 75%;
+	margin: auto 0;
+
+	background-color: lightgrey;
+}
+#fullscreen-picture {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	width: 100%;
+}
+#fullscreen-close {
+	height: 10%;
+}
+#fullscreen-previous, #fullscreen-next {
+	width: 5em;
+}
+#fullscreen-close, #fullscreen-previous, #fullscreen-next {
+	font-family: sans-serif;
+	font-size: larger;
+	font-weight: bold;
+}

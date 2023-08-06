@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8" />
+		<!-- Equivalent? -->
+		<title>{{ gdata.title }} | Photo Album</title>
+
+		<link rel="stylesheet" href="{{ gdata.static }}photo-album/style.css"/>
+		<script src="{{ gdata.static }}photo-album/gallery.js" ></script>
+	</head>
+	<body>
+		<h1 class="title">{{ gdata.title }}</h1>
+		{% if "Tracks" in gdata.tasks -%}
+		<!-- TODO: This should support several links -->
+		<ul id="links">
+			<li><a href="tracks.html">Tracks</a></li>
+		</ul>
+		{% endif -%}
+		<ul id="album">
+			{% for thumb in thumbnails %}
+			<li class="photo" data-mime="{{ thumb.omime }}" data-thumb-mime="{{ thumb.mime }}">
+				<a class="photo" href="{{ thumb.original | urlencode }}">
+					<img class="photo" src="{{ thumb.path | urlencode }}" alt="Thumbnail: {{ thumb.title or '' }}" loading="lazy" />
+				</a>
+				<div class="info">
+					<span class="info important title">{{ thumb.title or thumb.url }}</span>
+					{% if thumb.size %}
+						<span class="info unimportant">{{ thumb.size.width }} x {{ thumb.size.height }}</span>
+					{% endif %}
+				</div>
+				{% if thumb.time.accurate %}
+					<div class="info">Taken: <span class="info attention">{{ thumb.time.strftime() }}</span></div>
+				{% endif %}
+			</li>
+			{% endfor %}
+		</ul>
+
+		<div id="fullscreen" class="hidden">
+			<button id="fullscreen-previous" class="ui" title="Previous [ArrowLeft, p]">&lt;</button>
+			<div id="fullscreen-picture">
+				<h2 class="title ui"></h2>
+				<img id="fullscreen-picture-image" class="hidden" title="Click to toggle Fullscreen [F]"/>
+				<video id="fullscreen-picture-video" class="hidden" controls preload="metadata">
+					Sorry, this browser doesn't support videos.
+				</video>
+				<button id="fullscreen-close" class="ui" title="Close [Esc, f]">x</button>
+			</div>
+			<button id="fullscreen-next" class="ui" title="Next [ArrowRight, n]">&gt;</button>
+		</div>
+	</body>
+</html>
