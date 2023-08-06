@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: richsmi
+Version: 0.1.0
+Summary: A terminal based graphical GPU monitoring tool
+Home-page: https://github.com/urasakikeisuke/richsmi
+Author: urasaki
+Author-email: urasakikeisuke.ml@gmail.com
+License: MIT
+Description: # H-SMI
+        
+        
+        ## About
+        A terminal based graphical GPU monitoring tool inspired by NVIDIA System Management Interface (a.k.a. nvidia-smi) and htop
+        
+        ## Install
+        ```bash
+        pip3 install git+https://github.com/urasakikeisuke/richsmi.git
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+librichsmi/__init__.pyi
+librichsmi/py.typed
+richsmi/__init__.py
+richsmi/filesize.py
+richsmi/richsmi.py
+richsmi.egg-info/PKG-INFO
+richsmi.egg-info/SOURCES.txt
+richsmi.egg-info/dependency_links.txt
+richsmi.egg-info/entry_points.txt
+richsmi.egg-info/not-zip-safe
+richsmi.egg-info/requires.txt
+richsmi.egg-info/top_level.txt
