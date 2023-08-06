@@ -1,0 +1,22 @@
+# local package
+#-e .
+
+# external requirements
+mysql-connector-python
+cython
+db-dtypes
+google-cloud-bigquery
+numpy
+PyMySQL
+pandas
+plotly
+requests
+SQLAlchemy
+mysql-client
+pyyaml
+pymongo
+sshtunnel
+prophet==1.1
+kaleido
+yagmail
+scikit-learn
