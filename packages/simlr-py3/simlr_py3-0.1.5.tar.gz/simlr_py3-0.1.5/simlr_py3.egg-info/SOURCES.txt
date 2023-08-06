@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+simlr_py3/__init__.py
+simlr_py3/core.py
+simlr_py3/helper.py
+simlr_py3.egg-info/PKG-INFO
+simlr_py3.egg-info/SOURCES.txt
+simlr_py3.egg-info/dependency_links.txt
+simlr_py3.egg-info/requires.txt
+simlr_py3.egg-info/top_level.txt
