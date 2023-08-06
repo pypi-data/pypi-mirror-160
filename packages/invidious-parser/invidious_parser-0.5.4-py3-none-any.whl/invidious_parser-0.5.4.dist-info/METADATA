@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: invidious-parser
+Version: 0.5.4
+Summary: Getting information via invidious api.
+Author-email: Kostya Klochko <kostya_klochko@ukr.net>
+Project-URL: Homepage, https://gitlab.com/universe-tube/universe-tube-connect-modules/invidious-parser
+Project-URL: Bug Tracker, https://gitlab.com/universe-tube/universe-tube-connect-modules/invidious-parser/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: requests
+
+invidious-parser
+================
+
+Invidious-parser is the library for using invidious api. **Not ready for
+using in applications.** **WARNING: TESTED ONLY ON Python3.10**
+
+Author
+======
+
+Kostya Klochko (c) 2022
+
+Donation
+========
+
+Monero:
+8BPT7PzYeYqLh3iavVeisT8J2yBBfEzBsKoF6j61tqNyZQ5tN81gXLyKLrjUC8eKeaEyk5npkyYRuTZkhXW2uVwe9tDbaPZ
+|image1|
+
+License
+=======
+
+Under GNU GPL v3 license
+
+.. |image1| image:: ./img/monero.png
