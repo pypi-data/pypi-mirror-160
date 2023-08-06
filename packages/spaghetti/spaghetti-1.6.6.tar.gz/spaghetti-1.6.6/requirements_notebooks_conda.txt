@@ -1,0 +1,6 @@
+matplotlib
+matplotlib-scalebar
+pulp
+seaborn
+splot
+watermark
