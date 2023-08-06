@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: sikriml
+Version: 0.1.23a1
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: Example Author
+Author-email: author@example.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: nltk (>=3.6.3)
+Requires-Dist: spacy (>=3.2)
+Requires-Dist: flair (>=0.11)
+Requires-Dist: azureml-sdk (>=1.41.0)
+Requires-Dist: pydash (>=5.1.0)
+
+# Installation
+
+1.	Installation process
+	- py -3.8 -m venv .venv
+	- .venv\Scripts\activate
+	- python -m pip install --upgrade pip
+	- pip install -r requirements.txt
+	- pre-commit install
+2.	Software dependencies
+	- python 3.8
+    - pip 21.0.1
+
+# How to update version for Azure Artifacts
+
+1. commit to repo 
+2. run deploy pipline
+
+How to get package
+
+1. add a pip.init file with contents
+
+[global]
+index-url=https://pkgs.dev.azure.com/elements/Projects/_packaging/sikri_ml/pypi/simple/
+
+2. pip install sikri-ml
+
+# How to update version for pypi
+Make changes
+update the version in setup.py
+make sure the dist folder is empty
+run the commands
+
+- pip install .
+- python3 -m build 
+- twine upload --repository-url https://test.pypi.org/legacy/ dist/* --verbos
+
+enter these credentials
+
+username = __token__
+password = pypi-AgENdGVzdC5weXBpLm9yZwIkYzI4NzE3ZTUtNDk3ZS00ZmU0LWIyODctOGY1YjhmOWQ2OWQzAAI5eyJwZXJtaXNzaW9ucyI6IHsicHJvamVjdHMiOiBbInNpa3JpLW1sIl19LCAidmVyc2lvbiI6IDF9AAAGIMwboR4aho0VKSDtwl2QkfshLbP-tB3ZWo36vBOSi_hb
+
+you can install the package with 
+- pip install sikri-ml
+test version
+- pip install -i https://test.pypi.org/simple/ sikri-ml
