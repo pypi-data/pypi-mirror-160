@@ -1,0 +1,5 @@
+include hdcms/src/main.c
+include hdcms/src/main.h
+include hdcms/src/fixwindows.h
+include hdcms/src/util/*.c 
+include hdcms/src/util/*.h
