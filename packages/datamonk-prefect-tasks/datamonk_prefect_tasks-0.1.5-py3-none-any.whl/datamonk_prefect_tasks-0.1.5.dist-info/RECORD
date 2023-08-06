@@ -1,0 +1,6 @@
+datamonk/prefect_tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datamonk/prefect_tasks/general.py,sha256=XX7PyYh_esrscwHxMD4DQ5E6Fuk9SHhkqmf9IZfgZoQ,918
+datamonk/prefect_tasks/invest.py,sha256=ygviZKluQ1RrTyQYiYxx2v0Nk-4thN-T_RKljffH89Y,1838
+datamonk_prefect_tasks-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+datamonk_prefect_tasks-0.1.5.dist-info/METADATA,sha256=OODGYMFNOqubUqD6r7a8mONu_NWQ4F5zRsErLGpAyW8,459
+datamonk_prefect_tasks-0.1.5.dist-info/RECORD,,
