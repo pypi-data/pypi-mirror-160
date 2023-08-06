@@ -1,0 +1,10 @@
+README.md
+setup.py
+netease/__init__.py
+netease/__main__.py
+netease/netease.py
+pynetease_finance.egg-info/PKG-INFO
+pynetease_finance.egg-info/SOURCES.txt
+pynetease_finance.egg-info/dependency_links.txt
+pynetease_finance.egg-info/requires.txt
+pynetease_finance.egg-info/top_level.txt
