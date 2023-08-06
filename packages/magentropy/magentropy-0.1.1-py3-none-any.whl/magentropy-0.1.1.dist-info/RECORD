@@ -1,0 +1,17 @@
+_meta/__init__.py,sha256=WXtwklmXhy4weXCFKAVKhUmXes9MgizzjeBkpJREMes,858
+magentropy/__init__.py,sha256=oTtsUAqibPK0sts_Pc1IT-zfDMh-UZJ7gO5cTEfYAps,294
+magentropy/_calculations.py,sha256=l2nTG44srO_9U263ty-TLDVSRADvp_Re7koqoeH3284,10776
+magentropy/_classvars.py,sha256=xETgPN0H2LT2oMgsZbzu9Fe3NP_qBjkA3yry67Wa0Lg,3359
+magentropy/_grouping.py,sha256=5plXDOpNPNV6AjzD8-ZZ-IljLBEyyU39msPCPOjE8ds,7214
+magentropy/_pint_utils.py,sha256=pxrHYhg4Ktgzn42xOGQRGdiXBK6b1Y8qobkFUkvbeeY,3699
+magentropy/_plotting.py,sha256=cbJHgEFL--lSaEtl67Lj47Z5qgBTKhbxmDU8qa3x-qU,21820
+magentropy/_smoothing.py,sha256=xS7Oi-ROmQSjR_AiabN5qPwPnBybjdolKuNeOo8OYv4,17369
+magentropy/_validation.py,sha256=XiffDIkmYPTNeh25FFGQZiLKxS3Su-8maETE6IrBlbw,9970
+magentropy/errors.py,sha256=bpemOmViIxcXfiA_A3EQhWKjPQGWNC8bpBU9ZZSY3-Q,427
+magentropy/magentro.py,sha256=fzQuxYRK419iD4-crPN78_vw-Pnzg8ptb0Oyzr6IPQk,89234
+magentropy/typedefs.py,sha256=0E6wPxxgWo5RzSRt-tBnYf94MQRMCMHBMMQmkxRcQVw,2801
+magentropy-0.1.1.dist-info/LICENSE,sha256=_wJ6ra8ju1NfpLu5UvPmxol17sN48A4oBX6YBy_lEYk,1067
+magentropy-0.1.1.dist-info/METADATA,sha256=k4H8nX-5TSkRV1hqlibtmAokpQQtKDUGkp1aXUiNapc,4800
+magentropy-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+magentropy-0.1.1.dist-info/top_level.txt,sha256=qZ1uwYpeGKtKzzqm7Cs_qlxJaSKv3LuFL2EEBy3BdTA,17
+magentropy-0.1.1.dist-info/RECORD,,
