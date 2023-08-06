@@ -1,0 +1,11 @@
+-r requirements-ci.txt
+
+shellfoundry
+
+# Testing
+pytest
+
+# Packaging
+wheel
+setuptools-scm
+twine
