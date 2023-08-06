@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/NIVESH_1.egg-info/PKG-INFO
+src/NIVESH_1.egg-info/SOURCES.txt
+src/NIVESH_1.egg-info/dependency_links.txt
+src/NIVESH_1.egg-info/top_level.txt
+src/divide/__init__.py
+src/divide/by_three.py
+src/multiply/__init__.py
+src/multiply/by_three.py
