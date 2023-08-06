@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ahIOT
+Version: 0.0.1
+Summary: Actaully Happening for IOT, simplifies a basic Python IOT project using raspberry pie
+Home-page: https://github.com/ActaullyHappening/IOT
+Author: Actaully Happening
+Author-email: actuallyhappening42@gmail.com
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Package info in python/
