@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pykvs_lite/__init__.py
+pykvs_lite/pykvs_lite.py
+pykvs_lite/sample.py
+pykvs_lite/version.py
+pykvs_lite.egg-info/PKG-INFO
+pykvs_lite.egg-info/SOURCES.txt
+pykvs_lite.egg-info/dependency_links.txt
+pykvs_lite.egg-info/top_level.txt
