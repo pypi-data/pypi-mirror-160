@@ -1,0 +1,8 @@
+
+[test]
+bumpversion
+pre-commit
+pytest
+pytest-cov
+pylint
+black
