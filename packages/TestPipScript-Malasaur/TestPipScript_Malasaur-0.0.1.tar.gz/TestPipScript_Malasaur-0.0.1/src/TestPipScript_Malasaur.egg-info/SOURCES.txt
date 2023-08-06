@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/TestPipScript_Malasaur/Test.py
+src/TestPipScript_Malasaur/__init__.py
+src/TestPipScript_Malasaur.egg-info/PKG-INFO
+src/TestPipScript_Malasaur.egg-info/SOURCES.txt
+src/TestPipScript_Malasaur.egg-info/dependency_links.txt
+src/TestPipScript_Malasaur.egg-info/top_level.txt

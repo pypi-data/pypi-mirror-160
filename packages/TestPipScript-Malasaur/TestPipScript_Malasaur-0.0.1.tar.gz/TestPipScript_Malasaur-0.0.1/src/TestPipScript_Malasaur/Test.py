@@ -1,0 +1,2 @@
+def StartTest():
+    print("lol")
