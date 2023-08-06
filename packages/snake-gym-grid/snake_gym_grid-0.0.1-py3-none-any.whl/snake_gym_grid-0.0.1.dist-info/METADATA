@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: snake-gym-grid
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: gym (==0.25.0)
+Requires-Dist: pygame (==2.1.2)
+Requires-Dist: numpy (==1.22.3)
+
+UNKNOWN
+
+
