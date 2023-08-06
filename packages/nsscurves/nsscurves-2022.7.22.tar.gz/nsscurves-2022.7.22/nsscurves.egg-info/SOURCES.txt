@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nsscurves/__init__.py
+nsscurves/nss.py
+nsscurves/test.py
+nsscurves.egg-info/PKG-INFO
+nsscurves.egg-info/SOURCES.txt
+nsscurves.egg-info/dependency_links.txt
+nsscurves.egg-info/top_level.txt

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nsscurves
+Version: 2022.7.22
+Summary: Modelo Nelson Siegel Svensson.
+Home-page: https://github.com/mfhorita
+Author: Marcelo Horita
+Author-email: mfhorita@gmail.com.br
+License: MIT License
+Keywords: nss nelson siegel svensson curves
+Platform: UNKNOWN
+Classifier: License :: Freeware
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Modelo Nelson Siegel Svensson:
+#### <h3>Pacote para calibrar parÃ¢metros do modelo e calcular modelo.</h3>
+AtravÃ©s deste pacote Ã© possÃ­vel passar um DataFrame com trÃªs colunas:<p>
+<li> 1Âª Coluna: Prazo em dias ou anos;
+<li> 2Âª Coluna: Valores a serem calculados;
+<li> 3Âª Coluna: Peso a ser atribuÃ­do.
+<br>
+<br>
+ApÃ³s a calibragem dos parÃ£metros pode-se utilizar o modelo NSS para 
+retornar o valor atravÃ©s do modelo de Nelson Siegel Svensson. 
+
+
