@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+prp2222/__init__.py
+prp2222.egg-info/PKG-INFO
+prp2222.egg-info/SOURCES.txt
+prp2222.egg-info/dependency_links.txt
+prp2222.egg-info/requires.txt
+prp2222.egg-info/top_level.txt
