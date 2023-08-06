@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: titans
+Version: 0.0.6
+Summary: A collection of deep learning components built with Colossal-AI
+Home-page: https://www.colossalai.org
+License: Apache Software License 2.0
+Project-URL: Forum, https://github.com/hpcaitech/Titans/discussions
+Project-URL: Bug Tracker, https://github.com/hpcaitech/Titans/issues
+Project-URL: Examples, https://github.com/hpcaitech/ColossalAI-Examples
+Project-URL: Documentation, http://colossalai.readthedocs.io
+Project-URL: Github, https://github.com/hpcaitech/Titans
+Description: # ColossalAI-Models
+        
+        [![Made with ColossalAI](https://img.shields.io/badge/Made%20with-ColossalAI-blue)](https://github.com/hpcaitech/ColossalAI)
+        
+        
+        Model zoo for ColossalAI
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
