@@ -1,0 +1,6 @@
+jupyter_client
+IPython
+ipykernel
+javascript
+bigml
+notebook

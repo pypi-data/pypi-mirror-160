@@ -1,0 +1,3 @@
+magics
+whizzml
+whizzml_kernel
