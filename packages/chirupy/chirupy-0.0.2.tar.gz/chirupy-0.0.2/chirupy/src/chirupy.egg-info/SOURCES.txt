@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+chirupy/src/chirupy.egg-info/PKG-INFO
+chirupy/src/chirupy.egg-info/SOURCES.txt
+chirupy/src/chirupy.egg-info/dependency_links.txt
+chirupy/src/chirupy.egg-info/top_level.txt
