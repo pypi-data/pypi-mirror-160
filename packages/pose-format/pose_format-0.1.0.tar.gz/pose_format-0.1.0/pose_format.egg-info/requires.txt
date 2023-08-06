@@ -1,0 +1,11 @@
+numpy
+scipy
+tqdm
+
+[dev]
+pytest
+opencv-python==4.5.5.64
+vidgear
+mediapipe
+torch
+tensorflow
