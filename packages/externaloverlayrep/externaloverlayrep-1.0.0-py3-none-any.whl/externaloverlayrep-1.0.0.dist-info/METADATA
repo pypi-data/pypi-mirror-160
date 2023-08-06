@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: externaloverlayrep
+Version: 1.0.0
+Summary: https://github.com/Xenely14/ExternalPyOverlay
+Author: Xenely14
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
