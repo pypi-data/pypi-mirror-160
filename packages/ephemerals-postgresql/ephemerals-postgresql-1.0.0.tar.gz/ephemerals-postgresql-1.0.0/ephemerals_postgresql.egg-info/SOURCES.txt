@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+setup.py
+ephemerals_postgresql.egg-info/PKG-INFO
+ephemerals_postgresql.egg-info/SOURCES.txt
+ephemerals_postgresql.egg-info/dependency_links.txt
+ephemerals_postgresql.egg-info/requires.txt
+ephemerals_postgresql.egg-info/top_level.txt
+postgresql/__init__.py
+postgresql/dbmanager.py
+postgresql/ephemeralpostgresqldbcontext.py
+postgresql/ephemeralpostgresqldbcontextbuilder.py
+postgresql/filesmanager.py
