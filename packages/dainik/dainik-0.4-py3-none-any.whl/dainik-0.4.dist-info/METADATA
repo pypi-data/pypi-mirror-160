@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dainik
+Version: 0.4
+Summary: Client library for working with nimblebox LMAO
+Author: yashbonde
+Author-email: bonde.yash97@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: nbox (>=0.9.14rc28,<0.10.0)
