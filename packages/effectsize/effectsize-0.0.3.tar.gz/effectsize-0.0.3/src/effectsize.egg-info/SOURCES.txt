@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/__init__.py
+src/effectsize.py
+src/functions.py
+src/effectsize.egg-info/PKG-INFO
+src/effectsize.egg-info/SOURCES.txt
+src/effectsize.egg-info/dependency_links.txt
+src/effectsize.egg-info/requires.txt
+src/effectsize.egg-info/top_level.txt
