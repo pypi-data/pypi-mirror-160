@@ -1,0 +1,11 @@
+tinq/__init__.py,sha256=zsLz_tfFWsEm-EqDb8mEYqmCIlUTukpisKKKtvjZsn8,3190
+tinq/customerportal.py,sha256=ai3iOZUX33l6iKB2TFKWWJ7J6vAXL9TrxIV-BOilhPw,2109
+tinq/kaportalext.py,sha256=aDDmmItIDV6VQ4Yb8p3QSeZCjV0-T2y3KTcrg4i5inM,5075
+tinq/playground.py,sha256=tbChpRteFjvhGLzbGRYSIuMV7l1at0C0bJoXHW7wzFU,171
+tinq/projects.py,sha256=tDNzaXrgNUQJuET9Bf_H_oJodIpixDeLR0RsW75Uch0,1487
+tinq/settings.py,sha256=8FZQstEln64XkGLcdBiYUFooboi3LyYnVGCJ2NmXyQ0,581
+tinq-0.0.2.dist-info/LICENSE.txt,sha256=5lucc4f1jh2107bFT0lCabEq56ZwkI6nPkTPZgc56A8,1071
+tinq-0.0.2.dist-info/METADATA,sha256=B5tYU3KkVyNlt--hM4XhiB5CzfyMP69ujxemhgM-ZSo,5480
+tinq-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tinq-0.0.2.dist-info/top_level.txt,sha256=pHpn1A2gld_Sa76oMFK--p43wjS-vA6b1WHVwKzemzk,5
+tinq-0.0.2.dist-info/RECORD,,
