@@ -1,0 +1,6 @@
+pyvis
+networkx
+os
+re
+
+[dev]
