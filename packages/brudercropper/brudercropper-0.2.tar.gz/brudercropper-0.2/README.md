@@ -1,0 +1,37 @@
+# Brudercropper
+Cropped Bilder für Brother Labeldrucker
+## Installation
+1. Ghostscript installieren
+2. `gs` / `gswin32c` im PATH ablegen
+3. [Tesseract installieren](https://tesseract-ocr.github.io/tessdoc/Home.html)
+4. `sudo apt install build-essential python3.9-dev libjpeg-dev libdmtx0b tesseract-ocr`
+5. `pip install brudercropper`
+6. `brudercrop -h`
+
+
+## Nutzung
+```
+usage: brudercrop [-h] [--dhl] -i INPUT [-l LOGO]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --dhl                 Cropped ein DHL A4 Etikett auf 62mm
+  -i INPUT, --input INPUT
+                        Inputfile
+  -l LOGO, --logo LOGO  Dateipfad zu einem optionalen Logo
+```
+
+### Beispiel
+`brudercrop --dhl -i Paketmarke_DHL_orig.pdf`
+```
+C:\Users\A\AppData\Local\Temp\tmp08l3xlzp\zos5k5bj.png = 58285.070071.00.3
+C:\Users\A\AppData\Local\Temp\tmp3mmd4zs6\cgdb_pvj.png = 35.800.229584 6
+Saved to result.png
+```
+
+### Ergebnisse
+#### Vorher
+![Vorher](https://i.imgur.com/8HvF0SF.png)
+
+#### Nachher
+![Nachher](https://i.imgur.com/usKfh6R.png)
