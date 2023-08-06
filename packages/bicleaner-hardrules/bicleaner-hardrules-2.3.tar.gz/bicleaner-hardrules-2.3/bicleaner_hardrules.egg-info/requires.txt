@@ -1,0 +1,8 @@
+PyYAML
+fastspell
+fasttext
+joblib
+pytest
+regex
+sacremoses
+toolwrapper
