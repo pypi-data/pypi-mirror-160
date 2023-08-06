@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+src_paths = ["logitorch", "test"]
+skip = ["build",".tox","env"]
+
+[tool.black]
+line_length = 88
+
+[tool.mypy]
+python_version = "3.8"
+ignore_missing_imports = true
+show_error_codes = true
+exclude = "(docs)/"
