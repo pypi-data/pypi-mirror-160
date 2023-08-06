@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: thousandeyessdk
+Version: 0.0.6a10
+Summary: Python SDK for ThousandEyes API Monitoring Service
+Home-page: https://github.com/CiscoAandI/ThousandEyesSDK
+Author: Ava Thorn
+Author-email: avthorn@cisco.com
+Project-URL: Bug Reports, https://github.com/CiscoAandI/ThousandEyesSDK/issues
+Project-URL: Source, https://github.com/CiscoAandI/ThousandEyesSDK/
+Keywords: thousandeyes,api,rest,sdk,cisco
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: werkzeug (==2.0.1)
+Provides-Extra: dev
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (==6.2.4) ; extra == 'test'
+Requires-Dist: pytest-blockage (==0.2.2) ; extra == 'test'
+Requires-Dist: pytest-cov (==2.12.0) ; extra == 'test'
+
+Python SDK for ThousandEyes API Monitoring Service
