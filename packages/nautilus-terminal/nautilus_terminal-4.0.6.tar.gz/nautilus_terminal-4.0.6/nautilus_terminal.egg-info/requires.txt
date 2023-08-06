@@ -1,0 +1,6 @@
+psutil>=5.6.6
+
+[dev]
+nox
+flake8
+black

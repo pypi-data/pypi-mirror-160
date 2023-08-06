@@ -1,0 +1,3 @@
+[console_scripts]
+nautilus-terminal = nautilus_terminal.__main__:main
+
