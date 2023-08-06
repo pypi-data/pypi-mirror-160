@@ -1,0 +1,8 @@
+numtostr_rus/__init__.py,sha256=RISYnJWvAp_txPyr7vACe_HMZAmiXC1jY0QzxJ4inZw,32
+numtostr_rus/converter.py,sha256=JvgQ__KDuzT9ZWOwTSuZQuk4F2Bkl61tTUNxIQAcR4Q,5668
+numtostr_rus/db.py,sha256=TkCoUqZG7eJDkGcsxtcgWnZaDAv5Jcfd4KzVzGNw2bA,8472
+numtostr_rus/mult.py,sha256=5xFI3Z5cM8rxVGeEGjwZWSug2nY6DQQTs3l39izDg9o,2179
+numtostr_rus-1.0.dist-info/METADATA,sha256=X1rFcrz-0A1fNkxiPtQiBhVATlnypAkPe3N8XAWNgSk,2925
+numtostr_rus-1.0.dist-info/WHEEL,sha256=liJPdWJO-LaTaS3jCRTQCzug2NduIeDTswBay6mhVX8,86
+numtostr_rus-1.0.dist-info/licenses/LICENSE,sha256=dd71cSPwmY1sv57Qz9bfFNL9POrcZJxWFL9soe_yipc,1057
+numtostr_rus-1.0.dist-info/RECORD,,
