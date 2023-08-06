@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: cmdscrypt
+Version: 1.0
+Summary: A simple app for generating urlsafe_b64 encoded scrypt keys
+Home-page: https://github.com/NotStatilko/cmdscrypt
+Author: UNKNOWN
+Author-email: thenonproton@pm.me
+License: MIT
+Download-URL: https://github.com/NotStatilko/cmdscrypt/archive/refs/tags/v1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
