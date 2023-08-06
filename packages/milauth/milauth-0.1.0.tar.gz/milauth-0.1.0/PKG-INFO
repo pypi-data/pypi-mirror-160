@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: milauth
+Version: 0.1.0
+Summary: MilaCoins Api
+Home-page: https://api.milacoins.com/
+Author: Haim Piskarov
+Author-email: haim@milateam.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# MilaCoins API
+
+Full documentation: [api.milacoins.com](https://api.milacoins.com)
+
+## Sample Usage
+
+```Python
+import milauth
+
+apiKey = "apiKey"
+secretKey ="secretKey"
+url = "https://sandbox-api.milacoins.com"
+
+milacoinsApi = milauth.Api(url,apiKey,secretKey)
+```
+
+## Set the Environment (url)
+
+- SandBox : https://sandbox-api.milacoins.com
+- Production: https://api.milacoins.com
+
+## Configure Your Credentials
+
+1. Go to MilaCoins Dashboard( [production](https://milacoins.com), [sandbox](https://sandbox.milacoins.com))
+2. Navigate to api settings
+3. Generate the api keys
+4. add IP to the white list
+
+## Request Method
+
+```Python
+milacoinsApi.request(endpoint:string, method:string[default: 'GET'], query:Object, body:Object)
+```
+
+## Request Example
+
+```Python
+
+try:
+    invoices = milacoinsApi.request('/api/v1/transactions/invoices/',query={'limit': 2})
+    print(invoices)
+except milauth.MilaCoinsError as ApiError:
+    print(ApiError.code)
+    print(ApiError)
+
+```
+
+## API Errors
+
+Any response status > 399 will throw Error.
+**Error properties:**
+
+- requestID : string
+- code: number
+- message: string
+- name: string
+
+Full errors list: [click here](https://api.milacoins.com/#errors)
+
+
