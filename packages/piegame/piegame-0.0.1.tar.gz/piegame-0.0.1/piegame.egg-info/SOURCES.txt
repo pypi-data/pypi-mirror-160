@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+piegame/__init__.py
+piegame.egg-info/PKG-INFO
+piegame.egg-info/SOURCES.txt
+piegame.egg-info/dependency_links.txt
+piegame.egg-info/requires.txt
+piegame.egg-info/top_level.txt

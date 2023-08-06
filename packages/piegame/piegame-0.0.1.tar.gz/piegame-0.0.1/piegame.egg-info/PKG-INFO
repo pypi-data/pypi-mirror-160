@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: piegame
+Version: 0.0.1
+Summary: Utilities for pygame GUI applications.
+Home-page: https://github.com/phuang1024/piegame
+Author: Patrick Huang
+Author-email: phuang1024@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Piegame
+
+Utilities for pygame GUI applications.
+
+
