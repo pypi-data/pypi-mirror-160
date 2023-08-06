@@ -1,0 +1,2 @@
+[console_scripts]
+monkeypaint = monkeypaint.__main__:entry_point
