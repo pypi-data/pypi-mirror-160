@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: inputidy
+Version: 0.0.1
+Summary: Python input interface
+Home-page: https://github.com/Janus-Shiau/inputidy
+Author: Jia-Yau Shiau
+Author-email: jiayau_shiau@gmail.com
+License: Apache Software License (Apache-2.0)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Inputidy
+
+## What is it?
+
+Python input interface.
+
+## Main Features
+
+- **prompt_input**: get input from prompt.
+
+## Where to get it
+
+Example-Package can be installed from PyPI using `pip`:
+
+```bash
+pip install inputidy
+```
+
+## Interface
+
+TBA.

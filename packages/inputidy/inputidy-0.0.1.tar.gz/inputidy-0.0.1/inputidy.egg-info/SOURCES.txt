@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+inputidy/__init__.py
+inputidy/prompt.py
+inputidy.egg-info/PKG-INFO
+inputidy.egg-info/SOURCES.txt
+inputidy.egg-info/dependency_links.txt
+inputidy.egg-info/top_level.txt
