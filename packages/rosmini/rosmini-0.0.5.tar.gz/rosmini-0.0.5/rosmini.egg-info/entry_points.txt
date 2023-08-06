@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        rosminicore=rosmini.__main__:rosminicore
+        rostopiclist=rosmini.__main__:rostopiclist
+        
