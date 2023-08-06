@@ -1,0 +1,10 @@
+mff_pytex/__init__.py,sha256=ZT5CedNRagHRLJfs6d1okjYkZpquka231rcSbf-woPE,140
+mff_pytex/structure.py,sha256=mxa3NufPb0R5v6P1ceqwmUPL1GIs11nAQIjxUjpcJD0,465
+mff_pytex/interface/__init__.py,sha256=J33Hv7Xf0mwxWSHPyi1_Qe6g4KGOZWo-wJKus5XJHF8,47
+mff_pytex/interface/interface.py,sha256=IpV3Yv_wvJuHZDGs4w8itAguYD0DOVhpb7SiChZ7ILA,24
+mff_pytex-0.1.1.dist-info/LICENSE,sha256=ULcC7nUMq2Mr2vunqh6p177ErYWkFgzFyNEINBRBqEI,1077
+mff_pytex-0.1.1.dist-info/METADATA,sha256=0yctYKoSvixy1RYD9tlyiY7peYgtvfllY77IUFT_KWc,1199
+mff_pytex-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mff_pytex-0.1.1.dist-info/entry_points.txt,sha256=Z4i2yBidwUW0IMt_SUduVTIwAbIFwKSobpqgF-Ux2ms,63
+mff_pytex-0.1.1.dist-info/top_level.txt,sha256=9_n1n-UmDo4JZ1oj00Q8wgFnUFwfugIuXeopa_QHC5M,10
+mff_pytex-0.1.1.dist-info/RECORD,,
