@@ -1,0 +1,9 @@
+reqwest_py-0.1.0.dist-info/METADATA,sha256=3sgJnxiPtpHXSfK_JL8CV5bc5BRvp1Itio2QiRNgtLQ,259
+reqwest_py-0.1.0.dist-info/WHEEL,sha256=v1-gHWCAkuHOyP7952DJ-OSH88zWxX1Z82Qark9WTmA,107
+reqwest.libs/libssl-578d2f9a.so.1.1,sha256=oo7ih-RiWX3mCdt5sue_RN77gV_CWawwzjaV9oM9EdY,645608
+reqwest.libs/libcrypto-d578cd7f.so.1.1,sha256=l7TmO6zPLiaZQ__rNW4AOJSZRcRUxZVdWGuD6mCi6Sc,3083720
+reqwest/__init__.py,sha256=hNny4YbEtksL3X1Af8-7Rz-qoj0T_aG7GUsCkbvR3nA,111
+reqwest/__init__.pyi,sha256=Lc9NigCZdBNeE_0obR4S0eoHJDX_bMc7KvXUsLE155M,152
+reqwest/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reqwest/reqwest.cpython-38-x86_64-linux-gnu.so,sha256=J8e7mhyCJe7Gw9flIBF04woYjSwUMRII5nsMOE8SNys,3817400
+reqwest_py-0.1.0.dist-info/RECORD,,
