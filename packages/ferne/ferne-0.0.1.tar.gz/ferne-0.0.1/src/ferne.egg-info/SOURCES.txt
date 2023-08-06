@@ -1,0 +1,9 @@
+license.txt
+pyproject.toml
+setup.cfg
+setup.py
+src/ferne/__init__.py
+src/ferne.egg-info/PKG-INFO
+src/ferne.egg-info/SOURCES.txt
+src/ferne.egg-info/dependency_links.txt
+src/ferne.egg-info/top_level.txt

@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ferne
+Version: 0.0.1
+Summary: Compose functions using the pipe operator.
+Home-page: https://github.com/oruwmztbnz4q/ferne
+Author: Tiffany
+Author-email: oruwmztbnz4q@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+<div align=center>
+  <br>
+  <img width=55% src='./liminal.svg'></img>
+  <br>
+</div>
+
+
+# Liminal
+
+Liminal is a tiny library for composing [pure functions](https://en.wikipedia.org/wiki/Pure_function) using pipeline notation. If `f` and `g` are functions then `f | g` is a function such that `(f | g)(x) = g(f(x))`.
+
+
+## Composables
+
+Liminal exports a function decorator called `Composable`. Any two composable functions can be composed using the pipe operator. For example,
+
+```py
+from liminal import Composable
+```
+
+Create two composable functions...
+
+```py
+f = Composable(lambda x: x + 1)
+
+g = Composable(lambda x: x * 2)
+```
+
+Compose them...
+
+```py
+h = f | g
+```
+
+Apply the composite...
+
+```py
+h(2)  # returns 6
+```
