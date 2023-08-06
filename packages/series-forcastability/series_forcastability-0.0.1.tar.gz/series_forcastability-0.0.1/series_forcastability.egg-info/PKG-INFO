@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: series-forcastability
+Version: 0.0.1
+Summary: Determine a series forecastability based on the series characteristics
+Home-page: https://github.com/santhoshv6/ADI_CV2
+Author: Santhosh V
+Author-email: santhoshv40@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Calculate co-effecienct of Variance
+
+### Instructions
+
+1. Install:
+
+        pip install get-cov2
+
+
+2. Calculate the co-effecient of variance
+
+        from get_cov_2 import main
+        # calculate the co-effecient of variance
+        cov = main.get_cov(series).cov()
