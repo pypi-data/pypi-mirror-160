@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flask_fuzhu
+Version: 0.0.1
+Summary: practice build package
+Home-page: UNKNOWN
+Author: littlx
+Author-email: littlx@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+
+联系如何打包，请勿使用！！！
+
+
