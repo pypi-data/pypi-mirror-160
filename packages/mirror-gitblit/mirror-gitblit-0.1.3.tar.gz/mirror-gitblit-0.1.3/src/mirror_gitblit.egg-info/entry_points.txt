@@ -1,0 +1,4 @@
+[console_scripts]
+clone-gitblit-repos = mirror_gitblit.repos:cli_clone_repos
+list-gitblit-repos = mirror_gitblit.repos:cli_list_repos
+
