@@ -1,0 +1,10 @@
+setuptools>=42
+wheel
+scikit-build>=0.12
+cmake>=3.18
+
+[test]
+pytest
+pytest-cov
+psutil
+lxml
