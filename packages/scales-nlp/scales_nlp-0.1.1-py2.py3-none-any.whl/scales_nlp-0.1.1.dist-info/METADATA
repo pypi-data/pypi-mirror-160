@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: scales-nlp
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: 
+Author: Nathan Dahlberg
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: datasets
+Requires-Dist: sentencepiece
+Requires-Dist: pandas
+Requires-Dist: numpy (==1.22)
+Requires-Dist: toolz
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: transformers
+Requires-Dist: pathlib
+
+UNKNOWN
+
