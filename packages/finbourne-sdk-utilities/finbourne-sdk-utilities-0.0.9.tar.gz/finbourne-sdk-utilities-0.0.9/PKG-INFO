@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: finbourne-sdk-utilities
+Version: 0.0.9
+Summary: Utilities for FINBOURNE Python SDKs
+Home-page: https://github.com/finbourne/sdk-utilities-python
+Author: FINBOURNE Technology
+Author-email: engineering@finbourne.com
+License: MIT
+Keywords: OpenAPI,FINBOURNE,LUSID,SDK
