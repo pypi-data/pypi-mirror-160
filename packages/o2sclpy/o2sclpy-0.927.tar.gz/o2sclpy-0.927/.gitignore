@@ -1,0 +1,16 @@
+.snapcraft
+*.bz2
+o2graph*.png
+build
+parts
+prime
+stage
+dist
+*.snap
+o2sclpy.egg-info
+o2sclpy/__pycache__
+*~
+.ipynb_checkpoints
+__pycache__
+
+dsh.o2
