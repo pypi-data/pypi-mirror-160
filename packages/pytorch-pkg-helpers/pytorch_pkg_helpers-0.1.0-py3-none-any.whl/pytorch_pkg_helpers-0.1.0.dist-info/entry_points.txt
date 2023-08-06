@@ -1,0 +1,3 @@
+[console_scripts]
+pytorch_pkg_helper=pytorch_pkg_helpers.__main__:main
+

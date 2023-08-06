@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pytorch-pkg-helpers
+Version: 0.1.0
+Summary: Tool to determine pytorch dependencies for common domain library use cases
+Author: Eli Uriegas
+Author-email: eliuriegas@fb.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
