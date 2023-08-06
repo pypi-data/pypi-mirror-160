@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+basetech.egg-info/PKG-INFO
+basetech.egg-info/SOURCES.txt
+basetech.egg-info/dependency_links.txt
+basetech.egg-info/top_level.txt
+mypackage/__init__.py
+mypackage/__version__.py
+mypackage/core.py
