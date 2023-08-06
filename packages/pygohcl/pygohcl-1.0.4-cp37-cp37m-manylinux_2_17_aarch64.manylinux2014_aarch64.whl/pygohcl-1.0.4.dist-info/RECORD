@@ -1,0 +1,9 @@
+pygohcl.cpython-37m-aarch64-linux-gnu.so,sha256=_uaNcvywOCpMaF3nUfmHbqSrcI1uVe5zm3uYv_F-EO4,6146072
+pygohcl.cpython-37m-aarch64-linux-gnu.h,sha256=9K4y6ZTynLYtx4j0w5X7es0CkWPe9h43gJ4gY6JUoIs,1722
+pygohcl/_pygohcl.py,sha256=3AjxxrC36NBsJlTyI4dzR1qcU5uH9UboXlpFcltsgAo,524
+pygohcl/__init__.py,sha256=72h7MJklGIEdXHldU83AF7GqxLEJUFvB13p2iK99Zpk,1000
+pygohcl/build_cffi.py,sha256=qMtCKTV4H85UsqdPfKvdoBKqM9D6FJcOaM93Q1LHPR4,382
+pygohcl-1.0.4.dist-info/METADATA,sha256=SlDBdD4XnmUMmuXn2ZxSEirSuEA0ur3wnCqGINF7_dY,1675
+pygohcl-1.0.4.dist-info/top_level.txt,sha256=qec0--EilneNKKef2DEc2Iwj4vc0T63FhO8weBS4a78,8
+pygohcl-1.0.4.dist-info/WHEEL,sha256=sd32oL6c-EzUH92efpYdETcONu8MSNr3wlSolfcvSDI,152
+pygohcl-1.0.4.dist-info/RECORD,,
