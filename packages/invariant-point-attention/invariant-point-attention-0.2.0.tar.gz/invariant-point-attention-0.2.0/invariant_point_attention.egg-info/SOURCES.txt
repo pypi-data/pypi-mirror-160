@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+invariant_point_attention/__init__.py
+invariant_point_attention/invariant_point_attention.py
+invariant_point_attention/utils.py
+invariant_point_attention.egg-info/PKG-INFO
+invariant_point_attention.egg-info/SOURCES.txt
+invariant_point_attention.egg-info/dependency_links.txt
+invariant_point_attention.egg-info/requires.txt
+invariant_point_attention.egg-info/top_level.txt
