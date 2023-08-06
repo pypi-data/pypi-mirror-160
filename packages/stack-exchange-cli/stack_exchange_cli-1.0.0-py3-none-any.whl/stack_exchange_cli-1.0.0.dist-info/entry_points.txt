@@ -1,0 +1,3 @@
+[console_scripts]
+se=stack_exchange.__main__:main
+
