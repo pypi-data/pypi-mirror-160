@@ -1,0 +1,20 @@
+#!python
+import sys
+import nossl
+
+
+def main():
+    if len(sys.argv) != 2:
+        print('Usage: nossl on or nossl off')
+        sys.exit(1)
+
+    if sys.argv[1] == 'on':
+        nossl.turn_on_ssl()
+    elif sys.argv[1] == 'off':
+        nossl.turn_off_ssl()
+    else:
+        print('Invalid argument', sys.argv[1])
+
+
+if __name__ == '__main__':
+    main()
