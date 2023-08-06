@@ -1,0 +1,8 @@
+bioreader/__init__.py,sha256=ZK39rXkt3IaHd90T95wWRIMxSzk4vkANivwHUidVhxE,354
+bioreader/_core.py,sha256=P0i7W8LgvlS5LijOW0Uqwegqygo8P1LMii6dutE4LkE,854
+bioreader/vocabulary/__init__.py,sha256=6wm1b89ICa2IIPrdmD8kJyGclCY2RQZkWKw-4pPG-5I,165
+bioreader/vocabulary/_core.py,sha256=yW8NszR6AdCDkl_DbXfVvQ_vH0KlwM0Ye5IZ3CAQqNM,173
+bioreader-0.0.3.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+bioreader-0.0.3.dist-info/WHEEL,sha256=j3d_2VkBU36k09xOc4O9RZyJJ8uFqn4BR2AtKD7MOp8,99
+bioreader-0.0.3.dist-info/METADATA,sha256=SxNmGtndXipC4VgRna348aMZOHrZl-sbBRiUkpjS4is,847
+bioreader-0.0.3.dist-info/RECORD,,
