@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: markdown_grapher
+Version: 0.0.1
+Summary: Draw a network graph of your markdown files
+Author: Nicolai Emig
+Author-email: markdown_grapher <nicolai@emig.me>
+Project-URL: Homepage, https://github.com/emign/markdown_grapher
+Keywords: markdown,graph,digital garden
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
