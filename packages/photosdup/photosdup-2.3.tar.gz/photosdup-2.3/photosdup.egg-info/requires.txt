@@ -1,0 +1,9 @@
+scipy
+numpy
+opencv-python
+photoscript
+scikit-image
+PySimpleGUI
+tqdm
+pyheif
+matplotlib
