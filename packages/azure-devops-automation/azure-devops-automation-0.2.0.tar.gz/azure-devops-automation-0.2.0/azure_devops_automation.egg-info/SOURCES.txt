@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+azure_devops_automation.egg-info/PKG-INFO
+azure_devops_automation.egg-info/SOURCES.txt
+azure_devops_automation.egg-info/dependency_links.txt
+azure_devops_automation.egg-info/top_level.txt
