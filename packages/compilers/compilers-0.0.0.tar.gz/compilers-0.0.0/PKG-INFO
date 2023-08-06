@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: compilers
+Version: 0.0.0
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+Description-Content-Type: text/markdown
+
+`compilers` is a namespace for language compilers (C, C++, Rust) on Python.
