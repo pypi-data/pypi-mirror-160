@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invidious-parser"
+version = "0.5.4"
+authors = [
+  { name="Kostya Klochko", email="kostya_klochko@ukr.net" },
+]
+description = "Getting information via invidious api."
+readme = "README.rst"
+license = { file="COPYING" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+]
+
+[tool.setuptools.packages.find]
+where = ["invidious_parser"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/universe-tube/universe-tube-connect-modules/invidious-parser"
+"Bug Tracker" = "https://gitlab.com/universe-tube/universe-tube-connect-modules/invidious-parser/issues"

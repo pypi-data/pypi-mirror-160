@@ -1,0 +1,7 @@
+README.rst
+pyproject.toml
+invidious_parser/invidious_parser.egg-info/PKG-INFO
+invidious_parser/invidious_parser.egg-info/SOURCES.txt
+invidious_parser/invidious_parser.egg-info/dependency_links.txt
+invidious_parser/invidious_parser.egg-info/requires.txt
+invidious_parser/invidious_parser.egg-info/top_level.txt
