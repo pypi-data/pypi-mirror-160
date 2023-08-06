@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/File_Validator.egg-info/PKG-INFO
+src/File_Validator.egg-info/SOURCES.txt
+src/File_Validator.egg-info/dependency_links.txt
+src/File_Validator.egg-info/requires.txt
+src/File_Validator.egg-info/top_level.txt
+src/file_validator/__init__.py
