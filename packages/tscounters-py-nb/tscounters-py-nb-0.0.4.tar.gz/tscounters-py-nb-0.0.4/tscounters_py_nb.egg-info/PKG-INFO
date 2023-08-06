@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tscounters-py-nb
+Version: 0.0.4
+Summary: Time-series counters
+Home-page: https://github.com/ParticleMedia/tscounters-py
+Author: Songyan Hou
+Author-email: songyan.hou@newsbreak.com
+Keywords: opentsdb,metrics,counters
+License-File: LICENSE
