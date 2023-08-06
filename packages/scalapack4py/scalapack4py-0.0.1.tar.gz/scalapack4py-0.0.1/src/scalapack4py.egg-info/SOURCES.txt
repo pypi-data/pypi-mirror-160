@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/scalapack4py/blacsdesc.py
+src/scalapack4py/mpiprint.py
+src/scalapack4py.egg-info/PKG-INFO
+src/scalapack4py.egg-info/SOURCES.txt
+src/scalapack4py.egg-info/dependency_links.txt
+src/scalapack4py.egg-info/requires.txt
+src/scalapack4py.egg-info/top_level.txt
