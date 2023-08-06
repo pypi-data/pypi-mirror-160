@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+vdblite/__init__.py
+vdblite.egg-info/PKG-INFO
+vdblite.egg-info/SOURCES.txt
+vdblite.egg-info/dependency_links.txt
+vdblite.egg-info/not-zip-safe
+vdblite.egg-info/requires.txt
+vdblite.egg-info/top_level.txt
