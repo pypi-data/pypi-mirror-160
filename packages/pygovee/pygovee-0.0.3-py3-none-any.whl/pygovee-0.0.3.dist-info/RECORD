@@ -1,0 +1,11 @@
+python-govee/__init__.py,sha256=tf1dl68VNDrSrxQ_TiY-iEdHpa8PjbYziFvYFgI5KRo,28
+python-govee/api.py,sha256=f2AG2iSUrRM7kOz0wOMRyf5DPwbWgc7hXYun7h-p5yA,1260
+python-govee/constants.py,sha256=-Em2_YxT-Eonr-r8FPK6JAolqXx18vefb_n5ogUxvfs,534
+python-govee/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python-govee/commands/brightness.py,sha256=fhcKW2aRn4j61t_Uwu8dds4h4PRhNFFHRQ5ro0jR8Bw,509
+python-govee/commands/color.py,sha256=p918WbU_Zgp9kcxf3fdYzYvxgBdlLbhFVi4H53vrKD4,570
+python-govee/commands/toggle.py,sha256=AIAr4vS4bpPrnlqUCk0k1hRg4mFzqsj0yMlCss98-fk,874
+pygovee-0.0.3.dist-info/METADATA,sha256=PKPylPRQ4KuLHa4gQ8HrhHySmdG5y7-Sn5u4e9PnpBg,761
+pygovee-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pygovee-0.0.3.dist-info/top_level.txt,sha256=ZYytwZ3fZfHOX9yaIOlYvUyARZsTa6WHYr5uOfPtIfQ,13
+pygovee-0.0.3.dist-info/RECORD,,
