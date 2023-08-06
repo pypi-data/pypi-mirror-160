@@ -1,0 +1,16 @@
+receptor_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+receptor_utils/annotate_j.py,sha256=pbE9kfgEICB6yZj8c74DpsFexVpApBGrp8IA8Onb8Dc,2694
+receptor_utils/extract_refs.py,sha256=1U7GQbGMuf5epP-hbTiwk80Bd0aTJKGdCW-H8Zyvmyw,1579
+receptor_utils/gap_inferred.py,sha256=xlM680yRZogFEK3rv-SCmnzAzVdRH5F6WlH5c_HBaQg,2430
+receptor_utils/identical_seqs.py,sha256=YVCETAfB_F0kAz37ezzEyMHJJXRd5MclPe4RE13Qu2A,1243
+receptor_utils/make_igblast_ndm.py,sha256=oKAkko1tSBnbznHfaF7mUJRsw-x2GVgIC9UuvpOjjSc,2880
+receptor_utils/novel_allele_name.py,sha256=JoU4h5eHurAwq0uG7uYJ1MGPWeKW_iJ43NUGdJxbGTw,6424
+receptor_utils/number_ighv.py,sha256=jzBKDJqo1IICkh-JL6GHwzyTQuZuiUs23RCw9YAEb9A,13183
+receptor_utils/reverse_complement.py,sha256=XRyzB6Pr0tfQmxTVQK8GUy9RSxFcirRHac2kTa0njTk,617
+receptor_utils/simple_bio_seq.py,sha256=-XTtAOs0XGJWkvpRtwc8bMihxGTSqBIO1tynvW7i-EY,5634
+receptor_utils-0.0.15.dist-info/LICENSE,sha256=pE2_sjOjolvAoSljjAKrrgZwFWwZkLu2z0-r70OwgOw,240
+receptor_utils-0.0.15.dist-info/METADATA,sha256=X9t2ndhCONM455XJSvteXayk_xCEWBMWpn1_IafXUgw,3983
+receptor_utils-0.0.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+receptor_utils-0.0.15.dist-info/entry_points.txt,sha256=mRRXjR-lXO_LO0KRvsohN37mmNON3DJJgVq7VNfVT_0,316
+receptor_utils-0.0.15.dist-info/top_level.txt,sha256=7mAm89Oo8ebRJjFC_9MFr60VZulH-1UaEHM9pXsp3jA,15
+receptor_utils-0.0.15.dist-info/RECORD,,
