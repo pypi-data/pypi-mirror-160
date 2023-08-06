@@ -1,0 +1,1 @@
+from relatable.relational_schema import RelationalSchema
