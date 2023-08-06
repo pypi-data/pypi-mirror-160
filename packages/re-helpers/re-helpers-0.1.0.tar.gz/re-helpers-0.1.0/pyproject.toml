@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "re-helpers"
+version = "0.1.0"
+description = "Reverse engineering helpers"
+authors = ["Thomas Luzat <thomas@luzat.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1"
+black = {version = "^22.6.0", allow-prereleases = true}
+
+[tool.poetry.scripts]
+re_binmerge = 're_helpers.binmerge:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
