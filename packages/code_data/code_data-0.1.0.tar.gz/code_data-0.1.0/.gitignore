@@ -1,0 +1,11 @@
+.hypothesis
+DEBUG.md
+tmp.py
+__pycache__
+.vscode/settings.json
+docs/conf.py
+.module_cache
+*.pickle
+python-*.json
+.asv
+dist

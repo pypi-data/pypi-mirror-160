@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: code_data
+Version: 0.1.0
+Summary: Transform Python code objects into data, and vice versa.
+Author-email: Saul Shanabrook <s.shanabrook@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: flake8 ; extra == "dev"
+Requires-Dist: isort ; extra == "dev"
+Requires-Dist: jupyter-book ; extra == "docs"
+Requires-Dist: rich ; extra == "rich"
+Requires-Dist: pytest>=3.6.0 ; extra == "test"
+Requires-Dist: hypothesmith ; extra == "test"
+Requires-Dist: fastjsonschema ; extra == "test"
+Requires-Dist: pytest-xdist[psutil] ; extra == "test"
+Requires-Dist: orjson ; extra == "test"
+Project-URL: Documentation, https://python-code-data.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/metadsl/python-code-data
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: rich
+Provides-Extra: test
+
+# `python-code-data`
+
+[![Test workflow](https://github.com/metadsl/python-code-data/actions/workflows/test.yml/badge.svg)](https://github.com/metadsl/python-code-data/actions/workflows/test.yml?query=branch%3Amain) [![Documentation Status](https://readthedocs.org/projects/python-code-data/badge/?version=latest)](https://python-code-data.readthedocs.io/en/latest/?badge=latest) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/metadsl/python-code-data/main)
+
+`python-code-data` is a tool for introspecting Python code as data objects, by translating from Python's built in Code object.
+

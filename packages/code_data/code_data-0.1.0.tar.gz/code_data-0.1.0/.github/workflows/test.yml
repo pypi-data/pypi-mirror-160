@@ -1,0 +1,82 @@
+name: Test
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  test:
+    name: test ${{ matrix.py }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        py:
+          - "3.10"
+          - "3.9"
+          - "3.8"
+          - "3.7"
+    steps:
+      - name: Setup python ${{ matrix.py }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.py }}
+      - uses: actions/checkout@v2
+        # https://github.com/actions/checkout/issues/124#issuecomment-586664611
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - run: pip install -e . -r requirements.test.txt
+      # TODO: Enable dev mode for Python
+      # https://docs.python.org/3/library/devmode.html#devmode
+      - run: pytest code_data -x -vv
+      - name: Commit and push failing example
+        if: failure()
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add code_data/_test_minimized/
+          git commit -m "Add failing example from testing on Python ${{ matrix.py}}"
+          git push
+  benchmark:
+    name: benchmark 3.10
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup python 3.10
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v3
+      - run: git fetch origin $GITHUB_BASE_REF:base $GITHUB_REF:pr
+      - run: pip install asv virtualenv
+      - run: asv machine --yes
+      - run: asv continuous base pr -e
+  # Run docs on here as well as RTD in case we max out the RTD builder
+  docs:
+    name: docs build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - run: pip install -e . -r requirements.docs.txt
+      - run: jupyter-book build docs --warningiserror
+
+  # We use pre-commit CI now because it's faster and will commit back fixes
+  # However, it doesn't work with pip-compile https://github.com/pre-commit-ci/issues/issues/133
+  pre-commit:
+    name: ${{ matrix.id }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        id: [pip-compile]
+    steps:
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - uses: pre-commit/action@v2.0.3
+        with:
+          extra_args: ${{ matrix.id }} --all-files
