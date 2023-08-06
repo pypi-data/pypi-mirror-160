@@ -1,0 +1,8 @@
+ftta/__init__.py,sha256=C_Pwi4zqMDeiPC05tFScbJqRZPtUNQDOVxKcImgkaLA,3241
+ftta/_ftta.cpython-310-darwin.so,sha256=pQqH4UeTxOHXM9Wyu8XB8JM8Reg-YdCQeEPA6Tx_Ino,358352
+ftta/context.py,sha256=bdTSmX8SPbAKGCGayOgrC1X-NIKSQD1XUEXBCJZ47FU,2748
+ftta/draw.py,sha256=J4aA0Ariyc50A9DlLzVHbL3Plt59iOlY-0L9d6Lc-FQ,511
+ftta-0.1.0.dist-info/METADATA,sha256=mhyuuGc02TYUjlMHw-9Pz9nYfi5NZOK20dLrupAmAbk,223
+ftta-0.1.0.dist-info/WHEEL,sha256=wHXPjcF1PbvralrZAZffaBRfMW8u_7d-L-q3slIS7Go,111
+ftta-0.1.0.dist-info/top_level.txt,sha256=NccbOcYqOn661Ko-NlSdtCoj9kV8sUtls_hcAeF1Tr0,5
+ftta-0.1.0.dist-info/RECORD,,
