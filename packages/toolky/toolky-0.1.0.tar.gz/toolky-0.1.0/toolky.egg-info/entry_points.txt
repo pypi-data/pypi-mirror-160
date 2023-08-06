@@ -1,0 +1,2 @@
+[console_scripts]
+sea = toolky.search:main
