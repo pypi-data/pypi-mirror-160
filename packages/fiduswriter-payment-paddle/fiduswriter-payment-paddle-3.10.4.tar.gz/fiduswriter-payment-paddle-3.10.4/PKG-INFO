@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: fiduswriter-payment-paddle
+Version: 3.10.4
+Summary: A Fidus Writer plugin to allow payment through Paddle
+Home-page: https://www.github.org/fiduswriter/fiduswriter-payment-paddle
+Author: Johannes Wilm
+Author-email: johannes@fiduswriter.org
+License: AGPL License
+Description: # fiduswriter-payment-paddle
+        
+        
+        Installation
+        ------------
+        
+        1. Sign up with Paddle.com, create plans and register a webhook (the URL is https:YOURWEBSITE.COM/api/payment/webhook/).
+        
+        2. Add settings in configuration.py:
+        
+            > Under "INSTALLED_APPS" in configuration.py, add "payment"
+        
+            > PADDLE_VENDOR_ID = 547628
+        
+            > PADDLE_MONTHLY_PLAN_ID = 304958
+        
+            > PADDLE_SIX_MONTHS_PLAN_ID = 328473
+        
+            > PADDLE_ANNUAL_PLAN_ID = 232332
+        
+            > PADDLE_PUBLIC_KEY = '''-----BEGIN PUBLIC KEY-----
+            > ...
+            > -----END PUBLIC KEY-----'''
+        
+            > PADDLE_API_KEY = '234234a4b...36'
+        
+        
+        Additional steps if you don't use the Ubuntu Snap
+        -------------------------------------------------
+        
+        1. Install `pycryptodome` and `phpserialize`:
+            > pip install pycryptodome phpserialize
+        
+        2. Run:
+        
+            > python manage.py migrate
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
