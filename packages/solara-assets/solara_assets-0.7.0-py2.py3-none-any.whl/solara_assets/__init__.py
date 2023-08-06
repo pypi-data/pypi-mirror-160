@@ -1,0 +1,2 @@
+"CDN assets for Solara"
+__version__ = "0.7.0"
