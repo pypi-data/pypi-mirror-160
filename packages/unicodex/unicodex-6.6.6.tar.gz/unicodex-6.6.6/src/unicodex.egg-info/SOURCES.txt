@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/unicodex/__init__.py
+src/unicodex/__main__.py
+src/unicodex.egg-info/PKG-INFO
+src/unicodex.egg-info/SOURCES.txt
+src/unicodex.egg-info/dependency_links.txt
+src/unicodex.egg-info/top_level.txt
