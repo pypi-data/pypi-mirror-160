@@ -1,0 +1,3 @@
+[console_scripts]
+dndfog=dndfog.main:start
+
