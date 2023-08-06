@@ -1,0 +1,2 @@
+[console_scripts]
+xptceaner = xptceaner.__main__:main
