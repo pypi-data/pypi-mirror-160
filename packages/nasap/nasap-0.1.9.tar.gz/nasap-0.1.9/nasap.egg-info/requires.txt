@@ -1,0 +1,16 @@
+fire
+psutil
+numpy
+scipy
+pandas
+pyBigWig
+deeptools
+matplotlib
+loguru
+networkx
+python-louvain
+bokeh==2.4.0
+hvplot
+
+[genomeBrowser]
+pyGenomeTrack
