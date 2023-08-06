@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.cfg
+setup.py
+Cyberdisnake.egg-info/PKG-INFO
+Cyberdisnake.egg-info/SOURCES.txt
+Cyberdisnake.egg-info/dependency_links.txt
+Cyberdisnake.egg-info/top_level.txt
+Cybernator_disnake/Paginator.py
+Cybernator_disnake/Rolegator.py
+Cybernator_disnake/__init__.py
