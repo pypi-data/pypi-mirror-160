@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/spigetpy/__init__.py
+src/spigetpy/authors.py
+src/spigetpy/categories.py
+src/spigetpy/resources.py
+src/spigetpy/search.py
+src/spigetpy/status.py
+src/spigetpy/utils.py
+src/spigetpy/webhook.py
+src/spigetpy.egg-info/PKG-INFO
+src/spigetpy.egg-info/SOURCES.txt
+src/spigetpy.egg-info/dependency_links.txt
+src/spigetpy.egg-info/requires.txt
+src/spigetpy.egg-info/top_level.txt
