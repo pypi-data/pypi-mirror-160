@@ -1,0 +1,3 @@
+[console_scripts]
+ba = bearalpha.__main__:main
+
