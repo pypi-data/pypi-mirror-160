@@ -1,0 +1,14 @@
+FaceChannel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FaceChannel/FaceChannelV1/FaceChannelV1.py,sha256=kPsaEGpxKPFp46GQebtDmxvcZ3P2WoZW7SiCQspUos4,10553
+FaceChannel/FaceChannelV1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FaceChannel/FaceChannelV1/imageProcessingUtil.py,sha256=SB78wsJc5pEG38xeg7ZjPpBEhprygbP9MsCYgx5Yb38,5163
+FaceChannel/Metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FaceChannel/Metrics/metrics.py,sha256=qaZcI3MCIj48FKQxORFHc84KMJl9Pr_967k0tQekBvE,3484
+FaceChannel/SelfAffectiveMemory/SelfAffectiveMemory.py,sha256=17_As8oDHY6y4LWKlSNZKVvl-cyLIEQTHKSIu0EQ0XI,4047
+FaceChannel/SelfAffectiveMemory/Standard_GWR.py,sha256=SUA8EFjoOqH0or2hGbXijMDhJZR5r961whXNh6Y2mVw,8912
+FaceChannel/SelfAffectiveMemory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FaceChannel-0.0.3.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+FaceChannel-0.0.3.dist-info/METADATA,sha256=wsscxEh1H_SIr_p8dlJPuHPYTSeFyDopW7kTAu_muS8,3608
+FaceChannel-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+FaceChannel-0.0.3.dist-info/top_level.txt,sha256=zZlRRiBEUWFhSiFUk9DUefD6UlfNFVIWgQssf0bh2EU,12
+FaceChannel-0.0.3.dist-info/RECORD,,
