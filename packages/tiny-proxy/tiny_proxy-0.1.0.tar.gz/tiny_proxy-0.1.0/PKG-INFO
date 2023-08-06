@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: tiny_proxy
+Version: 0.1.0
+Summary: Simple proxy server (SOCKS4(a), SOCKS5(h), HTTP tunnel)
+Home-page: https://github.com/romis2012/tiny-proxy
+Author: Roman Snegirev
+Author-email: snegiryev@gmail.com
+License: Apache 2
+Keywords: socks socks5 socks4 http proxy server asyncio trio anyio
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+## tiny-proxy
+
+Simple proxy (SOCKS4(a), SOCKS5(h), HTTP tunnel) server built with [anyio](https://github.com/agronholm/anyio).
+It is used for testing [python-socks](https://github.com/romis2012/python-socks), [aiohttp-socks](https://github.com/romis2012/aiohttp-socks) and [httpx-socks](https://github.com/romis2012/httpx-socks) packages.
+
+## Requirements
+- Python >= 3.7
+- anyio>=3.6.1
+
+## Usage
+
+```python
+import anyio
+
+from tiny_proxy import Socks5ProxyHandler
+
+
+async def main():
+    handler = Socks5ProxyHandler(username='user', password='password')
+    listener = await anyio.create_tcp_listener(local_host='127.0.0.1', local_port=1080)
+    await listener.serve(handler.handle)
+
+
+if __name__ == '__main__':
+    anyio.run(main)
+```
+
+
+
