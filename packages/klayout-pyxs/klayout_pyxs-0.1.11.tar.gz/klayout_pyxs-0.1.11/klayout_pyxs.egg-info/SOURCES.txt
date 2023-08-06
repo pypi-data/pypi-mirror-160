@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+klayout_pyxs/__init__.py
+klayout_pyxs/compat.py
+klayout_pyxs/geometry_2d.py
+klayout_pyxs/geometry_3d.py
+klayout_pyxs/layer_parameters.py
+klayout_pyxs/pyxs3D_lib.py
+klayout_pyxs/pyxs_lib.py
+klayout_pyxs/utils.py
+klayout_pyxs.egg-info/PKG-INFO
+klayout_pyxs.egg-info/SOURCES.txt
+klayout_pyxs.egg-info/dependency_links.txt
+klayout_pyxs.egg-info/top_level.txt
