@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+pmgweb/__init__.py
+pmgweb.egg-info/PKG-INFO
+pmgweb.egg-info/SOURCES.txt
+pmgweb.egg-info/dependency_links.txt
+pmgweb.egg-info/requires.txt
+pmgweb.egg-info/top_level.txt
