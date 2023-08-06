@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: mlops_sm
+Version: 0.0.32
+
+Summary: Utility package for MlOps project
+Home-page: UNKNOWN
+Author: Provectus Team
+Author-email: abelov@provectus.com
+License: MIT
+Description: UNKNOWN
+Keywords: MLOps,Utility package
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
