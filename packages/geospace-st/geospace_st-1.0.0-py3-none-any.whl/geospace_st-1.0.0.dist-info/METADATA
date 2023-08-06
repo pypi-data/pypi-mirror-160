@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: geospace-st
+Version: 1.0.0
+Summary: GeoSpace method for identifying multiscale structure in spatial transcriptomic data
+License-File: LICENSE
+Requires-Dist: scanpy
+Requires-Dist: squidpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: python-igraph
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: leidenalg
+Requires-Dist: mygene
+Requires-Dist: anndata
+Requires-Dist: statsmodels
+Requires-Dist: shapely
+
