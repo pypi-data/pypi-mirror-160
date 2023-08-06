@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: HarfangHighLevel
+Version: 3.2.3
+Summary: High Level functions to use with Harfang
+Home-page: https://www.harfang3d.com
+Author: NWNC HARFANG
+Author-email: contact@harfang3d.com
+License: Other/Proprietary License
+Keywords: 2d 3d multimedia development engine realtime rendering design visualization simulation physics vr virtual reality python lua opengl opengles directx
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: harfang (==3.2.3)
+Requires-Dist: tqdm
+Requires-Dist: py7zr
+
+.. image:: https://raw.githubusercontent.com/harfang3d/image-storage/main/brand/logo_harfang3d_horizontal-512px.png
+
+HARFANG High Level for Python
+=============================
+
+**Real time 3D Rapid Prototyping**
+
+Harfang High Level is a set of functions designed for rapid prototyping 3D application in Python.
+It is based on the HARFANG 3D framework (https://www.harfang3d.com).
+
+Harfang High Level Documentation : https://harfang3d.github.io/harfang-high-level/
+
+| 
+| **Documentation**
+
+Access `Harfang High Level Documentation <https://harfang3d.github.io/harfang-high-level/>`_
+
+| 
+| **Installation**
+
+1. Get `Python 3 <https://www.python.org/downloads/>`_
+2. Run *pip install HarfangHighLevel* in your command-line tool
+
+| 
+| **Screenshots and use cases**
+
+Ergo Poppy Jr Digital Twin *(https://www.poppy-project.org/fr/robots/poppy-ergo-jr/)*
+
+.. image:: https://raw.githubusercontent.com/harfang3d/image-storage/main/portfolio/hhl-1.0.0/digital-twin-poppy-ergo-jr.png
+
+Reachy Digital Twin *(https://www.pollen-robotics.com/)*
+
+.. image:: https://raw.githubusercontent.com/harfang3d/image-storage/main/portfolio/hhl-1.0.0/digital_twin_reachy.png
+
+| 
+| Cyber City *(CyberPunk City, CyberPunk Girl and Robot R32 by art-equilibrium, ILranch and ZeroArt3d)*
+
+.. image:: https://raw.githubusercontent.com/harfang3d/image-storage/main/portfolio/3.1.1/cyber_city_aaa.png
+
+.. image:: https://raw.githubusercontent.com/harfang3d/image-storage/main/portfolio/3.1.1/cyber_city_aaa_2.png
+
+| 
+| Sponza Atrium *(Sponza Atrium GLTF, courtesy of Crytek/Themaister)*
+
+.. image:: https://raw.githubusercontent.com/harfang3d/image-storage/main/portfolio/3.1.1/sponza_atrium_aaa.png
+
+.. image:: https://raw.githubusercontent.com/harfang3d/image-storage/main/portfolio/3.1.1/sponza_atrium_aaa_2.png
