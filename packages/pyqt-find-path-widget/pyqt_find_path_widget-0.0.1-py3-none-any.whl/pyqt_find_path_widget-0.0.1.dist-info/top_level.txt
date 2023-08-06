@@ -1,0 +1,1 @@
+pyqt_find_path_widget
