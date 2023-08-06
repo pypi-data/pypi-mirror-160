@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pyright]
+
+reportUnnecessaryTypeIgnoreComment = true
+pythonVersion = "3.8"
+
+# Set to `false` to not flag qtpy generic adapters; ie `Slot` over pyqt5's `qtpySlot`.
+reportPrivateImportUsage = false
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79

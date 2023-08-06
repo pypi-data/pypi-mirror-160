@@ -1,0 +1,2 @@
+[napari.manifest]
+avidaq = avidaq:napari.yaml
