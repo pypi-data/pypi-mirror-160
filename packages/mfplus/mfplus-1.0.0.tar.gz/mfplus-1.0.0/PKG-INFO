@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mfplus
+Version: 1.0.0
+Summary: For accessing MF+ command line functionality
+Home-page: https://pypi.org/project/mfplus/
+Author: Jean Fecteau
+Author-email: jfecteau@mbfbioscience.com
+Keywords: sparc,mbf,bioscience,microfile
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This package allows Python scripting of MicroFile+ conversions.
