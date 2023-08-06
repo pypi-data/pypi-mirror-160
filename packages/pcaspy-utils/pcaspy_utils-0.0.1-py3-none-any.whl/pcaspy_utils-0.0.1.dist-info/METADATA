@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pcaspy-utils
+Version: 0.0.1
+Summary: Module to enable PCASpy IOCs to have shell commands
+Home-page: https://github.com/lnls-sol/pcaspy-utils
+Author: Hugo Campos
+Author-email: hugo.campos@lnls.br
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+
+pcaspy-utils
+============
+
+Purpose
+-------
+
+Module to enable PCASpy IOCs to have shell commands
