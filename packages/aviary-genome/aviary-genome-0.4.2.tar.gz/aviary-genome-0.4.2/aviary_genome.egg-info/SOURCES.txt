@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+aviary/__init__.py
+aviary/aviary.py
+aviary_genome.egg-info/PKG-INFO
+aviary_genome.egg-info/SOURCES.txt
+aviary_genome.egg-info/dependency_links.txt
+aviary_genome.egg-info/entry_points.txt
+aviary_genome.egg-info/not-zip-safe
+aviary_genome.egg-info/requires.txt
+aviary_genome.egg-info/top_level.txt
