@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+src/dataembedder/__init__.py
+src/dataembedder/dataembedder.py
+src/dataembedder.egg-info/PKG-INFO
+src/dataembedder.egg-info/SOURCES.txt
+src/dataembedder.egg-info/dependency_links.txt
+src/dataembedder.egg-info/not-zip-safe
+src/dataembedder.egg-info/requires.txt
+src/dataembedder.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dataembedder
+Version: 0.2.1
+Summary: Python library for embedding data and models in anatomical scaffolds using OpenCMISS-Zinc
+Home-page: https://github.com/ABI-Software/dataembedder
+Author: Auckland Bioengineering Institute
+Author-email: r.christie@auckland.ac.nz
+License: Apache Software License
+Description: Data Embedder
+        =============
+        
+        Embeds data and meshes in a host scaffold using OpenCMISS-Zinc.
+        
+        
+        
+        License
+        =======
+        
+        ::
+        
+           Copyright 2022 University of Auckland
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Description-Content-Type: text/x-rst
