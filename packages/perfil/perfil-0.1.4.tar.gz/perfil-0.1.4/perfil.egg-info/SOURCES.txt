@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+perfil/__init__.py
+perfil/info.py
+perfil/profiling.py
+perfil/profiling_test.py
+perfil/timing.py
+perfil.egg-info/PKG-INFO
+perfil.egg-info/SOURCES.txt
+perfil.egg-info/dependency_links.txt
+perfil.egg-info/requires.txt
+perfil.egg-info/top_level.txt
