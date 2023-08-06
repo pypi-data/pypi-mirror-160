@@ -1,0 +1,4 @@
+---
+fixes:
+  - |
+    Add support for protobuf 4.
