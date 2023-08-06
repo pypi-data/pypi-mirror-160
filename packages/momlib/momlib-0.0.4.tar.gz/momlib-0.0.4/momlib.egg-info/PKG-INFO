@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: momlib
+Version: 0.0.4
+Summary: Mathematical Object Manipulation Library
+Home-page: https://github.com/B-Roux/momlib
+Author: B. Roux
+Author-email: opensource@bgeroux.com
+License: BSD
+Keywords: library graph vector matrix mathematics directed-graph shortest-paths
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+
+# momlib
+## The Mathematical Object Manipulation Library for Python
+
+Please note that documentation for this package is not maintained on the
+PyPI repository.
+Please use the following links instead:
+
+- [momlib.opensource.bgeroux.com](https://momlib.opensource.bgeroux.com/)
+    for the website (documentation and tutorials!)
+- [github.com/B-Roux/momlib](https://github.com/B-Roux/momlib)
+    for the repository
+- [github.com/B-Roux/momlib/issues](https://github.com/B-Roux/momlib/issues)
+    for bug reports, feature requests, questions, concerns, etc.
+
+Please note that the email associated with this package may not reply to
+    messages. Please use the issue page if you need a reply.
