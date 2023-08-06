@@ -1,0 +1,12 @@
+AUTHORS
+LICENSE
+README.md
+setup.py
+grog/__init__.py
+grog/grog.py
+grog.egg-info/PKG-INFO
+grog.egg-info/SOURCES.txt
+grog.egg-info/dependency_links.txt
+grog.egg-info/entry_points.txt
+grog.egg-info/requires.txt
+grog.egg-info/top_level.txt
