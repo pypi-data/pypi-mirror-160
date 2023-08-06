@@ -1,0 +1,2 @@
+[console_scripts]
+nlpturk = nlpturk.__main__:main
