@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fosslight-reuse
+Version: 2.2.3
+Summary: fosslight_reuse is now fosslight_prechecker
+Home-page: UNKNOWN
+License: GPL-3.0-only
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fosslight-prechecker
+
+# fosslight_reuse is now fosslight_prechecker
+
+This package has been renamed. Use `pip install fosslight_prechecker` instead.
+
+New package: https://pypi.org/project/fosslight_prechecker/
+
+
