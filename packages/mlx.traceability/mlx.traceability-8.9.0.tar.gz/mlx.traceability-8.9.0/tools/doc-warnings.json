@@ -1,0 +1,26 @@
+{
+    "sphinx": {
+        "enabled": true,
+        "min": 23,
+        "max": 23,
+        "exclude": [
+            "WARNING: the mlx.traceability extension is not safe for parallel reading",
+            "WARNING: doing serial read"
+        ]
+    },
+    "doxygen": {
+        "enabled": false
+    },
+    "junit": {
+        "enabled": false
+    },
+    "xmlrunner": {
+        "enabled": false
+    },
+    "coverity": {
+        "enabled": false
+    },
+    "robot": {
+        "enabled": false
+    }
+}
