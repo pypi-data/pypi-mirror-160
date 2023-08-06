@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pelican/plugins/data_files/__init__.py
+pelican/plugins/data_files/file_formats.py
+pelican/plugins/data_files/generators.py
+pelican/plugins/data_files/tools/__init__.py
+pelican/plugins/data_files/tools/cli.py
+pelican_data_files.egg-info/PKG-INFO
+pelican_data_files.egg-info/SOURCES.txt
+pelican_data_files.egg-info/dependency_links.txt
+pelican_data_files.egg-info/entry_points.txt
+pelican_data_files.egg-info/requires.txt
+pelican_data_files.egg-info/top_level.txt
+pelican_data_files.egg-info/zip-safe

@@ -1,0 +1,7 @@
+pelican==4.5.1
+
+[dev]
+black
+flake8
+invoke
+twine
