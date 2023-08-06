@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+DcWebhook.egg-info/PKG-INFO
+DcWebhook.egg-info/SOURCES.txt
+DcWebhook.egg-info/dependency_links.txt
+DcWebhook.egg-info/top_level.txt
+main/DcWebhook.py

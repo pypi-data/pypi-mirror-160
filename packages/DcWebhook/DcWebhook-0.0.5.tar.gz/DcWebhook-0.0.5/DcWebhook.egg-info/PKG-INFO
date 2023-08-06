@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: DcWebhook
+Version: 0.0.5
+Summary: Simple Discord Webhook wrapper for Python.
+Home-page: https://github.com/cookie0o
+Author: cookie0_o
+Author-email: therealcookie@waifu.club
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align=center>
+  
+  # DcWebhook v0.0.3
+  
+  **Simple Discord Webhook wrapper for Python.**
+</div>
+
+## +example:
+![image](https://user-images.githubusercontent.com/81589649/180581743-4133b77e-b871-4578-8f99-a22e8772ffc0.png)      
+**response**   
+![image](https://user-images.githubusercontent.com/81589649/180581182-2a599c6e-5614-4903-bcb6-2c82046bc218.png)   
+
+## how to use
+https://github.com/cookie0o/DcWebhook/wiki
+
+## +Install:
+**manually**
+- Download project
+- cd in the project dir with the console
+- run: `pip install . --upgrade`
+- your done!
+
+**install with pip**
+- run: `pip install DcWebhook`
+- your done!
+
+### +author(s) on github:
+cookie0o
