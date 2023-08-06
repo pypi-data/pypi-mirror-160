@@ -1,0 +1,10 @@
+meson.build,sha256=XCV3ymqYItfO_xcaAkES0X-7EeaNDOxDCSXeXcLW11w,313
+pysquishy/__init__.py,sha256=CbxNKuNRZYWDG3avTp_0PRqHvQEf2vxXn4wBCLzD26k,28
+pysquishy/clang.py,sha256=GOQhMMR9rWvSeg4a-V_CYnc8kKy0wS8c6syOYQKOvjI,14373
+pysquishy/error.py,sha256=4vr4ivRgr9tpk_aE19QOyyp1qgRvp_FnvFViIvtiYTA,652
+pysquishy/log.py,sha256=aDTvUc4SXAdaQRrXwwS5B9VsaH_COHXclkIuHWmEI3I,3069
+pysquishy/squishy.py,sha256=5dJqCkShF3zYxd4uvptwjKhMWRTWJ6dkMAb3WCfw8hg,2825
+pysquishy-0.1.3.dist-info/LICENSE,sha256=ZqbL_yGGejZpyMcUAOr61VQ2iyfDqnigoI8htb8Xxnk,1067
+pysquishy-0.1.3.dist-info/WHEEL,sha256=64TGOUzFcpnTKz109OSVhE8ZMyWu8LsEEHn-TrP1KWs,112
+pysquishy-0.1.3.dist-info/METADATA,sha256=GqBMWa8CoFV_KGkObK4e9z4EDktETTqFWvEwwYz3qYo,1721
+pysquishy-0.1.3.dist-info/RECORD,,
