@@ -1,0 +1,12 @@
+edges_estimate/__init__.py,sha256=xHqW3Gvzch4sAvQraPV83B8xzhOEblK57NcDCVfvJss,420
+edges_estimate/calibration.py,sha256=XxXlQIk0rmaUe-jl_QGn8Xtu0Sydew_sRppybYJqWJM,7680
+edges_estimate/eor_models.py,sha256=ZnWW2kxEGfhJ2xRRuS0E3UvBDRxTUyKlPT3qVHJeVCM,909
+edges_estimate/fitting.py,sha256=3Po40n9Fr1ARlBOkcqwHtP5tIZ7RkAMFJcNpBBXIMIc,2218
+edges_estimate/foregrounds.py,sha256=JT6tHxVv5KaTaZNik4uG-qOGAil5vjX6oKButd4VEFQ,10427
+edges_estimate/likelihoods.py,sha256=HIVUQxDVeFQL-cOVS7Qi_S64lu4aAZI9KKwVyfU-VPA,55450
+edges_estimate/plots.py,sha256=BUcyK34viUkRgkAh-2f16YT_RAND7eUI9tPNdIgGuvA,2582
+edges_estimate-1.3.0.dist-info/LICENSE,sha256=n7ql4C6ZBVDfS4sTaodyyUZc8v848YkF47KBeos24gk,1567
+edges_estimate-1.3.0.dist-info/METADATA,sha256=ZzsG3HlV4JMhTGUbo7yuolc2K02tjAf4HKH8_8vqXzs,3041
+edges_estimate-1.3.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+edges_estimate-1.3.0.dist-info/top_level.txt,sha256=4IJKhDmIfg5xqp121aErxtzr4KuWJ_Ut4VT1c61tSno,15
+edges_estimate-1.3.0.dist-info/RECORD,,
