@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/c1algo2/__init__.py
+src/c1algo2/data.py
+src/c1algo2/evaluator.py
+src/c1algo2/forecaster.py
+src/c1algo2.egg-info/PKG-INFO
+src/c1algo2.egg-info/SOURCES.txt
+src/c1algo2.egg-info/dependency_links.txt
+src/c1algo2.egg-info/top_level.txt
+src/tools/GraphingTools/correlation.py
+src/tools/GraphingTools/graph.py
+test/test_data.py
+test/test_forecaster.py
+test/test_main_workflow.py
