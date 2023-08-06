@@ -1,0 +1,8 @@
+Hershey-Fonts
+Pillow
+PyOpenGL
+PyQt5
+cavaliercontours-python
+ezdxf
+pygame
+svgpathtools
