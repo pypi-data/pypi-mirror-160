@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: threeviz
+Version: 0.0.7
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: tornado
+Requires-Dist: numpy
+Requires-Dist: tiny-tf
+Requires-Dist: msgpack
+
+UNKNOWN
+
