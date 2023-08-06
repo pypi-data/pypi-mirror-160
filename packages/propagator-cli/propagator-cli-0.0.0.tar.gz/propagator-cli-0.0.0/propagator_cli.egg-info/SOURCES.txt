@@ -1,0 +1,5 @@
+setup.py
+propagator_cli.egg-info/PKG-INFO
+propagator_cli.egg-info/SOURCES.txt
+propagator_cli.egg-info/dependency_links.txt
+propagator_cli.egg-info/top_level.txt
