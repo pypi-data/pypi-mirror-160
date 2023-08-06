@@ -1,0 +1,71 @@
+# -*- coding: UTF-8 -*-
+
+[project]
+name = "$__name__"
+version = "$__version__"
+description = "$__description__"
+
+requires-python = ">= 3.6.2"
+
+dependencies = [
+  'partis-nwl' ]
+
+[[project.authors]]
+name = "$__author_name__"
+email = "$__author_email__"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[project.optional-dependencies]
+
+$__run_deps__
+
+doc = [
+  "partis-utils[sphinx]" ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[project.entry-points.partis_nwl]
+tools = "$__pkg_name__.partis_nwl_ext:get_tools"
+
+[project.entry-points.partis_view]
+tools = "$__pkg_name__.partis_nwl_ext:get_editors"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Build and distribution configuration
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[build-system]
+requires = [
+  "partis-pyproj" ]
+
+build-backend = "partis.pyproj.backend"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist]
+
+ignore = [
+  '.git',
+  '.gitignore',
+  '.gitmodules',
+  '__pycache__',
+  '*.py[cod]',
+  '*.so',
+  '*.egg-info',
+  '.nox',
+  'build',
+  'doc/_build',
+  'doc/.nox' ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist.source]
+
+copy = [ '' ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist.binary]
+
+ignore = [
+  'pyproject.toml',
+  'doc',
+  'index.rst' ]
+
+copy = [
+  { src = '', dst = '$__pkg_name__' } ]
