@@ -1,0 +1,9 @@
+attrs
+flox
+numpy
+pandas
+rasterio
+rioxarray
+typer
+xarray>=2022.06.0
+xarray-sentinel>=0.9.3
