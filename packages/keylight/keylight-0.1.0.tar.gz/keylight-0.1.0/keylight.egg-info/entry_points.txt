@@ -1,0 +1,2 @@
+[console_scripts]
+keylight = keylight.main:main
