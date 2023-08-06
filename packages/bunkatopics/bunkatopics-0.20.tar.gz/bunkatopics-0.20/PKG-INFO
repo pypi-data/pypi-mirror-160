@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: bunkatopics
+Version: 0.20
+Summary: Advanced Topic Modeling Using Transformers
+Home-page: https://github.com/charlesdedampierre/BunkaTopics
+Author: Charles de Dampierre
+Author-email: charles.de-dampierre@hec.edu
+License: MIT
+Download-URL: https://github.com/charlesdedampierre/BunkaTopics/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Topic Modeling,NLP,Search
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
