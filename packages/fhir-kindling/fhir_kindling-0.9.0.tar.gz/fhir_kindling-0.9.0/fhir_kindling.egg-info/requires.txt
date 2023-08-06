@@ -1,0 +1,13 @@
+python-dotenv
+fhir.resources
+httpx
+pandas
+authlib
+pendulum
+orjson
+xmltodict
+pydantic
+networkx
+
+[csv]
+pandas
