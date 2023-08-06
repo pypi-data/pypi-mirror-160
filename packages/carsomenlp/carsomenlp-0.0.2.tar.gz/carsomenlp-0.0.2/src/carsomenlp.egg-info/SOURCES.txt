@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/test.py
+src/carsomenlp/__init__.py
+src/carsomenlp/glossa.py
+src/carsomenlp/matcher.py
+src/carsomenlp/tokenizer.py
+src/carsomenlp/translator.py
+src/carsomenlp/utils.py
+src/carsomenlp/wrangler.py
+src/carsomenlp.egg-info/PKG-INFO
+src/carsomenlp.egg-info/SOURCES.txt
+src/carsomenlp.egg-info/dependency_links.txt
+src/carsomenlp.egg-info/top_level.txt
