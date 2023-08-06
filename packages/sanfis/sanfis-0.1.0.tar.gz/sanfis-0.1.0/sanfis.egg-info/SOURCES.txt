@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+sanfis/__init__.py
+sanfis/helpers.py
+sanfis/plottingtools.py
+sanfis/sanfis.py
+sanfis.egg-info/PKG-INFO
+sanfis.egg-info/SOURCES.txt
+sanfis.egg-info/dependency_links.txt
+sanfis.egg-info/requires.txt
+sanfis.egg-info/top_level.txt
+sanfis/datagenerators/__init__.py
+sanfis/datagenerators/anfis_generator.py
+sanfis/datagenerators/sanfis_generator.py

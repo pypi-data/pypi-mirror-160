@@ -1,0 +1,10 @@
+numpy
+seaborn
+pandas
+matplotlib
+tqdm
+scikit-learn
+tensorboard
+
+[dev]
+pytest
