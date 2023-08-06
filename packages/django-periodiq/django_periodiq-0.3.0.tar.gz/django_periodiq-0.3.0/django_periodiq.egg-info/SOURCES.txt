@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+django_periodiq/__init__.py
+django_periodiq/apps.py
+django_periodiq/setup.py
+django_periodiq.egg-info/PKG-INFO
+django_periodiq.egg-info/SOURCES.txt
+django_periodiq.egg-info/dependency_links.txt
+django_periodiq.egg-info/requires.txt
+django_periodiq.egg-info/top_level.txt
+django_periodiq/management/__init__.py
+django_periodiq/management/commands/__init__.py
+django_periodiq/management/commands/runperiodiq.py
+licenses/LICENSE_Bogdanp_django_dramatiq
