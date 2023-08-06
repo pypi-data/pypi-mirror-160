@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: clink
+Version: 0.32.0
+Summary: Component Link.
+Home-page: https://bitbucket.csiro.au/projects/ASKAPSDP/repos/clink/
+Author: Matt Austin
+Author-email: matt.austin@csiro.au
+License: GPL-2.0
+Project-URL: Documentation, https://askapsdp.gitlab.io/clink/
+Project-URL: Changelog, https://askapsdp.gitlab.io/clink/history.html
+Project-URL: Issues, https://jira.csiro.au/projects/ASKAPSDP/issues
+Project-URL: Source, https://bitbucket.csiro.au/projects/ASKAPSDP/repos/clink/browse
+Keywords: clink,amqp,cloudevent,messaging,producer,consumer,queue,event
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: kombu (<6,>=5)
+Requires-Dist: marshmallow (<4,>=3)
+Requires-Dist: rich (<13,>=10)
+Requires-Dist: sentry-sdk (<2,>=1)
+Requires-Dist: setuptools (>8.3)
+Requires-Dist: pyyaml (<7,>=5)
+Requires-Dist: click (<8,>=7) ; python_version < "3.6.5"
+Requires-Dist: dataclasses (<1) ; python_version < "3.7"
+Requires-Dist: backports.zoneinfo (<1) ; python_version < "3.9"
+Requires-Dist: click (<9,>=7) ; python_version >= "3.6.5"
+Provides-Extra: docs
+Requires-Dist: sphinx (~=5.0) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (~=1.0) ; extra == 'docs'
+Provides-Extra: redis
+Requires-Dist: kombu[redis] (<6,>=5) ; extra == 'redis'
+Provides-Extra: tests
+Requires-Dist: asynctest (==0.13.0) ; extra == 'tests'
+Requires-Dist: coverage (~=6.2) ; extra == 'tests'
+Requires-Dist: freezegun (~=1.2) ; extra == 'tests'
+Requires-Dist: unittest-xml-reporting (~=3.1) ; extra == 'tests'
+Provides-Extra: types
+Requires-Dist: mypy (==0.961) ; extra == 'types'
+Requires-Dist: types-attrs (==19.1.0) ; extra == 'types'
+Requires-Dist: types-certifi (==2021.10.8.3) ; extra == 'types'
+Requires-Dist: types-backports (==0.1.3) ; extra == 'types'
+Requires-Dist: types-dataclasses (==0.6.6) ; extra == 'types'
+Requires-Dist: types-click (==7.1.8) ; extra == 'types'
+Requires-Dist: types-freezegun (==1.1.10) ; extra == 'types'
+Requires-Dist: types-pyyaml (==6.0.10) ; extra == 'types'
+Requires-Dist: types-setuptools (==57.4.18) ; extra == 'types'
+Provides-Extra: tzdata
+Requires-Dist: tzdata ; extra == 'tzdata'
+
+# Component Link
+
+[![pipeline status](https://gitlab.com/ASKAPSDP/clink/badges/develop/pipeline.svg)](https://gitlab.com/ASKAPSDP/clink/commits/develop) [![coverage](https://gitlab.com/ASKAPSDP/clink/badges/develop/coverage.svg)](https://askapsdp.gitlab.io/clink/coverage/)
+
+
+Documentation: https://askapsdp.gitlab.io/clink/
+
+
+## Development environment
+
+Docker (compose) is used both for development and for GitLab CI to ensure a
+consistent environment.
+
+
+Get started by cloning the repository and work on the `develop` branch:
+
+```bash
+git clone --branch=develop ssh://git@bitbucket.csiro.au:7999/askapsdp/clink.git
+```
+
+Copy the `env.template` file to `.env` for local customisation:
+
+```bash
+cp env.template .env
+```
+
+
+### Build services
+
+`docker`, `docker-compose`, and `fabric` (v2+) should be installed and
+available locally to build/run the containers. On Ubuntu 20.04, you can install
+these with:
+
+```bash
+sudo apt install docker docker-compose fabric
+```
+
+To build the docker containers:
+
+```bash
+fab build
+```
+
+
+### Develop and test
+
+Remember to run the tests locally when developing to catch failures before CI
+is run on push to the repo.
+
+Run tests:
+
+```bash
+fab tox
+```
+
+
+### Other commands
+
+Generate docs:
+
+```bash
+fab docs
+```
+
+Python shell:
+
+```bash
+fab shell
+```
+
+
