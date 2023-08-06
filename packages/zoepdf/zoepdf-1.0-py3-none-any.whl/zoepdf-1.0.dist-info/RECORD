@@ -1,0 +1,8 @@
+zoepdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zoepdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zoepdf/pdf2text.py,sha256=38HRWpEVXKo1tMs4fRO77mS59-SCEzmtHVng-Ov7Hr4,37
+zoepdf-1.0.dist-info/LICENSE,sha256=-BeIbua7Ze0wmKeYex6XgWU9FccfhVic4NKvZjxm03M,34888
+zoepdf-1.0.dist-info/METADATA,sha256=S3rG6kFCjBzA1HX2nbR0XYuRthHVMm47iFfZG7XRFhk,181
+zoepdf-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+zoepdf-1.0.dist-info/top_level.txt,sha256=BPJWVHxfyjxBpq7jRURshyTVcTTzKrJj_b_ghghb0I0,7
+zoepdf-1.0.dist-info/RECORD,,
