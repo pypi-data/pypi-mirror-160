@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: qlient-core
+Version: 1.0.0
+Summary: The core for a blazingly fast and modern graphql client designed with simplicity in mind.
+Home-page: https://qlient-org.github.io/python-qlient-core/site/
+License: MIT
+Keywords: graphql,client,api,query,mutation
+Author: Daniel Seifert
+Author-email: info@danielseifert.ch
+Maintainer: Daniel Seifert
+Maintainer-email: info@danielseifert.ch
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: importlib-metadata (>=4.11.4,<5.0.0)
+Project-URL: Documentation, https://qlient-org.github.io/python-qlient-core/site/
+Project-URL: Repository, https://github.com/qlient-org/python-qlient
+Description-Content-Type: text/markdown
+
+# Qlient Core: Python GraphQL Client Core Library
+
+[![DeepSource](https://deepsource.io/gh/qlient-org/python-qlient-core.svg/?label=active+issues&token=B71TvEVbDX-5GynnxfPlumBi)](https://deepsource.io/gh/qlient-org/python-qlient-core/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/qlient-org/python-qlient-core.svg/?label=resolved+issues&token=B71TvEVbDX-5GynnxfPlumBi)](https://deepsource.io/gh/qlient-org/python-qlient-core/?ref=repository-badge)
+[![pypi](https://img.shields.io/pypi/v/qlient-core.svg)](https://pypi.python.org/pypi/qlient-core)
+[![versions](https://img.shields.io/pypi/pyversions/qlient-core.svg)](https://github.com/qlient-org/python-qlient-core)
+[![license](https://img.shields.io/github/license/qlient-org/python-qlient-core.svg)](https://github.com/qlient-org/python-qlient-core/blob/master/LICENSE)
+
+This is the core for a blazingly fast and modern graphql client that was designed with simplicity in mind.
+
+## Help
+
+See the [documentation](https://qlient-org.github.io/python-qlient-core/site/) for more details.
+
+## Quick Preview
+
+```python
+from qlient.core import Client, Backend, GraphQLResponse
+
+
+class MyBackend(Backend):
+    """Must be implemented by you"""
+
+
+client = Client(MyBackend())
+
+res: GraphQLResponse = client.query.get_my_thing("name")
+
+print(res.request.query)  # "query get_my_thing { get_my_thing { name } }"
+```
