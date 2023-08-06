@@ -1,0 +1,9 @@
+proxynova_scraper/__init__.py,sha256=J0WjujMO1IS83x2qMb_p3Wms_WV-z7hDa49ElXuAsB8,58
+proxynova_scraper/proxynova.py,sha256=qwJtzebkZpOmXgcxOxrUmwwpmRwGdFjSAA-OVBY3oG8,3982
+proxynova_scraper/scrapper.py,sha256=CPHVwnIAW3rAOJjzNFRkGDd8dlI-5BLDltHq47Y43zk,1685
+proxynova_scraper/utils.py,sha256=KieoDy8F8W5kOv4t04rQTSmkTV9i0vYXJt2efmrHXCE,486
+proxynova_scraper-0.1.dist-info/LICENSE,sha256=ervrcAc-0oKozY0RNLJkSjDLrePLcQ_FR6T7iaSfRps,1079
+proxynova_scraper-0.1.dist-info/METADATA,sha256=Z5LsLEzNtH-rHXh_HotVCXO-G_MRIpf2jViIeKe0hBI,1868
+proxynova_scraper-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+proxynova_scraper-0.1.dist-info/top_level.txt,sha256=drz703QMjMQkoBfl_kNqtYupxmqFEamexaspE638nSQ,18
+proxynova_scraper-0.1.dist-info/RECORD,,
