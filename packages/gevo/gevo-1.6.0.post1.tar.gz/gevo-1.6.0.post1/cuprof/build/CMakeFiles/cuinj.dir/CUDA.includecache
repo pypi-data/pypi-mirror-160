@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/share/home/jliou4/genetic-programming/cuda_evolve/cuinj/cuinj.cpp
+iostream
+-
+string
+-
+memory
+-
+map
+-
+vector
+-
+algorithm
+-
+utility
+-
+cxxabi.h
+-
+unistd.h
+-
+cuda.h
+-
+cupti.h
+-
+mutex
+-
+stdio.h
+-
+stdlib.h
+-
+detours.h
+/share/home/jliou4/genetic-programming/cuda_evolve/cuinj/detours.h
+windows.h
+-
+pthread.h
+-
+unistd.h
+-
+
