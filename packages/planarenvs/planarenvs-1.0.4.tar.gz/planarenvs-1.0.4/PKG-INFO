@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: planarenvs
+Version: 1.0.4
+Summary: Lightweight open-ai gym environments for planar kinematic chains.
+Author: Max Spahn
+Author-email: m.spahn@tudelft.nl
+Requires-Python: >=3.6.5,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: forwardkinematics (>=1.0.3,<2.0.0)
+Requires-Dist: gym (>=0.21.0,<0.22.0)
+Requires-Dist: motion-planning-scenes (>=0.1.19,<0.2.0)
+Requires-Dist: numpy (>=1.5.1,<2.0.0)
+Requires-Dist: pyglet (>=1.5.21,<2.0.0)
+Requires-Dist: pylint (>=2.13.3,<3.0.0)
+Requires-Dist: scipy (>=1.5,<2.0)
