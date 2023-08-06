@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: gogoanime-dl
+Version: 1.0.1
+Summary: GoGoAnime file downloader
+Home-page: https://github.com/AuraMoon55/
+Author: AuraMoon55
+Author-email: garganshul553@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: selenium
+
+
+# Gogoanime-DL
+[![PyPI](https://img.shields.io/pypi/v/gogoanime-dl.svg)](https://pypi.python.org/pypi/gogoanime-dl)
+![Python Versions](https://img.shields.io/pypi/pyversions/gogoanime-dl.svg)
+
+![License](https://img.shields.io/github/license/AuraMoon55/gogoanime-dl.svg)
+
+Gogoanime Anime Downloader
+
+- An Anime Scraping Package that finds anime from gogoanime and helps in downloading anime
+
+
+```bash
+$ python3 -m pip install gogoanime-dl
+```
+
+## Example
+```python
+from gogoanime import GoGo
+
+Anime = GoGo()
+Anime.search("One Piece")
+```
+
+## Custom Download Location Example
+```python
+from gogoanime import GoGo
+
+Anime = GoGo(download_path="/path-to-folder")
+#         OR
+Anime = GoGo("/path-to-folder")
+#By default download_path is downloads
+```
