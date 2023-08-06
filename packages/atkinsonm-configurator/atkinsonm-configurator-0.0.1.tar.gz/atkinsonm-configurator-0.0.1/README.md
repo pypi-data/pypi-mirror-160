@@ -1,0 +1,92 @@
+# Configurator
+
+Welcome to the Configurator! Configurator is a Python-based command line interface (CLI) which issues commands based on user-defined "tasks" to "hosts" over SSH.
+
+## Installation
+
+### Option 1: Install from TestPyPI
+
+1. Install the configurator: `pip install -i https://test.pypi.org/simple/ atkinsonm-configurator`
+
+### Option 2: Install from Source
+
+1. Clone this package.
+2. `cd part-two`.
+3. `sudo python3 setup.py`.
+4. Run `atkinsonm-configurator --version` to confirm the install.
+
+## Using the Configurator
+
+`configurator --help` is your friend.
+
+### Configuring Hosts
+
+`configurator host --help` lists commands for managing hosts. You can also manage the hosts file by hand. See [samples/hosts.yaml](./samples/hosts.yaml) for examples.
+
+At this time we support password authentication only and assume the password is for the root user. We only support specifying hosts by IP address at this time.
+
+The hosts must have a root user, must allow logins to the root user using password authentication, and must be accessible over SSH. No other dependencies are required for installation on target hosts (and therefore no `bootstrap.sh` is provided with this package).
+
+### Configuring Tasks
+
+Modify the hosts file (YAML format, default location `/home/$USER/configurator-tasks.yaml`) by hand using the supported task types below. The format of the file is a top-level key called `tasks` which is a list of task definitions.
+
+See [samples/tasks.yaml](./samples/hosts.yaml) for examples.
+
+Tasks are executed in the order they are defined. Define related task dependencies before successors.
+
+#### Shared Properties
+
+All tasks have these properties.
+
+* name: str
+
+#### Supported Task Types
+
+##### File
+
+Create files, set content and metadata
+
+**This will replace any files/contents already present at specified locations. Use with caution.**
+
+* type: file
+* path (str): absolute path or relative path (from the root user's home directory) of the file to create
+* contents (str): the file contents
+* owner (str) the file owner (user)
+* group (str) the file owner (group)
+* mode (int) the file mode
+
+```yaml
+tasks:
+- name: hello
+  type: file
+  path: /root/hello
+  contents: hello!
+  owner: root
+  group: root
+  mode: 644
+```
+
+Escape single quotes in contents.
+
+##### Package
+
+Installs and uninstalls packages (apt support only)
+
+* type: package
+* install (bool): `True` or `False`. `True` means install, `False` means uninstall
+* package_name (str): the name of the package
+
+### Running Commands
+
+Use `configurator task run` to run all tasks on all hosts in sequence.
+
+## Future Improvements
+
+There are a number of improvements I would make to this application given more time. Many TODOs are called out in code comments. I will highlight a few significant ones here:
+
+* Support authentication other than root user
+  * Privilege escalation (`sudo`) where necessary for non-root users
+* SSH key-based authentication
+* Support for other package managers
+* General code cleanliness
