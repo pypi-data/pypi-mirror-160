@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: edgehub
+Version: 0.0.1.dev0
+Summary: A flexible and efficient cross process distributed edge computing engine.
+Home-page: https://github.com/EdgeGalaxy/edgehub
+Author: DannyLee1991
+Author-email: 747554505@qq.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.9
+Description-Content-Type: text/markdown
+
+# edgehub
+
+一款灵活高效的，跨进程分布式边缘计算引擎。
+
+## 安装方式
+
+```
+pip3 install edgehub
+```
+
+## 使用示例
+
+### 示例1
+
+该示例由一个Master节点和两个Node节点组成。
+
+Master负责消息传递，不负责运算。
+
+两个Node，一个Node节点负责实时读入摄像头视频流，另一个Node节点负责展示前一个Node读到的视频流。
+
+> 本示例需要安装python-opencv: pip3 install opencv-python
+
+`master.py`
+
+```python3
+from edgehub import Master
+
+if __name__ == '__main__':
+    SERVER_IP = '127.0.0.1'
+    SERVER_PROT = 9010
+    m = Master("master", address=(SERVER_IP, SERVER_PROT), authkey=b'z', log_level="DEBUG")
+    
+    server = m.get_server()
+    server.serve_forever()
+```
+
+`node_cam_read.py`
+
+```python3
+from edgehub import Node
+import cv2
+
+
+class CameraNode(Node):
+    stream = Node
+    camera_url = 1
+
+    def before_run(self):
+        self.stream = cv2.VideoCapture(self.camera_url)
+
+    def on_queue_process(self, queue_name):
+        (grabbed, frame) = self.stream.read()
+        self.put(frame, queue_name)
+
+
+if __name__ == '__main__':
+    SERVER_IP = '127.0.0.1'
+    SERVER_PROT = 9010
+    n = CameraNode("cap_put", address=(SERVER_IP, SERVER_PROT), authkey=b'z')
+    n.register_queue("cam")
+    n.run()
+```
+
+`node_cam_show.py`
+
+```python3
+from edgehub import Node
+import cv2
+
+
+class CamGetNode(Node):
+    def on_queue_process(self, queue_name):
+        item = self.get(queue_name)
+        cv2.imshow("queue_name", item)
+        key = cv2.waitKey(1) & 0xFF
+        if key == ord("q"):
+            raise StopIteration()
+
+        # 为了确保队列不积压 导致延迟递增  每次执行完后清空当前队列，这样每次处理时就会取到最新图片
+        self.clear(queue_name)
+
+
+if __name__ == '__main__':
+    SERVER_IP = '127.0.0.1'
+    SERVER_PROT = 9010
+    n = CamGetNode(name="cam_get", address=(SERVER_IP, SERVER_PROT), authkey=b'z')
+    n.register_queue("cam")
+    n.run()
+```
+
+
