@@ -1,0 +1,2 @@
+include README.rst
+recursive-include team_common/static *
