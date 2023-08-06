@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+hanazeder/Hanazeder.py
+hanazeder/__init__.py
+hanazeder/comm.py
+hanazeder/encoding.py
+hanazeder/read.py
+hanazeder/types.py
+hanazeder.egg-info/PKG-INFO
+hanazeder.egg-info/SOURCES.txt
+hanazeder.egg-info/dependency_links.txt
+hanazeder.egg-info/entry_points.txt
+hanazeder.egg-info/requires.txt
+hanazeder.egg-info/top_level.txt
