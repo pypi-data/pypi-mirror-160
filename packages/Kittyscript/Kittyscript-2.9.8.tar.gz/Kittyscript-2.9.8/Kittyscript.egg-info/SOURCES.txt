@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+Setup.py
+setup.py
+Kittyscript.egg-info/PKG-INFO
+Kittyscript.egg-info/SOURCES.txt
+Kittyscript.egg-info/dependency_links.txt
+Kittyscript.egg-info/requires.txt
+Kittyscript.egg-info/top_level.txt
+kittyscript/__init__.py
