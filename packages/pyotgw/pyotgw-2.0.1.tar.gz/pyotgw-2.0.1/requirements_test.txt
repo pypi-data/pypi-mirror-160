@@ -1,0 +1,9 @@
+bandit
+black
+flake8
+pre-commit
+pylint
+pytest
+pytest-asyncio
+pytest-cov
+pyserial-asyncio
