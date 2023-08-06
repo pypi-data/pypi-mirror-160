@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+plankton/__init__.py
+plankton/graph.py
+plankton/pixelmaps.py
+plankton/plankton.py
+plankton/stats.py
+plankton/utils.py
+planktonspace.egg-info/PKG-INFO
+planktonspace.egg-info/SOURCES.txt
+planktonspace.egg-info/dependency_links.txt
+planktonspace.egg-info/requires.txt
+planktonspace.egg-info/top_level.txt
