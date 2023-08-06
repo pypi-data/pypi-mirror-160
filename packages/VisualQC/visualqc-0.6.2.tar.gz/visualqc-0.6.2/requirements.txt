@@ -1,0 +1,10 @@
+nibabel
+matplotlib>=2.1.1
+pillow
+mrivis
+scipy
+numpy
+scikit-learn
+nilearn
+pybids
+pyyaml>=4.2b1
