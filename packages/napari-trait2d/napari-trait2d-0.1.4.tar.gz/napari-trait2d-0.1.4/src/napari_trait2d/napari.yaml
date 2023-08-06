@@ -1,0 +1,10 @@
+name: napari-trait2d
+display_name: napari TRAIT2D
+contributions:
+  commands:
+    - id: napari-trait2d.trait2d_widget
+      python_name: napari_trait2d._widget:NTRAIT2D
+      title: napari TRAIT2D
+  widgets:
+    - command: napari-trait2d.trait2d_widget
+      display_name: TRAIT2D tracker GUI

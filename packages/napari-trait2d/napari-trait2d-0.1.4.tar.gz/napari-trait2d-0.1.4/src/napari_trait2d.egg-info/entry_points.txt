@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-trait2d = napari_trait2d:napari.yaml

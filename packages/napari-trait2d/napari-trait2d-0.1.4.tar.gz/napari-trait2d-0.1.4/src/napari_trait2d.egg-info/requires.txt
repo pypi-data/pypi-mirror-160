@@ -1,0 +1,10 @@
+numpy
+qtpy
+napari[pyqt5]
+dacite
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
