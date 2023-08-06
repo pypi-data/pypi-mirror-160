@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/alias_free_torch/__init__.py
+src/alias_free_torch/act.py
+src/alias_free_torch/filter.py
+src/alias_free_torch/resample.py
+src/alias_free_torch.egg-info/PKG-INFO
+src/alias_free_torch.egg-info/SOURCES.txt
+src/alias_free_torch.egg-info/dependency_links.txt
+src/alias_free_torch.egg-info/not-zip-safe
+src/alias_free_torch.egg-info/top_level.txt
