@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "zdppy_orm"
+version = "0.1.4"
+description = "Python的ORM框架"
+authors = ["zhangdapeng520 <1156956636@qq.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/zhangdapeng520/zdppy_orm"
+repository = "https://github.com/zhangdapeng520/zdppy_orm"
+keywords = ["zhangdapeng", "zhangdapeng520", "zdppy", "orm", "zdppy_orm"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+]
+include = [
+    "LICENSE",
+    "README.md",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+zdppy-mysql = "^0.2.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
