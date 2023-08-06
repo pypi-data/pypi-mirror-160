@@ -1,0 +1,2 @@
+google-cloud-kms==2.11.0
+crcmod
