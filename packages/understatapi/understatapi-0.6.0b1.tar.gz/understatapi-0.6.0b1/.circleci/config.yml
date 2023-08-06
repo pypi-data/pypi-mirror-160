@@ -1,0 +1,67 @@
+version: 2.1
+
+commands:
+
+  install_dependencies:
+    description: Install all dependencies
+    parameters:
+      allowed_branch:
+        default: staging
+        type: string
+    steps:
+      - run:
+          name: Install dependencies
+          command: |
+            python -m venv venv
+            ./ci/install_dependencies.sh
+            venv/bin/python -m pip install toml
+
+jobs:
+
+  test:
+    docker:
+      - image: cimg/python:3.9
+    steps:
+      - checkout
+      - install_dependencies
+      - run:
+          name: Test
+          command: |
+            ./ci/make_docs.sh
+            ./ci/run_tests.sh
+
+  deploy:
+    docker:
+      - image: cimg/python:3.9
+    steps:
+      - checkout
+      - install_dependencies
+      - add_ssh_keys:
+          fingerprints:
+            - "79:f3:4e:44:f3:b9:7c:1e:95:f9:eb:ee:4b:c9:de:cf"
+      - run:
+          name: Deploy
+          command: |
+            echo $CIRCLE_TAG
+            source venv/bin/activate
+            git config --global user.email "$GIT_EMAIL"
+            git config --global user.name "$GIT_USERNAME"
+            ./ci/make_docs.sh
+            ./cd/make_release.sh $CIRCLE_TAG
+            ./cd/deploy_package.sh
+            ./cd/deploy_docs.sh
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - test
+  deploy:
+    jobs:
+      - deploy:
+          context: production
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
