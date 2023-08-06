@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+magics/__init__.py
+magics/whizzml_magics.py
+whizzml/__init__.py
+whizzml_kernel/__init__.py
+whizzml_kernel/__main__.py
+whizzml_kernel/install.py
+whizzml_kernel/interpreter.py
+whizzml_kernel/kernel.py
+whizzml_kernel.egg-info/PKG-INFO
+whizzml_kernel.egg-info/SOURCES.txt
+whizzml_kernel.egg-info/dependency_links.txt
+whizzml_kernel.egg-info/requires.txt
+whizzml_kernel.egg-info/top_level.txt
