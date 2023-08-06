@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "loralogger"
+version = "0.2.3"
+description = "Custom logging handler for AskLora projects"
+authors = ["LORA Technologies <asklora@loratechai.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+WorkerConnector = "^0.0.7"
+python-dotenv = "^0.20.0"
+redis = "^4.3.4"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.6.0"
+flake8 = "^4.0.1"
+flake8-bugbear = "^22.7.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
