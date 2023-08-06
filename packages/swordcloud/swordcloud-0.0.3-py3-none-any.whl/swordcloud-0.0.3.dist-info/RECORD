@@ -1,0 +1,11 @@
+.DS_Store,sha256=t4cS7cD47Eb-wZkur1RJc5wnmZdy1djzUl6_25Ebu48,6148
+swordcloud/__init__.py,sha256=cK8vKiAstVQIJpa4bLn3-j5en9zLiuWLF0Ka1qt0WfA,369
+swordcloud/color_from_image.py,sha256=XZchfGfunHRmzLRTo-GTAVi_WUPvDU7JIbiR8hfNlWU,2621
+swordcloud/processing.py,sha256=PtqkeNqFCj6CB6tr3E9dEZmXDODYGYWtyUDz5YUW4-U,3498
+swordcloud/query_integral_image.py,sha256=D4XPGQmtBeuCdbL2bg_Yb5GnwLh8V435Gx--MnLIpgU,2182
+swordcloud/tokenization.py,sha256=3pMFTgvtrmHcg4QI8P1fHcofYjo0-Eh1Af_sSTXPy7g,6247
+swordcloud/wordcloud.py,sha256=US-5hwdnSPW51-UFBUxmv0ql0bn5S1hEkZKhaGE2rcM,44103
+swordcloud-0.0.3.dist-info/METADATA,sha256=iwybEwMAjhDDxdhznxZ0_C58YOM5UTWlTnnb5G2C_qs,799
+swordcloud-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+swordcloud-0.0.3.dist-info/top_level.txt,sha256=UbtH9ACi_9y8xHrSewERN8YvMbdYGPTu9dI9XqYGK1o,11
+swordcloud-0.0.3.dist-info/RECORD,,
