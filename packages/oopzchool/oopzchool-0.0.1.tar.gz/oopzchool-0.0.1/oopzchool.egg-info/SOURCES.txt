@@ -1,0 +1,13 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+oopzchool/__init__.py
+oopzchool/newschool.py
+oopzchool/school.py
+oopzchool.egg-info/PKG-INFO
+oopzchool.egg-info/SOURCES.txt
+oopzchool.egg-info/dependency_links.txt
+oopzchool.egg-info/requires.txt
+oopzchool.egg-info/top_level.txt
