@@ -1,0 +1,17 @@
+cli_calc/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+cli_calc/__main__.py,sha256=8n44f-KSP9YHr2W6qY3Wfa4jg2RL3nUGJRoMT3Y-NGQ,1046
+cli_calc/cli_eval.py,sha256=A4smKHih2l3MO-7BNgAn5uQFBwHo_0PfkmCrT2kTvMw,1800
+cli_calc/cli_output.py,sha256=8BL_Pynwatleqm8Ea1-pwjgwbbCYUrQ9-GxNCJobZEE,4208
+cli_calc/config.py,sha256=4ng2vzoe-1rRzErETuvUI3vAhVnBT6Y538rpT4vOidw,6433
+cli_calc/format.py,sha256=4ZFSVses5mXRDuY7ML7YzxPdDvW0j0Sszm_zTg4UtHk,355
+cli_calc/ieee.py,sha256=sRj7D-_0kjAHdtvW-FZOWpu_F0QetZ_uAbotmH8Q-rc,3798
+cli_calc/input.py,sha256=_kAvnJKrJWE_XhfZZqzxHiadHgmxhNWxuxeRAilE2KY,1290
+cli_calc/input_cli.py,sha256=Si1oDSvPJLsWHADb1l3ERL2oIyqk66pkXlS1KEqM8Kc,391
+cli_calc/input_from_pipe.py,sha256=VhndZ8MkcH-XTzPwqRi1H0dIyrvGqX-djepkRal-uTI,658
+cli_calc/memory.py,sha256=f1rAb6jcjxnjkGGWiPcOvTpw56RHE6wMJistIzMyEfw,294
+cli_calc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli_calc/read_line_parser.py,sha256=MG4J0C9N3T-g9IXBGNI7jA2iEv5Z5Sk7iQf34DPdG_o,5992
+cli_calc-0.3.3.dist-info/LICENSE,sha256=2puAaomDvo-HmcrQmY978p4tXQXI53vo_IwImmC34ms,1108
+cli_calc-0.3.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cli_calc-0.3.3.dist-info/METADATA,sha256=vbbFbQpqRmLzgPNQFJXa3sGlMnDoJtuJmO6DWRWWhOc,7283
+cli_calc-0.3.3.dist-info/RECORD,,
