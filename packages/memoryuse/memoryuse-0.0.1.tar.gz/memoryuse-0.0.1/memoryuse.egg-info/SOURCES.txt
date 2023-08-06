@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+memoryuse/__init__.py
+memoryuse.egg-info/PKG-INFO
+memoryuse.egg-info/SOURCES.txt
+memoryuse.egg-info/dependency_links.txt
+memoryuse.egg-info/top_level.txt
+memusage.egg-info/SOURCES.txt
+memusage.egg-info/dependency_links.txt
+memusage.egg-info/requires.txt
+memusage.egg-info/top_level.txt
