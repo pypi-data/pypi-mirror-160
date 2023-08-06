@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tkdraw/__init__.py
+tkdraw/basic.py
+tkdraw/screen.py
+tkdraw.egg-info/PKG-INFO
+tkdraw.egg-info/SOURCES.txt
+tkdraw.egg-info/dependency_links.txt
+tkdraw.egg-info/top_level.txt
+tkdraw/test/__init__.py
+tkdraw/test/__main__.py
+tkdraw/test/test_basic.py
+tkdraw/test/test_screen.py
