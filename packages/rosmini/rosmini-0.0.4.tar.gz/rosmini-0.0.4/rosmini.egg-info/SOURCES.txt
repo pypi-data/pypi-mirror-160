@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+rosmini/__init__.py
+rosmini/__main__.py
+rosmini/rosminicore.py
+rosmini/rosminicore_tcp.py
+rosmini/rosminipy.py
+rosmini/rostopic_list.py
+rosmini.egg-info/PKG-INFO
+rosmini.egg-info/SOURCES.txt
+rosmini.egg-info/dependency_links.txt
+rosmini.egg-info/entry_points.txt
+rosmini.egg-info/top_level.txt

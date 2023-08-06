@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rosmini
+Version: 0.0.4
+Summary: ROS Mini
+Home-page: UNKNOWN
+Author: FelipeVein
+Author-email: veinfelipe@hotmail.com
+License: MIT
+Keywords: ros rosmini
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+License-File: LICENSE.txt
+
+UNKNOWN
+
