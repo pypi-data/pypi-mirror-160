@@ -1,0 +1,3 @@
+[console_scripts]
+pynetflix = pynetflix.main:main
+

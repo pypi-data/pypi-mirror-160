@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pynetflix
+Version: 0.0.2
+Summary: Netflix toolkit
+Home-page: https://veltzer.github.io/pynetflix
+Author: Mark Veltzer
+Author-email: mark.veltzer@gmail.com
+Maintainer: Mark Veltzer
+Maintainer-email: mark.veltzer@gmail.com
+License: MIT
+Download-URL: https://github.com/veltzer/pynetflix
+Keywords: google,youtube,playlist,videos
+Platform: python3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: browsercookie
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: pygooglehelper
+Requires-Dist: pylogconf
+Requires-Dist: pytconf
+Requires-Dist: pyvardump
+Requires-Dist: youtube-dl
+
+===========
+*pynetflix*
+===========
+
+.. image:: https://img.shields.io/pypi/v/pynetflix
+
+.. image:: https://img.shields.io/github/license/veltzer/pynetflix
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+
+project website: https://veltzer.github.io/pynetflix
+
+author: Mark Veltzer
+
+version: 0.0.2
+
+	Mark Veltzer <mark.veltzer@gmail.com>, Copyright © 2022
+
+
