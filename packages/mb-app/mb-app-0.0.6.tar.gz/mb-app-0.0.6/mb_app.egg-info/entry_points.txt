@@ -1,0 +1,3 @@
+[console_scripts]
+mb-app = appearance.app:main
+
