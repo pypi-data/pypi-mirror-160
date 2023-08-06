@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pangeo-forge-esgf
+Version: 0.0.1
+Summary: "Using queries to the ESGF API to generate urls and keyword arguments for receipe generation in pangeo-forge"
+Home-page: https://github.com/jbusecke/pangeo-forge-esgf
+Maintainer: Julius Busecke
+Maintainer-email: julius@ldeo.columbia.edu
+License: Apache
+Keywords: pangeo,data,esgf
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pangeo-forge-esgf
+Using queries to the ESGF API to generate urls and keyword arguments for receipe generation in pangeo-forge
+
+
