@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dylab
+Version: 0.0.2
+Summary: An internal toolbox package used for analyzation data of an ultracold atom experiment.
+Home-page: https://git.physi.uni-heidelberg.de/gao/dylab
+Author: QF-group (AG Chomaz), Heidelberg university
+Author-email: gao@physi.uni-heidelberg.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
