@@ -1,0 +1,13 @@
+LICENSE.txt
+Lib/site-packages/role_game/__init__.py
+Lib/site-packages/role_game/armor.py
+Lib/site-packages/role_game/prop.py
+Lib/site-packages/role_game/role.py
+Lib/site-packages/role_game/setup.py
+Lib/site-packages/role_game/weapon.py
+role_game.egg-info/PKG-INFO
+role_game.egg-info/SOURCES.txt
+role_game.egg-info/dependency_links.txt
+role_game.egg-info/not-zip-safe
+role_game.egg-info/requires.txt
+role_game.egg-info/top_level.txt
