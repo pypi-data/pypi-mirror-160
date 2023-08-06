@@ -1,0 +1,1 @@
+requests>=2.25.1pandas>=1.2.2python-dateutil>=2.8.1PriceGenerator>=1.2.74

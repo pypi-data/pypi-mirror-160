@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tksbrokerapi
+Version: 1.2.dev0
+Summary: Simple python API to work with Tinkoff Open API and access to the TKS Broker server using REST protocol.
+Home-page: https://github.com/Tim55667757/TKSBrokerAPI/
+Download-URL: https://github.com/Tim55667757/TKSBrokerAPI.git
+Author: Timur Gilmullin
+Author-email: tim55667757@gmail.com
+License: Apache-2.0
+Keywords: history,csv,stock,prices,candlesticks,statistics,cli,client,rest,rest-api,api-client,trading-api,trading,trade,tinkoff,tinkoff-api,openapi
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+GitHub Pages: https://tim55667757.github.io/TKSBrokerAPI
+
