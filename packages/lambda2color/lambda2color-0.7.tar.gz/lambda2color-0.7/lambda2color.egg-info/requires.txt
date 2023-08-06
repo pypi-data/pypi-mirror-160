@@ -1,0 +1,4 @@
+numpy
+
+[html]
+matplotlibjupyter>=1.0

@@ -1,0 +1,17 @@
+.gitignore
+LICENSE.md
+Makefile
+README.ipynb
+README.md
+cmf.png
+setup.py
+spectrum.png
+docs/Makefile
+docs/source/conf.py
+docs/source/index.rst
+lambda2color.egg-info/PKG-INFO
+lambda2color.egg-info/SOURCES.txt
+lambda2color.egg-info/dependency_links.txt
+lambda2color.egg-info/requires.txt
+lambda2color.egg-info/top_level.txt
+src/lambda2color/__init__.py
