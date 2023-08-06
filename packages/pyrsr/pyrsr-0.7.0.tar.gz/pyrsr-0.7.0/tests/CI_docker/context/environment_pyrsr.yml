@@ -1,0 +1,27 @@
+name: pyrsr
+
+channels: &id1
+  - conda-forge
+
+dependencies:
+  - python=3.*.*
+  - pip
+  - matplotlib
+  - numpy
+  - pandas
+
+  - pip:
+    - scipy
+
+    # test and doc dependencies
+    - flake8
+    - pycodestyle
+    - pylint
+    - pydocstyle
+    - pytest
+    - pytest-cov
+    - pytest-reporter-html1
+    - sphinx-argparse
+    - sphinx_rtd_theme
+    - sphinx-autodoc-typehints
+    - urlchecker
