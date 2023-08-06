@@ -1,0 +1,4 @@
+deephaven>=0.14.0
+jpy>=0.11.0
+deephaven-plugin
+matplotlib
