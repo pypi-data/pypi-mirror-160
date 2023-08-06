@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: littlefish
+Version: 0.0.74
+Summary: Flask webapp utility functions by Little Fish Solutions LTD
+Home-page: https://github.com/stevelittlefish/littlefish
+Download-URL: https://github.com/stevelittlefish/littlefish/archive/v0.0.74.tar.gz
+Author: Stephen Brown (Little Fish Solutions LTD)
+Author-email: opensource@littlefish.solutions
+Keywords: flask,utility,time,pager
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Framework :: Flask
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE.txt
+Requires-Dist: geoip2 (>=2.4.2)
+Requires-Dist: beautifulsoup4 (>=3.5.0.0)
+Requires-Dist: Pillow (>=4.0.0)
+Requires-Dist: SQLAlchemy (>=1.1.0)
+Requires-Dist: PyMarkovChain (>=1.8)
+Requires-Dist: pytz (>=2019.1)
+Requires-Dist: python-dateutil (>=2.6.0)
+Requires-Dist: Flask (>=0.12.0)
+Requires-Dist: Flask-SQLAlchemy (>=2.0)
+Requires-Dist: Jinja2 (>=2.9.0)
+Requires-Dist: IPy (>=0.83)
+Requires-Dist: lxml (>=3.7.0)
+Requires-Dist: PyYAML (>=5.3.1)
+Provides-Extra: celery
+Requires-Dist: celery (>=4.3.0) ; extra == 'celery'
+Provides-Extra: pdfsigner
+Requires-Dist: endesive (>=1.2.3) ; extra == 'pdfsigner'
+Requires-Dist: pyOpenSSL (>=19.0.0) ; extra == 'pdfsigner'
+Provides-Extra: redis
+Requires-Dist: redis (>=3.2.1) ; extra == 'redis'
+
