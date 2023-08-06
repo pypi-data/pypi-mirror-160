@@ -1,0 +1,8 @@
+setup.py
+snippet_chest/__init__.py
+snippet_chest/matplotlib.py
+snippet_chest/requests.py
+snippet_chest.egg-info/PKG-INFO
+snippet_chest.egg-info/SOURCES.txt
+snippet_chest.egg-info/dependency_links.txt
+snippet_chest.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: snippet-chest
+Version: 0.0.1
+Summary: Snippets, but packaged
+Author: John Nelson
+Author-email: <jbn@abreka.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Stuff I constantly have to google all in one place
