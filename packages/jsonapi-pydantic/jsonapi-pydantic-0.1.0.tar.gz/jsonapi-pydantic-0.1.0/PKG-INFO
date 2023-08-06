@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: jsonapi-pydantic
+Version: 0.1.0
+Summary: JSON:API implementation with pydantic.
+Home-page: https://github.com/impocode/jsonapi-pydantic
+License: MIT
+Keywords: jsonapi,pydantic
+Author: impocode
+Author-email: impocode@impocode.com
+Maintainer: impocode
+Maintainer-email: impocode@impocode.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/impocode/jsonapi-pydantic/issues
+Project-URL: Documentation, https://github.com/impocode/jsonapi-pydantic
+Project-URL: Repository, https://github.com/impocode/jsonapi-pydantic
+Description-Content-Type: text/markdown
+
+# jsonapi-pydantic
+
