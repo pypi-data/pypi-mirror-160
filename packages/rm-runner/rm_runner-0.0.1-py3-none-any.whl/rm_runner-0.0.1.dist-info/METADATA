@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rm-runner
+Version: 0.0.1
+Summary: A CLI/SDK to run remote scripts on ec2 via ssh/scp
+Home-page: https://github.com/philschmid/deep-learning-remote-runner
+Author: Philipp Schmid
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8.0
+Requires-Dist: boto3
+Requires-Dist: paramiko
+Requires-Dist: scp
+Requires-Dist: nanoid
+Provides-Extra: quality
+Requires-Dist: black (==21.4b0) ; extra == 'quality'
+Requires-Dist: isort (>=5.5.4) ; extra == 'quality'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'quality'
+
+UNKNOWN
+
