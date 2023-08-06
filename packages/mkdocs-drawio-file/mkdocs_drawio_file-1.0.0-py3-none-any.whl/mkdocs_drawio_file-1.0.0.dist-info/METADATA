@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: mkdocs-drawio-file
+Version: 1.0.0
+Summary: Mkdocs plugin that renders .drawio files
+Home-page: https://github.com/onixpro/mkdocs-drawio-file/
+License: MIT
+Keywords: mkdocs,plugin,markdown,drawio
+Author: Sergey Lukin
+Author-email: onixpro@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.3,<4.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Repository, https://github.com/onixpro/mkdocs-drawio-file/
+Description-Content-Type: text/markdown
+
+# Embedding files of Diagrams.net (Draw.io) into MkDocs
+
+[![](https://github.com/onixpro/mkdocs-drawio-file/workflows/Deploy/badge.svg)](https://github.com/onixpro/mkdocs-drawio-file/actions)
+[![PyPI](https://img.shields.io/pypi/v/mkdocs-drawio-file)](https://pypi.org/project/mkdocs-drawio-file/)
+
+
+
+[Buy me a 🍜](https://www.buymeacoffee.com/SergeyLukin)
+
+## Features
+
+With the plugin configured, you can now proceed to embed images by simply embedding the `*.drawio` diagram file as you would with any image file:
+
+```markdown
+![My alt text](my-diagram.drawio)
+```
+
+
+## Dependencies
+
+## Setup
+
+Install plugin using pip:
+
+```
+pip install mkdocs-drawio-file
+```
+
+Next, add the plugin to your `mkdocs.yml`
+
+```yaml
+plugins:
+  - drawio_file
+```
+
