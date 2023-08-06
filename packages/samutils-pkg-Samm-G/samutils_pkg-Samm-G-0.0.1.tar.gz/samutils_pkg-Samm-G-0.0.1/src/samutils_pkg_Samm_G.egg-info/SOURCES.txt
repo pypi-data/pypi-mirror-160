@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/samutils/__init__.py
+src/samutils/perceptron.py
+src/samutils_pkg_Samm_G.egg-info/PKG-INFO
+src/samutils_pkg_Samm_G.egg-info/SOURCES.txt
+src/samutils_pkg_Samm_G.egg-info/dependency_links.txt
+src/samutils_pkg_Samm_G.egg-info/requires.txt
+src/samutils_pkg_Samm_G.egg-info/top_level.txt
