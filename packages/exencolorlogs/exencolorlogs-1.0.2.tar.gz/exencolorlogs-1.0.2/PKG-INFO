@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: exencolorlogs
+Version: 1.0.2
+Summary: A module for nice looking colored logs.
+Home-page: https://github.com/Exenifix/exencolorlogs
+License: MIT
+Author: Exenifix
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: exencolor (>=1.0)
+Project-URL: Repository, https://github.com/Exenifix/exencolorlogs
+Description-Content-Type: text/markdown
+
+# ExenColorLogs
+
+A module for nice looking colored logs. Does not have much customization, just a Logger class with special formatting.
+
+## Installation
+
+The module is available for installation from PyPI via pip.
+```shell
+$ pip install exencolorlogs
+```
+
+## Basic Usage
+
+```python
+from exencolorlogs import Logger
+
+log = Logger()
+log.info("Greeting...")
+log.ok("Hello!")
+```
+
