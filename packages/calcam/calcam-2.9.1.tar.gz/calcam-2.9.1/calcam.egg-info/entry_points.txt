@@ -1,0 +1,3 @@
+[gui_scripts]
+calcam = calcam:start_gui
+
