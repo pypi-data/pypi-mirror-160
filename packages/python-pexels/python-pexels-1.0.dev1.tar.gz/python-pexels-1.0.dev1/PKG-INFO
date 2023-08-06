@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-pexels
+Version: 1.0.dev1
+Summary: A unofficial python wrapper library for Pexels API
+Author-email: Joker Hacker <jokerhacker.6521@protonmail.com>
+License: GNU General Public License v3 (GPLv3)
+Keywords: API Wrapper,Pexels API,PexelsAPI
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+# Pexels API python Wrapper
