@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/csvmodel/__init__.py
+src/csvmodel/config.py
+src/csvmodel/csvfile.py
+src/csvmodel/errors.py
+src/csvmodel/main.py
+src/csvmodel/types.py
+src/csvmodel/validator.py
+src/csvmodel.egg-info/PKG-INFO
+src/csvmodel.egg-info/SOURCES.txt
+src/csvmodel.egg-info/dependency_links.txt
+src/csvmodel.egg-info/entry_points.txt
+src/csvmodel.egg-info/requires.txt
+src/csvmodel.egg-info/top_level.txt
