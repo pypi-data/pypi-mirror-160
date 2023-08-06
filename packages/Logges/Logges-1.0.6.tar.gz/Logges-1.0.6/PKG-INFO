@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Logges
+Version: 1.0.6
+Summary: A simple Logging tool can extract as Markdown, PDF, or print console.
+Home-page: https://github.com/uysalserkan/Logges
+Author: Serkan UYSAL, Ozkan UYSAL
+Author-email: uysalserkan08@gmail.com
+Maintainer: Ozkan UYSAL
+Maintainer-email: ozkan.uysal.2009@gmail.com
+License: MIT
+Keywords: Log,Logging,Logges,Logger
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Logges
+A prettier logger working on Python.
+
+
