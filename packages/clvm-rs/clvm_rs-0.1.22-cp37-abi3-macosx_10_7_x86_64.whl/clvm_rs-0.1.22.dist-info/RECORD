@@ -1,0 +1,5 @@
+clvm_rs-0.1.22.dist-info/METADATA,sha256=1s2d6SmzC1dKh0QnrK0AVsMD6_g2OLDqo8GOgb4QdK8,1027
+clvm_rs-0.1.22.dist-info/WHEEL,sha256=O9VD4iGuq24lJavR1xj_kx5QIS3GoNYRf52Se2htN9A,104
+clvm_rs/__init__.py,sha256=h5f0X_ewIPdS2AmjC8acer5fZ0wv-h_yezSXTq7jwoo,111
+clvm_rs/clvm_rs.abi3.so,sha256=_czZVvMcDCPDuj6NmLVC0iez5yiXyZ3b7tqAz25_u3A,618632
+clvm_rs-0.1.22.dist-info/RECORD,,
