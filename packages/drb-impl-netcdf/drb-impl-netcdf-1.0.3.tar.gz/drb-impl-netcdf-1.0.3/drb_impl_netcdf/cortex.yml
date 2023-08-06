@@ -1,0 +1,37 @@
+id: 83720abe-2c0e-11ec-8d3d-0242ac130003
+label: 'netCDF'
+category: FORMATTING
+factory:
+  name: netcdf
+  classpath: 'drb_impl_netcdf.netcdf_node_factory:DrbNetcdfFactory'
+signatures:
+  - name: (?i).*\.nc
+  - python: |
+      return 'application/x-netcdf' in node.get_attribute('Content-Type')
+---
+id: b4e6ba07-3a59-4736-b33d-3c55dcae2c56
+label: 'HDF'
+category: FORMATTING
+factory:
+  name: netcdf
+  classpath: 'drb_impl_netcdf.netcdf_node_factory:DrbNetcdfFactory'
+signatures:
+  - name: .*\.(?i)h(df|5)
+---
+id: 06facbd4-437e-420c-981d-0414028a6b22
+label: 'GRIB'
+category: FORMATTING
+factory:
+  name: netcdf
+  classpath: 'drb_impl_netcdf.netcdf_node_factory:DrbNetcdfFactory'
+signatures:
+  - name: .*\.(?i)grb
+---
+id: b47a2cba-26e9-4e7e-8205-8f34299bdc0d
+label: 'HDFEOS'
+category: FORMATTING
+factory:
+  name: netcdf
+  classpath: 'drb_impl_netcdf.netcdf_node_factory:DrbNetcdfFactory'
+signatures:
+  - name: .*\.(?i)hdfeos
