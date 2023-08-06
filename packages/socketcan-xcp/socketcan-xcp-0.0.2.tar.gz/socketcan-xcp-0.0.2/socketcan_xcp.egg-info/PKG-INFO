@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: socketcan-xcp
+Version: 0.0.2
+Summary: A python 3 interface to Universal Measurement and Calibration Protocol XCP
+Home-page: https://gitlab.com/menschel/socketcan-xcp
+Author: Patrick Menschel
+Author-email: menschel.p@posteo.de
+Keywords: socketcan can xcp
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Embedded Systems
+Requires: socketcan
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# socketcan-xcp
+
+![coverage](https://gitlab.com/Menschel/socketcan-xcp/badges/master/coverage.svg)
+![pipeline](https://gitlab.com/Menschel/socketcan-xcp/badges/master/pipeline.svg)
+
+[Documentation](https://menschel.gitlab.io/socketcan-xcp/)
+
+A python 3 interface to Universal Measurement and Calibration Protocol XCP
+
+# Description
+
+Goal of this project is to make XCP available in python in a "pythonic" way.
+
+Keep implementation as simple as possible.
+Use python3 built-in functions and bytearrays as well as standard modules like struct and enum wherever possible.
+
+# Why yet another implementation of XCP
+
+While there is pyxcp implementation available, it has Windows dependencies and is in general not feasible to adapt. Instead this XCP implementation is done from scratch in pure python.
+
