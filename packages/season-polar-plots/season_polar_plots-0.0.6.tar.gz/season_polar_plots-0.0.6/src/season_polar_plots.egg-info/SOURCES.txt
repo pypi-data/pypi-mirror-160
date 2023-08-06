@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/season_polar_plots/__init__.py
+src/season_polar_plots/season.py
+src/season_polar_plots.egg-info/PKG-INFO
+src/season_polar_plots.egg-info/SOURCES.txt
+src/season_polar_plots.egg-info/dependency_links.txt
+src/season_polar_plots.egg-info/requires.txt
+src/season_polar_plots.egg-info/top_level.txt
