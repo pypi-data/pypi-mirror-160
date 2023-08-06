@@ -1,0 +1,44 @@
+name: Code Quality
+
+on:
+  pull_request:
+    paths-ignore:
+      - 'docs/**'
+  push:
+    paths-ignore:
+      - 'docs/**'
+
+jobs:
+  pre-commit:
+    name: Commit Checks
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+    - uses: pre-commit/action@v2.0.0
+
+  dist_upload:
+    runs-on: ubuntu-latest
+    if: github.event.ref == 'refs/heads/dev'
+    needs: [pre-commit]
+    steps:
+    - uses: actions/checkout@master
+    - name: Fetch all tags, so setuptools_scm can determine version
+      run: git fetch --prune --unshallow --tags
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install --upgrade wheel setuptools setuptools_scm build
+    - name: Build package
+      run: python -m build -s -w -o dist/
+    - name: Publish distribution to Test PyPI
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        user: __token__
+        password: ${{ secrets.test_pypi_token }}
+        repository_url: https://test.pypi.org/legacy/
+        skip_existing: true

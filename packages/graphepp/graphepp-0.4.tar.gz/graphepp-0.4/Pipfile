@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+
+[dev-packages]
+graphepp = {editable = true, path = "."}
+sphinx = "*"
+autodocsumm = "*"
+recommonmark= "==0.7.1"
+sphinx-rtd-theme = "*"
+pytest = "*"
+pre-commit = "*"
+twine = "*"
+setuptools = "*"
+wheel = "*"
+build = "*"
+
+[requires]
+python_version = "3.8"

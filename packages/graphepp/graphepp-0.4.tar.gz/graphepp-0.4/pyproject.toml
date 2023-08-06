@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphepp"
+description="A collection of functions for multipartite entanglement purification protocols (EPP) on noisy graph states"
+readme = "README.md"
+authors = [
+  { name = "Julius Wallnöfer" }
+]
+license = {file = "LICENSE"}
+dependencies = [
+  "numpy>=1.19.2"
+]
+classifiers=[
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Intended Audience :: Science/Research",
+]
+keywords=[
+    "quantum information",
+    "quantum information theory",
+    "graph",
+    "graph state",
+    "entanglement",
+    "entanglement purification",
+    "entanglement purification protocol",
+    "EPP",
+    "entanglement distillation",
+    "multipartite entanglement"
+]
+requires-python = ">=3.8.5"
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/jwallnoefer/graphepp"
+
+[project.optional-dependencies]
+test = ["pytest"]
+docs = [
+  "sphinx",
+  "autodocsumm",
+  "recommonmark==0.7.1",
+  "sphinx-rtd-theme",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+write_to = "src/graphepp/version.py"
+local_scheme = "no-local-version"

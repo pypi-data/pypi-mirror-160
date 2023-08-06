@@ -1,0 +1,10 @@
+numpy>=1.19.2
+
+[docs]
+sphinx
+autodocsumm
+recommonmark==0.7.1
+sphinx-rtd-theme
+
+[test]
+pytest
