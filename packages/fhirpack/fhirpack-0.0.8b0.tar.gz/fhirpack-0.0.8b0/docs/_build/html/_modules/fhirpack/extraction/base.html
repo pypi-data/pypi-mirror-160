@@ -1,0 +1,1020 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fhirpack.extraction.base &#8212; fhirpack 0.0.6b0 documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">fhirpack 0.0.6b0 documentation</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Contents:
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../pages/installation.html">
+   Installation
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../../pages/examples.html">
+   Examples
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../examples/usage.html">
+     General Usage
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../examples/minimal.html">
+     Minimal Setup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../pages/cli.html">
+     CLI
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../../pages/api.html">
+   API
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../api/fhirpack.extraction.html">
+     Extractor
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../api/fhirpack.transformation.html">
+     Transformer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../api/fhirpack.load.html">
+     Loader
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../pages/contributing.html">
+   Contributing
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1></h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <h1>Source code for fhirpack.extraction.base</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">chunk</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Union</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
+<span class="kn">from</span> <span class="nn">dicomweb_client.api</span> <span class="kn">import</span> <span class="n">DICOMwebClient</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="kn">from</span> <span class="nn">fhirpy.lib</span> <span class="kn">import</span> <span class="n">SyncFHIRResource</span>
+<span class="kn">from</span> <span class="nn">fhirpy.lib</span> <span class="kn">import</span> <span class="n">SyncFHIRReference</span>
+
+<span class="kn">import</span> <span class="nn">fhirpack</span>
+<span class="kn">from</span> <span class="nn">fhirpack.constants</span> <span class="kn">import</span> <span class="n">CONFIG</span>
+
+
+<span class="c1"># TODO build dinamically from metadata/capability statement</span>
+<span class="n">SEARCH_PARAMS</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;Condition&quot;</span><span class="p">:</span> <span class="p">[</span>  <span class="c1"># https://www.hl7.org/fhir/condition.html</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;patient&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subject&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;recorded-date__eq&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;recorded-date__lt&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;recorded-date__gt&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;recorded-date__ge&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;EpisodeOfCare&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;patient&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Encounter&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subject&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;DiagnosticReport&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subject&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;issued&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;category&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;encounter&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;issued__lt&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;issued__gt&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;issued__ge&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;date__lt&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;date__gt&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;date__ge&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;DocumentReference&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subject&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;category&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;date&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;contenttype&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;description&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;location&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;patient&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;related&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;relatesto&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;status&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;type&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;FamilyMemberHistory&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;patient&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;MedicationAdministration&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subject&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;MedicationRequest&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subject&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Observation&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_count&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;__count&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;count&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;patient&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;given&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;family&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;link&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;link:missing&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;ImagingStudy&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subject&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;endpoint:missing&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;shipProcedureCode&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Procedure&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;_id&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_content&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_sort&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_include&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;code&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;identifier&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subject&quot;</span><span class="p">,</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;List&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;_content&quot;</span><span class="p">,</span> <span class="s2">&quot;_sort&quot;</span><span class="p">,</span> <span class="s2">&quot;_include&quot;</span><span class="p">,</span> <span class="s2">&quot;code&quot;</span><span class="p">,</span> <span class="s2">&quot;identifier&quot;</span><span class="p">],</span>
+<span class="p">}</span>
+
+<span class="n">META_RESOURCE_TYPES</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="s2">&quot;Patient&quot;</span><span class="p">,</span> <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="s2">&quot;Patient&quot;</span><span class="p">}</span>
+
+<span class="c1"># first key is source resourcetype</span>
+<span class="c1"># second key is destination resourcetype</span>
+<span class="c1"># field is by what to search in destination resourcetype</span>
+<span class="c1"># path is where to find the values to search in field</span>
+<span class="c1"># path: None means id</span>
+
+<span class="n">SEARCH_ATTRIBUTES</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Condition&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;DiagnosticReport&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;EpisodeOfCare&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;patient&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;Encounter&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;patient&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;FamilyMemberHistory&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_content&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;ImagingStudy&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;List&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;MedicationAdministration&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;MedicationRequest&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;Observation&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;patient&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;Procedure&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;patient&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;link&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;link.other&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;link.other&quot;</span><span class="p">},</span>
+        <span class="c1"># &quot;LinkedPatient&quot;: {&quot;field&quot;: &quot;_id&quot;, &quot;path&quot;: None}</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="c1"># &quot;Patient&quot;: {&quot;field&quot;: &quot;_id&quot;, &quot;path&quot;: &quot;link.other&quot;}</span>
+        <span class="c1"># &quot;RootPatient&quot;: {&quot;field&quot;: &quot;_id&quot;, &quot;path&quot;: None},</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;id&quot;</span><span class="p">}</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;ImagingStudy&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">}},</span>
+    <span class="s2">&quot;Condition&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;Encounter&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;encounter&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Observation&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;Encounter&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;encounter&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;MedicationAdministration&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;DiagnosticReport&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;AllergyIntolerance&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;patient&quot;</span><span class="p">}},</span>
+    <span class="s2">&quot;CarePlan&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;CarePlan&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Claim&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Encounter&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;EpisodeOfCare&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Goal&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Immunization&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;patient&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Procedure&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Patient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;RootPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+        <span class="s2">&quot;LinkedPatient&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="s2">&quot;_id&quot;</span><span class="p">,</span> <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;subject&quot;</span><span class="p">},</span>
+    <span class="p">},</span>
+<span class="p">}</span>
+
+
+<div class="viewcode-block" id="BaseExtractorMixin"><a class="viewcode-back" href="../../../api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin">[docs]</a><span class="k">class</span> <span class="nc">BaseExtractorMixin</span><span class="p">:</span>
+<div class="viewcode-block" id="BaseExtractorMixin.getReferences"><a class="viewcode-back" href="../../../api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getReferences">[docs]</a>    <span class="k">def</span> <span class="nf">getReferences</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="nb">input</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span>
+            <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+            <span class="nb">list</span><span class="p">[</span><span class="n">SyncFHIRReference</span><span class="p">],</span>
+            <span class="nb">list</span><span class="p">[</span><span class="n">SyncFHIRResource</span><span class="p">],</span>
+        <span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">params</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">ignoreFrame</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="n">raw</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="p">):</span>
+
+        <span class="n">params</span> <span class="o">=</span> <span class="p">{}</span> <span class="k">if</span> <span class="n">params</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">params</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">input</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="nb">input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span>
+            <span class="k">pass</span>
+        <span class="k">elif</span> <span class="nb">input</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="nb">input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">prepareOperationInput</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">SyncFHIRReference</span><span class="p">)</span>
+            <span class="k">pass</span>
+        <span class="k">elif</span> <span class="nb">input</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="c1"># TODO raise error references and isFrame not allowed</span>
+            <span class="c1"># TODO raise in other similar methods</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">raw</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">prepareOutput</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">resourceType</span><span class="o">=</span><span class="s2">&quot;Reference&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span></div>
+
+<div class="viewcode-block" id="BaseExtractorMixin.getResources"><a class="viewcode-back" href="../../../api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getResources">[docs]</a>    <span class="k">def</span> <span class="nf">getResources</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="nb">input</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span>
+            <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+            <span class="nb">list</span><span class="p">[</span><span class="n">SyncFHIRReference</span><span class="p">],</span>
+            <span class="nb">list</span><span class="p">[</span><span class="n">SyncFHIRResource</span><span class="p">],</span>
+        <span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">searchParams</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">params</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">resourceType</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">metaResourceType</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">ignoreFrame</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="n">raw</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="n">progressSuffix</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="p">):</span>
+
+        <span class="k">if</span> <span class="n">metaResourceType</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">metaResourceType</span> <span class="o">=</span> <span class="n">resourceType</span>
+
+        <span class="n">searchActive</span> <span class="o">=</span> <span class="kc">False</span> <span class="k">if</span> <span class="n">searchParams</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">True</span>
+        <span class="n">searchParams</span> <span class="o">=</span> <span class="p">{}</span> <span class="k">if</span> <span class="n">searchParams</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">searchParams</span>
+
+        <span class="n">params</span> <span class="o">=</span> <span class="p">{}</span> <span class="k">if</span> <span class="n">params</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">params</span>
+        <span class="nb">input</span> <span class="o">=</span> <span class="p">[]</span> <span class="k">if</span> <span class="nb">input</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="nb">input</span>
+
+        <span class="n">searchValues</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="nb">input</span><span class="p">):</span>
+            <span class="n">inputReprs</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+            <span class="n">uniqueInput</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">:</span>
+                <span class="n">r</span> <span class="o">=</span> <span class="nb">repr</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">r</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">inputReprs</span><span class="p">:</span>
+                    <span class="n">uniqueInput</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+                    <span class="n">inputReprs</span><span class="o">.</span><span class="n">update</span><span class="p">([</span><span class="n">r</span><span class="p">])</span>
+            <span class="nb">input</span> <span class="o">=</span> <span class="n">uniqueInput</span>
+
+            <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span>
+                <span class="nb">input</span><span class="p">,</span> <span class="n">desc</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;GET[</span><span class="si">{</span><span class="n">metaResourceType</span><span class="si">}</span><span class="s2">]</span><span class="si">{</span><span class="n">progressSuffix</span><span class="si">}</span><span class="s2">&gt; &quot;</span><span class="p">,</span> <span class="n">leave</span><span class="o">=</span><span class="kc">False</span>
+            <span class="p">):</span>
+                <span class="n">element</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">castOperand</span><span class="p">(</span><span class="n">element</span><span class="p">,</span> <span class="n">SyncFHIRResource</span><span class="p">,</span> <span class="n">resourceType</span><span class="p">)</span>
+                <span class="n">result</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">ignoreFrame</span><span class="p">:</span>
+            <span class="c1"># utils.validateFrame(self)</span>
+            <span class="nb">input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span>
+
+            <span class="c1"># source Type is the type of resources contained in a frame</span>
+            <span class="n">sourceType</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">resourceType</span>
+
+            <span class="c1"># the target type is the desired resource type</span>
+            <span class="c1"># getPatients().getConditions() -&gt; &quot;Patient&quot; source, &quot;Condition&quot; target</span>
+            <span class="n">targetType</span> <span class="o">=</span> <span class="n">resourceType</span>
+
+            <span class="c1"># handles</span>
+            <span class="c1"># pack.getReferences().getResources</span>
+            <span class="c1"># pack.getReferences().getResources</span>
+            <span class="k">if</span> <span class="n">targetType</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">getResources</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+
+            <span class="n">field</span><span class="p">,</span> <span class="n">basePath</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">getConversionPath</span><span class="p">(</span>
+                <span class="n">sourceType</span><span class="o">=</span><span class="n">sourceType</span><span class="p">,</span> <span class="n">targetType</span><span class="o">=</span><span class="n">metaResourceType</span>
+            <span class="p">)</span>
+
+            <span class="n">path</span> <span class="o">=</span> <span class="s2">&quot;id&quot;</span> <span class="k">if</span> <span class="n">basePath</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">basePath</span><span class="si">}</span><span class="s2">.id&quot;</span>
+
+            <span class="n">searchValues</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">gatherSimplePaths</span><span class="p">(</span>
+                <span class="p">[</span><span class="n">path</span><span class="p">],</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;searchValue&quot;</span><span class="p">]</span>
+            <span class="p">)</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">searchValues</span><span class="o">.</span><span class="n">size</span><span class="p">:</span>
+                <span class="n">path</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">basePath</span><span class="si">}</span><span class="s2">.reference&quot;</span>
+                <span class="n">searchValues</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">gatherSimplePaths</span><span class="p">([</span><span class="n">path</span><span class="p">],</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;searchValue&quot;</span><span class="p">])</span>
+
+            <span class="k">if</span> <span class="p">(</span>
+                <span class="n">searchValues</span><span class="p">[</span><span class="s2">&quot;searchValue&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="nb">type</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">==</span> <span class="s2">&quot;&lt;class &#39;list&#39;&gt;&quot;</span>
+            <span class="p">)</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="mi">0</span><span class="p">):</span>
+                <span class="n">searchValues</span> <span class="o">=</span> <span class="n">searchValues</span><span class="o">.</span><span class="n">explode</span><span class="p">(</span><span class="s2">&quot;searchValue&quot;</span><span class="p">)</span>
+
+            <span class="n">searchValues</span> <span class="o">=</span> <span class="n">searchValues</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+
+            <span class="k">if</span> <span class="s2">&quot;reference&quot;</span> <span class="ow">in</span> <span class="n">path</span><span class="p">:</span>
+                <span class="n">searchValues</span> <span class="o">=</span> <span class="n">searchValues</span><span class="p">[</span><span class="s2">&quot;searchValue&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">searchValues</span> <span class="o">=</span> <span class="n">searchValues</span><span class="p">[</span><span class="s2">&quot;searchValue&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+
+        <span class="k">elif</span> <span class="n">searchActive</span><span class="p">:</span>
+            <span class="c1"># getResources is for getting/searching known resources</span>
+            <span class="c1"># delegate to search for special handling</span>
+
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">searchResources</span><span class="p">(</span>
+                <span class="nb">input</span><span class="o">=</span><span class="nb">input</span><span class="p">,</span>
+                <span class="n">searchParams</span><span class="o">=</span><span class="n">searchParams</span><span class="p">,</span>
+                <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span>
+                <span class="n">ignoreFrame</span><span class="o">=</span><span class="n">ignoreFrame</span><span class="p">,</span>
+                <span class="n">resourceType</span><span class="o">=</span><span class="n">resourceType</span><span class="p">,</span>
+            <span class="p">)</span>
+
+        <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">searchValues</span><span class="p">)</span>
+        <span class="n">chunkSize</span> <span class="o">=</span> <span class="mi">100</span>
+        <span class="n">nChunks</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">n</span> <span class="o">/</span> <span class="n">chunkSize</span><span class="p">)</span>
+        <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+
+        <span class="n">total</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">:</span>
+
+            <span class="n">j</span> <span class="o">=</span> <span class="n">j</span> <span class="o">+</span> <span class="n">chunkSize</span> <span class="k">if</span> <span class="n">j</span> <span class="o">+</span> <span class="n">chunkSize</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="k">else</span> <span class="n">n</span>
+
+            <span class="n">searchValuesChunk</span> <span class="o">=</span> <span class="n">searchValues</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">j</span><span class="p">]</span>
+            <span class="n">searchValuesChunk</span> <span class="o">=</span> <span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">searchValuesChunk</span><span class="p">)</span>
+            <span class="n">searchParams</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">field</span><span class="p">:</span> <span class="n">searchValuesChunk</span><span class="p">})</span>
+
+            <span class="n">result</span> <span class="o">+=</span> <span class="bp">self</span><span class="o">.</span><span class="n">searchResources</span><span class="p">(</span>
+                <span class="n">searchParams</span><span class="o">=</span><span class="n">searchParams</span><span class="p">,</span>
+                <span class="n">resourceType</span><span class="o">=</span><span class="n">resourceType</span><span class="p">,</span>
+                <span class="n">raw</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                <span class="n">progressSuffix</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">j</span><span class="o">/</span><span class="n">chunkSize</span><span class="p">)</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">nChunks</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">,</span>
+            <span class="p">)</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">chunkSize</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">raw</span><span class="p">:</span>
+            <span class="n">indexList</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">prepareOutput</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="n">resourceType</span><span class="o">=</span><span class="n">resourceType</span><span class="p">)</span>
+            <span class="nb">input</span><span class="p">,</span> <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">attachOperandIds</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">result</span><span class="p">,</span> <span class="n">metaResourceType</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">result</span></div>
+
+<div class="viewcode-block" id="BaseExtractorMixin.searchResources"><a class="viewcode-back" href="../../../api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.searchResources">[docs]</a>    <span class="k">def</span> <span class="nf">searchResources</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="nb">input</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span>
+            <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+            <span class="nb">list</span><span class="p">[</span><span class="n">SyncFHIRReference</span><span class="p">],</span>
+            <span class="nb">list</span><span class="p">[</span><span class="n">SyncFHIRResource</span><span class="p">],</span>
+        <span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">searchParams</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">params</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">resourceType</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">metaResourceType</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">ignoreFrame</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="n">raw</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="n">progressSuffix</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="p">):</span>
+
+        <span class="k">if</span> <span class="n">metaResourceType</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">metaResourceType</span> <span class="o">=</span> <span class="n">resourceType</span>
+
+        <span class="n">searchActive</span> <span class="o">=</span> <span class="kc">False</span> <span class="k">if</span> <span class="n">searchParams</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">True</span>
+        <span class="n">searchParams</span> <span class="o">=</span> <span class="p">{}</span> <span class="k">if</span> <span class="n">searchParams</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">searchParams</span>
+
+        <span class="n">params</span> <span class="o">=</span> <span class="p">{}</span> <span class="k">if</span> <span class="n">params</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">params</span>
+        <span class="nb">input</span> <span class="o">=</span> <span class="p">[]</span> <span class="k">if</span> <span class="nb">input</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="nb">input</span>
+
+        <span class="c1"># if searchParams:</span>
+
+        <span class="c1">#     invalidsearchParams = set(searchParams.keys()) - set(</span>
+        <span class="c1">#         SEARCH_PARAMS[resourceType]</span>
+        <span class="c1">#     )</span>
+        <span class="c1">#     if invalidsearchParams:</span>
+        <span class="c1">#         raise Exception(f&quot;non allowed search parameters {invalidsearchParams}&quot;)</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="nb">input</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">ignoreFrame</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+        <span class="k">elif</span> <span class="n">searchActive</span><span class="p">:</span>
+            <span class="k">pass</span>
+
+        <span class="n">resourcePageSize</span> <span class="o">=</span> <span class="mi">100</span>
+
+        <span class="n">search</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">client</span><span class="o">.</span><span class="n">resources</span><span class="p">(</span><span class="n">resourceType</span><span class="p">)</span>
+            <span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="o">**</span><span class="n">searchParams</span><span class="p">)</span>
+            <span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="n">resourcePageSize</span><span class="p">)</span>
+        <span class="p">)</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">resourceCount</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">nonEmptyBundle</span> <span class="o">=</span> <span class="nb">bool</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">search</span><span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">fetch</span><span class="p">()))</span>
+
+        <span class="k">if</span> <span class="n">nonEmptyBundle</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">resourceCount</span> <span class="o">=</span> <span class="n">search</span><span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">fetch_raw</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;total&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="c1"># server doesn&#39;t support _total parameter nor returns total</span>
+                <span class="c1"># element in each request https://build.fhir.org/bundle.html#searchset</span>
+                <span class="k">pass</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">resourceCount</span><span class="p">:</span>
+                <span class="n">resourceCount</span> <span class="o">=</span> <span class="n">search</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+            <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span>
+                <span class="n">search</span><span class="p">,</span>
+                <span class="n">desc</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;SEARCH[</span><span class="si">{</span><span class="n">metaResourceType</span><span class="si">}</span><span class="s2">]</span><span class="si">{</span><span class="n">progressSuffix</span><span class="si">}</span><span class="s2">&gt; &quot;</span><span class="p">,</span>
+                <span class="n">total</span><span class="o">=</span><span class="n">resourceCount</span><span class="p">,</span>
+                <span class="n">leave</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="p">):</span>
+                <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">raw</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">prepareOutput</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="n">resourceType</span><span class="p">)</span>
+            <span class="nb">input</span><span class="p">,</span> <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">attachOperandIds</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">result</span><span class="p">,</span> <span class="n">metaResourceType</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">result</span></div>
+
+<div class="viewcode-block" id="BaseExtractorMixin.getConversionPath"><a class="viewcode-back" href="../../../api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getConversionPath">[docs]</a>    <span class="k">def</span> <span class="nf">getConversionPath</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sourceType</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">targetType</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;This method retrieves the needed fhir serach param (field) and the</span>
+<span class="sd">        respective path for a source-target pair from the handler ditcionary&quot;&quot;&quot;</span>
+
+        <span class="n">sourceDict</span> <span class="o">=</span> <span class="n">SEARCH_ATTRIBUTES</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">sourceType</span><span class="p">,</span> <span class="p">{})</span>
+        <span class="n">targetDict</span> <span class="o">=</span> <span class="n">sourceDict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">targetType</span><span class="p">,</span> <span class="p">{})</span>
+        <span class="n">field</span><span class="p">,</span> <span class="n">path</span> <span class="o">=</span> <span class="n">targetDict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;field&quot;</span><span class="p">),</span> <span class="n">targetDict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;path&quot;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">field</span><span class="p">:</span>  <span class="c1"># and path:</span>
+            <span class="k">return</span> <span class="n">field</span><span class="p">,</span> <span class="n">path</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">aliasSourceDict</span> <span class="o">=</span> <span class="n">SEARCH_ATTRIBUTES</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">META_RESOURCE_TYPES</span><span class="p">[</span><span class="n">sourceType</span><span class="p">],</span> <span class="p">{})</span>
+            <span class="n">aliasTargetDict</span> <span class="o">=</span> <span class="n">aliasSourceDict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">targetType</span><span class="p">,</span> <span class="p">{})</span>
+            <span class="n">aliasField</span><span class="p">,</span> <span class="n">aliasPath</span> <span class="o">=</span> <span class="n">aliasTargetDict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;field&quot;</span><span class="p">),</span> <span class="n">targetDict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;path&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">aliasField</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">aliasField</span><span class="p">,</span> <span class="n">aliasPath</span>
+
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;No handler for source </span><span class="si">{</span><span class="n">sourceType</span><span class="si">}</span><span class="s2"> and target </span><span class="si">{</span><span class="n">targetType</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span></div>
+
+<div class="viewcode-block" id="BaseExtractorMixin.getAbsolutePaths"><a class="viewcode-back" href="../../../api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getAbsolutePaths">[docs]</a>    <span class="k">def</span> <span class="nf">getAbsolutePaths</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">paths</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+        <span class="nb">input</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span>
+            <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+            <span class="nb">list</span><span class="p">[</span><span class="n">SyncFHIRReference</span><span class="p">],</span>
+            <span class="nb">list</span><span class="p">[</span><span class="n">SyncFHIRResource</span><span class="p">],</span>
+        <span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">searchParams</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">params</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="p">):</span>
+
+        <span class="n">searchActive</span> <span class="o">=</span> <span class="kc">False</span> <span class="k">if</span> <span class="n">searchParams</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">True</span>
+        <span class="n">searchParams</span> <span class="o">=</span> <span class="p">{}</span> <span class="k">if</span> <span class="n">searchParams</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">searchParams</span>
+
+        <span class="n">params</span> <span class="o">=</span> <span class="p">{}</span> <span class="k">if</span> <span class="n">params</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">params</span>
+        <span class="nb">input</span> <span class="o">=</span> <span class="p">[]</span> <span class="k">if</span> <span class="nb">input</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="nb">input</span>
+
+        <span class="c1"># invalidsearchParams = None</span>
+        <span class="c1"># if searchParams:</span>
+        <span class="c1">#     invalidsearchParams = set(searchParams.keys()) - set(</span>
+        <span class="c1">#         base.SEARCH_PARAMS[&quot;MedicationAdministration&quot;]</span>
+        <span class="c1">#     )</span>
+
+        <span class="c1"># if invalidsearchParams:</span>
+        <span class="c1">#     raise Exception(f&quot;non allowed search parameters {invalidsearchParams}&quot;)</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">input</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="nb">input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span>
+        <span class="k">elif</span> <span class="nb">input</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+        <span class="k">elif</span> <span class="nb">input</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">resourceTypeIs</span><span class="p">(</span><span class="s2">&quot;patient&quot;</span><span class="p">):</span>
+            <span class="n">searchParams</span><span class="p">[</span><span class="s2">&quot;subject&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">e</span><span class="o">.</span><span class="n">id</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+        <span class="n">finalResults</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="c1"># TODO move allowed absolute paths allowed for patients somewhere else</span>
+        <span class="c1"># these relative paths are allowed because they reference a subject or patient</span>
+        <span class="n">relativePaths</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;Appointment&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;CarePlan&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;ClinicalImpression&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;Condition&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;DiagnosticReport&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;DocumentReference&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;Encounter&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;EpisodeOfCare&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;ImagingStudy&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;Immunization&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;List&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;MedicationRequest&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;MedicationStatement&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;Observation&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;Procedure&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;QuestionnaireResponse&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="s2">&quot;ServiceRequest&quot;</span><span class="p">:</span> <span class="p">[],</span>
+            <span class="c1"># &#39;BiologicallyDerivedProduct&#39;:[],</span>
+            <span class="c1"># &#39;DocumentReference&#39;:[],</span>
+            <span class="c1"># &#39;FamilyMemberHistory&#39;:[],</span>
+            <span class="c1"># &#39;Media&#39;:[],</span>
+            <span class="c1"># &#39;Medication&#39;:[],</span>
+            <span class="c1"># &#39;MedicationAdministration&#39;:[],</span>
+            <span class="c1"># &#39;Organization&#39;:[],</span>
+            <span class="c1"># &#39;Patient&#39;:[],</span>
+            <span class="c1"># &#39;Practitioner&#39;:[],</span>
+            <span class="c1"># &#39;Specimen&#39;:[],</span>
+            <span class="c1"># &#39;Substance&#39;:[]</span>
+        <span class="p">}</span>
+
+        <span class="n">paths</span> <span class="o">=</span> <span class="p">[</span><span class="n">e</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">paths</span><span class="p">)]</span>
+        <span class="k">for</span> <span class="n">absp</span> <span class="ow">in</span> <span class="n">paths</span><span class="p">:</span>
+            <span class="n">relativePaths</span><span class="p">[</span><span class="n">absp</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">absp</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
+
+        <span class="n">resourceType</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">resourceType</span>
+
+        <span class="k">for</span> <span class="n">resourceType</span><span class="p">,</span> <span class="n">relpaths</span> <span class="ow">in</span> <span class="n">relativePaths</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">relpaths</span><span class="p">:</span>
+                <span class="k">continue</span>
+
+            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">searchResources</span><span class="p">(</span>
+                <span class="n">resourceType</span><span class="o">=</span><span class="n">resourceType</span><span class="p">,</span> <span class="n">searchParams</span><span class="o">=</span><span class="n">searchParams</span>
+            <span class="p">)</span>
+            <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+            <span class="n">filteredResults</span> <span class="o">=</span> <span class="p">[]</span>
+
+            <span class="c1"># TODO handle multiple filters</span>
+            <span class="c1"># filter = filter.popitem()</span>
+
+            <span class="n">filteredResults</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">gatherSimplePaths</span><span class="p">([</span><span class="s2">&quot;.&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">e</span><span class="p">)</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">relpaths</span><span class="p">])</span>
+            <span class="n">filteredResults</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span>
+                <span class="n">resourceType</span> <span class="o">+</span> <span class="s2">&quot;.&quot;</span> <span class="o">+</span> <span class="n">key</span> <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">filteredResults</span><span class="o">.</span><span class="n">columns</span>
+            <span class="p">]</span>
+
+            <span class="c1"># filteredRecord.update({f&quot;{resourceType}.{filter[0]}&quot;: filter[1]})</span>
+            <span class="c1"># filteredResults.append(filteredRecord)</span>
+
+            <span class="n">finalResults</span><span class="p">[</span><span class="n">resourceType</span><span class="p">]</span> <span class="o">=</span> <span class="n">filteredResults</span>
+
+        <span class="k">return</span> <span class="n">finalResults</span></div>
+
+<div class="viewcode-block" id="BaseExtractorMixin.getURLBytes"><a class="viewcode-back" href="../../../api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getURLBytes">[docs]</a>    <span class="k">def</span> <span class="nf">getURLBytes</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="nb">input</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">operateOnCol</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;data&quot;</span><span class="p">,</span>
+        <span class="n">resultInCol</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">params</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="p">{},</span>
+    <span class="p">):</span>
+
+        <span class="n">params</span> <span class="o">=</span> <span class="p">{}</span> <span class="k">if</span> <span class="n">params</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">params</span>
+        <span class="nb">input</span> <span class="o">=</span> <span class="p">[]</span> <span class="k">if</span> <span class="nb">input</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="nb">input</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">input</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">operateOnCol</span><span class="p">:</span>
+                <span class="nb">input</span> <span class="o">=</span> <span class="bp">self</span><span class="p">[</span><span class="n">operateOnCol</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+            <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">resourceTypeIs</span><span class="p">(</span><span class="s2">&quot;DiagnosticReport&quot;</span><span class="p">):</span>
+                <span class="nb">input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">gatherSimplePaths</span><span class="p">([</span><span class="s2">&quot;presentedForm.url&quot;</span><span class="p">])</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+        <span class="k">elif</span> <span class="nb">input</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+        <span class="k">elif</span> <span class="nb">input</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+        <span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">url</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nb">input</span><span class="p">)),</span> <span class="nb">input</span><span class="p">):</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
+                <span class="n">url</span><span class="p">,</span>
+                <span class="n">headers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">client</span><span class="o">.</span><span class="n">_build_request_headers</span><span class="p">(),</span>
+                <span class="n">stream</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="p">)</span>
+
+            <span class="n">data</span> <span class="o">=</span> <span class="nb">bytearray</span><span class="p">()</span>
+
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">response</span><span class="o">.</span><span class="n">ok</span><span class="p">:</span>
+                <span class="c1"># TODO log to fhirpack.log</span>
+                <span class="n">data</span> <span class="o">=</span> <span class="kc">None</span>
+                <span class="c1"># raise Exception(f&quot;{response}&quot;)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">block</span> <span class="ow">in</span> <span class="n">response</span><span class="o">.</span><span class="n">iter_content</span><span class="p">(</span><span class="mi">1024</span><span class="p">):</span>
+                    <span class="n">data</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">block</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="n">block</span><span class="p">:</span>
+                        <span class="k">break</span>
+
+            <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+            <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">resultInCol</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="o">**</span><span class="p">{</span><span class="n">resultInCol</span><span class="p">:</span> <span class="n">results</span><span class="p">})</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">prepareOutput</span><span class="p">(</span><span class="n">results</span><span class="p">,</span> <span class="s2">&quot;Binary&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span></div>
+
+<div class="viewcode-block" id="BaseExtractorMixin.getFromFiles"><a class="viewcode-back" href="../../../api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getFromFiles">[docs]</a>    <span class="k">def</span> <span class="nf">getFromFiles</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">input</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]):</span>
+        <span class="sd">&quot;&quot;&quot;Creates a Frame object from json files containing fhir resources&quot;&quot;&quot;</span>
+
+        <span class="n">pathsData</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">iPath</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">iPath</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">rawJson</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+                <span class="n">fileData</span> <span class="o">=</span> <span class="p">[]</span>
+                <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">rawJson</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
+                    <span class="n">fileData</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">rawJson</span><span class="p">)</span>
+                <span class="k">elif</span> <span class="n">rawJson</span><span class="p">[</span><span class="s2">&quot;resourceType&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Bundle&quot;</span><span class="p">:</span>
+                    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">rawJson</span><span class="p">[</span><span class="s2">&quot;entry&quot;</span><span class="p">]:</span>
+                        <span class="n">fileData</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">r</span><span class="p">[</span><span class="s2">&quot;resource&quot;</span><span class="p">])</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">fileData</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rawJson</span><span class="p">)</span>
+            <span class="n">pathsData</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">fileData</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">pathsData</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">element</span><span class="p">[</span><span class="s2">&quot;resourceType&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="n">pathsData</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;resourceType&quot;</span><span class="p">]:</span>
+                <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;All resources have to be of the same type.&quot;</span><span class="p">)</span>
+
+        <span class="n">result</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="n">SyncFHIRResource</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">client</span><span class="p">,</span> <span class="n">e</span><span class="p">[</span><span class="s2">&quot;resourceType&quot;</span><span class="p">],</span> <span class="o">**</span><span class="n">e</span><span class="p">)</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">pathsData</span>
+        <span class="p">]</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">prepareOutput</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span></div>
+
+<div class="viewcode-block" id="BaseExtractorMixin.getDICOMInstances"><a class="viewcode-back" href="../../../api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getDICOMInstances">[docs]</a>    <span class="k">def</span> <span class="nf">getDICOMInstances</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="nb">input</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">operateOnCol</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;data&quot;</span><span class="p">,</span>
+        <span class="n">resultInCol</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">params</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">inPlace</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="p">):</span>
+
+        <span class="n">params</span> <span class="o">=</span> <span class="p">{}</span> <span class="k">if</span> <span class="n">params</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">params</span>
+        <span class="nb">input</span> <span class="o">=</span> <span class="p">[]</span> <span class="k">if</span> <span class="nb">input</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="nb">input</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">input</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">resourceTypeIs</span><span class="p">(</span><span class="s2">&quot;ImagingStudy&quot;</span><span class="p">):</span>
+                <span class="nb">input</span> <span class="o">=</span> <span class="bp">self</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+        <span class="k">elif</span> <span class="nb">input</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+        <span class="k">elif</span> <span class="nb">input</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">isFrame</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+        <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">series</span><span class="p">,</span> <span class="n">study</span><span class="p">,</span> <span class="n">endpoint</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">[</span>
+            <span class="p">[</span><span class="s2">&quot;series&quot;</span><span class="p">,</span> <span class="s2">&quot;study&quot;</span><span class="p">,</span> <span class="s2">&quot;endpoint&quot;</span><span class="p">]</span>
+        <span class="p">]</span><span class="o">.</span><span class="n">itertuples</span><span class="p">():</span>
+            <span class="n">client</span> <span class="o">=</span> <span class="n">DICOMwebClient</span><span class="p">(</span>
+                <span class="n">endpoint</span><span class="p">,</span>
+                <span class="n">headers</span><span class="o">=</span><span class="p">{</span>
+                    <span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">CONFIG</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;EXTRACTION_BASE_TOKEN_DICOM&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
+                <span class="p">},</span>
+            <span class="p">)</span>
+            <span class="n">instances</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">client</span><span class="o">.</span><span class="n">iter_series</span><span class="p">(</span><span class="n">study</span><span class="p">,</span> <span class="n">series</span><span class="p">))</span>
+            <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">instances</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">inPlace</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">result</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">prepareOutput</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">result</span></div></div>
+</pre></div>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+      &copy; Copyright 2022, Jayson Salazar.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
