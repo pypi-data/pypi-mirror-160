@@ -1,0 +1,5 @@
+requests
+bs4
+urllib3
+deep_translator
+argparse

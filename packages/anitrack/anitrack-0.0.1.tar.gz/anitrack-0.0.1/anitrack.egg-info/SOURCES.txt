@@ -1,0 +1,8 @@
+setup.py
+anitrack/__init__.py
+anitrack/track.py
+anitrack.egg-info/PKG-INFO
+anitrack.egg-info/SOURCES.txt
+anitrack.egg-info/dependency_links.txt
+anitrack.egg-info/requires.txt
+anitrack.egg-info/top_level.txt
