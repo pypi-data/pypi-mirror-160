@@ -1,0 +1,16 @@
+win_magnification/__init__.py,sha256=WQPtX86_EVlKu33_TnrbW8_c4EoOQBYoE4QPvLDMQIU,766
+win_magnification/_functional_wrapper.py,sha256=dGIANCj8RDrPd6fS0pjW0t3MUFrA_c-ugDuncdYsrjI,4658
+win_magnification/_object_utils.py,sha256=EZdRZ8j1s95ER9qjyGsGH6fa4GvZsa1S9qnvKQU1xw4,11025
+win_magnification/_objects.py,sha256=S-QKY6XQqIKIX86jr2fuSCCT-5ZQMdHF17aSD4T7FxI,20511
+win_magnification/_utils.py,sha256=Kam17QKqJ0DUu0pzs9OZvBFRZMCLRGDTiOg29jkP7v8,2280
+win_magnification/_wrapper.py,sha256=Jh57FnfA9WuBF77wnI40etlZKsuVfNiBzyNih02vfHc,14057
+win_magnification/const.py,sha256=gENa8KJGd5PdrPb3B8oGpZDXDmVg6lmEb2Dswxw64LM,7304
+win_magnification/effects.py,sha256=adteJG9loHbFVMtp6l6imo9AGjaDZjEPVoUJ4MQ3Nps,4123
+win_magnification/old.py,sha256=YGT-VcMiELXLOfuRCwwd1g9okm7XDjA8pjNIzyaTBKM,894
+win_magnification/tools.py,sha256=x8zvZNnKrabZBZJcaKcCYEE6LSCO1liBGNlG13CUcPM,19433
+win_magnification/types.py,sha256=Z5mIiTU3qrQGPUdgBrHq0bo2oyJtw3nXvu7kVo_Fusw,3367
+WinMagnification-0.1.0.dist-info/LICENSE.md,sha256=rDqtQrC9hYBamX_yPg8In9LuY2DHPJdJMZpa4Ez7p5w,1063
+WinMagnification-0.1.0.dist-info/METADATA,sha256=EtadC9AZ1Nv_LlgQkswTOfUo1jStG_BaTGET4hGhYcY,5978
+WinMagnification-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+WinMagnification-0.1.0.dist-info/top_level.txt,sha256=DFy8QpFVu-TGw3wyxhUnq_dxgvtavQ5gPVRPWql372c,18
+WinMagnification-0.1.0.dist-info/RECORD,,
