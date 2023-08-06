@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: real-deepfakes-detect
+Version: 0.0.6
+Summary: Realword DeepFakes Detection
+Home-page: https://github.com/ThreeCatsLoveFish/RDD
+License: MIT Licence
+License-File: LICENSE
+
+Realword DeepFakes Detection
