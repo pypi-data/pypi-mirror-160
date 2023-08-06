@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aquilo"
+version = "0.0.1"
+description = "Web framework for pythoneers"
+authors =[{title = "Vuyo Mama-Kgosiemang", email = "samkelokgosiemang100@gmail.com" }]
+requires-python = ">=3.8.10"
+readme = "README.md"
+urls = { github = "https://github.com/KeloDraken/aquilo" }
+license = { text = "GNU General Public License v3.0" }
+dependencies = [
+    "black",
+]
+
+[project.scripts]
+aquilo = "aquilo:main"
