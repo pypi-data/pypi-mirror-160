@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+conPOV/__init__.py
+conPOV/main.py
+conPov.egg-info/PKG-INFO
+conPov.egg-info/SOURCES.txt
+conPov.egg-info/dependency_links.txt
+conPov.egg-info/top_level.txt
