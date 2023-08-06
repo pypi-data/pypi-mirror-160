@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bep20/__init__.py
+bep20/token.py
+bep20/util.py
+bep20.egg-info/PKG-INFO
+bep20.egg-info/SOURCES.txt
+bep20.egg-info/dependency_links.txt
+bep20.egg-info/requires.txt
+bep20.egg-info/top_level.txt
+bep20/abi/BEP20.json
