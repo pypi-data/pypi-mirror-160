@@ -1,0 +1,11 @@
+prometheus_http_sd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prometheus_http_sd/app.py,sha256=KwLTJNXMou9Io33K4lQoI64AcClR23Xa7hbS8FsZ9_I,3045
+prometheus_http_sd/config.py,sha256=G-9_lqWy2nFCFdGWnwrRJ2awhss_xWlqYKizNXz-9wE,110
+prometheus_http_sd/sd.py,sha256=puXMWesqWamDQa93JCejEIdBZSKJxKmP8FT-3HeWM8A,3682
+prometheus_http_sd/targets.py,sha256=kARzDHQoULO4qa4fTl1OkRk-Hvh0PsPn1JESpRcx6nU,147
+prometheus_http_sd/version.py,sha256=OgfvlOui_Z4FwAja2bTJgiUkMeuAXZ561wYewaEr6SQ,18
+prometheus_http_sd-0.3.0.dist-info/entry_points.txt,sha256=9s7IVXA5_gJCp1DON_Ww4WF5bp4XDK31pGNVbreIQR8,66
+prometheus_http_sd-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+prometheus_http_sd-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+prometheus_http_sd-0.3.0.dist-info/METADATA,sha256=qeSiuu8-xQxCSO8aAi5hVYh9fYyAGN4YhrMGZisaoSw,5222
+prometheus_http_sd-0.3.0.dist-info/RECORD,,
