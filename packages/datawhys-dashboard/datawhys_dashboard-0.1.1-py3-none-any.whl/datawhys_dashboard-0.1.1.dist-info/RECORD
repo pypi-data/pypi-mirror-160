@@ -1,0 +1,8 @@
+datawhys_dashboard/__init__.py,sha256=iKco9qkpv21vaezLX1j22_qJsbvt1kNYiTW5KDyE4Wo,268
+datawhys_dashboard/_dashboards.py,sha256=Liqn8-zzHzThaRDBmqLcWBLyRC0Gc0LY6edom9ed_xw,1525
+datawhys_dashboard/api/__init__.py,sha256=nZzaTKXWZM9Ksauhk1dL7rOVn36dXuRL_68IUyyB3m8,36
+datawhys_dashboard/api/_base.py,sha256=cXpnGNL0krIzntWJVzGM_NEqFwT3x8LZYxnauYqy6zM,2533
+datawhys_dashboard/api/_portals.py,sha256=eVR6ybnyB70qgH2YUCnzmnjIyxAMDUXESrOLU-VzflY,452
+datawhys_dashboard-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+datawhys_dashboard-0.1.1.dist-info/METADATA,sha256=vqOJMz5ftSkLxa5sHJXv5wRIlXqY8gTJ3sfEW7lRce0,2103
+datawhys_dashboard-0.1.1.dist-info/RECORD,,
