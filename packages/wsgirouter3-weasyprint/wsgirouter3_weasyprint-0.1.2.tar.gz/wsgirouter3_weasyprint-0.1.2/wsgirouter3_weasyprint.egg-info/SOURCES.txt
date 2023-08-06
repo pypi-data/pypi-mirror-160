@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+wsgirouter3_weasyprint.py
+wsgirouter3_weasyprint.egg-info/PKG-INFO
+wsgirouter3_weasyprint.egg-info/SOURCES.txt
+wsgirouter3_weasyprint.egg-info/dependency_links.txt
+wsgirouter3_weasyprint.egg-info/top_level.txt

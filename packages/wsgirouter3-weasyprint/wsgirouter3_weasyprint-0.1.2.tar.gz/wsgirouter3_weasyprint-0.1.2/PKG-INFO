@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: wsgirouter3_weasyprint
+Version: 0.1.2
+Summary: WSGI routing library weasyprint plugin
+Home-page: https://github.com/andruskutt/wsgirouter3-weasyprint
+Author: Andrus Kütt
+Author-email: andrus.kuett@gmail.com
+License: MIT
+Keywords: web services
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# [Weasyprint](https://weasyprint.org/) plugin for [wsgirouter3](https://github.com/andruskutt/wsgirouter3)
+
+## Usage
+
+Configure application to use plugin
+
+```python
+def _generator(html_id: str, context: Any) -> str:
+    # your choice of template engine
+
+
+application = wsgirouter3.WsgiApp(router)
+wsgirouter3_weasyprint.install(
+    application,
+    wsgirouter3_weasyprint.PdfConfig(html_generator=_generator)
+)
+```
+
+Return instance of Pdf from endpoint
+
+```python
+@router.get('/get', produces='application/pdf')
+def get() -> Pdf:
+    html_generation_ctx = {'context': 'variable'}
+    return Pdf('html_template_id', html_generation_ctx)
+```
+
+## Installation
+
+```shell
+$ pip install wsgirouter3_weasyprint
+```
