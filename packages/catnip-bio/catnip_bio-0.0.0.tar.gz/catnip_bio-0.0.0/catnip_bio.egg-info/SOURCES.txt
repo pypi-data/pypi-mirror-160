@@ -1,0 +1,9 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+catnip_bio/__init__.py
+catnip_bio.egg-info/PKG-INFO
+catnip_bio.egg-info/SOURCES.txt
+catnip_bio.egg-info/dependency_links.txt
+catnip_bio.egg-info/top_level.txt
