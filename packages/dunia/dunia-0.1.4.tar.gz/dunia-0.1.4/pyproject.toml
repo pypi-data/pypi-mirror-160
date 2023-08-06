@@ -1,0 +1,72 @@
+[tool.poetry]
+authors = ["Danyal Zia Khan <danyal6870@gmail.com>"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Other Environment",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+description = "HTML parsing of JavaScript heavy websites using multiple backends (lxml, modest, playwright, etc.)."
+license = "MIT License"
+name = "dunia"
+readme = "README.md"
+version = "0.1.4"
+
+[tool.poetry.dependencies]
+async-timeout = "^4.0.2"
+backoff = "^2.1.2"
+charset-normalizer = "^2.1.0"
+cssselect = "^1.1.0"
+loguru = "^0.6.0"
+lxml = "^4.9.1"
+playwright = "^1.23.1"
+python = ">=3.10,<3.11"
+selectolax = "^0.3.7"
+throttler = "^1.2.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.6.0"
+ipykernel = "^6.15.1"
+ipython = "^8.4.0"
+isort = "^5.10.1"
+pre-commit = "^2.20.0"
+
+[tool.black]
+include = '\.py$'
+line-length = 88
+target_version = ['py310']
+
+[tool.isort]
+float_to_top = true
+include_trailing_comma = true # corresponds to -tc flag
+line_length = 88 # corresponds to -w  flag
+multi_line_output = 3 # corresponds to -m  flag
+profile = "black"
+skip_glob = ".venv, */build, */.git"
+
+[tool.pyright]
+exclude = ["**/node_modules", "**/__pycache__", "**/.venv"]
+include = ["."]
+stubPath = "stubs"
+venv = ".venv"
+
+reportImportCycles = true
+reportMissingImports = true
+reportMissingTypeStubs = false
+reportPrivateUsage = true
+reportUnknownArgumentType = true
+reportUnknownLambdaType = false
+reportUnknownMemberType = false
+reportUnknownParameterType = "warning"
+reportUnknownVariableType = "warning"
+reportUntypedFunctionDecorator = false
+reportUnusedImport = "warning"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
