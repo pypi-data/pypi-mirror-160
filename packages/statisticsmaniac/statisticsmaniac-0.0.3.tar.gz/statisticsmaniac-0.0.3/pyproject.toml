@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "statisticsmaniac"
+version = "0.0.3"
+authors = [
+  { name="Shreyansh Pathak", email="shreyanshpathak02@gmail.com" },
+]
+description = "A module which gives the stats of any random cricketer in form of pandas dataframe"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["requests",
+"bs4",
+"pandas",
+"lxml",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/shreyanshhub/cricketerstats"
+"Bug Tracker" = "https://github.com/shreyanshhub/cricketerstats/issues"
