@@ -1,0 +1,9 @@
+firstbatch/__init__.py,sha256=A4hHZWZVy7K6bbCptoN9pZVEAXr3d59JoYSd4DBxigo,236
+firstbatch/client.py,sha256=Diq2nB64ERW2aZPbuQ02bmNi37LdUnSGzDkY81Ztf00,2415
+firstbatch/request_handler.py,sha256=KgKFj4VDGSrWNzrS4T3LFAY3PMzpCbx2RnhjH1hJ8F0,2772
+firstbatch/utils.py,sha256=OdRvPbe20WFYprMN33wyYK8lSukdnrLLkO5ovLYUF_A,1305
+firstbatch_py-0.1.0.dist-info/LICENSE,sha256=nKDZYpduotlHfnNMfbn54gWo8qkU1MeiMYgX23LoPvQ,1075
+firstbatch_py-0.1.0.dist-info/METADATA,sha256=i6GPfKIK-RjJ-2yLp12rWkwrsM2RCCtf1jx9fexZ7pU,144
+firstbatch_py-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+firstbatch_py-0.1.0.dist-info/top_level.txt,sha256=EIcO3qac6aFqWYXxHDts73B80iMhZI3JCKEJyaHRoyU,11
+firstbatch_py-0.1.0.dist-info/RECORD,,
