@@ -1,0 +1,13 @@
+modelta/Pvalue.py,sha256=S1qAz2zP95MFo_wPXDdaPI7lBvMFLenUikUEDNMEnP0,20108
+modelta/ReadFile.py,sha256=O71fzq6rbHKRMxGkX_k84O-9plsGBvBpM7_axH1r52Q,3327
+modelta/__init__.py,sha256=kzwb43z6TupeVPYZEPffrKxrN4ewNghgDdMXRRcYXJI,28616
+modelta/__version__.py,sha256=8noFdo4cS67irRF60e_AVtngAFcsWGclrHXu0i0AR0w,73
+modelta/auxi.py,sha256=PdDzlHXtqXwCuAmbQ3Cz3PX3rLN6z206AVIPlZMrERU,475
+modelta/mDELTA.py,sha256=cp7Po4xY9lYAlU0hNUq3UJx9MWwoHnrnC4ewzz74Hdo,31434
+modelta/mymath.py,sha256=c_u2IbFuF6DbrTtMGFKVZ7ZJldP3sEoBxGEScJz5UtI,12056
+modelta/mytest.py,sha256=_LdM8ylcGk4kvz8wnbFd7J1hHcQ51-6v7Bb49Uo7kNM,66
+modelta-1.0.22.dist-info/LICENSE,sha256=5mGKT-8JivLkYytFwVxN4KGDFE_yBq8WU3VdjGwRQ7k,1060
+modelta-1.0.22.dist-info/METADATA,sha256=JtqHFAFg1DaY4LShwCfpqFU7KDTyjtMd4OSWJJM_CRc,30169
+modelta-1.0.22.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+modelta-1.0.22.dist-info/top_level.txt,sha256=I0vBP4IieHRfNh_At23CAMCAAiSCcSjcTy1MI-QD89E,8
+modelta-1.0.22.dist-info/RECORD,,
