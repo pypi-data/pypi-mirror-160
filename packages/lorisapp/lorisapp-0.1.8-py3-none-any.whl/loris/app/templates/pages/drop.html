@@ -1,0 +1,14 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Drop Tables or Delete multiple entries{% endblock %}
+{% block content %}
+
+<div class="page-header">
+    {% from 'macros/render_form.html' import drop_render_form %}
+    <h2> <a href={{url}}>Join/Download Tables</a> <h2>
+    <h6>
+        Drop Tables from the database or delete multiples entries from a table (administrator privileges required).
+    </h6>
+    {{ drop_render_form(form) }}
+</div>
+
+{% endblock %}
