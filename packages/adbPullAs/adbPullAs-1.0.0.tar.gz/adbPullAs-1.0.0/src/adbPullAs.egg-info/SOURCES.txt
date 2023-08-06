@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/adbPullAs/__init__.py
+src/adbPullAs.egg-info/PKG-INFO
+src/adbPullAs.egg-info/SOURCES.txt
+src/adbPullAs.egg-info/dependency_links.txt
+src/adbPullAs.egg-info/top_level.txt
