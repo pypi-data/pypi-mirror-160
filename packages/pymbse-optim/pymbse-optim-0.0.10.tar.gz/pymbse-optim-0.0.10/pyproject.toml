@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "pymbse-optim"
+version = "0.0.10"
+description = ""
+license = "MIT"
+readme = "README.md"
+authors = ["mmaciejewski <michal.maciejewski@ief.ee.ethz.ch>"]
+repository = "https://gitlab.cern.ch/chart-magnum/pymbse-commons"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Education",
+    "Operating System :: OS Independent",
+]
+packages = [
+    {include = "pymbse", from = "."}
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pymbse-commons = "^0.0.6"
+numpy = "^1.23.1"
+pydantic = "^1.9.1"
+pandas = "^1.4.3"
+requests = "^2.28.1"
+ipython = "^8.4.0"
+plotly = "^5.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pytest-mock = "^3.8.2"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
