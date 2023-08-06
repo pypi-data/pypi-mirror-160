@@ -1,0 +1,9 @@
+gis
+tags
+*.egg-info
+dist
+build
+*.pyc
+.env
+docs/_build
+test_env
