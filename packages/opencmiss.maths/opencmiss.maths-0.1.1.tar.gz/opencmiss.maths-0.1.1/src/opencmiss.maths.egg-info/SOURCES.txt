@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+src/opencmiss/__init__.py
+src/opencmiss.maths.egg-info/PKG-INFO
+src/opencmiss.maths.egg-info/SOURCES.txt
+src/opencmiss.maths.egg-info/dependency_links.txt
+src/opencmiss.maths.egg-info/not-zip-safe
+src/opencmiss.maths.egg-info/top_level.txt
+src/opencmiss/maths/__init__.py
+src/opencmiss/maths/algorithms.py
+src/opencmiss/maths/vectorops.py
