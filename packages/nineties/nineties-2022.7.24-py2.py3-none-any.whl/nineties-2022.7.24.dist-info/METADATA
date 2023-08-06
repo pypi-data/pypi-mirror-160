@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: nineties
+Version: 2022.7.24
+Summary: Ease the reading of relics from the Nineties.
+Home-page: https://git.sr.ht/~sthagen/nineties
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://todo.sr.ht/~sthagen/nineties
+Project-URL: Documentation, https://codes.dilettant.life/docs/nineties
+Project-URL: Source Code, https://git.sr.ht/~sthagen/nineties
+Project-URL: Test Coverage, https://codes.dilettant.life/coverage/nineties
+Keywords: developer-tools,sloc,taxonomies
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: faker (>=13.15.1)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# Nineties
+
+Ease the reading of relics from the Nineties.
+
+[License: MIT](https://git.sr.ht/~sthagen/nineties/tree/default/item/LICENSE)
+
+[![version](https://img.shields.io/pypi/v/nineties.svg?style=flat)](https://pypi.python.org/pypi/nineties/)
+[![downloads](https://img.shields.io/pypi/dm/nineties.svg?style=flat)](https://pypi.python.org/pypi/nineties/)
+[![wheel](https://img.shields.io/pypi/wheel/nineties.svg?style=flat)](https://pypi.python.org/pypi/nineties/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/nineties.svg?style=flat)](https://pypi.python.org/pypi/nineties/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/nineties.svg?style=flat)](https://pypi.python.org/pypi/nineties/)
+
+## Documentation
+
+User and developer [documentation of nineties](https://codes.dilettant.life/docs/nineties).
+
+## Bug Tracker
+
+Feature requests and bug reports are bested entered in the [todos of nineties](https://todo.sr.ht/~sthagen/nineties).
+
+## Primary Source repository
+
+The primary source repository of [nineties is at sourcehut](https://git.sr.ht/~sthagen/nineties)
+a collection of tools useful for software development.
+
+## Random Notes
+### What is in
+
+A small, maybe growing collection of parsers and filters
+to ease dealing with specific information structures that
+drop off of REST backends ;-)
+
+### What is out (for now)
+
+Everything else (for now)
+## Status
+
+Experimental
+
+**Note**: The default branch is `default`.
