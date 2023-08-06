@@ -1,0 +1,8 @@
+setup.py
+simpleaexec/__init__.py
+simpleaexec/do.py
+simpleaexec.egg-info/PKG-INFO
+simpleaexec.egg-info/SOURCES.txt
+simpleaexec.egg-info/dependency_links.txt
+simpleaexec.egg-info/requires.txt
+simpleaexec.egg-info/top_level.txt
