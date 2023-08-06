@@ -1,0 +1,4 @@
+acryl-datahub[datahub-kafka,datahub-rest]
+dagster==0.15.7
+packaging
+requests
