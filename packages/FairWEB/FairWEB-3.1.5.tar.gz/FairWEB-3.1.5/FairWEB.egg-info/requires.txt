@@ -1,0 +1,5 @@
+FairNLP>=1.5.1
+FairMongo>=2.1.3
+FairResources>=1.0.0
+beautifulsoup4==4.9.3
+newspaper3k==0.2.8
