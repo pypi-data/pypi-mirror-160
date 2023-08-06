@@ -1,0 +1,9 @@
+go/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+go/deploy.py,sha256=egwyY5mm864XedjlRb-398ZiTBalbi63lzSS4VLh_V8,4950
+go/utils.py,sha256=0utK3tL1QqLLqM3NdLFVg9mks9ex5ktjCLmTx_2qsMw,4517
+go_deploy-0.2.0.dist-info/LICENSE,sha256=O2isb-ule3q_7-MvLKrX9fSinHyoSsnhvimAcjnF0RU,1536
+go_deploy-0.2.0.dist-info/METADATA,sha256=MCBd-bwhKLMPa5OgKrpEVr_MpgnFvM-P5o1x51bDxnc,1162
+go_deploy-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+go_deploy-0.2.0.dist-info/entry_points.txt,sha256=MT_d5pPDcNMU3jkLk8vcZSi_iOv0TMyWW5AZxvd10VM,45
+go_deploy-0.2.0.dist-info/top_level.txt,sha256=wvw1XytS4B6mcNyLJ_HI86Jo1otLOZoM-RVEy5dXkt8,3
+go_deploy-0.2.0.dist-info/RECORD,,
