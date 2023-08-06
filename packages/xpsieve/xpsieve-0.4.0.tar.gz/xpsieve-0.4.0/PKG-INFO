@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xpsieve
+Version: 0.4.0
+Summary: Additions to pandas for experiments handling (e.g. pd.read_wandb)
+Author: Damien Sileo
+Author-email: damien.sileo@gmail.com
+Requires-Python: >=3.0,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
