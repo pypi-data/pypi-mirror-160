@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pynetflix/__init__.py
+pynetflix/configs.py
+pynetflix/main.py
+pynetflix/static.py
+pynetflix.egg-info/PKG-INFO
+pynetflix.egg-info/SOURCES.txt
+pynetflix.egg-info/dependency_links.txt
+pynetflix.egg-info/entry_points.txt
+pynetflix.egg-info/requires.txt
+pynetflix.egg-info/top_level.txt
