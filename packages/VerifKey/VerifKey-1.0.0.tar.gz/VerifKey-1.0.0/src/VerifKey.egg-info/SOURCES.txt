@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.cfg
+setup.py
+src/VerifKey.egg-info/PKG-INFO
+src/VerifKey.egg-info/SOURCES.txt
+src/VerifKey.egg-info/dependency_links.txt
+src/VerifKey.egg-info/entry_points.txt
+src/VerifKey.egg-info/requires.txt
+src/VerifKey.egg-info/top_level.txt
