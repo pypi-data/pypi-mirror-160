@@ -1,0 +1,3 @@
+[console_scripts]
+sure-trans=sure_trans.__main__:app
+
