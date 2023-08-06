@@ -1,0 +1,10 @@
+PMV.cp310-win_amd64.pyd,sha256=GA07td8LqtVMQWLEs9zOv_HXtIZvmxNMAVYBMnaQ38Y,74752
+SET.cp310-win_amd64.pyd,sha256=fK3_rJtBswSv2o2F90z4rNdYATbjv4cA19zerKLET4Y,72192
+Tmrt_calc.cp310-win_amd64.pyd,sha256=yfHjnYacoq1WBOmQE4rv_41oote1qpSE4jKvfBJ80tg,153600
+UTCI.cp310-win_amd64.pyd,sha256=k8N0TjK8Z7MDdjWqmWMN1quJ6SWqt1ciYq6FyN1Hmng,102912
+mPET.cp310-win_amd64.pyd,sha256=wGfwNLU-FbGlF4Zv6_W06SYwmU6KqL1sAJrclCM-j5U,921600
+pet.cp310-win_amd64.pyd,sha256=Jg7FSzlApr5wfMS1F6f34Azla3BUrhW7GE_gOt0n9Hk,133120
+biometeo-0.1.0.dist-info/METADATA,sha256=NoRJJnB0fkDtJqrxTOByvUk5V06vEMbkp2NpE393As0,701
+biometeo-0.1.0.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+biometeo-0.1.0.dist-info/top_level.txt,sha256=IprvGJv_anUpr5BnHRTX2jm-2D9d4TTvOef80Lwdiqk,32
+biometeo-0.1.0.dist-info/RECORD,,
