@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: retinapy
+Version: 0.0.1.dev8
+Summary: RetinaPy is a Python package for working with recordings of retina activity
+Author: Baden Lab members
+Author-email: kevin@kdoran.com
+License: BSD-3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
