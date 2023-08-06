@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pypylookup
+Version: 0.0.1
+Summary: Works similar to how Vlookup works in Excel
+Author: CreatorGhost (Aditya Pratap Singh)
+Author-email: <adityapratap2307@gmail.com>
+License: UNKNOWN
+Keywords: python,Excel,Vlookup,Lookup,dataframe
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+A package that allows to do Vlookup in different dataframe and intsert the output in the new dataframe
+

@@ -1,0 +1,8 @@
+setup.py
+pypylookup/__init__.py
+pypylookup/pypylookup.py
+pypylookup.egg-info/PKG-INFO
+pypylookup.egg-info/SOURCES.txt
+pypylookup.egg-info/dependency_links.txt
+pypylookup.egg-info/requires.txt
+pypylookup.egg-info/top_level.txt
