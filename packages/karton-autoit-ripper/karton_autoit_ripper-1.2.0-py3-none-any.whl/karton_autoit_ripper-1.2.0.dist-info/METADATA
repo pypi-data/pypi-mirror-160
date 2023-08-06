@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: karton-autoit-ripper
+Version: 1.2.0
+Summary: AutoIt script ripper for Karton framework
+Home-page: https://github.com/CERT-Polska/karton-autoit-ripper/
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: autoit-ripper (==1.1.0)
+Requires-Dist: karton-core (<6.0.0,>=5.0.0)
+Requires-Dist: malduck (==4.1.0)
+Requires-Dist: regex (==2020.2.20)
+
+# AutoIt-Ripper karton service
+
+Uses [AutoIt-Ripper](https://github.com/nazywam/AutoIt-Ripper) to automatically extract embedded AutoIt scripts and resources from compiled binaries.
+
+**Author**: CERT.pl
+
+**Maintainers**: nazywam
+
+**Consumes:**
+```json
+{
+    "type": "sample",
+    "stage": "recognized",
+    "kind": "runnable",
+    "platform": "win32"
+}, {
+    "type": "sample",
+    "stage": "recognized",
+    "kind": "runnable",
+    "platform": "win64"
+}
+```
+
+**Produces:**
+```json
+{
+    "type": "sample",
+    "kind": "raw"
+}, {
+    "type": "sample",
+    "kind": "script",
+    "stage": "analyzed",
+    "extension": "au3",
+}
+```
+
+## Usage
+
+First of all, make sure you have setup the core system: https://github.com/CERT-Polska/karton
+
+Then install karton-autoit-ripper from PyPi:
+
+```shell
+$ pip install karton-autoit-ripper
+
+$ karton-autoit-ripper
+```
+
+![Co-financed by the Connecting Europe Facility by of the European Union](https://www.cert.pl/uploads/2019/02/en_horizontal_cef_logo-e1550495232540.png)
+
+
