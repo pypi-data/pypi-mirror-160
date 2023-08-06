@@ -1,0 +1,11 @@
+scrapinghelper/__init__.py,sha256=bsBoEIq9uWVuVZSJMWZyVP4nxC6YbWkwFiAUzUfVWWc,246
+scrapinghelper/logging.py,sha256=IqqC7EFpOTi50ZjhhsH-gXarxXIaYZgFBOOgVBA8DDA,1308
+scrapinghelper/scraper.py,sha256=BSHjC8foOgSd4bayX6qb7McC2RXVr5unvbVYhLmM4Ks,11614
+scrapinghelper/url.py,sha256=aODaVLidc68hgcPjyN9ljKUH8IbP2QTEVaFeOcOrLTY,13427
+scrapinghelper/versions.py,sha256=X9cMP1aHugMm3Eq0HaJw5DRCQPyMNhEwJDReL9qeUf4,74
+scrapinghelper/data/user_agents.csv,sha256=-uNfdvXBJvZcpVx32PbLVI5B2Zpb-b6bpbSlY46fOlo,5278193
+scrapinghelper-0.3.4.dist-info/LICENSE,sha256=56Se6nY3_l30xFuZDFX1THfaataxgy3S5_JnHK0d-_E,1079
+scrapinghelper-0.3.4.dist-info/METADATA,sha256=DeW5oRRbfROmZkgY6R6AHgXjpnedYLXQoLOYgJsTWPY,7590
+scrapinghelper-0.3.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scrapinghelper-0.3.4.dist-info/top_level.txt,sha256=LWYUk3o8onu7gZEeheVcyHwKujPMEEY64pMMT4UBj3Y,15
+scrapinghelper-0.3.4.dist-info/RECORD,,
