@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-mogdb
+Version: 0.1.2
+Summary: Enmotech MogDB Dialect for SQLAlchemy
+Home-page: https://gitee.com/enmotech/sqlalchemy-mogdb
+Author: Enmotech
+Maintainer: Vimiix
+Maintainer-email: i@vimiix.com
+License: MIT
+Keywords: Enmotech MogDB
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sqlalchemy-mogdb
+
+Enmotech MogDB 数据库适配 SQLAlchemy 的连接器.
+
+## 前置工作
+
+在使用 sqlalchemy-mogdb 之前，需要提前安装适用于 MogDB 数据库的 [psycopg2](https://gitee.com/opengauss/openGauss-connector-python-psycopg2) 驱动才能正常工作。
+
+安装方式:
+
+1. 软件下载：
+
+    openEuler-aarch64: [openGauss-3.0.0-openEuler-aarch64-Python.tar.gz](https://opengauss.obs.cn-south-1.myhuaweicloud.com/latest/arm/openGauss-3.0.0-openEuler-aarch64-Python.tar.gz)
+
+    CentOS-x86_64: [openGauss-3.0.0-CentOS-x86_64-Python.tar.gz](https://opengauss.obs.cn-south-1.myhuaweicloud.com/latest/x86/openGauss-3.0.0-CentOS-x86_64-Python.tar.gz)
+
+    openEuler-x86_64: [openGauss-3.0.0-openEuler-x86_64-Python.tar.gz](https://opengauss.obs.cn-south-1.myhuaweicloud.com/latest/x86_openEuler/openGauss-3.0.0-openEuler-x86_64-Python.tar.gz)
+
+2. 解压安装包，得到两个目录 `lib` 和 `psycopg2`
+
+3. 安装
+    将 `psycopg2` 文件夹整个拷贝到你对应的 python 解释器的 `site-packages` 目录下
+
+    > 查找 `site-packages` 目录所在位置的方式，在终端执行下面的代码（注意你要找的是 python3 的话，使用 python3 执行）：
+    >
+    > ```bash
+    > python -c "from distutils.sysconfig import get_python_lib;print(get_python_lib())"
+    > # output: /usr/lib/python3.7/site-packages
+    > ```
+
+    拷贝方式：
+
+    ```bash
+    cp -r psycopg2 [/path/to/site-packages/]
+    ```
+
+    修改包的权限，允许其他用户引用
+
+    ```bash
+    chmod -R 755 [/path/to/site-packages/]psycopg2
+    ```
+
+4. 设置 LD_LIBRARY_PATH 环境变量
+
+    将解压后的 `lib` 目录放到任意目录，然后拷贝路径（假设存放位置为: `/usr/local/share/psycopg2/lib`）
+
+    设置环境变量：
+
+    ```bash
+    echo "export LD_LIBRARY_PATH=/usr/local/share/psycopg2/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
+    source ~/.bashrc
+    ```
+
+## 安装 sqlalchemy-mogdb
+
+### 在线安装
+
+该包可在PyPI上在线安装:
+
+```shell
+    pip install sqlalchemy-mogdb
+```
+
+安装完成后即可使用。
+
+### 离线安装
+
+1. 安装 sqlalchemy
+
+    下载对应系统版本的 whl 文件: [https://github.com/sqlalchemy/sqlalchemy/releases](https://github.com/sqlalchemy/sqlalchemy/releases)
+
+    下载后执行 pip 安装： `pip install xxx.whl`
+
+2. 安装 sqlalchemy_mogdb
+
+    下载 sqlalchemy_mogdb 源码文件: [https://pypi.org/project/sqlalchemy-mogdb/#files](https://pypi.org/project/sqlalchemy-mogdb/#files)
+
+    解压后进入源码目录，执行 `python setup.py install`
+
+## 用法
+
+DSN 格式与 Postgres 类似:
+
+```python
+>>> import sqlalchemy as sa
+>>> sa.create_engine('mogdb+psycopg2://username:password@ip:26000/database')
+Engine(mogdb+psycopg2://username@ip:26000/database)
+```

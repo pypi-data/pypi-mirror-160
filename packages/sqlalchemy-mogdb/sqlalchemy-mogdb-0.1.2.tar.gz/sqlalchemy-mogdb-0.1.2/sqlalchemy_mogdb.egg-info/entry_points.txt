@@ -1,0 +1,4 @@
+[sqlalchemy.dialects]
+mogdb = sqlalchemy_mogdb.dialect:MogDBDialect_psycopg2
+mogdb.psycopg2 = sqlalchemy_mogdb.dialect:MogDBDialect_psycopg2
+mogdb.psycopg2cffi = sqlalchemy_mogdb.dialect:MogDBDialect_psycopg2cffi
