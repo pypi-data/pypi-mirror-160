@@ -1,0 +1,3 @@
+graft src/erc1820_predeployed/artifacts
+include src/erc1820_predeployed/py.typed
+include version.txt
