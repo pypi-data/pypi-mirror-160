@@ -1,0 +1,3 @@
+dist
+example
+sphinx_redirect_by_id
