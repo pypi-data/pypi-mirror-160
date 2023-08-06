@@ -1,0 +1,11 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+license.txt
+setup.py
+apbot/__init__.py
+apbot.egg-info/PKG-INFO
+apbot.egg-info/SOURCES.txt
+apbot.egg-info/dependency_links.txt
+apbot.egg-info/requires.txt
+apbot.egg-info/top_level.txt
