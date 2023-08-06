@@ -1,0 +1,3 @@
+[console_scripts]
+toStandalone = pystandalonehtml.cli:main
+
