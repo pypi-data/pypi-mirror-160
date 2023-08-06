@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ai-services
+Version: 0.1.0
+Summary: A simple web framework based on Sanic
+Author: nuxion
+Author-email: nuxion@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: sanic[ext] (>=22.6.0,<23.0.0)

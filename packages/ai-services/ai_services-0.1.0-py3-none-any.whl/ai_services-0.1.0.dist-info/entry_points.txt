@@ -1,0 +1,3 @@
+[console_scripts]
+srv=services.cli:cli
+
