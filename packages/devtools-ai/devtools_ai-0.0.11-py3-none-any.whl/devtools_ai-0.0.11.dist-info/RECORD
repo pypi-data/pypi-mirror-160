@@ -1,0 +1,10 @@
+devtools_ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devtools_ai/appium.py,sha256=ZzN79f-BtM2Zt72r-gI6Dq7R-rCq8t6xoL4kPcR4ZJY,8996
+devtools_ai/selenium.py,sha256=FZQvrv5qq1zfFN-B3iJNWc9aiZCu8hYL8Q-GBphgJ6Q,12587
+devtools_ai/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devtools_ai/utils/selenium_core.py,sha256=cPhY0Eq6iFxw3zFN-BK0f7TE2ixT_IrrC0y1FJ8Hv9k,21699
+devtools_ai-0.0.11.dist-info/LICENSE.md,sha256=L1ZmxdwJ1H_bDel74hZCri64rZTTzWEI6vt3jBs7pgk,9143
+devtools_ai-0.0.11.dist-info/METADATA,sha256=ZOr9fqHAlSUD0cbvw686CCD4liRaM_8pEpEzVdiZXPs,2952
+devtools_ai-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+devtools_ai-0.0.11.dist-info/top_level.txt,sha256=cng0i0jz3RsXuItO_ZovEp5b4gOm-r_3OvNragYC_VQ,12
+devtools_ai-0.0.11.dist-info/RECORD,,
