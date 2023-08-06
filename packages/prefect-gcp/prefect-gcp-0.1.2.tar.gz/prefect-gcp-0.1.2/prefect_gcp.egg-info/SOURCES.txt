@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+prefect_gcp/__init__.py
+prefect_gcp/_version.py
+prefect_gcp/bigquery.py
+prefect_gcp/cloud_storage.py
+prefect_gcp/credentials.py
+prefect_gcp/secret_manager.py
+prefect_gcp.egg-info/PKG-INFO
+prefect_gcp.egg-info/SOURCES.txt
+prefect_gcp.egg-info/dependency_links.txt
+prefect_gcp.egg-info/requires.txt
+prefect_gcp.egg-info/top_level.txt
