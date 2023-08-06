@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: neurettes
+Version: 0.0.1
+Summary: a library for building neural networks
+Home-page: UNKNOWN
+Author: sairbarbaros(Barbaros Şair)
+Author-email: sairbarbaros@gmail.com
+License: MIT
+Keywords: neural networks
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires: n
+Requires: u
+Requires: m
+Requires: p
+Requires: y
+License-File: LICENSE.txt
+
+This is a neural network library for python.
+It is written by me, and only uses numpy library.
+You can try your model and test its accuracy, also you can see how neural networks are built from zero.
+
+
+Change Log
+==========
+
+0.0.1 (23.07.2022)
+-------------------
+-First Release:
+    +Includes few improvements and regularization option
+
+
