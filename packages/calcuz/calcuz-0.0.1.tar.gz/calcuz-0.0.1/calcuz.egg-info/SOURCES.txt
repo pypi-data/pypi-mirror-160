@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+calcuz.egg-info/PKG-INFO
+calcuz.egg-info/SOURCES.txt
+calcuz.egg-info/dependency_links.txt
+calcuz.egg-info/top_level.txt

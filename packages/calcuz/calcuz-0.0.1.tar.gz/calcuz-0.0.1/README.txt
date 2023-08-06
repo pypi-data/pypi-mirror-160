@@ -1,0 +1,1 @@
+Bu juda sodda,konsolli oddiy qo'shish,ayirish,bo'lish va ko'paytirish amallarini bajaradigan kalkulator.
