@@ -1,0 +1,6 @@
+transformers>=4.2
+torch
+dacite
+
+[:python_version < "3.7"]
+dataclasses
