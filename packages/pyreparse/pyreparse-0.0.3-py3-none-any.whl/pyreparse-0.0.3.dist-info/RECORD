@@ -1,0 +1,10 @@
+pyreparse/PyReParse.py,sha256=xxx-GUW5L4H_MwnSogeqOot3btk-SsoH5hb4-cnWg68,23431
+pyreparse/__init__.py,sha256=L2NmslhiVJIUsmZ1h9JXsT-OndK1EboVl23v2DGkihQ,42
+pyreparse/example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyreparse/example/pyreparse_example.py,sha256=Dmi5El6aPM4lNV9C0RiSgZwJyZsJDjz_Vvp3R1PnNl0,10272
+pyreparse/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyreparse/tests/test_pyreparse.py,sha256=OGOyKg7Mk2yRvlyH5_prxf8rLXc46ZogX3phKxLUjNw,14983
+pyreparse-0.0.3.dist-info/METADATA,sha256=1J2PzvOVktv-lEE7_MhvdBQrciEo2AVvGuPY3oiTi1Y,21724
+pyreparse-0.0.3.dist-info/WHEEL,sha256=liJPdWJO-LaTaS3jCRTQCzug2NduIeDTswBay6mhVX8,86
+pyreparse-0.0.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyreparse-0.0.3.dist-info/RECORD,,
