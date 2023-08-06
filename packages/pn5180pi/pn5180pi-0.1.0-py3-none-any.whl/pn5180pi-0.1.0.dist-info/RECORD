@@ -1,0 +1,8 @@
+pn5180/__init__.py,sha256=Q3UCBxpqeBaiKpehL8B1ZDUGEb0_gOX_Jzmoka1hihY,49
+pn5180/__main__.py,sha256=ndeAdsKpxhSCEtAuCCVwgXmjqqyUiqVA_NpuT2Y9pno,227
+pn5180/definitions.py,sha256=YYaLnMreCw8BTug2D8TgxyAogP4KIlHVZn_poJvO_1A,3175
+pn5180/sensor.py,sha256=Q_sG_JD8-aRIN79SdpoHH1AU7FacRzXvhvPqHhbCGa8,4517
+pn5180pi-0.1.0.dist-info/WHEEL,sha256=yeUPXbjHZ9L_W7c-3WOvRilLHys4L6b4CnlTTUzMMUo,87
+pn5180pi-0.1.0.dist-info/METADATA,sha256=9DJMGtAwE1h4TX8v6k4-pGGg6GLi-ZPUz7zV5FkR0DQ,390
+pn5180pi-0.1.0.dist-info/license_files/LICENSE,sha256=kZDo3tIREU_U2GNaNVFlMEcIp_yd0-m6mnWWn9Snd7w,1075
+pn5180pi-0.1.0.dist-info/RECORD,,
