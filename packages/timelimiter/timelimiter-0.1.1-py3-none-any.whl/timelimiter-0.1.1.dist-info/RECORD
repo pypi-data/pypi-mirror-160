@@ -1,0 +1,11 @@
+timelimiter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timelimiter/counter.py,sha256=L4EwzmvHkNUl9IZwfa4k95HzkRWclsEcV4Mb5T5q5sU,332
+timelimiter/event_loop.py,sha256=E6SAF5X19ILVz32aqU02W7Dyuh-L5le0m0C3aphfi2w,1311
+timelimiter/exceptions.py,sha256=R22LHjVdvujJAgPhn23bXfCbxC3HKACmUeMIpIGuilM,177
+timelimiter/time_limiter.py,sha256=V5fgDhYNOTNRs4TRvEkMBMczk3ySCUzwtgviuYSiWfI,2064
+timelimiter/timeout_handler.py,sha256=V_bDTTvMpQ-cuK7Qz5c8p1mxKERtH09jo9R90mqQROM,3127
+timelimiter-0.1.1.dist-info/LICENSE,sha256=DBMPUBLpi593c8U8D7LssKHXSinLfPbt-bTfTuxNfvM,1066
+timelimiter-0.1.1.dist-info/METADATA,sha256=OE_K4-jQN-MFIDzS37f8TjkYoIGsDzWMwRlpVzEEXSw,5184
+timelimiter-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+timelimiter-0.1.1.dist-info/top_level.txt,sha256=Fhdei4lye00DKNP3_zoT99Vhg7468t5IpkHK1PYL8G4,12
+timelimiter-0.1.1.dist-info/RECORD,,
