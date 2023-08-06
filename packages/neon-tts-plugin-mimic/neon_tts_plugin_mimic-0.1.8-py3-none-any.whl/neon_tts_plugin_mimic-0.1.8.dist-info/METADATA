@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: neon-tts-plugin-mimic
+Version: 0.1.8
+Summary: mimic tts plugin for NeonCore
+Home-page: https://github.com/NeonGeckoCom/neon-tts-plugin-mimic
+Author: NeonGecko
+Author-email: developers@neon.ai
+License: Apache-2.0
+Keywords: neon mycroft plugin tts OVOS OpenVoiceOS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ovos-plugin-manager (~=0.0.16)
+Requires-Dist: ovos-utils (~=0.0.15)
+
+## Description
+
+Neon TTS plugin for [Mimic](https://github.com/MycroftAI/mimic1)
+
+## Install
+
+`pip install neon-tts-plugin-mimic`
+
+you can either [compile](https://github.com/MycroftAI/mycroft-core/blob/dev/scripts/install-mimic.sh) [mimic](https://github.com/MycroftAI/mimic1) or use [forslund's repo](https://forslund.github.io/mycroft-desktop-repo/)
+
+## Configuration
+
+if mimic is available system wide you just need to specify a voice
+
+```json
+  "tts": {
+    "module": "neon_tts_mimic",
+    "neon_tts_mimic": {
+      "voice": "ap",
+    }
+  }
+```
+
+
+### Advanced config
+
+voices can be urls, file paths, or included voices, you can find compatible festvox voices [here](http://www.festvox.org/flite/packed/flite-2.0/voices/)
+
+You can also specify the mimic binary location
+
+```json
+  "tts": {
+    "module": "neon_tts_mimic",
+    "neon_tts_mimic": {
+      "voice": "http://www.festvox.org/flite/packed/flite-2.0/voices/cmu_us_fem.flitevox",
+      "binary": "~/mimic1/mimic"
+    }
+  }
+
+```
+
+Mycroft premium subscribers have access to a female voice called trinity
+This voice is actually a pre compiled mimic binary with the voice included
+
+The plugin should automatically detect this binary and use it, but you can 
+also specify the binary location directly
+
+If you are a subscriber the voice should have been downloaded to `/opt/mycroft/voices/mimic_tn`
+
+```json
+  "tts": {
+    "module": "neon_tts_mimic",
+    "neon_tts_mimic": {
+      "voice": "trinity",
+      "binary": "/opt/mycroft/voices/mimic_tn"
+    }
+  }
+
+```
+

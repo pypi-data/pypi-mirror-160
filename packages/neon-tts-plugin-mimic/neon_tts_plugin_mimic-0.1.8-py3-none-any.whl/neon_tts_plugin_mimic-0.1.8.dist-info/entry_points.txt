@@ -1,0 +1,3 @@
+[mycroft.plugin.tts]
+neon_tts_mimic = neon_tts_plugin_mimic:MimicTTSPlugin
+
