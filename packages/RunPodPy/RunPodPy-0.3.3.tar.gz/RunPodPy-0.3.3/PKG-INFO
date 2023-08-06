@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: RunPodPy
+Version: 0.3.3
+Summary: A Python API Wrapper and CLI for RunPod.io
+Author-email: Opentensor Foundation <cameron@opentensor.ai>
+License: The MIT License (MIT)
+        Copyright © 2022 Opentensor Foundation
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+        documentation files (the “Software”), to deal in the Software without restriction, including without limitation 
+        the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
+        and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of 
+        the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+        THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+        THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION 
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+        DEALINGS IN THE SOFTWARE.
+Project-URL: Homepage, https://github.com/opentensor/RunPodPy
+Keywords: runpod,wrapper,api
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# RunPodPy
+Version 0.3.3
+
+RunPodPy is an unofficial python API wrapper and CLI for https://runpod.io/
+
+## Usage
+`$ python3 -m runpodpy`  
+usage: runpodpy [-h] [--debug] [--config_file CONFIG_FILE] [--runpod_api.URL RUNPOD_API.URL] [--runpod_api.API_KEY RUNPOD_API.API_KEY]
+                {stop,destroy,terminate,start,run,resume,create,list} ...
+
+RunPodPy v0.3.2
+
+commands:
+  {stop,destroy,terminate,start,run,resume,create,list}
+    stop                Stop a pod
+    destroy (terminate)
+                        Destroy a pod
+    start (run, resume)
+                        Start a pod
+    create              Create a pod
+    list                List pods
+
+options:
+  -h, --help            show this help message and exit
+  --debug               Enable debug logging
+  --config_file CONFIG_FILE
+                        Path to config file
+  --runpod_api.URL RUNPOD_API.URL, --URL RUNPOD_API.URL
+                        Base URL of runpod api
+  --runpod_api.API_KEY RUNPOD_API.API_KEY, --API_KEY RUNPOD_API.API_KEY
+                        Your RunPod.io api key
