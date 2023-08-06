@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: encodec
+Version: 0.0.0
+Summary: Deep learning based audio codec
+Home-page: https://github.com/facebookresearch/encodec
+Author: Alexandre Défossez
+Author-email: defossez@fb.com
+License: Creative Commons Attribution-NonCommercial 4.0 International
+Platform: UNKNOWN
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+
+Deep learning based audio codec
+

@@ -1,0 +1,6 @@
+encodec.py
+setup.py
+encodec.egg-info/PKG-INFO
+encodec.egg-info/SOURCES.txt
+encodec.egg-info/dependency_links.txt
+encodec.egg-info/top_level.txt
