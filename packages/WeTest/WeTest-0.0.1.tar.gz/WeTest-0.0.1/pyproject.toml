@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "WeTest"
+version = "0.0.1"
+authors = [{ name="Huabo He", email="hhbstar@hotmail.com" }]
+description = "SDK For Test Automation"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/baiyyee/WeTest"
+"Issues" = "https://github.com/baiyyee/WeTest/issues"
