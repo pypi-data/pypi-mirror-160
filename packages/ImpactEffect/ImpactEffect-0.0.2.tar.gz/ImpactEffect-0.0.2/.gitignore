@@ -1,0 +1,11 @@
+.vscode/
+*.egg-info
+origin
+.eggs
+.idea
+test/__pycache__
+*/__pycache__/
+*/*/__pycache__/
+dist/*
+.pytest_cache/
+test/cgi-bin
