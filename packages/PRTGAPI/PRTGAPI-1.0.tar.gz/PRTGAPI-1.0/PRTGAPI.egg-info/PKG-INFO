@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: PRTGAPI
+Version: 1.0
+Summary: A package meant to make interfacing with the PRTG API more simple.
+Home-page: 
+Author: The-Captain8
+Author-email: 
+License-File: LICENSE
