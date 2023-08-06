@@ -1,0 +1,3 @@
+[gui_scripts]
+cyla = cyla_mixture.application:main
+
