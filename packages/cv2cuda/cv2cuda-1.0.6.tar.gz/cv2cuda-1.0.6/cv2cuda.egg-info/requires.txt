@@ -1,0 +1,9 @@
+opencv-python>=3.4.8.29
+psutil
+
+[profile]
+pynvml
+numpy
+
+[test]
+progressbar
