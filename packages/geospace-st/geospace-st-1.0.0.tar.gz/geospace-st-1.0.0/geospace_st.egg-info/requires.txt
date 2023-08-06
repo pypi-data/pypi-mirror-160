@@ -1,0 +1,14 @@
+scanpy
+squidpy
+matplotlib
+seaborn
+pandas
+scikit-learn
+python-igraph
+numpy
+scipy
+leidenalg
+mygene
+anndata
+statsmodels
+shapely
