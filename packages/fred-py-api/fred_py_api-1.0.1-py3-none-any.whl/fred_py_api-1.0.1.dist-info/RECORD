@@ -1,0 +1,16 @@
+fred/__init__.py,sha256=xFkyI2Fg6wUvy2HaMtfjWn0Z_jLIk0Os_LZt2-JVbF8,75
+fred/_util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fred/_util/decorators.py,sha256=z20oFOvrrHeRsDPdc8jgNz6LG-cM3vgx1EhD2NXGJ78,589
+fred/api/__init__.py,sha256=FzzQiGaTpwAqjlYDrjJ-zmPxFp_pFAPn_VSxArSYRh0,717
+fred/api/_fred_client.py,sha256=qlOYtMh0HhlNpWNQXLp2fdV1ySYUO5O5RgAW-bBP49E,2053
+fred/api/categories.py,sha256=_xb_1CONEuKRrNTeeMLOks_p-nsjjF3xCsNo-wFpHDM,4679
+fred/api/exceptions.py,sha256=oSXRgNLzeRkpvS-Sd30wRSr3GnZCp65RixihhK0W_-E,631
+fred/api/releases.py,sha256=wJ7VfB53dirJClaj0QihIG1UukGPyXRe3eDupSauvXI,6462
+fred/api/series.py,sha256=ygYfaMKAoefDKVbOC-O0gwdPyzY6nr-68CL2Tt8St58,7562
+fred/api/sources.py,sha256=F2sf4WwX-QtYN_WoRuHw9Zsxf6Bi4whL4oguAyNyJrU,1973
+fred/api/tags.py,sha256=ieqtyLRSCtmZZ_-fdS6u18y8mFIotU2khSg6mtmpbR4,2345
+fred_py_api-1.0.1.dist-info/LICENSE,sha256=HGFuQPt9ld5Z2l4xAv22uJNpMLtIf6H80ewJZDEds_A,1068
+fred_py_api-1.0.1.dist-info/METADATA,sha256=oYcFYneifOitapgUNCuB955XBlu_7FTQBAY_8T78zVQ,1714
+fred_py_api-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fred_py_api-1.0.1.dist-info/top_level.txt,sha256=amdkZ5b-sD33wi769YgrltKPSlpOVT-7V5pBT3wWcb4,5
+fred_py_api-1.0.1.dist-info/RECORD,,
