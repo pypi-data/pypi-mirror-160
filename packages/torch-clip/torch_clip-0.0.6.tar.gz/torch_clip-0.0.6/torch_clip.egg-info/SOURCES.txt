@@ -1,0 +1,13 @@
+README.md
+setup.py
+torch_clip/__init__.py
+torch_clip/clip_classes.py
+torch_clip/optimizers.py
+torch_clip/optimizers_collector.py
+torch_clip/plot_maker.py
+torch_clip/restarter.py
+torch_clip/utils.py
+torch_clip.egg-info/PKG-INFO
+torch_clip.egg-info/SOURCES.txt
+torch_clip.egg-info/dependency_links.txt
+torch_clip.egg-info/top_level.txt

@@ -1,0 +1,66 @@
+# TorchClippedOptimizers
+
+`torch-clip` a library to improve optimization methods by clipping off heavy-tailed gradient. This makes it possible to increase the accuracy and speed of convergence during the training of neural networks on a specific number of tasks.
+
+### Installation
+you can install our library using pip:  
+`pip install torch-clip`  
+```requirements.txt
+numpy~=1.20.0
+torch~=1.11.0+cu113
+matplotlib~=3.4.3
+tqdm~=4.62.3
+```
+
+### What do you need us for?
+In the last few years, for various neural network training models (for example, BERT + CoLA), it has been found that in the case of "large stochastic gradients", it is advantageous to use special clipping (clipping/normalization) of the batched gradient. Since all modern machine learning, one way or another, ultimately boils down to stochastic optimization problems, the question of exactly how to "clip" large values of batched gradients plays a key role in the development of effective numerical training methods for a large class of models. This repository implements optimizers for the pytorch library with different clipping methods.
+
+### Our repository
+The source code and research results can be found at the link:
+https://github.com/EugGolovanov/TorchClippedOptimizers
+
+### Use example  
+You can use our optimizers as well as all the standard optimizers from the pytorch library  
+```python
+from torch_clip.optimizers import  ClippedSGD
+optimizer = ClippedSGD(model.parameters(), lr=5e-2, momentum=0.9, clipping_type="layer_wise", clipping_level=1)
+
+loss = my_loss_function
+for epoch in range(EPOCHS):
+    for i, data in enumerate(train_loader, 0):
+        outputs = net(inputs)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
+        optimizer.zero_grad()
+```
+
+<br>
+<br>
+
+### Use example (with restarts)
+
+```python
+from torch_clip.optimizers import ClippedSGD
+from torch_clip.restarter import Restarter
+from torch_clip.optimizers_collector import OptimizerProperties, ModelProperties, RestartProperties
+
+loss = my_loss_function
+model = my_model_object
+
+optimizer_props = OptimizerProperties(ClippedSGD, lr=5e-2, momentum=0.9, 
+                                      clipping_type="layer_wise", clipping_level=1)
+restarter = Restarter(optimizer_properties=optimizer_props, first_restart_steps_cnt=50,
+                      restart_coeff=1.25, max_steps_cnt=2000)
+optimizer = optimizer_props.optimizer_class(model.parameters(), **optimizer_props.optimizer_kwargs)
+
+for epoch in range(EPOCHS):
+    for i, data in enumerate(train_loader, 0):
+        outputs = model(inputs)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
+        optimizer.zero_grad()
+        restarter.add_coords(model.parameters())
+        optimizers = restarter.make_restart(net, optimizer)
+```
