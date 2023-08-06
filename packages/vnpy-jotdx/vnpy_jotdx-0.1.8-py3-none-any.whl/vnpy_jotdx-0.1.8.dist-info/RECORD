@@ -1,0 +1,5 @@
+vnpy_jotdx/__init__.py,sha256=tfiWSDmT0HtlrEC0JBW96UtHvz-zWHPAjOyF87-Uumk,72
+vnpy_jotdx/datafeed.py,sha256=vcIEidjY1B22xStJ9S2RZZpnZgcwLpaRBDhcEmO92oQ,13261
+vnpy_jotdx-0.1.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+vnpy_jotdx-0.1.8.dist-info/METADATA,sha256=4PvQTU5nqh-SKcZ1dl_2bl0RF2ur02ByyeE2SigTd2A,434
+vnpy_jotdx-0.1.8.dist-info/RECORD,,
