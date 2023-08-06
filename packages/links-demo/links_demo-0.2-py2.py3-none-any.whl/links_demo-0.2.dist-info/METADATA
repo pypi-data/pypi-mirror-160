@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: links-demo
+Version: 0.2
+Summary: Sample package for testing PyPI links.
+Author-email: Patrick Arminio <patrick.arminio@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# PyPI demo package for testing links
+
