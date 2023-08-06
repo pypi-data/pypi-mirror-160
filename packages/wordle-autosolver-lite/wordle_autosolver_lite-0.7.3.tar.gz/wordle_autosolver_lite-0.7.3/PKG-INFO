@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: wordle_autosolver_lite
+Version: 0.7.3
+Summary: A Wordle solver that can generate optimal decision trees
+Home-page: https://github.com/pueblak/wordle-autosolver-lite
+Author: Kody Puebla
+Author-email: pueblakody@gmail.com
+License: GPL-3.0
+Keywords: wordle,solve,solver,lite,optimize,optimal,best,dordle,quordle,octordle,duotrigordle,fibble,wordzy
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Games/Entertainment
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# Wordle Solver Lite
+## A python package designed to solve the Wordle word-guessing game and many of its variants.
+
+## Setup
+You may download and install this package using pip
+```bash
+pip install wordle-autosolver-lite
+```
+
+## Usage
+For more details on how to use this program, please refer to the original `wordle-autosolver` [ [PyPi](https://pypi.org/project/wordle-autosolver/) | [Git](https://github.com/pueblak/wordle-autosolver) ]. This package is a simplified version of `wordle-autosolver` that behaves exactly the same but does not allow use of the "auto", "quiet", or "light" flags.

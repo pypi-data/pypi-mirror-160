@@ -1,0 +1,2 @@
+[console_scripts]
+wordle_autosolver_lite = wordle_autosolver_lite.driver:main
