@@ -1,0 +1,7 @@
+README.md
+setup.py
+pewpew/__init__.py
+pewpew.egg-info/PKG-INFO
+pewpew.egg-info/SOURCES.txt
+pewpew.egg-info/dependency_links.txt
+pewpew.egg-info/top_level.txt
