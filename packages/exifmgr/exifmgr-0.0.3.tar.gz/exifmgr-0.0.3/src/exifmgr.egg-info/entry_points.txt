@@ -1,0 +1,2 @@
+[console_scripts]
+exifmgr = exifmgr.runner:run
