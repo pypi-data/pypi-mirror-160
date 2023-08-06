@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-czann-segment = napari_czann_segment:napari.yaml
