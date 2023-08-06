@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_unrest_schema.egg-info/PKG-INFO
+django_unrest_schema.egg-info/SOURCES.txt
+django_unrest_schema.egg-info/dependency_links.txt
+django_unrest_schema.egg-info/requires.txt
+django_unrest_schema.egg-info/top_level.txt
+unrest_schema/__init__.py
+unrest_schema/http.py
+unrest_schema/pagination.py
+unrest_schema/urls.py
+unrest_schema/utils.py
+unrest_schema/views.py

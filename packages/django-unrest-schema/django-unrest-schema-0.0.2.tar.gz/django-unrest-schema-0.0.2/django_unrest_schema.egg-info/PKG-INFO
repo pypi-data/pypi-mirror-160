@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django-unrest-schema
+Version: 0.0.2
+Summary: A library for serving django forms using json schema and a restful api.
+Home-page: https://github.com/chriscauley/django-unrest-schema
+Author: Chris Cauley
+Author-email: chris@lablackey.com
+License: MIT
+Description: UNKNOWN
+Keywords: utils,django,jsonschema
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
