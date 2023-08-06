@@ -1,0 +1,13 @@
+htmlit2/block.py,sha256=IvemCKegFglTH2fDFfY0yDj_d73g02ADQhJm3J3a5VU,6522
+htmlit2/example.py,sha256=PJixPob4Z-uFEtPebxo0TJyYLzUGdA_8O8-VL-nurk0,922
+htmlit2/example1.py,sha256=iUDqai3EXiAMurbmQKlPYWDFEdAOWsW5N2xX_dUwZaY,1032
+htmlit2/example_2.py,sha256=6MzGJCN_eGTyxoGpZSqKzOsrUs22Rd5riJP6Yf6pLAw,1709
+htmlit2/plotly_utils.py,sha256=DaLavXnaUJfwqZR1X1pLlnRRkqFDzWGRTm8u1h6Ph2s,554
+htmlit2/templates/base.html,sha256=Ebrq4F9BrGMsMSVK1HfddNyUxysK90BIKZhix1RnFWE,1830
+htmlit2/templates/index.html,sha256=k-WUhmdTkUahJOcrChbQp635npio2wPmC4wQJltrJqc,753
+htmlit2/templates/style.css,sha256=yV9GXnruXnTYol58b1i4Ujg13f6iusowdFPAqS1149g,288
+htmlit-0.1.8.dist-info/LICENSE,sha256=P1BkiWgPfQ07e8gA_wxi2Vzlp7n_9so3RrN9nU7O1cM,1074
+htmlit-0.1.8.dist-info/METADATA,sha256=SLye4yPxgrkvmbyDy9_B4__yJS2Z0j8ZC0RXeqAuDNU,930
+htmlit-0.1.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+htmlit-0.1.8.dist-info/top_level.txt,sha256=S-jcYNk7rX65k7dNwr9BcKdCox0PIlEPTma71DviCdE,8
+htmlit-0.1.8.dist-info/RECORD,,
