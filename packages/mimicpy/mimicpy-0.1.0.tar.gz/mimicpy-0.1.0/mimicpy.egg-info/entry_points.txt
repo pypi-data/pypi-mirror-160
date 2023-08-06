@@ -1,0 +1,3 @@
+[console_scripts]
+mimicpy = mimicpy.__main__:main
+mimicpy_vmd = mimicpy.__main_vmd__:main
