@@ -1,0 +1,5 @@
+Django
+django-simple-menu
+core-explore-keyword-app==1.21.*
+core-explore-oaipmh-app==1.21.*
+core-oaipmh-harvester-app==1.21.*
