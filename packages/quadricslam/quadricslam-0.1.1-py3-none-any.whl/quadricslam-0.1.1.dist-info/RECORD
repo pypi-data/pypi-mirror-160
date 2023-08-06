@@ -1,0 +1,13 @@
+quadricslam/__init__.py,sha256=PihTI1wFeTP7IUgkOZxqWuAlNozapUz9dpfkAec9n7c,313
+quadricslam/quadricslam.py,sha256=SUjKpFd7r0oGzohc8uSg83U3DVDC4dk82aMxY9leFU4,9109
+quadricslam/utils.py,sha256=UbPy2966tEF8bpblgD5hgRejVIx3FvUwHl2RoNbnnmA,445
+quadricslam/visualisation.py,sha256=w6jwFNs_DQMG0YU4hVPux0vmpC6KUEq9AkDnVdlhEsM,3979
+quadricslam/interfaces/data_associator.py,sha256=_PfWTMpJYyrhF-CzJCnR5Cr5M41q0RBoPfgMN2jwvtw,593
+quadricslam/interfaces/data_source.py,sha256=zM6ZYJ_0rofZoajJoCRz6-YKRJMPSRiMLJXoy8JC9pE,466
+quadricslam/interfaces/detector.py,sha256=2CJqjv9J-39PyH4-qN4c9IKeM_TwnfQ6mUtRXO4irYY,786
+quadricslam/interfaces/visual_odometry.py,sha256=f2b9KhV_qtKXcpzxzlD4MofLDWtClYP45N2S2HedtOM,334
+quadricslam-0.1.1.dist-info/LICENSE.txt,sha256=7xf1O1sTCnb6bEchxvKj6jEQ4aBqml3KTSUh7XdTf7c,1530
+quadricslam-0.1.1.dist-info/METADATA,sha256=ZksVnqMNerkm-IxHLAOwxddrkYzHDfWlFtfrQHf7kWM,6990
+quadricslam-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quadricslam-0.1.1.dist-info/top_level.txt,sha256=5EYdQVZg7y5RcyixY-4Po-sWxrnxyr5b0E5OAEWcDNE,12
+quadricslam-0.1.1.dist-info/RECORD,,
