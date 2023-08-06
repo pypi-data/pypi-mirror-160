@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: py-pipedrive-api
+Version: 0.1.1
+Summary: An unofficial Pipedrive API client.
+Home-page: https://github.com/pace-systems/py-pipedrive-api
+Author: Bill Schumacher
+Author-email: william.schumacher@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
