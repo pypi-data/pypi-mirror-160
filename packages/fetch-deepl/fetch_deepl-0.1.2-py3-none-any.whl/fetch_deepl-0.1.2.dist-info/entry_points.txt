@@ -1,0 +1,3 @@
+[console_scripts]
+fetch-deepl=fetch_deepl.__main__:app
+
