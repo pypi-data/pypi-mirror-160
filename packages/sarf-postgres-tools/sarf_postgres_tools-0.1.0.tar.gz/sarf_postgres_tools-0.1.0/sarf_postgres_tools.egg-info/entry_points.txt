@@ -1,0 +1,3 @@
+[console_scripts]
+sarf_postgres_tools = sarf_postgres_tools.sarf_postgres_tools:main
+
