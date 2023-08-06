@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: chrome-master
+Version: 1.4.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Tencent
+License: Copyright(c)2010-2022 Tencent All Rights Reserved. 
+Platform: UNKNOWN
+Requires-Dist: future
+Requires-Dist: pillow
+Requires-Dist: websocket-client
+Requires-Dist: six
+Provides-Extra: dom
+Requires-Dist: py-dom-xpath-six ; extra == 'dom'
+
+UNKNOWN
+
