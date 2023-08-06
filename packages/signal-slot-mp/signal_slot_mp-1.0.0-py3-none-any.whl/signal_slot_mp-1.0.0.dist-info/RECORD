@@ -1,0 +1,10 @@
+signal_slot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signal_slot/queue_utils.py,sha256=EEQVbIE7rhwxWcDcRwMdZkO72huLnvd4-EvfR97IOyA,3251
+signal_slot/signal_slot.py,sha256=5cXeJR6Jn-kT0IoCn0W4u5-PjhKWSajCkg8fyUnyLuU,18430
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_signal_slot.py,sha256=mVzgpB_OEaP-1kEfOXdUh_mR822bu7WJS_Fgfm9i9JM,5338
+signal_slot_mp-1.0.0.dist-info/LICENSE,sha256=NWrdjPapcbvpO4zEhtwSt13s3a7OVubPX5OvVRkUvYQ,1073
+signal_slot_mp-1.0.0.dist-info/METADATA,sha256=Uz-CR9libdnWC-NxGfxsFDp__9sXykv0iT9N56bYy24,1898
+signal_slot_mp-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+signal_slot_mp-1.0.0.dist-info/top_level.txt,sha256=ZdSzYCU_MhCF7OJi5u9elNaY87uIz21SIE9KeI1dZA0,18
+signal_slot_mp-1.0.0.dist-info/RECORD,,
