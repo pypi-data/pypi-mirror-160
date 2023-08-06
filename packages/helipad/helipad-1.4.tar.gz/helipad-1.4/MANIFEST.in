@@ -1,0 +1,10 @@
+include README.md LICENSE
+global-include *.css
+global-include *.po
+global-include *.mo
+global-include *.pot
+recursive-include sample-models *
+recursive-include sample-notebooks *
+
+global-exclude .ipynb_checkpoints
+global-exclude .DS_Store
