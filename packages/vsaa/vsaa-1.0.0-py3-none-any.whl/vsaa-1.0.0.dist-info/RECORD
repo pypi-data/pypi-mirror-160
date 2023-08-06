@@ -1,0 +1,11 @@
+vsaa/__init__.py,sha256=jttio0UwPtNreieBzX8ky2xXOlrt7jqWSpVkeojKM0c,174
+vsaa/_metadata.py,sha256=Y7Nc6fVo5gyKT9IFEkDPlplcd7vjQZ9cRwrUbj6D9nw,378
+vsaa/abstract.py,sha256=cOzZS-haJnUGzYFgiV6dC0TjaXwuBm-0JPx8xO9tcdg,8322
+vsaa/enums.py,sha256=psP_VRPzejtNVxuprnCqeQX8bmn61qLylmuPnfoX2MI,352
+vsaa/funcs.py,sha256=zajZYQt3q5xhb-USIeWiDGy65L-eM5q1M-aMtkxu1t4,6954
+vsaa/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsaa-1.0.0.dist-info/LICENSE,sha256=c7zRrcdsvNZLijyo88GQRpJcrBlQTR-ANFAUH1PCi24,1088
+vsaa-1.0.0.dist-info/METADATA,sha256=qXKTUjxxka16PHUCtLsehC7VJTsCvtLELn2k0Q3heZA,1334
+vsaa-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vsaa-1.0.0.dist-info/top_level.txt,sha256=XMrQTV_mTP4VEQvSU_gt-F6qCs83nbmeDFFVXE_hpzg,5
+vsaa-1.0.0.dist-info/RECORD,,
