@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: s3ac
+Version: 0.0.1
+Summary: Autocomplete s3 URIs in IPython.
+Project-URL: Homepage, https://github.com/swidoff/s3ac
+Project-URL: Bug Tracker, https://github.com/swidoff/s3ac/issues
+Author-email: Seth Widoff <swidoff@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Seth Widoff
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: boto3
+Description-Content-Type: text/markdown
+
+# s3ac
+
+A small IPython extension that auto-completes S3 URIS.
+
+To install: `pip install s3ac`
+
+```bash
+$ ipython
+Python 3.9.13 (main, Jun  9 2022, 00:00:00) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: %load_ext s3ac
+
+In [2]: from s3ac import s3
+
+In [3]: s3("<hit tab>
+```
+
+
+To use, start an expression with `s3("`, hit tab, see buckets. 
+After selecting a bucket and hitting tab, `s3 ("my_bucket/` 
+will complete prefixes up to the next slash and objects with that prefix.
+
+For example, tabbing after `s3("my_bucket1/d` might suggest:
+
+```
+my_bucket1/diary.txt
+my_bucket1/dir1/
+my_bucket1/dir2/
+my_bucket1/dungeons_and_dragons.csv
+```
+
+The s3 function will return a URI (for example, `"s3://my_bucket/dir1/dir2/file.txt"`).
+
+Depends only on boto3 and requires an AWS credentials file in ~/.aws.
