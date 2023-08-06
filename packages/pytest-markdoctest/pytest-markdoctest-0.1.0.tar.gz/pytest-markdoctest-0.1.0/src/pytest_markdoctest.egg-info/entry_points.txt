@@ -1,0 +1,2 @@
+[pytest11]
+markdoctest = pytest_markdoctest
