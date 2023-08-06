@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+dengta/__init__.py
+dengta/func.py
+dengta.egg-info/PKG-INFO
+dengta.egg-info/SOURCES.txt
+dengta.egg-info/dependency_links.txt
+dengta.egg-info/top_level.txt

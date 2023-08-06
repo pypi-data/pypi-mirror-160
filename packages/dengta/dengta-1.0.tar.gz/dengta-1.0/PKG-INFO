@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dengta
+Version: 1.0
+Summary: This is a program(doge), 这是个看灯塔的程序......
+Home-page: UNKNOWN
+Author: algj0511
+Author-email: algj0511@126.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >3.1
+License-File: LICENCE
+
+This is a program for learning Lighthouse Party Building Online...
+
+
