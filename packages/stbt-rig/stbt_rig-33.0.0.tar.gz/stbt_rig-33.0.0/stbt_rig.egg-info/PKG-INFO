@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: stbt-rig
+Version: 33.0.0
+Summary: Library for interacting with the Stb-tester Portal's REST API
+Home-page: https://github.com/stb-tester/stbt-rig
+Author: Stb-tester.com Ltd.
+Author-email: support@stb-tester.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stbt_rig
+
+Command-line tool & library for interacting with the Stb-tester Portal's [REST
+API].
+
+* Copyright © 2017-2022 Stb-tester.com Ltd.
+* License: MIT License (see [LICENSE])
+
+For more details see [stbt_rig CLI] and [IDE Integration] in the Stb-tester
+manual.
+
+[IDE Integration]: https://stb-tester.com/manual/ide
+[LICENSE]: https://github.com/stb-tester/stbt-rig/blob/main/LICENSE
+[REST API]: https://stb-tester.com/manual/rest-api-v2
+[stbt_rig CLI]: https://stb-tester.com/manual/stbt-rig
