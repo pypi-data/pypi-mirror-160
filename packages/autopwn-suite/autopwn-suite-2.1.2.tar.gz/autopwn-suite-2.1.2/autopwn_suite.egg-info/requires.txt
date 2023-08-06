@@ -1,0 +1,5 @@
+bs4
+distro
+python-nmap
+requests
+rich
