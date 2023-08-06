@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gptide
+Version: 0.2.0
+Summary: Gaussian Process regression tools for oceanography and engineering
+Home-page: https://github.com/TIDE-ITRH/gptide
+Author: Lachlan Astfalck; Matt Rayson; Andrew Zulberti
+Author-email: lachlan.astfalck@uwa.edu.au
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
