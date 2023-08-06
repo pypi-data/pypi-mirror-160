@@ -1,0 +1,12 @@
+README.md
+setup.py
+tinytable/__init__.py
+tinytable/column.py
+tinytable/data.py
+tinytable/iterable_to_array.py
+tinytable/row.py
+tinytable.egg-info/PKG-INFO
+tinytable.egg-info/SOURCES.txt
+tinytable.egg-info/dependency_links.txt
+tinytable.egg-info/requires.txt
+tinytable.egg-info/top_level.txt
