@@ -1,0 +1,29 @@
+appdirs>=1.4.4
+RBTools>=1.0
+flake8-json>=21.1
+
+[:python_version == "2.7"]
+celery<4.0,>=3.1.25
+enum
+
+[:python_version == "3.6"]
+celery<=5.1.999,>=5.1.2
+kombu<=5.1.999,>=5.1.0
+
+[:python_version >= "3.7"]
+celery<=5.2.999,>=5.2.7
+
+[all]
+cpplint>=1.6
+pycodestyle>=2.8
+pyflakes>=2.4
+
+[all:python_version == "2.7"]
+doc8<0.8.999,>=0.8
+flake8<3.999,>=3.3.0
+pydocstyle<=3.999,>=3.0
+
+[all:python_version >= "3.6"]
+doc8>=0.10.1
+flake8>=4.0
+pydocstyle>=6.1.1
