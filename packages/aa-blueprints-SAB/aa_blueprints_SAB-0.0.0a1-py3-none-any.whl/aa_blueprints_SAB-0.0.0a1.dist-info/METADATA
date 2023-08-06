@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: aa-blueprints-SAB
+Version: 0.0.0a1
+Summary: TEMPORARY FORK of Blueprint Library plugin for Alliance Auth
+Home-page: https://gitlab.com/eclipse-expeditions/aa-blueprints
+Author: Dan Jacobsen
+Author-email: dan@danjacobsen.com
+License: GPL
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: allianceauth (>=2.8.0)
+Requires-Dist: celery-once (>=2.0.1)
+Requires-Dist: django-esi (>=2.0.4)
+Requires-Dist: django-eveuniverse (>=0.7.4)
+Requires-Dist: django-datatables-view
+Requires-Dist: allianceauth-app-utils
+
+# AA Blueprints SAB
+
+This is a temporary fork of the AA Blueprints plugin written by Rebecca Murphy et al.
+
+The author gives no warranty of any kind regarding maintenance and support.
+
+
+## Main Plugin
+
+For the original AA Blueprints, please see https://pypi.org/project/aa-blueprints/
+
