@@ -1,0 +1,19 @@
+[project]
+name = "hash_chunker"
+version = "0.0.4"
+authors = [
+  { name="Volodymyr Kochetkov", email="whysages@gmail.com" },
+]
+description = "Helper that generates hash chunk ranges for data processing."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/whysage/hash_chunker"
+"Bug Tracker" = "https://github.com/whysage/hash_chunker/issues"
