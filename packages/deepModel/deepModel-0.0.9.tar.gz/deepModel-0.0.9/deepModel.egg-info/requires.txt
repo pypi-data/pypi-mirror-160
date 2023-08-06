@@ -1,0 +1,9 @@
+h5py
+requests
+pandas
+
+[cpu]
+tensorflow>=1.14.0
+
+[gpu]
+tensorflow-gpu>=1.14.0
