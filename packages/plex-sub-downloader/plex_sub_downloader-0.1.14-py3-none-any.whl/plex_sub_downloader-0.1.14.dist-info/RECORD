@@ -1,0 +1,14 @@
+plex_sub_downloader/PlexSubDownloader.py,sha256=s5fZNmDKGrsO1hEpD6vvhbrZAX12F_WjXtP6nc-_Dfg,8738
+plex_sub_downloader/PlexWebhookEvent.py,sha256=SlmahzlDeiL5kK29zoo6bFE8H7WpQdSJxtDBA33E9uU,4321
+plex_sub_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plex_sub_downloader/config.schema.json,sha256=py25AZGAXKNVSZoIK9bQyHGe5ZouSNEBabVgDUqeeMA,1072
+plex_sub_downloader/logger.py,sha256=4dIl-rqgwWG9bEU7P4sjCJdtQehrkqWFkD5VxEoZqVU,1182
+plex_sub_downloader/plex_auth.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plex_sub_downloader/plex_sub_downloader.py,sha256=6g6cNAa95bujZHGoX4FOdmawGyqM3bLT3um4awKn434,2750
+plex_sub_downloader/subliminalHelper.py,sha256=cuwhtg79BREEWc9rXeYQIsP1Tsj0A_ZVjjvNXf6SIQI,6198
+plex_sub_downloader-0.1.14.dist-info/LICENSE.txt,sha256=lj6DhFbD_V1bZ0LjlNRRXYQNLqPjwSR5fTL-UwysaS4,1074
+plex_sub_downloader-0.1.14.dist-info/METADATA,sha256=AzqlN5D4h8gbi0IEbRCQR8KzR-Ki_PCV8Xf1S5USHo0,8340
+plex_sub_downloader-0.1.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+plex_sub_downloader-0.1.14.dist-info/entry_points.txt,sha256=_wbKI3U4K199orHD0Ox9OnfgQlncp00aUGIus79WVI4,85
+plex_sub_downloader-0.1.14.dist-info/top_level.txt,sha256=uSPHFTO2KMxpKP5efVhff6RJzJ38NGw9DRfIhnW-voM,20
+plex_sub_downloader-0.1.14.dist-info/RECORD,,
