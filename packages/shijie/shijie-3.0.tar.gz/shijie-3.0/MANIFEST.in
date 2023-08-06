@@ -1,0 +1,5 @@
+include README.md
+include example_data/*.csv
+include example_data/*.yaml
+recursive-include shijie/console test.yaml
+
