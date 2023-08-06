@@ -1,0 +1,11 @@
+cadquery_massembly/__init__.py,sha256=yxpA7qFmby05SWvIn66kyaltfCMxzxh_gpSYucLT1T8,405
+cadquery_massembly/_version.py,sha256=YaljN5BjCkKT2SrX2s2wN14JEM_RYIYz-9zY_drpu24,469
+cadquery_massembly/cq_editor.py,sha256=O92xGmQMc35Lq-EO_zxyGk7yH7qpcpYgvGfiUaREl4s,726
+cadquery_massembly/geom.py,sha256=53brmaGcSQ2izGTBldAk6Y4vxwhQCKDmBK-F1J0hGYQ,3701
+cadquery_massembly/massembly.py,sha256=8i8WPmBE6xGASs-bqp-y4aiuvqaXlKVEhrI3gW42ipw,11933
+cadquery_massembly/mate.py,sha256=wk9Bht8GWIgj_x5WnJ6UzLaLowWMHyHgdlGXlu9F-WE,6086
+cadquery_massembly-1.0.0rc1.dist-info/LICENSE,sha256=4VbtJcReMbh-0Tien7w0m1cL1HSB3TP8ITdGpYYduVE,1500
+cadquery_massembly-1.0.0rc1.dist-info/METADATA,sha256=9JajXkPP3C-4KyWw2XMo1sGfUlus23nPKoZ2MH7IF3E,692
+cadquery_massembly-1.0.0rc1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cadquery_massembly-1.0.0rc1.dist-info/top_level.txt,sha256=7pvdn19lr6mzCr2hUbuShmIXLi4Vpcm-uFiyC1AGMl4,19
+cadquery_massembly-1.0.0rc1.dist-info/RECORD,,
