@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "type",
+    "config"
+  ],
+  "properties": {
+    "component_source": {
+      "$ref": "_definitions.schema.json#/definitions/component_source"
+    },
+    "type": {
+      "type": "string",
+      "pattern": "^(ex-)"
+    },
+    "config": {
+      "type": "object",
+      "properties": {
+      }
+    }
+  }
+}

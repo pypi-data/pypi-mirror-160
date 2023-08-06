@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "definitions": {
+    "component_source": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "repository"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "git"
+              ]
+            },
+            "repository": {
+              "type": "string"
+            },
+            "checkout": {
+              "type": "string"
+            },
+            "username": {
+              "type": "string"
+            },
+            "password": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "registry",
+            "image"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "docker"
+              ]
+            },
+            "image": {
+              "type": "string"
+            },
+            "registry": {
+              "type": "string"
+            },
+            "username": {
+              "type": "string"
+            },
+            "password": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "path"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "local"
+              ]
+            },
+            "path": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
