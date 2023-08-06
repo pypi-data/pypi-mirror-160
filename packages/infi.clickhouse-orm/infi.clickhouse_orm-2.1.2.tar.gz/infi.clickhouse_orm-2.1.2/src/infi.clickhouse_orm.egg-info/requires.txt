@@ -1,0 +1,4 @@
+iso8601>=0.1.12
+pytz
+requests
+setuptools
