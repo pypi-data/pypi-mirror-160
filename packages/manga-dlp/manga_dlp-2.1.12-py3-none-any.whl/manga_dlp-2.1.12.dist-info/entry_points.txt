@@ -1,0 +1,3 @@
+[console_scripts]
+manga-dlp = mangadlp.input:main
+mangadlp = mangadlp.input:main
