@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: postschema
+Version: 0.17.27
+Summary: Async python ORM for postgres
+Home-page: https://github.com/kriskavalieri/postschema
+Author: Kris Kavalieri
+Author-email: kris.kavalieri@gmail.com
+License: AGPL-3.0-only
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
