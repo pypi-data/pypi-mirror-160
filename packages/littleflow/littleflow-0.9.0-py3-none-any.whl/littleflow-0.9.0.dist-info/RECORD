@@ -1,0 +1,14 @@
+littleflow/__init__.py,sha256=6bpWDpv25tSOzcm3sG3kpZyRkydGxeYG7mDx5LZvtEg,540
+littleflow/__main__.py,sha256=Ei7WQBJy0schi-uHSAio4BHmermp-JpcAas91xypt5Q,3372
+littleflow/compiler.py,sha256=13oNNiVC4wEXkcV2zgPtm1ZDC_5e-gs1mFmyu5mWRRg,5450
+littleflow/doc.py,sha256=qqeqhjwCVkwjmjsyd8OlC1-8JpJDNsN8VkovV6whpLI,1972
+littleflow/flow.py,sha256=ALS4Frjr3I-BjW958yJv_YuPQkcDOYKnkl2Y-RA1Qpw,1605
+littleflow/model.py,sha256=JINdoMIDuxtNywC0tyQud1mlY-tJ0qtZ4Ewu-HjnVHg,1938
+littleflow/parser.py,sha256=IHHT1VXFGCzmaLkn4vru-jEaeVJSfqs-vSITK9Sz5k4,11905
+littleflow/runner.py,sha256=uobdGUDJkijujOAqgkXkLC3fDSduwG19pfDpCO1VwDE,7542
+littleflow/utils.py,sha256=-zYyl8jNHLn1eQvOR8asCTYZmVCtaoT7mN8zc3S1kBQ,501
+littleflow-0.9.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+littleflow-0.9.0.dist-info/METADATA,sha256=_kV3cBkBjVA3ekGqbVMookFS1Wvxz5CkJ0wpmaGlVx8,344
+littleflow-0.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+littleflow-0.9.0.dist-info/top_level.txt,sha256=bFq4-dovjg21mugFq7Z17ZV58O3Ws-HMKfvjo0cDE-g,11
+littleflow-0.9.0.dist-info/RECORD,,
