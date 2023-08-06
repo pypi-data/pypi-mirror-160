@@ -1,0 +1,2 @@
+[console_scripts]
+transfer = transfer.command_line:main

@@ -1,0 +1,16 @@
+transfer/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+transfer/__main__.py,sha256=EkXR7nS0Gfj8po-XX5H4lViIuFhVQJQcsqMieYaH3OE,79
+transfer/_version.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+transfer/command_line.py,sha256=OGX5H4yCJMKb9RrmdooZhs857KfzZzaWisznitnPYrc,137
+transfer/core.py,sha256=fPPjzmYXjKnKonwC9cPmngtRrH8ImcRmujc4TIjPRdE,1978
+transfer/mapping.py,sha256=UpNM-82cPSbcp79BUzObfg3mdd6saYys5DcXQ-VAs9I,3591
+transfer/parser.py,sha256=dYignVPh-b8zRgy4KyuDbBTc55KdpDu2aMwX8ZCHuO8,1707
+transfer/paste_api.py,sha256=LAFWqZUjzUtaQfqPbqDjMI4Rfay2llvyulx9lHT_UFI,2182
+transfer/utils.py,sha256=GtttqSlOA8FK7zON7mPut7MmGm-2jStQ0W-RG2w71cI,1581
+transfer/version.py,sha256=euCQVAl5-iQ81rpOLCkmTX-ljfTsF_lc3H2bcDvVoE4,175
+file_transfer_tools-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+file_transfer_tools-0.0.3.dist-info/METADATA,sha256=v9C-LbHawWMGTbPrMntKqRMoCQ8kVj-KGJoz8B3Y3X8,1620
+file_transfer_tools-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+file_transfer_tools-0.0.3.dist-info/entry_points.txt,sha256=zvdmQzhJmUjsFutI3Z5hceld0B-63W-KjvRfVeLzOeY,56
+file_transfer_tools-0.0.3.dist-info/top_level.txt,sha256=cEy_ai6LXWAkD6XCnJIYZxFTxXZtx3nhtA52OhlAWqI,9
+file_transfer_tools-0.0.3.dist-info/RECORD,,
