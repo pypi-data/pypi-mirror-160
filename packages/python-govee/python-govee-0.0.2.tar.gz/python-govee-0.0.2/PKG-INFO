@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: python-govee
+Version: 0.0.2
+Summary: Python Wrapper for Govee API
+Home-page: UNKNOWN
+Author: Shravan Prasanth
+Author-email: <shravanapps44@gmail.com
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/shra4747/python-govee
+Keywords: python,govee,api,govee home,govee developer,lights
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A Python wrapper for the HTTP Govee Developer API to control Govee WiFi supported devices.
+
