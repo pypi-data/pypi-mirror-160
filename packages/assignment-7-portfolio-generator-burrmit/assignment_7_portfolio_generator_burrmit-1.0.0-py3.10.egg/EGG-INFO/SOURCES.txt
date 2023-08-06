@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+assignment_7_portfolio_generator_burrmit.egg-info/PKG-INFO
+assignment_7_portfolio_generator_burrmit.egg-info/SOURCES.txt
+assignment_7_portfolio_generator_burrmit.egg-info/dependency_links.txt
+assignment_7_portfolio_generator_burrmit.egg-info/requires.txt
+assignment_7_portfolio_generator_burrmit.egg-info/top_level.txt
