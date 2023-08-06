@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: re-helpers
+Version: 0.1.1
+Summary: Reverse engineering helpers
+Home-page: https://github.com/luzat/re-helpers
+License: ISC
+Keywords: binary,reverse engineering
+Author: Thomas Luzat
+Author-email: thomas@luzat.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: System :: Recovery Tools
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/luzat/re-helpers
+Description-Content-Type: text/markdown
+
+re-helpers
+==========
+
+Internally used helpers for reverse engineering. So far, only `re_binmerge` is included.
+
