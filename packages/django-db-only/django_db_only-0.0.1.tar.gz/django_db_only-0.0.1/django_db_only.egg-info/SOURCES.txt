@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+django_db_only/__init__.py
+django_db_only.egg-info/PKG-INFO
+django_db_only.egg-info/SOURCES.txt
+django_db_only.egg-info/dependency_links.txt
+django_db_only.egg-info/entry_points.txt
+django_db_only.egg-info/not-zip-safe
+django_db_only.egg-info/top_level.txt
+django_db_only/conf/__init__.py
+django_db_only/conf/project_template/manage.py
+django_db_only/conf/project_template/query_resolver.py
+django_db_only/conf/project_template/wsgi.py
+django_db_only/conf/project_template/core/__init__.py
+django_db_only/conf/project_template/core/models.py
+django_db_only/conf/project_template/core/settings.py

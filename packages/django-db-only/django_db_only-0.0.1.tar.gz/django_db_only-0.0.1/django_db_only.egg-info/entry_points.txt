@@ -1,0 +1,3 @@
+[console_scripts]
+django_db_only = django_db_only:execute_from_command_line
+
