@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+mynodesdk/__init__.py
+mynodesdk/main.py
+mynodesdk/util.py
+mynodesdk.egg-info/PKG-INFO
+mynodesdk.egg-info/SOURCES.txt
+mynodesdk.egg-info/dependency_links.txt
+mynodesdk.egg-info/entry_points.txt
+mynodesdk.egg-info/top_level.txt
