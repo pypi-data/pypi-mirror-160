@@ -1,0 +1,11 @@
+mkdocs_apicall_plugin/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+mkdocs_apicall_plugin/abstract.py,sha256=KNwIwr9PuQbMfn68hZb5wSrPTmcqBdIKYbn_csBQCNw,2246
+mkdocs_apicall_plugin/curl.py,sha256=7qnPrkPFrL6HMp_Qdms7n7Qysm9VNASVmJMrNGOi2d0,857
+mkdocs_apicall_plugin/javascript.py,sha256=1elOFBE_XOS3rWrzWpHlAMhzZg6ucyCiePwshXheBik,2675
+mkdocs_apicall_plugin/main.py,sha256=9IZ5Ys7M-rgi_ZsiNbfqW9pMwq2NDVpSmlu15XvLkvY,4064
+mkdocs_apicall_plugin/python.py,sha256=A30yp6eXn8p-cuw2-GNlZNTfIcCHRp5_bfXILTKCXUQ,795
+mkdocs_apicall_plugin-0.1.1.dist-info/entry_points.txt,sha256=TssehyRvw619uw3ywPPBp5K67aedQm7jBV2b8XGuRHM,67
+mkdocs_apicall_plugin-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mkdocs_apicall_plugin-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mkdocs_apicall_plugin-0.1.1.dist-info/METADATA,sha256=xSLmSmC86NFLYHpPbMAKfCpjXfU4XvqGk3k1aOY0beA,3249
+mkdocs_apicall_plugin-0.1.1.dist-info/RECORD,,
