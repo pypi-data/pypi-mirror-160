@@ -1,0 +1,13 @@
+pmg/__init__.py,sha256=XPpRQccE7jKGgGDG-mGvj4kUUqLV8eEFZha2u5gRejM,10620
+pmg/base36.py,sha256=QhJTwEayeiYt14hwzSzr1163waaIwvbzWo1PB-9F2MY,693
+pmg/db.py,sha256=fghoPswTZCfxJcQXTWnhksV6MEgdIpvgP_eByE3bpYo,1414
+pmg/latex.py,sha256=PMPILk1gOXD6IhOWZUVMe2beuKqpGrTWqn4pHmoQMKM,312
+pmg/system.py,sha256=ZzqBXE3fiITZCGCnGcbVLkXz83ST1SFCPWLXQuoCaME,2660
+pmg/temp.py,sha256=gB8IDSYh6GoT4A7-1EFi-at2_W0yLa6N_Q4ob_aASO4,580
+pmg/sqlite/__init__.py,sha256=edfE9JM4Di6q-tB3-xLQ5vrdRLy3zcuc5B4BJd5Qfdk,1529
+pmg/sqlite/factories.py,sha256=e5lfhLiyTozOQ585SFAXgZ2nsVZgIAvB9xYhZlBDyA4,422
+pmg-1.0.0rc1.dist-info/LICENSE,sha256=Fwr8AjVYkeu-wB2dbICrG-YXIYzr4B8LOleNEjiH07g,1086
+pmg-1.0.0rc1.dist-info/METADATA,sha256=FcVuvSXPpp6MXN1VsMYvZblCzYPwqTAC1u-jxfZPeUs,2467
+pmg-1.0.0rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pmg-1.0.0rc1.dist-info/top_level.txt,sha256=rGjVemlN4AF-EWF6K6nDcC7Kubbdv2abFCYliNtaRJ8,4
+pmg-1.0.0rc1.dist-info/RECORD,,
