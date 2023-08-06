@@ -1,0 +1,615 @@
+{% extends "reactive_example_base.html" %}
+
+{% load reactive %}
+
+{% block title %}Basic Example{% endblock %}
+
+{% block content %}
+
+<p id="js_status" style="color: yellow;">
+Loading page, and no JavaScript errors so far...
+</p>
+
+<script type="text/javascript">
+    const js_status_element = document.getElementById('js_status');
+    var found_error = false;
+
+    window.onload = function(msg) {
+        if (!found_error) {
+            js_status_element.innerHTML = 'Page loaded with no JavaScript errors!';
+            js_status_element.style.color = 'green';
+        }
+    }
+    window.onerror = function(msg) {
+        found_error = true;
+        js_status_element.innerHTML = 'JavaScript errors occured!';
+        js_status_element.style.color = 'red';
+    }
+</script>
+
+{% with test_template_var="success" initial_first_float=1.5 initial_second_float=2.3 %}
+
+{% #block %}
+{% #block %}
+Test1
+{% #/def text_dsadf=test_template_var %}
+{% #/def test_var = 'test' %}
+{% #/def test_array= ['str1', 'str2', 'str3'] %}
+{%#%}
+<script>
+{% #set test_var %}
+{% #/get test_var %} + '11'
+{% /set %}
+</script>
+{%/%}
+Test2
+{% #element span %}
+{% #/def nested_var ='nested' %}
+{% for element in example_list %}
+{{ element }}
+{% #/print test_var %}
+{% endfor %}
+{% #/print 'Test3' %}
+{% #/print nested_var %}
+{% /element %}
+
+{% #/def test_bool=True %}
+{% #element span %}
+{% #/print test_bool %}
+{% /element %}
+
+{% #element span %}
+{% #if test_bool %}
+Test4
+{% #/print test_var %}
+{% /if %}
+{% /element %}
+
+{% if True %}
+{% #element span %}
+{% #/print test_array %}
+
+{% #for element in test_array %}
+{% #/def element2=2 %}
+{% #/def element3 =element %}
+{% #/print element2 %}
+{% #/print element3 %}
+{% /for %}
+
+{% /element %}
+{% endif %}
+
+{% comment %}
+Comment test
+{% endcomment %}
+
+{%#%}
+<script>
+{%#redo%}
+console.log({% #/get test_var %});
+{%/redo%}
+
+setTimeout(
+    function() {
+    {% #set test_var %}
+    "hey"
+    {% /set %}
+
+    setTimeout(
+        function() {
+        {% #set test_bool %}
+        false
+        {% /set %}
+        }, 2000);
+    }, 2000);
+
+setTimeout(
+    function() {
+    {% #set test_array %}
+    ['str1', 'str2.5']
+    {% /set %}
+    }, 1000);
+</script>
+{%/%}
+
+<section>
+Fixed array:
+<ul>
+{% for elemen in example_list %}
+<li>
+value: {{ elemen }}
+</li>
+{% endfor %}
+</ul>
+</section>
+
+{% #element section %}
+Dynamic array: (contains {% #/print len(test_array) %} elements)
+<ul>
+{% #for element in test_array %}
+<li>
+value: {% #/print element %}
+</li>
+{% /for %}
+</ul>
+{% /element %}
+
+{% #element section %}
+Even None is supported:
+{% #/def  test_none=None %}
+{% #/def test_null=null %}
+<ul>
+<li>{% #/print test_none %}</li>
+<li>{% #/print test_null %}</li>
+</ul>
+{% /element %}
+
+{% #/def number=3 %}
+{% #/def greeting='Hi' %}
+{% #/def sum_result=2+number %}
+
+{% #element p %}
+You may also use plus operator, with a number that is updating every second,
+(with the present function to avoid self referencing, see in the next paragraph):<br />
+2+{% #/print number %}={% #/print sum_result %}<br />
+"{% #/print greeting %}"+" "+"World"={% #/print greeting+" "+"World" %}
+{% /element %}
+
+{% #element p %}
+Using the function present(), we can print the values without trigerring rerendering:<br />
+The original equation was: 2+{% #/print present(number) %}={% #/print present(sum_result) %}<br />
+{% /element %}
+
+{% #/def result_choice='number_sum' %}
+{% #/def some_result=(result_choice==='number_sum')?(2+number):greeting+" "+"World" %}
+
+<section style="padding-top: 5px;">
+Using the set tag (and the present function to avoid self referencing),
+we may chose which result to show, with keeping tracking of the result without setting it repeatedly:<br />
+<form>
+
+<label>
+    <input type="radio" name="result_choice" id="result_choice_sum" value="number_sum" checked />
+    Show Number Sum
+</label>
+<br />
+<label>
+    <input type="radio" name="result_choice" id="result_choice_concat" value="str_concat" />
+    Show String Concatenation
+</label>
+
+</form>
+<br />
+{%#%}
+<span>
+Result: {% #/print some_result %}
+</span>
+{%/%}
+
+{% #script %}
+function setRadioChoice(choice) {
+    {% #set result_choice %}
+    choice
+    {% /set %}
+}
+
+function update_number() {
+    {% #/set number=present(number+1) %}
+
+    setTimeout(update_number, 1000);
+}
+setTimeout(update_number, 1000);
+    
+setTimeout(
+    function() {
+    {% #set greeting %}'Hello'{% /set %}
+    }, 1500);
+
+const result_choice_sum = document.getElementById('result_choice_sum');
+const result_choice_concat = document.getElementById('result_choice_concat');
+if (result_choice_sum.checked) {
+    setRadioChoice(result_choice_sum.value);
+} else if (result_choice_concat.checked) {
+    setRadioChoice(result_choice_concat.value);
+}
+
+result_choice_sum.onchange = function () { setRadioChoice('number_sum'); };
+result_choice_concat.onchange = function () { setRadioChoice('str_concat'); };
+{% /script %}
+
+</section>
+
+{% #/def first_float=initial_first_float %}
+{% #/def second_float=initial_second_float %}
+{% #/def float_operation='add' %}
+
+<section style="padding-top: 15px;">
+<form id="float_calc_form">
+You may
+<select id="float_operation_select">
+    <option value="add" selected>Add (+)</option>
+    <option value="substruct">Substruct (-)</option>
+    <option value="multiply">Multiply (*)</option>
+    <option value="divide">Divide (/)</option>
+    <option value="minus">Minus (-)</option>
+</select>
+{%#%}<span>{% #if float_operation==='minus' %}a decimals number{% :else %}two decimals numbers{% /if %}</span>{%/%} below:<br />
+{%#%}
+<span style=("display: "+(float_operation==='minus'?'inline':'none')+";")>
+-
+</span>
+{%/%}
+<input type="number" id="first_float_input" value="{{initial_first_float}}" step="0.1" />
+{%#%}
+<span style=("display: "+(float_operation==='minus'?'none':'inline')+";")>
+{% #/print float_operation==='minus'?'':(matchKeyVal(float_operation,float_binary_operation_symbols)) %}
+</span>
+{%/%}
+{%#%}
+<input type="number" id="second_float_input" value=initial_second_float step="0.1" style=("display: "+(float_operation==='minus'?'none':'inline')+";") />
+{%/%}
+=
+{%#%}<span>{% #/print float_operation==='add'?(first_float + second_float):(float_operation==='substruct'?(first_float - second_float):(float_operation==='multiply'?(first_float * second_float):(float_operation==='divide'?(first_float / second_float):(float_operation==='minus'?(-first_float):'Error')))) %}</span>{%/%}
+</form>
+
+{%#%}
+<script>
+document.getElementById('float_calc_form').reset();
+
+const float_operation_select = document.getElementById('float_operation_select');
+float_operation_select.onchange = function () { {% #set float_operation %}float_operation_select.value{% /set %} };
+
+const first_float_input = document.getElementById('first_float_input');
+first_float_input.oninput= function () { {% #set first_float %}parseFloat(first_float_input.value){% /set %} };
+
+const second_float_input = document.getElementById('second_float_input');
+second_float_input.oninput= function () { {% #set second_float %}parseFloat(second_float_input.value){% /set %} };
+</script>
+{%/%}
+
+</section>
+
+{% #/def test_json={v1: '2', 'v7': '3', nested: {A: 1, B: 2}, arr: [{a:1, b:2}, {c: 3}]} %}
+
+{% #element section style="padding-top: 15px;" %}
+You can also use JSON/dictionary values:
+<p>
+{% #/print test_json %}
+</p>
+{% /element %}
+
+{%#%}
+<script>
+setTimeout(
+    function() {
+
+    {% #/set test_json.v10 = 5 %}
+    
+    setTimeout(
+        function() {
+        {% #set test_json.v7 %}4{% /set %}
+        }, 1000);
+    }, 1200);
+</script>
+{%/%}
+
+
+{% #/def people=[{first: 'John', last: 'Smith', age: 40},{first: 'Kristen', last: 'Perkins', age: 27}] %}
+
+{% #element section %}
+You may even render a table using an array of dictionary:
+<table>
+<tr>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Age</th>
+</tr>
+{% #for person in people %}
+{% #element tr %}
+<td>{% #/print person.first %}</td>
+<td>{% #/print person.last %}</td>
+<td>{% #/print person.age %}</td>
+{% /element %}
+{% /for %}
+</table>
+{% /element %}
+
+{%#%}
+<script>
+setTimeout(
+    function() {
+    {% #/get people %}.push({first:'Marc',last:'McDowell',age:58})
+
+    {% #/notify people %}
+    }, 1500);
+</script>
+{%/%}
+
+{% #element section %}
+You can have a tag inside another tag:
+Test var array is: {% #/print test_array %}
+{% #element div style="color: red;" %}
+Test var value is: {% #/print test_var %}
+{% /element %}
+{% /element %}
+
+
+{% #/def nested_array=[[1,2,3],[11,12,13],[21,22,23]] %}
+
+{% #element div style="padding-top: 5px;" %}
+And also a for inside another for loop:
+
+<ul>
+{% #for array in nested_array %}
+<li>
+The {% #/print array %} is listed:
+<ul>
+{% #for element in array %}
+<li>
+{% #/print element %}
+</li>
+{% /for %}
+</ul>
+</li>
+{% /for %}
+</ul>
+{% /element %}
+
+{%#%}
+<script>
+setTimeout(
+    function() {
+    {% #set nested_array %}
+    [[1,2,3,4],[11,12,13,14],[21,22,23,24],[31,32,33,34]]
+    {% /set %}
+    }, 1500);
+</script>
+{%/%}
+
+{% #block %}
+
+{% #/def rand_color='rgb(0,0,255)' %}
+{% #/def changing_color=True %}
+
+<form>
+<input id="toggle_color_button" type="button" value="Toggle color changing" />
+{% #script %}
+document.getElementById('toggle_color_button').onclick = function () {
+    {% #set changing_color %}
+    !{% #/get changing_color %}
+    {% /set %}
+};
+{% /script %}
+</form>
+
+{% # %}
+<div style="padding-top: 5px; color:"+(changing_color?rand_color:'black')+";">
+{% #if changing_color %}
+This is text change its color randomally using reactive tag attribute.
+{% /if %}
+{% #if !changing_color %}
+This text stopped changing color!
+{% /if %}
+</div>
+{% / %}
+
+{%#%}
+<script>
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+}
+
+function changeColorStep() {
+    {% #set rand_color %}
+    'rgb(' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255) + ',' + getRandomInt(0, 255) + ')'
+    {% /set %}
+    
+    setTimeout(changeColorStep, 1000);
+}
+
+setTimeout(changeColorStep, 1000);
+</script>
+{%/%}
+{% /block %}
+
+
+{% #element div style="padding-top: 5px;" %}
+You can also have a keyed for loop: (notice the HTML escaping and the internal string escaping in the source code)
+{% #for element in test_array by element %}
+{% #element p %}
+{% #/print element %}
+{% /element %}
+{% /for %}
+{% /element %}
+
+{% #/def interactive_people_array=[{first:'John',last:'Smith',age: 40}, {first:'<span>Can\'t fool you</span>',last:'',age: 1}] %}
+
+{% #/def disable_insertion=False %}
+
+{% #element div style="padding-top: 5px;" %}
+Or even a more advanced one:
+(make sure that first names are unique, or else you'll have an error)
+
+{%#%}<div></div>{%/%}
+
+{%#%}
+<form id="add_person_form">
+New person:
+{% comment%}An example for self enclosed tags{% endcomment %}
+{% #/element input/ type = "text" id="first_name" %}
+{% #/element input type ="text" id= "last_name" / %}
+{%#%}<input type="number"
+id="age" required/>{%/%}
+{%#%}<input type="submit" value="Insert to the End" disabled?disable_insertion />{%/%}
+<input type="checkbox" id="allow_insertion_checkbox" checked />
+<label for="allow_insertion_checkbox">Allow Insertion</label>
+</form>
+{%/%}
+
+{%#%}
+<script>
+const allow_insertion_checkbox = document.getElementById('allow_insertion_checkbox');
+function change_allow_insertion() {
+    {% #set disable_insertion %}
+    !allow_insertion_checkbox.checked
+    {% /set %}
+}
+allow_insertion_checkbox.onchange = change_allow_insertion;
+change_allow_insertion();
+
+function get_current_person() {
+    return {
+        first: document.getElementById('first_name').value,
+        last: document.getElementById('last_name').value,
+        age: document.getElementById('age').value,
+    }
+}
+
+function verify_form_validity() {
+    ageElement = document.getElementById('age')
+    if (age.value === '') {
+        alert('Age is empty!')
+        return false;
+    } else {
+        return true;
+    }
+}
+
+function insert_person_to_the_end() {
+    if ({% #/get disable_insertion %})
+        return;
+    // otherwise
+
+    if (!verify_form_validity())
+        return;
+    // otherwise
+
+    person = get_current_person();
+    {% #/get interactive_people_array %}.push(person);
+    {% #/notify interactive_people_array %}
+}
+
+const add_person_form = document.getElementById("add_person_form");
+add_person_form.onsubmit = function () {insert_person_to_the_end(); return false;};
+
+function find_by_first_name(first_name) {
+    for (var i = 0; i < {% #/get interactive_people_array %}.length; ++i) {
+        if ({% #/get interactive_people_array %}[i].first == first_name) {
+            return i;
+        }
+    }
+    // otherwise
+
+    throw 'Cannot find first name: ' + first_name;
+}
+
+function increase_age_by_first_name(first_name) {
+    const i = find_by_first_name(first_name);
+
+    ++{% #/get interactive_people_array %}[i].age;
+    {% #/notify interactive_people_array %}
+}
+
+function remove_by_first_name(first_name) {
+    const i = find_by_first_name(first_name);
+
+    {% #/get interactive_people_array %}.splice(i, 1);
+    {% #/notify interactive_people_array %}
+}
+
+function add_above_by_first_name(first_name) {
+    if (!verify_form_validity())
+        return;
+    // otherwise
+
+    const i = find_by_first_name(first_name);
+    person = get_current_person();
+
+    {% #/get interactive_people_array %}.splice(i, 0, person);
+    {% #/notify interactive_people_array %}
+}
+
+function add_below_by_first_name(first_name) {
+    if (!verify_form_validity())
+        return;
+    // otherwise
+
+    const i = find_by_first_name(first_name);
+    person = get_current_person();
+
+    if (i == {% #/get interactive_people_array %}.length - 1) {
+        {% #/get interactive_people_array %}.push(person);
+    } else {
+        {% #/get interactive_people_array %}.splice(i+1, 0, person);
+    }
+
+    {% #/notify interactive_people_array %}
+}
+</script>
+{%/%}
+
+{%#%}
+<div>
+{% #if len(interactive_people_array)===0 %}
+People list is empty!
+{% :elif len(interactive_people_array)===1 %}
+Exactly one person in the list:
+{% :else %}
+People list:
+{% /if %}
+</div>
+{%/%}
+
+{% #if len(interactive_people_array)>0 %}
+<table>
+<tr>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Age</th>
+<th>Notes</th>
+<th>Actions</th>
+</tr>
+{% #for person in interactive_people_array by person.first %}
+{% #element tr %}
+{% #element td %}{% #/print person.first %}{% /element %}
+{% #element td %}{% #/print person.last %}{% /element %}
+{% #element td %}{% #/print person.age %}{% /element %}
+<td>
+<form>
+<input type="text" placeholder="Notes" />
+</form>
+</td>
+<td>
+<form>
+{%#%}<input id='increase_age_of_'+person.first type="button" value="Increase Age" />{%/%}
+{%#%}<input id='delete_'+person.first type="button" value="Delete" />{%/%}
+{%#%}<input id='add_above_'+person.first type="button" value="Add Above" disabled?disable_insertion />{%/%}
+{%#%}<input id='add_below_'+person.first type="button" value="Add Below" disabled?disable_insertion="disabled" />{%/%}
+</form>
+</td>
+
+{%#%}
+<script>
+const first_name = {% #/get person.first %};
+document.getElementById('increase_age_of_' + first_name).onclick = function () { increase_age_by_first_name(first_name); };
+document.getElementById('delete_' + first_name).onclick = function () { remove_by_first_name(first_name); };
+document.getElementById('add_above_' + first_name).onclick = function () { add_above_by_first_name(first_name); };
+document.getElementById('add_below_' + first_name).onclick = function () { add_below_by_first_name(first_name); };
+</script>
+{%/%}
+
+{% /element %}
+{% /for %}
+</table>
+{% /if %}
+
+{% /element %}
+
+{% /block %}
+{% /block %}
+
+{% endwith %}
+
+{% endblock %}
