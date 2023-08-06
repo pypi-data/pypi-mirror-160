@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "bologna"
+version = "v0.1.4"
+description = "A tiny no-faff dependency injection module for python."
+authors = ["Anton Leagre"]
+license = "MIT"
+readme = "readme.md"
+homepage = "https://github.com/aap007freak/tinydi"
+repository = "https://github.com/aap007freak/tinydi"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
