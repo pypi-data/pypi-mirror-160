@@ -1,0 +1,10 @@
+pprinty/__init__.py,sha256=EsCO7ztqDIZ4opREoTHDR4XDJQ6sx8v2up-1oNIGBNw,50
+pprinty/pprint.py,sha256=PdylKO2oi06J_fBTBrdMm1S2kKErsCSSA2IChTUXokg,3987
+tests/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests/pprint/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests/pprint/test_pprint.py,sha256=hFB-HnfMVvpxmBfS0el_J3ycybtbbHrmWdd6gZyLsBU,9046
+pprinty-1.0.0.dist-info/LICENSE,sha256=dJXsy0FOXqH-PxrYGbK-X5IfpSFoVXXKQp8bD3SSK5E,1067
+pprinty-1.0.0.dist-info/METADATA,sha256=Dl2W2WhTdJLwrZHw2HxZTSi407tBYDtrvtWNLbzB1_c,1556
+pprinty-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pprinty-1.0.0.dist-info/top_level.txt,sha256=_LYJfX3d94UwEOXTz7kIlM4cOmOIai3vtKJvggtAyH0,14
+pprinty-1.0.0.dist-info/RECORD,,
