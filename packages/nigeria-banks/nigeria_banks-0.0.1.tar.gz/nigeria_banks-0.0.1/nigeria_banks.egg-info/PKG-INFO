@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: nigeria-banks
+Version: 0.0.1
+Summary: Get details of specific bank in Nigeria
+Home-page: https://github.com/Josephchinedu/nigeria_bank_codes
+Author: Devjoseph
+Author-email: joseph4jubilant@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+📦 nigeria_banks
+=======================
+
+Cbn Banks is a basic python package that returns details of particular bank in Nigeria.
+
+## Installation
+
+You can install Cbn Bankss from [PyPI](https://pypi.org/project/nigeria_banks/):
+
+    pip install nigeria_banks
+
+
+
+## How to use
+
+    $ from nigeria_banks import core
+     bank = core.cbn_code("322")
+     print(bank)
+     ## {'bank_code': '100018', 'cbn_code': '322', 'name': 'Zenith Mobile', 'bank_short_name': 'zenith-mobile', 'disabled_for_vnuban': None}
+     
+     print(bank['bank_short_name'])
+     ## zenith-mobile
+
+     
+
+
+
