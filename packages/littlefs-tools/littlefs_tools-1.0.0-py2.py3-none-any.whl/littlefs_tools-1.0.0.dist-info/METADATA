@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: littlefs-tools
+Version: 1.0.0
+Summary: Python package to create littleFS filesystem image binaries
+Home-page: https://github.com/vppillai/littlefs_tools
+Author: Vysakh P Pillai
+Author-email: vysakhpillai@embeddedinn.xyz
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: littlefs-python
+
+# littlefs_create
+
+Tools create, view and extract [littleFS](https://github.com/littlefs-project/littlefs) filesystem images.
+
+Though distributed as a python module, these tools are intented to be executed as a commandline tools. Invocation commands are provided below.
+
+## Installation
+
+```bash
+pip install littlefs_tools
+```
+
+## Usage
+
+```bash
+usage: littlefs_create [-h] [-b BLOCKSIZE] [-c BLOCKCOUNT] [-i IMAGE] [-v] -s
+                  SOURCE
+
+Tool to generate lfs images from a source folder
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b BLOCKSIZE, --block_size BLOCKSIZE
+                        block size of the LFS image (defaults to 4096)
+  -c BLOCKCOUNT, --block_count BLOCKCOUNT
+                        block Count of the LFS image (defaults to 64)
+  -i IMAGE, --image IMAGE
+                        image file name
+  -v, --verbose         Verbose
+
+required arguments:
+  -s SOURCE, --source SOURCE
+                        source path
+```
+
+
