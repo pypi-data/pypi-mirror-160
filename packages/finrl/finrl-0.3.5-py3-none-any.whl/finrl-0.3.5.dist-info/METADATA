@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: finrl
+Version: 0.3.5
+Summary: FinRL: Financial Reinforcement Learning Framework.
+Home-page: https://github.com/finrl/finrl-library
+Author: Hongyang Yang, Xiaoyang Liu
+Author-email: hy2500@columbia.edu
+License: MIT
+Keywords: Reinforcement Learning,Finance
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: alpaca-trade-api (>=2.1.0)
+Requires-Dist: ccxt (==1.66.32)
+Requires-Dist: elegantrl
+Requires-Dist: exchange-calendars
+Requires-Dist: gputil
+Requires-Dist: gym (>=0.17)
+Requires-Dist: jqdatasdk
+Requires-Dist: lz4
+Requires-Dist: matplotlib
+Requires-Dist: numpy (>=1.17.3)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: pre-commit
+Requires-Dist: pytest
+Requires-Dist: ray[default]
+Requires-Dist: ray[tune]
+Requires-Dist: scikit-learn (>=0.21.0)
+Requires-Dist: setuptools (==59.5.0)
+Requires-Dist: stable-baselines3[extra]
+Requires-Dist: stockstats (>=0.4.0)
+Requires-Dist: tensorboardX
+Requires-Dist: wheel (>=0.33.6)
+Requires-Dist: wrds
+Requires-Dist: yfinance
+
+Version 0.3.5 notes: stable version, code refactoring, more tutorials, clear documentation
