@@ -1,0 +1,12 @@
+analytics/test/client.py,sha256=rpfCsqOlmpL8O1J6tYqH_cUOpWs4h8jToyELzegbzZ0,12986
+june/analytics/__init__.py,sha256=l0YOFZkLDsDAAcUFk023h0cEBPxHgCitUCsDNYmWWW0,1981
+june/analytics/client.py,sha256=4Bs42PnouqGEdwTon10HxzuHWE0gU8t5rDKd-GHuPio,11184
+june/analytics/consumer.py,sha256=sevK-JC6b_yG5la5qS_M8kUYVEkigYIeZExi1NCQ1Qs,4457
+june/analytics/request.py,sha256=s4BJZABkJadxk4LIxJ-fDWegwT5y3ZBQtyI-X5g_1VA,2365
+june/analytics/utils.py,sha256=xvhxIzLu-jOoLDqybXuVGSWTqx8U0i0FEtQwF1BEQnE,2468
+june/analytics/version.py,sha256=vjfCgYiJHSyvYjnHPCCK9OntI5ZQJSVcO9BBNQp48y0,18
+juneso_analytics_python-2.2.0.dist-info/LICENSE,sha256=hM_riSJSep_DOsamtpleiDAOdZySV5f1Oh-b5ftAGJE,1078
+juneso_analytics_python-2.2.0.dist-info/METADATA,sha256=ewNR34EZOv_IWAnl9a3tUy4_e2ILyL-qylmWEDqBUBo,1248
+juneso_analytics_python-2.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+juneso_analytics_python-2.2.0.dist-info/top_level.txt,sha256=AI2PekS_gK1-q3WFYnWwsjxdIGDvVa9Bd97YMD5EY8g,15
+juneso_analytics_python-2.2.0.dist-info/RECORD,,
