@@ -1,0 +1,12 @@
+LICENSE,sha256=8VgBE2OC5Nns5Pnbl19h-AjUaUvjeVzpwJbxa8S0r6k,1081
+pygitm/__init__.py,sha256=S9ROOtFtMwWhPGbBQvA1IzSmNd2mN4ddtOtTjHyvtUg,336
+pygitm/auth.py,sha256=2zs5NFtqtPvuQevOH4cugctq13oGl3MAjdwQOYZQLsg,1053
+pygitm/constants.py,sha256=iWJQuHwfDZFx_EUYQyhpVwLWtXxQ6qA9GzMcFQihFhw,143
+pygitm/git.py,sha256=XXCAc7ooggEsYRCBMyjXvEnPvkHDEzpdJU39juY6WLc,1158
+pygitm/options.py,sha256=4Ts5sbEIMm-rW4n_vq5ztQngbEgqZfeXasS0ihEJ73A,3796
+pygitm/repository.py,sha256=_zXDCxQCBxgmvVia1uNeciCGfgy4qPjmaVxxEaP4VZc,297
+pygitm/workspace.py,sha256=Np2XjZ6a_VsCBpH6x_n5aI-XfTcXGn0d9SYIekbGRm0,783
+pygitm-0.8.0.dist-info/LICENSE,sha256=8VgBE2OC5Nns5Pnbl19h-AjUaUvjeVzpwJbxa8S0r6k,1081
+pygitm-0.8.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pygitm-0.8.0.dist-info/METADATA,sha256=OC3m1R4uckXDvwgBy0ypUfNyMLMsoY7dv5t5vKUAvqc,1024
+pygitm-0.8.0.dist-info/RECORD,,
