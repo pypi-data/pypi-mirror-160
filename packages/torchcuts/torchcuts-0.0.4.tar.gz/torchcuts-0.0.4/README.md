@@ -1,0 +1,125 @@
+# torchcuts - Convenient shortcuts to different namespaces
+
+PyTorch contains a vast namespace which frequently overlaps with numpy.
+Simplify with torchcuts! First, import the TorchCuts class and create an
+instance:
+
+~~~
+from torchcuts import TorchCuts
+tc = TorchCuts()
+~~~
+
+You now have access to common functions from both PyTorch and numpy.
+Shortcuts to the PyTorch namespace begin with a capital letter, whereas
+shortcuts to the numpy namespace are all lower case. For example:
+
+~~~
+N = 7
+X = torch.linspace(0, N-1, N)
+# Try with the torchcuts instance create previously:
+X = tc.Lin(0, N-1, N)
+~~~
+
+Additionally, torchcuts also comes with a filter class. Instantiate this
+class on an input tensor. You can then call then the instance on another
+tensor, to find the elements in the original tensor that are nearest to
+the elements in the argument tensor. The result is return in one-hot format.
+
+~~~
+from torchcuts import Filter
+f = Filter([0, 1, 2])
+f([0.25, 0.5, 0.75])
+>>> torch.tensor([[1, 0, 0,], [0, 1, 0], [0, 1, 0]])
+~~~
+
+This filter class finds use for piecewise defined function on some
+interval, such as for splines. 
+## Quick reference: 
+~~~#  Data Types from NumPy
+tc[c128] = complex128
+tc[c64] = complex64
+tc[f16] = float16
+tc[f32] = float32
+tc[f64] = float64
+tc[i16] = int16
+tc[i32] = int32
+tc[i64] = int64
+tc[i8] = int8
+tc[ui16] = uint16
+tc[ui32] = uint32
+tc[ui64] = uint64
+tc[ui8] = uint8
+
+#  Data Types from PyTorch
+tc[Bool] = torch.bool
+tc[C128] = torch.complex128
+tc[C32] = torch.complex32
+tc[C64] = torch.complex64
+tc[F32] = torch.float32
+tc[F64] = torch.float64
+tc[I16] = torch.int16
+tc[I32] = torch.int32
+tc[I64] = torch.int64
+tc[I8] = torch.int8
+tc[Ui8] = torch.uint8
+
+#  Functions from NumPy
+tc[acos] = arccos
+tc[acosh] = arccosh
+tc[asin] = arcsin
+tc[asinh] = arcsinh
+tc[atan] = arctan
+tc[atan2] = arctan2
+tc[atanh] = arctanh
+tc[cos] = cos
+tc[cosh] = cosh
+tc[i] = eye
+tc[j] = ones
+tc[oh] = zeros
+tc[sin] = sin
+tc[sinh] = sinh
+tc[tan] = tan
+tc[tanh] = tanh
+
+#  Functions from PyTorch
+tc[Abs] = abs
+tc[Acos] = acos
+tc[Acosh] = acosh
+tc[Asin] = asin
+tc[Asinh] = asinh
+tc[Atan] = atan
+tc[Atan2] = atan2
+tc[Atanh] = atanh
+tc[Cat] = cat
+tc[Coin] = bernoulli
+tc[Cos] = cos
+tc[Cosh] = cosh
+tc[Dot] = vdot
+tc[Erf] = erf
+tc[Exp] = exp
+tc[Flat] = flatten
+tc[H] = heaviside
+tc[I] = eye
+tc[J] = ones
+tc[Lin] = linspace
+tc[Log] = log
+tc[New] = tensor
+tc[Oh] = zeros
+tc[Rand] = rand
+tc[Relu] = relu
+tc[Roll] = roll
+tc[Sin] = sin
+tc[Sinh] = sinh
+tc[Sort] = sort
+tc[Sq] = squeeze
+tc[T] = transpose
+tc[Tan] = tan
+tc[Tanh] = tanh
+tc[Tile] = tile
+tc[Tr] = trace
+tc[Tril] = tril
+tc[Triu] = triu
+tc[Un] = unsqueeze
+
+
+ ~~~
