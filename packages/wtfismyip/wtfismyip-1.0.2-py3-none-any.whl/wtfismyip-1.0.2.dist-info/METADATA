@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: wtfismyip
+Version: 1.0.2
+Summary: Get your fucking IP address
+Author: Jorge Alberto Díaz Orozco (Akiel)
+Author-email: diazorozcoj@gmail.com
+Requires-Dist: requests
+Requires-Dist: rich
+
+A simple script to get your IP address and its information on your terminal.
