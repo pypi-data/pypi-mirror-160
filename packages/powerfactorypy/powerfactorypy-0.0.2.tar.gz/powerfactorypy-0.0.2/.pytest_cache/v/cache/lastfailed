@@ -1,0 +1,10 @@
+{
+  "tests/test_pf_base_interface.py::test_get_obj": true,
+  "tests/test_pf_base_interface.py::test_set_attr_exceptions": true,
+  "tests/test_pf_base_interface.py::test_set_attr_by_path": true,
+  "tests/test_pf_base_interface.py::test_get_attr": true,
+  "tests/test_pf_base_interface.py::test_create_by_path": true,
+  "tests/test_pf_base_interface.py::test_get_from_folder_exceptions": true,
+  "tests/test_pf_base_interface.py::test_get_by_attribute": true,
+  "tests/test_pf_base_interface.py::test_delete_obj_from_folder": true
+}
