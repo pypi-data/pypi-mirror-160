@@ -1,0 +1,10 @@
+kappaprofiler/TODO.py,sha256=dIusYuUPae-TWFlb2Vfqaegpv8_9HgdiKdysxGZDntQ,871
+kappaprofiler/__init__.py,sha256=kkDI5GeP0zvMolylEwOUZdpbA9slb7ntC-8O3ZjIhtc,56
+kappaprofiler/profiler.py,sha256=8m0jmegFZAo2pTQpL3Iv0IKVDOgJ2HNAPeLR0-FdxRQ,2064
+kappaprofiler/stopwatch.py,sha256=6IeZUnitm8wtoN9SwpX5VHHmKe3X-Cc0w_xR9wYJtTQ,1638
+kappaprofiler/time_node.py,sha256=C7LFIWDjrrR5uBT6MIbw2DB8qlYB25Q3r4_-hi5-3u8,1328
+kappaprofiler-0.0.5.dist-info/LICENSE,sha256=3RtOQFmKX9OtI4fdNRzIKOyu-lre2aDQORtYinW0mJU,1071
+kappaprofiler-0.0.5.dist-info/METADATA,sha256=qfWLqRbTqc7w4diYhvFs3fafOTHD_dURPmsrsVWk2Pk,572
+kappaprofiler-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kappaprofiler-0.0.5.dist-info/top_level.txt,sha256=5QU-GfBb6gts9iphwP60E19mcG1vHa76Lte0YVreWNI,14
+kappaprofiler-0.0.5.dist-info/RECORD,,
