@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: littleflow_redis
+Version: 0.4.0
+Summary: An integration of littleflow an Redis for remote execution.
+Home-page: https://github.com/alexmilowski/littleflow
+Author: Alex Miłowski
+Author-email: alex@milowski.com
+License: Apache License 2.0
