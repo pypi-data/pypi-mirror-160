@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "simple-dmarc-parser"
+version = "1.0.0"
+description = "A Python script that processes DMARC reports from a mailbox and gives a basic summary."
+authors = ["FrostTheFox <python@frostthefox.pw>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+xmltodict = "^0.13.0"
+imap-tools = "^0.56.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+simple-dmarc-parser = "simple_dmarc_parser.dmarc_parser:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
