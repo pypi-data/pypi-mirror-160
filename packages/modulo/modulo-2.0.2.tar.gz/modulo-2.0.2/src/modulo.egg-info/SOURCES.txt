@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/modulo/__init__.py
+src/modulo/modulo.py
+src/modulo.egg-info/PKG-INFO
+src/modulo.egg-info/SOURCES.txt
+src/modulo.egg-info/dependency_links.txt
+src/modulo.egg-info/requires.txt
+src/modulo.egg-info/top_level.txt
