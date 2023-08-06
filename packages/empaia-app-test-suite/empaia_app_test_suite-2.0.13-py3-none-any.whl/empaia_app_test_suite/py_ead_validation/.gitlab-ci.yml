@@ -1,0 +1,14 @@
+verify:
+  image: registry.gitlab.com/empaia/integration/ci-docker-images/test-runner
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  tags:
+    - empaia-parallel
+  before_script:
+    - poetry install
+  script:
+    - poetry run black --check .
+    - poetry run isort --check .
+    - poetry run pycodestyle .
+    - poetry run pylint .
+    - poetry run pytest --maxfail=1
