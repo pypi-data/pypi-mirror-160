@@ -1,0 +1,152 @@
+{
+  "roomId": "{{ roomid }}",
+  "markdown": "# Network3 Medusa has written the {{ command }} JSON to Hedera NodeID {{ nodeid }} FileID {{ fileid }}",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.0",
+        "body": [
+            {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://hedera.com/assets/images/favicon.png"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "nxpydocs tests",
+                            "weight": "lighter",
+                            "color": "accent"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "Network3 Medusa has written the {{ command }} JSON to Hedera NodeID {{ nodeid }} FileID {{ fileid }}",
+                            "horizontalAlignment": "Left",
+                            "wrap": true,
+                            "color": "Light",
+                            "size": "Large",
+                            "spacing": "Small"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 35,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "NodeID",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "FileID",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "NXOS Command",
+                            "color": "Light"
+                        }                        
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 60,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "{{ nodeid }}",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "{{ fileid }}",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "{{ command }}",
+                            "color": "Light"
+                        }                        
+                    ]
+                }
+            ],
+            "spacing": "Padding",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Welcome to #network3",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Resources:"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "altText": "",
+                            "url": "https://developer.webex.com/images/link-icon.png",
+                            "size": "Small",
+                            "width": "30px"
+                        }
+                    ],
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "[GitHub Repository](https://github.com/automateyournetwork/network3_medusa)",
+                            "horizontalAlignment": "Left",
+                            "size": "Medium"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Left",
+                    "spacing": "Small"
+                    }                           
+            ]
+            }                
+        ],
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "url": "https://youtu.be/GmQoQEoSa_A",
+              "title": "How Hashgraph Works"
+            }
+          ]        
+        }
+        }
+    ]
+}
