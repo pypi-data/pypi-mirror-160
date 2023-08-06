@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: biometeo
+Version: 0.0.3
+Summary: This package is applied to calculate thermal indicators for human biometeorology. 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: Cython (>=0.29.28)
+
+UNKNOWN
+
