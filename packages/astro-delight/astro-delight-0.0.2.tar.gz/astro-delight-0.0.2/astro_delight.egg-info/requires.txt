@@ -1,0 +1,7 @@
+astropy
+sep
+xarray
+panstamps
+matplotlib
+numpy
+tensorflow
