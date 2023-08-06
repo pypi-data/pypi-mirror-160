@@ -1,0 +1,5 @@
+[cms.djangoapp]
+site_config_client = site_config_client.apps:SiteConfigApp
+
+[lms.djangoapp]
+site_config_client = site_config_client.apps:SiteConfigApp
