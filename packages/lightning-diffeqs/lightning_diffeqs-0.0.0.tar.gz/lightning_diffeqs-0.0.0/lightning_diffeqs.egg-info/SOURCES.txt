@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+.github/workflows/pypi_release.yml
+lightning_diffeqs.egg-info/PKG-INFO
+lightning_diffeqs.egg-info/SOURCES.txt
+lightning_diffeqs.egg-info/dependency_links.txt
+lightning_diffeqs.egg-info/requires.txt
+lightning_diffeqs.egg-info/top_level.txt
