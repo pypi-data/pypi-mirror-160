@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ice-launcher
+Version: 0.0.2
+Summary: An unofficial WIP Minecraft Launcher
+Project-URL: Documentation, https://github.com/mq1/ice-launcher#readme
+Project-URL: Issues, https://github.com/mq1/ice-launcher/issues
+Project-URL: Source, https://github.com/mq1/ice-launcher
+Author-email: Manuel Quarneti <manuelquarneti@gmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.10
+Requires-Dist: appdirs~=1.4.4
+Requires-Dist: customtkinter~=4.5.5
+Requires-Dist: minecraft-launcher-lib~=5.2
+Requires-Dist: pillow~=9.2.0
+Requires-Dist: requests~=2.28.1
+Description-Content-Type: text/markdown
+
+<p align="center">
+<img src="./ice-launcher.png" alt="Ice Launcher Logo" height="128px">
+</p>
+
+<h1 align="center">Ice Launcher</h1>
+
+<p align="center">
+<a href="https://github.com/mq1/ice-launcher/blob/main/LICENSE"><img alt="License: GPL-3.0" src="https://img.shields.io/github/license/mq1/ice-launcher"></a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+</p>
+
+-----
+
+An unofficial WIP Minecraft Launcher
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [Thanks](#thanks)
+- [License](#license)
+
+## Installation
+
+```console
+pip install ice-launcher
+```
+
+## Thanks
+
+- Aru for the awesome logo!
+- [JakobDev](https://gitlab.com/JakobDev) for building [minecraft-launcher-lib](https://gitlab.com/JakobDev/minecraft-launcher-lib)
+- [TomSchimansky](https://github.com/TomSchimansky) for building [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
+
+## License
+
+`ice-launcher` is distributed under the terms of the [GPL-3.0-only](https://spdx.org/licenses/GPL-3.0-only.html) license.
