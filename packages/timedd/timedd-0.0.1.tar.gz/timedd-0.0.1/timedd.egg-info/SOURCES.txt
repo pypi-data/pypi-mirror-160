@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+timedd/__init__.py
+timedd/timedd.py
+timedd.egg-info/PKG-INFO
+timedd.egg-info/SOURCES.txt
+timedd.egg-info/dependency_links.txt
+timedd.egg-info/requires.txt
+timedd.egg-info/top_level.txt

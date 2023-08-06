@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: timedd
+Version: 0.0.1
+Summary: A package to add timestamp to your input
+Home-page: https://github.com/your_package/homepage/
+Author: wullic
+Author-email: wullic@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# timedd
+
