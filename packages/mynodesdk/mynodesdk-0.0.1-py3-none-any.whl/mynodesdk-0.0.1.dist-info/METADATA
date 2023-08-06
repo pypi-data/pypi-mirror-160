@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mynodesdk
+Version: 0.0.1
+Summary: Tools for creating and managing myNode application package
+Home-page: https://github.com/mynodebtc/mynode_sdk
+Author: MYNODE
+Author-email: admin@mynodebtc.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/mynodebtc/mynode_sdk/issues
+Project-URL: Source, https://github.com/mynodebtc/mynode_sdk
+Keywords: mynode,bitcoin,lightning,sdk,applications
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+
+# sdk
+Software Development Kit for Application Development
+
+
