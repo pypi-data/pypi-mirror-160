@@ -1,0 +1,9 @@
+matplotlib
+Pillow
+pyephem
+requests
+numpy
+pandas
+
+[rst]
+docutils
