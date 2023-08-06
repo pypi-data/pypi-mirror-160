@@ -1,0 +1,2 @@
+[console_scripts]
+secuer = secuer_console.secuer_console:main
