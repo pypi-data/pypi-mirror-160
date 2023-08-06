@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: hny-config
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/Soldy/hny-config
+Author: Soldy
+License: UNKNOWN
+Description: # HNY-config
+        
+        ## Install
+        
+        ```
+        pip3 install hny-config
+        
+        ```
+        
+        
+        ## Usage
+        
+        ```
+        import hny-config as config
+        
+        config.init('config_file.json')
+        
+        print(config.get('option'))
+        
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Provides-Extra: dev
