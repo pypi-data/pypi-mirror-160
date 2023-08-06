@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+admin_autoregister/__init__.py
+admin_autoregister/admin.py
+admin_autoregister/apps.py
+admin_autoregister/mixins.py
+admin_autoregister/migrations/__init__.py
+django_admin_autoregister.egg-info/PKG-INFO
+django_admin_autoregister.egg-info/SOURCES.txt
+django_admin_autoregister.egg-info/dependency_links.txt
+django_admin_autoregister.egg-info/top_level.txt
