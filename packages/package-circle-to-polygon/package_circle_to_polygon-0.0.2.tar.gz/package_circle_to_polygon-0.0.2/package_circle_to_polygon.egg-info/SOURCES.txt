@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+package_circle_to_polygon/__init__.py
+package_circle_to_polygon.egg-info/PKG-INFO
+package_circle_to_polygon.egg-info/SOURCES.txt
+package_circle_to_polygon.egg-info/dependency_links.txt
+package_circle_to_polygon.egg-info/top_level.txt
