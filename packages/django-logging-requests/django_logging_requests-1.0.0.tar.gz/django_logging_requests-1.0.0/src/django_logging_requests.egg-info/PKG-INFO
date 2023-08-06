@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: django-logging-requests
+Version: 1.0.0
+Summary: A package for logging all requests
+Author: J4CK_VVH173
+Author-email: i78901234567890@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Logging
+
+Middleware для логирования request запросов на endpoint.
+
+## Quick start
+
+1. Add "django_logging_requests" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'django_logging_requests',
+    ]
+
+1. Create `logging` handlers with `LOGGING` name within `settings.py`. The middleware uses handlers with names: `info_logger` and
+`error_logger` .
+
+```python
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'standard': {
+            'format': '{levelname} {asctime} \nDETAILS: {message}\n\n',
+            'style': '{',
+        }
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'standard',
+            'stream': 'ext://sys.stdout'
+        },
+        'error': {
+            'level': 'ERROR',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs' / 'backend.error.log',
+            'formatter': 'standard'
+        },
+        'warning': {
+            'level': 'WARNING',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs' / 'backend.warning.log',
+            'formatter': 'standard'
+        },
+        'info': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs' / 'backend.info.log',
+            'formatter': 'standard'
+        },
+    },
+    'loggers': {
+        'info_logger': {
+            'handlers': ['info'],
+            'level': 'INFO'
+        },
+        'warning_logger': {
+            'handlers': ['warning'],
+        },
+        'error_logger': {
+            'handlers': ['error'],
+        },
+    }
+}
+```
+
+1. Create `LOGGING_SERVER_NAME` withing `settings.py`. The middleware uses this variable as server name key in every log message.
+
+```python
+LOGGING_SERVER_NAME = 'server name'
+```
+
+1. Add a middleware class to listen in on responses
+
+MIDDLEWARE = [
+    ...,
+    "django_logging_requests.middleware.LoggingMiddleware",
+    ...,
+]
