@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: dsdk
+Version: 1.5.7
+Summary: An opinionated library to help deploy data science projects
+Author-email: Jason Lubken <jlubken@users.noreply.github.com>, Michael Becker <mdbecker@users.noreply.github.com>, Corey Chivers <cjbayesian@user.noreply.github.com>, Graydon Neill <grayeye@user.noreply.github.com>, Penn Signals <pennsignals@pennmedicine.upenn.edu>
+License: MIT License        
+        Copyright (c) 2021 Penn Signals        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://github.com/pennsignals/dsdk
+Project-URL: Source, https://github.com/pennsignals/dsdk
+Project-URL: Tracker, https://github.com/pennsignals/dsdk/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cfgenvy (>=1.3.5)
+Requires-Dist: numpy (>=1.15.4)
+Requires-Dist: pandas (>=0.23.4)
+Requires-Dist: pip (>=22.0.4)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: setuptools (>=61.2.0)
+Requires-Dist: setuptools-scm[toml] (>=6.4.2)
+Requires-Dist: wheel (>=0.37.1)
+Provides-Extra: all
+Requires-Dist: psycopg2-binary (>=2.8.6) ; extra == 'all'
+Requires-Dist: cython (>=0.29.21) ; extra == 'all'
+Requires-Dist: pymssql (>=2.2.3) ; extra == 'all'
+Requires-Dist: astroid ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: coverage[toml] ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: flake8-bugbear ; extra == 'all'
+Requires-Dist: flake8-commas ; extra == 'all'
+Requires-Dist: flake8-comprehensions ; extra == 'all'
+Requires-Dist: flake8-docstrings ; extra == 'all'
+Requires-Dist: flake8-logging-format ; extra == 'all'
+Requires-Dist: flake8-mutable ; extra == 'all'
+Requires-Dist: flake8-sorted-keys ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: mypy ; extra == 'all'
+Requires-Dist: pep8-naming ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: pylint ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: types-pkg-resources ; extra == 'all'
+Requires-Dist: types-pymssql ; extra == 'all'
+Requires-Dist: types-python-dateutil ; extra == 'all'
+Requires-Dist: types-pyyaml ; extra == 'all'
+Requires-Dist: types-requests ; extra == 'all'
+Requires-Dist: vcrpy ; extra == 'all'
+Provides-Extra: psycopg2
+Requires-Dist: psycopg2-binary (>=2.8.6) ; extra == 'psycopg2'
+Provides-Extra: pymssql
+Requires-Dist: cython (>=0.29.21) ; extra == 'pymssql'
+Requires-Dist: pymssql (>=2.2.3) ; extra == 'pymssql'
+Provides-Extra: test
+Requires-Dist: astroid ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: coverage[toml] ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: flake8-bugbear ; extra == 'test'
+Requires-Dist: flake8-commas ; extra == 'test'
+Requires-Dist: flake8-comprehensions ; extra == 'test'
+Requires-Dist: flake8-docstrings ; extra == 'test'
+Requires-Dist: flake8-logging-format ; extra == 'test'
+Requires-Dist: flake8-mutable ; extra == 'test'
+Requires-Dist: flake8-sorted-keys ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pep8-naming ; extra == 'test'
+Requires-Dist: pre-commit ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: types-pkg-resources ; extra == 'test'
+Requires-Dist: types-pymssql ; extra == 'test'
+Requires-Dist: types-python-dateutil ; extra == 'test'
+Requires-Dist: types-pyyaml ; extra == 'test'
+Requires-Dist: types-requests ; extra == 'test'
+Requires-Dist: vcrpy ; extra == 'test'
+
+# Overview
+
+[![Release](https://github.com/pennsignals/dsdk/actions/workflows/release.yml/badge.svg)](https://github.com/pennsignals/dsdk/actions/workflows/release.yml)
+
+[![Test](https://github.com/pennsignals/dsdk/actions/workflows/test.yml/badge.svg)](https://github.com/pennsignals/dsdk/actions/workflows/test.yml)
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+An opinionated library to help deploy data science projects
+
+* Free software: MIT license
+
+## Install
+
+    pip install "."
+
+## Develop, Lint & Test
+
+Setup:
+
+    python3.10 -m venv .venv
+
+    . .venv/bin/activate
+    pip install ".[all]"
+    pre-commit install
+
+Session:
+
+    . .env/bin/activate
+    docker-compose up --build postgres &
+    ...
+    CONFIG=./local/test.yaml ENV=./secrets/example.env pre-commit run --all-files
+    ...
+    CONFIG=./local/test.yaml ENV=./secrets/example.env git commit -m 'Message'
+    ...
+    docker-compose down
+    deactivate
+
+Rebuild the postgres container and remove the docker volume if the database schema is changed.
+
+## CI/CD Lint & Test:
+
+    docker-compose up --build test &
+    ...
+    docker-compose down
