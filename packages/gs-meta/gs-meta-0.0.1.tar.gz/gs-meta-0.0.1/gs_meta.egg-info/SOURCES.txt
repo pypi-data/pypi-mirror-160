@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gs_meta/__init__.py
+gs_meta/__main__.py
+gs_meta/cli.py
+gs_meta.egg-info/PKG-INFO
+gs_meta.egg-info/SOURCES.txt
+gs_meta.egg-info/dependency_links.txt
+gs_meta.egg-info/entry_points.txt
+gs_meta.egg-info/requires.txt
+gs_meta.egg-info/top_level.txt

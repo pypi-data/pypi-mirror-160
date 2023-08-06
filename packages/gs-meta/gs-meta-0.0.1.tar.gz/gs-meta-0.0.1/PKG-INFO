@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gs-meta
+Version: 0.0.1
+Summary: Dataflow metadata viewer
+Home-page: https://github.com/martintupy/gs-meta
+Author: Martin Tupy
+Author-email: id@martintupy.com
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dataflow metadata viewer
+
+Soon
