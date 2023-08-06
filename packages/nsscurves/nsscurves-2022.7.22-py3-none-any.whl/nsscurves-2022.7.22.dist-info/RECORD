@@ -1,0 +1,8 @@
+nsscurves/__init__.py,sha256=eY6Ip2wjLVYHuRzM1KNq70zvKUNfM1ZrmMKvRlgYWLM,83
+nsscurves/nss.py,sha256=WOYZvhwNuw01K9a2FLRX-fLsbsbRdnQZ3yL0wmApzSk,55
+nsscurves/test.py,sha256=IcJouq7ognYcWqrwdbhPMj2HW4krqZ05Vzo8JgaGQqQ,833
+nsscurves-2022.7.22.dist-info/LICENSE,sha256=qH_4-XdaQWxY3W_QFETM6Kvp39zNl2SB_9pEEZwcpyI,1090
+nsscurves-2022.7.22.dist-info/METADATA,sha256=ud0vAJf_O1Y3hM8b8reESz1CjASqnTj8rIougEYH3sE,1132
+nsscurves-2022.7.22.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nsscurves-2022.7.22.dist-info/top_level.txt,sha256=Aoqzq73PbVsO1A2BiJuI0Bxna2svPU1_xaXdf7nCN98,10
+nsscurves-2022.7.22.dist-info/RECORD,,
