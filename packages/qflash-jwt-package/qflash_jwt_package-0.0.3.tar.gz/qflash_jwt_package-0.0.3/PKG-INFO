@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: qflash_jwt_package
+Version: 0.0.3
+Summary: a small package for implement jwt security in API
+Home-page: https://github.com/Quasar-Flash
+Author: Marlon Martins
+Author-email: marlon.martins@qflash.com.br
+License: MIT License
+Keywords: Package
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Qflash JWT Package
+a small package for implement jwt security in API
+
+
+## Getting Started
+#### Dependencies
+You need Python 3.7 or later to use **qflash_jwt_package**. You can find it at [python.org](https://www.python.org/).
+
+
+## Features
+- File structure for PyPI packages
+- Setup with package informations
+- License example
+
