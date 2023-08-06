@@ -1,0 +1,3 @@
+[console_scripts]
+poetry-import=poetry_import.main:main
+
