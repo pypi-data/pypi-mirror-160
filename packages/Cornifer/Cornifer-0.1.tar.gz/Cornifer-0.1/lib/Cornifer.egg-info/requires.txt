@@ -1,0 +1,2 @@
+oldest-supported-numpy
+lmdb>=1.2.1

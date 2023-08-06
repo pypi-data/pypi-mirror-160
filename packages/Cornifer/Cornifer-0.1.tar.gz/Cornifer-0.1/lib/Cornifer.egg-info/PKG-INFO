@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Cornifer
+Version: 0.1
+Summary: An easy-to-use data manager for experimental mathematics.
+Home-page: https://github.com/automorphis/cornifer
+Author: Michael P. Lane
+Author-email: mlanetheta@gmail.com
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+An easy-to-use data manager for experimental mathematics.
