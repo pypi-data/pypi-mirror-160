@@ -1,0 +1,12 @@
+README.txt
+setup.cfg
+setup.py
+./pymzl/XrTools.py
+./pymzl/__init__.py
+./pymzl/reg.py
+./pymzl/version.py
+pymzl.egg-info/PKG-INFO
+pymzl.egg-info/SOURCES.txt
+pymzl.egg-info/dependency_links.txt
+pymzl.egg-info/requires.txt
+pymzl.egg-info/top_level.txt
