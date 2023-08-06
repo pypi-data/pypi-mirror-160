@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DeepFilterDataLoader
+Version: 0.2.5
+Classifier: Programming Language :: Rust
+Requires-Dist: numpy >= 1.22
+License-File: LICENSE
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Author: Hendrik Schröter <h.schroeter@pm.me>
+Author-email: Hendrik Schröter <h.schroeter@pm.me>
+Requires-Python: >=3.8
