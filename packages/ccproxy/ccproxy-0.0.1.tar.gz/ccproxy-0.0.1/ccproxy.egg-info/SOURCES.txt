@@ -1,0 +1,7 @@
+README.md
+setup.py
+ccproxy.egg-info/PKG-INFO
+ccproxy.egg-info/SOURCES.txt
+ccproxy.egg-info/dependency_links.txt
+ccproxy.egg-info/requires.txt
+ccproxy.egg-info/top_level.txt
