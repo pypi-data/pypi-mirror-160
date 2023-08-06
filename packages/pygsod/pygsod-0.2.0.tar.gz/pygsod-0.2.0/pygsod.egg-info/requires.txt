@@ -1,0 +1,16 @@
+pandas
+openpyxl
+pyepw
+tqdm
+requests
+
+[dev]
+black
+mypi
+isort
+flake8
+
+[test]
+coverage
+pytest
+pytest-cov
