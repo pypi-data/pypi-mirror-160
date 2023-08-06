@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.py
+pyabsorb/__init__.py
+pyabsorb/azazel.py
+pyabsorb/brencon.dat
+pyabsorb/brenconff.dat
+pyabsorb/lmnts.py
+pyabsorb/utils.py
+pyabsorb.egg-info/PKG-INFO
+pyabsorb.egg-info/SOURCES.txt
+pyabsorb.egg-info/dependency_links.txt
+pyabsorb.egg-info/entry_points.txt
+pyabsorb.egg-info/not-zip-safe
+pyabsorb.egg-info/top_level.txt
