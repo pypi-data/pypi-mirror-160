@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: censys-cloud-connectors
+Version: 3.0.1b1
+Summary: The Censys Unified Cloud Connector is a standalone connector that gathers assets from various cloud providers and stores them in Censys ASM.
+License: Apache-2.0
+Author: Censys, Inc.
+Author-email: support@censys.io
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: aws
+Provides-Extra: azure
+Provides-Extra: gcp
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: azure-cli (>=2.34.1,<3.0.0); extra == "azure"
+Requires-Dist: azure-common (>=1.1.28,<2.0.0); extra == "azure"
+Requires-Dist: azure-core (>=1.22.0,<2.0.0); extra == "azure"
+Requires-Dist: azure-identity (>=1.7.1,<2.0.0); extra == "azure"
+Requires-Dist: azure-mgmt-compute (>=25.0.0,<25.1.0); extra == "azure"
+Requires-Dist: azure-mgmt-containerinstance (>=9.1.0,<10.0.0); extra == "azure"
+Requires-Dist: azure-mgmt-core (>=1.3.0,<2.0.0); extra == "azure"
+Requires-Dist: azure-mgmt-dns (>=8.0.0,<9.0.0); extra == "azure"
+Requires-Dist: azure-mgmt-network (>=19.3.0,<20.0.0); extra == "azure"
+Requires-Dist: azure-mgmt-resource (==20.0.0); extra == "azure" or extra == "azure"
+Requires-Dist: azure-mgmt-sql (>=3.0.1,<4.0.0); extra == "azure"
+Requires-Dist: azure-mgmt-storage (>=19.1.0,<20.0.0); extra == "azure"
+Requires-Dist: azure-storage-blob (>=12.9.0,<13.0.0); extra == "azure"
+Requires-Dist: backoff (>=2.1.2,<3.0.0)
+Requires-Dist: boto3 (>=1.24.2,<2.0.0); extra == "aws"
+Requires-Dist: boto3-stubs[route53,elb,ec2,apigateway,ecs,elbv2,s3,route53domains,secretsmanager,rds,apigatewayv2] (>=1.24.11,<2.0.0); extra == "aws"
+Requires-Dist: censys (>=2.1.2,<3.0.0)
+Requires-Dist: google-auth (>=2.6.0,<3.0.0); extra == "gcp"
+Requires-Dist: google-cloud-resource-manager (>=1.4.1,<2.0.0); extra == "gcp"
+Requires-Dist: google-cloud-securitycenter (>=1.9.0,<2.0.0); extra == "gcp"
+Requires-Dist: importlib-metadata; python_version <= "3.8"
+Requires-Dist: inquirerpy (>=0.3.3,<0.4.0)
+Requires-Dist: polling2 (>=0.5.0,<0.6.0)
+Requires-Dist: pydantic[email,dotenv] (>=1.9.0,<2.0.0)
+Requires-Dist: pywin32 (>=303,<304); sys_platform == "win32"
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: rich (>=12.4.4,<13.0.0)
