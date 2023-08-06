@@ -1,0 +1,53 @@
+
+ConfigTree {
+    background-color: #1f1f1f;
+    alternate-background-color: #171717;
+    selection-background-color: ; /* Used on Mac ? */
+    selection-color: white; /* Used on Mac ? */
+    show-decoration-selected: 1;
+
+    color: white;
+    /* font: 14px; */
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ConfigTree::item:hover {
+    border-color: #444444;
+}
+
+ConfigTree::item:selected {
+    border-color: #555555;
+}
+
+ConfigTree::item:selected:active{
+  border-color: #666666;
+}
+
+ConfigTree::branch {
+  background-color: #1f1f1f;
+  alternate-background-color: #171717;
+}
+
+ConfigTree QToolButton
+{
+  border: 0.1ex solid transparent;
+  border-radius: 0.2ex;
+}
+
+
+ConfigTree QToolButton::menu-indicator
+{
+    border-image: none;
+    width = 0px;
+    height = 0px;
+}
+
+ConfigTree QToolButton::menu-arrow
+{
+    border-image: none;
+    width = 0px;
+    height = 0px;
+}
