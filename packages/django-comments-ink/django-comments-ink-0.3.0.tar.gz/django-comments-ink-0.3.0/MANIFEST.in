@@ -1,0 +1,13 @@
+include AUTHORS
+include LICENSE
+include CHANGELOG.md
+include tox.ini
+include package.json
+include webpack.config.js
+include requirements.txt
+include requirements-tests.txt
+include requirements-dev.txt
+
+recursive-include django_comments_ink/locale *
+recursive-include django_comments_ink/templates *
+recursive-include django_comments_ink/static *

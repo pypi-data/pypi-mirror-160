@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=60.2.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.report]
+omit = [
+    "django_comments_ink/admin.py"
+]
+exclude_lines = [
+    "pragma: no cover"
+]
+
+[tool.black]
+line-length = 80
+extend-exclude = '''pqenv|psenv'''
+
+[tool.pytest]
+addopts = "--create-db"
+django_find_project = false
+python_files = "test_*.py"

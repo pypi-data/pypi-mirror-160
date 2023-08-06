@@ -1,0 +1,22 @@
+{% extends "comments/base.html" %}
+{% load i18n %}
+
+{% block content %}
+<main>
+  <div class="container">
+    <div class="intro">
+      <h2>{% trans "Comment confirmation requested" %}</h2>
+      <p class="big">
+        {% blocktrans %}A confirmation message has been sent to your email address. Please, click on the link in the message to confirm your comment.{% endblocktrans %}
+      </p>
+      <p>
+        {% with object_url=target.get_absolute_url %}
+          {% blocktrans %}
+            Go back to: <a href="{{ object_url }}">{{ target }}</a>
+          {% endblocktrans %}
+        {% endwith %}
+      </p>
+    </div>
+  </div>
+</main>
+{% endblock %}
