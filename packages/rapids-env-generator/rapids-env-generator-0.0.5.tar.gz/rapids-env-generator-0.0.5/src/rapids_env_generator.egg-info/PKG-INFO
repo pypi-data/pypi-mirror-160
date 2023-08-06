@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rapids-env-generator
+Version: 0.0.5
+Summary: Tool for generating RAPIDS environment files
+Home-page: https://github.com/rapidsai/rapids-env-generator
+Author: RAPIDS Development Team
+Author-email: pypi@rapids.ai
+License: Apache 2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+See [github.com/rapidsai/rapids-env-generator](https://github.com/rapidsai/rapids-env-generator) for the latest usage instructions.
