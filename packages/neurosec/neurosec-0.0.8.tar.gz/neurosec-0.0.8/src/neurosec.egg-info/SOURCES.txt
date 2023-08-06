@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/neurosec/__init__.py
+src/neurosec/neurosec.py
+src/neurosec/neurosec_node.py
+src/neurosec.egg-info/PKG-INFO
+src/neurosec.egg-info/SOURCES.txt
+src/neurosec.egg-info/dependency_links.txt
+src/neurosec.egg-info/requires.txt
+src/neurosec.egg-info/top_level.txt
+src/neurosec/models/yolo.fbz
+src/neurosec/models/yolo_face.fbz
+src/neurosec/templates/index.html
