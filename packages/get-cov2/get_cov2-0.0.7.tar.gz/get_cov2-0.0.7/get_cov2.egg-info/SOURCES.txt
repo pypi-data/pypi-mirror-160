@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+get_cov2/__init__.py
+get_cov2/main.py
+get_cov2.egg-info/PKG-INFO
+get_cov2.egg-info/SOURCES.txt
+get_cov2.egg-info/dependency_links.txt
+get_cov2.egg-info/top_level.txt
