@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "FanTeX"
+version = "0.0.1.dev1"
+authors = [
+  { name="Mingze Gao", email="mingze.gao@sydney.edu.au" },
+]
+description = "A TeX editor for scientific writing."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+  "PyQt6==6.3.1",
+  "PyMuPDF==1.20.1",
+  "pylatex==1.4.1",
+  "Pygments==2.12.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mgao6767/FanTeX"
+"Bug Tracker" = "https://github.com/mgao6767/FanTeX/issues"
