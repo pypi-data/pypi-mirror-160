@@ -1,0 +1,12 @@
+README.md
+setup.py
+slmpclient/__init__.py
+slmpclient/client.py
+slmpclient/const.py
+slmpclient/slmp_controller.py
+slmpclient/util.py
+slmpclient.egg-info/PKG-INFO
+slmpclient.egg-info/SOURCES.txt
+slmpclient.egg-info/dependency_links.txt
+slmpclient.egg-info/top_level.txt
+slmpclient/clib/src/SLMP.c
