@@ -1,0 +1,10 @@
+cogworks_data/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+cogworks_data/_utils.py,sha256=FnQMaIq2X1BC4QGlbImSS0roN8SEfEq_nYZ308Jgpu0,4009
+cogworks_data/audio.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cogworks_data/language.py,sha256=pTmwSj49L97DonZVqyYyS8FplzA4ZbHdfVmruKNfoMk,2061
+cogworks_data/vision.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cogworks_data-0.1.0.dist-info/LICENSE.txt,sha256=idHomzpKlnaeWeS7PkOaRkXHTQWBRAv4D1B71ZWBC7g,1113
+cogworks_data-0.1.0.dist-info/METADATA,sha256=VPibKURDny1IyWix-Du4T89EiT-TlZHojKUC4hthR7E,1747
+cogworks_data-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cogworks_data-0.1.0.dist-info/top_level.txt,sha256=JsZ0mIpj3J3Y-Iy9Lrxda5z0bMySPF6gHvFEPK1KchQ,14
+cogworks_data-0.1.0.dist-info/RECORD,,
