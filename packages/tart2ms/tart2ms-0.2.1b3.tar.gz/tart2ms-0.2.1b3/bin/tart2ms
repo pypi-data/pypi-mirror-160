@@ -1,0 +1,80 @@
+#!/usr/bin/env python
+#
+# Convert data from the TART telescope to measurement set format
+#
+import os
+import json
+
+import argparse
+import logging
+
+from tart_tools import api_handler
+from tart_tools import api_imaging
+from tart.operation import settings
+
+from tart2ms import ms_from_json, ms_from_hdf5
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Generate measurement set from a JSON file from the TART radio telescope.',
+                                    formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--json', required=False, default=None, help="Snapshot observation  JSON file (visiblities, positions and more).")
+    parser.add_argument('--hdf', required=False, default=None, help="Visibility hdf5 file (One minutes worth of visibility data).")
+    parser.add_argument('--ms', required=False, default='tart.ms', help="Output MS table name.")
+    parser.add_argument('--api', required=False, default='https://tart.elec.ac.nz/signal', help="Telescope API server URL.")
+    parser.add_argument('--catalog', required=False, default='https://tart.elec.ac.nz/catalog', help="Catalog API URL.")
+    parser.add_argument('--vis', required=False, default=None, help="Use a local JSON file containing the visibilities  for visibility data")
+    parser.add_argument('--pol2', action="store_true", help="Fake a second polarization. Some pipelines choke if there is only one.")
+
+    ARGS = parser.parse_args()
+
+    logger = logging.getLogger()
+    logger.setLevel(logging.DEBUG)
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.INFO)
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    ch.setFormatter(formatter)
+    logger.addHandler(ch)
+    
+    if os.path.isdir(ARGS.ms):
+        raise RuntimeError("Measurement set '{}' exists. Please delete before continuing".format(ARGS.ms))
+
+    if ARGS.json:
+        print("Getting Data from file: {}".format(ARGS.json))
+        # Load data from a JSON file
+        with open(ARGS.json, 'r') as json_file:
+            json_data = json.load(json_file)
+            
+        print("Writing measurement set '{}'...".format(ARGS.ms))
+        ms_from_json(ARGS.ms, json_data, ARGS.pol2)
+        print("Measurement set writing complete.")
+            
+    elif ARGS.hdf:
+        print("Getting Data from file: {}".format(ARGS.hdf))
+        # Load data from a HDF5 file
+        print("Writing measurement set '{}'...".format(ARGS.ms))
+        ms_from_hdf5(ARGS.ms, ARGS.hdf, ARGS.pol2)
+        print("Measurement set writing complete.")
+            
+    else:
+        print("Getting Data from API: {}".format(ARGS.api))
+        api = api_handler.APIhandler(ARGS.api)
+        info = api.get('info')
+        ant_pos = api.get('imaging/antenna_positions')
+        config = settings.from_api_json(info['info'], ant_pos)
+        gains_json = api.get('calibration/gain')
+        vis_json = api.get('imaging/vis')
+        ts = api_imaging.vis_json_timestamp(vis_json)
+
+        print("Download Complete")
+       
+        src_json = api.get_url(api.catalog_url(config, datestr=ts.isoformat()))
+
+        json_data = {'info':info,
+                     'ant_pos':ant_pos,
+                     'gains': gains_json,
+                     'data': [[vis_json, src_json]]
+                    }
+    
+        print("Writing measurement set '{}'...".format(ARGS.ms))
+        ms_from_json(ARGS.ms, json_data, ARGS.pol2)
+        print("Measurement set writing complete.")

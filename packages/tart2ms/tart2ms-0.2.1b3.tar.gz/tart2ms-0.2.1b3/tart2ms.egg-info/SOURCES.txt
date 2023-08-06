@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+bin/tart2ms
+tart2ms/__init__.py
+tart2ms/tart2ms.py
+tart2ms.egg-info/PKG-INFO
+tart2ms.egg-info/SOURCES.txt
+tart2ms.egg-info/dependency_links.txt
+tart2ms.egg-info/requires.txt
+tart2ms.egg-info/top_level.txt
