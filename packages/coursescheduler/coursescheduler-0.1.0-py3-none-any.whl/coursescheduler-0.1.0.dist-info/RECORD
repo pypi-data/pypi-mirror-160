@@ -1,0 +1,14 @@
+coursescheduler/__init__.py,sha256=qgW_yED_a4V3yAVB5Uw5Q98oXZKQ7MecxucHPsQxHlY,42
+coursescheduler/constraints.py,sha256=q9nrFHDnJkoXnzvcG-MrWPc6zvc_x1yK_BcqTv2q6WE,19573
+coursescheduler/csp.py,sha256=mkakafGFWKx3MCtRlZYli6yEPExYeKwPp2jBnYGpjFY,12449
+coursescheduler/datamodels.py,sha256=BTPKuodEMquhvhLIEUgnvNXxZmZIkqIlzQp6Qf2LzGo,8071
+coursescheduler/models.py,sha256=HIsBm3loVHSHd_fuxPd0Su4V3q0bChI2mHl3Hzus2Aw,2164
+coursescheduler/scheduler.py,sha256=b7Nttagcm1OXBgdAKS55OKIl2bWDErij1rApjFKe62I,19751
+coursescheduler/verifyconstraints.py,sha256=A5NO4z3Kumw7rEzfre7B7SrS_YQH6frXA3407yxvTKQ,1974
+coursescheduler/temp_json_input/professor_object.json,sha256=O0lN3F3fI9WRYKYkiIUbGsV44dvp_LikTdZ_4dWU6Gg,506095
+coursescheduler/temp_json_input/schedule_object.json,sha256=UHUI0xv-wI_vRr-T3aeTjI6cPy21nPZOW_GHr_mrHK0,141300
+coursescheduler-0.1.0.dist-info/LICENSE,sha256=UDHbX3jNT5sd2VndtYztx9gIPPtdyUt0O-raRCQVq6Q,1066
+coursescheduler-0.1.0.dist-info/METADATA,sha256=ptKHBNVs7rxMLx54k9HFlAqEVuMiY3ps3eS7FFAWM7w,2958
+coursescheduler-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+coursescheduler-0.1.0.dist-info/top_level.txt,sha256=2GHz5FDab_TII9OqWWqEB0GyX48tRNr9Jstd5A6T1AM,16
+coursescheduler-0.1.0.dist-info/RECORD,,
