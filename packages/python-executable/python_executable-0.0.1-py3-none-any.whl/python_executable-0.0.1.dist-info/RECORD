@@ -1,0 +1,6 @@
+python executable/__init__.py,sha256=vSJ-fTKnWvygEcNbNbNc6vWLXeMmaA3RJOUjgt9X8HU,70
+python executable/randomquote.py,sha256=VYK2x-5vlaWfau3nYITzQ_bOMXFAd8vXWDwbzw_OL3A,512
+python_executable-0.0.1.dist-info/METADATA,sha256=z3y14F4jamk57xJhXDOjxy5kRxi9reQMgxVashpAce4,609
+python_executable-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_executable-0.0.1.dist-info/top_level.txt,sha256=EwOB6Sa1ANQekJdD-a8ll1Fu4Ww5dfHl2XpmPDTN4A0,18
+python_executable-0.0.1.dist-info/RECORD,,
