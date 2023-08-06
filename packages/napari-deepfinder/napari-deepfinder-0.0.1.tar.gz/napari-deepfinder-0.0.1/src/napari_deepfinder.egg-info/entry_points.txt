@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-deepfinder = napari_deepfinder:napari.yaml
