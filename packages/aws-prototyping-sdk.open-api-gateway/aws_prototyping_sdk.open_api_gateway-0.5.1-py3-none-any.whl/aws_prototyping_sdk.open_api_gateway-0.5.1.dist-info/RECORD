@@ -1,0 +1,9 @@
+aws_prototyping_sdk/open_api_gateway/__init__.py,sha256=gbGQAyKZCJtNktc85YGJeAIMVMciioihWrq59cb8Cyc,306140
+aws_prototyping_sdk/open_api_gateway/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_prototyping_sdk/open_api_gateway/_jsii/__init__.py,sha256=mZUOdxhU7kWpH48nWI6j9z7h9HBKy5qK3j52JMFLwSo,481
+aws_prototyping_sdk/open_api_gateway/_jsii/open-api-gateway@0.5.1.jsii.tgz,sha256=r38dNYkbIlm_BnNxAr0ati47hIs23B2yR4QOAGBz2sY,164528
+aws_prototyping_sdk.open_api_gateway-0.5.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_prototyping_sdk.open_api_gateway-0.5.1.dist-info/METADATA,sha256=VuIvbicRlMwJhl4nNlsqUB1MIVZeMEoyYtW7hWJ1e5c,21834
+aws_prototyping_sdk.open_api_gateway-0.5.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_prototyping_sdk.open_api_gateway-0.5.1.dist-info/top_level.txt,sha256=GI4X33MSLMhT7o3n6FDj9jqf2xWUdJ3qEo1cWYKXylw,20
+aws_prototyping_sdk.open_api_gateway-0.5.1.dist-info/RECORD,,
