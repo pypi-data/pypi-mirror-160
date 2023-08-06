@@ -1,0 +1,46 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="collective.recaptcha">
+
+  <i18n:registerTranslations directory="locales" />
+
+  <adapter
+      factory=".view.RecaptchaInfo"/>
+  <adapter
+      factory=".settings.RecaptchaSettings"/>
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.recaptcha"
+      description="Install profile for the Recaptcha product."
+      directory="profiles/default"
+      provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="collective.recaptcha uninstall"
+      directory="profiles/uninstall"
+      description="Uninstall profile for the collective.recaptcha package."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <browser:page
+      name="captcha"
+      for="*"
+      class=".view.RecaptchaView"
+      permission="zope.Public"
+      allowed_attributes="image_tag audio_url verify external"
+      />
+
+  <browser:page
+      name="recaptcha-settings"
+      for=".bbb.ISite"
+      class=".settings.RecaptchaSettingsForm"
+      permission="zope2.ManageProperties"
+      />
+
+</configure>
