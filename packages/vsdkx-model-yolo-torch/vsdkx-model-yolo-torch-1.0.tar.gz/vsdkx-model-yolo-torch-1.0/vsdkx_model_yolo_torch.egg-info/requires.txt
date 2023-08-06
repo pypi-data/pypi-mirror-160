@@ -1,0 +1,8 @@
+vsdkx-core
+torch>=1.7.0
+torchvision>=0.8.1
+pandas
+tqdm>=4.41.0
+matplotlib>=3.2.2
+seaborn>=0.11.0
+numpy>=1.18.5

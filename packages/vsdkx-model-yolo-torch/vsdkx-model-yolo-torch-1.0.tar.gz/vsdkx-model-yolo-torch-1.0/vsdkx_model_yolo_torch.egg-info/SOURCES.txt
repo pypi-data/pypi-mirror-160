@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+vsdkx/__init__.py
+vsdkx/model/__init__.py
+vsdkx/model/yolo_torch/__init__.py
+vsdkx/model/yolo_torch/driver.py
+vsdkx/model/yolo_torch/settings.py
+vsdkx_model_yolo_torch.egg-info/PKG-INFO
+vsdkx_model_yolo_torch.egg-info/SOURCES.txt
+vsdkx_model_yolo_torch.egg-info/dependency_links.txt
+vsdkx_model_yolo_torch.egg-info/namespace_packages.txt
+vsdkx_model_yolo_torch.egg-info/requires.txt
+vsdkx_model_yolo_torch.egg-info/top_level.txt

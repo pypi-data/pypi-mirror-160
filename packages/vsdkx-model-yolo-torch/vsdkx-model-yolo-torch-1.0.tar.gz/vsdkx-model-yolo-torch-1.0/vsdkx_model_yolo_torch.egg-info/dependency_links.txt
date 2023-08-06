@@ -1,0 +1,1 @@
+git+https://github.com/natix-io/vsdkx-core#egg=vsdkx-core
