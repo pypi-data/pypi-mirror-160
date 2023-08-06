@@ -1,0 +1,10 @@
+wdbse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wdbse/functions.py,sha256=9JqnawYjQtI7VqmKFQ63r7Chvhu-PZpGUsUPzbG0Pk8,695
+wdbse/main.py,sha256=IdAya26RAf3B4QDNDaoWg_qTqpx7l0t4J-dXQM9Va-U,615
+wdbse/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wdbse/test/test_functions.py,sha256=mVWWhdutcDFhya-q2fs9NYFaJH_qYGfD8vShlz9A3Uo,493
+wdbse-0.1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+wdbse-0.1.0.dist-info/METADATA,sha256=102tcphigFmAKUrdXU6-pQEoAQgvThQk4gu0nDostss,353
+wdbse-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wdbse-0.1.0.dist-info/top_level.txt,sha256=Upgmz8Gah3PY5HUYRXB-WYpK_1GXbWD49Qe0ILR3-00,6
+wdbse-0.1.0.dist-info/RECORD,,
