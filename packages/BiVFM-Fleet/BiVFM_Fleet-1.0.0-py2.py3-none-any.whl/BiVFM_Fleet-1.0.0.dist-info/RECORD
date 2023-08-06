@@ -1,0 +1,12 @@
+BiVFM/__init__.py,sha256=UmPvPZSa4il7XR7eykSGvW1O6CLIVnfs5RmdXvTM9cQ,157
+BiVFM/config_transfer.py,sha256=Bwhz_QBePQz5VZrrCteXPW97bq9CVcgulvbZrKj7068,2523
+BiVFM/feature_engineering.py,sha256=kQnURIScjguBJPbf_gCCB093e7GMC-1yfYjhxXBsIr4,3601
+BiVFM/func.py,sha256=xzRJYfuXu1h9Twrvj3a1-OHXmatmx2z-f6jnnQNeE4I,14839
+BiVFM/model.py,sha256=xLSXu5BgoRr51XA43WCbqDdzBJYvAk592Xv_SuoyBhk,15213
+BiVFM/olga_func.py,sha256=kj5n_ZJwmjPXbx1VMCiBXN5c_JCjgnmUxJRirvhd-Oo,10535
+BiVFM/train_func.py,sha256=j4U7uGgiQJkDAu6DIww_NLrTuvaUdKz6-ppTDJb8CvM,12062
+BiVFM_Fleet-1.0.0.dist-info/License,sha256=nSwDaa0On2GOY5p5jei9xG8segGze7lT_J6GJpcTNRo,1085
+BiVFM_Fleet-1.0.0.dist-info/METADATA,sha256=xTGrsZWIIOyw_Ndxz_pbqqKwbx_F7ZfiWdUNO2-ftT0,3611
+BiVFM_Fleet-1.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+BiVFM_Fleet-1.0.0.dist-info/top_level.txt,sha256=VAr0aihjtU3oEw_S567xgLt6U01zg9Hy6XRariCb7_E,6
+BiVFM_Fleet-1.0.0.dist-info/RECORD,,
