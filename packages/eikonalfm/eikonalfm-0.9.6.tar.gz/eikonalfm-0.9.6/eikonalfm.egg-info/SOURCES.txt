@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+eikonalfm/__init__.py
+eikonalfm/cfm.cpp
+eikonalfm/factoredmarcher.cpp
+eikonalfm/factoredmarcher.hpp
+eikonalfm/heap.cpp
+eikonalfm/marcher.cpp
+eikonalfm/marcher.hpp
+eikonalfm.egg-info/PKG-INFO
+eikonalfm.egg-info/SOURCES.txt
+eikonalfm.egg-info/dependency_links.txt
+eikonalfm.egg-info/requires.txt
+eikonalfm.egg-info/top_level.txt
