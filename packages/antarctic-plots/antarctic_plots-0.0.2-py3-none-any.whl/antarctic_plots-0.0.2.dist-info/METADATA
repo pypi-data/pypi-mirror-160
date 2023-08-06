@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: antarctic-plots
+Version: 0.0.2
+Summary: Functions to automate Antarctic data visualization
+License: MIT
+Author: mdtanker
+Author-email: matt.d.tankersley@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: geopandas (>=0.11.0,<0.12.0)
+Requires-Dist: jupyter-book (>=0.13.0,<0.14.0)
+Requires-Dist: netCDF4 (>=1.6.0,<2.0.0)
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: pooch (>=1.6.0,<2.0.0)
+Requires-Dist: pyproj (>=3.3.1,<4.0.0)
+Requires-Dist: rioxarray (>=0.11.1,<0.12.0)
+Requires-Dist: verde (>=1.7.0,<2.0.0)
+Requires-Dist: xarray (>=2022.6.0,<2023.0.0)
