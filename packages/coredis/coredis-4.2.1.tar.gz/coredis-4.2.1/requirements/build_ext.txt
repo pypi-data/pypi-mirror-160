@@ -1,0 +1,4 @@
+beartype
+mypy==0.971
+packaging>=21,<22
+types-deprecated
