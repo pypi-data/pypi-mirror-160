@@ -1,0 +1,5 @@
+nbwavedrom==0.2.0
+ipywidgets
+matplotlib
+deprecated
+scipy
