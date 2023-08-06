@@ -1,0 +1,91 @@
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length=120
+skip_gitignore = true
+
+[tool.mypy]
+mypy_path = [
+  "fastapi_filter",
+]
+show_error_codes = true
+plugins = [
+  "sqlalchemy.ext.mypy.plugin",
+]
+
+[[tool.mypy.overrides]]
+module = [
+  "mongoengine.*",
+  "sqlalchemy_utils.*",
+  "uvicorn.*",
+]
+ignore_missing_imports = true
+
+[tool.poetry]
+name = "fastapi-filter"
+version = "0.1.0"
+description = "FastAPI filter"
+authors = ["Arthur Rio <arthur.rio44@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/arthurio/fastapi-filter"
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = ">=0.78,<0.80"
+pydantic = "^1.9.0"
+mongoengine = {version = "^0.24.1", optional = true}
+SQLAlchemy = {version = "^1.4.36", optional = true}
+
+[tool.poetry.dev-dependencies]
+pudb = "^2022.1.2"
+bandit = "^1.7.4"
+black = "^22.6.0"
+flake8-breakpoint = "^1.1.0"
+flake8-builtins = "^1.5.3"
+flake8-docstrings = "^1.6.0"
+flake8-simplify = "^0.19.2"
+flake8 = "^4.0.1"
+flynt = "^0.76"
+ipython = "^8.4.0"
+isort = "^5.10.1"
+mypy = "^0.971"
+pre-commit = "^2.20.0"
+pytest-asyncio = "^0.19.0"
+pytest-cov = "^3.0.0"
+pytest-pudb = "^0.7.0"
+pytest = "^7.1.2"
+python-lsp-server = "^1.5.0"
+SQLAlchemy-Utils = "^0.38.3"
+types-click = "^7.1.8"
+types-setuptools = "^63.2.1"
+uvicorn = "^0.18.2"
+mypy-extensions = "^0.4.3"
+typing-extensions = "^4.3.0"
+tomli = "^2.0.1"
+sqlalchemy2-stubs = "^0.0.2a24"
+greenlet = "^1.1.2"
+mkdocs-material = "^8.3.9"
+Faker = "^13.15.0"
+aiosqlite = "^0.17.0"
+requests = "^2.28.1"
+httpx = "^0.23.0"
+pydantic = {extras = ["email"], version = "^1.9.1"}
+
+[tool.poetry.extras]
+mongoengine = ["mongoengine"]
+sqlalchemy = ["SQLAlchemy"]
+all = ["mongoengine", "SQLAlchemy"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
