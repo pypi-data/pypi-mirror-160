@@ -1,0 +1,10 @@
+setup.py
+sambhawithawa/Binomialdistribution.py
+sambhawithawa/Gaussiandistribution.py
+sambhawithawa/Generaldistribution.py
+sambhawithawa/__init__.py
+sambhawithawa.egg-info/PKG-INFO
+sambhawithawa.egg-info/SOURCES.txt
+sambhawithawa.egg-info/dependency_links.txt
+sambhawithawa.egg-info/not-zip-safe
+sambhawithawa.egg-info/top_level.txt
