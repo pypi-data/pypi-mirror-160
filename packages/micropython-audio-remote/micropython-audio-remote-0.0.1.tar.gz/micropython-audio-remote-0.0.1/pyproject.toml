@@ -1,0 +1,12 @@
+[project]
+name = "micropython-audio-remote"
+version = "0.0.1"
+authors = [
+  { name="macmoritz" },
+]
+description = "WiFi Audio Remote with MicroPython"
+readme = "README.md"
+
+[project.urls]
+"Homepage" = "https://github.com/macmoritz/audio-remote"
+"Bug Tracker" = "https://github.com/macmoritz/audio-remote/issues"

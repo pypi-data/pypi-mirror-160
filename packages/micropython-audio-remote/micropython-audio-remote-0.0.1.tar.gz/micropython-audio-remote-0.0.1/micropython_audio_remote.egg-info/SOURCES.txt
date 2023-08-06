@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+lib/neopixel.py
+lib/ring.py
+lib/sonos.py
+micropython_audio_remote.egg-info/PKG-INFO
+micropython_audio_remote.egg-info/SOURCES.txt
+micropython_audio_remote.egg-info/dependency_links.txt
+micropython_audio_remote.egg-info/top_level.txt
