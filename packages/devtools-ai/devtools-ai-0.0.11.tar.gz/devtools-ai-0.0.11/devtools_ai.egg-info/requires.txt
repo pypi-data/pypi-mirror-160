@@ -1,0 +1,5 @@
+packaging
+pillow
+requests
+selenium
+Appium-Python-Client
