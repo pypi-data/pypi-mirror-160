@@ -1,0 +1,4 @@
+opencv-python
+gdown
+onnx
+onnxruntime-gpu==1.7
