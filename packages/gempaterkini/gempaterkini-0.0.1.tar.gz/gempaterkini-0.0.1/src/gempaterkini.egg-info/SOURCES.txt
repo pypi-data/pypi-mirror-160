@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/gempaterkini/__init__.py
+src/gempaterkini.egg-info/PKG-INFO
+src/gempaterkini.egg-info/SOURCES.txt
+src/gempaterkini.egg-info/dependency_links.txt
+src/gempaterkini.egg-info/top_level.txt
