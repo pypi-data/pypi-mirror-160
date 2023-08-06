@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gekkota
+Version: 0.1.0
+Summary: Python code-generation for Python
+License: MIT
+Author: Dmitry Gritsenko
+Author-email: k01419q45@ya.ru
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
