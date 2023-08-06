@@ -1,0 +1,2 @@
+[console_scripts]
+desklank = desklank.__main__:run
