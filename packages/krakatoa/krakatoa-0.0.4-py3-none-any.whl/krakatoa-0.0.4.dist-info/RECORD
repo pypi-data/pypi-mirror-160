@@ -1,0 +1,15 @@
+krakatoa/__init__.py,sha256=1FJgi7a5PJWvL9zEMyJS8ocnM9HFpsFhTO4UXaSqx0o,363
+krakatoa/future/__init__.py,sha256=wW8y-h1AClc17vgVfv_xJsa0-qDSoNuLfZ775wx1Om8,370
+krakatoa/future/evaluate.py,sha256=AMfnOad-rSkBWmyXcD5KS7Jln3FHG-hBBMJXOj4G9iM,689
+krakatoa/future/preprocess.py,sha256=Cu6qJHl2iadYdoUKgOiag2Tkh1QOLJBfAj2Mnda6QZw,1520
+krakatoa/models/__init__.py,sha256=qc8KwNq_MSea_LCamFTgALC0QkOzFrfzKFZ76tNmsH8,360
+krakatoa/models/_config.py,sha256=kVZeEPcWiLorxu_7NCHmyI--m3d-6sg2ltuLJ-0CQ4A,13170
+krakatoa/models/_getmodels.py,sha256=wi7zz-16f9BesuBPkIrNAG_YslrB3YfhAIH3437Bu8w,879
+krakatoa/models/_metrics.py,sha256=pTaWXgVXMxEXlAWNrT80E0_-AsDiPUEXGVr33VOXl8g,1956
+krakatoa/models/autotune.py,sha256=7hYj6u90gW3Z7m09AGwmGdqwTJpDlriQKBVi8y3brQA,6550
+krakatoa/models/quick.py,sha256=TDxMJEPaNp_57gxKA6PgHxgUvWfiLeW33IxGdqrIGSA,4585
+krakatoa-0.0.4.dist-info/LICENSE,sha256=Lyl3T-k40jR7gpLmvvl3Q9oWHW7e7s3rscfeZ5qIRno,1084
+krakatoa-0.0.4.dist-info/METADATA,sha256=xTqZGVfy1HWqBGZWWgHQ_YRKhD3hYTDHz9pY6trCXLQ,804
+krakatoa-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+krakatoa-0.0.4.dist-info/top_level.txt,sha256=HLOB2HUukpqVzII9T7mfTbsKvRwduc_whv9U-S5H9VM,41
+krakatoa-0.0.4.dist-info/RECORD,,
