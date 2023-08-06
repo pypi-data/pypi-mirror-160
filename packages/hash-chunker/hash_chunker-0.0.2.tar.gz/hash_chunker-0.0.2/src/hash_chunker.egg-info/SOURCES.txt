@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/hash_chunker/__init__.py
+src/hash_chunker/hash_chunker.py
+src/hash_chunker.egg-info/PKG-INFO
+src/hash_chunker.egg-info/SOURCES.txt
+src/hash_chunker.egg-info/dependency_links.txt
+src/hash_chunker.egg-info/top_level.txt
