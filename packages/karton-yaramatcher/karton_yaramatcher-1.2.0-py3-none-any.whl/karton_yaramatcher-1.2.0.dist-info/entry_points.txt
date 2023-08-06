@@ -1,0 +1,3 @@
+[console_scripts]
+karton-yaramatcher = karton.yaramatcher:YaraMatcher.main
+
