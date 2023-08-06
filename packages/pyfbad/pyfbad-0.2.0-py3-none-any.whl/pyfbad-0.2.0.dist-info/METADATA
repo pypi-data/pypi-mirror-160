@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyfbad
+Version: 0.2.0
+Summary: anomaly detector
+Author: getcontact
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: mysql-connector-python
+Requires-Dist: cython
+Requires-Dist: db-dtypes
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: numpy
+Requires-Dist: PyMySQL
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: requests
+Requires-Dist: SQLAlchemy
+Requires-Dist: mysql-client
+Requires-Dist: pyyaml
+Requires-Dist: pymongo
+Requires-Dist: sshtunnel
+Requires-Dist: prophet (==1.1)
+Requires-Dist: kaleido
+Requires-Dist: yagmail
+Requires-Dist: scikit-learn
+
+UNKNOWN
+
