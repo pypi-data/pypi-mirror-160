@@ -1,0 +1,4 @@
+Pillow==9.2.0
+icon-font-to-png==0.4.1
+fire==0.4.0
+numpy==1.22.3

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+icon_image/__init__.py
+icon_image/icon_image.py
+icon_image.egg-info/PKG-INFO
+icon_image.egg-info/SOURCES.txt
+icon_image.egg-info/dependency_links.txt
+icon_image.egg-info/requires.txt
+icon_image.egg-info/top_level.txt
