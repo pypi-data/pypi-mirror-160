@@ -1,0 +1,10 @@
+pyonmttok/OpenNMTTokenizer.dll,sha256=uWgGC7eR11dwMTbiDs1JvlPO6P01YgV8Ckqsz25pxWY,1956864
+pyonmttok/__init__.py,sha256=S2ZuqupDFQQhKX7hjie_48clEAyLhhKsKf1gOmb0BCc,1534
+pyonmttok/_ext.cp36-win_amd64.pyd,sha256=suVS-mQyUKd1mGmBavzETJrW0hMWJnDflpnl-Up8qyw,417280
+pyonmttok/icudt70.dll,sha256=S-OsUS6i72szXCwOrJVL0c76U7JDgxtqZLfqR-e9ruk,29469184
+pyonmttok/icuuc70.dll,sha256=irI9MZC-UX6u2t-lQ9ZcJCmoImUwYhXNZXY1giwYHaE,2243072
+pyonmttok/version.py,sha256=WwoxQUFdcfrzuQrGapEyl1J-NlFFUiY8UEYdLAw4vuk,54
+pyonmttok-1.32.0.dist-info/METADATA,sha256=yopLVEQ8RWmNYHWoB_-s_FqkuS8Wmu51JMawWeK84UI,12430
+pyonmttok-1.32.0.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+pyonmttok-1.32.0.dist-info/top_level.txt,sha256=wuxOdfXNXj98ECi-4TSLRm_bpRYIccmePnOKlVvxvfY,10
+pyonmttok-1.32.0.dist-info/RECORD,,
