@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: m16test
+Version: 0.2.1
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: me
+Author-email: author@example.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.5
