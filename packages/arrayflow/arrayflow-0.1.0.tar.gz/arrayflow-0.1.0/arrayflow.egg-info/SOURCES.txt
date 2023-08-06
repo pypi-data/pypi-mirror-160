@@ -1,0 +1,13 @@
+.flake8
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+arrayflow/__init__.py
+arrayflow/__version__.py
+arrayflow.egg-info/PKG-INFO
+arrayflow.egg-info/SOURCES.txt
+arrayflow.egg-info/dependency_links.txt
+arrayflow.egg-info/not-zip-safe
+arrayflow.egg-info/top_level.txt
