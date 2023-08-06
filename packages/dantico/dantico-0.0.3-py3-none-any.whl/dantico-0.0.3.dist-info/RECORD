@@ -1,0 +1,16 @@
+dantico/__init__.py,sha256=Hmdu_wLlKq1s_M3TYRu8blkcozfIiWhTLGvuso5CGAY,303
+dantico/exceptions.py,sha256=hSL8TSyZeLwCSiLkYaw81VSKzJzf5UKPsDJM20HqRh8,41
+dantico/factory.py,sha256=ET8PAnAn7WiMDUlN_z7n-2Fkx_WSNdqG1zS_5urWf34,1859
+dantico/fields.py,sha256=IiRR4lKo8_37kWTY65WcJW9wXOHfE5iqd7Kw_seKXAU,12158
+dantico/getters.py,sha256=XlYxehhhJM1kBOCv8JEBB4eTfzgfNKiBV8WDlybBW9E,846
+dantico/mixins.py,sha256=ma6hOEOtyxKyJdKPCqmnCaf3ujniGDYJq975e-1HXIY,413
+dantico/model_schema.py,sha256=JdBQYF5fGVgNz0-DdiFKf7Nn1kcvHpaug22QlTMJDNg,14069
+dantico/model_validators.py,sha256=H7hCR422rcVo0XcM5n24NbQv0Y2KmDYTC5KqVKyyQHU,2858
+dantico/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dantico/schema.py,sha256=0eyPpHr45WeGs0c6pM283doxn24xq8EmHvYKkjhBNBM,217
+dantico/schema_registry.py,sha256=pCIPzEAsWduT_RTpXib-v9jBEzdtxF9kBFbP2XWErZk,1628
+dantico/utils.py,sha256=PopToIEj-3N2T9pm-dkjMW-z-GNf8F04YFI_0q9MkuY,1703
+dantico-0.0.3.dist-info/LICENSE,sha256=3nuFfzQzBOvKAe2_0qd20Okuk_AOMxIzvOLTSsS56Rk,1078
+dantico-0.0.3.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+dantico-0.0.3.dist-info/METADATA,sha256=0wXki-gdXZeBD0O21g8F8s25n0IQfd4-39MqSlk6JPI,6442
+dantico-0.0.3.dist-info/RECORD,,
