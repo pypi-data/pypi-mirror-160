@@ -1,0 +1,2 @@
+[console_scripts]
+hanazeder_read = hanazeder.read:main
