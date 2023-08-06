@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+src/federated_learning/__init__.py
+src/federated_learning/main.py
+src/federated_learning.egg-info/PKG-INFO
+src/federated_learning.egg-info/SOURCES.txt
+src/federated_learning.egg-info/dependency_links.txt
+src/federated_learning.egg-info/requires.txt
+src/federated_learning.egg-info/top_level.txt
