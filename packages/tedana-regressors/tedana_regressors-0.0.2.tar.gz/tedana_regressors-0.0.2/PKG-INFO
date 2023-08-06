@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tedana_regressors
+Version: 0.0.2
+Summary: "A simple Python package to generate regressors based on the tedana classification"
+Home-page: https://github.com/SPiN-Lab/tedana_regressors
+Author: "Eneko Uruñuela"
+Author-email: "e.urunuela@bcbl.eu"
+Maintainer: "Eneko Uruñuela"
+Maintainer-email: "e.urunuela@bcbl.eu"
+License: LGPL 2.1
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Provides-Extra: tests
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE
+
+
+"A simple Python program that converts components accepted, rejected and ignored by tedana into 1D matrices that can be used with AFNI's 3dDeconvolve."
+
