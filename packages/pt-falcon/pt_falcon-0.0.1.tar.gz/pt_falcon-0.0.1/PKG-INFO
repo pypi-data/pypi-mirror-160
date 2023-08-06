@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pt_falcon
+Version: 0.0.1
+Summary: pt_falcon is a performance optimized container for performance and tracking data.
+Home-page: UNKNOWN
+Author: Koen Vossen
+Author-email: info@koenvossen.nl
+License: GPL-3.0
+Description: pt_falcon is a performance optimized container for performance and tracking data.
+Platform: UNKNOWN
