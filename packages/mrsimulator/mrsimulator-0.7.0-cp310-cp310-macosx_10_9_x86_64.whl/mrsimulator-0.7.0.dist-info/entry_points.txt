@@ -1,0 +1,2 @@
+[console_scripts]
+mrsimulator = mrsimulator.__main__:run
