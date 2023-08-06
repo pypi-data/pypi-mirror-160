@@ -1,0 +1,3 @@
+[console_scripts]
+clang-tidy-checker=clang_tidy_checker.main:main
+
