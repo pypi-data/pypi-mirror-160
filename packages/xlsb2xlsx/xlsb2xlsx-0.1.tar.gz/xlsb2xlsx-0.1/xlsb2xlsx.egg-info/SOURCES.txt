@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+xlsb2xlsx/__init__.py
+xlsb2xlsx/__main__.py
+xlsb2xlsx/xlsb2xlsx.py
+xlsb2xlsx.egg-info/PKG-INFO
+xlsb2xlsx.egg-info/SOURCES.txt
+xlsb2xlsx.egg-info/dependency_links.txt
+xlsb2xlsx.egg-info/requires.txt
+xlsb2xlsx.egg-info/top_level.txt
