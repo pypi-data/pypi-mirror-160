@@ -1,0 +1,11 @@
+README.md
+setup.py
+astrosat/AstroSat.py
+astrosat/__init__.py
+astrosat/parameters.py
+astrosat/plotting.py
+astrosat.egg-info/PKG-INFO
+astrosat.egg-info/SOURCES.txt
+astrosat.egg-info/dependency_links.txt
+astrosat.egg-info/top_level.txt
+astrosat/data/bsc.dat
