@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: st1mulol-fastapi
+Version: 0.70.0
+Summary: При получении параметров POST типа "arg=" значение заменяется на пустую строку вместо None
+Home-page: https://github.com/st1mulol/fastapi
+Author: St1muLoL
+Author-email: st1mul1337.trap@gmail.com
+License: MIT license
+Description: UNKNOWN
+Platform: UNKNOWN
