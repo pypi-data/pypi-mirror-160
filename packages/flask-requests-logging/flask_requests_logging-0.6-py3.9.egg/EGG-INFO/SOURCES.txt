@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+flask_requests_logging/__init__.py
+flask_requests_logging.egg-info/PKG-INFO
+flask_requests_logging.egg-info/SOURCES.txt
+flask_requests_logging.egg-info/dependency_links.txt
+flask_requests_logging.egg-info/requires.txt
+flask_requests_logging.egg-info/top_level.txt
+flask_requests_logging.egg-info/zip-safe
