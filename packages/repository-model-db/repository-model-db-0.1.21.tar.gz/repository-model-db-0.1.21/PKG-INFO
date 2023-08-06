@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: repository-model-db
+Version: 0.1.21
+Summary: repository-model-db
+Home-page: https://github.com/GustavoSwDaniel/repository-model-db
+Author: GustavoSwDaniel
+Author-email: <gustavodanieldetoledo@gmail.com.com>
+License: MIT
+Keywords: python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+# Repository-model-db
+
+
+This project aims to assist in the use of the repository pattern. Repository generation of models created by sqlalchemy and provides basic methods for database access, isolating database accesses from the application
+
+
+## Configurations
+In config.py file created by **repo-init** must add the model files directory
+
+### Exemple
+DIR_MODELS=src/models
+
+## Commands
+```shell
+$ repo-init
+```
+
+**repo-init**
+
+This command create a folder of root directory of your project with a file to configurations directory os models of your database and create a folder where the repository files will be create
+
+```shell
+$ generate-repo
+```
+This command will create all repository files based on your model files
+
+
