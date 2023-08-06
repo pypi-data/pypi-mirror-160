@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/rembgpy/__init__.py
+src/rembgpy/bg.py
+src/rembgpy.egg-info/PKG-INFO
+src/rembgpy.egg-info/SOURCES.txt
+src/rembgpy.egg-info/dependency_links.txt
+src/rembgpy.egg-info/requires.txt
+src/rembgpy.egg-info/top_level.txt
