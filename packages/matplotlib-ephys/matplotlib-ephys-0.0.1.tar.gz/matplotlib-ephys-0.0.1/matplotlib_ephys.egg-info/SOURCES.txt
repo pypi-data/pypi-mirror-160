@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+matplotlib_ephys/__init__.py
+matplotlib_ephys/plotting.py
+matplotlib_ephys/style.py
+matplotlib_ephys/version.py
+matplotlib_ephys.egg-info/PKG-INFO
+matplotlib_ephys.egg-info/SOURCES.txt
+matplotlib_ephys.egg-info/dependency_links.txt
+matplotlib_ephys.egg-info/requires.txt
+matplotlib_ephys.egg-info/top_level.txt
