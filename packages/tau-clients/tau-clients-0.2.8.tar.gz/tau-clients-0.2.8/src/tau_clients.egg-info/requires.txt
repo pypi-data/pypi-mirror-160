@@ -1,0 +1,6 @@
+more-itertools
+requests
+vt-py
+
+[misp]
+pymisp
