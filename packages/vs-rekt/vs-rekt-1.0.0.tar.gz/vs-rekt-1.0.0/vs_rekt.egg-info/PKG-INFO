@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: vs-rekt
+Version: 1.0.0
+Summary: VapourSynth wrapper for Cropping and Stacking clips.
+Home-page: https://github.com/OpusGang/rekt
+Author: OpusGang
+License: MIT
+License-File: LICENSE
