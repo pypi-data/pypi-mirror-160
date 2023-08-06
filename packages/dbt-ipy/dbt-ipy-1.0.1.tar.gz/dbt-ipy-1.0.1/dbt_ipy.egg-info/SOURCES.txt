@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dbt-ipy/__init__.py
+dbt-ipy/dbt_ipy.py
+dbt_ipy.egg-info/PKG-INFO
+dbt_ipy.egg-info/SOURCES.txt
+dbt_ipy.egg-info/dependency_links.txt
+dbt_ipy.egg-info/requires.txt
+dbt_ipy.egg-info/top_level.txt
