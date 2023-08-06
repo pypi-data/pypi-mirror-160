@@ -1,0 +1,2 @@
+[console_scripts]
+deskapp = deskapp.cli:main
