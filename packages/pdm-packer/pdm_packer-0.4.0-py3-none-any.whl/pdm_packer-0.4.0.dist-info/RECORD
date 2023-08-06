@@ -1,0 +1,9 @@
+pdm_packer/__init__.py,sha256=qbYvYZMFrOo5fCA1L6URCN_NJfQ4mhvPrAfFkE-PZmY,277
+pdm_packer/_compile_source.py,sha256=-Dcee2WMDrXfqyiW1SW2dXdNRTEc6sbdVDZ4ixN-36s,521
+pdm_packer/command.py,sha256=SWrDSlO9empIYZKppZVgU18T0X9RnpdzBbkJ6K2TjDE,4498
+pdm_packer/env.py,sha256=LikV5z_m7N22zGG5BQXUVvClRSsznuKNH1jd4QdQJkk,1720
+pdm_packer-0.4.0.dist-info/entry_points.txt,sha256=PzPKLahg06Am68r2YNEEH36dM3WsWUK49V7xuHKinUI,36
+pdm_packer-0.4.0.dist-info/WHEEL,sha256=yYKnSAC2jORi-lkKULzVaPCdYdfjHjBJxbFSO4r-OgA,87
+pdm_packer-0.4.0.dist-info/METADATA,sha256=MXNVFZwIIEoVKGQ0eH9VrmV1St_RGBGx6lGxQQL5pS8,4562
+pdm_packer-0.4.0.dist-info/license_files/LICENSE,sha256=yritVhB6gD9LwkB37E7m-15Qvs9TKodv4Fwxtixb5Yk,1059
+pdm_packer-0.4.0.dist-info/RECORD,,
