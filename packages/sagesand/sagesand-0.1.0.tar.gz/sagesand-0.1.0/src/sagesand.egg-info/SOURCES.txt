@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+setup.cfg
+setup.py
+docs/.DS_Store
+docs/images/big_spider.png
+docs/images/small_spider.png
+src/sagesand/__init__.py
+src/sagesand/s3_sources.py
+src/sagesand.egg-info/PKG-INFO
+src/sagesand.egg-info/SOURCES.txt
+src/sagesand.egg-info/dependency_links.txt
+src/sagesand.egg-info/requires.txt
+src/sagesand.egg-info/top_level.txt
