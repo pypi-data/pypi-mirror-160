@@ -1,0 +1,36 @@
+[build-system]
+requires = [
+  "setuptools >= 40.9.0",
+  "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target-version = [
+  'py37',
+  'py38',
+  'py39',
+]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "error",
+]
+addopts = "--doctest-modules"
+
+
+[tool.mypy]
+python_version = "3.8"
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_unreachable = true
+show_error_context = true
+show_error_codes = true
+disallow_untyped_defs = true
+
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = true
+ignore_errors = true
