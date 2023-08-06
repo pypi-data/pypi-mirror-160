@@ -1,0 +1,13 @@
+gsheets_plaid/__init__.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+gsheets_plaid/__main__.py,sha256=g9BFWCFc19suQSzlbUNsfLyH2pL4Rnh3f6g-VBVhxUM,467
+gsheets_plaid/create_sheet.py,sha256=RhosEFFIXYaMYdyE7JWYzHV3-IXqmIj8Ly8lF0YUud0,377
+gsheets_plaid/services.py,sha256=Fb-bX4MaYI2yNECp6sMd4OrqwGvh5JaQkDW-RrrB0FU,2045
+gsheets_plaid/sync.py,sha256=ggsxtw69KvIsC3N_99NsnUzNH-N4Hu0o_ibewVGIG0k,10164
+gsheets_plaid/web_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gsheets_plaid/web_server/main.py,sha256=xnqkFlnxaxC7mz28dxcEuiDUxzxNIY7x0kvxh8pMonA,20511
+gsheets_plaid/web_server/session_manager.py,sha256=epEBjeHfciv4wz_zZ-l22V8Ey1Ui7DH969IQkMOqJ-4,3287
+gsheets_plaid-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gsheets_plaid-0.3.0.dist-info/METADATA,sha256=sTrgDz77g_MFK8EQ86VxTfub_akwMtFsOEOCJUIXKXE,5346
+gsheets_plaid-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gsheets_plaid-0.3.0.dist-info/top_level.txt,sha256=62x5pGqpNMzDElzo0-u7mnkeXbWekiVKF2XCdKCbzkI,14
+gsheets_plaid-0.3.0.dist-info/RECORD,,
