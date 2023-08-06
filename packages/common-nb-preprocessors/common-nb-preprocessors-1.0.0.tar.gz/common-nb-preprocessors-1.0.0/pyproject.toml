@@ -1,0 +1,118 @@
+[project]
+name = "common-nb-preprocessors"
+version = "1.0.0"
+description = "preprocessors"
+authors = [
+    { name = "Kai Norman Clasen", email = "k.clasen@protonmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.8, <3.11"
+dependencies = [
+    "nbformat>=5.4.0",
+    "nbconvert>=6.5.0",
+    "pydantic>=1.9.1",
+]
+
+[project.license]
+text = "MIT license"
+
+[project.urls]
+homepage = "https://github.com/kai-tub/common-nb-preprocessors/"
+repository = "https://github.com/kai-tub/common-nb-preprocessors/"
+documentation = "https://kai-tub.github.io/common-nb-preprocessors/"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.build]
+includes = [
+    "LICENSE",
+]
+
+[tool.pdm.dev-dependencies]
+docs = [
+    "myst-nb<1.0,>=0.16",
+    "Sphinx<6.0,>=4.5",
+    "sphinx-autobuild",
+    "sphinx-external-toc",
+    "linkify-it-py",
+    "furo",
+    "rich>=12.5.1",
+]
+test = [
+    "pytest",
+    "pre-commit",
+    "jupyter",
+    "notebook",
+    "coverage>=6.4.2",
+]
+lint = [
+    "black[jupyter]>=22.6.0",
+    "isort",
+    "nbstripout",
+    "mypy",
+]
+dev = [
+    "html5lib>=1.1",
+    "pandas>=1.4.3",
+    "lxml>=4.9.1",
+    "jupyter-book>=0.6.5",
+    "sphinx-design>=0.2.0",
+    "hypothesis>=6.50.1",
+]
+mypy = [
+    "types-PyYAML>=6.0.10",
+    "pandas-stubs>=1.4.3.220718",
+]
+
+[tool.pdm.scripts]
+black = "black ."
+isort = "isort ."
+tests = "coverage run --parallel --source common_nb_preprocessors -m pytest tests"
+coverage_html_report = "coverage html"
+check_types = "mypy common_nb_preprocessors"
+
+[tool.pdm.scripts.coverage_report]
+composite = [
+    "coverage combine",
+    "coverage report --fail-under 95",
+]
+
+[tool.pdm.scripts.lint]
+composite = [
+    "black",
+    "isort",
+    "check_types",
+]
+help = "Will check if all files are formatted with black & isort"
+
+[tool.pdm.scripts.build-docs]
+cmd = "sphinx-build docs docs/_build/"
+help = "Build Sphinx documentation"
+
+[tool.pdm.scripts.serve-sphinx-docs]
+cmd = "sphinx-autobuild docs docs/_build --open-browser"
+help = "Serve the Sphinx documentation with sphinx-autobuild"
+
+[tool.pdm.scripts.coverage_html]
+composite = [
+    "tests",
+    "coverage_html_report",
+]
+help = "Run the coverage with pytest and produce the html"
+
+[tool.mypy]
+exclude = [
+    "tests",
+]
+overrides = [
+    { module = "nbconvert.*", ignore_missing_imports = true },
+]
+
+[tool.isort]
+profile = "black"
