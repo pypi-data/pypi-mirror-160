@@ -1,0 +1,8 @@
+setup.py
+UltimateEdgarParser/UltimateEdgarParser.py
+UltimateEdgarParser/__init__.py
+UltimateEdgarParser.egg-info/PKG-INFO
+UltimateEdgarParser.egg-info/SOURCES.txt
+UltimateEdgarParser.egg-info/dependency_links.txt
+UltimateEdgarParser.egg-info/requires.txt
+UltimateEdgarParser.egg-info/top_level.txt
