@@ -1,0 +1,16 @@
+autopackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopackage/__main__.py,sha256=6STke8pliK7C3tGsgsU4dmv5jMku7axxPZPwD1N1P8w,5272
+autopackage/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopackage/parsers/autoparser.py,sha256=QQoFmxUNTNa7Qr-J_c3RjMN0E8GnaLz1BqCMZ84fkdE,1533
+autopackage/parsers/setup_parser.py,sha256=VhD3Fhb868sZIlvdH4kKOfLFZZcM16lYOmJjTNv-w4o,2056
+autopackage/program/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopackage/program/fake_portable.py,sha256=WxFTMfxZWIdgMbwo4TGH-olDvwU82BiNTVkwIL-dbcI,1716
+autopackage/program/statics.py,sha256=_64A1c2hWtwDiM3rkKZCznDi3kYEw0FvePvck3jzNhQ,905
+autopackage/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopackage/utils/utils.py,sha256=JyBNJj2j89Y7np3rEQWqqfQex2YDZoCs_kkDapKwlQk,2841
+autopackage-1.2.dist-info/METADATA,sha256=lsY1JTGxLWLs2cAc6jxsHPeZrceaMysFoFk_Py_29wQ,1054
+autopackage-1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+autopackage-1.2.dist-info/entry_points.txt,sha256=9hXa0sobdfFd6otGv3BmaloRzv6zPv4OsU1BDvp3gws,58
+autopackage-1.2.dist-info/top_level.txt,sha256=l5dzWS5UrITBti_bbGDPKe-JNZY1CDvbj_mo7nCw5H0,12
+autopackage-1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+autopackage-1.2.dist-info/RECORD,,
