@@ -1,0 +1,12 @@
+*~
+*.log
+.DS_Store
+.*.sw?
+*.egg-info/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+node_modules/
+*venv/
+.idea/
+dist/
