@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/inecocores/__init__.py
+src/inecocores/core.py
+src/inecocores.egg-info/PKG-INFO
+src/inecocores.egg-info/SOURCES.txt
+src/inecocores.egg-info/dependency_links.txt
+src/inecocores.egg-info/top_level.txt
