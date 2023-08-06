@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+simpleconfig/__init__.py
+simpleconfig/main.py
+smpl_config.egg-info/PKG-INFO
+smpl_config.egg-info/SOURCES.txt
+smpl_config.egg-info/dependency_links.txt
+smpl_config.egg-info/not-zip-safe
+smpl_config.egg-info/top_level.txt
