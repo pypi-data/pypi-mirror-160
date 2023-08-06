@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: snrandymylib
+Version: 0.1.0
+Summary: A very basic calculator library
+Home-page: UNKNOWN
+Author: snrandy
+Author-email: nfonandrew73@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+License-File: LICENCE.txt
+
+
+This library is a wrapper around the libusb-1.0 library. It provides the functions
+add, subtract, multiply and divide 2 numbers.
+
+
+Change Log
+==========
+
+0.0.1 (22/05/2022)
+------------------
+- Initial release
+

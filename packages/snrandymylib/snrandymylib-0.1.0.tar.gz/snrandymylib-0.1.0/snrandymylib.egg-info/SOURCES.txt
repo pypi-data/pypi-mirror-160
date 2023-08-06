@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+snrandymylib/__init__.py
+snrandymylib.egg-info/PKG-INFO
+snrandymylib.egg-info/SOURCES.txt
+snrandymylib.egg-info/dependency_links.txt
+snrandymylib.egg-info/top_level.txt
