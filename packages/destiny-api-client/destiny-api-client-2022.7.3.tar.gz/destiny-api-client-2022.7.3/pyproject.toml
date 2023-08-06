@@ -1,0 +1,53 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "destiny-api-client"
+version = "2022.7.3"
+description = "Client Library for the Destiny video game api."
+readme = "README.md"
+authors = [{ name = "Caleb Castleberry", email = "castle.caleb@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "aiohttp",
+    "pydantic"
+]
+requires-python = ">=3.9"
+
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "bumpver",
+    "flake8",
+    "isort",
+    "mkdocs",
+    "mkdocs-material",
+    "mypy",
+    "pip-tools",
+    "pre-commit",
+    "pytest",
+    "xenon",
+]
+
+[project.urls]
+Homepage = "https://github.com/ccastleberry/destiny-api-client"
+
+[tool.bumpver]
+current_version = "2022.7.3"
+version_pattern = "YYYY.MM.INC0"
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+
