@@ -1,0 +1,12 @@
+xyz_pack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xyz_pack/first_pack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xyz_pack/first_pack/addition.py,sha256=2JlsIoWPbvDMNaXwBUBn9goHMO_fU8XlkAKrVDKn1M4,92
+xyz_pack/first_pack/subtraction.py,sha256=F-QQ_hdp554NZnBVp87uedUBSzCzOeMbTnKKupE1ETg,86
+xyz_pack/second_pack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xyz_pack/second_pack/division.py,sha256=wu6xcX-FSQ1PO0qgvcpA6efHFSzJUN-NqCmEqdBhpJQ,84
+xyz_pack/second_pack/multiplication.py,sha256=7QCpEBWoWuWzhpRwNwlAPpmTnfXUACAbxZKHY7Zc--Q,92
+xyz_pack-0.1.dist-info/LICENCE.txt,sha256=orKb7dUonrO2Vj2zmqmOSdpShVVsOlSpOI3dJngXykw,1064
+xyz_pack-0.1.dist-info/METADATA,sha256=id8UlR3kEiF0GHmr7Oi_njbzxjUK47zYKmGWChVgAAg,394
+xyz_pack-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xyz_pack-0.1.dist-info/top_level.txt,sha256=guxZHb4IB43K2pSUqdbwTPvP-_UxSVjsW3h4CBfhlS8,9
+xyz_pack-0.1.dist-info/RECORD,,
