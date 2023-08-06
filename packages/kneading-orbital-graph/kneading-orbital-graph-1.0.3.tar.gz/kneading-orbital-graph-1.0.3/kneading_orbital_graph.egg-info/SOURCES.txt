@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+kneading_orbital_graph/__init__.py
+kneading_orbital_graph/inverse_section.py
+kneading_orbital_graph/orbital_graph.py
+kneading_orbital_graph/subshift.py
+kneading_orbital_graph.egg-info/PKG-INFO
+kneading_orbital_graph.egg-info/SOURCES.txt
+kneading_orbital_graph.egg-info/dependency_links.txt
+kneading_orbital_graph.egg-info/requires.txt
+kneading_orbital_graph.egg-info/top_level.txt
