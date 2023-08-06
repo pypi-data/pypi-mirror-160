@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: awsmfunc
+Version: 1.3.2
+Summary: awesome VapourSynth functions
+Home-page: https://github.com/OpusGang/awsmfunc
+Author: OpusGang
+License: MIT
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: VapourSynth (>=57)
+Requires-Dist: vs-rekt (>=1.0.0)
+Requires-Dist: vsutil (==0.7.0)
+

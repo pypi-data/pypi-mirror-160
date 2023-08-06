@@ -1,0 +1,15 @@
+awsmfunc/__init__.py,sha256=a0HtC8rQc1IIjbrHeG3bBVRGFozTdZXeoiVUhPY1yIQ,84
+awsmfunc/base.py,sha256=ijWktEywOjjSHYAzG8CnlbB2Ud8x2vl4lKESMvXWPpw,92092
+awsmfunc/detect.py,sha256=FX7ja0FQ-75b8aDOYzHEbII8IWUk5shlj1JQSl4CJEA,32275
+awsmfunc/dovi.py,sha256=vB50IzbEwLnumLUZVBEX-2JEt9wwNNYX7EoXbd3nuuo,3466
+awsmfunc/legacy.py,sha256=iynvtM_hPBc5JczZLM3hE5U9Ghb0BKHhsBmymPZ-5IQ,9385
+awsmfunc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsmfunc/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsmfunc/types/dovi.py,sha256=iMK5FbkoSpe5DV8TbYHgm1N0hmC0sRQ5ppz5k4oRaLo,449
+awsmfunc/types/misc.py,sha256=iYH-XlxO3l2NDU1zKVr-gftNghD51bQI9foHuj8M-1U,159
+awsmfunc/types/placebo.py,sha256=wV06NhwPoOnU_2oeKt61xeGJw-4I4VNNybZQ9_h9rgo,4360
+awsmfunc-1.3.2.dist-info/LICENSE,sha256=P6QnB7tBLxWfNwc6oO7JCWFNV4Cq2Up4S7wT099K-qA,1065
+awsmfunc-1.3.2.dist-info/METADATA,sha256=ZnUkJ53V6N8cS-jh9ZOx4sxnEs1uyfudzb-cNW8czrQ,314
+awsmfunc-1.3.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+awsmfunc-1.3.2.dist-info/top_level.txt,sha256=8XWtIy8Ujwf_AotQy5tlY9flLFotezERb23eYx-7VZ4,9
+awsmfunc-1.3.2.dist-info/RECORD,,
