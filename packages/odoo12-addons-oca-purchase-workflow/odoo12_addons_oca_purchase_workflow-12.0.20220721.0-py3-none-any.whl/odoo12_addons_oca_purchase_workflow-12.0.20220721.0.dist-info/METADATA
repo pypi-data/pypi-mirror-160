@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-purchase-workflow
+Version: 12.0.20220721.0
+Summary: Meta package for oca-purchase-workflow Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-procurement-purchase-no-grouping
+Requires-Dist: odoo12-addon-product-form-purchase-link
+Requires-Dist: odoo12-addon-product-supplier-code-purchase
+Requires-Dist: odoo12-addon-purchase-allowed-product
+Requires-Dist: odoo12-addon-purchase-analytic-global
+Requires-Dist: odoo12-addon-purchase-blanket-order
+Requires-Dist: odoo12-addon-purchase-commercial-partner
+Requires-Dist: odoo12-addon-purchase-date-planned-manual
+Requires-Dist: odoo12-addon-purchase-default-terms-conditions
+Requires-Dist: odoo12-addon-purchase-delivery-split-date
+Requires-Dist: odoo12-addon-purchase-deposit
+Requires-Dist: odoo12-addon-purchase-discount
+Requires-Dist: odoo12-addon-purchase-exception
+Requires-Dist: odoo12-addon-purchase-force-invoiced
+Requires-Dist: odoo12-addon-purchase-invoice-plan
+Requires-Dist: odoo12-addon-purchase-invoice-plan-deposit
+Requires-Dist: odoo12-addon-purchase-landed-cost
+Requires-Dist: odoo12-addon-purchase-last-price-info
+Requires-Dist: odoo12-addon-purchase-line-procurement-group
+Requires-Dist: odoo12-addon-purchase-location-by-line
+Requires-Dist: odoo12-addon-purchase-manual-delivery
+Requires-Dist: odoo12-addon-purchase-minimum-amount
+Requires-Dist: odoo12-addon-purchase-open-qty
+Requires-Dist: odoo12-addon-purchase-order-analytic-search
+Requires-Dist: odoo12-addon-purchase-order-approval-block
+Requires-Dist: odoo12-addon-purchase-order-approved
+Requires-Dist: odoo12-addon-purchase-order-archive
+Requires-Dist: odoo12-addon-purchase-order-general-discount
+Requires-Dist: odoo12-addon-purchase-order-line-deep-sort
+Requires-Dist: odoo12-addon-purchase-order-line-description
+Requires-Dist: odoo12-addon-purchase-order-line-packaging-qty
+Requires-Dist: odoo12-addon-purchase-order-line-price-history
+Requires-Dist: odoo12-addon-purchase-order-line-price-history-discount
+Requires-Dist: odoo12-addon-purchase-order-line-sequence
+Requires-Dist: odoo12-addon-purchase-order-line-stock-available
+Requires-Dist: odoo12-addon-purchase-order-product-recommendation
+Requires-Dist: odoo12-addon-purchase-order-product-recommendation-brand
+Requires-Dist: odoo12-addon-purchase-order-product-recommendation-forecast
+Requires-Dist: odoo12-addon-purchase-order-product-recommendation-secondary-unit
+Requires-Dist: odoo12-addon-purchase-order-secondary-unit
+Requires-Dist: odoo12-addon-purchase-order-type
+Requires-Dist: odoo12-addon-purchase-order-uninvoiced-amount
+Requires-Dist: odoo12-addon-purchase-picking-state
+Requires-Dist: odoo12-addon-purchase-price-recalculation
+Requires-Dist: odoo12-addon-purchase-product-usage
+Requires-Dist: odoo12-addon-purchase-propagate-qty
+Requires-Dist: odoo12-addon-purchase-quick
+Requires-Dist: odoo12-addon-purchase-reception-notify
+Requires-Dist: odoo12-addon-purchase-reception-status
+Requires-Dist: odoo12-addon-purchase-request
+Requires-Dist: odoo12-addon-purchase-request-department
+Requires-Dist: odoo12-addon-purchase-request-order-approved
+Requires-Dist: odoo12-addon-purchase-request-product-usage
+Requires-Dist: odoo12-addon-purchase-request-tier-validation
+Requires-Dist: odoo12-addon-purchase-request-usage-department
+Requires-Dist: odoo12-addon-purchase-requisition-auto-rfq
+Requires-Dist: odoo12-addon-purchase-requisition-line-description
+Requires-Dist: odoo12-addon-purchase-requisition-tier-validation
+Requires-Dist: odoo12-addon-purchase-security
+Requires-Dist: odoo12-addon-purchase-start-end-dates
+Requires-Dist: odoo12-addon-purchase-stock-price-unit-sync
+Requires-Dist: odoo12-addon-purchase-stock-return-request
+Requires-Dist: odoo12-addon-purchase-tier-validation
+Requires-Dist: odoo12-addon-purchase-triple-discount
+Requires-Dist: odoo12-addon-purchase-work-acceptance
+Requires-Dist: odoo12-addon-subcontracted-service
+Requires-Dist: odoo12-addon-supplier-calendar
+
+UNKNOWN
+
