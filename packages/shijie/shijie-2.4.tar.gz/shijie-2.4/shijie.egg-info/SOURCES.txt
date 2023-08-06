@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+console/__init__.py
+console/exe.py
+secuer/__init__.py
+secuer/secuer.py
+secuer/secuerconsensus.py
+shijie.egg-info/PKG-INFO
+shijie.egg-info/SOURCES.txt
+shijie.egg-info/dependency_links.txt
+shijie.egg-info/entry_points.txt
+shijie.egg-info/top_level.txt
