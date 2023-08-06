@@ -1,0 +1,13 @@
+numpy
+momentum>=0.2.7
+kmeans1d
+runthis
+scikit-learn
+latextable
+tomark
+pandas_datareader
+pandas
+scipy>=1.7.3
+pyportfolioopt
+collinearity
+riskparityportfolio
