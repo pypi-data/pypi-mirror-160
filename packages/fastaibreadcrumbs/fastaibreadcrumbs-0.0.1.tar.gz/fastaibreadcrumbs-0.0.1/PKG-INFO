@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fastaibreadcrumbs
+Version: 0.0.1
+Summary: Breadcrumbs for fastai users.
+Home-page: https://github.com/sapal6/fastaibreadcrumbs/
+Author: Satyabrata pal
+Author-email: Satyabrata.pal1@gmail.com
+License: Apache Software License 2.0
+Keywords: machine-learning,nbdev,fastai
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+This file will be overwritten by `index.ipynb`
+
+
