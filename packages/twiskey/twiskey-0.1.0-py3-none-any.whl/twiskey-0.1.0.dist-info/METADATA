@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: twiskey
+Version: 0.1.0
+Summary: TwitterとMisskeyに同時投稿出来るコマンドです。
+License: MIT
+Author: Comamoca
+Author-email: comamoca.dev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Misskey.py (>=4.1.0,<5.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Requires-Dist: tweepy (>=4.10.0,<5.0.0)
