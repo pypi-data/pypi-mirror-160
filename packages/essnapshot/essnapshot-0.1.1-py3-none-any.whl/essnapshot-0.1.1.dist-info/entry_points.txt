@@ -1,0 +1,3 @@
+[console_scripts]
+essnapshot=essnapshot.cli:main
+

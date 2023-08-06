@@ -1,0 +1,9 @@
+essnapshot/__init__.py,sha256=mwDSVPGCGWKhsvVd1-8AkY0soXGkzjUfVgtxz5X1wnA,153
+essnapshot/cli.py,sha256=aL3aFHWbaNSrvKxCiT1WK0Jeg9APzqLIBZPWRfr-N4Y,2372
+essnapshot/es.py,sha256=Ynw5E6cOjTuiB8HZevVXHHgufGanFAe4gJcqlfUgxVQ,5182
+essnapshot/helpers.py,sha256=rTKstw_5yipcfnvUtv3R5rHQ9Yg5AbJmfVclao5RUvQ,4752
+essnapshot-0.1.1.dist-info/entry_points.txt,sha256=a0xpHDLapS4x1CXfTVbuPSfABtnFeMN99XjSBI1v4kE,50
+essnapshot-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+essnapshot-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+essnapshot-0.1.1.dist-info/METADATA,sha256=oAZdATA-tC26X-Dz4-sYOd-CJ2RD7SLNCZBdslvXdys,4526
+essnapshot-0.1.1.dist-info/RECORD,,
