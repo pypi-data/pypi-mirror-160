@@ -1,0 +1,8 @@
+rdfox_runner/__init__.py,sha256=vilvbzi09e0PGOAmqXo3fjjau7O5ht7A0mmhsutfzhA,626
+rdfox_runner/command_runner.py,sha256=5TjSupPmH9wrBst0solDMXlE1Lb4l7uyIcIoPj80WJk,10983
+rdfox_runner/rdfox_endpoint.py,sha256=bUXYBsYLwoPGUuFOLUjMAa3BSq7mrCLp9F0Y7qBtvFg,7083
+rdfox_runner/run_rdfox.py,sha256=X0MMpi9XUU02HwvpAfaSzQQpErWWOIdSNE8v7q9DbvE,10237
+rdfox_runner-0.4.0.dist-info/LICENSE,sha256=dqs57jyYAhOXigPXxiJ8OIuK8pUfb2Fo9qd05qV6_-A,1078
+rdfox_runner-0.4.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+rdfox_runner-0.4.0.dist-info/METADATA,sha256=6Xh8dOZouj1hWKQ-S492IOmob4cKnDR4dmdxeK5kobg,570
+rdfox_runner-0.4.0.dist-info/RECORD,,
