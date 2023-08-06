@@ -1,0 +1,8 @@
+setup.py
+pykeyboard/__init__.py
+pykeyboard/keys.py
+pykeyboard_input.egg-info/PKG-INFO
+pykeyboard_input.egg-info/SOURCES.txt
+pykeyboard_input.egg-info/dependency_links.txt
+pykeyboard_input.egg-info/requires.txt
+pykeyboard_input.egg-info/top_level.txt
