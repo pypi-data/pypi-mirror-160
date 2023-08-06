@@ -1,0 +1,9 @@
+numpy
+scipy
+sounddevice
+pyserial
+SchunkMotionProtocol
+zarr
+
+[:platform_system == "Windows"]
+nidaqmx
