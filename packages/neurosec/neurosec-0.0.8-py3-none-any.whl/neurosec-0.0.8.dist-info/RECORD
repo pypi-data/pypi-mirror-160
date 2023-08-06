@@ -1,0 +1,11 @@
+neurosec/__init__.py,sha256=Zjgd75my0BmOq12L_sAo6G97_TXX2_cnNExhWoYaqsk,87
+neurosec/neurosec.py,sha256=_aSHpRpsfF7hKDJ6X-q7vJCGVFLrIQlB9tPxBPVqG1g,7973
+neurosec/neurosec_node.py,sha256=kj559f1YCkPNqNDqfsHWW6dO0Ys0hsteIg0_Akouw7c,2767
+neurosec/models/yolo.fbz,sha256=wcXXe_atV_xMwcGd3HPewh1OPrGmtJ1aVf0UPx2H0eg,4145964
+neurosec/models/yolo_face.fbz,sha256=_RmhF9YZblBcOE6sGEKNL7zvTH0w8EUFQxIXNED-7Gk,4185864
+neurosec/templates/index.html,sha256=FYI3z95j32-88ZAroCE5qE6ywtuZf_sQXtdIW-KLlLA,1363
+neurosec-0.0.8.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+neurosec-0.0.8.dist-info/METADATA,sha256=TM9jts1uslOP3Ilw3o4vWYvBRLLxCJwV_LU3rtp1h8A,6584
+neurosec-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+neurosec-0.0.8.dist-info/top_level.txt,sha256=9FP4xzQOWLvWgaTdc4p7Z6-RuqN6O-39MyJMInw1_Eo,9
+neurosec-0.0.8.dist-info/RECORD,,
