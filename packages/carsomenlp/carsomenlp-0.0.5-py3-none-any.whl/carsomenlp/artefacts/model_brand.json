@@ -1,0 +1,4590 @@
+{
+ "almera": [
+  "nissan"
+ ],
+ "jazz": [
+  "honda"
+ ],
+ "iriz": [
+  "proton"
+ ],
+ "cr-v": [
+  "honda"
+ ],
+ "asx": [
+  "mitsubishi"
+ ],
+ "grand livina": [
+  "nissan"
+ ],
+ "x4": [
+  "bmw"
+ ],
+ "hilux": [
+  "toyota"
+ ],
+ "elantra": [
+  "hyundai",
+  "inokom"
+ ],
+ "bezza": [
+  "perodua"
+ ],
+ "civic": [
+  "honda"
+ ],
+ "triton": [
+  "mitsubishi"
+ ],
+ "c": [
+  "mercedes-benz",
+  "mercedes-amg"
+ ],
+ "yaris": [
+  "toyota"
+ ],
+ "countryman": [
+  "mini"
+ ],
+ "x5": [
+  "bmw",
+  "golden dragon",
+  "king long xiamen"
+ ],
+ "cooper": [
+  "mini"
+ ],
+ "xc90": [
+  "volvo"
+ ],
+ "cx-3": [
+  "mazda"
+ ],
+ "x1": [
+  "bmw"
+ ],
+ "aruz": [
+  "perodua"
+ ],
+ "picanto": [
+  "kia",
+  "naza"
+ ],
+ "sylphy": [
+  "nissan"
+ ],
+ "suprima s": [
+  "proton"
+ ],
+ "3008": [
+  "peugeot"
+ ],
+ "e": [
+  "mercedes-benz",
+  "mercedes-amg",
+  "brabus"
+ ],
+ "3": [
+  "mazda",
+  "bmw"
+ ],
+ "fortuner": [
+  "toyota"
+ ],
+ "cx-30": [
+  "mazda"
+ ],
+ "np300": [
+  "nissan"
+ ],
+ "swift": [
+  "suzuki"
+ ],
+ "xpander": [
+  "mitsubishi"
+ ],
+ "kijang innova": [
+  "toyota"
+ ],
+ "ignis": [
+  "suzuki"
+ ],
+ "cortez": [
+  "wuling"
+ ],
+ "kona": [
+  "hyundai"
+ ],
+ "rush": [
+  "toyota"
+ ],
+ "vios": [
+  "toyota"
+ ],
+ "calya": [
+  "toyota"
+ ],
+ "juke": [
+  "nissan"
+ ],
+ "sienta": [
+  "toyota"
+ ],
+ "accord": [
+  "honda"
+ ],
+ "santa fe": [
+  "hyundai",
+  "inokom"
+ ],
+ "forester": [
+  "subaru"
+ ],
+ "tucson": [
+  "hyundai"
+ ],
+ "hr-v": [
+  "honda",
+  "toyota"
+ ],
+ "beetle": [
+  "volkswagen"
+ ],
+ "rx300": [
+  "lexus"
+ ],
+ "xv": [
+  "subaru"
+ ],
+ "teana": [
+  "nissan"
+ ],
+ "attrage": [
+  "mitsubishi"
+ ],
+ "ioniq": [
+  "hyundai"
+ ],
+ "biante": [
+  "mazda"
+ ],
+ "h1": [
+  "hyundai",
+  "great wall",
+  "haval"
+ ],
+ "march": [
+  "nissan"
+ ],
+ "gla": [
+  "mercedes-benz",
+  "mercedes-amg"
+ ],
+ "ciaz": [
+  "suzuki"
+ ],
+ "brio": [
+  "honda"
+ ],
+ "almaz": [
+  "wuling"
+ ],
+ "colt l300": [
+  "mitsubishi"
+ ],
+ "confero": [
+  "wuling"
+ ],
+ "terios": [
+  "daihatsu"
+ ],
+ "city": [
+  "honda",
+  "smart"
+ ],
+ "2": [
+  "mazda",
+  "bmw"
+ ],
+ "hiace": [
+  "toyota"
+ ],
+ "ecosport": [
+  "ford"
+ ],
+ "arteon": [
+  "volkswagen"
+ ],
+ "lancer": [
+  "mitsubishi"
+ ],
+ "gs300": [
+  "lexus"
+ ],
+ "rio": [
+  "kia"
+ ],
+ "a": [
+  "mercedes-benz",
+  "chery",
+  "mercedes-amg"
+ ],
+ "q3": [
+  "audi"
+ ],
+ "mirage": [
+  "mitsubishi"
+ ],
+ "c-hr": [
+  "toyota"
+ ],
+ "eclipse cross": [
+  "mitsubishi"
+ ],
+ "corolla cross": [
+  "toyota"
+ ],
+ "raize": [
+  "toyota"
+ ],
+ "prius": [
+  "toyota"
+ ],
+ "veloster": [
+  "hyundai"
+ ],
+ "ativa": [
+  "perodua"
+ ],
+ "discovery": [
+  "land rover"
+ ],
+ "previa": [
+  "toyota"
+ ],
+ "a4": [
+  "audi"
+ ],
+ "jetta": [
+  "volkswagen"
+ ],
+ "alza": [
+  "perodua"
+ ],
+ "i40": [
+  "hyundai"
+ ],
+ "veloz": [
+  "toyota"
+ ],
+ "ayla": [
+  "daihatsu"
+ ],
+ "mobilio": [
+  "honda"
+ ],
+ "ertiga": [
+  "suzuki",
+  "proton"
+ ],
+ "satria": [
+  "proton"
+ ],
+ "note": [
+  "nissan"
+ ],
+ "mu-x": [
+  "isuzu"
+ ],
+ "focus": [
+  "ford"
+ ],
+ "carry": [
+  "suzuki"
+ ],
+ "avanza": [
+  "toyota"
+ ],
+ "sx4": [
+  "suzuki"
+ ],
+ "harrier": [
+  "toyota"
+ ],
+ "5": [
+  "bmw",
+  "mercedes-benz",
+  "ds",
+  "mazda",
+  "citroen",
+  "mg"
+ ],
+ "trax": [
+  "chevrolet"
+ ],
+ "6": [
+  "mazda",
+  "bmw",
+  "mercedes-benz"
+ ],
+ "cx-8": [
+  "mazda"
+ ],
+ "stream": [
+  "honda"
+ ],
+ "x70": [
+  "proton"
+ ],
+ "sorento": [
+  "kia",
+  "naza"
+ ],
+ "7": [
+  "bmw",
+  "ds"
+ ],
+ "508": [
+  "peugeot"
+ ],
+ "cx-5": [
+  "mazda"
+ ],
+ "ranger": [
+  "ford",
+  "hino"
+ ],
+ "nx300": [
+  "lexus"
+ ],
+ "jimny": [
+  "suzuki"
+ ],
+ "1": [
+  "bmw"
+ ],
+ "elysion": [
+  "honda"
+ ],
+ "livina": [
+  "nissan"
+ ],
+ "commuter": [
+  "toyota"
+ ],
+ "brera": [
+  "alfa romeo"
+ ],
+ "q7": [
+  "audi"
+ ],
+ "m2": [
+  "bmw"
+ ],
+ "m5": [
+  "bmw"
+ ],
+ "continental": [
+  "bentley"
+ ],
+ "placer-x": [
+  "cam",
+  "farid",
+  "joylong"
+ ],
+ "transcom": [
+  "chery"
+ ],
+ "optra": [
+  "chevrolet"
+ ],
+ "spark": [
+  "chevrolet"
+ ],
+ "458": [
+  "ferrari"
+ ],
+ "h2": [
+  "haval",
+  "hummer"
+ ],
+ "accent": [
+  "hyundai",
+  "inokom"
+ ],
+ "coupe": [
+  "hyundai",
+  "fiat",
+  "mini"
+ ],
+ "a7": [
+  "audi"
+ ],
+ "q5": [
+  "audi"
+ ],
+ "i8": [
+  "bmw"
+ ],
+ "308": [
+  "ferrari",
+  "peugeot"
+ ],
+ "marea": [
+  "fiat"
+ ],
+ "qx": [
+  "infiniti"
+ ],
+ "daimler": [
+  "jaguar"
+ ],
+ "carnival": [
+  "kia"
+ ],
+ "grand carnival": [
+  "kia"
+ ],
+ "n-box": [
+  "honda"
+ ],
+ "nx200": [
+  "lexus"
+ ],
+ "rx450": [
+  "lexus"
+ ],
+ "europa": [
+  "lotus"
+ ],
+ "evora": [
+  "lotus"
+ ],
+ "323": [
+  "mazda"
+ ],
+ "gt": [
+  "mercedes-amg",
+  "alfa romeo"
+ ],
+ "potente": [
+  "jmc"
+ ],
+ "discovery 4": [
+  "land rover"
+ ],
+ "gs350": [
+  "lexus"
+ ],
+ "r": [
+  "mercedes-benz"
+ ],
+ "touareg": [
+  "volkswagen"
+ ],
+ "stavic": [
+  "ssangyong"
+ ],
+ "latio": [
+  "nissan"
+ ],
+ "sentra": [
+  "nissan"
+ ],
+ "vanette": [
+  "nissan"
+ ],
+ "berlingo": [
+  "citroen"
+ ],
+ "c6": [
+  "citroen"
+ ],
+ "zx": [
+  "citroen"
+ ],
+ "kuga": [
+  "ford"
+ ],
+ "i30": [
+  "hyundai"
+ ],
+ "trooper": [
+  "isuzu",
+  "chevrolet"
+ ],
+ "rx270": [
+  "lexus"
+ ],
+ "waja": [
+  "proton"
+ ],
+ "supra": [
+  "toyota"
+ ],
+ "polo": [
+  "volkswagen"
+ ],
+ "golf": [
+  "volkswagen"
+ ],
+ "nv350 urvan": [
+  "nissan"
+ ],
+ "a5": [
+  "audi"
+ ],
+ "eos": [
+  "volkswagen"
+ ],
+ "canter": [
+  "mitsubishi"
+ ],
+ "pajero": [
+  "mitsubishi"
+ ],
+ "persona": [
+  "proton"
+ ],
+ "prado": [
+  "toyota"
+ ],
+ "aurion": [
+  "toyota"
+ ],
+ "morris": [
+  "austin"
+ ],
+ "nu41h5": [
+  "nissan"
+ ],
+ "granturismo": [
+  "maserati"
+ ],
+ "fighter": [
+  "mazda"
+ ],
+ "slk": [
+  "mercedes-amg",
+  "mercedes-benz",
+  "brabus"
+ ],
+ "hd5000": [
+  "inokom"
+ ],
+ "bestari": [
+  "naza"
+ ],
+ "grand escudo": [
+  "suzuki"
+ ],
+ "perdana": [
+  "proton"
+ ],
+ "genesis": [
+  "hyundai",
+  "nissan"
+ ],
+ "npr": [
+  "isuzu"
+ ],
+ "wrangler": [
+  "jeep"
+ ],
+ "spectra5": [
+  "kia"
+ ],
+ "glc": [
+  "mercedes-amg",
+  "mercedes-benz"
+ ],
+ "vito": [
+  "mercedes-benz"
+ ],
+ "l200": [
+  "mitsubishi"
+ ],
+ "outlander": [
+  "mitsubishi"
+ ],
+ "citra": [
+  "naza",
+  "kia"
+ ],
+ "cefiro": [
+  "nissan"
+ ],
+ "caldina": [
+  "toyota"
+ ],
+ "nadia": [
+  "toyota"
+ ],
+ "tiara": [
+  "proton"
+ ],
+ "impreza": [
+  "subaru"
+ ],
+ "100": [
+  "audi"
+ ],
+ "s5": [
+  "audi"
+ ],
+ "cayenne": [
+  "porsche"
+ ],
+ "gen-2": [
+  "proton"
+ ],
+ "ghost": [
+  "rolls-royce"
+ ],
+ "unser": [
+  "toyota"
+ ],
+ "citation": [
+  "isuzu"
+ ],
+ "xj6": [
+  "jaguar"
+ ],
+ "cx-7": [
+  "mazda"
+ ],
+ "suria": [
+  "naza"
+ ],
+ "corona": [
+  "toyota"
+ ],
+ "5008": [
+  "peugeot"
+ ],
+ "scirocco": [
+  "volkswagen"
+ ],
+ "155": [
+  "alfa romeo"
+ ],
+ "159": [
+  "alfa romeo"
+ ],
+ "a1": [
+  "audi"
+ ],
+ "200": [
+  "mercedes-benz"
+ ],
+ "gls": [
+  "mercedes-benz",
+  "mercedes-amg"
+ ],
+ "xzu423r": [
+  "hino"
+ ],
+ "discovery 3": [
+  "land rover"
+ ],
+ "boxster": [
+  "porsche"
+ ],
+ "9-3": [
+  "saab"
+ ],
+ "9-5": [
+  "saab"
+ ],
+ "wald": [
+  "toyota",
+  "honda",
+  "mitsubishi",
+  "volkswagen",
+  "audi"
+ ],
+ "xzu412": [
+  "hino"
+ ],
+ "wu710r-hkmml3": [
+  "hino"
+ ],
+ "jeep": [
+  "mitsubishi",
+  "willys"
+ ],
+ "x50": [
+  "proton"
+ ],
+ "nlr77ueew": [
+  "isuzu"
+ ],
+ "626": [
+  "mazda"
+ ],
+ "r8": [
+  "audi"
+ ],
+ "ria": [
+  "kia",
+  "naza"
+ ],
+ "kenari": [
+  "perodua"
+ ],
+ "sutera": [
+  "naza"
+ ],
+ "ulysee": [
+  "fiat"
+ ],
+ "rafaga": [
+  "honda"
+ ],
+ "u-nkr66e": [
+  "isuzu"
+ ],
+ "sy1044dvpmy": [
+  "jbc"
+ ],
+ "mito": [
+  "alfa romeo"
+ ],
+ "rc350": [
+  "lexus"
+ ],
+ "eq s": [
+  "mercedes-benz"
+ ],
+ "citra ii": [
+  "naza"
+ ],
+ "telstar": [
+  "ford"
+ ],
+ "b-series": [
+  "mazda"
+ ],
+ "cayman": [
+  "porsche"
+ ],
+ "espace": [
+  "renault"
+ ],
+ "era jinbei": [
+  "shenyang brilliance"
+ ],
+ "chairman": [
+  "ssangyong"
+ ],
+ "a3": [
+  "audi"
+ ],
+ "sonic": [
+  "chevrolet"
+ ],
+ "940": [
+  "volvo"
+ ],
+ "panda": [
+  "fiat"
+ ],
+ "vaneo": [
+  "mercedes-benz"
+ ],
+ "kijang": [
+  "toyota"
+ ],
+ "npr71": [
+  "isuzu"
+ ],
+ "citra ii rondo": [
+  "naza"
+ ],
+ "colt": [
+  "mitsubishi"
+ ],
+ "astra": [
+  "opel"
+ ],
+ "g": [
+  "mercedes-benz",
+  "infiniti",
+  "mercedes-amg"
+ ],
+ "300se": [
+  "mercedes-benz"
+ ],
+ "mpv": [
+  "mitsuoka",
+  "mazda"
+ ],
+ "850": [
+  "volvo"
+ ],
+ "s4": [
+  "audi"
+ ],
+ "exiga": [
+  "subaru"
+ ],
+ "tf": [
+  "mg"
+ ],
+ "levante": [
+  "maserati"
+ ],
+ "5 door": [
+  "mini"
+ ],
+ "x2": [
+  "bmw"
+ ],
+ "lumina": [
+  "chevrolet"
+ ],
+ "c4": [
+  "citroen"
+ ],
+ "kyron": [
+  "ssangyong"
+ ],
+ "s-cross": [
+  "suzuki"
+ ],
+ "npr72l": [
+  "isuzu"
+ ],
+ "austin morris": [
+  "mini"
+ ],
+ "apv": [
+  "suzuki"
+ ],
+ "s660": [
+  "honda"
+ ],
+ "erv": [
+  "suzuki"
+ ],
+ "tarago": [
+  "toyota"
+ ],
+ "nlr55uee": [
+  "isuzu"
+ ],
+ "nlr85uhen": [
+  "isuzu"
+ ],
+ "captur": [
+  "renault"
+ ],
+ "75": [
+  "rover"
+ ],
+ "giulietta": [
+  "alfa romeo"
+ ],
+ "calibra": [
+  "opel"
+ ],
+ "frontera": [
+  "opel"
+ ],
+ "phantom": [
+  "rolls-royce"
+ ],
+ "grand scenic": [
+  "renault"
+ ],
+ "c3": [
+  "citroen"
+ ],
+ "f12berlinetta": [
+  "ferrari"
+ ],
+ "model 3": [
+  "tesla"
+ ],
+ "city cabrio": [
+  "smart"
+ ],
+ "doblo": [
+  "fiat"
+ ],
+ "x7": [
+  "bmw"
+ ],
+ "300sl": [
+  "mercedes-benz"
+ ],
+ "scoupe": [
+  "hyundai"
+ ],
+ "voltz": [
+  "toyota"
+ ],
+ "nlr77uee": [
+  "isuzu"
+ ],
+ "bj2037": [
+  "bison"
+ ],
+ "xzu420": [
+  "hino"
+ ],
+ "ascot": [
+  "honda"
+ ],
+ "207": [
+  "peugeot"
+ ],
+ "domingo": [
+  "subaru"
+ ],
+ "npr66uph": [
+  "isuzu"
+ ],
+ "mulsanne": [
+  "bentley"
+ ],
+ "nu41t5": [
+  "nissan",
+  "ud trucks"
+ ],
+ "s560": [
+  "mercedes-maybach"
+ ],
+ "v522hc": [
+  "daihatsu"
+ ],
+ "futura": [
+  "suzuki"
+ ],
+ "tempra": [
+  "fiat"
+ ],
+ "compass": [
+  "jeep"
+ ],
+ "x30l": [
+  "shineray"
+ ],
+ "actros": [
+  "mercedes-benz"
+ ],
+ "h9": [
+  "haval"
+ ],
+ "h08": [
+  "camc"
+ ],
+ "grand c4 picasso": [
+  "citroen"
+ ],
+ "tribute": [
+  "mazda"
+ ],
+ "null": [
+  "daihatsu",
+  "hino",
+  "jbc"
+ ],
+ "challenger": [
+  "dodge",
+  "mitsubishi"
+ ],
+ "dutro": [
+  "hino"
+ ],
+ "900": [
+  "saab"
+ ],
+ "p114": [
+  "scania"
+ ],
+ "bj6520xbd3-r": [
+  "baw"
+ ],
+ "land cruiser": [
+  "toyota"
+ ],
+ "continental gt": [
+  "bentley"
+ ],
+ "wu410r-hkmms3": [
+  "hino"
+ ],
+ "avensis": [
+  "toyota"
+ ],
+ "escalade": [
+  "cadillac"
+ ],
+ "npr70": [
+  "isuzu"
+ ],
+ "fd1j": [
+  "hino"
+ ],
+ "nlr85": [
+  "isuzu"
+ ],
+ "mdx": [
+  "acura",
+  "honda"
+ ],
+ "cynos": [
+  "toyota"
+ ],
+ "npr66ulh": [
+  "isuzu"
+ ],
+ "fb511b8rdg1": [
+  "mitsubishi"
+ ],
+ "npr81uhh": [
+  "isuzu"
+ ],
+ "npr85": [
+  "isuzu"
+ ],
+ "gf173k": [
+  "hino"
+ ],
+ "wu342r-hkmtjd3": [
+  "hino"
+ ],
+ "xzu600r-hkmlj3": [
+  "hino"
+ ],
+ "eq1032tl-m": [
+  "dongfeng",
+  "tuah"
+ ],
+ "npr71l": [
+  "isuzu"
+ ],
+ "tredia": [
+  "mitsubishi"
+ ],
+ "nkr55uee": [
+  "isuzu"
+ ],
+ "npr58l": [
+  "isuzu"
+ ],
+ "herald": [
+  "triumph"
+ ],
+ "convertible": [
+  "mini"
+ ],
+ "eunos presso": [
+  "mazda"
+ ],
+ "nkr66e": [
+  "isuzu"
+ ],
+ "720s": [
+  "mclaren"
+ ],
+ "airwave": [
+  "honda"
+ ],
+ "ca1060pk": [
+  "faw"
+ ],
+ "picasso": [
+  "citroen"
+ ],
+ "wu710": [
+  "hino"
+ ],
+ "cougar": [
+  "ford"
+ ],
+ "npr71ulht": [
+  "isuzu"
+ ],
+ "stelvio": [
+  "alfa romeo"
+ ],
+ "co-star": [
+  "cam"
+ ],
+ "bb": [
+  "toyota"
+ ],
+ "1007": [
+  "peugeot"
+ ],
+ "gh1jkpd": [
+  "hino"
+ ],
+ "b40": [
+  "brabus"
+ ],
+ "publica": [
+  "toyota"
+ ],
+ "1000": [
+  "toyota"
+ ],
+ "nhr55e": [
+  "isuzu"
+ ],
+ "murcielago": [
+  "lamborghini"
+ ],
+ "charger": [
+  "dodge"
+ ],
+ "ly111": [
+  "toyota"
+ ],
+ "500c": [
+  "fiat"
+ ],
+ "xzu720r-hkmqk3": [
+  "hino"
+ ],
+ "2002": [
+  "bmw"
+ ],
+ "e-rv": [
+  "suzuki"
+ ],
+ "cts": [
+  "cadillac"
+ ],
+ "wu710r-hkmgl3": [
+  "hino"
+ ],
+ "407": [
+  "peugeot"
+ ],
+ "306": [
+  "peugeot"
+ ],
+ "230sl": [
+  "mercedes-benz"
+ ],
+ "accent verna": [
+  "hyundai"
+ ],
+ "i10": [
+  "hyundai",
+  "inokom"
+ ],
+ "nx": [
+  "lexus"
+ ],
+ "s-type": [
+  "jaguar"
+ ],
+ "lx": [
+  "lexus"
+ ],
+ "pick up": [
+  "isuzu"
+ ],
+ "elf": [
+  "isuzu"
+ ],
+ "br-v": [
+  "honda"
+ ],
+ "luxio": [
+  "daihatsu"
+ ],
+ "sirion": [
+  "daihatsu"
+ ],
+ "splash": [
+  "suzuki"
+ ],
+ "elgrand": [
+  "nissan"
+ ],
+ "serena": [
+  "nissan"
+ ],
+ "odyssey": [
+  "honda",
+  "hyundai"
+ ],
+ "escudo": [
+  "suzuki"
+ ],
+ "grand vitara": [
+  "suzuki"
+ ],
+ "mega carry": [
+  "suzuki"
+ ],
+ "fuso": [
+  "mitsubishi"
+ ],
+ "kuda": [
+  "mitsubishi"
+ ],
+ "outlander sport": [
+  "mitsubishi"
+ ],
+ "laser": [
+  "ford"
+ ],
+ "glory 580": [
+  "dfsk"
+ ],
+ "go panca": [
+  "datsun"
+ ],
+ "go+ panca": [
+  "datsun"
+ ],
+ "500": [
+  "fiat",
+  "abarth"
+ ],
+ "fx37": [
+  "infiniti"
+ ],
+ "aventador": [
+  "lamborghini"
+ ],
+ "range rover": [
+  "land rover"
+ ],
+ "john cooper works": [
+  "mini"
+ ],
+ "koleos": [
+  "renault"
+ ],
+ "xenon": [
+  "tata"
+ ],
+ "cx-9": [
+  "mazda"
+ ],
+ "corona absolute": [
+  "toyota"
+ ],
+ "vellfire": [
+  "toyota"
+ ],
+ "duster": [
+  "renault"
+ ],
+ "arya": [
+  "hyundai"
+ ],
+ "dyna": [
+  "toyota"
+ ],
+ "baleno": [
+  "suzuki"
+ ],
+ "savvy": [
+  "proton"
+ ],
+ "wagon r": [
+  "suzuki"
+ ],
+ "mk": [
+  "geely"
+ ],
+ "accord maestro": [
+  "honda",
+  "hyundai"
+ ],
+ "suburban": [
+  "chevrolet"
+ ],
+ "musso": [
+  "ssangyong"
+ ],
+ "succeed": [
+  "toyota"
+ ],
+ "probox": [
+  "toyota"
+ ],
+ "244": [
+  "volvo"
+ ],
+ "kijang standard": [
+  "toyota"
+ ],
+ "208": [
+  "peugeot"
+ ],
+ "colt 77 ps": [
+  "isuzu"
+ ],
+ "spectra": [
+  "kia"
+ ],
+ "giga": [
+  "isuzu"
+ ],
+ "x-type": [
+  "jaguar"
+ ],
+ "visto": [
+  "kia"
+ ],
+ "cooper clubman": [
+  "mini"
+ ],
+ "cooper countryman": [
+  "mini"
+ ],
+ "tiguan": [
+  "volkswagen"
+ ],
+ "scenic": [
+  "renault"
+ ],
+ "excel iii": [
+  "hyundai"
+ ],
+ "freelander 2": [
+  "land rover"
+ ],
+ "ml": [
+  "mercedes-benz"
+ ],
+ "staria": [
+  "hyundai"
+ ],
+ "240": [
+  "volvo"
+ ],
+ "cls": [
+  "mercedes-amg",
+  "mercedes-benz"
+ ],
+ "starex": [
+  "hyundai"
+ ],
+ "cronos": [
+  "mazda"
+ ],
+ "vitara": [
+  "suzuki"
+ ],
+ "edix": [
+  "honda"
+ ],
+ "wake": [
+  "daihatsu"
+ ],
+ "seltos": [
+  "kia"
+ ],
+ "v": [
+  "mercedes-benz"
+ ],
+ "206": [
+  "peugeot"
+ ],
+ "kijang grand rover": [
+  "toyota"
+ ],
+ "aria": [
+  "tata"
+ ],
+ "300c": [
+  "chrysler"
+ ],
+ "qx80": [
+  "infiniti"
+ ],
+ "celica": [
+  "toyota"
+ ],
+ "ct": [
+  "lexus"
+ ],
+ "rexton": [
+  "ssangyong"
+ ],
+ "uno": [
+  "fiat"
+ ],
+ "hi max": [
+  "daihatsu"
+ ],
+ "vantrend": [
+  "mazda"
+ ],
+ "estillo": [
+  "honda"
+ ],
+ "flying spur": [
+  "bentley"
+ ],
+ "s": [
+  "mercedes-maybach",
+  "mercedes-benz",
+  "mercedes-amg"
+ ],
+ "windom": [
+  "toyota"
+ ],
+ "grandeur": [
+  "hyundai"
+ ],
+ "hiline": [
+  "daihatsu"
+ ],
+ "micra": [
+  "nissan"
+ ],
+ "glory 560": [
+  "dfsk"
+ ],
+ "magnite": [
+  "nissan"
+ ],
+ "nitro": [
+  "dodge"
+ ],
+ "macan turbo": [
+  "porsche"
+ ],
+ "dump truck": [
+  "hino",
+  "isuzu"
+ ],
+ "408": [
+  "peugeot"
+ ],
+ "1100": [
+  "fiat"
+ ],
+ "488": [
+  "ferrari"
+ ],
+ "fg series": [
+  "hino"
+ ],
+ "c30": [
+  "volvo"
+ ],
+ "kluger": [
+  "toyota"
+ ],
+ "cherokee": [
+  "chrysler",
+  "jeep"
+ ],
+ "bx": [
+  "citroen"
+ ],
+ "vantage": [
+  "aston martin"
+ ],
+ "john cooper works clubman": [
+  "mini"
+ ],
+ "isis": [
+  "toyota"
+ ],
+ "530i": [
+  "mercedes-benz"
+ ],
+ "truck": [
+  "hino"
+ ],
+ "mp4-12c": [
+  "mclaren"
+ ],
+ "patriot": [
+  "jeep"
+ ],
+ "lc": [
+  "lexus",
+  "geely"
+ ],
+ "320e": [
+  "mercedes-benz"
+ ],
+ "fd": [
+  "faw"
+ ],
+ "slc": [
+  "mercedes-amg",
+  "mercedes-benz"
+ ],
+ "mx-6": [
+  "mazda"
+ ],
+ "strom": [
+  "tata"
+ ],
+ "v70 xc": [
+  "volvo"
+ ],
+ "nexia": [
+  "daewoo"
+ ],
+ "m37": [
+  "infiniti"
+ ],
+ "mu-7": [
+  "isuzu"
+ ],
+ "wanderer": [
+  "isuzu"
+ ],
+ "clk": [
+  "mercedes-benz",
+  "mercedes-amg"
+ ],
+ "range rover sport": [
+  "land rover"
+ ],
+ "tiida": [
+  "nissan"
+ ],
+ "corolla": [
+  "toyota"
+ ],
+ "mx-5": [
+  "mazda"
+ ],
+ "range rover vogue": [
+  "land rover"
+ ],
+ "camry": [
+  "toyota"
+ ],
+ "s90": [
+  "volvo"
+ ],
+ "space runner": [
+  "mitsubishi"
+ ],
+ "f-pace": [
+  "jaguar"
+ ],
+ "celerio": [
+  "suzuki"
+ ],
+ "colorado": [
+  "chevrolet"
+ ],
+ "rx350": [
+  "lexus"
+ ],
+ "qq": [
+  "chery"
+ ],
+ "807": [
+  "peugeot"
+ ],
+ "fortwo": [
+  "smart"
+ ],
+ "bt-50 pro": [
+  "mazda"
+ ],
+ "sonata sport": [
+  "hyundai"
+ ],
+ "q8": [
+  "audi"
+ ],
+ "exora": [
+  "proton"
+ ],
+ "neo": [
+  "proton"
+ ],
+ "innova": [
+  "toyota"
+ ],
+ "forfour": [
+  "smart"
+ ],
+ "landcruiser prado": [
+  "toyota"
+ ],
+ "soluna": [
+  "toyota"
+ ],
+ "crown": [
+  "toyota"
+ ],
+ "terra": [
+  "nissan"
+ ],
+ "bt-50": [
+  "mazda"
+ ],
+ "tripper": [
+  "isuzu",
+  "thai rung"
+ ],
+ "sl": [
+  "mercedes-benz",
+  "mercedes-amg"
+ ],
+ "wish": [
+  "toyota"
+ ],
+ "is300h": [
+  "lexus"
+ ],
+ "bipper": [
+  "peugeot"
+ ],
+ "156": [
+  "alfa romeo"
+ ],
+ "activehybrid 7": [
+  "bmw"
+ ],
+ "evolution": [
+  "mitsubishi"
+ ],
+ "california": [
+  "ferrari"
+ ],
+ "rapide": [
+  "aston martin"
+ ],
+ "commodore": [
+  "holden"
+ ],
+ "rav4": [
+  "toyota"
+ ],
+ "cameo": [
+  "isuzu"
+ ],
+ "noah": [
+  "toyota"
+ ],
+ "supreme": [
+  "isuzu"
+ ],
+ "sovereign": [
+  "jaguar"
+ ],
+ "f": [
+  "lexus",
+  "mg"
+ ],
+ "f360": [
+  "ferrari"
+ ],
+ "458 speciale": [
+  "ferrari"
+ ],
+ "rs3": [
+  "audi"
+ ],
+ "500sel": [
+  "mercedes-benz"
+ ],
+ "rx330": [
+  "lexus"
+ ],
+ "dbs": [
+  "aston martin"
+ ],
+ "nv": [
+  "nissan"
+ ],
+ "v80": [
+  "mg",
+  "maxus"
+ ],
+ "rx200t": [
+  "lexus"
+ ],
+ "hs": [
+  "mg"
+ ],
+ "sportage": [
+  "kia",
+  "naza"
+ ],
+ "xf": [
+  "jaguar"
+ ],
+ "elise": [
+  "lotus"
+ ],
+ "gs450h": [
+  "lexus"
+ ],
+ "s70": [
+  "volvo"
+ ],
+ "f599 fiorano": [
+  "ferrari"
+ ],
+ "ds5": [
+  "citroen"
+ ],
+ "arnage": [
+  "bentley"
+ ],
+ "discovery sport": [
+  "land rover"
+ ],
+ "bentayga": [
+  "bentley"
+ ],
+ "675lt": [
+  "mclaren"
+ ],
+ "skyline": [
+  "nissan"
+ ],
+ "urus": [
+  "lamborghini"
+ ],
+ "fleetwood": [
+  "cadillac"
+ ],
+ "rc200t": [
+  "lexus"
+ ],
+ "explorer": [
+  "ford"
+ ],
+ "solio": [
+  "suzuki"
+ ],
+ "myvi": [
+  "perodua"
+ ],
+ "cerato": [
+  "kia"
+ ],
+ "viva": [
+  "perodua"
+ ],
+ "x-trail": [
+  "nissan"
+ ],
+ "x3": [
+  "bmw"
+ ],
+ "axia": [
+  "perodua"
+ ],
+ "saga": [
+  "proton"
+ ],
+ "cla": [
+  "mercedes-benz",
+  "mercedes-amg"
+ ],
+ "2008": [
+  "peugeot"
+ ],
+ "zs": [
+  "mg"
+ ],
+ "d-max": [
+  "isuzu"
+ ],
+ "pajero sport": [
+  "mitsubishi"
+ ],
+ "agya": [
+  "toyota"
+ ],
+ "sigra": [
+  "daihatsu"
+ ],
+ "voxy": [
+  "toyota"
+ ],
+ "vento": [
+  "volkswagen"
+ ],
+ "preve": [
+  "proton"
+ ],
+ "panther": [
+  "isuzu"
+ ],
+ "navara": [
+  "nissan"
+ ],
+ "freed": [
+  "honda"
+ ],
+ "pulsar": [
+  "nissan"
+ ],
+ "karimun": [
+  "suzuki"
+ ],
+ "fiesta": [
+  "ford"
+ ],
+ "nv200": [
+  "nissan"
+ ],
+ "extender": [
+  "mg"
+ ],
+ "rx": [
+  "lexus"
+ ],
+ "spin": [
+  "chevrolet"
+ ],
+ "xenia": [
+  "daihatsu"
+ ],
+ "alphard": [
+  "toyota"
+ ],
+ "one": [
+  "mini"
+ ],
+ "ux200": [
+  "lexus"
+ ],
+ "wira": [
+  "proton"
+ ],
+ "146": [
+  "alfa romeo"
+ ],
+ "4": [
+  "bmw"
+ ],
+ "era komuter": [
+  "chana",
+  "joylong"
+ ],
+ "captiva": [
+  "chevrolet"
+ ],
+ "gran max": [
+  "daihatsu"
+ ],
+ "econovan": [
+  "ford"
+ ],
+ "lynx": [
+  "ford"
+ ],
+ "view": [
+  "foton"
+ ],
+ "legend": [
+  "honda"
+ ],
+ "grand starex": [
+  "hyundai"
+ ],
+ "a6": [
+  "audi",
+  "joylong"
+ ],
+ "eastar": [
+  "chery"
+ ],
+ "xsara": [
+  "citroen"
+ ],
+ "mustang": [
+  "ford"
+ ],
+ "fr1e": [
+  "hino"
+ ],
+ "rodeo": [
+  "isuzu"
+ ],
+ "plutus": [
+  "huanghai"
+ ],
+ "xj": [
+  "jaguar"
+ ],
+ "pregio": [
+  "kia"
+ ],
+ "is300": [
+  "lexus"
+ ],
+ "ls460": [
+  "lexus"
+ ],
+ "ghibli": [
+  "maserati"
+ ],
+ "maxus": [
+  "maxus"
+ ],
+ "rx-8": [
+  "mazda"
+ ],
+ "placer": [
+  "king long xiamen"
+ ],
+ "gle": [
+  "mercedes-benz",
+  "mercedes-amg"
+ ],
+ "kancil": [
+  "perodua"
+ ],
+ "kelisa": [
+  "perodua"
+ ],
+ "z3": [
+  "bmw"
+ ],
+ "copen": [
+  "daihatsu"
+ ],
+ "mtb": [
+  "hicom"
+ ],
+ "wu410r": [
+  "hino"
+ ],
+ "nlr": [
+  "isuzu"
+ ],
+ "xkr-s": [
+  "jaguar"
+ ],
+ "clio": [
+  "renault"
+ ],
+ "jimny sierra": [
+  "suzuki"
+ ],
+ "chimaera": [
+  "tvr"
+ ],
+ "landcruiser": [
+  "toyota"
+ ],
+ "s60": [
+  "volvo"
+ ],
+ "estima": [
+  "toyota"
+ ],
+ "alto": [
+  "suzuki"
+ ],
+ "matrix": [
+  "hyundai",
+  "inokom"
+ ],
+ "iswara": [
+  "proton"
+ ],
+ "grand tiger": [
+  "zx auto"
+ ],
+ "delica": [
+  "mitsubishi"
+ ],
+ "era": [
+  "changan"
+ ],
+ "delta": [
+  "daihatsu"
+ ],
+ "wu720": [
+  "hino"
+ ],
+ "is200": [
+  "lexus"
+ ],
+ "forte": [
+  "naza",
+  "kia"
+ ],
+ "murano": [
+  "nissan"
+ ],
+ "yu41t5": [
+  "nissan",
+  "ud trucks"
+ ],
+ "nlr85uee": [
+  "isuzu",
+  "nissan"
+ ],
+ "prelude": [
+  "honda"
+ ],
+ "gaia": [
+  "toyota"
+ ],
+ "crossroad": [
+  "honda"
+ ],
+ "xzu600j": [
+  "hino"
+ ],
+ "cl": [
+  "mercedes-amg",
+  "mercedes-benz"
+ ],
+ "nqr75uln": [
+  "isuzu"
+ ],
+ "s200": [
+  "daihatsu"
+ ],
+ "fj cruiser": [
+  "toyota"
+ ],
+ "bj1039": [
+  "bison"
+ ],
+ "gtv": [
+  "alfa romeo"
+ ],
+ "xzu411": [
+  "hino"
+ ],
+ "xe": [
+  "jaguar"
+ ],
+ "octavia": [
+  "skoda"
+ ],
+ "altezza": [
+  "toyota"
+ ],
+ "mrs": [
+  "toyota"
+ ],
+ "wu710r-hkmql3": [
+  "hino"
+ ],
+ "230e": [
+  "mercedes-benz"
+ ],
+ "feroza": [
+  "daihatsu"
+ ],
+ "fto": [
+  "mitsubishi"
+ ],
+ "fairlady z": [
+  "nissan"
+ ],
+ "urvan": [
+  "nissan"
+ ],
+ "super ace": [
+  "tata"
+ ],
+ "370z": [
+  "nissan"
+ ],
+ "familia": [
+  "mazda"
+ ],
+ "superb": [
+  "skoda"
+ ],
+ "v70": [
+  "volvo"
+ ],
+ "200e": [
+  "mercedes-benz"
+ ],
+ "sunny": [
+  "nissan",
+  "datsun"
+ ],
+ "clubman": [
+  "mini"
+ ],
+ "sephia": [
+  "kia"
+ ],
+ "wu302r-hkmlhd3": [
+  "hino"
+ ],
+ "lagreat": [
+  "honda"
+ ],
+ "280e": [
+  "mercedes-benz"
+ ],
+ "vanguard": [
+  "toyota"
+ ],
+ "zafira": [
+  "opel",
+  "chevrolet"
+ ],
+ "250d": [
+  "mercedes-benz"
+ ],
+ "db9": [
+  "aston martin"
+ ],
+ "rs6": [
+  "audi"
+ ],
+ "300e-24": [
+  "mercedes-benz"
+ ],
+ "trajet": [
+  "hyundai"
+ ],
+ "discovery 2": [
+  "land rover"
+ ],
+ "718": [
+  "porsche"
+ ],
+ "ls430": [
+  "lexus"
+ ],
+ "levorg": [
+  "subaru"
+ ],
+ "607": [
+  "peugeot"
+ ],
+ "insight": [
+  "honda"
+ ],
+ "ud": [
+  "nissan"
+ ],
+ "8": [
+  "bmw",
+  "mazda"
+ ],
+ "m4": [
+  "bmw",
+  "great wall"
+ ],
+ "m8": [
+  "bmw"
+ ],
+ "era cv6": [
+  "chana"
+ ],
+ "hijet maxx": [
+  "daihatsu"
+ ],
+ "f430": [
+  "ferrari"
+ ],
+ "quattroporte": [
+  "maserati"
+ ],
+ "chery": [
+  "chery"
+ ],
+ "xk8": [
+  "jaguar"
+ ],
+ "roadster": [
+  "smart",
+  "mini",
+  "mazda"
+ ],
+ "cute": [
+  "mitsuoka"
+ ],
+ "cube": [
+  "nissan"
+ ],
+ "zoe": [
+  "renault"
+ ],
+ "wrx sti": [
+  "subaru"
+ ],
+ "soarer": [
+  "toyota"
+ ],
+ "npr71ukh": [
+  "isuzu"
+ ],
+ "455w(nissan elgrand)": [
+  "impul"
+ ],
+ "touran": [
+  "volkswagen"
+ ],
+ "perkasa": [
+  "hicom"
+ ],
+ "new beetle": [
+  "volkswagen"
+ ],
+ "paceman": [
+  "mini"
+ ],
+ "optra5": [
+  "chevrolet"
+ ],
+ "will": [
+  "toyota"
+ ],
+ "iq": [
+  "toyota"
+ ],
+ "traveller": [
+  "peugeot"
+ ],
+ "laguna": [
+  "renault"
+ ],
+ "model s": [
+  "tesla"
+ ],
+ "406": [
+  "peugeot"
+ ],
+ "tanto": [
+  "daihatsu"
+ ],
+ "wu300r": [
+  "hino"
+ ],
+ "torneo": [
+  "honda"
+ ],
+ "rs4": [
+  "audi"
+ ],
+ "fr2p": [
+  "hino"
+ ],
+ "cullinan": [
+  "rolls-royce"
+ ],
+ "307": [
+  "peugeot"
+ ],
+ "ulysse": [
+  "fiat"
+ ],
+ "xg": [
+  "hyundai"
+ ],
+ "trader": [
+  "ford"
+ ],
+ "terracan": [
+  "hyundai"
+ ],
+ "up!": [
+  "volkswagen"
+ ],
+ "liana": [
+  "suzuki"
+ ],
+ "ga1c2": [
+  "go auto"
+ ],
+ "bt50": [
+  "mazda"
+ ],
+ "bj1059xl": [
+  "bison"
+ ],
+ "zt-t": [
+  "mg"
+ ],
+ "230ce": [
+  "mercedes-benz"
+ ],
+ "wu640r-hkmll3": [
+  "hino"
+ ],
+ "164": [
+  "alfa romeo",
+  "volvo"
+ ],
+ "xzu423r-hkmmb3": [
+  "hino"
+ ],
+ "g380": [
+  "scania"
+ ],
+ "opa": [
+  "toyota"
+ ],
+ "auman": [
+  "foton"
+ ],
+ "npr71uhh": [
+  "isuzu"
+ ],
+ "mark ii": [
+  "toyota"
+ ],
+ "i3": [
+  "bmw"
+ ],
+ "s2000": [
+  "honda"
+ ],
+ "620": [
+  "rover"
+ ],
+ "kinland": [
+  "dongfeng"
+ ],
+ "tga": [
+  "man"
+ ],
+ "k01h": [
+  "dfsk",
+  "dongfeng"
+ ],
+ "brabus": [
+  "mercedes-benz"
+ ],
+ "740": [
+  "volvo"
+ ],
+ "corvette": [
+  "chevrolet"
+ ],
+ "giulia": [
+  "alfa romeo"
+ ],
+ "yu41h5": [
+  "nissan"
+ ],
+ "lpt509/34": [
+  "tata"
+ ],
+ "xzu414": [
+  "hino"
+ ],
+ "npr59": [
+  "isuzu"
+ ],
+ "nmr85": [
+  "isuzu"
+ ],
+ "mira": [
+  "daihatsu"
+ ],
+ "f150": [
+  "ford"
+ ],
+ "ff3he": [
+  "hino"
+ ],
+ "lb520": [
+  "hino"
+ ],
+ "nqr75ukn": [
+  "isuzu"
+ ],
+ "frr90": [
+  "isuzu"
+ ],
+ "m151": [
+  "jeep"
+ ],
+ "820": [
+  "rover"
+ ],
+ "vezel": [
+  "honda"
+ ],
+ "360": [
+  "ferrari"
+ ],
+ "allion": [
+  "toyota"
+ ],
+ "1200": [
+  "volkswagen",
+  "datsun"
+ ],
+ "112011": [
+  "volkswagen"
+ ],
+ "ceres ae101": [
+  "toyota"
+ ],
+ "1500": [
+  "ram",
+  "volkswagen"
+ ],
+ "929": [
+  "mazda"
+ ],
+ "s600": [
+  "mercedes-maybach"
+ ],
+ "wu302r": [
+  "hino"
+ ],
+ "xzu720r-hkfrl3": [
+  "hino"
+ ],
+ "mono": [
+  "bac"
+ ],
+ "npr66l": [
+  "isuzu"
+ ],
+ "n1r70": [
+  "isuzu"
+ ],
+ "v58": [
+  "daihatsu"
+ ],
+ "step wagon": [
+  "honda"
+ ],
+ "v58r-hs": [
+  "daihatsu"
+ ],
+ "xzu640k": [
+  "hino"
+ ],
+ "wh(toyota harrier)": [
+  "wald"
+ ],
+ "mx-3": [
+  "mazda"
+ ],
+ "xzu720r-hkmql3": [
+  "hino"
+ ],
+ "s201": [
+  "daihatsu"
+ ],
+ "350z": [
+  "nissan"
+ ],
+ "s80": [
+  "volvo"
+ ],
+ "caravelle": [
+  "volkswagen"
+ ],
+ "i20": [
+  "hyundai"
+ ],
+ "a8": [
+  "audi"
+ ],
+ "f-type": [
+  "jaguar"
+ ],
+ "gran touring": [
+  "isuzu"
+ ],
+ "ist": [
+  "toyota"
+ ],
+ "starlet": [
+  "toyota"
+ ],
+ "limo": [
+  "toyota"
+ ],
+ "e2000": [
+  "mazda"
+ ],
+ "x-over": [
+  "suzuki"
+ ],
+ "ceria": [
+  "daihatsu"
+ ],
+ "neo baleno": [
+  "suzuki"
+ ],
+ "cocoa": [
+  "daihatsu"
+ ],
+ "strada triton": [
+  "mitsubishi"
+ ],
+ "grand cherokee": [
+  "jeep"
+ ],
+ "big up": [
+  "kia"
+ ],
+ "tavera": [
+  "chevrolet"
+ ],
+ "aveo": [
+  "chevrolet"
+ ],
+ "everest": [
+  "ford"
+ ],
+ "baleno dx": [
+  "suzuki"
+ ],
+ "kijang super": [
+  "toyota"
+ ],
+ "h3": [
+  "hummer"
+ ],
+ "supercab": [
+  "dfsk"
+ ],
+ "q50": [
+  "infiniti"
+ ],
+ "katana": [
+  "suzuki"
+ ],
+ "corolla altis": [
+  "toyota"
+ ],
+ "minor": [
+  "morris"
+ ],
+ "vista": [
+  "tata"
+ ],
+ "409": [
+  "peugeot"
+ ],
+ "ls": [
+  "lexus"
+ ],
+ "cedric": [
+  "nissan"
+ ],
+ "premacy": [
+  "mazda"
+ ],
+ "yrv": [
+  "daihatsu"
+ ],
+ "corolla conquest": [
+  "toyota"
+ ],
+ "cooper paceman": [
+  "mini"
+ ],
+ "xl7": [
+  "suzuki"
+ ],
+ "traga": [
+  "isuzu"
+ ],
+ "taycan": [
+  "porsche"
+ ],
+ "fit": [
+  "honda"
+ ],
+ "raum": [
+  "toyota"
+ ],
+ "ps": [
+  "mitsubishi"
+ ],
+ "shuma": [
+  "kia"
+ ],
+ "huracan": [
+  "lamborghini"
+ ],
+ "axor": [
+  "mercedes-benz"
+ ],
+ "kangoo": [
+  "renault"
+ ],
+ "amenity": [
+  "suzuki"
+ ],
+ "viano": [
+  "mercedes-benz"
+ ],
+ "b2500": [
+  "mazda"
+ ],
+ "boon": [
+  "daihatsu"
+ ],
+ "chariot": [
+  "mitsubishi"
+ ],
+ "gladiator": [
+  "jeep"
+ ],
+ "range rover velar": [
+  "land rover"
+ ],
+ "kijang jantan": [
+  "toyota"
+ ],
+ "sprinter": [
+  "mercedes-benz"
+ ],
+ "pathfinder": [
+  "nissan"
+ ],
+ "kicks": [
+  "nissan"
+ ],
+ "cross": [
+  "datsun"
+ ],
+ "coo": [
+  "daihatsu"
+ ],
+ "cooper coupe": [
+  "mini"
+ ],
+ "mk2 gt": [
+  "geely"
+ ],
+ "glory": [
+  "dfsk"
+ ],
+ "ec7": [
+  "geely"
+ ],
+ "super carry": [
+  "suzuki"
+ ],
+ "504": [
+  "peugeot"
+ ],
+ "505": [
+  "peugeot"
+ ],
+ "optima": [
+  "opel",
+  "kia"
+ ],
+ "civic ferio": [
+  "honda"
+ ],
+ "gs": [
+  "citroen",
+  "lexus",
+  "mg"
+ ],
+ "partner": [
+  "peugeot"
+ ],
+ "john cooper works paceman": [
+  "mini"
+ ],
+ "l202": [
+  "mitsubishi"
+ ],
+ "pkc211": [
+  "nissan"
+ ],
+ "jumper": [
+  "citroen"
+ ],
+ "124s": [
+  "fiat"
+ ],
+ "escape": [
+  "ford"
+ ],
+ "adventure": [
+  "isuzu"
+ ],
+ "s40": [
+  "volvo"
+ ],
+ "v90": [
+  "volvo"
+ ],
+ "elan": [
+  "lotus"
+ ],
+ "tt": [
+  "audi"
+ ],
+ "vertex": [
+  "isuzu"
+ ],
+ "911 turbo": [
+  "porsche"
+ ],
+ "600lt": [
+  "mclaren"
+ ],
+ "gallardo": [
+  "lamborghini"
+ ],
+ "outback": [
+  "subaru"
+ ],
+ "brz": [
+  "subaru"
+ ],
+ "rcz": [
+  "peugeot"
+ ],
+ "m3": [
+  "bmw"
+ ],
+ "xciter": [
+  "nissan"
+ ],
+ "activehybrid 3": [
+  "bmw"
+ ],
+ "silver dawn": [
+  "rolls-royce"
+ ],
+ "defender": [
+  "land rover"
+ ],
+ "v50": [
+  "volvo"
+ ],
+ "legacy": [
+  "subaru"
+ ],
+ "k2500": [
+  "kia"
+ ],
+ "strada": [
+  "mitsubishi"
+ ],
+ "gen 2": [
+  "proton"
+ ],
+ "ls460l": [
+  "lexus"
+ ],
+ "primera": [
+  "nissan"
+ ],
+ "xc40": [
+  "volvo"
+ ],
+ "hijet": [
+  "daihatsu"
+ ],
+ "porte": [
+  "toyota"
+ ],
+ "ds4": [
+  "citroen"
+ ],
+ "stepwagon": [
+  "honda"
+ ],
+ "gs200t": [
+  "lexus"
+ ],
+ "jumbo": [
+  "kia"
+ ],
+ "c8": [
+  "citroen"
+ ],
+ "caribian": [
+  "suzuki"
+ ],
+ "calais": [
+  "holden",
+  "opel"
+ ],
+ "evasion": [
+  "citroen"
+ ],
+ "esquire": [
+  "toyota"
+ ],
+ "ducato": [
+  "fiat"
+ ],
+ "silvia": [
+  "nissan"
+ ],
+ "ventury": [
+  "nissan",
+  "toyota"
+ ],
+ "renegade": [
+  "jeep"
+ ],
+ "rs5": [
+  "audi"
+ ],
+ "transformer 2": [
+  "thai rung"
+ ],
+ "esprit": [
+  "lotus"
+ ],
+ "expert": [
+  "peugeot"
+ ],
+ "aspire": [
+  "ford"
+ ],
+ "mb": [
+  "mercedes-benz"
+ ],
+ "wraith": [
+  "rolls-royce"
+ ],
+ "f456 gt": [
+  "ferrari"
+ ],
+ "savana": [
+  "gmc"
+ ],
+ "series iii": [
+  "land rover"
+ ],
+ "220e": [
+  "mercedes-benz"
+ ],
+ "b": [
+  "mercedes-benz"
+ ],
+ "passat": [
+  "volkswagen"
+ ],
+ "altis": [
+  "toyota"
+ ],
+ "es250": [
+  "lexus"
+ ],
+ "xc60": [
+  "volvo"
+ ],
+ "d-max blue power": [
+  "isuzu"
+ ],
+ "evalia": [
+  "nissan"
+ ],
+ "sonata": [
+  "hyundai"
+ ],
+ "h-1": [
+  "hyundai"
+ ],
+ "rocky": [
+  "daihatsu"
+ ],
+ "cc": [
+  "volkswagen"
+ ],
+ "x6": [
+  "bmw"
+ ],
+ "era star": [
+  "chana",
+  "changan"
+ ],
+ "ascend": [
+  "daihatsu"
+ ],
+ "atos": [
+  "hyundai",
+  "inokom"
+ ],
+ "z4": [
+  "bmw"
+ ],
+ "b50": [
+  "brabus"
+ ],
+ "integra": [
+  "honda"
+ ],
+ "xkr": [
+  "jaguar"
+ ],
+ "nkr": [
+  "isuzu"
+ ],
+ "freelander": [
+  "land rover"
+ ],
+ "rx200": [
+  "lexus",
+  "mitsuoka"
+ ],
+ "exige": [
+  "lotus"
+ ],
+ "gl": [
+  "mercedes-amg",
+  "mercedes-benz"
+ ],
+ "fw1k": [
+  "hino"
+ ],
+ "frontier": [
+  "nissan"
+ ],
+ "bongo": [
+  "mazda"
+ ],
+ "courier": [
+  "ford"
+ ],
+ "haval": [
+  "great wall"
+ ],
+ "wingle": [
+  "great wall"
+ ],
+ "nsx": [
+  "honda"
+ ],
+ "112bz(nissan cube)": [
+  "impul"
+ ],
+ "lorimas": [
+  "inokom"
+ ],
+ "fluence": [
+  "renault"
+ ],
+ "v40": [
+  "volvo"
+ ],
+ "sunny sentra": [
+  "nissan"
+ ],
+ "wv20mm1": [
+  "mazda"
+ ],
+ "inspira": [
+  "proton"
+ ],
+ "c2": [
+  "citroen"
+ ],
+ "multipla": [
+  "fiat"
+ ],
+ "transit": [
+  "ford"
+ ],
+ "cr-z": [
+  "honda"
+ ],
+ "getz": [
+  "inokom",
+  "hyundai"
+ ],
+ "540c": [
+  "mclaren"
+ ],
+ "nouera": [
+  "mitsuoka"
+ ],
+ "sqr6470b14t7": [
+  "chery"
+ ],
+ "s8": [
+  "audi"
+ ],
+ "nkr55ueeh": [
+  "isuzu"
+ ],
+ "mark x zio": [
+  "toyota"
+ ],
+ "galant": [
+  "mitsubishi"
+ ],
+ "avante": [
+  "hyundai"
+ ],
+ "es300": [
+  "lexus"
+ ],
+ "is250": [
+  "lexus"
+ ],
+ "s7": [
+  "audi"
+ ],
+ "m6": [
+  "bmw"
+ ],
+ "612": [
+  "ferrari"
+ ],
+ "fx": [
+  "infiniti"
+ ],
+ "npr59p": [
+  "isuzu"
+ ],
+ "juara": [
+  "proton"
+ ],
+ "silverstone": [
+  "td2000"
+ ],
+ "telcoline": [
+  "tata"
+ ],
+ "960": [
+  "volvo"
+ ],
+ "malibu": [
+  "chevrolet"
+ ],
+ "wu720r-hkmml3": [
+  "hino"
+ ],
+ "lantis": [
+  "mazda"
+ ],
+ "ldv maxus": [
+  "weststar ldv"
+ ],
+ "aerio": [
+  "suzuki"
+ ],
+ "n-series": [
+  "isuzu"
+ ],
+ "kingo": [
+  "king long xiamen",
+  "cam"
+ ],
+ "scorpio": [
+  "mahindra"
+ ],
+ "hfc": [
+  "jac"
+ ],
+ "spectron": [
+  "ford"
+ ],
+ "280se": [
+  "mercedes-benz"
+ ],
+ "g37": [
+  "infiniti"
+ ],
+ "190e": [
+  "mercedes-benz"
+ ],
+ "galue": [
+  "mitsuoka"
+ ],
+ "dualis": [
+  "nissan"
+ ],
+ "le-seyde": [
+  "mitsuoka"
+ ],
+ "sk82": [
+  "nissan"
+ ],
+ "nkr66": [
+  "isuzu"
+ ],
+ "era star ii": [
+  "chana"
+ ],
+ "rusa": [
+  "perodua"
+ ],
+ "orlando": [
+  "chevrolet"
+ ],
+ "zt": [
+  "mg"
+ ],
+ "s-max": [
+  "ford"
+ ],
+ "voyager": [
+  "chrysler"
+ ],
+ "arena": [
+  "proton"
+ ],
+ "lx460": [
+  "mitsuoka"
+ ],
+ "titan": [
+  "mazda"
+ ],
+ "rover 75": [
+  "mg"
+ ],
+ "grand civic": [
+  "honda"
+ ],
+ "shuttle": [
+  "honda"
+ ],
+ "patrol": [
+  "nissan"
+ ],
+ "ryoga": [
+  "mitsuoka"
+ ],
+ "forza": [
+  "naza"
+ ],
+ "chancellor": [
+  "proton"
+ ],
+ "stilo": [
+  "fiat"
+ ],
+ "rvr": [
+  "mitsubishi"
+ ],
+ "activehybrid 5": [
+  "bmw"
+ ],
+ "savanna": [
+  "bison"
+ ],
+ "mondeo": [
+  "ford"
+ ],
+ "m": [
+  "infiniti",
+  "mercedes-benz"
+ ],
+ "lx470": [
+  "lexus"
+ ],
+ "rc f": [
+  "lexus"
+ ],
+ "aveo notchback": [
+  "chevrolet"
+ ],
+ "v116-ha": [
+  "daihatsu"
+ ],
+ "grancabrio": [
+  "maserati"
+ ],
+ "cd48": [
+  "nissan"
+ ],
+ "lx mode al 300g": [
+  "toyota"
+ ],
+ "glb": [
+  "mercedes-benz",
+  "mercedes-amg"
+ ],
+ "grand espace": [
+  "renault"
+ ],
+ "kizashi": [
+  "suzuki"
+ ],
+ "240d": [
+  "mercedes-benz"
+ ],
+ "bora": [
+  "volkswagen"
+ ],
+ "xzu600r-hkmlk3": [
+  "hino"
+ ],
+ "b240 (b14)": [
+  "chery"
+ ],
+ "npr75": [
+  "isuzu"
+ ],
+ "clarus": [
+  "kia"
+ ],
+ "roomster": [
+  "skoda"
+ ],
+ "azera": [
+  "hyundai"
+ ],
+ "vectra": [
+  "opel"
+ ],
+ "nautica": [
+  "perodua"
+ ],
+ "twizy": [
+  "renault"
+ ],
+ "g10": [
+  "maxus"
+ ],
+ "944": [
+  "porsche"
+ ],
+ "rs7": [
+  "audi"
+ ],
+ "n-one": [
+  "honda"
+ ],
+ "t60": [
+  "maxus"
+ ],
+ "n-box custom": [
+  "honda"
+ ],
+ "535s(nissan skyline)": [
+  "impul"
+ ],
+ "ds7": [
+  "citroen"
+ ],
+ "wbe(honda edix)": [
+  "wald"
+ ],
+ "wingle 5": [
+  "great wall"
+ ],
+ "space wagon": [
+  "mitsubishi"
+ ],
+ "putra": [
+  "proton"
+ ],
+ "clio v6": [
+  "renault"
+ ],
+ "homer": [
+  "nissan"
+ ],
+ "stinger": [
+  "kia"
+ ],
+ "commando": [
+  "isuzu"
+ ],
+ "b14": [
+  "chery"
+ ],
+ "300sel": [
+  "mercedes-benz"
+ ],
+ "xf105": [
+  "daf"
+ ],
+ "eq1032t-m": [
+  "dongfeng"
+ ],
+ "xzu423r-hkmrd3": [
+  "hino"
+ ],
+ "nhr69": [
+  "isuzu"
+ ],
+ "700": [
+  "toyota"
+ ],
+ "crew": [
+  "chevrolet"
+ ],
+ "wu300r-hbmls3": [
+  "hino"
+ ],
+ "xzu424": [
+  "hino"
+ ],
+ "howo": [
+  "sinotruk"
+ ],
+ "vigus pro": [
+  "jmc"
+ ],
+ "rocsta": [
+  "asia",
+  "kia"
+ ],
+ "bj1049": [
+  "bison"
+ ],
+ "r420": [
+  "scania"
+ ],
+ "nkr55ueet": [
+  "isuzu"
+ ],
+ "cd45": [
+  "nissan"
+ ],
+ "xzu413r-hkmmb3": [
+  "hino"
+ ],
+ "spacio": [
+  "toyota"
+ ],
+ "homy elgrand": [
+  "nissan"
+ ],
+ "xzu422r-hkmrs3": [
+  "hino"
+ ],
+ "lafesta": [
+  "nissan"
+ ],
+ "wg6600cq4": [
+  "yangtse"
+ ],
+ "wu600r-hkmll3": [
+  "hino"
+ ],
+ "haise": [
+  "shenyang brilliance"
+ ],
+ "xzu640r-hkmlk3": [
+  "hino"
+ ],
+ "npr71upht": [
+  "isuzu"
+ ],
+ "k01": [
+  "dfsk"
+ ],
+ "apr72": [
+  "nissan"
+ ],
+ "xzu304": [
+  "hino"
+ ],
+ "cergas": [
+  "boon koon"
+ ],
+ "granvia": [
+  "toyota"
+ ],
+ "fargo": [
+  "isuzu"
+ ],
+ "wu720r-hkmql3": [
+  "hino"
+ ],
+ "nhr85": [
+  "isuzu"
+ ],
+ "dion": [
+  "mitsubishi"
+ ],
+ "njr85": [
+  "isuzu"
+ ],
+ "cr-x": [
+  "honda"
+ ],
+ "azure": [
+  "bentley"
+ ],
+ "xzu410": [
+  "hino"
+ ],
+ "liberty": [
+  "nissan"
+ ],
+ "735sv(nissan murano)": [
+  "impul"
+ ],
+ "280": [
+  "mercedes-benz"
+ ],
+ "bj6520xbt3-r": [
+  "baw"
+ ],
+ "regius ace": [
+  "toyota"
+ ],
+ "mini": [
+  "austin"
+ ],
+ "sy10": [
+  "jbc"
+ ],
+ "evoque": [
+  "land rover"
+ ],
+ "pt cruiser": [
+  "chrysler"
+ ],
+ "npr81": [
+  "isuzu"
+ ],
+ "nlr85uhe": [
+  "isuzu"
+ ],
+ "alsvin": [
+  "changan"
+ ],
+ "mk210kn": [
+  "nissan"
+ ],
+ "86": [
+  "toyota"
+ ],
+ "etios valco": [
+  "toyota"
+ ],
+ "bison": [
+  "isuzu"
+ ],
+ "grand avega": [
+  "hyundai"
+ ],
+ "avega": [
+  "hyundai"
+ ],
+ "xj8": [
+  "jaguar"
+ ],
+ "trailblazer": [
+  "chevrolet"
+ ],
+ "mark x": [
+  "toyota"
+ ],
+ "etios": [
+  "toyota"
+ ],
+ "terrano": [
+  "nissan"
+ ],
+ "side kick": [
+  "suzuki"
+ ],
+ "maestro": [
+  "honda"
+ ],
+ "taruna": [
+  "daihatsu"
+ ],
+ "colt t120ss": [
+  "mitsubishi"
+ ],
+ "maven": [
+  "mitsubishi"
+ ],
+ "carens": [
+  "kia"
+ ],
+ "pride": [
+  "kia"
+ ],
+ "blazer": [
+  "chevrolet",
+  "opel"
+ ],
+ "camaro": [
+  "chevrolet"
+ ],
+ "journey": [
+  "dodge"
+ ],
+ "range rover evoque": [
+  "land rover"
+ ],
+ "ace": [
+  "tata"
+ ],
+ "colt fe": [
+  "mitsubishi"
+ ],
+ "cj-7": [
+  "jeep"
+ ],
+ "excel": [
+  "hyundai"
+ ],
+ "bighorn": [
+  "isuzu"
+ ],
+ "806": [
+  "peugeot"
+ ],
+ "nav1": [
+  "toyota"
+ ],
+ "es": [
+  "lexus"
+ ],
+ "every plus": [
+  "suzuki"
+ ],
+ "eterna": [
+  "mitsubishi"
+ ],
+ "595": [
+  "abarth"
+ ],
+ "estate": [
+  "chevrolet"
+ ],
+ "john cooper works countryman": [
+  "mini"
+ ],
+ "eclipse": [
+  "mitsubishi"
+ ],
+ "portofino": [
+  "ferrari"
+ ],
+ "succe": [
+  "zna"
+ ],
+ "excel ii": [
+  "hyundai"
+ ],
+ "palisade": [
+  "hyundai"
+ ],
+ "mr": [
+  "mazda"
+ ],
+ "s515": [
+  "timor"
+ ],
+ "formo": [
+  "wuling"
+ ],
+ "kijang grand extra": [
+  "toyota"
+ ],
+ "xs": [
+  "jaguar"
+ ],
+ "mr90": [
+  "mazda"
+ ],
+ "brooklands": [
+  "bentley"
+ ],
+ "200bb": [
+  "mercedes-benz"
+ ],
+ "f series": [
+  "isuzu"
+ ],
+ "l201": [
+  "mitsubishi"
+ ],
+ "370 z": [
+  "nissan"
+ ],
+ "db11": [
+  "aston martin"
+ ],
+ "kijang rover": [
+  "toyota"
+ ],
+ "mk2 gs": [
+  "geely"
+ ],
+ "ux": [
+  "lexus"
+ ],
+ "nenggala": [
+  "bimantara"
+ ],
+ "300ge": [
+  "mercedes-benz"
+ ],
+ "lanos": [
+  "daewoo"
+ ],
+ "gt 86": [
+  "toyota"
+ ],
+ "ds3": [
+  "citroen"
+ ],
+ "cressida": [
+  "toyota"
+ ],
+ "ff": [
+  "ferrari"
+ ],
+ "every": [
+  "suzuki"
+ ],
+ "move": [
+  "daihatsu"
+ ],
+ "megane": [
+  "renault"
+ ],
+ "celsior": [
+  "toyota"
+ ],
+ "president": [
+  "nissan"
+ ],
+ "fm series": [
+  "hino"
+ ],
+ "glory 330": [
+  "dfsk"
+ ],
+ "kombi": [
+  "volkswagen"
+ ],
+ "q22": [
+  "chery"
+ ],
+ "laurel": [
+  "nissan"
+ ],
+ "unimog": [
+  "mercedes-benz"
+ ],
+ "lm": [
+  "lexus"
+ ],
+ "matiz": [
+  "daewoo"
+ ],
+ "astina": [
+  "mazda"
+ ],
+ "skyline gt-r": [
+  "nissan"
+ ],
+ "city type z": [
+  "honda"
+ ],
+ "323 protege": [
+  "mazda"
+ ],
+ "strada g-wagon": [
+  "mitsubishi"
+ ],
+ "soluna vios": [
+  "toyota"
+ ],
+ "mg3": [
+  "mg"
+ ],
+ "gt-r": [
+  "nissan"
+ ],
+ "terrano ii": [
+  "nissan"
+ ],
+ "mg5": [
+  "mg"
+ ],
+ "tts": [
+  "audi"
+ ],
+ "soul": [
+  "kia"
+ ],
+ "gs250": [
+  "lexus"
+ ],
+ "q2": [
+  "audi"
+ ],
+ "panamera": [
+  "porsche"
+ ],
+ "actyon": [
+  "ssangyong"
+ ],
+ "es300h": [
+  "lexus"
+ ],
+ "grand adventure": [
+  "isuzu"
+ ],
+ "c70": [
+  "volvo"
+ ],
+ "v60": [
+  "volvo"
+ ],
+ "i-pace": [
+  "jaguar"
+ ],
+ "3000gt": [
+  "mitsubishi"
+ ],
+ "dragon power": [
+  "isuzu"
+ ],
+ "atenza": [
+  "mazda"
+ ],
+ "california t": [
+  "ferrari"
+ ],
+ "650s": [
+  "mclaren"
+ ],
+ "transporter": [
+  "volkswagen"
+ ],
+ "multivan": [
+  "volkswagen"
+ ],
+ "e220 cdi": [
+  "mercedes-benz"
+ ],
+ "911": [
+  "porsche"
+ ],
+ "d100": [
+  "dodge"
+ ],
+ "faster z": [
+  "isuzu"
+ ],
+ "570s": [
+  "mclaren"
+ ],
+ "elantra sport": [
+  "hyundai"
+ ],
+ "xc70": [
+  "volvo"
+ ],
+ "express": [
+  "chevrolet"
+ ],
+ "silver spur": [
+  "rolls-royce"
+ ],
+ "405": [
+  "peugeot"
+ ],
+ "xl-7": [
+  "suzuki"
+ ],
+ "grand wagon": [
+  "toyota"
+ ],
+ "adventure master": [
+  "thai rung",
+  "isuzu"
+ ],
+ "xjr": [
+  "jaguar"
+ ],
+ "opti": [
+  "daihatsu"
+ ],
+ "965": [
+  "volvo"
+ ],
+ "himiko": [
+  "mitsuoka"
+ ],
+ "frontier navara": [
+  "nissan"
+ ],
+ "gs300h": [
+  "lexus"
+ ],
+ "fuga": [
+  "nissan"
+ ],
+ "560sel": [
+  "mercedes-benz"
+ ],
+ "430": [
+  "maserati"
+ ],
+ "c5": [
+  "citroen"
+ ],
+ "812 superfast": [
+  "ferrari"
+ ],
+ "majesty": [
+  "toyota"
+ ],
+ "transformer": [
+  "thai rung"
+ ],
+ "s3": [
+  "audi"
+ ],
+ "hilux vigo": [
+  "toyota"
+ ],
+ "ranger raptor": [
+  "ford"
+ ],
+ "lapin": [
+  "suzuki"
+ ],
+ "clc": [
+  "mercedes-benz"
+ ],
+ "dawn": [
+  "rolls-royce"
+ ],
+ "camargue": [
+  "rolls-royce"
+ ],
+ "9000": [
+  "saab"
+ ],
+ "300e": [
+  "mercedes-benz"
+ ],
+ "488 spider": [
+  "ferrari"
+ ],
+ "wrx": [
+  "subaru"
+ ],
+ "grand c4": [
+  "citroen"
+ ],
+ "brava": [
+  "fiat"
+ ],
+ "punto": [
+  "fiat"
+ ],
+ "gh3hrka": [
+  "hino"
+ ],
+ "q": [
+  "infiniti"
+ ],
+ "166": [
+  "alfa romeo"
+ ],
+ "spider": [
+  "alfa romeo"
+ ],
+ "tiggo": [
+  "chery"
+ ],
+ "benimar": [
+  "fiat"
+ ],
+ "nhr": [
+  "isuzu"
+ ],
+ "rk mini commuter van": [
+  "king long xiamen"
+ ],
+ "ct200": [
+  "lexus"
+ ],
+ "gs200": [
+  "lexus"
+ ],
+ "cross touran": [
+  "volkswagen"
+ ],
+ "bluebird": [
+  "nissan"
+ ],
+ "kembara": [
+  "perodua"
+ ],
+ "maxime": [
+  "chery"
+ ],
+ "v25l": [
+  "dfsk"
+ ],
+ "liteace": [
+  "toyota"
+ ],
+ "h5": [
+  "chery"
+ ],
+ "cabstar": [
+  "nissan"
+ ],
+ "grandis": [
+  "mitsubishi"
+ ],
+ "xzu421": [
+  "hino"
+ ],
+ "mr2": [
+  "toyota"
+ ],
+ "kombi 234": [
+  "volkswagen"
+ ],
+ "cruze": [
+  "chevrolet"
+ ],
+ "xantia": [
+  "citroen"
+ ],
+ "599": [
+  "ferrari"
+ ],
+ "bravo": [
+  "fiat"
+ ],
+ "ex": [
+  "infiniti"
+ ],
+ "ls500": [
+  "lexus"
+ ],
+ "sls": [
+  "mercedes-amg",
+  "mercedes-benz"
+ ],
+ "lc500": [
+  "lexus"
+ ],
+ "rondo": [
+  "naza"
+ ],
+ "leaf": [
+  "nissan"
+ ],
+ "storm": [
+  "mitsubishi"
+ ],
+ "ipsum": [
+  "toyota"
+ ],
+ "presage": [
+  "nissan"
+ ],
+ "charade": [
+  "daihatsu"
+ ],
+ "macan": [
+  "porsche"
+ ],
+ "npr66": [
+  "isuzu"
+ ],
+ "ls600": [
+  "lexus"
+ ],
+ "city coupe": [
+  "smart"
+ ],
+ "ruiyi": [
+  "hafei"
+ ],
+ "145": [
+  "alfa romeo"
+ ],
+ "147": [
+  "alfa romeo"
+ ],
+ "era cm8": [
+  "chana"
+ ],
+ "inspire": [
+  "honda"
+ ],
+ "lx570": [
+  "lexus"
+ ],
+ "npr81ukh": [
+  "isuzu"
+ ],
+ "success": [
+  "zna"
+ ],
+ "viewt": [
+  "mitsuoka"
+ ],
+ "420sl": [
+  "mercedes-benz"
+ ],
+ "viflex 2.0": [
+  "boon koon"
+ ],
+ "npr596": [
+  "isuzu"
+ ],
+ "260e": [
+  "mercedes-benz"
+ ],
+ "rx-7": [
+  "mazda"
+ ],
+ "s650": [
+  "mercedes-maybach"
+ ],
+ "npr72": [
+  "isuzu"
+ ],
+ "bx5": [
+  "borgward"
+ ],
+ "lx mode": [
+  "toyota"
+ ],
+ "280ge": [
+  "mercedes-benz"
+ ],
+ "i-miev": [
+  "mitsubishi"
+ ],
+ "npr75ukh": [
+  "isuzu"
+ ],
+ "vehicross": [
+  "isuzu"
+ ],
+ "yu41h4": [
+  "nissan"
+ ],
+ "500 series": [
+  "hino"
+ ],
+ "kleeman": [
+  "mercedes-benz"
+ ],
+ "airtrek": [
+  "mitsubishi"
+ ],
+ "pgc22": [
+  "nissan"
+ ],
+ "omega": [
+  "opel"
+ ],
+ "a520": [
+  "chery"
+ ],
+ "xzu720": [
+  "hino"
+ ],
+ "xk": [
+  "jaguar"
+ ],
+ "sharan": [
+  "volkswagen"
+ ],
+ "nabira": [
+  "chevrolet"
+ ],
+ "xm": [
+  "citroen"
+ ],
+ "300 series": [
+  "hino"
+ ],
+ "300ce": [
+  "mercedes-benz"
+ ],
+ "era jinbei h2l": [
+  "shenyang brilliance"
+ ],
+ "gto": [
+  "mitsubishi"
+ ],
+ "lms31sle": [
+  "lmg"
+ ],
+ "121": [
+  "mazda"
+ ],
+ "atlas": [
+  "nissan"
+ ],
+ "m-box": [
+  "mitsuoka"
+ ],
+ "fabia": [
+  "skoda"
+ ],
+ "3 door": [
+  "mini"
+ ],
+ "216": [
+  "rover"
+ ],
+ "gs f": [
+  "lexus"
+ ],
+ "eunos": [
+  "mazda"
+ ],
+ "mk ii": [
+  "bufori"
+ ],
+ "festiva": [
+  "ford"
+ ],
+ "ad resort": [
+  "nissan"
+ ],
+ "fb511": [
+  "mitsubishi"
+ ],
+ "320sel": [
+  "mercedes-benz"
+ ],
+ "minor 1000": [
+  "morris"
+ ],
+ "120y": [
+  "datsun"
+ ],
+ "jade": [
+  "honda"
+ ],
+ "ls400": [
+  "lexus"
+ ],
+ "nhr55esv": [
+  "isuzu"
+ ],
+ "xzu710r-hkmqk3": [
+  "hino"
+ ],
+ "cresta": [
+  "toyota"
+ ],
+ "trekker": [
+  "lmg"
+ ],
+ "r114": [
+  "scania"
+ ],
+ "p124la": [
+  "scania"
+ ],
+ "sh3": [
+  "hino"
+ ],
+ "nhr55": [
+  "isuzu"
+ ],
+ "19": [
+  "renault"
+ ],
+ "crossover": [
+  "mini"
+ ],
+ "xzu600r-wkmlk3": [
+  "hino"
+ ],
+ "nlr77uhe": [
+  "isuzu"
+ ],
+ "st55-mm1": [
+  "mazda"
+ ],
+ "600d": [
+  "fiat"
+ ],
+ "1300": [
+  "volkswagen"
+ ],
+ "250": [
+  "mercedes-benz"
+ ],
+ "cr-x del sol": [
+  "honda"
+ ],
+ "v22": [
+  "dfsk"
+ ],
+ "fd8j": [
+  "hino"
+ ],
+ "xzu730r-hkmql3": [
+  "hino"
+ ],
+ "v8": [
+  "aston martin"
+ ],
+ "xzu306": [
+  "hino"
+ ],
+ "e1800": [
+  "mazda"
+ ],
+ "s6": [
+  "audi"
+ ],
+ "cross polo": [
+  "volkswagen"
+ ],
+ "demio": [
+  "mazda"
+ ],
+ "4c": [
+  "alfa romeo"
+ ],
+ "300te": [
+  "mercedes-benz"
+ ],
+ "sy1044dvfmy": [
+  "jbc"
+ ],
+ "fc7": [
+  "hino"
+ ],
+ "vanquish": [
+  "aston martin"
+ ],
+ "nhq 1029": [
+  "foday"
+ ],
+ "silver spirit": [
+  "rolls-royce"
+ ],
+ "crossfire": [
+  "chrysler"
+ ],
+ "160j": [
+  "datsun"
+ ],
+ "fn2p": [
+  "hino"
+ ],
+ "ww(toyota wish)": [
+  "wald"
+ ],
+ "280s": [
+  "mercedes-benz"
+ ],
+ "picnic": [
+  "toyota"
+ ],
+ "forward": [
+  "isuzu"
+ ],
+ "bj6500mbe-r": [
+  "baic"
+ ],
+ "nqr75": [
+  "isuzu"
+ ],
+ "nlr130": [
+  "isuzu"
+ ],
+ "tfs86hd1": [
+  "isuzu"
+ ],
+ "k4": [
+  "brabus"
+ ],
+ "cba-acu30w": [
+  "toyota"
+ ],
+ "fl1jnpa": [
+  "hino"
+ ],
+ "e-type (series 3)": [
+  "jaguar"
+ ],
+ "atoz": [
+  "hyundai"
+ ],
+ "n series": [
+  "isuzu"
+ ],
+ "grand i10": [
+  "hyundai"
+ ],
+ "duelis": [
+  "nissan"
+ ],
+ "vx-1": [
+  "mazda"
+ ],
+ "estilo": [
+  "suzuki"
+ ],
+ "fiero": [
+  "honda"
+ ],
+ "cielo": [
+  "honda"
+ ],
+ "zebra": [
+  "daihatsu"
+ ],
+ "taft": [
+  "daihatsu"
+ ],
+ "zebra espass": [
+  "daihatsu"
+ ],
+ "classy": [
+  "daihatsu"
+ ],
+ "sedona": [
+  "kia"
+ ],
+ "optra magnum": [
+  "chevrolet"
+ ],
+ "kwid": [
+  "renault"
+ ],
+ "the beetle": [
+  "volkswagen"
+ ],
+ "go": [
+  "datsun"
+ ],
+ "infiniti": [
+  "nissan"
+ ],
+ "m7": [
+  "bmw"
+ ],
+ "travello": [
+  "kia"
+ ],
+ "luv longbed": [
+  "chevrolet"
+ ],
+ "grand sedona": [
+  "kia"
+ ],
+ "cooper roadster": [
+  "mini"
+ ],
+ "triber": [
+  "renault"
+ ],
+ "cakra": [
+  "bimantara",
+  "hyundai"
+ ],
+ "kijang commando": [
+  "toyota"
+ ],
+ "is": [
+  "lexus"
+ ],
+ "creta": [
+  "hyundai"
+ ],
+ "lova": [
+  "chevrolet"
+ ],
+ "rc": [
+  "lexus"
+ ],
+ "esteem": [
+  "suzuki"
+ ],
+ "forsa": [
+  "suzuki"
+ ],
+ "model x": [
+  "tesla"
+ ],
+ "kalos": [
+  "chevrolet"
+ ],
+ "stanza": [
+  "nissan"
+ ],
+ "h-100": [
+  "hyundai"
+ ],
+ "230": [
+  "mercedes-benz"
+ ],
+ "gtr": [
+  "nissan"
+ ],
+ "capella": [
+  "mazda"
+ ],
+ "jp": [
+  "willys"
+ ],
+ "107": [
+  "peugeot"
+ ],
+ "starwagon": [
+  "mitsubishi"
+ ],
+ "impala": [
+  "chevrolet"
+ ],
+ "arocs": [
+  "mercedes-benz"
+ ],
+ "canvas top": [
+  "land rover"
+ ],
+ "corolla se": [
+  "toyota"
+ ],
+ "morning": [
+  "kia"
+ ],
+ "dzire": [
+  "suzuki"
+ ],
+ "special": [
+  "holden"
+ ],
+ "tiburon": [
+  "hyundai"
+ ],
+ "ute": [
+  "holden"
+ ],
+ "mighty": [
+  "hyundai"
+ ],
+ "ck": [
+  "geely"
+ ],
+ "sonet": [
+  "kia"
+ ],
+ "go+": [
+  "datsun"
+ ],
+ "maxima": [
+  "nissan"
+ ],
+ "vega": [
+  "isuzu"
+ ],
+ "mg6": [
+  "mg"
+ ],
+ "cooper 50": [
+  "mini"
+ ],
+ "big m": [
+  "nissan"
+ ],
+ "f12 berlinetta": [
+  "ferrari"
+ ],
+ "vigo": [
+  "toyota"
+ ],
+ "rx450h": [
+  "lexus"
+ ],
+ "911 carrera": [
+  "porsche"
+ ],
+ "sport rider": [
+  "toyota"
+ ],
+ "tt rs": [
+  "audi"
+ ],
+ "delica space wagon": [
+  "mitsubishi"
+ ],
+ "passat cc": [
+  "volkswagen"
+ ],
+ "nx300h": [
+  "lexus"
+ ],
+ "v12": [
+  "aston martin"
+ ],
+ "allroader": [
+  "chevrolet"
+ ],
+ "dragon eyes": [
+  "isuzu"
+ ],
+ "sport cruiser": [
+  "toyota"
+ ],
+ "territory": [
+  "ford"
+ ],
+ "911 targa": [
+  "porsche"
+ ],
+ "stepwagon spada": [
+  "honda"
+ ],
+ "m760li": [
+  "bmw"
+ ],
+ "victor iii": [
+  "isuzu"
+ ],
+ "transformer 2 max-maxi": [
+  "thai rung"
+ ],
+ "ct200h": [
+  "lexus"
+ ],
+ "mira gino": [
+  "daihatsu"
+ ],
+ "f355": [
+  "ferrari"
+ ],
+ "488 gtb": [
+  "ferrari"
+ ],
+ "sebring": [
+  "chrysler"
+ ],
+ "corniche ii": [
+  "rolls-royce"
+ ],
+ "gtc4 lusso": [
+  "ferrari"
+ ],
+ "m850i": [
+  "bmw"
+ ],
+ "tunland": [
+  "foton"
+ ],
+ "grace": [
+  "honda"
+ ],
+ "diablo": [
+  "lamborghini"
+ ],
+ "f456 gta": [
+  "ferrari"
+ ],
+ "is200t": [
+  "lexus"
+ ]
+}
