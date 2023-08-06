@@ -1,0 +1,10 @@
+SPARQLWrapper~=1.8.5
+PyYAML
+pandas
+matplotlib
+tabulate
+numpy
+jsonpickle==1.5.2
+pylatexenc~=2.10
+pygments
+dicttoxml>=1.7.4
