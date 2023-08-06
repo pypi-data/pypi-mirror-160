@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: petsafe-scoopfree
+Version: 0.0.1
+Summary: Petsafe Scoopfree Integration
+Home-page: https://github.com/crslen/petsafe_scoopfree
+Author: Chris Lennon
+Author-email: Chris Lennon <lennonc@gmail.com>
+License: Copyright (c) 2020 Jordan Stremming        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/crslen/petsafe_scoopfree
+Project-URL: Bug Tracker, https://github.com/crslen/petsafe_scoopfree/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: boto3
+
+# PetSafe Scoopfree - Python API
+Connect and control a PetSafe Scoopfree device using the PetSafe-Scoopfree API.
+
+> **BREAKING CHANGE:** Version 2.0 uses the new PetSafe API.
+> You will need to request new tokens.
+
+> PetSafe will lock your account if you request data more often than once per 5 minutes.
+
+## Installation
+`pip install petsafe-scoopfree`
+
+If installing from source code,
+`python setup.py install`
+
+## Login tokens
+You **must** use tokens to interact with the PetSafe Scoopfree API.  
+There are two methods to retrieve tokens:
+
+#### Get tokens using command line
+1. Execute `python -m petsafe_scoopfree [email_address]` to request an email code.
+2. Check your email for an email code from PetSafe.
+3. Enter your code to generate tokens.
+
+#### Get tokens using Python
+```python
+import petsafe_scoopfree as sf
+
+
+# replace with your email address
+client = sf.PetSafeClient(email="email@example.com")
+client.request_code()
+
+# check your email for a code
+code = input("Enter email code: ")
+token = client.request_tokens_from_code(code)
+
+print("email:", client.email)
+print("id_token:", client.id_token)
+print("refresh_token:", client.refresh_token)
+print("access_token:", client.access_token)
+```
+
+
+## Example usage
+#### List devices
+
+```python
+import petsafe_scoopfree as sf
+
+client = sf.PetSafeClient(email="email@example.com",
+                       id_token="YOUR_ID_TOKEN",
+                       refresh_token="YOUR_REFRESH_TOKEN",
+                       access_token="YOUR_ACCESS_TOKEN")
+devices = sf.devices.get_scoopers(client)
+
+# print all devices
+for device in devices:
+    print(device)
+
+```
+#### Rake scooper
+```python
+import petsafe_scoopfree as sf
+
+client = sf.PetSafeClient(email="email@example.com",
+                       id_token="YOUR_ID_TOKEN",
+                       refresh_token="YOUR_REFRESH_TOKEN",
+                       access_token="YOUR_ACCESS_TOKEN")
+devices = sf.devices.get_scoopers(client)
+
+# get the first scooper
+scooper = devices[0]
+scooper.rake_now()
+
+```
+#### reset count
+```python
+import petsafe_scoopfree as sf
+
+client = sf.PetSafeClient(email="email@example.com",
+                       id_token="YOUR_ID_TOKEN",
+                       refresh_token="YOUR_REFRESH_TOKEN",
+                       access_token="YOUR_ACCESS_TOKEN")
+devices = sf.devices.get_scoopers(client)
+
+# get the first scooper
+scooper = devices[0]
+scooper.reset()
+
+```
+#### reset rake delay to 25 seconds
+```python
+import petsafe_scoopfree as sf
+
+client = sf.PetSafeClient(email="email@example.com",
+                       id_token="YOUR_ID_TOKEN",
+                       refresh_token="YOUR_REFRESH_TOKEN",
+                       access_token="YOUR_ACCESS_TOKEN")
+devices = sf.devices.get_scoopers(client)
+
+# get the first scooper
+scooper = devices[0]
+scooper.modify_timer(amount=25)
+
+```
+
+## Contributing
+All contributions are welcome. 
+Please, feel free to create a pull request!
