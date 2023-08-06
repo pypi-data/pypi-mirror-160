@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+clear_watermark/__init__.py
+clear_watermark.egg-info/PKG-INFO
+clear_watermark.egg-info/SOURCES.txt
+clear_watermark.egg-info/dependency_links.txt
+clear_watermark.egg-info/not-zip-safe
+clear_watermark.egg-info/requires.txt
+clear_watermark.egg-info/top_level.txt
