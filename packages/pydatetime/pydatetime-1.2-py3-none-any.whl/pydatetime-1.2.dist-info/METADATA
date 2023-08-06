@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pydatetime
+Version: 1.2
+Summary: A Simple to use, intuitive python library for using dates and times, built using datetime.
+Author: Seth Bailey
+License: TSMSD Open Source
+License-File: LICENSE
+
