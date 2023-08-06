@@ -1,0 +1,8 @@
+livingmodels/models/__init__.py,sha256=3sououSBUujH_AlYa0K0lpyFTojZSLDrlX9hwl3ek2o,153
+livingmodels/models/admin_models.py,sha256=v6uLj4ISv6ZgGpK4WfCwE-wVuZe6xPdh62EOSrJpJNU,766
+livingmodels/models/base_model.py,sha256=SxQq3X9WETIN_B3atUaNhbTMZiPh6GFkgQEw_QwTM6Y,496
+livingmodels/models/services_guide_models.py,sha256=TuZryvB1l7sgiir6pGWuHjpT3AFSdbITx-Gw9uNKBWM,1193
+livingmodels-0.4.dist-info/METADATA,sha256=nE1pMK_NSJeXLmsP2YJHnbE62X1IySqzOyDve4g6AqE,303
+livingmodels-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+livingmodels-0.4.dist-info/top_level.txt,sha256=kkRZ73diySGiiou4DycFT8ZlDcuOgkIuVa-nJarW51E,20
+livingmodels-0.4.dist-info/RECORD,,
