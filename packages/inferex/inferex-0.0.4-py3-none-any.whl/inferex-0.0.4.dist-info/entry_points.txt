@@ -1,0 +1,3 @@
+[console_scripts]
+inferex=inferex.__main__:main
+
