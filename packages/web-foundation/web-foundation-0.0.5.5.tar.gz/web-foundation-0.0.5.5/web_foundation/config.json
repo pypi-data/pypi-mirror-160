@@ -1,0 +1,39 @@
+{
+  "some_conf": "main",
+  "streaming": {
+    "listen_timeout": 0.01,
+    "ping_timeout": 5
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 38844,
+    "file_store_path": "applied_files/media",
+    "static_url": "/static",
+    "static_dir": "applied_files/admin/build"
+  },
+  "redis": {
+    "url": "redis://localhost",
+    "max_connections": 5,
+    "poll_timeout": 90
+  },
+  "celery": {
+    "broker_url": "redis://localhost:6379/0",
+    "result_backend": "redis://localhost:6379/0",
+    "task_serializer": "json",
+    "accept_content": "application/json",
+    "result_serializer": "json",
+    "task_time_limit": 900,
+    "soft_time_limit": 600,
+    "task_acks_late": true
+  },
+  "db_config": {
+    "host": "localhost",
+    "port": "5432",
+    "user": "testuser",
+    "password": "Fedora132",
+    "database": "aedb",
+    "db_schema": "ae",
+    "with_migrations": false,
+    "migrations_path": ""
+  }
+}
