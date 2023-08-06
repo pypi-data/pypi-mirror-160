@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+naff_audio/__init__.py
+naff_audio/audio_queue.py
+naff_audio/yt_audio.py
+naff_audio.egg-info/PKG-INFO
+naff_audio.egg-info/SOURCES.txt
+naff_audio.egg-info/dependency_links.txt
+naff_audio.egg-info/requires.txt
+naff_audio.egg-info/top_level.txt

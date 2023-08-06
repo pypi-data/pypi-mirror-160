@@ -1,0 +1,2 @@
+naff[voice]
+yt_dlp
