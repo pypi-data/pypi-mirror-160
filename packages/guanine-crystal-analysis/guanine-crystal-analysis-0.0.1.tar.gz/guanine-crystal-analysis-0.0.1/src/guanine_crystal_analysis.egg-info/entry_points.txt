@@ -1,0 +1,2 @@
+[napari.manifest]
+guanine-crystal-analysis = guanine_crystal_analysis:napari.yaml
