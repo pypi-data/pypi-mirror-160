@@ -1,0 +1,2 @@
+fairweb>=3.1.1
+fairresources>=1.0.0
