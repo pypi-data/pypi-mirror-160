@@ -1,0 +1,12 @@
+pitest.py,sha256=u0JQXZ3QaWPh1Px-EkCNPrtzqJ45LXpUjilJ1yz_8ro,698
+glamor/__init__.py,sha256=sV7A9EHTa-VZFsJVAmuU-gkgV1E0XShRy5IhkZW0r5s,2158
+glamor/patches.py,sha256=5MekOWXCMiGToKEEYXd4AVcY_sHaYDfldg2JAcOo_T8,8134
+pytest_glamor_allure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_glamor_allure/_version.py,sha256=crT17vp6E1qkOg_Jk7st7SkKxIAPVi-qs8JtppUXD4E,178
+pytest_glamor_allure/plugin.py,sha256=tbNCV1q6pv04O57bR7-oO093_PpQYd9BrGNHmU4lus0,8652
+pytest_glamor_allure-0.0.10.dist-info/LICENSE,sha256=AlyfhDIuf46X7wCepqPutQkF3rH6r_3vMCtUkU8qilw,1070
+pytest_glamor_allure-0.0.10.dist-info/METADATA,sha256=Ekj4F_Zq5GGq4IeIUbIRNcxinC_gPy-bX5-5drie2yk,10198
+pytest_glamor_allure-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_glamor_allure-0.0.10.dist-info/entry_points.txt,sha256=fQiGsRK7vzBxDVFylzJA_DzskfJtnXOlSOZYFAT4R_A,62
+pytest_glamor_allure-0.0.10.dist-info/top_level.txt,sha256=_NZFKNENflhAsJdhJH6rMoE45UPEGKOFLQIVy_uZyS0,35
+pytest_glamor_allure-0.0.10.dist-info/RECORD,,
