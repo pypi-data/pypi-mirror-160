@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: CheckerUser
+Version: 2.2.12
+Home-page: https://github.com/DuTra01/CheckUser
+Author: Glemison C. Dutra
+Author-email: glemyson20@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CheckUser
+
+*CheckUser* E um verificador de usuários.
+
+# Modo de instalação
+```
+apt-get update && apt-get install git -y
+```
+```
+python3 -m pip install git+https://github.com/DuTra01/CheckUser.git
+```
+```
+checkuser --config-port 5000 --start --daemon
+```
+
+### Ou
+```
+bash <(curl -sL https://raw.githubusercontent.com/DuTra01/CheckUser/master/install.sh)
+```
+ *Opcao 1*
+
+# Atualização
+```
+python3 -m pip install --upgrade git+https://github.com/DuTra01/CheckUser.git
+```
+
+### Ou
+```
+bash <(curl -sL https://raw.githubusercontent.com/DuTra01/CheckUser/master/install.sh)
+```
+ *Opcao 2*
+
+# Como usar
+```
+checkuser --help
+```
