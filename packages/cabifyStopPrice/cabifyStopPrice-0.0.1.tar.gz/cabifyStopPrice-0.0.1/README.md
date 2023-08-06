@@ -1,0 +1,1 @@
+Calculates the price of a stop in a Cabify trip
