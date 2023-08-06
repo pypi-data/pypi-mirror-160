@@ -1,0 +1,4 @@
+ffpyplayer
+pythonnet>=3.0.0rc4
+numpy
+ruamel.yaml
