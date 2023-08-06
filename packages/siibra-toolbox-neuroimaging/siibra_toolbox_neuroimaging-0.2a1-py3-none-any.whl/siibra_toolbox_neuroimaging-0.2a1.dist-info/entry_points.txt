@@ -1,0 +1,2 @@
+[siibra_cli.assignment_plugins]
+nifti = siibra_toolbox_neuroimaging.cli:nifti
