@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<title>LQC report</title>
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- nav -->
+      <div class="col col-2 position-fixed" style="padding-left:0;top:0;bottom:0;background-color:#7a0177;box-shadow:3px 3px 5px gray;" >
+        <div class="navbar navbar-dark">
+          <ul class="navbar-nav p-3 d-flex gap-2 mx-md-auto">
+            <li class="nav-item text-center">
+              <div class="text-light py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbout" aria-expanded="true" aria-controls="collapseAbout" data-bs-parent="#toggleGroup">
+                <img src="fig/logo_white.svg" height="64"  width="64"/>
+              </div>
+            </li>
+            <li class="nav-item text-center">
+              <div class="text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseReadstat" aria-expanded="false" aria-controls="collapseReadstat" data-bs-parent="#toggleGroup">
+                <p class="fs-5 fw-bold">Read</p>
+              </div>
+            </li>
+            <li class="nav-item text-center">
+              <div class="text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInsertion" aria-expanded="false" aria-controls="collapseInsertion" data-bs-parent="#toggleGroup">
+                <p class="fs-5 fw-bold">Insertion</p>
+              </div>
+            </li>
+            <li class="nav-item text-center">
+              <div class="text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDeletion" aria-expanded="false" aria-controls="collapseDeletion" data-bs-parent="#toggleGroup">
+                <p class="fs-5 fw-bold">Deletion</p>
+              </div>
+            </li>
+            <li class="nav-item text-center">
+              <div class="text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMismatch" aria-expanded="false" aria-controls="collapseMismatch" data-bs-parent="#toggleGroup">
+                <p class="fs-5 fw-bold">Mismatch</p>
+              </div>
+            </li>
+            <li class="nav-item text-center">
+              <div class="text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSplice" aria-expanded="false" aria-controls="collapseSplice" data-bs-parent="#toggleGroup">
+                <p class="fs-5 fw-bold">Splicing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- content -->
+      <div class="col col-10" style="padding-left:20%;">
+        <div class="accordion" id="toggleGroup">
+          <div class="accordion-collapse collapse p-3 show" id="collapseAbout" data-bs-parent="#toggleGroup">
+            <h1 id="h_about">LQC: Long-read RNA-seq Quality Control</h1>
+            <div class="p-2">
+              <p>
+                <a href="https://pypi.org/project/lqc/">
+                  <img src="https://img.shields.io/badge/version-v0.0.5-7a0177"/>
+                </a>
+                <a href="https://github.com/gxiaolab/LQC">
+                  <img src="https://img.shields.io/github/stars/gxiaolab/LQC?style=social"/>
+                </a>
+              </p>
+              <p>
+                Please cite:
+              </p>
+              <p>
+               LQC is used to generate quality control summary report
+               for mapped SAM/BAM files of long-read RNA-seq data
+               (PacBio, Oxford Nanopore). LQC provides detailed
+               information about the indels, mismatches and splicing
+               sites in the BAM files, which provides a good reference
+               for evaluation for the sequencing quality of the
+               long-read sequencing data.
+              </p>
+              <h3>Guidance</h3>
+              <ul>
+                <li>
+                  Click the contents on the left side of the page to
+                  switch to different sections.
+                </li>
+                <li>
+                  The correct view of this page requires network
+                  connection to bootstrap
+                  (<a href="https://getbootstrap.com/">
+                    <img src="https://img.shields.io/badge/bootstrap-v5.1.3-blueviolet"/>
+                  </a>).
+                </li>
+                <li>
+                  More figures for each chromosome are stored in the
+                  fig subdirectory under the output directory.
+                </li>
+              </ul>
+              <p class="text-center">
+                <img src="fig/card.svg" height="240"  width="480"/>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="accordion-collapse collapse p-3" id="collapseReadstat" data-bs-parent="#toggleGroup">
+            <h1 id="h_readstat">Read Statistic</h1>
+            <div class="d-flex flex-column gap-3">
+              <div id="readstat_read_count" class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Read count for each contig</h3>
+                  <p class="card-text">Total read count for all the
+                  analyzed contigs is
+                  {%readstat_total_read_count%}.</p>
+                  <p class="card-text">Total base number for all the
+                  analyzed contigs is {%readstat_total_base%}.</p>
+                  <p class="card-text">The barplot shows the read
+                  count for each contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_bar_Read_count.png" />
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h3 class="card-title">Histogram of length</h3>
+                      <p class="card-text">The histogram shows the
+                      read length distribution for all the analyzed
+                      contigs.</p>
+                      <p class="card-text">The median of read length
+                      is {%readstat_median_read_length%}.</p>
+                      <p class="card-text">The mean of read length is
+                      {%readstat_mean_read_length%}.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="card-img" src="fig/readstat_hist_length.Total.png"/>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Histogram of length by contig</h3>
+                  <p class="card-text">The histogram shows the read
+                  length distribution for each analyzed contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_hist_length.png" />
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h3 class="card-title">Cumulative curve of length</h3>
+                      <p class="card-text">N50 is the shortest read length
+                        with reads longer than N50 cover 50% of all the
+                        bases, which can assess the sequencing quality.</p>
+                      <p class="card-text">L50 is the rank of the N50 read
+                        (descendent rank by read length).</p>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="card-img" src="fig/readstat_line_cumulative_length.Total.png"/>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Cumulative curve of length by contig</h3>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_line_cumulative_length.png" />
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">N50 of reads</h3>
+                  <p class="card-text">Read N50 for all the analyzed
+                  contigs is {%readstat_N50%}.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_bar_N50.png" />
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">L50 of reads</h3>
+                  <p class="card-text">Read L50 for all the analyzed
+                  contigs is {%readstat_L50%}.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_bar_L50.png" />
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h3 class="card-title">Read ratio with elements</h3>
+                      <p class="card-text">The ratio of reads with at
+                      least one element (insertion, deletion,
+                      mismatch) is calculated for all the analyzed
+                      contigs.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="card-img" src="fig/readstat_bar_ratio_with_element.Total.png"/>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Read ratio with elements by contig</h3>
+                  <p class="card-text">The ratio of reads with at
+                      least one element (insertion, deletion,
+                      mismatch) is calculated for each analyzed
+                      contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_bar_ratio_with_element.png" />
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h3 class="card-title">Elements per read per kb</h3>
+                      <p class="card-text">The count of elements per
+                      read normalized by the read length. There are
+                      {%readstat_insertion_per_read_per_kb%}
+                      insertions,
+                      {%readstat_deletion_per_read_per_kb%}
+                      deletions,
+                      {%readstat_mismatch_per_read_per_kb%}
+                      mismatches per read per kb.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="card-img" src="fig/readstat_bar_mean_element_per_read_per_kb.Total.png"/>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Elements per read per kb by contig</h3>
+                  <p class="card-text">The count of elements per read
+                      normalized by the read length for each analyzed
+                      contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_bar_mean_element_per_read_per_kb.png" />
+              </div>
+              <div class="card">
+                <div class="card-header">Statistic Summary</div>
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <table class="table table-striped text-center">
+                    <thead>
+                      <tr>
+                        <th scope="col">Contig</th>
+                        <th scope="col">Read count</th>
+                        <th scope="col">Total base</th>
+                        <th scope="col">Mean read length</th>
+                        <th scope="col">Median read length</th>
+                        <th scope="col">Read length N50</th>
+                        <th scope="col">Read length L50</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {%readstat_table%}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-collapse collapse p-3" id="collapseInsertion" data-bs-parent="#toggleGroup">
+            <h1 id="h_insertion">Insertion</h1>
+            <div class="d-flex flex-column gap-3">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Count of insertion</h3>
+                  <p class="card-text">The total number of insertions
+                  found in all the analyzed contigs is {%insertion_total_insertion_number%}.</p>
+                  <p class="card-text">The total number of bases
+                  inserted found in all the analyzed contigs is
+                  {%insertion_total_insertion_length%}.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/insertion_bar_count.png" />
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Average number of insertions per read</h3>
+                  <p class="card-text">The mean numbers of insertions
+                  found in reads are presented in the barplot.In
+                  average, {%insertion_mean_insertion_per_read_per_kb%}
+                  insertions can be found per read per kb.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_bar_insertions_per_read_per_kb.png" />
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h3 class="card-title">Histogram of length</h3>
+                      <p class="card-text">The histogram shows the
+                      insertion length distribution for all the
+                      analyzed contigs.</p>
+                      <p class="card-text">The median of insertion
+                      length is {%insertion_median_length%}.</p>
+                      <p class="card-text">The mean of insertion
+                      length is {%insertion_mean_length%}.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="card-img" src="fig/insertion_hist_length.Total.png"/>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Histogram of length by contig</h3>
+                  <p class="card-text">The histogram shows the insertion
+                  length distribution for each analyzed contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/insertion_hist_length.png" />
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Histogram of read locations by contig</h3>
+                  <p class="card-text">The histogram shows the
+                    read location of insertion for each analyzed contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/insertion_hist_location.png" />
+              </div>
+              <div class="card">
+                <div class="card-header">Statistic Summary</div>
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <table class="table table-striped text-center">
+                    <thead>
+                      <tr>
+                        <th scope="col">Contig</th>
+                        <th scope="col">Total insertion count</th>
+                        <th scope="col">Total insertion length</th>
+                        <th scope="col">Mean insertion length</th>
+                        <th scope="col">Median insertion length</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {%insertion_table%}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-collapse collapse p-3" id="collapseDeletion" data-bs-parent="#toggleGroup">
+            <h1 id="h_deletion">Deletion</h1>
+            <div class="d-flex flex-column gap-3">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Count of deletion</h3>
+                  <p class="card-text">The total number of deletions
+                  found in all the analyzed contigs is {%deletion_total_deletion_number%}.</p>
+                  <p class="card-text">The total number of bases
+                  deleted found in all the analyzed contigs is
+                  {%deletion_total_deletion_length%}.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/deletion_bar_count.png" />
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Average number of deletions per read</h3>
+                  <p class="card-text">The mean numbers of deletions
+                  found in reads are presented in the barplot. In
+                  average, {%deletion_mean_deletion_per_read_per_kb%}
+                  deletions can be found per read per kb.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_bar_deletions_per_read_per_kb.png" />
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h3 class="card-title">Histogram of length</h3>
+                      <p class="card-text">The histogram shows the
+                      deletion length distribution for all the
+                      analyzed contigs.</p>
+                      <p class="card-text">The median of deletion
+                      length is {%deletion_median_length%}.</p>
+                      <p class="card-text">The mean of deletion length
+                      is {%deletion_mean_length%}.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="card-img" src="fig/deletion_hist_length.Total.png"/>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Histogram of length by contig</h3>
+                  <p class="card-text">The histogram shows the deletion
+                  length distribution for each analyzed contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/deletion_hist_length.png" />
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Histogram of read locations by contig</h3>
+                  <p class="card-text">The histogram shows the
+                    read location of deletion for each analyzed contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/deletion_hist_location.png" />
+              </div>
+              <div class="card">
+                <div class="card-header">Statistic Summary</div>
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <table class="table table-striped text-center">
+                    <thead>
+                      <tr>
+                        <th scope="col">Contig</th>
+                        <th scope="col">Total deletion count</th>
+                        <th scope="col">Total deletion length</th>
+                        <th scope="col">Mean deletion length</th>
+                        <th scope="col">Median deletion length</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {%deletion_table%}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-collapse collapse p-3" id="collapseMismatch" data-bs-parent="#toggleGroup">
+            <h1 id="h_mismatch">Mismatch</h1>
+            <div class="d-flex flex-column gap-3">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Count of mismatch</h3>
+                  <p class="card-text">The total number of mismatches
+                  found in all the analyzed contigs is
+                  {%mismatch_total_mismatch_number%}.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/mismatch_bar_count.png" />
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Average number of mismatchs per read</h3>
+                  <p class="card-text">The mean numbers of mismatches
+                  found in reads are presented in the barplot. In
+                  average, {%mismatch_mean_mismatch_per_read_per_kb%}
+                  mismatches can be found per read per kb.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_bar_mismatches_per_read_per_kb.png" />
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h3 class="card-title">Mismatch types</h3>
+                      <p class="card-text">The mismatch types are
+                        counted for all the analyzed contigs.</p>
+                      <div class="d-flex">
+                        {%mismatch_type_list1%}
+                        {%mismatch_type_list2%}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="card-img" src="fig/mismatch_type.Total.png"/>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Mismatch types by contig</h3>
+                  <p class="card-text">The mismatch types are counted
+                  for each analyzed contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/mismatch_type.png" />
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Histogram of read locations by contig</h3>
+                  <p class="card-text">The histogram shows the
+                    read location of mismatch for each analyzed contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/mismatch_hist_location.png" />
+              </div>
+              <div class="card">
+                <div class="card-header">Statistic Summary</div>
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <table class="table table-striped text-center">
+                    <thead>
+                      <tr>
+                        <th scope="col">Contig</th>
+                        <th scope="col">Relative location</th>
+                        <th scope="col">Mismatch type</th>
+                        <th scope="col">Counts</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {%mismatch_table%}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-collapse collapse p-3" id="collapseSplice" data-bs-parent="#toggleGroup">
+            <h1 id="h_splice">Splicing</h1>
+            <div class="d-flex flex-column gap-3">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Count of intron</h3>
+                  <p class="card-text">The total number of introns
+                    found in all the analyzed contigs is
+                    {%intron_total_intron_number%}.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/intron_bar_count.png" />
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Average number of introns per read</h3>
+                  <p class="card-text">The mean numbers of introns
+                  found in reads are presented in the barplot. In
+                  average, {%intron_mean_intron_per_read%}
+                  introns can be found per read.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/readstat_bar_Mean_intron_number.png" />
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h3 class="card-title">Splice sites types</h3>
+                      <p class="card-text">The splice types are
+                        counted for all the analyzed contigs.</p>
+                      <div class="d-flex">
+                        {%splice_type_list%}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="card-img" src="fig/splice_type.Total.png"/>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Splice sites types by contig</h3>
+                  <p class="card-text">The intron types are counted
+                  for each analyzed contig.</p>
+                </div>
+                <img class="card-img-bottom" src="fig/splice_type.png" />
+              </div>
+              <div class="card">
+                <div class="card-header">Statistic Summary</div>
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <table class="table table-striped text-center">
+                    <thead>
+                      <tr>
+                        <th scope="col">Contig</th>
+                        <th scope="col">gt-ag</th>
+                        <th scope="col">gt-ag %</th>
+                        <th scope="col">gc-ag</th>
+                        <th scope="col">gc-ag %</th>
+                        <th scope="col">at-ac</th>
+                        <th scope="col">at-ac %</th>
+                        <th scope="col">Other</th>
+                        <th scope="col">Other %</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {%splice_table%}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
