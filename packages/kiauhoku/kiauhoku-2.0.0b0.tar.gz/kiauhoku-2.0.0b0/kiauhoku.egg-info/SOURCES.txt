@@ -1,0 +1,17 @@
+.gitattributes
+LICENSE
+README.md
+custom_install.py
+setup.py
+kiauhoku/__init__.py
+kiauhoku/config.py
+kiauhoku/stargrid.py
+kiauhoku/version.py
+kiauhoku.egg-info/PKG-INFO
+kiauhoku.egg-info/SOURCES.txt
+kiauhoku.egg-info/dependency_links.txt
+kiauhoku.egg-info/requires.txt
+kiauhoku.egg-info/top_level.txt
+notebooks/mcmc.ipynb
+notebooks/mcmc_offsets.ipynb
+notebooks/model_offsets.ipynb
