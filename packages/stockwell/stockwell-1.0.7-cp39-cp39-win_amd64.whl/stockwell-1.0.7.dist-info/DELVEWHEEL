@@ -1,0 +1,3 @@
+0.0.22
+
+['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-_ek9zew9\\cp39-win_amd64\\build\\venv\\Scripts\\delvewheel', 'repair', '--add-path', 'C:\\Miniconda\\Library\\bin', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-_ek9zew9\\cp39-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-_ek9zew9\\cp39-win_amd64\\built_wheel\\stockwell-1.0.7-cp39-cp39-win_amd64.whl']
