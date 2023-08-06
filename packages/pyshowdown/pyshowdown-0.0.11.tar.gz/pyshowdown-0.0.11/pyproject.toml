@@ -1,0 +1,21 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.pyright]
+include = ["src"]
+exclude = [
+    "**/*venv",
+    "**/__pycache__",
+    "**/pyshowdown.egg-info"
+]
+venv = "venv"
+
+reportMissingImports = true
+reportMissingTypeStubs = false
+
+pythonVersion = "3.6"
+pythonPlatform = "Windows"
