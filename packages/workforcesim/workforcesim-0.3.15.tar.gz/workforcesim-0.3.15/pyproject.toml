@@ -1,0 +1,21 @@
+[project]
+name = "workforcesim"
+version = "0.3.15"
+authors = [
+	{ name="Matthew E. Gladden", email="matthew.gladden@neuraxenetica.com" },
+]
+maintainers = [
+	{ name="Matthew E. Gladden" },
+]
+description = "Synaptans WorkforceSim is a free open-source platform for generating synthetic data that simulate the dynamics of a factory workforce; employing diverse forms of machine learning to identify trends and correlations and make predictions regarding workers’ behavior; and then assessing the accuracy of such AI-based approaches to predictive workplace analytics."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+	"Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/NeuraXenetica/synaptans-workforcesim"
+"Bug Tracker" = "https://github.com/NeuraXenetica/synaptans-workforcesim/issues"
