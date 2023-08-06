@@ -1,0 +1,15 @@
+pdf_table_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf_table_builder/builder.py,sha256=2a7p3dSDVQ3nlxic3l8Z5fyBz8E2qR7e1gqglGiPNj4,11514
+pdf_table_builder/consts.py,sha256=vBnCNIug6dLApov17lfUWR-jBzAkigKg0QWi5KNElDs,710
+pdf_table_builder/helpers.py,sha256=knorxLEWJiRuMbOAra2tECbbnmKfqb66V_1qsKeSEnY,1000
+pdf_table_builder/__pycache__/__init__.cpython-38.pyc,sha256=DkDn5j9WeIWqjSR59fXWIW3Q-RavO0x0_3MdmWXjrcw,204
+pdf_table_builder/__pycache__/builder.cpython-38.pyc,sha256=tG5NWfNkti81PMahRrHDAOPKyVYODzL-aGACGqSDNn8,8178
+pdf_table_builder/__pycache__/helpers.cpython-38.pyc,sha256=yJNU61u24Qwk3vA5wGrbMUd3QTao0GdsLP2QSoh-VxA,561
+pdf_table_builder/fonts/NotoSans-Bold.ttf,sha256=fBWsOW0s5rwzo7TvrNvTIsnkY3ZZmnJcb3kNgDYFLKs,455164
+pdf_table_builder/fonts/NotoSans-Regular.ttf,sha256=awTI3WWva3PrQnlHLtFYCykQLWSWo3c0DoCkDNs7Isk,455188
+pdf_table_builder/utils/helpers.py,sha256=B_ZVRELAGDusKZW4Dyux2UMOFKVAcItfXlRN6dJU1Dw,1388
+reportlab_pdf_table_builder-1.1.8.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+reportlab_pdf_table_builder-1.1.8.dist-info/METADATA,sha256=iUgYrDiyPUVbTYHkmJE5BizWkUqxK-Y3y_TKOGFUdJ0,3135
+reportlab_pdf_table_builder-1.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+reportlab_pdf_table_builder-1.1.8.dist-info/top_level.txt,sha256=lm8thm0k0XdbKQwmc9_H-FA949sBAG8F-EvjIt3tGUo,18
+reportlab_pdf_table_builder-1.1.8.dist-info/RECORD,,
