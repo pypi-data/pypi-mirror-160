@@ -1,0 +1,8 @@
+future
+py-zabbix>=1.1.2
+pyepics
+
+[develop]
+pytest
+pytest-cov
+pycodestyle
