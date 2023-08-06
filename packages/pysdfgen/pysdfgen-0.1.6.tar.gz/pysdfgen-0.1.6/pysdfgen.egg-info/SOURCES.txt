@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pysdfgen/__init__.py
+pysdfgen.egg-info/PKG-INFO
+pysdfgen.egg-info/SOURCES.txt
+pysdfgen.egg-info/dependency_links.txt
+pysdfgen.egg-info/requires.txt
+pysdfgen.egg-info/top_level.txt
