@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyspeexaec
+Version: 0.2
+Summary: Python bindings of speexdsp library
+Home-page: https://github.com/troyliu0105/pyspeexaec
+Author: Troy Liu
+Author-email: troyliu0105@outlook.com
+Maintainer: Troy Liu
+Maintainer-email: troyliu0105@outlook.com
+License: BSD
+Keywords: speexdsp,acoustic echo cancellation
+Platform: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
