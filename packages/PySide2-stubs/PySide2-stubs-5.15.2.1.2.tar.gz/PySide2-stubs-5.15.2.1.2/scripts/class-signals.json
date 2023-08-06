@@ -1,0 +1,3222 @@
+{
+    "Qt3DAnimation.Qt3DAnimation.QMorphTarget": [
+        "attributeNamesChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QClock": [
+        "playbackRateChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QAnimationGroup": [
+        "durationChanged",
+        "nameChanged",
+        "positionChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QAnimationController": [
+        "positionOffsetChanged",
+        "entityChanged",
+        "activeAnimationGroupChanged",
+        "recursiveChanged",
+        "positionChanged",
+        "positionScaleChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QAdditiveClipBlend": [
+        "additiveFactorChanged",
+        "baseClipChanged",
+        "additiveClipChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QLerpClipBlend": [
+        "startClipChanged",
+        "endClipChanged",
+        "blendFactorChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QAbstractClipAnimator": [
+        "channelMapperChanged",
+        "loopCountChanged",
+        "clockChanged",
+        "normalizedTimeChanged",
+        "runningChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QClipAnimator": [
+        "clipChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QBlendedClipAnimator": [
+        "blendTreeChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QSkeletonMapping": [
+        "skeletonChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QAbstractAnimationClip": [
+        "durationChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QAnimationClipLoader": [
+        "statusChanged",
+        "sourceChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QAnimationClip": [
+        "clipDataChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QAbstractAnimation": [
+        "durationChanged",
+        "animationNameChanged",
+        "positionChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QKeyframeAnimation": [
+        "framePositionsChanged",
+        "easingChanged",
+        "endModeChanged",
+        "targetNameChanged",
+        "targetChanged",
+        "startModeChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QVertexBlendAnimation": [
+        "targetNameChanged",
+        "interpolatorChanged",
+        "targetPositionsChanged",
+        "targetChanged"
+    ],
+    "Qt3DAnimation.Qt3DAnimation.QMorphingAnimation": [
+        "easingChanged",
+        "methodChanged",
+        "targetNameChanged",
+        "interpolatorChanged",
+        "targetPositionsChanged",
+        "targetChanged"
+    ],
+    "Qt3DCore.Qt3DCore.QNode": [
+        "defaultPropertyTrackingModeChanged",
+        "parentChanged",
+        "nodeDestroyed",
+        "enabledChanged"
+    ],
+    "Qt3DCore.Qt3DCore.QJoint": [
+        "nameChanged",
+        "rotationXChanged",
+        "rotationChanged",
+        "inverseBindMatrixChanged",
+        "rotationZChanged",
+        "scaleChanged",
+        "translationChanged",
+        "rotationYChanged"
+    ],
+    "Qt3DCore.Qt3DCore.QComponent": [
+        "shareableChanged",
+        "removedFromEntity",
+        "addedToEntity"
+    ],
+    "Qt3DCore.Qt3DCore.QTransform": [
+        "worldMatrixChanged",
+        "rotationXChanged",
+        "rotationChanged",
+        "scale3DChanged",
+        "matrixChanged",
+        "rotationZChanged",
+        "scaleChanged",
+        "translationChanged",
+        "rotationYChanged"
+    ],
+    "Qt3DCore.Qt3DCore.QArmature": [
+        "skeletonChanged"
+    ],
+    "Qt3DCore.Qt3DCore.QAbstractSkeleton": [
+        "jointCountChanged"
+    ],
+    "Qt3DCore.Qt3DCore.QSkeletonLoader": [
+        "statusChanged",
+        "rootJointChanged",
+        "createJointsEnabledChanged",
+        "sourceChanged"
+    ],
+    "Qt3DCore.Qt3DCore.QSkeleton": [
+        "rootJointChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QAbstractSpriteSheet": [
+        "textureTransformChanged",
+        "currentIndexChanged",
+        "textureChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QSpriteSheet": [
+        "spritesChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QSpriteGrid": [
+        "rowsChanged",
+        "columnsChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QSphereGeometry": [
+        "radiusChanged",
+        "ringsChanged",
+        "generateTangentsChanged",
+        "slicesChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QExtrudedTextGeometry": [
+        "depthChanged",
+        "textChanged",
+        "fontChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QPlaneGeometry": [
+        "heightChanged",
+        "mirroredChanged",
+        "resolutionChanged",
+        "widthChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QCylinderGeometry": [
+        "radiusChanged",
+        "ringsChanged",
+        "lengthChanged",
+        "slicesChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QCuboidGeometry": [
+        "xzMeshResolutionChanged",
+        "yExtentChanged",
+        "zExtentChanged",
+        "xExtentChanged",
+        "yzMeshResolutionChanged",
+        "xyMeshResolutionChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QConeGeometry": [
+        "hasTopEndcapChanged",
+        "ringsChanged",
+        "hasBottomEndcapChanged",
+        "topRadiusChanged",
+        "lengthChanged",
+        "bottomRadiusChanged",
+        "slicesChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QTorusGeometry": [
+        "radiusChanged",
+        "minorRadiusChanged",
+        "ringsChanged",
+        "slicesChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QSpriteSheetItem": [
+        "xChanged",
+        "yChanged",
+        "heightChanged",
+        "widthChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QForwardRenderer": [
+        "viewportRectChanged",
+        "surfaceChanged",
+        "cameraChanged",
+        "clearColorChanged",
+        "buffersToClearChanged",
+        "externalRenderTargetSizeChanged",
+        "gammaChanged",
+        "frustumCullingEnabledChanged",
+        "showDebugOverlayChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QSkyboxEntity": [
+        "baseNameChanged",
+        "gammaCorrectEnabledChanged",
+        "extensionChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QAbstractCameraController": [
+        "accelerationChanged",
+        "linearSpeedChanged",
+        "lookSpeedChanged",
+        "cameraChanged",
+        "decelerationChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QOrbitCameraController": [
+        "zoomInLimitChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QText2DEntity": [
+        "heightChanged",
+        "fontChanged",
+        "textChanged",
+        "widthChanged",
+        "colorChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QGoochMaterial": [
+        "coolChanged",
+        "shininessChanged",
+        "specularChanged",
+        "diffuseChanged",
+        "warmChanged",
+        "alphaChanged",
+        "betaChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QDiffuseSpecularMaterial": [
+        "alphaBlendingEnabledChanged",
+        "shininessChanged",
+        "ambientChanged",
+        "textureScaleChanged",
+        "specularChanged",
+        "diffuseChanged",
+        "normalChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QDiffuseSpecularMapMaterial": [
+        "shininessChanged",
+        "ambientChanged",
+        "textureScaleChanged",
+        "specularChanged",
+        "diffuseChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QDiffuseMapMaterial": [
+        "shininessChanged",
+        "ambientChanged",
+        "textureScaleChanged",
+        "specularChanged",
+        "diffuseChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QPhongMaterial": [
+        "shininessChanged",
+        "ambientChanged",
+        "specularChanged",
+        "diffuseChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QPhongAlphaMaterial": [
+        "sourceRgbArgChanged",
+        "sourceAlphaArgChanged",
+        "shininessChanged",
+        "ambientChanged",
+        "specularChanged",
+        "blendFunctionArgChanged",
+        "diffuseChanged",
+        "alphaChanged",
+        "destinationRgbArgChanged",
+        "destinationAlphaArgChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QNormalDiffuseSpecularMapMaterial": [
+        "shininessChanged",
+        "ambientChanged",
+        "textureScaleChanged",
+        "specularChanged",
+        "diffuseChanged",
+        "normalChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QNormalDiffuseMapMaterial": [
+        "shininessChanged",
+        "ambientChanged",
+        "textureScaleChanged",
+        "specularChanged",
+        "diffuseChanged",
+        "normalChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QTextureMaterial": [
+        "textureTransformChanged",
+        "alphaBlendingEnabledChanged",
+        "textureOffsetChanged",
+        "textureChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QMorphPhongMaterial": [
+        "shininessChanged",
+        "ambientChanged",
+        "interpolatorChanged",
+        "specularChanged",
+        "diffuseChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QMetalRoughMaterial": [
+        "ambientOcclusionChanged",
+        "textureScaleChanged",
+        "metalnessChanged",
+        "baseColorChanged",
+        "normalChanged",
+        "roughnessChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QSphereMesh": [
+        "radiusChanged",
+        "ringsChanged",
+        "generateTangentsChanged",
+        "slicesChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QExtrudedTextMesh": [
+        "depthChanged",
+        "textChanged",
+        "fontChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QPlaneMesh": [
+        "meshResolutionChanged",
+        "heightChanged",
+        "mirroredChanged",
+        "widthChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QCylinderMesh": [
+        "radiusChanged",
+        "ringsChanged",
+        "lengthChanged",
+        "slicesChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QCuboidMesh": [
+        "xzMeshResolutionChanged",
+        "yExtentChanged",
+        "zExtentChanged",
+        "xExtentChanged",
+        "yzMeshResolutionChanged",
+        "xyMeshResolutionChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QConeMesh": [
+        "hasTopEndcapChanged",
+        "ringsChanged",
+        "hasBottomEndcapChanged",
+        "topRadiusChanged",
+        "lengthChanged",
+        "bottomRadiusChanged",
+        "slicesChanged"
+    ],
+    "Qt3DExtras.Qt3DExtras.QTorusMesh": [
+        "radiusChanged",
+        "minorRadiusChanged",
+        "ringsChanged",
+        "slicesChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QAxisSetting": [
+        "deadZoneRadiusChanged",
+        "smoothChanged",
+        "axesChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QAxis": [
+        "valueChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QAction": [
+        "activeChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QKeyboardDevice": [
+        "activeInputChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QMouseDevice": [
+        "sensitivityChanged",
+        "updateAxesContinuouslyChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QAbstractAxisInput": [
+        "sourceDeviceChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QButtonAxisInput": [
+        "accelerationChanged",
+        "buttonsChanged",
+        "decelerationChanged",
+        "scaleChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QAnalogAxisInput": [
+        "axisChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QInputSequence": [
+        "timeoutChanged",
+        "buttonIntervalChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QInputChord": [
+        "timeoutChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QActionInput": [
+        "buttonsChanged",
+        "sourceDeviceChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QKeyboardHandler": [
+        "yesPressed",
+        "volumeDownPressed",
+        "digit5Pressed",
+        "spacePressed",
+        "digit6Pressed",
+        "context2Pressed",
+        "volumeUpPressed",
+        "selectPressed",
+        "released",
+        "leftPressed",
+        "digit7Pressed",
+        "digit3Pressed",
+        "rightPressed",
+        "upPressed",
+        "numberSignPressed",
+        "digit8Pressed",
+        "escapePressed",
+        "digit1Pressed",
+        "backtabPressed",
+        "flipPressed",
+        "context1Pressed",
+        "tabPressed",
+        "hangupPressed",
+        "menuPressed",
+        "digit9Pressed",
+        "downPressed",
+        "context4Pressed",
+        "context3Pressed",
+        "focusChanged",
+        "backPressed",
+        "callPressed",
+        "sourceDeviceChanged",
+        "digit2Pressed",
+        "digit0Pressed",
+        "cancelPressed",
+        "enterPressed",
+        "returnPressed",
+        "deletePressed",
+        "digit4Pressed",
+        "noPressed",
+        "pressed",
+        "asteriskPressed"
+    ],
+    "Qt3DInput.Qt3DInput.QInputSettings": [
+        "eventSourceChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QAxisAccumulator": [
+        "sourceAxisChanged",
+        "sourceAxisTypeChanged",
+        "valueChanged",
+        "velocityChanged",
+        "scaleChanged"
+    ],
+    "Qt3DInput.Qt3DInput.QMouseHandler": [
+        "wheel",
+        "released",
+        "containsMouseChanged",
+        "entered",
+        "doubleClicked",
+        "clicked",
+        "exited",
+        "sourceDeviceChanged",
+        "pressed",
+        "positionChanged",
+        "pressAndHold"
+    ],
+    "Qt3DLogic.Qt3DLogic.QFrameAction": [
+        "triggered"
+    ],
+    "Qt3DRender.Qt3DRender.QTextureWrapMode": [
+        "xChanged",
+        "yChanged",
+        "zChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QStencilTestArguments": [
+        "referenceValueChanged",
+        "faceModeChanged",
+        "comparisonMaskChanged",
+        "stencilFunctionChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QStencilOperationArguments": [
+        "allTestsPassOperationChanged",
+        "depthTestFailureOperationChanged",
+        "faceModeChanged",
+        "stencilTestFailureOperationChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QRenderCaptureReply": [
+        "completeChanged",
+        "completed"
+    ],
+    "Qt3DRender.Qt3DRender.QPickEvent": [
+        "acceptedChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QGraphicsApiFilter": [
+        "profileChanged",
+        "extensionsChanged",
+        "graphicsApiFilterChanged",
+        "minorVersionChanged",
+        "majorVersionChanged",
+        "apiChanged",
+        "vendorChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QRenderTargetOutput": [
+        "mipLevelChanged",
+        "layerChanged",
+        "faceChanged",
+        "attachmentPointChanged",
+        "textureChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QFrontFace": [
+        "directionChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QPolygonOffset": [
+        "depthStepsChanged",
+        "scaleFactorChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QPointSize": [
+        "sizeModeChanged",
+        "valueChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QDepthTest": [
+        "depthFunctionChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QCullFace": [
+        "modeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QColorMask": [
+        "greenMaskedChanged",
+        "blueMaskedChanged",
+        "redMaskedChanged",
+        "alphaMaskedChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QClipPlane": [
+        "distanceChanged",
+        "planeIndexChanged",
+        "normalChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QStencilMask": [
+        "backOutputMaskChanged",
+        "frontOutputMaskChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QBlendEquationArguments": [
+        "sourceAlphaChanged",
+        "destinationRgbaChanged",
+        "destinationAlphaChanged",
+        "destinationRgbChanged",
+        "sourceRgbaChanged",
+        "bufferIndexChanged",
+        "sourceRgbChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QBlendEquation": [
+        "blendFunctionChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QAlphaTest": [
+        "referenceValueChanged",
+        "alphaFunctionChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QLineWidth": [
+        "smoothChanged",
+        "valueChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QScissorTest": [
+        "leftChanged",
+        "heightChanged",
+        "bottomChanged",
+        "widthChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QGeometry": [
+        "minExtentChanged",
+        "boundingVolumePositionAttributeChanged",
+        "maxExtentChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QRenderPass": [
+        "shaderProgramChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QLayerFilter": [
+        "filterModeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QRenderSurfaceSelector": [
+        "surfaceChanged",
+        "surfacePixelRatioChanged",
+        "externalRenderTargetSizeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QProximityFilter": [
+        "distanceThresholdChanged",
+        "entityChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QDispatchCompute": [
+        "workGroupZChanged",
+        "workGroupYChanged",
+        "workGroupXChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QClearBuffers": [
+        "clearStencilValueChanged",
+        "clearColorChanged",
+        "buffersChanged",
+        "clearDepthValueChanged",
+        "colorBufferChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QCameraSelector": [
+        "cameraChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QSortPolicy": [
+        "sortTypesChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QBlitFramebuffer": [
+        "destinationChanged",
+        "destinationRectChanged",
+        "destinationAttachmentPointChanged",
+        "sourceRectChanged",
+        "sourceAttachmentPointChanged",
+        "interpolationMethodChanged",
+        "sourceChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QSetFence": [
+        "handleChanged",
+        "handleTypeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QMemoryBarrier": [
+        "waitOperationsChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QWaitFence": [
+        "timeoutChanged",
+        "handleChanged",
+        "handleTypeChanged",
+        "waitOnCPUChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QViewport": [
+        "normalizedRectChanged",
+        "gammaChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QRenderTargetSelector": [
+        "targetChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QFilterKey": [
+        "nameChanged",
+        "valueChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QPickingSettings": [
+        "faceOrientationPickingModeChanged",
+        "worldSpaceToleranceChanged",
+        "pickMethodChanged",
+        "pickResultModeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QParameter": [
+        "nameChanged",
+        "valueChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QShaderProgramBuilder": [
+        "shaderProgramChanged",
+        "fragmentShaderCodeChanged",
+        "tessellationEvaluationShaderCodeChanged",
+        "vertexShaderGraphChanged",
+        "geometryShaderCodeChanged",
+        "geometryShaderGraphChanged",
+        "computeShaderCodeChanged",
+        "tessellationControlShaderGraphChanged",
+        "tessellationEvaluationShaderGraphChanged",
+        "enabledLayersChanged",
+        "fragmentShaderGraphChanged",
+        "tessellationControlShaderCodeChanged",
+        "computeShaderGraphChanged",
+        "vertexShaderCodeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QBuffer": [
+        "usageChanged",
+        "syncDataChanged",
+        "dataAvailable",
+        "typeChanged",
+        "accessTypeChanged",
+        "dataChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QShaderProgram": [
+        "fragmentShaderCodeChanged",
+        "tessellationEvaluationShaderCodeChanged",
+        "geometryShaderCodeChanged",
+        "logChanged",
+        "statusChanged",
+        "computeShaderCodeChanged",
+        "formatChanged",
+        "tessellationControlShaderCodeChanged",
+        "vertexShaderCodeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QShaderImage": [
+        "layeredChanged",
+        "mipLevelChanged",
+        "accessChanged",
+        "layerChanged",
+        "formatChanged",
+        "textureChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QAttribute": [
+        "countChanged",
+        "nameChanged",
+        "divisorChanged",
+        "dataTypeChanged",
+        "vertexSizeChanged",
+        "vertexBaseTypeChanged",
+        "byteOffsetChanged",
+        "bufferChanged",
+        "attributeTypeChanged",
+        "dataSizeChanged",
+        "byteStrideChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QAbstractTextureImage": [
+        "mipLevelChanged",
+        "layerChanged",
+        "faceChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QTextureImage": [
+        "statusChanged",
+        "mirroredChanged",
+        "sourceChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QPaintedTextureImage": [
+        "heightChanged",
+        "sizeChanged",
+        "widthChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QAbstractTexture": [
+        "comparisonModeChanged",
+        "layersChanged",
+        "depthChanged",
+        "comparisonFunctionChanged",
+        "handleChanged",
+        "magnificationFilterChanged",
+        "handleTypeChanged",
+        "statusChanged",
+        "heightChanged",
+        "minificationFilterChanged",
+        "formatChanged",
+        "maximumAnisotropyChanged",
+        "generateMipMapsChanged",
+        "samplesChanged",
+        "widthChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QTextureLoader": [
+        "mirroredChanged",
+        "sourceChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QSharedGLTexture": [
+        "textureIdChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QCamera": [
+        "upVectorChanged",
+        "viewMatrixChanged",
+        "farPlaneChanged",
+        "fieldOfViewChanged",
+        "leftChanged",
+        "projectionMatrixChanged",
+        "aspectRatioChanged",
+        "bottomChanged",
+        "topChanged",
+        "viewCenterChanged",
+        "projectionTypeChanged",
+        "viewVectorChanged",
+        "positionChanged",
+        "rightChanged",
+        "nearPlaneChanged",
+        "exposureChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QCameraLens": [
+        "farPlaneChanged",
+        "fieldOfViewChanged",
+        "leftChanged",
+        "projectionMatrixChanged",
+        "aspectRatioChanged",
+        "bottomChanged",
+        "topChanged",
+        "viewSphere",
+        "projectionTypeChanged",
+        "rightChanged",
+        "nearPlaneChanged",
+        "exposureChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QEnvironmentLight": [
+        "specularChanged",
+        "irradianceChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QSceneLoader": [
+        "statusChanged",
+        "sourceChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QMaterial": [
+        "effectChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QLevelOfDetail": [
+        "cameraChanged",
+        "currentIndexChanged",
+        "thresholdsChanged",
+        "volumeOverrideChanged",
+        "thresholdTypeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QLayer": [
+        "recursiveChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QComputeCommand": [
+        "workGroupZChanged",
+        "workGroupYChanged",
+        "workGroupXChanged",
+        "runTypeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QRenderSettings": [
+        "renderPolicyChanged",
+        "activeFrameGraphChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QAbstractRayCaster": [
+        "runModeChanged",
+        "hitsChanged",
+        "filterModeChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QScreenRayCaster": [
+        "positionChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QRayCaster": [
+        "lengthChanged",
+        "directionChanged",
+        "originChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QGeometryRenderer": [
+        "vertexCountChanged",
+        "firstInstanceChanged",
+        "firstVertexChanged",
+        "indexBufferByteOffsetChanged",
+        "instanceCountChanged",
+        "restartIndexValueChanged",
+        "primitiveRestartEnabledChanged",
+        "verticesPerPatchChanged",
+        "geometryChanged",
+        "primitiveTypeChanged",
+        "indexOffsetChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QMesh": [
+        "meshNameChanged",
+        "statusChanged",
+        "sourceChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QAbstractLight": [
+        "intensityChanged",
+        "colorChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QPointLight": [
+        "constantAttenuationChanged",
+        "quadraticAttenuationChanged",
+        "linearAttenuationChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QDirectionalLight": [
+        "worldDirectionChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QSpotLight": [
+        "cutOffAngleChanged",
+        "constantAttenuationChanged",
+        "quadraticAttenuationChanged",
+        "localDirectionChanged",
+        "linearAttenuationChanged"
+    ],
+    "Qt3DRender.Qt3DRender.QObjectPicker": [
+        "dragEnabledChanged",
+        "released",
+        "containsMouseChanged",
+        "priorityChanged",
+        "entered",
+        "moved",
+        "clicked",
+        "hoverEnabledChanged",
+        "exited",
+        "pressed",
+        "pressedChanged"
+    ],
+    "QtAxContainer.QAxScriptManager": [
+        "error"
+    ],
+    "QtAxContainer.QAxScript": [
+        "finished",
+        "error",
+        "entered",
+        "stateChanged"
+    ],
+    "QtAxContainer.QAxWidget": [
+        "exception",
+        "propertyChanged",
+        "signal"
+    ],
+    "QtAxContainer.QAxObject": [
+        "exception",
+        "propertyChanged",
+        "signal"
+    ],
+    "QtCharts.QtCharts.QVXYModelMapper": [
+        "firstRowChanged",
+        "yColumnChanged",
+        "seriesReplaced",
+        "rowCountChanged",
+        "xColumnChanged",
+        "modelReplaced"
+    ],
+    "QtCharts.QtCharts.QPieSlice": [
+        "penChanged",
+        "brushChanged",
+        "angleSpanChanged",
+        "labelFontChanged",
+        "borderWidthChanged",
+        "clicked",
+        "pressed",
+        "labelChanged",
+        "colorChanged",
+        "labelVisibleChanged",
+        "doubleClicked",
+        "valueChanged",
+        "labelBrushChanged",
+        "labelColorChanged",
+        "percentageChanged",
+        "released",
+        "startAngleChanged",
+        "borderColorChanged",
+        "hovered"
+    ],
+    "QtCharts.QtCharts.QVPieModelMapper": [
+        "valuesColumnChanged",
+        "firstRowChanged",
+        "labelsColumnChanged",
+        "seriesReplaced",
+        "rowCountChanged",
+        "modelReplaced"
+    ],
+    "QtCharts.QtCharts.QLegendMarker": [
+        "labelChanged",
+        "hovered",
+        "penChanged",
+        "clicked",
+        "labelBrushChanged",
+        "fontChanged",
+        "shapeChanged",
+        "visibleChanged",
+        "brushChanged"
+    ],
+    "QtCharts.QtCharts.QLegend": [
+        "backgroundVisibleChanged",
+        "labelColorChanged",
+        "borderColorChanged",
+        "markerShapeChanged",
+        "showToolTipsChanged",
+        "fontChanged",
+        "colorChanged",
+        "reverseMarkersChanged"
+    ],
+    "QtCharts.QtCharts.QHXYModelMapper": [
+        "xRowChanged",
+        "firstColumnChanged",
+        "seriesReplaced",
+        "yRowChanged",
+        "columnCountChanged",
+        "modelReplaced"
+    ],
+    "QtCharts.QtCharts.QHPieModelMapper": [
+        "labelsRowChanged",
+        "valuesRowChanged",
+        "firstColumnChanged",
+        "seriesReplaced",
+        "columnCountChanged",
+        "modelReplaced"
+    ],
+    "QtCharts.QtCharts.QChart": [
+        "plotAreaChanged"
+    ],
+    "QtCharts.QtCharts.QCandlestickSet": [
+        "released",
+        "highChanged",
+        "closeChanged",
+        "hovered",
+        "doubleClicked",
+        "timestampChanged",
+        "penChanged",
+        "clicked",
+        "lowChanged",
+        "openChanged",
+        "pressed",
+        "brushChanged"
+    ],
+    "QtCharts.QtCharts.QCandlestickModelMapper": [
+        "seriesReplaced",
+        "modelReplaced"
+    ],
+    "QtCharts.QtCharts.QVCandlestickModelMapper": [
+        "closeRowChanged",
+        "openRowChanged",
+        "highRowChanged",
+        "firstSetColumnChanged",
+        "lastSetColumnChanged",
+        "lowRowChanged",
+        "timestampRowChanged"
+    ],
+    "QtCharts.QtCharts.QHCandlestickModelMapper": [
+        "timestampColumnChanged",
+        "lowColumnChanged",
+        "firstSetRowChanged",
+        "lastSetRowChanged",
+        "openColumnChanged",
+        "highColumnChanged",
+        "closeColumnChanged"
+    ],
+    "QtCharts.QtCharts.QBoxSet": [
+        "released",
+        "valuesChanged",
+        "hovered",
+        "doubleClicked",
+        "penChanged",
+        "clicked",
+        "valueChanged",
+        "pressed",
+        "brushChanged",
+        "cleared"
+    ],
+    "QtCharts.QtCharts.QVBoxPlotModelMapper": [
+        "firstBoxSetColumnChanged",
+        "firstRowChanged",
+        "seriesReplaced",
+        "rowCountChanged",
+        "lastBoxSetColumnChanged",
+        "modelReplaced"
+    ],
+    "QtCharts.QtCharts.QHBoxPlotModelMapper": [
+        "firstBoxSetRowChanged",
+        "firstColumnChanged",
+        "seriesReplaced",
+        "lastBoxSetRowChanged",
+        "columnCountChanged",
+        "modelReplaced"
+    ],
+    "QtCharts.QtCharts.QBarSet": [
+        "labelChanged",
+        "labelColorChanged",
+        "released",
+        "labelFontChanged",
+        "valuesAdded",
+        "borderColorChanged",
+        "hovered",
+        "doubleClicked",
+        "penChanged",
+        "clicked",
+        "valueChanged",
+        "pressed",
+        "labelBrushChanged",
+        "valuesRemoved",
+        "brushChanged",
+        "colorChanged"
+    ],
+    "QtCharts.QtCharts.QVBarModelMapper": [
+        "lastBarSetColumnChanged",
+        "firstBarSetColumnChanged",
+        "firstRowChanged",
+        "seriesReplaced",
+        "rowCountChanged",
+        "modelReplaced"
+    ],
+    "QtCharts.QtCharts.QHBarModelMapper": [
+        "firstBarSetRowChanged",
+        "firstColumnChanged",
+        "seriesReplaced",
+        "lastBarSetRowChanged",
+        "columnCountChanged",
+        "modelReplaced"
+    ],
+    "QtCharts.QtCharts.QAbstractSeries": [
+        "nameChanged",
+        "useOpenGLChanged",
+        "opacityChanged",
+        "visibleChanged"
+    ],
+    "QtCharts.QtCharts.QCandlestickSeries": [
+        "penChanged",
+        "maximumColumnWidthChanged",
+        "bodyWidthChanged",
+        "brushChanged",
+        "countChanged",
+        "increasingColorChanged",
+        "decreasingColorChanged",
+        "capsWidthChanged",
+        "clicked",
+        "pressed",
+        "candlestickSetsAdded",
+        "doubleClicked",
+        "minimumColumnWidthChanged",
+        "bodyOutlineVisibilityChanged",
+        "candlestickSetsRemoved",
+        "capsVisibilityChanged",
+        "released",
+        "hovered"
+    ],
+    "QtCharts.QtCharts.QBoxPlotSeries": [
+        "countChanged",
+        "released",
+        "boxsetsAdded",
+        "hovered",
+        "doubleClicked",
+        "penChanged",
+        "boxWidthChanged",
+        "boxsetsRemoved",
+        "clicked",
+        "boxOutlineVisibilityChanged",
+        "pressed",
+        "brushChanged"
+    ],
+    "QtCharts.QtCharts.QAreaSeries": [
+        "released",
+        "pointLabelsClippingChanged",
+        "borderColorChanged",
+        "pointLabelsColorChanged",
+        "pointLabelsFontChanged",
+        "hovered",
+        "doubleClicked",
+        "clicked",
+        "selected",
+        "pointLabelsVisibilityChanged",
+        "pressed",
+        "pointLabelsFormatChanged",
+        "colorChanged"
+    ],
+    "QtCharts.QtCharts.QPieSeries": [
+        "countChanged",
+        "released",
+        "sumChanged",
+        "hovered",
+        "added",
+        "doubleClicked",
+        "clicked",
+        "pressed",
+        "removed"
+    ],
+    "QtCharts.QtCharts.QXYSeries": [
+        "released",
+        "pointLabelsClippingChanged",
+        "pointReplaced",
+        "pointLabelsColorChanged",
+        "pointLabelsFontChanged",
+        "hovered",
+        "doubleClicked",
+        "pointRemoved",
+        "penChanged",
+        "clicked",
+        "pointsRemoved",
+        "pointLabelsVisibilityChanged",
+        "pressed",
+        "pointAdded",
+        "pointLabelsFormatChanged",
+        "pointsReplaced",
+        "colorChanged"
+    ],
+    "QtCharts.QtCharts.QScatterSeries": [
+        "borderColorChanged",
+        "markerShapeChanged",
+        "markerSizeChanged",
+        "colorChanged"
+    ],
+    "QtCharts.QtCharts.QAbstractBarSeries": [
+        "countChanged",
+        "labelsVisibleChanged",
+        "labelsAngleChanged",
+        "barsetsAdded",
+        "barsetsRemoved",
+        "released",
+        "labelsFormatChanged",
+        "hovered",
+        "doubleClicked",
+        "clicked",
+        "labelsPositionChanged",
+        "pressed",
+        "labelsPrecisionChanged"
+    ],
+    "QtCharts.QtCharts.QAbstractAxis": [
+        "titleFontChanged",
+        "labelsFontChanged",
+        "shadesBrushChanged",
+        "titleVisibleChanged",
+        "shadesVisibleChanged",
+        "labelsAngleChanged",
+        "gridLineColorChanged",
+        "labelsColorChanged",
+        "labelsVisibleChanged",
+        "labelsBrushChanged",
+        "labelsEditableChanged",
+        "shadesBorderColorChanged",
+        "minorGridVisibleChanged",
+        "colorChanged",
+        "reverseChanged",
+        "shadesPenChanged",
+        "minorGridLineColorChanged",
+        "minorGridLinePenChanged",
+        "titleTextChanged",
+        "gridLinePenChanged",
+        "lineVisibleChanged",
+        "gridVisibleChanged",
+        "visibleChanged",
+        "linePenChanged",
+        "shadesColorChanged",
+        "titleBrushChanged"
+    ],
+    "QtCharts.QtCharts.QLogValueAxis": [
+        "labelFormatChanged",
+        "minorTickCountChanged",
+        "baseChanged",
+        "tickCountChanged",
+        "rangeChanged",
+        "maxChanged",
+        "minChanged"
+    ],
+    "QtCharts.QtCharts.QValueAxis": [
+        "labelFormatChanged",
+        "minorTickCountChanged",
+        "tickCountChanged",
+        "rangeChanged",
+        "tickAnchorChanged",
+        "maxChanged",
+        "tickIntervalChanged",
+        "tickTypeChanged",
+        "minChanged"
+    ],
+    "QtCharts.QtCharts.QCategoryAxis": [
+        "categoriesChanged",
+        "labelsPositionChanged"
+    ],
+    "QtCharts.QtCharts.QBarCategoryAxis": [
+        "countChanged",
+        "rangeChanged",
+        "maxChanged",
+        "categoriesChanged",
+        "minChanged"
+    ],
+    "QtCharts.QtCharts.QDateTimeAxis": [
+        "tickCountChanged",
+        "rangeChanged",
+        "maxChanged",
+        "formatChanged",
+        "minChanged"
+    ],
+    "QtConcurrent.QFutureWatcherVoid": [
+        "started",
+        "finished",
+        "resultReadyAt",
+        "progressTextChanged",
+        "progressValueChanged",
+        "progressRangeChanged",
+        "paused",
+        "canceled",
+        "resultsReadyAt",
+        "resumed"
+    ],
+    "QtConcurrent.QFutureWatcherQString": [
+        "started",
+        "finished",
+        "resultReadyAt",
+        "progressTextChanged",
+        "progressValueChanged",
+        "progressRangeChanged",
+        "paused",
+        "canceled",
+        "resultsReadyAt",
+        "resumed"
+    ],
+    "QtCore.QObject": [
+        "destroyed",
+        "objectNameChanged"
+    ],
+    "QtCore.QItemSelectionModel": [
+        "currentChanged",
+        "currentColumnChanged",
+        "modelChanged",
+        "currentRowChanged",
+        "selectionChanged"
+    ],
+    "QtCore.QIODevice": [
+        "aboutToClose",
+        "readChannelFinished",
+        "readyRead",
+        "channelReadyRead",
+        "bytesWritten",
+        "channelBytesWritten"
+    ],
+    "QtCore.QProcess": [
+        "error",
+        "started",
+        "finished",
+        "readyReadStandardOutput",
+        "readyReadStandardError",
+        "stateChanged",
+        "errorOccurred"
+    ],
+    "QtCore.QSocketNotifier": [
+        "activated"
+    ],
+    "QtCore.QWinEventNotifier": [
+        "activated"
+    ],
+    "QtCore.QSignalMapper": [
+        "mappedObject",
+        "mappedString",
+        "mapped",
+        "mappedInt",
+        "mappedWidget"
+    ],
+    "QtCore.QTimer": [
+        "timeout"
+    ],
+    "QtCore.QTimeLine": [
+        "frameChanged",
+        "finished",
+        "valueChanged",
+        "stateChanged"
+    ],
+    "QtCore.QFileSystemWatcher": [
+        "fileChanged",
+        "directoryChanged"
+    ],
+    "QtCore.QThread": [
+        "started",
+        "finished"
+    ],
+    "QtCore.QCoreApplication": [
+        "organizationNameChanged",
+        "applicationNameChanged",
+        "applicationVersionChanged",
+        "aboutToQuit",
+        "organizationDomainChanged"
+    ],
+    "QtCore.QAbstractTransition": [
+        "triggered",
+        "targetStateChanged",
+        "targetStatesChanged"
+    ],
+    "QtCore.QAbstractState": [
+        "activeChanged",
+        "entered",
+        "exited"
+    ],
+    "QtCore.QState": [
+        "errorStateChanged",
+        "finished",
+        "childModeChanged",
+        "initialStateChanged",
+        "propertiesAssigned"
+    ],
+    "QtCore.QStateMachine": [
+        "started",
+        "stopped",
+        "runningChanged"
+    ],
+    "QtCore.QHistoryState": [
+        "historyTypeChanged",
+        "defaultStateChanged",
+        "defaultTransitionChanged"
+    ],
+    "QtCore.QAbstractItemModel": [
+        "dataChanged",
+        "rowsMoved",
+        "columnsRemoved",
+        "columnsInserted",
+        "modelReset",
+        "rowsInserted",
+        "rowsAboutToBeMoved",
+        "columnsAboutToBeInserted",
+        "layoutAboutToBeChanged",
+        "rowsAboutToBeInserted",
+        "rowsAboutToBeRemoved",
+        "columnsAboutToBeMoved",
+        "headerDataChanged",
+        "modelAboutToBeReset",
+        "rowsRemoved",
+        "layoutChanged",
+        "columnsMoved",
+        "columnsAboutToBeRemoved"
+    ],
+    "QtCore.QAbstractProxyModel": [
+        "sourceModelChanged"
+    ],
+    "QtCore.QSortFilterProxyModel": [
+        "sortRoleChanged",
+        "filterRoleChanged",
+        "sortLocaleAwareChanged",
+        "sortCaseSensitivityChanged",
+        "recursiveFilteringEnabledChanged",
+        "filterCaseSensitivityChanged",
+        "dynamicSortFilterChanged"
+    ],
+    "QtCore.QAbstractEventDispatcher": [
+        "awake",
+        "aboutToBlock"
+    ],
+    "QtCore.QAbstractAnimation": [
+        "finished",
+        "directionChanged",
+        "stateChanged",
+        "currentLoopChanged"
+    ],
+    "QtCore.QSequentialAnimationGroup": [
+        "currentAnimationChanged"
+    ],
+    "QtCore.QVariantAnimation": [
+        "valueChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QCustom3DItem": [
+        "meshFileChanged",
+        "scalingAbsoluteChanged",
+        "scalingChanged",
+        "textureFileChanged",
+        "positionAbsoluteChanged",
+        "rotationChanged",
+        "shadowCastingChanged",
+        "positionChanged",
+        "visibleChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QCustom3DVolume": [
+        "textureDataChanged",
+        "sliceFrameColorChanged",
+        "textureHeightChanged",
+        "useHighDefShaderChanged",
+        "sliceFrameThicknessesChanged",
+        "drawSlicesChanged",
+        "textureDepthChanged",
+        "sliceFrameGapsChanged",
+        "textureWidthChanged",
+        "drawSliceFramesChanged",
+        "colorTableChanged",
+        "sliceIndexZChanged",
+        "alphaMultiplierChanged",
+        "sliceFrameWidthsChanged",
+        "sliceIndexXChanged",
+        "sliceIndexYChanged",
+        "preserveOpacityChanged",
+        "textureFormatChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QCustom3DLabel": [
+        "facingCameraChanged",
+        "textColorChanged",
+        "borderEnabledChanged",
+        "textChanged",
+        "fontChanged",
+        "backgroundEnabledChanged",
+        "backgroundColorChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QBarDataProxy": [
+        "seriesChanged",
+        "arrayReset",
+        "rowsAdded",
+        "itemChanged",
+        "rowsChanged",
+        "columnLabelsChanged",
+        "rowCountChanged",
+        "rowsInserted",
+        "rowLabelsChanged",
+        "rowsRemoved"
+    ],
+    "QtDataVisualization.QtDataVisualization.QItemModelBarDataProxy": [
+        "valueRoleChanged",
+        "columnCategoriesChanged",
+        "columnRolePatternChanged",
+        "columnRoleReplaceChanged",
+        "rowRoleReplaceChanged",
+        "autoColumnCategoriesChanged",
+        "autoRowCategoriesChanged",
+        "rotationRolePatternChanged",
+        "rowRoleChanged",
+        "useModelCategoriesChanged",
+        "itemModelChanged",
+        "multiMatchBehaviorChanged",
+        "valueRoleReplaceChanged",
+        "valueRolePatternChanged",
+        "rotationRoleChanged",
+        "columnRoleChanged",
+        "rotationRoleReplaceChanged",
+        "rowCategoriesChanged",
+        "rowRolePatternChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QSurfaceDataProxy": [
+        "seriesChanged",
+        "arrayReset",
+        "rowsAdded",
+        "itemChanged",
+        "rowsChanged",
+        "rowCountChanged",
+        "rowsInserted",
+        "columnCountChanged",
+        "rowsRemoved"
+    ],
+    "QtDataVisualization.QtDataVisualization.QItemModelSurfaceDataProxy": [
+        "xPosRolePatternChanged",
+        "columnCategoriesChanged",
+        "yPosRoleChanged",
+        "yPosRoleReplaceChanged",
+        "zPosRoleChanged",
+        "columnRolePatternChanged",
+        "yPosRolePatternChanged",
+        "zPosRolePatternChanged",
+        "rowRoleReplaceChanged",
+        "columnRoleReplaceChanged",
+        "autoColumnCategoriesChanged",
+        "autoRowCategoriesChanged",
+        "xPosRoleReplaceChanged",
+        "rowRoleChanged",
+        "useModelCategoriesChanged",
+        "itemModelChanged",
+        "multiMatchBehaviorChanged",
+        "columnRoleChanged",
+        "zPosRoleReplaceChanged",
+        "rowCategoriesChanged",
+        "xPosRoleChanged",
+        "rowRolePatternChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QHeightMapSurfaceDataProxy": [
+        "minZValueChanged",
+        "maxZValueChanged",
+        "minXValueChanged",
+        "heightMapChanged",
+        "maxXValueChanged",
+        "heightMapFileChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QScatterDataProxy": [
+        "seriesChanged",
+        "arrayReset",
+        "itemsAdded",
+        "itemCountChanged",
+        "itemsChanged",
+        "itemsInserted",
+        "itemsRemoved"
+    ],
+    "QtDataVisualization.QtDataVisualization.QItemModelScatterDataProxy": [
+        "xPosRolePatternChanged",
+        "zPosRoleChanged",
+        "yPosRoleReplaceChanged",
+        "zPosRolePatternChanged",
+        "rotationRoleReplaceChanged",
+        "xPosRoleChanged",
+        "xPosRoleReplaceChanged",
+        "itemModelChanged",
+        "rotationRoleChanged",
+        "yPosRoleChanged",
+        "yPosRolePatternChanged",
+        "rotationRolePatternChanged",
+        "zPosRoleReplaceChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QAbstract3DSeries": [
+        "nameChanged",
+        "singleHighlightGradientChanged",
+        "colorStyleChanged",
+        "visibilityChanged",
+        "meshRotationChanged",
+        "multiHighlightColorChanged",
+        "itemLabelFormatChanged",
+        "meshChanged",
+        "baseGradientChanged",
+        "singleHighlightColorChanged",
+        "userDefinedMeshChanged",
+        "baseColorChanged",
+        "multiHighlightGradientChanged",
+        "meshSmoothChanged",
+        "itemLabelChanged",
+        "itemLabelVisibilityChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QBar3DSeries": [
+        "meshAngleChanged",
+        "dataProxyChanged",
+        "selectedBarChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QSurface3DSeries": [
+        "flatShadingEnabledChanged",
+        "textureFileChanged",
+        "drawModeChanged",
+        "selectedPointChanged",
+        "dataProxyChanged",
+        "flatShadingSupportedChanged",
+        "textureChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QScatter3DSeries": [
+        "dataProxyChanged",
+        "selectedItemChanged",
+        "itemSizeChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QAbstract3DInputHandler": [
+        "inputViewChanged",
+        "positionChanged",
+        "sceneChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.Q3DInputHandler": [
+        "selectionEnabledChanged",
+        "zoomEnabledChanged",
+        "rotationEnabledChanged",
+        "zoomAtTargetEnabledChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QAbstract3DAxis": [
+        "autoAdjustRangeChanged",
+        "labelsChanged",
+        "titleFixedChanged",
+        "orientationChanged",
+        "titleChanged",
+        "rangeChanged",
+        "maxChanged",
+        "labelAutoRotationChanged",
+        "minChanged",
+        "titleVisibilityChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QCategory3DAxis": [
+        "labelsChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QValue3DAxis": [
+        "labelFormatChanged",
+        "subSegmentCountChanged",
+        "segmentCountChanged",
+        "formatterChanged",
+        "reversedChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.Q3DTheme": [
+        "multiHighlightColorChanged",
+        "labelBackgroundEnabledChanged",
+        "labelTextColorChanged",
+        "backgroundColorChanged",
+        "gridLineColorChanged",
+        "multiHighlightGradientChanged",
+        "backgroundEnabledChanged",
+        "colorStyleChanged",
+        "ambientLightStrengthChanged",
+        "baseGradientsChanged",
+        "labelBackgroundColorChanged",
+        "lightStrengthChanged",
+        "fontChanged",
+        "labelBorderEnabledChanged",
+        "typeChanged",
+        "singleHighlightColorChanged",
+        "singleHighlightGradientChanged",
+        "highlightLightStrengthChanged",
+        "windowColorChanged",
+        "baseColorsChanged",
+        "gridEnabledChanged",
+        "lightColorChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.Q3DScene": [
+        "secondarySubviewOnTopChanged",
+        "selectionQueryPositionChanged",
+        "graphPositionQueryChanged",
+        "secondarySubViewportChanged",
+        "devicePixelRatioChanged",
+        "activeLightChanged",
+        "viewportChanged",
+        "primarySubViewportChanged",
+        "activeCameraChanged",
+        "slicingActiveChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.Q3DObject": [
+        "positionChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.Q3DLight": [
+        "autoPositionChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.Q3DCamera": [
+        "wrapYRotationChanged",
+        "xRotationChanged",
+        "maxZoomLevelChanged",
+        "yRotationChanged",
+        "wrapXRotationChanged",
+        "cameraPresetChanged",
+        "minZoomLevelChanged",
+        "zoomLevelChanged",
+        "targetChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QLogValue3DAxisFormatter": [
+        "showEdgeLabelsChanged",
+        "baseChanged",
+        "autoSubGridChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.QAbstract3DGraph": [
+        "activeThemeChanged",
+        "polarChanged",
+        "reflectionChanged",
+        "selectionModeChanged",
+        "shadowQualityChanged",
+        "optimizationHintsChanged",
+        "horizontalAspectRatioChanged",
+        "aspectRatioChanged",
+        "orthoProjectionChanged",
+        "marginChanged",
+        "selectedElementChanged",
+        "activeInputHandlerChanged",
+        "currentFpsChanged",
+        "reflectivityChanged",
+        "queriedGraphPositionChanged",
+        "measureFpsChanged",
+        "radialLabelOffsetChanged",
+        "localeChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.Q3DSurface": [
+        "axisYChanged",
+        "flipHorizontalGridChanged",
+        "axisZChanged",
+        "selectedSeriesChanged",
+        "axisXChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.Q3DScatter": [
+        "axisYChanged",
+        "axisZChanged",
+        "selectedSeriesChanged",
+        "axisXChanged"
+    ],
+    "QtDataVisualization.QtDataVisualization.Q3DBars": [
+        "valueAxisChanged",
+        "barSpacingRelativeChanged",
+        "columnAxisChanged",
+        "selectedSeriesChanged",
+        "floorLevelChanged",
+        "barThicknessChanged",
+        "barSpacingChanged",
+        "rowAxisChanged",
+        "primarySeriesChanged",
+        "multiSeriesUniformChanged"
+    ],
+    "QtGui.QStyleHints": [
+        "startDragTimeChanged",
+        "startDragDistanceChanged",
+        "wheelScrollLinesChanged",
+        "tabFocusBehaviorChanged",
+        "cursorFlashTimeChanged",
+        "keyboardInputIntervalChanged",
+        "mouseDoubleClickIntervalChanged",
+        "useHoverEffectsChanged",
+        "mouseQuickSelectionThresholdChanged",
+        "mousePressAndHoldIntervalChanged",
+        "showShortcutsInContextMenusChanged"
+    ],
+    "QtGui.QAbstractTextDocumentLayout": [
+        "updateBlock",
+        "documentSizeChanged",
+        "update",
+        "pageCountChanged"
+    ],
+    "QtGui.QScreen": [
+        "logicalDotsPerInchChanged",
+        "physicalDotsPerInchChanged",
+        "primaryOrientationChanged",
+        "virtualGeometryChanged",
+        "orientationChanged",
+        "physicalSizeChanged",
+        "availableGeometryChanged",
+        "geometryChanged",
+        "refreshRateChanged"
+    ],
+    "QtGui.QInputMethod": [
+        "inputItemClipRectangleChanged",
+        "localeChanged",
+        "cursorRectangleChanged",
+        "keyboardRectangleChanged",
+        "anchorRectangleChanged",
+        "visibleChanged",
+        "inputDirectionChanged",
+        "animatingChanged"
+    ],
+    "QtGui.QWindow": [
+        "windowTitleChanged",
+        "contentOrientationChanged",
+        "screenChanged",
+        "yChanged",
+        "widthChanged",
+        "visibilityChanged",
+        "focusObjectChanged",
+        "activeChanged",
+        "windowStateChanged",
+        "opacityChanged",
+        "maximumWidthChanged",
+        "xChanged",
+        "minimumWidthChanged",
+        "minimumHeightChanged",
+        "visibleChanged",
+        "transientParentChanged",
+        "heightChanged",
+        "maximumHeightChanged",
+        "modalityChanged"
+    ],
+    "QtGui.QOpenGLWindow": [
+        "frameSwapped"
+    ],
+    "QtGui.QValidator": [
+        "changed"
+    ],
+    "QtGui.QDoubleValidator": [
+        "decimalsChanged",
+        "bottomChanged",
+        "topChanged",
+        "notationChanged"
+    ],
+    "QtGui.QIntValidator": [
+        "bottomChanged",
+        "topChanged"
+    ],
+    "QtGui.QRegularExpressionValidator": [
+        "regularExpressionChanged"
+    ],
+    "QtGui.QRegExpValidator": [
+        "regExpChanged"
+    ],
+    "QtGui.QDrag": [
+        "actionChanged",
+        "targetChanged"
+    ],
+    "QtGui.QClipboard": [
+        "findBufferChanged",
+        "dataChanged",
+        "changed",
+        "selectionChanged"
+    ],
+    "QtGui.QOpenGLDebugLogger": [
+        "messageLogged"
+    ],
+    "QtGui.QOpenGLContext": [
+        "aboutToBeDestroyed"
+    ],
+    "QtGui.QOffscreenSurface": [
+        "screenChanged"
+    ],
+    "QtGui.QGuiApplication": [
+        "focusObjectChanged",
+        "applicationDisplayNameChanged",
+        "primaryScreenChanged",
+        "screenAdded",
+        "applicationStateChanged",
+        "commitDataRequest",
+        "paletteChanged",
+        "fontDatabaseChanged",
+        "focusWindowChanged",
+        "screenRemoved",
+        "lastWindowClosed",
+        "saveStateRequest",
+        "fontChanged",
+        "layoutDirectionChanged"
+    ],
+    "QtGui.QMovie": [
+        "frameChanged",
+        "started",
+        "updated",
+        "finished",
+        "error",
+        "resized",
+        "stateChanged"
+    ],
+    "QtGui.QTextDocument": [
+        "documentLayoutChanged",
+        "contentsChange",
+        "contentsChanged",
+        "baseUrlChanged",
+        "undoAvailable",
+        "blockCountChanged",
+        "modificationChanged",
+        "cursorPositionChanged",
+        "redoAvailable",
+        "undoCommandAdded"
+    ],
+    "QtGui.QStandardItemModel": [
+        "itemChanged"
+    ],
+    "QtHelp.QHelpFilterEngine": [
+        "filterActivated"
+    ],
+    "QtHelp.QHelpEngineCore": [
+        "warning",
+        "currentFilterChanged",
+        "setupFinished",
+        "readersAboutToBeInvalidated",
+        "setupStarted"
+    ],
+    "QtHelp.QHelpContentWidget": [
+        "linkActivated"
+    ],
+    "QtHelp.QHelpIndexWidget": [
+        "linkActivated",
+        "documentActivated",
+        "documentsActivated",
+        "linksActivated"
+    ],
+    "QtHelp.QHelpSearchResultWidget": [
+        "requestShowLink"
+    ],
+    "QtHelp.QHelpSearchQueryWidget": [
+        "search"
+    ],
+    "QtHelp.QHelpSearchEngine": [
+        "searchingStarted",
+        "searchingFinished",
+        "indexingFinished",
+        "indexingStarted"
+    ],
+    "QtHelp.QHelpContentModel": [
+        "contentsCreated",
+        "contentsCreationStarted"
+    ],
+    "QtHelp.QHelpIndexModel": [
+        "indexCreationStarted",
+        "indexCreated"
+    ],
+    "QtLocation.QGeoRouteReply": [
+        "error",
+        "finished",
+        "aborted"
+    ],
+    "QtLocation.QGeoCodingManagerEngine": [
+        "finished",
+        "error"
+    ],
+    "QtLocation.QGeoCodingManager": [
+        "finished",
+        "error"
+    ],
+    "QtLocation.QGeoCodeReply": [
+        "error",
+        "finished",
+        "aborted"
+    ],
+    "QtLocation.QPlaceReply": [
+        "error",
+        "finished",
+        "contentUpdated",
+        "aborted"
+    ],
+    "QtLocation.QPlaceManagerEngine": [
+        "finished",
+        "placeUpdated",
+        "error",
+        "categoryRemoved",
+        "dataChanged",
+        "categoryAdded",
+        "categoryUpdated",
+        "placeAdded",
+        "placeRemoved"
+    ],
+    "QtLocation.QPlaceManager": [
+        "finished",
+        "placeUpdated",
+        "error",
+        "categoryRemoved",
+        "dataChanged",
+        "categoryAdded",
+        "categoryUpdated",
+        "placeAdded",
+        "placeRemoved"
+    ],
+    "QtLocation.QGeoRoutingManagerEngine": [
+        "finished",
+        "error"
+    ],
+    "QtLocation.QGeoRoutingManager": [
+        "finished",
+        "error"
+    ],
+    "QtMultimedia.QAbstractVideoSurface": [
+        "activeChanged",
+        "surfaceFormatChanged",
+        "supportedFormatsChanged",
+        "nativeResolutionChanged"
+    ],
+    "QtMultimedia.QAbstractVideoFilter": [
+        "activeChanged"
+    ],
+    "QtMultimedia.QAbstractAudioOutput": [
+        "errorChanged",
+        "stateChanged",
+        "notify"
+    ],
+    "QtMultimedia.QAbstractAudioInput": [
+        "errorChanged",
+        "stateChanged",
+        "notify"
+    ],
+    "QtMultimedia.QVideoProbe": [
+        "videoFrameProbed",
+        "flush"
+    ],
+    "QtMultimedia.QSoundEffect": [
+        "playingChanged",
+        "loopsRemainingChanged",
+        "loadedChanged",
+        "loopCountChanged",
+        "mutedChanged",
+        "statusChanged",
+        "categoryChanged",
+        "sourceChanged",
+        "volumeChanged"
+    ],
+    "QtMultimedia.QRadioData": [
+        "error",
+        "stationIdChanged",
+        "programTypeChanged",
+        "programTypeNameChanged",
+        "radioTextChanged",
+        "alternativeFrequenciesEnabledChanged",
+        "stationNameChanged"
+    ],
+    "QtMultimedia.QMediaRecorder": [
+        "error",
+        "durationChanged",
+        "actualLocationChanged",
+        "metaDataChanged",
+        "mutedChanged",
+        "metaDataAvailableChanged",
+        "availabilityChanged",
+        "statusChanged",
+        "stateChanged",
+        "metaDataWritableChanged",
+        "volumeChanged"
+    ],
+    "QtMultimedia.QAudioRecorder": [
+        "availableAudioInputsChanged",
+        "audioInputChanged"
+    ],
+    "QtMultimedia.QMediaPlaylist": [
+        "mediaAboutToBeRemoved",
+        "mediaRemoved",
+        "loaded",
+        "mediaInserted",
+        "mediaAboutToBeInserted",
+        "currentIndexChanged",
+        "playbackModeChanged",
+        "loadFailed",
+        "mediaChanged",
+        "currentMediaChanged"
+    ],
+    "QtMultimedia.QMediaObject": [
+        "notifyIntervalChanged",
+        "metaDataChanged",
+        "metaDataAvailableChanged",
+        "availabilityChanged"
+    ],
+    "QtMultimedia.QAudioDecoder": [
+        "error",
+        "durationChanged",
+        "bufferReady",
+        "finished",
+        "formatChanged",
+        "bufferAvailableChanged",
+        "stateChanged",
+        "positionChanged",
+        "sourceChanged"
+    ],
+    "QtMultimedia.QMediaPlayer": [
+        "error",
+        "durationChanged",
+        "customAudioRoleChanged",
+        "mediaStatusChanged",
+        "videoAvailableChanged",
+        "bufferStatusChanged",
+        "mutedChanged",
+        "audioAvailableChanged",
+        "audioRoleChanged",
+        "stateChanged",
+        "playbackRateChanged",
+        "mediaChanged",
+        "positionChanged",
+        "networkConfigurationChanged",
+        "currentMediaChanged",
+        "volumeChanged",
+        "seekableChanged"
+    ],
+    "QtMultimedia.QCamera": [
+        "error",
+        "lockStatusChanged",
+        "statusChanged",
+        "lockFailed",
+        "stateChanged",
+        "captureModeChanged",
+        "errorOccurred",
+        "locked"
+    ],
+    "QtMultimedia.QRadioTuner": [
+        "error",
+        "bandChanged",
+        "frequencyChanged",
+        "antennaConnectedChanged",
+        "mutedChanged",
+        "signalStrengthChanged",
+        "stateChanged",
+        "stereoStatusChanged",
+        "searchingChanged",
+        "stationFound",
+        "volumeChanged"
+    ],
+    "QtMultimedia.QAudioOutputSelectorControl": [
+        "availableOutputsChanged",
+        "activeOutputChanged"
+    ],
+    "QtMultimedia.QAudioInputSelectorControl": [
+        "availableInputsChanged",
+        "activeInputChanged"
+    ],
+    "QtMultimedia.QVideoDeviceSelectorControl": [
+        "devicesChanged",
+        "selectedDeviceChanged"
+    ],
+    "QtMultimedia.QRadioTunerControl": [
+        "error",
+        "bandChanged",
+        "frequencyChanged",
+        "antennaConnectedChanged",
+        "mutedChanged",
+        "signalStrengthChanged",
+        "stateChanged",
+        "stereoStatusChanged",
+        "searchingChanged",
+        "stationFound",
+        "volumeChanged"
+    ],
+    "QtMultimedia.QAudioDecoderControl": [
+        "durationChanged",
+        "bufferReady",
+        "finished",
+        "error",
+        "formatChanged",
+        "stateChanged",
+        "bufferAvailableChanged",
+        "positionChanged",
+        "sourceChanged"
+    ],
+    "QtMultimedia.QRadioDataControl": [
+        "error",
+        "stationIdChanged",
+        "programTypeChanged",
+        "programTypeNameChanged",
+        "radioTextChanged",
+        "alternativeFrequenciesEnabledChanged",
+        "stationNameChanged"
+    ],
+    "QtMultimedia.QMetaDataWriterControl": [
+        "writableChanged",
+        "metaDataChanged",
+        "metaDataAvailableChanged"
+    ],
+    "QtMultimedia.QMetaDataReaderControl": [
+        "metaDataChanged",
+        "metaDataAvailableChanged"
+    ],
+    "QtMultimedia.QMediaVideoProbeControl": [
+        "videoFrameProbed",
+        "flush"
+    ],
+    "QtMultimedia.QMediaStreamsControl": [
+        "activeStreamsChanged",
+        "streamsChanged"
+    ],
+    "QtMultimedia.QMediaRecorderControl": [
+        "durationChanged",
+        "actualLocationChanged",
+        "error",
+        "mutedChanged",
+        "statusChanged",
+        "stateChanged",
+        "volumeChanged"
+    ],
+    "QtMultimedia.QMediaPlayerControl": [
+        "durationChanged",
+        "mediaStatusChanged",
+        "availablePlaybackRangesChanged",
+        "videoAvailableChanged",
+        "bufferStatusChanged",
+        "error",
+        "mutedChanged",
+        "audioAvailableChanged",
+        "stateChanged",
+        "playbackRateChanged",
+        "mediaChanged",
+        "positionChanged",
+        "volumeChanged",
+        "seekableChanged"
+    ],
+    "QtMultimedia.QMediaNetworkAccessControl": [
+        "configurationChanged"
+    ],
+    "QtMultimedia.QMediaGaplessPlaybackControl": [
+        "advancedToNextMedia",
+        "nextMediaChanged",
+        "crossfadeTimeChanged"
+    ],
+    "QtMultimedia.QMediaAvailabilityControl": [
+        "availabilityChanged"
+    ],
+    "QtMultimedia.QMediaAudioProbeControl": [
+        "flush",
+        "audioBufferProbed"
+    ],
+    "QtMultimedia.QCustomAudioRoleControl": [
+        "customAudioRoleChanged"
+    ],
+    "QtMultimedia.QCameraZoomControl": [
+        "maximumOpticalZoomChanged",
+        "maximumDigitalZoomChanged",
+        "requestedDigitalZoomChanged",
+        "currentOpticalZoomChanged",
+        "currentDigitalZoomChanged",
+        "requestedOpticalZoomChanged"
+    ],
+    "QtMultimedia.QCameraLocksControl": [
+        "lockStatusChanged"
+    ],
+    "QtMultimedia.QCameraImageCaptureControl": [
+        "readyForCaptureChanged",
+        "imageExposed",
+        "error",
+        "imageMetadataAvailable",
+        "imageCaptured",
+        "imageAvailable",
+        "imageSaved"
+    ],
+    "QtMultimedia.QCameraFocusControl": [
+        "focusZonesChanged",
+        "customFocusPointChanged",
+        "focusModeChanged",
+        "focusPointModeChanged"
+    ],
+    "QtMultimedia.QCameraFlashControl": [
+        "flashReady"
+    ],
+    "QtMultimedia.QCameraExposureControl": [
+        "actualValueChanged",
+        "requestedValueChanged",
+        "parameterRangeChanged"
+    ],
+    "QtMultimedia.QCameraControl": [
+        "error",
+        "statusChanged",
+        "stateChanged",
+        "captureModeChanged"
+    ],
+    "QtMultimedia.QCameraCaptureDestinationControl": [
+        "captureDestinationChanged"
+    ],
+    "QtMultimedia.QVideoWindowControl": [
+        "brightnessChanged",
+        "saturationChanged",
+        "contrastChanged",
+        "fullScreenChanged",
+        "hueChanged",
+        "nativeSizeChanged"
+    ],
+    "QtMultimedia.QCameraCaptureBufferFormatControl": [
+        "bufferFormatChanged"
+    ],
+    "QtMultimedia.QAudioRoleControl": [
+        "audioRoleChanged"
+    ],
+    "QtMultimedia.QCameraImageCapture": [
+        "error",
+        "readyForCaptureChanged",
+        "bufferFormatChanged",
+        "imageExposed",
+        "imageMetadataAvailable",
+        "imageCaptured",
+        "imageAvailable",
+        "captureDestinationChanged",
+        "imageSaved"
+    ],
+    "QtMultimedia.QCameraFocus": [
+        "focusZonesChanged",
+        "digitalZoomChanged",
+        "maximumOpticalZoomChanged",
+        "maximumDigitalZoomChanged",
+        "opticalZoomChanged"
+    ],
+    "QtMultimedia.QCameraExposure": [
+        "isoSensitivityChanged",
+        "apertureRangeChanged",
+        "shutterSpeedChanged",
+        "apertureChanged",
+        "exposureCompensationChanged",
+        "flashReady",
+        "shutterSpeedRangeChanged"
+    ],
+    "QtMultimedia.QAudioProbe": [
+        "flush",
+        "audioBufferProbed"
+    ],
+    "QtMultimedia.QAudioOutput": [
+        "stateChanged",
+        "notify"
+    ],
+    "QtMultimedia.QAudioInput": [
+        "stateChanged",
+        "notify"
+    ],
+    "QtMultimediaWidgets.QVideoWidget": [
+        "brightnessChanged",
+        "saturationChanged",
+        "contrastChanged",
+        "fullScreenChanged",
+        "hueChanged"
+    ],
+    "QtMultimediaWidgets.QGraphicsVideoItem": [
+        "nativeSizeChanged"
+    ],
+    "QtMultimediaWidgets.QVideoWidgetControl": [
+        "brightnessChanged",
+        "saturationChanged",
+        "contrastChanged",
+        "fullScreenChanged",
+        "hueChanged"
+    ],
+    "QtNetwork.QDnsLookup": [
+        "nameChanged",
+        "typeChanged",
+        "finished",
+        "nameserverChanged"
+    ],
+    "QtNetwork.QAbstractSocket": [
+        "error",
+        "connected",
+        "disconnected",
+        "proxyAuthenticationRequired",
+        "hostFound",
+        "stateChanged",
+        "errorOccurred"
+    ],
+    "QtNetwork.QLocalSocket": [
+        "error",
+        "connected",
+        "disconnected",
+        "stateChanged",
+        "errorOccurred"
+    ],
+    "QtNetwork.QNetworkReply": [
+        "error",
+        "encrypted",
+        "redirectAllowed",
+        "finished",
+        "sslErrors",
+        "metaDataChanged",
+        "uploadProgress",
+        "redirected",
+        "errorOccurred",
+        "preSharedKeyAuthenticationRequired",
+        "downloadProgress"
+    ],
+    "QtNetwork.QNetworkSession": [
+        "error",
+        "opened",
+        "preferredConfigurationChanged",
+        "newConfigurationActivated",
+        "stateChanged",
+        "closed",
+        "usagePoliciesChanged"
+    ],
+    "QtNetwork.QNetworkConfigurationManager": [
+        "configurationRemoved",
+        "configurationAdded",
+        "configurationChanged",
+        "onlineStateChanged",
+        "updateCompleted"
+    ],
+    "QtNetwork.QNetworkAccessManager": [
+        "proxyAuthenticationRequired",
+        "encrypted",
+        "finished",
+        "sslErrors",
+        "authenticationRequired",
+        "networkSessionConnected",
+        "preSharedKeyAuthenticationRequired",
+        "networkAccessibleChanged"
+    ],
+    "QtNetwork.QLocalServer": [
+        "newConnection"
+    ],
+    "QtNetwork.QTcpServer": [
+        "acceptError",
+        "newConnection"
+    ],
+    "QtNetwork.QSslSocket": [
+        "sslErrors",
+        "encrypted",
+        "encryptedBytesWritten",
+        "modeChanged",
+        "preSharedKeyAuthenticationRequired",
+        "peerVerifyError",
+        "newSessionTicketReceived"
+    ],
+    "QtNetwork.QDtls": [
+        "pskRequired",
+        "handshakeTimeout"
+    ],
+    "QtPositioning.QGeoAreaMonitorSource": [
+        "error",
+        "areaEntered",
+        "areaExited",
+        "monitorExpired"
+    ],
+    "QtPositioning.QGeoSatelliteInfoSource": [
+        "error",
+        "satellitesInUseUpdated",
+        "satellitesInViewUpdated",
+        "requestTimeout"
+    ],
+    "QtPositioning.QGeoPositionInfoSource": [
+        "error",
+        "supportedPositioningMethodsChanged",
+        "updateTimeout",
+        "positionUpdated"
+    ],
+    "QtPrintSupport.QPrintPreviewWidget": [
+        "previewChanged",
+        "paintRequested"
+    ],
+    "QtPrintSupport.QPrintPreviewDialog": [
+        "paintRequested"
+    ],
+    "QtPrintSupport.QPrintDialog": [
+        "accepted"
+    ],
+    "QtQml.QQmlPropertyMap": [
+        "valueChanged"
+    ],
+    "QtQml.QQmlExpression": [
+        "valueChanged"
+    ],
+    "QtQml.QQmlComponent": [
+        "statusChanged",
+        "progressChanged"
+    ],
+    "QtQml.QJSEngine": [
+        "uiLanguageChanged"
+    ],
+    "QtQml.QQmlEngine": [
+        "exit",
+        "quit",
+        "warnings"
+    ],
+    "QtQml.QQmlApplicationEngine": [
+        "objectCreated"
+    ],
+    "QtQuick.QQuickWindow": [
+        "beforeRenderPassRecording",
+        "beforeSynchronizing",
+        "afterRenderPassRecording",
+        "sceneGraphAboutToStop",
+        "activeFocusItemChanged",
+        "afterAnimating",
+        "closing",
+        "afterSynchronizing",
+        "beforeRendering",
+        "sceneGraphError",
+        "openglContextCreated",
+        "sceneGraphInitialized",
+        "afterRendering",
+        "frameSwapped",
+        "sceneGraphInvalidated",
+        "colorChanged"
+    ],
+    "QtQuick.QQuickView": [
+        "statusChanged"
+    ],
+    "QtQuick.QSGTextureProvider": [
+        "textureChanged"
+    ],
+    "QtQuick.QSGAbstractRenderer": [
+        "sceneGraphChanged"
+    ],
+    "QtQuick.QQuickRenderControl": [
+        "renderRequested",
+        "sceneChanged"
+    ],
+    "QtQuick.QQuickItemGrabResult": [
+        "ready"
+    ],
+    "QtQuick.QQuickItem": [
+        "stateChanged",
+        "rotationChanged",
+        "zChanged",
+        "windowChanged",
+        "containmentMaskChanged",
+        "implicitWidthChanged",
+        "implicitHeightChanged",
+        "parentChanged",
+        "clipChanged",
+        "yChanged",
+        "widthChanged",
+        "visibleChildrenChanged",
+        "baselineOffsetChanged",
+        "scaleChanged",
+        "antialiasingChanged",
+        "opacityChanged",
+        "childrenRectChanged",
+        "xChanged",
+        "transformOriginChanged",
+        "activeFocusChanged",
+        "focusChanged",
+        "visibleChanged",
+        "heightChanged",
+        "activeFocusOnTabChanged",
+        "childrenChanged",
+        "smoothChanged",
+        "enabledChanged"
+    ],
+    "QtQuick.QQuickPaintedItem": [
+        "renderTargetChanged",
+        "fillColorChanged",
+        "textureSizeChanged",
+        "contentsSizeChanged",
+        "contentsScaleChanged"
+    ],
+    "QtQuick.QQuickFramebufferObject": [
+        "mirrorVerticallyChanged",
+        "textureFollowsItemSizeChanged"
+    ],
+    "QtQuick.QQuickImageResponse": [
+        "finished"
+    ],
+    "QtQuickWidgets.QQuickWidget": [
+        "statusChanged",
+        "sceneGraphError"
+    ],
+    "QtRemoteObjects.QRemoteObjectNode": [
+        "remoteObjectAdded",
+        "remoteObjectRemoved",
+        "error",
+        "heartbeatIntervalChanged"
+    ],
+    "QtRemoteObjects.QRemoteObjectReplica": [
+        "notified",
+        "stateChanged",
+        "initialized"
+    ],
+    "QtRemoteObjects.QRemoteObjectRegistry": [
+        "remoteObjectAdded",
+        "remoteObjectRemoved"
+    ],
+    "QtRemoteObjects.QRemoteObjectDynamicReplica": [
+        "notified",
+        "stateChanged",
+        "initialized"
+    ],
+    "QtRemoteObjects.QRemoteObjectPendingCallWatcher": [
+        "finished"
+    ],
+    "QtRemoteObjects.QRemoteObjectHost": [
+        "hostUrlChanged"
+    ],
+    "QtRemoteObjects.QAbstractItemModelReplica": [
+        "initialized"
+    ],
+    "QtScript.QScriptEngine": [
+        "signalHandlerException"
+    ],
+    "QtScriptTools.QScriptEngineDebugger": [
+        "evaluationSuspended",
+        "evaluationResumed"
+    ],
+    "QtScxml.QScxmlStateMachine": [
+        "dataModelChanged",
+        "initialValuesChanged",
+        "loaderChanged",
+        "invokedServicesChanged",
+        "finished",
+        "tableDataChanged",
+        "initializedChanged",
+        "reachedStableState",
+        "log",
+        "runningChanged"
+    ],
+    "QtScxml.QScxmlDataModel": [
+        "stateMachineChanged"
+    ],
+    "QtSensors.QLidReading": [
+        "frontLidChanged",
+        "backLidChanged"
+    ],
+    "QtSensors.QSensorGestureRecognizer": [
+        "detected"
+    ],
+    "QtSensors.QSensorGestureManager": [
+        "newSensorGestureAvailable"
+    ],
+    "QtSensors.QSensor": [
+        "busyChanged",
+        "activeChanged",
+        "readingChanged",
+        "efficientBufferSizeChanged",
+        "availableSensorsChanged",
+        "alwaysOnChanged",
+        "maxBufferSizeChanged",
+        "axesOrientationModeChanged",
+        "currentOrientationChanged",
+        "sensorError",
+        "userOrientationChanged",
+        "bufferSizeChanged",
+        "dataRateChanged",
+        "skipDuplicatesChanged"
+    ],
+    "QtSensors.QAccelerometer": [
+        "accelerationModeChanged"
+    ],
+    "QtSensors.QMagnetometer": [
+        "returnGeoValuesChanged"
+    ],
+    "QtSensors.QLightSensor": [
+        "fieldOfViewChanged"
+    ],
+    "QtSensors.QTapSensor": [
+        "returnDoubleTapEventsChanged"
+    ],
+    "QtSensors.QRotationSensor": [
+        "hasZChanged"
+    ],
+    "QtSerialPort.QSerialPort": [
+        "error",
+        "dataBitsChanged",
+        "parityChanged",
+        "dataTerminalReadyChanged",
+        "requestToSendChanged",
+        "breakEnabledChanged",
+        "flowControlChanged",
+        "errorOccurred",
+        "stopBitsChanged",
+        "dataErrorPolicyChanged",
+        "settingsRestoredOnCloseChanged",
+        "baudRateChanged"
+    ],
+    "QtSql.QSqlDriver": [
+        "notification"
+    ],
+    "QtSql.QSqlTableModel": [
+        "primeInsert",
+        "beforeDelete",
+        "beforeInsert",
+        "beforeUpdate"
+    ],
+    "QtSvg.QSvgRenderer": [
+        "repaintNeeded"
+    ],
+    "QtTextToSpeech.QTextToSpeechEngine": [
+        "stateChanged"
+    ],
+    "QtTextToSpeech.QTextToSpeech": [
+        "pitchChanged",
+        "localeChanged",
+        "rateChanged",
+        "stateChanged",
+        "voiceChanged",
+        "volumeChanged"
+    ],
+    "QtWebChannel.QWebChannelAbstractTransport": [
+        "messageReceived"
+    ],
+    "QtWebChannel.QWebChannel": [
+        "blockUpdatesChanged"
+    ],
+    "QtWebEngineCore.QWebEngineCookieStore": [
+        "cookieAdded",
+        "cookieRemoved"
+    ],
+    "QtWebEngineWidgets.QWebEngineProfile": [
+        "downloadRequested"
+    ],
+    "QtWebEngineWidgets.QWebEngineDownloadItem": [
+        "finished",
+        "stateChanged",
+        "isPausedChanged",
+        "downloadProgress"
+    ],
+    "QtWebEngineWidgets.QWebEngineView": [
+        "iconChanged",
+        "titleChanged",
+        "urlChanged",
+        "iconUrlChanged",
+        "renderProcessTerminated",
+        "loadStarted",
+        "loadProgress",
+        "loadFinished",
+        "selectionChanged"
+    ],
+    "QtWebEngineWidgets.QWebEnginePage": [
+        "registerProtocolHandlerRequested",
+        "loadProgress",
+        "featurePermissionRequested",
+        "recommendedStateChanged",
+        "audioMutedChanged",
+        "geometryChangeRequested",
+        "renderProcessTerminated",
+        "linkHovered",
+        "printRequested",
+        "selectionChanged",
+        "authenticationRequired",
+        "featurePermissionRequestCanceled",
+        "pdfPrintingFinished",
+        "selectClientCertificate",
+        "titleChanged",
+        "contentsSizeChanged",
+        "loadFinished",
+        "urlChanged",
+        "lifecycleStateChanged",
+        "proxyAuthenticationRequired",
+        "renderProcessPidChanged",
+        "scrollPositionChanged",
+        "findTextFinished",
+        "loadStarted",
+        "recentlyAudibleChanged",
+        "iconChanged",
+        "iconUrlChanged",
+        "visibleChanged",
+        "quotaRequested",
+        "windowCloseRequested",
+        "fullScreenRequested"
+    ],
+    "QtWebSockets.QWebSocketServer": [
+        "sslErrors",
+        "acceptError",
+        "originAuthenticationRequired",
+        "serverError",
+        "preSharedKeyAuthenticationRequired",
+        "newConnection",
+        "closed",
+        "peerVerifyError"
+    ],
+    "QtWebSockets.QMaskGenerator": [
+        "destroyed",
+        "objectNameChanged"
+    ],
+    "QtWebSockets.QWebSocket": [
+        "error",
+        "aboutToClose",
+        "connected",
+        "disconnected",
+        "proxyAuthenticationRequired",
+        "binaryMessageReceived",
+        "readChannelFinished",
+        "sslErrors",
+        "textFrameReceived",
+        "binaryFrameReceived",
+        "stateChanged",
+        "textMessageReceived",
+        "preSharedKeyAuthenticationRequired",
+        "bytesWritten",
+        "pong"
+    ],
+    "QtWidgets.QActionGroup": [
+        "triggered",
+        "hovered"
+    ],
+    "QtWidgets.QAction": [
+        "toggled",
+        "triggered",
+        "hovered",
+        "changed"
+    ],
+    "QtWidgets.QAbstractItemDelegate": [
+        "commitData",
+        "sizeHintChanged",
+        "closeEditor"
+    ],
+    "QtWidgets.QShortcut": [
+        "activated",
+        "activatedAmbiguously"
+    ],
+    "QtWidgets.QScroller": [
+        "stateChanged",
+        "scrollerPropertiesChanged"
+    ],
+    "QtWidgets.QStackedLayout": [
+        "currentChanged",
+        "widgetRemoved"
+    ],
+    "QtWidgets.QGraphicsScale": [
+        "yScaleChanged",
+        "zScaleChanged",
+        "originChanged",
+        "xScaleChanged",
+        "scaleChanged"
+    ],
+    "QtWidgets.QGraphicsRotation": [
+        "originChanged",
+        "angleChanged",
+        "axisChanged"
+    ],
+    "QtWidgets.QGraphicsScene": [
+        "sceneRectChanged",
+        "changed",
+        "focusItemChanged",
+        "selectionChanged"
+    ],
+    "QtWidgets.QWidget": [
+        "customContextMenuRequested",
+        "windowTitleChanged",
+        "windowIconTextChanged",
+        "windowIconChanged"
+    ],
+    "QtWidgets.QStatusBar": [
+        "messageChanged"
+    ],
+    "QtWidgets.QLineEdit": [
+        "returnPressed",
+        "inputRejected",
+        "editingFinished",
+        "textEdited",
+        "cursorPositionChanged",
+        "textChanged",
+        "selectionChanged"
+    ],
+    "QtWidgets.QTabWidget": [
+        "tabCloseRequested",
+        "tabBarDoubleClicked",
+        "tabBarClicked",
+        "currentChanged"
+    ],
+    "QtWidgets.QTabBar": [
+        "tabCloseRequested",
+        "tabBarDoubleClicked",
+        "tabBarClicked",
+        "currentChanged",
+        "tabMoved"
+    ],
+    "QtWidgets.QSplashScreen": [
+        "messageChanged"
+    ],
+    "QtWidgets.QKeySequenceEdit": [
+        "editingFinished",
+        "keySequenceChanged"
+    ],
+    "QtWidgets.QComboBox": [
+        "activated",
+        "editTextChanged",
+        "textActivated",
+        "currentIndexChanged",
+        "textHighlighted",
+        "currentTextChanged",
+        "highlighted"
+    ],
+    "QtWidgets.QFontComboBox": [
+        "currentFontChanged"
+    ],
+    "QtWidgets.QWizardPage": [
+        "completeChanged"
+    ],
+    "QtWidgets.QCalendarWidget": [
+        "activated",
+        "currentPageChanged",
+        "clicked",
+        "selectionChanged"
+    ],
+    "QtWidgets.QGroupBox": [
+        "toggled",
+        "clicked"
+    ],
+    "QtWidgets.QAbstractSpinBox": [
+        "editingFinished"
+    ],
+    "QtWidgets.QDateTimeEdit": [
+        "dateTimeChanged",
+        "timeChanged",
+        "dateChanged"
+    ],
+    "QtWidgets.QDateEdit": [
+        "userDateChanged"
+    ],
+    "QtWidgets.QTimeEdit": [
+        "userTimeChanged"
+    ],
+    "QtWidgets.QDoubleSpinBox": [
+        "valueChanged",
+        "textChanged"
+    ],
+    "QtWidgets.QSpinBox": [
+        "valueChanged",
+        "textChanged"
+    ],
+    "QtWidgets.QAbstractSlider": [
+        "actionTriggered",
+        "sliderMoved",
+        "sliderReleased",
+        "rangeChanged",
+        "valueChanged",
+        "sliderPressed"
+    ],
+    "QtWidgets.QLCDNumber": [
+        "overflow"
+    ],
+    "QtWidgets.QTextEdit": [
+        "currentCharFormatChanged",
+        "copyAvailable",
+        "undoAvailable",
+        "cursorPositionChanged",
+        "textChanged",
+        "redoAvailable",
+        "selectionChanged"
+    ],
+    "QtWidgets.QTextBrowser": [
+        "anchorClicked",
+        "historyChanged",
+        "forwardAvailable",
+        "backwardAvailable",
+        "sourceChanged",
+        "highlighted"
+    ],
+    "QtWidgets.QAbstractItemView": [
+        "activated",
+        "iconSizeChanged",
+        "entered",
+        "doubleClicked",
+        "clicked",
+        "pressed",
+        "viewportEntered"
+    ],
+    "QtWidgets.QHeaderView": [
+        "sortIndicatorChanged",
+        "geometriesChanged",
+        "sectionPressed",
+        "sectionCountChanged",
+        "sectionEntered",
+        "sectionResized",
+        "sectionMoved",
+        "sectionClicked",
+        "sectionDoubleClicked",
+        "sectionHandleDoubleClicked"
+    ],
+    "QtWidgets.QTableWidget": [
+        "itemSelectionChanged",
+        "cellDoubleClicked",
+        "currentCellChanged",
+        "itemChanged",
+        "itemEntered",
+        "itemPressed",
+        "currentItemChanged",
+        "itemActivated",
+        "cellEntered",
+        "cellActivated",
+        "cellChanged",
+        "itemDoubleClicked",
+        "itemClicked",
+        "cellPressed",
+        "cellClicked"
+    ],
+    "QtWidgets.QColumnView": [
+        "updatePreviewWidget"
+    ],
+    "QtWidgets.QTreeView": [
+        "collapsed",
+        "expanded"
+    ],
+    "QtWidgets.QTreeWidget": [
+        "itemSelectionChanged",
+        "itemChanged",
+        "itemCollapsed",
+        "itemEntered",
+        "itemPressed",
+        "currentItemChanged",
+        "itemActivated",
+        "itemExpanded",
+        "itemDoubleClicked",
+        "itemClicked"
+    ],
+    "QtWidgets.QListView": [
+        "indexesMoved"
+    ],
+    "QtWidgets.QListWidget": [
+        "itemSelectionChanged",
+        "itemChanged",
+        "itemEntered",
+        "currentRowChanged",
+        "itemPressed",
+        "currentItemChanged",
+        "currentTextChanged",
+        "itemActivated",
+        "itemDoubleClicked",
+        "itemClicked"
+    ],
+    "QtWidgets.QMdiArea": [
+        "subWindowActivated"
+    ],
+    "QtWidgets.QGraphicsView": [
+        "rubberBandChanged"
+    ],
+    "QtWidgets.QPlainTextEdit": [
+        "copyAvailable",
+        "undoAvailable",
+        "blockCountChanged",
+        "modificationChanged",
+        "cursorPositionChanged",
+        "textChanged",
+        "redoAvailable",
+        "selectionChanged",
+        "updateRequest"
+    ],
+    "QtWidgets.QStackedWidget": [
+        "currentChanged",
+        "widgetRemoved"
+    ],
+    "QtWidgets.QToolBox": [
+        "currentChanged"
+    ],
+    "QtWidgets.QSplitter": [
+        "splitterMoved"
+    ],
+    "QtWidgets.QLabel": [
+        "linkActivated",
+        "linkHovered"
+    ],
+    "QtWidgets.QProgressBar": [
+        "valueChanged"
+    ],
+    "QtWidgets.QAbstractButton": [
+        "released",
+        "toggled",
+        "clicked",
+        "pressed"
+    ],
+    "QtWidgets.QCheckBox": [
+        "stateChanged"
+    ],
+    "QtWidgets.QToolButton": [
+        "triggered"
+    ],
+    "QtWidgets.QOpenGLWidget": [
+        "aboutToResize",
+        "resized",
+        "aboutToCompose",
+        "frameSwapped"
+    ],
+    "QtWidgets.QToolBar": [
+        "actionTriggered",
+        "movableChanged",
+        "orientationChanged",
+        "iconSizeChanged",
+        "toolButtonStyleChanged",
+        "visibilityChanged",
+        "allowedAreasChanged",
+        "topLevelChanged"
+    ],
+    "QtWidgets.QMenuBar": [
+        "triggered",
+        "hovered"
+    ],
+    "QtWidgets.QMenu": [
+        "aboutToHide",
+        "triggered",
+        "hovered",
+        "aboutToShow"
+    ],
+    "QtWidgets.QDockWidget": [
+        "visibilityChanged",
+        "allowedAreasChanged",
+        "dockLocationChanged",
+        "featuresChanged",
+        "topLevelChanged"
+    ],
+    "QtWidgets.QMdiSubWindow": [
+        "windowStateChanged",
+        "aboutToActivate"
+    ],
+    "QtWidgets.QDialogButtonBox": [
+        "accepted",
+        "clicked",
+        "helpRequested",
+        "rejected"
+    ],
+    "QtWidgets.QMainWindow": [
+        "iconSizeChanged",
+        "toolButtonStyleChanged",
+        "tabifiedDockWidgetActivated"
+    ],
+    "QtWidgets.QDialog": [
+        "finished",
+        "accepted",
+        "rejected"
+    ],
+    "QtWidgets.QMessageBox": [
+        "buttonClicked"
+    ],
+    "QtWidgets.QFontDialog": [
+        "currentFontChanged",
+        "fontSelected"
+    ],
+    "QtWidgets.QInputDialog": [
+        "textValueSelected",
+        "doubleValueChanged",
+        "doubleValueSelected",
+        "intValueChanged",
+        "textValueChanged",
+        "intValueSelected"
+    ],
+    "QtWidgets.QColorDialog": [
+        "currentColorChanged",
+        "colorSelected"
+    ],
+    "QtWidgets.QProgressDialog": [
+        "canceled"
+    ],
+    "QtWidgets.QWizard": [
+        "currentIdChanged",
+        "helpRequested",
+        "pageAdded",
+        "pageRemoved",
+        "customButtonClicked"
+    ],
+    "QtWidgets.QDesktopWidget": [
+        "primaryScreenChanged",
+        "resized",
+        "workAreaResized",
+        "screenCountChanged"
+    ],
+    "QtWidgets.QUndoStack": [
+        "canUndoChanged",
+        "redoTextChanged",
+        "canRedoChanged",
+        "undoTextChanged",
+        "indexChanged",
+        "cleanChanged"
+    ],
+    "QtWidgets.QGraphicsObject": [
+        "opacityChanged",
+        "xChanged",
+        "yChanged",
+        "rotationChanged",
+        "parentChanged",
+        "heightChanged",
+        "childrenChanged",
+        "zChanged",
+        "visibleChanged",
+        "enabledChanged",
+        "scaleChanged",
+        "widthChanged"
+    ],
+    "QtWidgets.QGraphicsWidget": [
+        "geometryChanged",
+        "layoutChanged"
+    ],
+    "QtWidgets.QGraphicsTextItem": [
+        "linkActivated",
+        "linkHovered"
+    ],
+    "QtWidgets.QUndoGroup": [
+        "canUndoChanged",
+        "redoTextChanged",
+        "canRedoChanged",
+        "undoTextChanged",
+        "indexChanged",
+        "activeStackChanged",
+        "cleanChanged"
+    ],
+    "QtWidgets.QGraphicsEffect": [
+        "enabledChanged"
+    ],
+    "QtWidgets.QGraphicsDropShadowEffect": [
+        "offsetChanged",
+        "blurRadiusChanged",
+        "colorChanged"
+    ],
+    "QtWidgets.QGraphicsColorizeEffect": [
+        "strengthChanged",
+        "colorChanged"
+    ],
+    "QtWidgets.QGraphicsBlurEffect": [
+        "blurHintsChanged",
+        "blurRadiusChanged"
+    ],
+    "QtWidgets.QGraphicsOpacityEffect": [
+        "opacityChanged",
+        "opacityMaskChanged"
+    ],
+    "QtWidgets.QSystemTrayIcon": [
+        "activated",
+        "messageClicked"
+    ],
+    "QtWidgets.QDataWidgetMapper": [
+        "currentIndexChanged"
+    ],
+    "QtWidgets.QCompleter": [
+        "activated",
+        "highlighted"
+    ],
+    "QtWidgets.QButtonGroup": [
+        "buttonToggled",
+        "buttonPressed",
+        "idPressed",
+        "idReleased",
+        "idClicked",
+        "buttonClicked",
+        "idToggled",
+        "buttonReleased"
+    ],
+    "QtWidgets.QApplication": [
+        "focusChanged"
+    ],
+    "QtWidgets.QFileDialog": [
+        "urlsSelected",
+        "currentChanged",
+        "urlSelected",
+        "fileSelected",
+        "filesSelected",
+        "filterSelected",
+        "directoryEntered",
+        "currentUrlChanged",
+        "directoryUrlEntered"
+    ],
+    "QtWidgets.QFileSystemModel": [
+        "rootPathChanged",
+        "fileRenamed",
+        "directoryLoaded"
+    ],
+    "QtWinExtras.QWinThumbnailToolButton": [
+        "clicked",
+        "changed"
+    ],
+    "QtWinExtras.QWinThumbnailToolBar": [
+        "iconicThumbnailPixmapRequested",
+        "iconicLivePreviewPixmapRequested"
+    ],
+    "QtWinExtras.QWinTaskbarProgress": [
+        "pausedChanged",
+        "visibilityChanged",
+        "stoppedChanged",
+        "valueChanged",
+        "minimumChanged",
+        "maximumChanged"
+    ],
+
+    "_": "manuall added",
+    "Phil.Toto": [
+        "emitted",
+        "changed"
+    ],
+    "Phil.Toto.Titi": [
+        "emitted",
+        "changed"
+    ]
+}
