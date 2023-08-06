@@ -1,0 +1,13 @@
+adfpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adfpy/activities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adfpy/activities/control.py,sha256=j0P2gkitwekUTUPwa_FULWJycmHK7F-bDIwyarpeXqs,3683
+adfpy/activities/execution.py,sha256=co-JCdiNspTrSBB7PC1wzM0iU6slznNRcsX3mO4TjJ0,4802
+adfpy/activity.py,sha256=9W0_xDHGo3-iBEEUG02zrRpkrsG_Yx1mGy-6H-9cOnA,1858
+adfpy/deploy.py,sha256=QkIBL3CfRVpBTq4YcTNMGR3l6ZAMLfgq2pvOIH3B3NY,7839
+adfpy/error.py,sha256=adaVjBCl8TqNqMSndFIaR6dyL67whtoXLDXchMAcMH0,263
+adfpy/pipeline.py,sha256=xIuHmEsGJ77gHZDPHAigcE8cTz-6kFq_wd19ybKrePw,1505
+adfpy/trigger.py,sha256=TfbIK35qmEqqJ24my3rGhGuXPBODxNg8HjaLAe68mbw,16067
+adfpy-0.1.0.dist-info/entry_points.txt,sha256=Jvw78B9rgS1R3xMf5p_wARPMhNry9yxBXWu7eF3DLgk,60
+adfpy-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+adfpy-0.1.0.dist-info/METADATA,sha256=0BSNYeax1pNjY4LHCiRwg7XA5lkbsJtzXy67KUVTFkg,2246
+adfpy-0.1.0.dist-info/RECORD,,
