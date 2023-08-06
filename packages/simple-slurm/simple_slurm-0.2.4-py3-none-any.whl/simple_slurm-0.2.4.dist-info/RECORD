@@ -1,0 +1,10 @@
+simple_slurm/__init__.py,sha256=lq3Nryoqsd5IyP1KwPMmPcbdv6MOt1cGu7TZg0S3bd8,160
+simple_slurm/arguments.txt,sha256=3Y75k3rcynlZwrH6cT1ONFXWC9alwWz_OzojCibu3nA,995
+simple_slurm/core.py,sha256=W29HCDy1JAh24DKzs58wO0_DelPjLjT2EM-5l5c3Xlk,8488
+simple_slurm/filename_patterns.txt,sha256=VB6BGNEJhWPI_PkYvfsXTwELRJ1Cqgc5fISCODta9HM,185
+simple_slurm/output_env_vars.txt,sha256=8f28d7Jj4DPj-Jkiwc42Rok5Yf9X_YMhymGRocAtSwA,1000
+simple_slurm-0.2.4.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+simple_slurm-0.2.4.dist-info/METADATA,sha256=vzZwRLEwsgwl58p9a2jhPMWmEft-qjvjK2YKsnvOPvE,7195
+simple_slurm-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simple_slurm-0.2.4.dist-info/top_level.txt,sha256=4eLrNXhjdsi4oOdNuC8NX6x6s5teXGPsSlE4ps3BFXw,13
+simple_slurm-0.2.4.dist-info/RECORD,,
