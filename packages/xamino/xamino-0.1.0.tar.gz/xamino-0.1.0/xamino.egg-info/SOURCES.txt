@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xamino/__init__.py
+xamino/client.py
+xamino/subclient.py
+xamino/utilities.py
+xamino.egg-info/PKG-INFO
+xamino.egg-info/SOURCES.txt
+xamino.egg-info/dependency_links.txt
+xamino.egg-info/requires.txt
+xamino.egg-info/top_level.txt

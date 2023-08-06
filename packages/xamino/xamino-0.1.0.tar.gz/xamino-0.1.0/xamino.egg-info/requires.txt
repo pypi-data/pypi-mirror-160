@@ -1,0 +1,5 @@
+httpx
+ujson
+typing
+colored
+setuptools
