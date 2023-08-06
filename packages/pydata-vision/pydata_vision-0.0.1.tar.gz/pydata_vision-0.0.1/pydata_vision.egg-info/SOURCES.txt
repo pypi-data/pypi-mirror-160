@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+detect/__init__.py
+detect/detect_face.py
+pydata_vision.egg-info/PKG-INFO
+pydata_vision.egg-info/SOURCES.txt
+pydata_vision.egg-info/dependency_links.txt
+pydata_vision.egg-info/requires.txt
+pydata_vision.egg-info/top_level.txt
