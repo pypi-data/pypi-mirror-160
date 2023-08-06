@@ -1,0 +1,7 @@
+gdstk~=0.8.3
+gdspy
+numpy
+scipy
+
+[dev]
+black
