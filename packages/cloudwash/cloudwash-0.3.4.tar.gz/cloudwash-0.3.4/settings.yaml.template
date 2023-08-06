@@ -1,0 +1,38 @@
+---
+# The VM to be deleted with prepend string
+DELETE_VM: 'test'
+# Number of minutes the deletable VM should be allowed to live
+SLA_MINUTES: 120
+# Compute Resources and there credentials to connect to them for cleanup
+PROVIDERS:
+  GCE:
+    PROJECT_ID:
+    SERVICE_ACCOUNT:
+    # VMs that would be skipped from cleanup
+    EXCEPT_VM_LIST: []
+    # VMs that would be stopped from running states
+    EXCEPT_VM_STOP_LIST: []
+
+  AZURE:
+    USERNAME:
+    PASSWORD:
+    TENANT_ID:
+    SUBSCRIPTION_ID:
+    RESOURCE_GROUP:
+    REGION:
+    # VMs that would be skipped from cleanup
+    EXCEPT_VM_LIST: []
+    # VMs that would be stopped from running states
+    EXCEPT_VM_STOP_LIST: []
+
+  EC2:
+    # ACCESS_KEY can be used as username
+    USERNAME:
+    # SECRET_KEY can be used as password
+    PASSWORD:
+    # Multiple regions can be added like ["ap-south-1", "us-west-2", "us-west-1"] or ["all"] for all regions
+    REGIONS: []
+    # VMs that would be skipped from cleanup
+    EXCEPT_VM_LIST: []
+    # VMs that would be stopped from running states
+    EXCEPT_VM_STOP_LIST: []

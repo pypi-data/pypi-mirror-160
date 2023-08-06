@@ -1,0 +1,33 @@
+FROM registry.access.redhat.com/ubi8/python-38:latest
+MAINTAINER "https://github.com/RedHatQE"
+
+ENV VIRTUAL_ENV="/opt/app-root" \
+    HOME="/opt/app-root/src" \
+    CLOUDWASH_DIR="/opt/app-root/src/cloudwash" \
+    PYCURL_SSL_LIBRARY=openssl
+
+USER 0
+RUN yum -y clean all
+
+# Installing cloudwash
+USER 1001
+WORKDIR "${HOME}"
+RUN git clone --depth=1 https://github.com/RedHatQE/cloudwash.git && \
+    cd ${CLOUDWASH_DIR} && \
+    pip install --upgrade pip && \
+    pip install . && \
+    cp settings.yaml.template settings.yaml
+# Workaround for the issue DistributionNotFound: The 'azure-mgmt-media~=1.0.0rc2' distribution was not found and is required by azure-mgmt
+# RUN pip install azure-mgmt-media==1.0.0rc2
+
+# adding .profile to environment variables, so it will be kept between shell sessions
+RUN echo "source ${VIRTUAL_ENV}/.profile" >> ${VIRTUAL_ENV}/bin/activate && touch ${VIRTUAL_ENV}/.profile
+
+# arbitrary UID handling starting from virtualenv directory for pip permissions
+USER 0
+RUN chgrp -R 0 ${VIRTUAL_ENV} && \
+    chmod -R g+rwX ${VIRTUAL_ENV} && \
+    fix-permissions ${VIRTUAL_ENV} -P
+
+USER 1001
+WORKDIR "${CLOUDWASH_DIR}"
