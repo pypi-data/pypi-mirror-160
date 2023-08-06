@@ -1,0 +1,14 @@
+py2gsuite/__init__.py,sha256=0HCxuI1Nld8nUkf7kL8Vf1n5S0FMP5xuRAkd4cKqIvA,844
+py2gsuite/api/__init__.py,sha256=IG_eA3ecfqMVntzWvB8MLkhs3ZbvLIk0Z6JUK3F50bs,98
+py2gsuite/api/base.py,sha256=xvJZScRIGxvj-i4I4yLqYVbvoQ2-dFJ9-BT-NMMUtf8,818
+py2gsuite/api/sheets.py,sha256=oAGlpxfJ1mm_Ys_xOlTyjwmpM3WBM4AGWi8_GjgphY0,5625
+py2gsuite/api/slides.py,sha256=MKoeUqLQAT6kotZGkE3AoIz7uzi1iVIybV6PAEIWjPM,11562
+py2gsuite/utils/__init__.py,sha256=rOEiQzFkBNEeoRs4_3NIFQprOl4P7G60IX69n1zxVEk,372
+py2gsuite/utils/credential.py,sha256=Vj4nVVjb4zxyXhqbIgyyzHw_rHxHDc0ARRv22SUL97E,3098
+py2gsuite/utils/format.py,sha256=nHXq2MTPjPUZAc78eTqnlZzevziyOVCIM2ZYP_GrD28,3253
+py2gsuite/utils/logger.py,sha256=GCfmYL88InZTS57YXjm4t7iYirqAnEu0nG_3HiUvBLs,1422
+py2gsuite/utils/types.py,sha256=zrGMsQK1HwVmxObCZ_Bq0-7wpmPGisqnkj2eIs674HA,2031
+py2gsuite-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py2gsuite-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+py2gsuite-0.2.0.dist-info/METADATA,sha256=_1dkeTOl7j3Dn_4qCsqP-gzXRRHBINfK6zn7r5sz4aw,554
+py2gsuite-0.2.0.dist-info/RECORD,,
