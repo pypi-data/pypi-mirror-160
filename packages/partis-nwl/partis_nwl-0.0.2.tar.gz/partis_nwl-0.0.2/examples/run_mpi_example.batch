@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name=test
+#SBATCH --ntasks=13
+#SBATCH --cpus-per-task=1
+#SBATCH --time=1:0:0
+
+set -ef -o pipefail
+
+# NOTE: need run_nwl_pkg.sh at least once to package examples
+
+# Example use with SLURM
+# sbatch ./run_mpi_example.batch
+
+export NWL_MPIEXEC='mpiexec -n {processes} -machinefile {nodefile}'
+
+partis-nwl \
+  --find-links ./dist \
+  --tool mpi_example.mpi_example \
+  --inputs mpi_inputs.yml \
+  --rundir tmp/mpi_example

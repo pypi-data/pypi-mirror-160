@@ -1,0 +1,37 @@
+nwl: 1
+type: tool
+info:
+  label : Inclusion of a Python module
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+resources:
+  python:
+    module: util.py
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+outputs:
+
+  error:
+    type : float
+    label: Resulting error
+    value: $expr:py _.data.commands.calc_error.return_val
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+commands:
+  #-----------------------------------------------------------------------------
+  calc_error:
+    type: script
+    source: |-
+      $func:py
+
+      import numpy as np
+
+      # The specified `resources.python.module` can be accessed as a relative import
+      from . import util
+
+      print( util.__file__ )
+
+      x = np.random.rand(10)
+      y = np.random.rand(10)
+
+      return util.relative_error( x, y )

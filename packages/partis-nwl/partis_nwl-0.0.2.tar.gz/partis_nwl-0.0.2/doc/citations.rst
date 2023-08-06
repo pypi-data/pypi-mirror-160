@@ -1,0 +1,5 @@
+Citations
+=========
+
+.. bibliography::
+  :all:

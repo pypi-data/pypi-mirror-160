@@ -1,0 +1,109 @@
+# -*- coding: UTF-8 -*-
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+#                                                                              #
+#                       OOOOOOOOO---------------OOOOOOOOO                      #
+#                       OOOOO-----------------------OOOOO                      #
+#                       OOO-------------------NNNN----OOO                      #
+#                       O--------------------NNNNNN-----O                      #
+#                       O----------NN--------NNN-NNN----O                      #
+#                       ---------NNNNNNN-----NNN--NNN----                      #
+#                       ---------NNNNNNNNN---NNN---NNNNNN                      #
+#                       NNNNNN---NNN---NNNNNNNNN---------                      #
+#                       ----NNN--NNN-----NNNNNN----------                      #
+#                       O----NNN-NNN--------NN----------O                      #
+#                       O-----NNNNNN--------------------O                      #
+#                       OOO----NNNN-------------------OOO                      #
+#                       OOOOO-----------------------OOOOO                      #
+#                       OOOOOOOOO---------------OOOOOOOOO                      #
+#                                                                              #
+#                                Nanohmics, Inc.                               #
+#                                                                              #
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+[project]
+name = "partis-nwl"
+version = "0.0.2"
+description = "Implementation of Nano Workflow Language (NWL)"
+maintainers = [
+  { name = "Nanohmics Inc.", email = "software.support@nanohmics.com" } ]
+license = { file = "LICENSE.txt" }
+readme = { file = "README.rst" }
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+  "Topic :: System :: Clustering",
+  "Operating System :: POSIX :: Linux" ]
+
+requires-python = ">= 3.6.2"
+dependencies = [
+  "partis-utils[asy] == 0.0.2",
+  "partis-schema == 0.0.2",
+  "ruamel.yaml == 0.16.5",
+  "build >= 0.7.0",
+  "tomli >= 1.2.3" ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[project.optional-dependencies]
+
+doc = [
+  'partis-utils[sphinx] == 0.0.2' ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[project.scripts]
+partis-nwl = "partis.nwl.__main__:main"
+partis-nwl-pkg = "partis.nwl.tool_pkg.__main__:main"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[project.entry-points.partis_view]
+view_editors = "partis.nwl.view.plugin:get_view_editors"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Build and distribution configuration
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[build-system]
+requires = [
+  "partis-pyproj == 0.0.2" ]
+
+build-backend = "partis.pyproj.backend"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist]
+
+ignore = [
+  '__pycache__',
+  '*.py[cod]',
+  '*.so',
+  '*.egg-info',
+  '.nox',
+  '.pytest_cache',
+  '.coverage',
+  'tmp',
+  'dist',
+  'build',
+  'doc/_build',
+  'doc/.nox' ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist.source]
+
+copy = [
+  'src',
+  'doc',
+  'test',
+  'examples',
+  'LICENSE.txt',
+  'README.rst',
+  'pyproject.toml' ]
+
+# adds support for legacy 'setup.py'
+add_legacy_setup = true
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist.binary.purelib]
+
+copy = [
+  { src = 'src', dst = 'partis' } ]

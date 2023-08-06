@@ -1,0 +1,36 @@
+nwl: 1
+type: tool
+info:
+  label : Inclusion of static data files
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+resources:
+  static:
+    some_data: text.txt
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+outputs:
+
+  res_file:
+    type : file
+    label: Included file resource
+    value: $expr:py _.data.commands.copy_file.return_val
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+commands:
+  #-----------------------------------------------------------------------------
+  copy_file:
+    type: script
+    source: |-
+      $func:py
+
+      import os.path
+      import shutil
+
+      src = static.some_data.path
+      dst = os.path.basename( static.some_data.path )
+
+      print(f"copyfile: {src} -> {dst}")
+      shutil.copyfile( src, dst )
+
+      return dst
