@@ -1,0 +1,2 @@
+from fakturoid import Fakturoid
+
