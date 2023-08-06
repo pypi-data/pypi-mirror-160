@@ -1,0 +1,12 @@
+qpoint/__init__.py,sha256=Xj-a2s0eSn1iFpJF9wKe7UbCIAzi3YcmgU495yjrAhs,294
+qpoint/_libqpoint.py,sha256=ClrwoM8oFqIgMl9ld_odXqRxCCpgjlkFGxwWsSvtn7I,31883
+qpoint/_version.py,sha256=HlUto0aAMZSd52Oc3AzCycSoRTIFlH5iTc9mZgvzw3g,23
+qpoint/libqpoint.cpython-37m-darwin.so,sha256=4VIZ-PMu-ZaHi0W75RrX5aPkWFJDKTHVRnLvg6H3Wng,606688
+qpoint/qmap_class.py,sha256=qNudMJi5xu8rAHUQbFqt2J7txs9OkkeTWFHdhqoFgwQ,48809
+qpoint/qpoint_class.py,sha256=NcVWD_mj0LBMNrXea_wLjpyQO7qXTmgyu3oCzMTtFGk,64307
+qpoint/tools.py,sha256=kXTqq-k-cDM3IAANEcCCsJN636jl70-4chQRGmgXi_Q,994
+qpoint-1.12.1.dist-info/LICENSE,sha256=VWcyvfLaS0xSicGRJis99WPZHtAUtBXbIebD_ml_-Xg,1073
+qpoint-1.12.1.dist-info/METADATA,sha256=at0xA6hRMDSC3RqphyH8ylI2GCbev_NE32J7ZqhW7d8,1719
+qpoint-1.12.1.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+qpoint-1.12.1.dist-info/top_level.txt,sha256=2WdPHRmw7PsqXAkBfuhZW_pEvF3b1QBIk5g7PdFyBAo,7
+qpoint-1.12.1.dist-info/RECORD,,
