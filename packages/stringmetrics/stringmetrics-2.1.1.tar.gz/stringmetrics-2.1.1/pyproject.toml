@@ -1,0 +1,13 @@
+[build-system]
+requires = ["maturin>=0.12,<0.13"]
+build-backend = "maturin"
+
+[project]
+name = "stringmetrics"
+requires-python = ">=3.7"
+description = "A fast library for string metrics, including Levenshtein distance"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
