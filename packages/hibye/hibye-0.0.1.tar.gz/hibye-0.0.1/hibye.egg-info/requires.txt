@@ -1,0 +1,4 @@
+json
+matplotlib
+numpy
+socket

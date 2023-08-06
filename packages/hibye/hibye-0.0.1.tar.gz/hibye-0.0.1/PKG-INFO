@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: hibye
+Version: 0.0.1
+Summary: simple request-response services in python
+Home-page: UNKNOWN
+Author: Daniel Dugas
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

@@ -1,0 +1,10 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+hibye/__init__.py
+hibye/service.py
+hibye.egg-info/PKG-INFO
+hibye.egg-info/SOURCES.txt
+hibye.egg-info/dependency_links.txt
+hibye.egg-info/requires.txt
+hibye.egg-info/top_level.txt
