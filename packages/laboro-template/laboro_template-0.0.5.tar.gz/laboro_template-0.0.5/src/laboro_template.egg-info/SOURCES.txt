@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/laboro_template/__init__.py
+src/laboro_template.egg-info/PKG-INFO
+src/laboro_template.egg-info/SOURCES.txt
+src/laboro_template.egg-info/dependency_links.txt
+src/laboro_template.egg-info/requires.txt
+src/laboro_template.egg-info/top_level.txt
+src/laboro_template/schema/__init__.py
+src/laboro_template/schema/specification.yml
