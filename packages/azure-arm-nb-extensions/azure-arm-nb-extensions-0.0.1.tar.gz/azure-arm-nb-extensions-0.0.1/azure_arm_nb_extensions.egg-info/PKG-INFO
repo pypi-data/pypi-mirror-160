@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: azure-arm-nb-extensions
+Version: 0.0.1
+Summary: Jupyter notebook extensions for azure arm.
+Home-page: https://github.com/horietakehiro/azure-arm-nb-extensions
+Author: Takehiro Horie
+Author-email: horie.takehiro@outlook.jp
+License: MIT License
+Description: # azure-arm-nb-extensions
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
