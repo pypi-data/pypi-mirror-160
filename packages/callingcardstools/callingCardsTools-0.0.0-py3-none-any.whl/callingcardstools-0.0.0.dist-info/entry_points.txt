@@ -1,0 +1,4 @@
+[console_scripts]
+hello_world=callingcardstools:hello_world
+macs_peak_caller=callingcardstools.bin:macs_peak_caller.main
+
