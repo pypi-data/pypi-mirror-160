@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flower-classifier
+Version: 0.1.2
+Summary: 
+Author: hoopoes
+Author-email: pushkin522@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: black (>=22.6.0,<23.0.0)
+Requires-Dist: isort (>=5.10.1,<6.0.0)
+Requires-Dist: pylint (>=2.14.4,<3.0.0)
+Requires-Dist: wandb (>=0.12.21,<0.13.0)
+Requires-Dist: yacs (>=0.1.8,<0.2.0)
