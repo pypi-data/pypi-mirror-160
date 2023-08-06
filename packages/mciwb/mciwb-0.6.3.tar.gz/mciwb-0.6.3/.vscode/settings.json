@@ -1,0 +1,36 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": false,
+    "python.linting.enabled": true,
+    "python.testing.pytestArgs": [],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.formatting.provider": "black",
+    "python.languageServer": "Pylance",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "cSpell.words": [
+        "addfinalizer",
+        "arcname",
+        "copyblock",
+        "excalidraw",
+        "fname",
+        "forceload",
+        "gamerule",
+        "IMPORTMISMATCH",
+        "itemlists",
+        "minecraft",
+        "mockclient",
+        "mockplayer",
+        "NPCS",
+        "prereq",
+        "setblock",
+        "setworldspawn",
+        "tracebacklimit",
+        "typecheck"
+    ],
+    "esbonio.sphinx.confDir": "${workspaceFolder}/docs"
+}
