@@ -1,0 +1,4 @@
+
+[:platform_system == "Windows"]
+wmi
+pywin32
