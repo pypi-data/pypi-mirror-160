@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mytutor/__init__.py
+mytutor.egg-info/PKG-INFO
+mytutor.egg-info/SOURCES.txt
+mytutor.egg-info/dependency_links.txt
+mytutor.egg-info/top_level.txt
