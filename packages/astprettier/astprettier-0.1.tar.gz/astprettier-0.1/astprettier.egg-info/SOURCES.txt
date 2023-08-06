@@ -1,0 +1,13 @@
+.gitignore
+astprettier.py
+license.txt
+pyproject.toml
+readme.md
+.github/workflows/ci.yml
+astprettier.egg-info/PKG-INFO
+astprettier.egg-info/SOURCES.txt
+astprettier.egg-info/dependency_links.txt
+astprettier.egg-info/entry_points.txt
+astprettier.egg-info/requires.txt
+astprettier.egg-info/top_level.txt
+tests/tests.py

@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: astprettier
+Version: 0.1
+Summary: Pretty print the output of python stdlib `ast.parse`.
+License: Copyright (c)      2022 Ronny Rentner
+        Copyright (c) 2017-2022 Anthony Sottile
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        
+Project-URL: main, https://github.com/ronny-rentner/astprettier
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: colorize
+
+# astprettier
+
+[![PyPI Package](https://img.shields.io/pypi/v/astprettier.svg)](https://pypi.org/project/astprettier)
+[![Unit Tests](https://github.com/ronny-rentner/astprettier/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ronny-rentner/astprettier/actions/workflows/ci.yml)
+[![Python >=3.8](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/github/license/ronny-rentner/astprettier.svg)](https://github.com/ronny-rentner/astprettier/blob/master/license.txt)
+
+Pretty print the output of Python AST `ast.parse`.
+
+__Note:__ This is a fork of [astpretty](https://github.com/asottile/astpretty). The goals of this fork are:
+ * Adding more advanced features that go beyond the REPL scope of astpretty
+ * Refactoring and cleanup to make the very small code base easier to understand and maintain
+ * Experimentation with Python packaging to make the project directory more beautiful and have less boilerplate
+
+## Installation
+
+`pip install astprettier`
+
+## Usage
+
+### REPL
+
+`astprettier` provides two main functions:
+
+`astprettier.format(node, indent_level=0, indent='    ', show_offsets=True, ns_prefix='')`
+`astprettier.print(node, indent_level=0, indent='    ', show_offsets=True, ns_prefix='')`
+
+`astprettier.print` is a thin wrapper around `astprettier.format` that just writes the output of `format` to `sys.stdout`
+
+```python
+>>> import ast, astprettier
+>>> astprettier.print(ast.parse('if x == y: y += 4').body[0])
+If(
+    lineno=1,
+    col_offset=0,
+    test=Compare(
+        lineno=1,
+        col_offset=3,
+        left=Name(lineno=1, col_offset=3, id='x', ctx=Load()),
+        ops=[Eq()],
+        comparators=[Name(lineno=1, col_offset=8, id='y', ctx=Load())],
+    ),
+    body=[
+        AugAssign(
+            lineno=1,
+            col_offset=11,
+            target=Name(lineno=1, col_offset=11, id='y', ctx=Store()),
+            op=Add(),
+            value=Num(lineno=1, col_offset=16, n=4),
+        ),
+    ],
+    orelse=[],
+)
+
+>>> # Comparison with ast.dump()
+>>> ast.dump(ast.parse('if x == y: y += 4').body[0])
+"If(test=Compare(left=Name(id='x', ctx=Load()), ops=[Eq()], comparators=[Name(id='y', ctx=Load())]), body=[AugAssign(target=Name(id='y', ctx=Store()), op=Add(), value=Constant(value=4))], orelse=[])"
+```
+
+`ns_prefix` controls whether objects from the ast module will be prefixed with your ast namespace:
+
+```python
+>>> astprettier.print(ast.parse('x += 5').body[0], show_offsets=False, ns_prefix='ast')
+ast.AugAssign(
+    target=ast.Name(id='x', ctx=ast.Store()),
+    op=ast.Add(),
+    value=ast.Num(n=5),
+)
+```
+
+### Script
+
+```bash
+$ python -m astprettier ./setup.py
+Module(
+    body=[
+        ImportFrom(
+            lineno=1,
+            col_offset=0,
+            end_lineno=1,
+            end_col_offset=28,
+            module='setuptools',
+            names=[alias(name='setup', asname=None)],
+            level=0,
+        ),
+        Expr(
+            lineno=2,
+            col_offset=0,
+            end_lineno=2,
+            end_col_offset=7,
+            value=Call(
+                lineno=2,
+                col_offset=0,
+                end_lineno=2,
+                end_col_offset=7,
+                func=Name(lineno=2, col_offset=0, end_lineno=2, end_col_offset=5, id='setup', ctx=Load()),
+                args=[],
+                keywords=[],
+            ),
+        ),
+    ],
+    type_ignores=[],
+)
+```
+
+## Contributing
+
+We love contributions!
+
+astprettier is open source, built on open source, and we'd love to have you hang out in our community.
+

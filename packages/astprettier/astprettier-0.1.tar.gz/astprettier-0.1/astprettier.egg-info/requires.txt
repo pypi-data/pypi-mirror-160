@@ -1,0 +1,7 @@
+
+[colorize]
+pygments
+
+[test]
+ultraimport
+pytest
