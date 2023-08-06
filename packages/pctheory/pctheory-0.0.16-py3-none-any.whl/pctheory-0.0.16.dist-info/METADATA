@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pctheory
+Version: 0.0.16
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: pyvis
+
