@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/cwmath/__init__.py
+src/cwmath/cwmath.py
+src/cwmath.egg-info/PKG-INFO
+src/cwmath.egg-info/SOURCES.txt
+src/cwmath.egg-info/dependency_links.txt
+src/cwmath.egg-info/top_level.txt
