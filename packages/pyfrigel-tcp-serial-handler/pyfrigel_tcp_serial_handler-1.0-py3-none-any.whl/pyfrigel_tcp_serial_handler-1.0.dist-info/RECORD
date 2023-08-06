@@ -1,0 +1,10 @@
+pytcp_serial_handler/__init__.py,sha256=4a4hNJWcf_t3noJOr62wKfs_irlqjPKPsGeA-zcaon0,124
+pytcp_serial_handler/handler.py,sha256=LCozf8hwlHUGVCqjBnyyTKz2FNfkVqHdThZpiHHfE9o,9592
+pytcp_serial_handler/pems_consts.py,sha256=90ZyYy-4XaigUUQBHFFA7iWXTB593fa8H2pMdQyYcF8,303
+pytcp_serial_handler/pems_types.py,sha256=CSrCsSYtnVRgm0PuTm3xl8RR7F9Ckx-Tvf76mAEuNpE,1274
+pytcp_serial_handler/utlis.py,sha256=Y3-w6ChquFu7KZn-d1azw5eSM9KEXNgXbOwGLy3PdIE,1907
+pyfrigel_tcp_serial_handler-1.0.dist-info/LICENSE.txt,sha256=SyBGz2tx60rBg7MS5BsTlnxYiWCUCrs3yqw3prg-i8E,35
+pyfrigel_tcp_serial_handler-1.0.dist-info/METADATA,sha256=CSODAYEqGNr2ASfnaA22Hz8cuzhZDb5_655aWbtE5k8,297
+pyfrigel_tcp_serial_handler-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfrigel_tcp_serial_handler-1.0.dist-info/top_level.txt,sha256=xwtuuvmqJ6iQlkGI-kpl5fkejgGYwzYYLlGOkKBtSbA,21
+pyfrigel_tcp_serial_handler-1.0.dist-info/RECORD,,
