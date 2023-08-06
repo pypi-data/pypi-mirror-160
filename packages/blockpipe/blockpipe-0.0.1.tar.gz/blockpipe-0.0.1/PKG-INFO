@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: blockpipe
+Version: 0.0.1
+Summary: TODO
+Author-email: Sorawit Suriyakarn <thepsint@gmail.com>
+Keywords: blockpipe
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# python-sdk

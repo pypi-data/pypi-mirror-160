@@ -1,0 +1,22 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blockpipe"
+version = "0.0.1"
+description = "TODO"
+readme = "README.md"
+authors = [{ name = "Sorawit Suriyakarn", email = "thepsint@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["blockpipe"]
+dependencies = [
+    "hexbytes >= 0.2.2",
+    "eth-abi >= 3.0.1",
+    "pycryptodome >= 3.15.0"
+]

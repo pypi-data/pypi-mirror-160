@@ -1,0 +1,2 @@
+class Faucet:
+    pass
