@@ -1,0 +1,8 @@
+[console_scripts]
+cyber_channel = pycyber.tools.cyber_channel.cyber_channel:main
+cyber_launch = pycyber.tools.cyber_launch.cyber_launch:main
+cyber_node = pycyber.tools.cyber_node.cyber_node:main
+cyber_service = pycyber.tools.cyber_service.cyber_service:main
+listener = pycyber.examples.listener:main
+talker = pycyber.examples.talker:main
+
