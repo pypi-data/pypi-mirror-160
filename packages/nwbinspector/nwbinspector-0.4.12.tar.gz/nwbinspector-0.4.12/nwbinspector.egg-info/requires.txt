@@ -1,0 +1,10 @@
+pynwb
+PyYAML
+jsonschema
+packaging
+natsort
+click
+tqdm
+
+[dandi]
+dandi>=0.39.2

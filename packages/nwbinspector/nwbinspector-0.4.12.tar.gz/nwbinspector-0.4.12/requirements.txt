@@ -1,0 +1,7 @@
+pynwb
+PyYAML
+jsonschema
+packaging
+natsort
+click
+tqdm
