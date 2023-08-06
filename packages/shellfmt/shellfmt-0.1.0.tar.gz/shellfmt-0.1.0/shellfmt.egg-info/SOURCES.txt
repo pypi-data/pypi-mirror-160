@@ -1,0 +1,6 @@
+setup.py
+shellfmt.egg-info/PKG-INFO
+shellfmt.egg-info/SOURCES.txt
+shellfmt.egg-info/dependency_links.txt
+shellfmt.egg-info/entry_points.txt
+shellfmt.egg-info/top_level.txt

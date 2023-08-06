@@ -1,0 +1,3 @@
+[console_scripts]
+shellfmt = shellfmt.fmt_shell:main
+
