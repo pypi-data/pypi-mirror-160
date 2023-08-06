@@ -1,0 +1,8 @@
+README.md
+setup.py
+onedice/__init__.py
+onedice/main.py
+onedice.egg-info/PKG-INFO
+onedice.egg-info/SOURCES.txt
+onedice.egg-info/dependency_links.txt
+onedice.egg-info/top_level.txt
