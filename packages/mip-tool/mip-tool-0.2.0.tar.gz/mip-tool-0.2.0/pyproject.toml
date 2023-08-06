@@ -1,0 +1,33 @@
+[tool.poetry]
+authors = ["Saito Tsutomu <tsutomu7@hotmail.co.jp>"]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python",
+  "Topic :: Software Development",
+  "Topic :: Scientific/Engineering",
+]
+description = "`mip-tool` is a package for Python-MIP."
+homepage = "https://github.com/SaitoTsutomu/mip-tool"
+license = "Apache-2.0"
+name = "mip-tool"
+readme = "README.md"
+version = "0.2.0"
+
+[tool.poetry.dependencies]
+mip = "^1.14.0"
+more-itertools = "^8.13.0"
+pandas = "^1.4.3"
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6"
+flake8 = "^4.0"
+isort = "^5.10"
+jupyterlab = "^3.4"
+mypy = "^0.971"
+pytest = "^7.1"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
