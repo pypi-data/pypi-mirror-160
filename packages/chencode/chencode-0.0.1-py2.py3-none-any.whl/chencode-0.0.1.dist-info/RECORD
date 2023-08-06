@@ -1,0 +1,9 @@
+chencode/__init__.py,sha256=gF6dAjiy0r71dnRdbuRiANq3mic8y6txXpjnUzpftS0,70
+chencode/__main__.py,sha256=zzLjN3J7MRt355Z0ASOMYa0OpfuXFW0g_cYRIRdVR1k,86
+chencode/frame.py,sha256=yrLaqAZc1sBvY_TpIjugbc7k0TjyqHZXetH2wHuzXPc,22557
+chencode/lts.py,sha256=ZfSEb--chwAlzDfGT77EESPJM__2IxwdiF3wBpHOH4E,3069
+chencode/main.py,sha256=pCKRMRu5EErsjjWrb-VQYE37shuuKOSJWBgnIdJZNdM,6584
+chencode-0.0.1.dist-info/METADATA,sha256=dU1i_x0aGEeYP4A4kXJEuFvCQ_eLc-G-TEYJ_x0lGcw,1472
+chencode-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+chencode-0.0.1.dist-info/top_level.txt,sha256=3sgItdY6cjpYfp_PzAFGn7bIUTcrIQQysfy6Uho-tyw,9
+chencode-0.0.1.dist-info/RECORD,,
