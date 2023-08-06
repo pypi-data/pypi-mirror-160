@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+./pathimport/__init__.py
+./pathimport/pathimport.py
+pathimport.egg-info/PKG-INFO
+pathimport.egg-info/SOURCES.txt
+pathimport.egg-info/dependency_links.txt
+pathimport.egg-info/top_level.txt
