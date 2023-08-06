@@ -1,0 +1,2 @@
+A simple class to encode given string using uncodeA simple class to encode given string using unicode
+By defualt it support all Ascii code characters to convert in unicode but it can be changed using arguments "r1" and "r2" in encode and decode functions
