@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: analyticsdf
+Version: 0.0.4.2
+Summary: Analytic generation of datasets with specified statistical characteristics.
+Home-page: https://github.com/Faye-yufan/analytics-dataset
+Author: Fei
+Author-email: Yufan Fei <yufanfei@usc.edu>, Eli Wang <eliwangc@gmail.com>
+Project-URL: Homepage, https://github.com/Faye-yufan/analytics-dataset
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
