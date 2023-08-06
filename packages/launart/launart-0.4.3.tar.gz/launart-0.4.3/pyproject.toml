@@ -1,0 +1,37 @@
+[project]
+name = "launart"
+version = "0.4.3"
+description = "Component lifetime manager for runtime."
+authors = [
+    { name = "GreyElaina", email = "GreyElaina@outlook.com" },
+]
+dependencies = [
+    "statv>=0.2.2",
+    "loguru>=0.6.0",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+saya = [
+    "graia-saya>=0.0.16",
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "richuru>=0.1.0",
+    "black>=22.6.0",
+    "isort>=5.10.1",
+]
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
