@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+django_shield.egg-info/PKG-INFO
+django_shield.egg-info/SOURCES.txt
+django_shield.egg-info/dependency_links.txt
+django_shield.egg-info/top_level.txt
+shield/__init__.py

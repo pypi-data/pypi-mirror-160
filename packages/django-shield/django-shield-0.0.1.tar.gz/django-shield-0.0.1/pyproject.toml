@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-shield"
+version = "0.0.1"
+authors = [
+  { name="Jan Bednařík", email="jan.bednarik@gmail.com" },
+]
+description = "Per field and per object authorization for Django admin."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Framework :: Django",
+    "Framework :: Django :: 4.0",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JanBednarik/django-shield"
+"Bug Tracker" = "https://github.com/JanBednarik/django-shield/issues"
