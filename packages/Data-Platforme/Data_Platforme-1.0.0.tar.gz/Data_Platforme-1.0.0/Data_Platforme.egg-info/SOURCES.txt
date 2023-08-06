@@ -1,0 +1,10 @@
+README.md
+setup.py
+Data_Platforme.egg-info/PKG-INFO
+Data_Platforme.egg-info/SOURCES.txt
+Data_Platforme.egg-info/dependency_links.txt
+Data_Platforme.egg-info/top_level.txt
+Data_Processing/ProcessData.py
+Data_Processing/__init__.py
+Data_extraction/DataExtract.py
+Data_extraction/__init__.py
