@@ -1,0 +1,21 @@
+requests>=2.16.0
+six
+urllib3>=1.24.2
+
+[:python_version < "3"]
+enum34
+
+[dev]
+black
+build
+flake8
+pre-commit
+sphinx
+sphinx_glpi_theme
+
+[test]
+build
+codecov
+coveralls
+pytest
+pytest-cov
