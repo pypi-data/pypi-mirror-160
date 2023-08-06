@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zdppy-nacos
+Version: 0.1.0
+Summary: python使用nacos作为配置中心
+Author: zhangdapeng520
+Author-email: pygosuperman@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
