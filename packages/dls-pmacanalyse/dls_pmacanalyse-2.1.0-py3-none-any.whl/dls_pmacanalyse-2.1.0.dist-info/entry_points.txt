@@ -1,0 +1,3 @@
+[console_scripts]
+dls-pmac-analyse = dls_pmacanalyse.dls_pmacanalyse:main
+
