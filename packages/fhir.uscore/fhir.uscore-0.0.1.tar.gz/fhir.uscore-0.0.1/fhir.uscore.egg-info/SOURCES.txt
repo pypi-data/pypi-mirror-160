@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+fhir.uscore.egg-info/PKG-INFO
+fhir.uscore.egg-info/SOURCES.txt
+fhir.uscore.egg-info/dependency_links.txt
+fhir.uscore.egg-info/requires.txt
+fhir.uscore.egg-info/top_level.txt
