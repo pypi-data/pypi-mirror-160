@@ -1,0 +1,9 @@
+include README.rst
+include LICENSE
+
+recursive-include doc *
+recursive-include requirements *
+
+recursive-exclude doc *.pyc
+recursive-exclude doc *.pyo
+prune doc/_build
