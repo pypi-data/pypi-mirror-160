@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+coforecast/__init__.py
+coforecast.egg-info/PKG-INFO
+coforecast.egg-info/SOURCES.txt
+coforecast.egg-info/dependency_links.txt
+coforecast.egg-info/top_level.txt
