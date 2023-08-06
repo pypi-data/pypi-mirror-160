@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mirror-gitblit
+Version: 0.1.6
+Summary: Tool to mirror repositories of a gitblit server
+Home-page: https://mathcoach.htwsaar.de
+Author: Hong-Phuc Bui
+Author-email: hong-phuc.bui@htwsaar.de
+License: UNKNOWN
+Description: # <del>Scripts</del> Module to mirror [gitblit](https://gitblit.github.io/gitblit/)
+        
+        This package requires at least python 3.6.
+        
+        
+        **Note:** This package is created for education only, not intended to be used in productive system!
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
