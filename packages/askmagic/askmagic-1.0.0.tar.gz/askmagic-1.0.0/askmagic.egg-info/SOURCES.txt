@@ -1,0 +1,8 @@
+setup.py
+askmagic/__init__.py
+askmagic/ask.py
+askmagic.egg-info/PKG-INFO
+askmagic.egg-info/SOURCES.txt
+askmagic.egg-info/dependency_links.txt
+askmagic.egg-info/requires.txt
+askmagic.egg-info/top_level.txt
