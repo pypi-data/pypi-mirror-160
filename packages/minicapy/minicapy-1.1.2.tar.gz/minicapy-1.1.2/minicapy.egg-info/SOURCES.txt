@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+Makefile
+README.md
+pyproject.toml
+setup.py
+minicapy/go.mod
+minicapy/go.sum
+minicapy/minica.py
+minicapy.egg-info/PKG-INFO
+minicapy.egg-info/SOURCES.txt
+minicapy.egg-info/dependency_links.txt
+minicapy.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "minicapy"
+version = "1.1.2"
+description = "Python interface for the minica library for test ssl certificate generation"
+authors = ["Bjørn Snoen <bjorn@fink.no>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+cryptography = "^37.0.4"
