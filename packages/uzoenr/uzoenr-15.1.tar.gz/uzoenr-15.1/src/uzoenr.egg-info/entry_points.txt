@@ -1,0 +1,3 @@
+[console_scripts]
+uzoenr = uzoenr.uzoenr:start
+zimread = uzoenr.zimread:main
