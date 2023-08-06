@@ -1,0 +1,95 @@
+
+/* -----------------------------------------------------------------------------
+ * Font Styles
+ */
+
+/* text coloring */
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+
+/* italic bold face role*/
+.ibf {
+    font-weight: bold;
+    font-style: italic;
+}
+/* italic text [mimic latex] */
+.textit {
+    font-style: italic;
+}
+/* bold test [mimic latex] */
+.textbf {
+    font-weight: bold;
+}
+
+/* -----------------------------------------------------------------------------
+ * RTD Layout styling
+ */
+
+/* Style for module/index links in sidebar below the search field. */
+div.pkgnav {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    margin-top: 12px;
+}
+
+div.pkgnav ul {
+    list-style: none;
+}
+
+div.pkgnav ul li {
+    display: inline;
+}
+
+div.pkgnav ul li a {
+    margin: 0;
+    color: #f9f9f0;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+div.pkgnav ul li a:hover {
+    color: white;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* -----------------------------------------------------------------------------
+ * RTD Overrides
+ */
+
+/* override table width restrictions */
+@media screen and (min-width: 767px) {
+
+    .wy-table-responsive table td {
+        white-space: normal !important;
+    }
+
+    .wy-table-responsive {
+        overflow: visible !important;
+    }}
+
+/* Bottom margin for line blocks in a table */
+.rst-content table.docutils td .line-block {
+    margin-bottom: 0;
+}
+
+/* Bottom margin for code highlights in a table */
+.rst-content table.docutils td div[class^='highlight-default'] {
+    margin-bottom: 12px;
+}
+
+/* .highlight background color */
+div[class^="highlight"] {
+    background: #eeffcc;
+}
+
+/* Margin-left indent */
+.rst-content .line-block {
+    margin-left: 0;
+}
