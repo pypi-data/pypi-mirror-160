@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+src/cricketersstats/__init__.py
+src/cricketersstats/cricketersstats.py
+src/cricketersstats.egg-info/PKG-INFO
+src/cricketersstats.egg-info/SOURCES.txt
+src/cricketersstats.egg-info/dependency_links.txt
+src/cricketersstats.egg-info/top_level.txt
