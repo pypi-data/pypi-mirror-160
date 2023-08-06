@@ -1,0 +1,11 @@
+papermill
+ipykernel
+debuglater
+
+[dev]
+pytest
+flake8
+invoke
+twine
+matplotlib
+pandas
