@@ -1,0 +1,10 @@
+network3_perseus/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+network3_perseus/dragon.py,sha256=YPcbTRZGiSDZEV-2R8Keq3GsPA5DKNxbtuOpNVncSHU,370
+network3_perseus/network3_perseus.py,sha256=Lw1V5_lUpA65LI242WGDYkwnDAg-z0FW_bwwRhiEl6Y,5095
+network3_perseus/script.py,sha256=Cf8vv63O_5NNlCCJbagOx-ftZzPItwZGcWvGftnKcVI,65
+network3_perseus/templates/intended_config.j2,sha256=5xIwNiWptFonBSl-kVgYWYbgWZ2XtcI3d_BscHMxL2I,58
+network3_perseus-0.1.90.dist-info/entry_points.txt,sha256=T2Dr5u107PbFRAZqUfpveOlxjx-mhBthPOffuSQbeOk,64
+network3_perseus-0.1.90.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+network3_perseus-0.1.90.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+network3_perseus-0.1.90.dist-info/METADATA,sha256=GaEPGX0RVa4LN60Xppajdgrc2t2S6etz64L5gU1T86E,4035
+network3_perseus-0.1.90.dist-info/RECORD,,
