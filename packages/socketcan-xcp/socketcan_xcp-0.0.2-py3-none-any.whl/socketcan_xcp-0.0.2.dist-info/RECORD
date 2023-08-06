@@ -1,0 +1,11 @@
+xcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcp/client.py,sha256=z7ckRMy9tOYRjjn8U4Njka0pLMi4XaEV6wfANweeKMY,10163
+xcp/daq.py,sha256=YgsD0Wq6bbJLXEJAgwBwxCoVCTTAYBCCH4V3NHzUngI,9195
+xcp/protocol.py,sha256=56ezLX8C4-aXNW7kOJDqT-OgBIh9Q8bzEeRlgrBefgU,38908
+xcp/server.py,sha256=98afNDupMNQq6H03r1AWO4DTZoLDEakrOL-qGiG4VCM,17345
+xcp/transport.py,sha256=Fp97fIybzcKqKnfzA1u1IfdKaRz9IytNC3Mra-Voq7A,2927
+socketcan_xcp-0.0.2.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+socketcan_xcp-0.0.2.dist-info/METADATA,sha256=8S0I5bnZaliYlXldJOtt-LLWsmoc1sgbI8fpUdwM38w,1567
+socketcan_xcp-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+socketcan_xcp-0.0.2.dist-info/top_level.txt,sha256=yEaUrZhooCyeuCsM2n-d4iQTGIRZK4P9D_K8Wi39W6c,4
+socketcan_xcp-0.0.2.dist-info/RECORD,,
