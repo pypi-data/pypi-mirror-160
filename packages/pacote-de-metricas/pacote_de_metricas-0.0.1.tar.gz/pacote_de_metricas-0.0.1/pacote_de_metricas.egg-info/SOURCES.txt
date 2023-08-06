@@ -1,0 +1,7 @@
+pyproject.toml
+pacote_de_metricas/__init__.py
+pacote_de_metricas/metricas.py
+pacote_de_metricas.egg-info/PKG-INFO
+pacote_de_metricas.egg-info/SOURCES.txt
+pacote_de_metricas.egg-info/dependency_links.txt
+pacote_de_metricas.egg-info/top_level.txt
