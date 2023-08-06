@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: midbench
+Version: 0.1
+Summary: The Maryland Inverse Design (MID) Benchmark Suite
+Home-page: https://github.com/IDEALLab/midbench
+Download-URL: https://github.com/IDEALLab/midbench/archive/refs/tags/v0.1-beta.tar.gz
+Author: The Information for Design, Engineering, And Learning Laboratory
+Author-email: fuge@umd.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# The Maryland Inverse Design Benchmark Suite
+
+The **Maryland Inverse Design (MID) Benchmark Suite** is a set of libraries for running computational experiments on Machine Learning models for *Inverse Design* across a wide variety of domains and metrics. Its goal is to facilitate reproducible research in this area and help broaden the applicability of various ID algorithms across many applications by making it easy to run otherwise complex engineering design simulations using a common interface specification. It also provides a set of metrics that are relevant to different aspects of ID performance commonly used in research papers. In this way, if a researcher designs a new kind of ID algorithm, they will be able to use this repository to run a large set of tests across common examples of increasing range and complexity.
+
+You can read more about the library at [its documentation website](https://ideal.umd.edu/midbench).
+
+
+
