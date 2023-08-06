@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.rst
+pyproject.toml
+pytest_bdd_html/__init__.py
+pytest_bdd_html/plugin.py
+pytest_bdd_html.egg-info/PKG-INFO
+pytest_bdd_html.egg-info/SOURCES.txt
+pytest_bdd_html.egg-info/dependency_links.txt
+pytest_bdd_html.egg-info/entry_points.txt
+pytest_bdd_html.egg-info/requires.txt
+pytest_bdd_html.egg-info/top_level.txt
