@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hsmap
+Version: 0.1.6
+Summary: Python Utils for Hsmap project.
+Home-page: https://pypi.org/project/hsmap
+License: MIT
+Keywords: python,utils
+Author: someone
+Author-email: some@hsmap.com
+Requires-Python: >=3.6.2
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: httpx (>=0.22)
+Requires-Dist: python-dateutil (>=2.8.2)
+Project-URL: Repository, http://git.aihuoshi.net/industry-brain/python-hsmap
+Description-Content-Type: text/markdown
+
+# Hsmap Utils
+
+Python Hsmap Utils.
