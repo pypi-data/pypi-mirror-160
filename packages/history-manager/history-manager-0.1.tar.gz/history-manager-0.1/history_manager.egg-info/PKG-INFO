@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: history-manager
+Version: 0.1
+Summary: Command line history manager for bash
+Home-page: http://github.com/dkolmakov/hm
+Author: Dmitrii Kolmakov
+Author-email: dimannadivane@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

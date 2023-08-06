@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+history_manager.egg-info/PKG-INFO
+history_manager.egg-info/SOURCES.txt
+history_manager.egg-info/dependency_links.txt
+history_manager.egg-info/entry_points.txt
+history_manager.egg-info/not-zip-safe
+history_manager.egg-info/top_level.txt
+hm_initializer/__init__.py

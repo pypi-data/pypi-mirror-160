@@ -1,0 +1,3 @@
+[console_scripts]
+hm-init = hm_initializer:main
+
