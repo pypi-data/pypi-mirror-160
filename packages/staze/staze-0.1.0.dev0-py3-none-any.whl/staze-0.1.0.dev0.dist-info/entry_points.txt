@@ -1,0 +1,2 @@
+[console_scripts]
+staze = staze.core.cli.cli:main
