@@ -1,0 +1,2 @@
+[console_scripts]
+sca3s-cli = sca3s_cli.cli:main
