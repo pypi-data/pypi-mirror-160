@@ -1,0 +1,11 @@
+protobuf==3.20.1
+requests
+pandas
+whoosh
+arrow
+ipywidgets
+IPython
+bqplot
+click
+pyjwt
+importlib-metadata>=4.12.0
