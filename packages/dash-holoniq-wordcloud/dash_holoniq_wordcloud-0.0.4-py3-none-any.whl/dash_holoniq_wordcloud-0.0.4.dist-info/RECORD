@@ -1,0 +1,14 @@
+dash_holoniq_wordcloud/DashWordcloud.py,sha256=TYCFo_KQUSvIZNderHMPNFtwsxjGUfzxjqYrNipBNvU,6535
+dash_holoniq_wordcloud/__init__.py,sha256=pOKmT6X1hHcUC1sRPH3ieQSBEhM-05y9wBWPTQ9Yyds,2398
+dash_holoniq_wordcloud/_imports_.py,sha256=yy5V4rswMZkWlnKM-alQgGslRxJsd0QjlEiw23KD6Tw,75
+dash_holoniq_wordcloud/dash_holoniq_wordcloud.dev.js,sha256=ZuxxyLanBxBy3Ypf3Ffxp_gF3hkGg2tSU6JNsQTcjUE,294308
+dash_holoniq_wordcloud/dash_holoniq_wordcloud.dev.js.map,sha256=uaqMvcinvkka5x3fy-OJ90DISTW9Qk0GO7UnlirhXvM,5638
+dash_holoniq_wordcloud/dash_holoniq_wordcloud.min.js,sha256=jBxqSMgyO47alf4CLYWkXQQOJOjlSOFZoWgbl7o4BP8,34501
+dash_holoniq_wordcloud/dash_holoniq_wordcloud.min.js.map,sha256=kOq3X35ewel5lQkK7yAxT2uijqsd0JvLyHKr5zy5OXU,106
+dash_holoniq_wordcloud/metadata.json,sha256=7OzjWfX7LF20OsRW65ZRuZ4XUYKAxYd3WJx4uJ5vJ1E,9296
+dash_holoniq_wordcloud/package-info.json,sha256=m3pLkWb1AanJZeR6mBQFqPiNqjFW78DrKeZp0WklABg,2274
+dash_holoniq_wordcloud-0.0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_holoniq_wordcloud-0.0.4.dist-info/METADATA,sha256=8xcoDhtDWvfeMf78nMbrMbEFW6JsqRtk1af6N0cbbhg,2361
+dash_holoniq_wordcloud-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dash_holoniq_wordcloud-0.0.4.dist-info/top_level.txt,sha256=7B4MSS6qjThOGxHVonqn7IxcGO-RdZhmK2VlcMepcXM,23
+dash_holoniq_wordcloud-0.0.4.dist-info/RECORD,,
