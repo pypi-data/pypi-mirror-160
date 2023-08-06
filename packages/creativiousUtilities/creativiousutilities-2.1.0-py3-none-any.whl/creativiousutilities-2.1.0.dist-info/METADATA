@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: creativiousUtilities
+Version: 2.1.0
+Summary: Experimental and likely to break by update
+If you are to use this have it require the specific version you know works
+General purpose prebuilt functions for any project that I work on
+Author-email: Creativious <timothy@creativious.net>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# General purpose prebuilt functions for any project that I work on
+```diff
+- HIGHLY LIKELY TO BREAK FOR EACH VERSION, BACKUP BEFORE UPDATING, AND REQUIRE SPECIFIC VERSION IF YOU ARE TO USE THIS
+```
