@@ -1,0 +1,19 @@
+services:
+  # a fully loaded development environment to test new code
+  dev:
+    &dev
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - ./:/code
+
+  # run all the tests
+  test:
+    <<: *dev
+    command: pytest -v --cov=. --cov-report term-missing
+
+  # run the linters
+  lint:
+    <<: *dev
+    entrypoint: docker/bump_version.sh

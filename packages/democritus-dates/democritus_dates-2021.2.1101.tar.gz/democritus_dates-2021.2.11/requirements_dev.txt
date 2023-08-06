@@ -1,0 +1,6 @@
+black; python_version > '3.5'
+twine
+tox
+pytest
+pytest-cov
+codecov
