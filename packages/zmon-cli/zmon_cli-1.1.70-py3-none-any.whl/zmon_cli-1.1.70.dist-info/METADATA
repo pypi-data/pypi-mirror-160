@@ -1,0 +1,62 @@
+Metadata-Version: 2.0
+Name: zmon-cli
+Version: 1.1.70
+Summary: Command line interface for Zalando's monitoring tool ZMON
+Home-page: https://github.com/zalando/zmon
+Author: Henning Jacobs
+Author-email: henning.jacobs@zalando.de
+License: Apache License 2.0
+Keywords: zmon monitoring command line interface
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Networking :: Monitoring
+License-File: LICENSE
+Requires-Dist: clickclick (>=1.1)
+Requires-Dist: easydict
+Requires-Dist: PyYAML (>=3.11)
+Requires-Dist: requests (>=2.2.1)
+Requires-Dist: stups-zign (>=1.1.26)
+Requires-Dist: opentracing-utils
+
+ZMON CLI
+========
+
+.. _zmon-cli: https://github.com/zalando-zmon/zmon-cli
+.. _PyPI: https://pypi.org/project/zmon-cli/
+
+Command line client for the Zalando Monitoring solution (ZMON).
+
+Installation
+============
+
+Requires Python 3.4+
+
+.. code-block:: bash
+
+    $ sudo pip3 install --upgrade zmon-cli
+
+Example
+=======
+
+Creating or updating a single check definition from its YAML file:
+
+.. code-block:: bash
+
+    $ zmon check-definitions update examples/check-definitions/zmon-stale-active-alerts.yaml
+
+Release
+=======
+
+1. Update zmon_cli/__init__.py in a PR with new version and merge
+2. Approve Release step manually in the CDP pipeline
+
+
