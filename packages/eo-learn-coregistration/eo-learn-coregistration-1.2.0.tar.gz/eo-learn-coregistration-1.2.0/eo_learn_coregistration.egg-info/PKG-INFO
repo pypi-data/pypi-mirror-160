@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: eo-learn-coregistration
+Version: 1.2.0
+Summary: A collection of image co-registration EOTasks and utilities
+Home-page: https://github.com/sentinel-hub/eo-learn
+Author: Sinergise EO research team
+Author-email: eoresearch@sinergise.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: THUNDER
+License-File: LICENSE
+
+# eolearn.coregistration subpackage
+
+A collection of tools and EOTasks for image co-registration
+
+For more information on the package content, visit [readthedocs](https://eo-learn.readthedocs.io/en/latest/eolearn.coregistration.html).
+
+
