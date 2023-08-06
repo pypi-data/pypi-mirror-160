@@ -1,0 +1,9 @@
+tinytable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tinytable/column.py,sha256=CAo6EaKW8WnJUeLZKWQ1JNsYcGfb_Wi9qRA8OcDD1IA,672
+tinytable/data.py,sha256=rhfQTsNz6RHxwmvB15szY55nUPCl_uSo5fwTEIbcQLo,2487
+tinytable/iterable_to_array.py,sha256=8NB1_hQboy_WXQ9W_Qv9IgMk0xkDrPFR4cplx8iil1Q,2528
+tinytable/row.py,sha256=3qAH84Zh6CBHUZKqrjYVDD2QS-UuhYGo7kmWfjAH3a0,896
+tinytable-0.1.dist-info/METADATA,sha256=R8ZObSv0serNOuCfeRgGQIs_-PlBmtjUP0nplxqOUco,474
+tinytable-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tinytable-0.1.dist-info/top_level.txt,sha256=0yqLrdaEjBqeOigVMz9B4mBR2WRaMOyYeYxQvGbjwN0,10
+tinytable-0.1.dist-info/RECORD,,
