@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: colourfulprint
+Version: 7.0
+Summary: Colourfulprint wfor Rainbow print without extra newline character(
+Home-page: https://github.com/Nishant2009/colourfulprint
+Author: NISHANT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ColourfulPrint
+ColourfulPrint for rainbow colours in Linux without extra newline character ("\n").
+
+### [+] Installation 
+Run these commands to clone and run ColourfulPrint.
+```shell script
+pkg install git -y 
+pkg install python -y 
+pip install colourfulprint
+```
+
+### [+] For Usage Example
+Type 
+```shell script
+date | colourfulprint
+```
