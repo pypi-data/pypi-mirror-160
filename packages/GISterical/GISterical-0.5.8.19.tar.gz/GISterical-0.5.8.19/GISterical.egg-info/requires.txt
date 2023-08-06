@@ -1,0 +1,8 @@
+loguru
+SQLAlchemy>=1.4
+GeoAlchemy2>=0.12
+exif
+attrs
+ImageHash
+Pillow
+psycopg2-binary>=2.8
