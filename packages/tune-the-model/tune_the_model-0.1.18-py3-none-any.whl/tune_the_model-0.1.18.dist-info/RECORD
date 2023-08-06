@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/functional/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/functional/test_tune_the_model.py,sha256=08QAkIlUqWhh5j7oHQb3EtGumSbrBR7rN71Q8smk-OA,3373
+tune_the_model/__init__.py,sha256=RvZuJjdjlgmLWYxcpkIOCycq9BEzCGQVDnLlCQ8AkGo,623
+tune_the_model/cli.py,sha256=A5Cbh4QMCG9f07u64ZyLJh2_sjWLFYbmc-r-q3BoM1U,19690
+tune_the_model/resource.py,sha256=t87Npc9xACWhk302-4ls9MD-LFMBP-8X7fdAgZN_Kag,4428
+tune_the_model-0.1.18.dist-info/METADATA,sha256=JBvRgkUAksGarj21p4DTf3jpxAFWFwYjIDUxaTwdfyk,2283
+tune_the_model-0.1.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tune_the_model-0.1.18.dist-info/top_level.txt,sha256=K_qo0WsIR0DDRI1ZNtnZRSnqpmeCbcMSOZrkLlGU0xQ,21
+tune_the_model-0.1.18.dist-info/RECORD,,
