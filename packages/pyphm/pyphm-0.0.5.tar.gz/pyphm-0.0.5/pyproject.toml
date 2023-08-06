@@ -1,0 +1,12 @@
+[project]
+name = "pyphm"
+version = "0.0.5"
+description = "Machinery data, made easy"
+requires-python = ">=3.6"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+doc = ["sphinx~=4.4.0", "myst-parser"]
