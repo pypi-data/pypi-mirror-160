@@ -1,0 +1,9 @@
+calconstruccion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calconstruccion/database.xlsx,sha256=Tx-GghaDZfsdQ79uP0628oJthTn48thohoNqRgc6pXw,6327
+calconstruccion/main.py,sha256=Uxto1F0bg_Tz58hbFb15pQnvfdvxt4CcNKhNP9Q4qAM,569
+calconstruccion/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calconstruccion/utils/excelfile.py,sha256=uI3idYtnXG1iaj_oAmqHTtxpPuK0Wij2bH3Mvv9oNhc,748
+calconstruccion/utils/importar.py,sha256=uI3idYtnXG1iaj_oAmqHTtxpPuK0Wij2bH3Mvv9oNhc,748
+calconstruccion-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+calconstruccion-0.1.0.dist-info/METADATA,sha256=4RWFTWvroaenJmQzM_Ooy8rwowQVn4IYuLOBqJsuEsM,387
+calconstruccion-0.1.0.dist-info/RECORD,,
