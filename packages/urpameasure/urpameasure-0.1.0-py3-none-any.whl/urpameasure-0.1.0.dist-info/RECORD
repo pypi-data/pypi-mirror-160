@@ -1,0 +1,13 @@
+urpameasure/__about__.py,sha256=nKIvyH1LbAVX2AR6MC8etJecBcHZKHUlb7EZTciWdhM,384
+urpameasure/__init__.py,sha256=aEzBozxeCvh1vMlBE2xY5lJhzyKIdoFx0xkMYsvyblk,132
+urpameasure/globals.py,sha256=I2YsvtqMu9lhUACLnjx2M7By8NyWCZbojRgccqcfj7c,1267
+urpameasure/management_console.py,sha256=JSwrlVGtaqOj1Q4FPaMlNjCQ5Gh1ksFqpeZFnQq7tLM,8229
+urpameasure/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urpameasure/sydesk.py,sha256=du_xSPUjc76iUkqIJlsDPTPy8O9gzpx5IusZjJyABFQ,4163
+urpameasure/urpameasure.py,sha256=dNA05BofShDCxPZSirTyX86kh43RJOg0TSO8o_i3Atk,6735
+urpameasure/utils.py,sha256=iQMQIhWNlSmm-NrjMY0Thns-OAE1-MWs73b41pG1oMI,1694
+urpameasure-0.1.0.dist-info/LICENSE,sha256=6g5CTpBcmb-D62LFkW8hvPBhpwSyoEyUP5NcLolrZpI,1089
+urpameasure-0.1.0.dist-info/METADATA,sha256=iDjgTV84O1gh_Gy0JzG8bI2-MgpTl9hqB8xzy7fgt5M,12922
+urpameasure-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+urpameasure-0.1.0.dist-info/top_level.txt,sha256=KH39uWlJeOSoFKKaG0ZY5gfc_pI2pGUKpywoSmIZDuk,12
+urpameasure-0.1.0.dist-info/RECORD,,
