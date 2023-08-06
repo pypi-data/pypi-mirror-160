@@ -1,0 +1,920 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index &#8212; fhirpack 0.0.6b0 documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="#" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">fhirpack 0.0.6b0 documentation</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Contents:
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="pages/installation.html">
+   Installation
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="pages/examples.html">
+   Examples
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="examples/usage.html">
+     General Usage
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="examples/minimal.html">
+     Minimal Setup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/cli.html">
+     CLI
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="pages/api.html">
+   API
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="api/fhirpack.extraction.html">
+     Extractor
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="api/fhirpack.transformation.html">
+     Transformer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="api/fhirpack.load.html">
+     Loader
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="pages/contributing.html">
+   Contributing
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1></h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#_"><strong>_</strong></a>
+ | <a href="#B"><strong>B</strong></a>
+ | <a href="#E"><strong>E</strong></a>
+ | <a href="#F"><strong>F</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#L"><strong>L</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#T"><strong>T</strong></a>
+ | <a href="#V"><strong>V</strong></a>
+ | <a href="#Y"><strong>Y</strong></a>
+ 
+</div>
+<h2 id="_">_</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.__dict__">__dict__ (fhirpack.extraction.base.BaseExtractorMixin attribute)</a>
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.sample.BaseExtractorMixin.__dict__">(fhirpack.extraction.sample.BaseExtractorMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.base.BaseLoaderMixin.__dict__">(fhirpack.load.base.BaseLoaderMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.__dict__">(fhirpack.transformation.base.BaseTransformerMixin attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.__doc__">__doc__ (fhirpack.extraction.base.BaseExtractorMixin attribute)</a>
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.condition.ExtractorConditionMixin.__doc__">(fhirpack.extraction.condition.ExtractorConditionMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.diagnosticreport.ExtractorDiagnosticReportMixin.__doc__">(fhirpack.extraction.diagnosticreport.ExtractorDiagnosticReportMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.documentreference.ExtractorDocumentReferenceMixin.__doc__">(fhirpack.extraction.documentreference.ExtractorDocumentReferenceMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.encounter.ExtractorEncounterMixin.__doc__">(fhirpack.extraction.encounter.ExtractorEncounterMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.endpoint.ExtractorEndpointMixin.__doc__">(fhirpack.extraction.endpoint.ExtractorEndpointMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.episodeofcare.ExtractorEpisodeOfCareMixin.__doc__">(fhirpack.extraction.episodeofcare.ExtractorEpisodeOfCareMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.ExtractorMixin.__doc__">(fhirpack.extraction.ExtractorMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.familymemberhistory.ExtractorFamilyMemberHistoryMixin.__doc__">(fhirpack.extraction.familymemberhistory.ExtractorFamilyMemberHistoryMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.imagingstudy.ExtractorImagingStudyMixin.__doc__">(fhirpack.extraction.imagingstudy.ExtractorImagingStudyMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.list.ExtractorListMixin.__doc__">(fhirpack.extraction.list.ExtractorListMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.medicationadministration.ExtractorMedicationAdministrationMixin.__doc__">(fhirpack.extraction.medicationadministration.ExtractorMedicationAdministrationMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.medicationrequest.ExtractorMedicationRequestMixin.__doc__">(fhirpack.extraction.medicationrequest.ExtractorMedicationRequestMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.observation.ExtractorObservationMixin.__doc__">(fhirpack.extraction.observation.ExtractorObservationMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.patient.ExtractorPatientMixin.__doc__">(fhirpack.extraction.patient.ExtractorPatientMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.sample.BaseExtractorMixin.__doc__">(fhirpack.extraction.sample.BaseExtractorMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.base.BaseLoaderMixin.__doc__">(fhirpack.load.base.BaseLoaderMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.condition.LoaderConditionMixin.__doc__">(fhirpack.load.condition.LoaderConditionMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.LoaderMixin.__doc__">(fhirpack.load.LoaderMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.observation.LoaderObservationMixin.__doc__">(fhirpack.load.observation.LoaderObservationMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.patient.LoaderPatientMixin.__doc__">(fhirpack.load.patient.LoaderPatientMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.__doc__">(fhirpack.transformation.base.BaseTransformerMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.condition.TransformerConditionMixin.__doc__">(fhirpack.transformation.condition.TransformerConditionMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.observation.TransformerObservationMixin.__doc__">(fhirpack.transformation.observation.TransformerObservationMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.patient.TransformerPatientMixin.__doc__">(fhirpack.transformation.patient.TransformerPatientMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.TransformerMixin.__doc__">(fhirpack.transformation.TransformerMixin attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.__gatherSimplePath">__gatherSimplePath() (fhirpack.transformation.base.BaseTransformerMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.__module__">__module__ (fhirpack.extraction.base.BaseExtractorMixin attribute)</a>
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.condition.ExtractorConditionMixin.__module__">(fhirpack.extraction.condition.ExtractorConditionMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.diagnosticreport.ExtractorDiagnosticReportMixin.__module__">(fhirpack.extraction.diagnosticreport.ExtractorDiagnosticReportMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.documentreference.ExtractorDocumentReferenceMixin.__module__">(fhirpack.extraction.documentreference.ExtractorDocumentReferenceMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.encounter.ExtractorEncounterMixin.__module__">(fhirpack.extraction.encounter.ExtractorEncounterMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.endpoint.ExtractorEndpointMixin.__module__">(fhirpack.extraction.endpoint.ExtractorEndpointMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.episodeofcare.ExtractorEpisodeOfCareMixin.__module__">(fhirpack.extraction.episodeofcare.ExtractorEpisodeOfCareMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.ExtractorMixin.__module__">(fhirpack.extraction.ExtractorMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.familymemberhistory.ExtractorFamilyMemberHistoryMixin.__module__">(fhirpack.extraction.familymemberhistory.ExtractorFamilyMemberHistoryMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.imagingstudy.ExtractorImagingStudyMixin.__module__">(fhirpack.extraction.imagingstudy.ExtractorImagingStudyMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.list.ExtractorListMixin.__module__">(fhirpack.extraction.list.ExtractorListMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.medicationadministration.ExtractorMedicationAdministrationMixin.__module__">(fhirpack.extraction.medicationadministration.ExtractorMedicationAdministrationMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.medicationrequest.ExtractorMedicationRequestMixin.__module__">(fhirpack.extraction.medicationrequest.ExtractorMedicationRequestMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.observation.ExtractorObservationMixin.__module__">(fhirpack.extraction.observation.ExtractorObservationMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.patient.ExtractorPatientMixin.__module__">(fhirpack.extraction.patient.ExtractorPatientMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.sample.BaseExtractorMixin.__module__">(fhirpack.extraction.sample.BaseExtractorMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.base.BaseLoaderMixin.__module__">(fhirpack.load.base.BaseLoaderMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.condition.LoaderConditionMixin.__module__">(fhirpack.load.condition.LoaderConditionMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.LoaderMixin.__module__">(fhirpack.load.LoaderMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.observation.LoaderObservationMixin.__module__">(fhirpack.load.observation.LoaderObservationMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.patient.LoaderPatientMixin.__module__">(fhirpack.load.patient.LoaderPatientMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.__module__">(fhirpack.transformation.base.BaseTransformerMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.condition.TransformerConditionMixin.__module__">(fhirpack.transformation.condition.TransformerConditionMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.observation.TransformerObservationMixin.__module__">(fhirpack.transformation.observation.TransformerObservationMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.patient.TransformerPatientMixin.__module__">(fhirpack.transformation.patient.TransformerPatientMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.TransformerMixin.__module__">(fhirpack.transformation.TransformerMixin attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.__weakref__">__weakref__ (fhirpack.extraction.base.BaseExtractorMixin attribute)</a>
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.sample.BaseExtractorMixin.__weakref__">(fhirpack.extraction.sample.BaseExtractorMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.load.html#fhirpack.load.base.BaseLoaderMixin.__weakref__">(fhirpack.load.base.BaseLoaderMixin attribute)</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.__weakref__">(fhirpack.transformation.base.BaseTransformerMixin attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="B">B</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin">BaseExtractorMixin (class in fhirpack.extraction.base)</a>
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.sample.BaseExtractorMixin">(class in fhirpack.extraction.sample)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.base.BaseLoaderMixin">BaseLoaderMixin (class in fhirpack.load.base)</a>
+</li>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin">BaseTransformerMixin (class in fhirpack.transformation.base)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="E">E</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.condition.ExtractorConditionMixin">ExtractorConditionMixin (class in fhirpack.extraction.condition)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.diagnosticreport.ExtractorDiagnosticReportMixin">ExtractorDiagnosticReportMixin (class in fhirpack.extraction.diagnosticreport)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.documentreference.ExtractorDocumentReferenceMixin">ExtractorDocumentReferenceMixin (class in fhirpack.extraction.documentreference)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.encounter.ExtractorEncounterMixin">ExtractorEncounterMixin (class in fhirpack.extraction.encounter)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.endpoint.ExtractorEndpointMixin">ExtractorEndpointMixin (class in fhirpack.extraction.endpoint)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.episodeofcare.ExtractorEpisodeOfCareMixin">ExtractorEpisodeOfCareMixin (class in fhirpack.extraction.episodeofcare)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.familymemberhistory.ExtractorFamilyMemberHistoryMixin">ExtractorFamilyMemberHistoryMixin (class in fhirpack.extraction.familymemberhistory)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.imagingstudy.ExtractorImagingStudyMixin">ExtractorImagingStudyMixin (class in fhirpack.extraction.imagingstudy)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.list.ExtractorListMixin">ExtractorListMixin (class in fhirpack.extraction.list)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.medicationadministration.ExtractorMedicationAdministrationMixin">ExtractorMedicationAdministrationMixin (class in fhirpack.extraction.medicationadministration)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.medicationrequest.ExtractorMedicationRequestMixin">ExtractorMedicationRequestMixin (class in fhirpack.extraction.medicationrequest)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.ExtractorMixin">ExtractorMixin (class in fhirpack.extraction)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.observation.ExtractorObservationMixin">ExtractorObservationMixin (class in fhirpack.extraction.observation)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.patient.ExtractorPatientMixin">ExtractorPatientMixin (class in fhirpack.extraction.patient)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="F">F</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    fhirpack.extraction
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.base
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.base">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.base_test
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.base_test">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.condition
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.condition">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.condition_test
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.condition_test">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.diagnosticreport
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.diagnosticreport">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.documentreference
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.documentreference">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.encounter
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.encounter">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.endpoint
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.endpoint">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.episodeofcare
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.episodeofcare">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.familymemberhistory
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.familymemberhistory">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.imagingstudy
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.imagingstudy">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.list
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.list">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.medicationadministration
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.medicationadministration">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.medicationrequest
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.medicationrequest">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    fhirpack.extraction.observation
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.observation">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.patient
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.patient">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.patient_test
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.patient_test">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.extraction.sample
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.sample">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.load
+
+      <ul>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.load.base
+
+      <ul>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load.base">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.load.condition
+
+      <ul>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load.condition">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.load.observation
+
+      <ul>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load.observation">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.load.patient
+
+      <ul>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load.patient">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.transformation
+
+      <ul>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.transformation.base
+
+      <ul>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.base">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.transformation.base_test
+
+      <ul>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.base_test">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.transformation.condition
+
+      <ul>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.condition">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.transformation.observation
+
+      <ul>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.observation">module</a>
+</li>
+      </ul></li>
+      <li>
+    fhirpack.transformation.patient
+
+      <ul>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.patient">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.gatherDates">gatherDates() (fhirpack.transformation.base.BaseTransformerMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.gatherKeys">gatherKeys() (fhirpack.transformation.base.BaseTransformerMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.gatherReferences">gatherReferences() (fhirpack.transformation.base.BaseTransformerMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.gatherSimplePaths">gatherSimplePaths() (fhirpack.transformation.base.BaseTransformerMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.gatherText">gatherText() (fhirpack.transformation.base.BaseTransformerMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.gatherValuesForKeys">gatherValuesForKeys() (fhirpack.transformation.base.BaseTransformerMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getAbsolutePaths">getAbsolutePaths() (fhirpack.extraction.base.BaseExtractorMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.condition.ExtractorConditionMixin.getConditions">getConditions() (fhirpack.extraction.condition.ExtractorConditionMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getConversionPath">getConversionPath() (fhirpack.extraction.base.BaseExtractorMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.diagnosticreport.ExtractorDiagnosticReportMixin.getDiagnosticReports">getDiagnosticReports() (fhirpack.extraction.diagnosticreport.ExtractorDiagnosticReportMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getDICOMInstances">getDICOMInstances() (fhirpack.extraction.base.BaseExtractorMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.documentreference.ExtractorDocumentReferenceMixin.getDocumentReferences">getDocumentReferences() (fhirpack.extraction.documentreference.ExtractorDocumentReferenceMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.encounter.ExtractorEncounterMixin.getEncounters">getEncounters() (fhirpack.extraction.encounter.ExtractorEncounterMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.endpoint.ExtractorEndpointMixin.getEndpoints">getEndpoints() (fhirpack.extraction.endpoint.ExtractorEndpointMixin method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.episodeofcare.ExtractorEpisodeOfCareMixin.getEpisodesOfCare">getEpisodesOfCare() (fhirpack.extraction.episodeofcare.ExtractorEpisodeOfCareMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.familymemberhistory.ExtractorFamilyMemberHistoryMixin.getFamilyMemberHistories">getFamilyMemberHistories() (fhirpack.extraction.familymemberhistory.ExtractorFamilyMemberHistoryMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getFromFiles">getFromFiles() (fhirpack.extraction.base.BaseExtractorMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.imagingstudy.ExtractorImagingStudyMixin.getImagingStudies">getImagingStudies() (fhirpack.extraction.imagingstudy.ExtractorImagingStudyMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.patient.ExtractorPatientMixin.getLinkedPatients">getLinkedPatients() (fhirpack.extraction.patient.ExtractorPatientMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.list.ExtractorListMixin.getLists">getLists() (fhirpack.extraction.list.ExtractorListMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.medicationadministration.ExtractorMedicationAdministrationMixin.getMedicationAdministrations">getMedicationAdministrations() (fhirpack.extraction.medicationadministration.ExtractorMedicationAdministrationMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.medicationrequest.ExtractorMedicationRequestMixin.getMedicationRequests">getMedicationRequests() (fhirpack.extraction.medicationrequest.ExtractorMedicationRequestMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.observation.ExtractorObservationMixin.getObservations">getObservations() (fhirpack.extraction.observation.ExtractorObservationMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.patient.ExtractorPatientMixin.getPatients">getPatients() (fhirpack.extraction.patient.ExtractorPatientMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getReferences">getReferences() (fhirpack.extraction.base.BaseExtractorMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getResources">getResources() (fhirpack.extraction.base.BaseExtractorMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.patient.ExtractorPatientMixin.getRootPatients">getRootPatients() (fhirpack.extraction.patient.ExtractorPatientMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.sample.BaseExtractorMixin.getSampleExtractionMethod">getSampleExtractionMethod() (fhirpack.extraction.sample.BaseExtractorMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.getURLBytes">getURLBytes() (fhirpack.extraction.base.BaseExtractorMixin method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="L">L</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.condition.LoaderConditionMixin">LoaderConditionMixin (class in fhirpack.load.condition)</a>
+</li>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.LoaderMixin">LoaderMixin (class in fhirpack.load)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.observation.LoaderObservationMixin">LoaderObservationMixin (class in fhirpack.load.observation)</a>
+</li>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.patient.LoaderPatientMixin">LoaderPatientMixin (class in fhirpack.load.patient)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    module
+
+      <ul>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction">fhirpack.extraction</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.base">fhirpack.extraction.base</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.base_test">fhirpack.extraction.base_test</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.condition">fhirpack.extraction.condition</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.condition_test">fhirpack.extraction.condition_test</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.diagnosticreport">fhirpack.extraction.diagnosticreport</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.documentreference">fhirpack.extraction.documentreference</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.encounter">fhirpack.extraction.encounter</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.endpoint">fhirpack.extraction.endpoint</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.episodeofcare">fhirpack.extraction.episodeofcare</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.familymemberhistory">fhirpack.extraction.familymemberhistory</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.imagingstudy">fhirpack.extraction.imagingstudy</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.list">fhirpack.extraction.list</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.medicationadministration">fhirpack.extraction.medicationadministration</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.medicationrequest">fhirpack.extraction.medicationrequest</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.observation">fhirpack.extraction.observation</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.patient">fhirpack.extraction.patient</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.patient_test">fhirpack.extraction.patient_test</a>
+</li>
+        <li><a href="api/fhirpack.extraction.html#module-fhirpack.extraction.sample">fhirpack.extraction.sample</a>
+</li>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load">fhirpack.load</a>
+</li>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load.base">fhirpack.load.base</a>
+</li>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load.condition">fhirpack.load.condition</a>
+</li>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load.observation">fhirpack.load.observation</a>
+</li>
+        <li><a href="api/fhirpack.load.html#module-fhirpack.load.patient">fhirpack.load.patient</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation">fhirpack.transformation</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.base">fhirpack.transformation.base</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.base_test">fhirpack.transformation.base_test</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.condition">fhirpack.transformation.condition</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.observation">fhirpack.transformation.observation</a>
+</li>
+        <li><a href="api/fhirpack.transformation.html#module-fhirpack.transformation.patient">fhirpack.transformation.patient</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base.BaseExtractorMixin.searchResources">searchResources() (fhirpack.extraction.base.BaseExtractorMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.base.BaseLoaderMixin.sendBytesToFile">sendBytesToFile() (fhirpack.load.base.BaseLoaderMixin method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.base.BaseLoaderMixin.sendDICOMToFiles">sendDICOMToFiles() (fhirpack.load.base.BaseLoaderMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.base.BaseLoaderMixin.sendResourcesToFiles">sendResourcesToFiles() (fhirpack.load.base.BaseLoaderMixin method)</a>
+</li>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.base.BaseLoaderMixin.sendToTable">sendToTable() (fhirpack.load.base.BaseLoaderMixin method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="T">T</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.condition.LoaderConditionMixin.transformerConditionMethod">transformerConditionMethod() (fhirpack.load.condition.LoaderConditionMixin method)</a>
+
+      <ul>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.condition.TransformerConditionMixin.transformerConditionMethod">(fhirpack.transformation.condition.TransformerConditionMixin method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.condition.TransformerConditionMixin">TransformerConditionMixin (class in fhirpack.transformation.condition)</a>
+</li>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.TransformerMixin">TransformerMixin (class in fhirpack.transformation)</a>
+</li>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.observation.LoaderObservationMixin.transformerObservationMethod">transformerObservationMethod() (fhirpack.load.observation.LoaderObservationMixin method)</a>
+
+      <ul>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.observation.TransformerObservationMixin.transformerObservationMethod">(fhirpack.transformation.observation.TransformerObservationMixin method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.observation.TransformerObservationMixin">TransformerObservationMixin (class in fhirpack.transformation.observation)</a>
+</li>
+      <li><a href="api/fhirpack.load.html#fhirpack.load.patient.LoaderPatientMixin.transformerPatientMethod">transformerPatientMethod() (fhirpack.load.patient.LoaderPatientMixin method)</a>
+
+      <ul>
+        <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.patient.TransformerPatientMixin.transformerPatientMethod">(fhirpack.transformation.patient.TransformerPatientMixin method)</a>
+</li>
+      </ul></li>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.patient.TransformerPatientMixin">TransformerPatientMixin (class in fhirpack.transformation.patient)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="V">V</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.transformation.html#fhirpack.transformation.base.BaseTransformerMixin.validate">validate() (fhirpack.transformation.base.BaseTransformerMixin method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="Y">Y</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/fhirpack.extraction.html#fhirpack.extraction.base_test.y">y() (in module fhirpack.extraction.base_test)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+      &copy; Copyright 2022, Jayson Salazar.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
