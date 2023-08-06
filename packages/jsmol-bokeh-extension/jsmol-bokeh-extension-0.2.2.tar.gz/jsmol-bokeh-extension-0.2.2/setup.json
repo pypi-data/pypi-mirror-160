@@ -1,0 +1,22 @@
+{
+    "name": "jsmol-bokeh-extension",
+    "author": "Leopold Talirz",
+    "author_email": "leopold.talirz@gmail.com",
+    "description": "bokeh extension for jsmol",
+    "url": "https://github.com/ltalirz/jsmol-bokeh-extension",
+    "license": "Creative Commons",
+    "classifiers": [
+        "Programming Language :: Python"
+    ],
+    "version": "0.2.2",
+    "include_package_data": true,
+    "install_requires": [
+        "bokeh >= 1.1"
+    ],
+    "extras_require": {
+        "pre-commit": [
+            "pre-commit==2.2",
+            "pylint~=2.8.0"
+        ]
+    }
+}

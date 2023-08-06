@@ -1,0 +1,5 @@
+bokeh>=1.1
+
+[pre-commit]
+pre-commit==2.2
+pylint~=2.8.0
