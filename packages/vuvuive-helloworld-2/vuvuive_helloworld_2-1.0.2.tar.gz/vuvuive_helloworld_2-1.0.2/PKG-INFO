@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: vuvuive_helloworld_2
+Version: 1.0.2
+Summary: Hello world is easy
+Home-page: UNKNOWN
+Author: Hoang Xuan Vu
+Author-email: xuanvuzzz2601@gmail.com
+License: UNKNOWN
+Description: 
+         I'm Vu Vui Ve hehe
+Keywords: python,hello world,hello python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: MacOS

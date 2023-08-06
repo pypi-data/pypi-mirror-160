@@ -1,0 +1,5 @@
+setup.py
+vuvuive_helloworld_2.egg-info/PKG-INFO
+vuvuive_helloworld_2.egg-info/SOURCES.txt
+vuvuive_helloworld_2.egg-info/dependency_links.txt
+vuvuive_helloworld_2.egg-info/top_level.txt
