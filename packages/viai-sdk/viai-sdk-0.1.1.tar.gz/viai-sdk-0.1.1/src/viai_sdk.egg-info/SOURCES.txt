@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/viai/__init__.py
+src/viai/images.py
+src/viai/modules.py
+src/viai/solutions.py
+src/viai_sdk.egg-info/PKG-INFO
+src/viai_sdk.egg-info/SOURCES.txt
+src/viai_sdk.egg-info/dependency_links.txt
+src/viai_sdk.egg-info/requires.txt
+src/viai_sdk.egg-info/top_level.txt
