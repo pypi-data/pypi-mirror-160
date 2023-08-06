@@ -1,0 +1,2 @@
+[console_scripts]
+xhbauto = xgbauto.cli.autoxgb:main
