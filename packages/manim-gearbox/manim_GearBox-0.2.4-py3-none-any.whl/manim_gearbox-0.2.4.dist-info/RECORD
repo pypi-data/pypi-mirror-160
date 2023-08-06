@@ -1,0 +1,8 @@
+manim_gearbox/__init__.py,sha256=qzYdyC8i02jWoaqPXK3JxudOvd9g6vDh23a39QX_Ho8,65
+manim_gearbox/gear_mobject/__init__.py,sha256=dpDWOTjSnE1_JMUj6TKcw_UojvrF5_OxzJYaJgeXYYU,27
+manim_gearbox/gear_mobject/Gear_mobject.py,sha256=xpYLaC5NsZjwToxlS4GmEoPEemYazl0wQeOMNl4EdkU,23694
+manim_gearbox-0.2.4.dist-info/entry_points.txt,sha256=NmeDdRWilzHnI8GaFbu5yFKiWkSDbF0wbnvN2BLUjn8,45
+manim_gearbox-0.2.4.dist-info/LICENSE.txt,sha256=P0mBPAUnNU7TJoDwPfFQnuGucvZwoJbroQWY9IySN4A,1095
+manim_gearbox-0.2.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+manim_gearbox-0.2.4.dist-info/METADATA,sha256=K5scKparHAiHIzB-MCCWaBolXCxudypqCwvyBIqo6lk,3453
+manim_gearbox-0.2.4.dist-info/RECORD,,
