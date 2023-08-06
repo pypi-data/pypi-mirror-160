@@ -1,0 +1,2 @@
+[console_scripts]
+budgetsys = budget_system.commandline_budget:main
