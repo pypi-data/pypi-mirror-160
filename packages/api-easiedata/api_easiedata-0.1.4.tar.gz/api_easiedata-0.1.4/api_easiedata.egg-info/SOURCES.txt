@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+api_easiedata/__init__.py
+api_easiedata/easie_board.py
+api_easiedata/easie_usertb.py
+api_easiedata.egg-info/PKG-INFO
+api_easiedata.egg-info/SOURCES.txt
+api_easiedata.egg-info/dependency_links.txt
+api_easiedata.egg-info/requires.txt
+api_easiedata.egg-info/top_level.txt
