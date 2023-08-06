@@ -1,0 +1,5 @@
+luigi
+plumbum
+colorama
+logzero
+python-dotenv
