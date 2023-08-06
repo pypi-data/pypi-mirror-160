@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/torchcuts/__init__.py
+src/torchcuts/_tcuts.py
+src/torchcuts.egg-info/PKG-INFO
+src/torchcuts.egg-info/SOURCES.txt
+src/torchcuts.egg-info/dependency_links.txt
+src/torchcuts.egg-info/top_level.txt
