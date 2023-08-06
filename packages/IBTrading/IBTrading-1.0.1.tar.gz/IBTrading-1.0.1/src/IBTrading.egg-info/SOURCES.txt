@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/IBTrading.py
+src/IBTrading.egg-info/PKG-INFO
+src/IBTrading.egg-info/SOURCES.txt
+src/IBTrading.egg-info/dependency_links.txt
+src/IBTrading.egg-info/requires.txt
+src/IBTrading.egg-info/top_level.txt

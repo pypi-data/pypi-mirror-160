@@ -1,0 +1,4 @@
+MetaTrader5~=5.0.37
+
+[dev]
+pytest>=3.7
