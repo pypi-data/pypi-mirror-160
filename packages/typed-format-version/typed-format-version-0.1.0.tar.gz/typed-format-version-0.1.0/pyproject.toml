@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools >= 61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typed-format-version"
+description = "Extract the version of a structured file's format specification."
+readme = "README.md"
+requires-python = ">= 3.7"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: DFSG approved",
+    "License :: Freely Distributable",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+urls = {"Source" = "https://gitlab.com/ppentchev/typed-format-version"}
+dependencies = [
+    "typedload >= 2, < 3"
+]
+dynamic = ["version"]
+
+[[project.authors]]
+name = "Peter Pentchev"
+email = "roam@ringlet.net"
+
+[tool.setuptools]
+zip-safe = true
+package-dir = {"" = "python"}
+packages = ["typed_format_version"]
+package-data = {"typed_format_version" = ["py.typed"]}
+
+[tool.setuptools.dynamic]
+version = {attr = "typed_format_version.VERSION"}
+
+[tool.black]
+line-length = 100
+
+[tool.mypy]
+strict = true
+python_version = "3.7"

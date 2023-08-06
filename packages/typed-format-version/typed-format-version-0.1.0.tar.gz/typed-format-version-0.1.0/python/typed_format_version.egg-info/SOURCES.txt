@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+python/typed_format_version/__init__.py
+python/typed_format_version/py.typed
+python/typed_format_version.egg-info/PKG-INFO
+python/typed_format_version.egg-info/SOURCES.txt
+python/typed_format_version.egg-info/dependency_links.txt
+python/typed_format_version.egg-info/requires.txt
+python/typed_format_version.egg-info/top_level.txt
+python/typed_format_version.egg-info/zip-safe
