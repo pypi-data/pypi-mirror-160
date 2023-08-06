@@ -1,0 +1,10 @@
+seGMM/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seGMM/main.py,sha256=msKK4ImxGJOXAkRB-o9sL4l1GUblQBBhleVg7-OssQA,22734
+seGMM/data/SRY_hg19.bed,sha256=HVUpFlmBdQ9GWHT7U8EVsJumfsCGwLiQhDJhN98a9qk,60
+seGMM/data/SRY_hg38.bed,sha256=3wdw4owPAGj2tWUpZuQS6zF6KM0Mc0xcSF6lsr9KAX4,51
+seGMM/script/seGMM.r,sha256=EkrrHkK-cTPvWPk7Mp7XlEmU1HFW9EX8yweZmp2yQWI,5247
+seGMM-1.2.2.dist-info/METADATA,sha256=ubNhoDInq3rG7diqM4Rtt8kQ3dw9Hp2FjzwNmbi2qwA,9516
+seGMM-1.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+seGMM-1.2.2.dist-info/entry_points.txt,sha256=_yPbTK0krZdF8ODujsfBE799WgNTPNaZvUIHO5YipzE,43
+seGMM-1.2.2.dist-info/top_level.txt,sha256=G8xYkoRCkEGE8v0fm97_LUTVKOdh6N82z0G65YpcoTs,6
+seGMM-1.2.2.dist-info/RECORD,,
