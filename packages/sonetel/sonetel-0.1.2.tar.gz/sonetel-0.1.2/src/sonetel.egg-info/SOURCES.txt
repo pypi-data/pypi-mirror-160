@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sonetel/__init__.py
+src/sonetel/api.py
+src/sonetel.egg-info/PKG-INFO
+src/sonetel.egg-info/SOURCES.txt
+src/sonetel.egg-info/dependency_links.txt
+src/sonetel.egg-info/requires.txt
+src/sonetel.egg-info/top_level.txt
