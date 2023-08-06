@@ -1,0 +1,7 @@
+transformers>=4.2
+torch
+dacite
+multiprocess
+
+[:python_version < "3.7"]
+dataclasses
