@@ -1,0 +1,9 @@
+browsercookie
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+pygooglehelper
+pylogconf
+pytconf
+pyvardump
+youtube-dl
