@@ -1,0 +1,1 @@
+This is code helps user to automatically divide data among clients for federated learning

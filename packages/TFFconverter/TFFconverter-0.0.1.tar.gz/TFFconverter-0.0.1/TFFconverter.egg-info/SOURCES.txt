@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+TFFconverter/__init__.py
+TFFconverter/main.py
+TFFconverter.egg-info/PKG-INFO
+TFFconverter.egg-info/SOURCES.txt
+TFFconverter.egg-info/dependency_links.txt
+TFFconverter.egg-info/requires.txt
+TFFconverter.egg-info/top_level.txt
