@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: image-analysis
+Version: 0.0.2
+Summary: Python-based software for XRD data analysis.
+Home-page: https://github.com/henryjsmith12/image-analysis
+Author: Henry Smith
+Author-email: smithh@anl.gov
+License: UNKNOWN
+Description: Python-based software for XRD data analysis. Allows users to analyze SPEC data, raw XRD scan images, and reciprocal space-converted datasets.
+Keywords: python,pyqtgraph,image-analysis,xrd
+Platform: UNKNOWN
