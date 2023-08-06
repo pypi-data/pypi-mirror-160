@@ -1,0 +1,10 @@
+LICENSE.txt
+pyproject.toml
+setup.py
+chromeRequests/__init__.py
+chromeRequests/chromeRequests.py
+chromeRequests.egg-info/PKG-INFO
+chromeRequests.egg-info/SOURCES.txt
+chromeRequests.egg-info/dependency_links.txt
+chromeRequests.egg-info/requires.txt
+chromeRequests.egg-info/top_level.txt
