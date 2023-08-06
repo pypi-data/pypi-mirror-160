@@ -1,0 +1,226 @@
+Metadata-Version: 2.1
+Name: BitwiseExpressionSimplifier
+Version: 1.0.3
+Summary: 位运算表达式化简器，支持各种你能想到的用法
+Home-page: https://github.com/WankkoRee/BitwiseExpressionSimplifier
+Author: Wankko Ree
+Author-email: wkr@wkr.moe
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/WankkoRee/BitwiseExpressionSimplifier/issues
+Description: # 位运算表达式化简器
+        
+        ## 安装
+        
+        ```shell
+        pip install BitwiseExpressionSimplifier
+        ```
+        
+        ## 更新
+        
+        ```shell
+        pip install --upgrade BitwiseExpressionSimplifier
+        ```
+        
+        ## 功能特性
+        
+        ### 基本用法
+        
+        将**表达式中未知数的名称集合**、**表达式**、**位长度**传入`toNOperation`方法，可返回由`NOperation`类派生的`NExpression`类、`NNumber`类 或`NKnownNumber`类。
+        
+        `NOperation`类有`bitwise`属性，可供查看每位的最简表达式。
+        
+        ```python
+        from BitwiseExpressionSimplifier import toNOperation
+        
+        
+        result = toNOperation("(y^(x>>2))&0xF0F", 16, {'x', 'y'}).bitwise
+        # result[0] = y[0] ^ x[2]
+        # result[1] = y[1] ^ x[3]
+        # result[2] = y[2] ^ x[4]
+        # result[3] = y[3] ^ x[5]
+        # result[4] = 0
+        # result[5] = 0
+        # result[6] = 0
+        # result[7] = 0
+        # result[8] = y[8] ^ x[10]
+        # result[9] = y[9] ^ x[11]
+        # result[10] = y[10] ^ x[12]
+        # result[11] = y[11] ^ x[13]
+        # result[12] = 0
+        # result[13] = 0
+        # result[14] = 0
+        # result[15] = 0
+        ```
+        
+        表达式中无未知数时，**表达式中未知数的名称集合**请置为`set()`或者不传参，而不是`{}`。
+        
+        **表达式**支持自动判定运算优先级，支持任意长度的空格填充，支持多层括号的嵌套。
+        
+        **位长度**为运算时的溢出边界，用于模拟程序中的真实溢出情况，如在`int`环境下，其值应当为`32`。
+        
+        ### 高阶玩法
+        
+        可以将`NOperation`类的实例作为未知数传入新表达式参与化简。
+        
+        ```python
+        from BitwiseExpressionSimplifier import toNOperation
+        
+        
+        # 每字节中，新x高四位为原x高四位，新x低四位为原y高四位，新y高四位为原x低四位，新y低四位为原y低四位
+        base = toNOperation("(x^(y>>4))&0xf0f0f0f", 32, {'x', 'y'})
+        x = toNOperation("x^base", 32, {'x'}, {'base': base}).bitwise
+        y = toNOperation("y^(base<<4)", 32, {'y'}, {'base': base}).bitwise
+        # x[0] = y[4]
+        # x[1] = y[5]
+        # x[2] = y[6]
+        # x[3] = y[7]
+        # x[4] = x[4]
+        # x[5] = x[5]
+        # x[6] = x[6]
+        # x[7] = x[7]
+        # x[8] = y[12]
+        # x[9] = y[13]
+        # x[10] = y[14]
+        # x[11] = y[15]
+        # x[12] = x[12]
+        # x[13] = x[13]
+        # x[14] = x[14]
+        # x[15] = x[15]
+        # x[16] = y[20]
+        # x[17] = y[21]
+        # x[18] = y[22]
+        # x[19] = y[23]
+        # x[20] = x[20]
+        # x[21] = x[21]
+        # x[22] = x[22]
+        # x[23] = x[23]
+        # x[24] = y[28]
+        # x[25] = y[29]
+        # x[26] = y[30]
+        # x[27] = y[31]
+        # x[28] = x[28]
+        # x[29] = x[29]
+        # x[30] = x[30]
+        # x[31] = x[31]
+        
+        # y[0] = y[0]
+        # y[1] = y[1]
+        # y[2] = y[2]
+        # y[3] = y[3]
+        # y[4] = x[0]
+        # y[5] = x[1]
+        # y[6] = x[2]
+        # y[7] = x[3]
+        # y[8] = y[8]
+        # y[9] = y[9]
+        # y[10] = y[10]
+        # y[11] = y[11]
+        # y[12] = x[8]
+        # y[13] = x[9]
+        # y[14] = x[10]
+        # y[15] = x[11]
+        # y[16] = y[16]
+        # y[17] = y[17]
+        # y[18] = y[18]
+        # y[19] = y[19]
+        # y[20] = x[16]
+        # y[21] = x[17]
+        # y[22] = x[18]
+        # y[23] = x[19]
+        # y[24] = y[24]
+        # y[25] = y[25]
+        # y[26] = y[26]
+        # y[27] = y[27]
+        # y[28] = x[24]
+        # y[29] = x[25]
+        # y[30] = x[26]
+        # y[31] = x[27]
+        
+        ```
+        
+        ## 支持化简的情况
+        
+        1.  位移操作
+            > 缺省溢出位将直接置`0`
+        2.  `1 & x` or `x & 1`
+            > =`x`
+        3.  `0 & x` or `x & 0`
+            > =`0`
+        4.  `x & x`
+            > =`x`
+        5.  `x & ~x`
+            > =`0`
+        6.  `(x & y & ...) & x` or `x & (x & y & ...)`
+            > =`x & y & ...`
+        7.  `(x & y & ...) & ~x` or `~x & (x & y & ...)`
+            > =`0`
+        8.  `(x & y & ...) & (y & z & ...)`
+            > =`(x & y & ...) & (z & ...)`
+        9.  `(x & y & ...) & (~y & z & ...)` or `(x & ~y & ...) & (y & z & ...)`
+            > =`0`
+        10. `1 | x` or `x | 1`
+            > =`1`
+        11. `0 | x` or `x | 0`
+            > =`x`
+        12. `x | x`
+            > =`x`
+        13. `x | ~x`
+            > =`1`
+        14. `(x | y | ...) | x` or `x | (x | y | ...)`
+            > =`x | y | ...`
+        15. `(x | y | ...) | ~x` or `~x | (x | y | ...)`
+            > =`1`
+        16. `(x | y | ...) | (y | z | ...)`
+            > =`(x | y | ...) | (z | ...)`
+        17. `(x | y | ...) | (~y | z | ...)` or `(x | ~y | ...) | (y | z | ...)`
+            > =`1`
+        18. `0 ^ x` or `x ^ 0`
+            > =`x`
+        19. `1 ^ x` or `x ^ 1`
+            > =`~x`
+        20. `x ^ x`
+            > =`0`
+        21. `x ^ ~x`
+            > =`1`
+        22. `(x ^ y ^ ...) ^ x` or `x ^ (x ^ y ^ ...)`
+            > =`y ^ ...`
+        23. `(x ^ y ^ ...) ^ ~x` or `~x ^ (x ^ y ^ ...)`
+            > =`~(y ^ ...)`
+        24. `(x ^ y ^ ...) ^ (y ^ z ^ ...)`
+            > =`(x ^ ...) ^ (z ^ ...)`
+        25. `(x ^ y ^ ...) ^ (~y ^ z ^ ...)` or `(x ^ ~y ^ ...) ^ (y ^ z ^ ...)`
+            > =`~((x ^ ...) ^ ( z ^ ...))`
+        26. `0 ⊙ x` or `x ⊙ 0`
+            > =`x`
+        27. `1 ⊙ x` or `x ⊙ 1`
+            > =`~x`
+        28. `x ⊙ x`
+            > =`0`
+        29. `x ⊙ ~x`
+            > =`1`
+        30. `(x ⊙ y ⊙ ...) ⊙ x` or `x ⊙ (x ⊙ y ⊙ ...)`
+            > =`y ⊙ ...`
+        31. `(x ⊙ y ⊙ ...) ⊙ ~x` or `~x ⊙ (x ⊙ y ⊙ ...)`
+            > =`~(y ⊙ ...)`
+        32. `(x ⊙ y ⊙ ...) ⊙ (y ⊙ z ⊙ ...)`
+            > =`(x ⊙ ...) ⊙ (z ⊙ ...)`
+        33. `(x ⊙ y ⊙ ...) ⊙ (~y ⊙ z ⊙ ...)` or `(x ⊙ ~y ⊙ ...) ⊙ (y ⊙ z ⊙ ...)`
+            > =`~((x ⊙ ...) ⊙ ( z ⊙ ...))`
+        
+        ## 最后
+        
+        - 有任何**错误**、**BUG**、**未化简**的情况，请务必发起`issue`告知开发者。
+        - 有任何**建议**、**意见**，如认为合理，同样请务必发起`issue`告知开发者。
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
