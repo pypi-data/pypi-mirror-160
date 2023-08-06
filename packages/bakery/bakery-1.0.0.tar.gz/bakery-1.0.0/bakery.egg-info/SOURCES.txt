@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+bakery/__init__.py
+bakery/assertions.py
+bakery/records.py
+bakery.egg-info/PKG-INFO
+bakery.egg-info/SOURCES.txt
+bakery.egg-info/dependency_links.txt
+bakery.egg-info/top_level.txt
