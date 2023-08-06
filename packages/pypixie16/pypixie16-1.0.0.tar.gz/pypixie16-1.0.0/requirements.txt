@@ -1,0 +1,14 @@
+alabaster
+appdirs
+cbitstruct
+docopt
+fast-histogram
+markupsafe
+matplotlib
+more_itertools
+numpy
+pandas
+pint
+PyQt5
+sphinx
+sphinxcontrib-napoleon
