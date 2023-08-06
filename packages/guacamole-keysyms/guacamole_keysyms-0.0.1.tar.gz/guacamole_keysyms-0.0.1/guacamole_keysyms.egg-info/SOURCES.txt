@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+guacamole_keysyms/__init__.py
+guacamole_keysyms.egg-info/PKG-INFO
+guacamole_keysyms.egg-info/SOURCES.txt
+guacamole_keysyms.egg-info/dependency_links.txt
+guacamole_keysyms.egg-info/top_level.txt
