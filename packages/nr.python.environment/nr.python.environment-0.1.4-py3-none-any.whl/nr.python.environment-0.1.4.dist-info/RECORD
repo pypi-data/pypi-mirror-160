@@ -1,0 +1,9 @@
+nr/python/environment/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+nr/python/environment/distributions.py,sha256=sDAmDr2dOsBlevjz60nmEuJwbDs_6sQYxgKFl_GUQfw,5188
+nr/python/environment/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nr/python/environment/utils.py,sha256=k1JPldXK-0tFEeeUq0oDJKcuwefD8v9VkrXkPA4gEso,369
+nr/python/environment/virtualenv.py,sha256=J6TWOCWbDs173Q7OfC8coykKI9-TX0hbZwOSAP2X28w,1988
+nr.python.environment-0.1.4.dist-info/LICENSE,sha256=n1m2B7cI9M4RdEbzD0qQ9ZiNLlEhZAT0kRJSRClqpYw,988
+nr.python.environment-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nr.python.environment-0.1.4.dist-info/METADATA,sha256=FIRAMykquOvqZE0OkjPmo9i4uQ2tJyBFztSYgCJf0JU,1334
+nr.python.environment-0.1.4.dist-info/RECORD,,
