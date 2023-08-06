@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/marian_tensorboard/__init__.py
+src/marian_tensorboard/__main__.py
+src/marian_tensorboard/marian_tensorboard.py
+src/marian_tensorboard/version.py
+src/marian_tensorboard.egg-info/PKG-INFO
+src/marian_tensorboard.egg-info/SOURCES.txt
+src/marian_tensorboard.egg-info/dependency_links.txt
+src/marian_tensorboard.egg-info/entry_points.txt
+src/marian_tensorboard.egg-info/requires.txt
+src/marian_tensorboard.egg-info/top_level.txt

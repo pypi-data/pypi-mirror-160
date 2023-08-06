@@ -1,0 +1,4 @@
+protobuf==3.19
+azureml-core>=1
+tensorboard<3,>=2
+tensorboardX>=2.4
