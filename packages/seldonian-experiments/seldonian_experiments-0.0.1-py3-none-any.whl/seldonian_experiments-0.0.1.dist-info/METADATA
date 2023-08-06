@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: seldonian-experiments
+Version: 0.0.1
+Summary: Library for running experiments with Seldonian algorithms
+Home-page: 
+Author: Austin Hoag
+Author-email: austinthomashoag@gmail.com
+Project-URL: Bug Tracker, https://github.com/seldonian-framework/Experiments/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: autograd (>=1.4)
+Requires-Dist: cma (>=3.2.2)
+Requires-Dist: Flask (>=2.1.2)
+Requires-Dist: Flask-WTF (>=1.0.1)
+Requires-Dist: graphviz (>=0.19.1)
+Requires-Dist: gym (>=0.23.1)
+Requires-Dist: numpy (>=1.21.4)
+Requires-Dist: pandas (>=1.4.1)
+Requires-Dist: pytest (>=7.0.1)
+Requires-Dist: scikit-learn (>=1.1.1)
+Requires-Dist: scipy (>=1.7.3)
+Requires-Dist: tqdm (>=4.64.0)
+Requires-Dist: Werkzeug (==2.1.2)
+Requires-Dist: WTForms (==3.0.1)
+
+# Seldonian Experiments
+
+This is the source code repository for a library used to run experiments that implement [Seldonian](https://seldonian.cs.umass.edu/) algorithms. 
+
