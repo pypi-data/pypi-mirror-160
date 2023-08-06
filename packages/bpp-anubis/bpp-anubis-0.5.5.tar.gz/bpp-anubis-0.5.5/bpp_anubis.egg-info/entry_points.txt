@@ -1,0 +1,6 @@
+[console_scripts]
+anubis = anubis.__main__:main
+anubis-combine-results = anubis.results_utils.__main__:main
+anubis-create-cc-run = anubis.sync.cucumber_studio.create_run:main
+anubis-json-to-csv = anubis.sync.cucumber_json_to_csv:main
+anubis-json-to-junit = anubis.results_utils.json_to_junit:convert_json_to_junit
