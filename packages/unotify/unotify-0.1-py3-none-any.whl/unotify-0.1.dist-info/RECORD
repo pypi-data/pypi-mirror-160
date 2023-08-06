@@ -1,0 +1,8 @@
+unotify/__init__.py,sha256=XDtfdxlgvSmCKM3erpgTTStMcKioLkuwUUEjelNoh64,67
+unotify/core.py,sha256=eWKg6LYsGFMoiF1J1CPczgcGPxlb2Y-3pY6QUV4vxaQ,913
+unotify/urgencies.py,sha256=j78l3OP5KtAQBnibRdWPvSHBqUZ0ZYFrX_0P37i4DX0,48
+unotify-0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+unotify-0.1.dist-info/METADATA,sha256=1Jf0TvvCwpQ76YufUe1yv5hshK0j7nQmHzA0RxkLrd4,469
+unotify-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+unotify-0.1.dist-info/top_level.txt,sha256=3k-_tUfWhqfIJUJppoXjEkiQkAckv4gBcal1JcNIFJQ,8
+unotify-0.1.dist-info/RECORD,,
