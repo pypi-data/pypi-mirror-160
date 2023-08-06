@@ -1,0 +1,84 @@
+{
+  "name": "@mamba-org/gator-common",
+  "version": "3.1.0",
+  "description": "Base components and models to manage conda/mamba environments within Jupyter",
+  "keywords": [
+    "conda",
+    "jupyter",
+    "jupyterlab",
+    "mamba"
+  ],
+  "homepage": "https://github.com/mamba-org/gator",
+  "bugs": {
+    "url": "https://github.com/mamba-org/gator/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "Jupyter Development Team",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mamba-org/gator.git"
+  },
+  "scripts": {
+    "build": "tsc --project .",
+    "build:dev": "yarn run build",
+    "build:prod": "yarn run build",
+    "clean": "rimraf lib tsconfig.tsbuildinfo",
+    "lab:link": "jupyter labextension link . --no-build",
+    "prepare": "yarn run clean && yarn run build",
+    "test": "jest --coverage",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@jupyterlab/apputils": "^3.0.0",
+    "@jupyterlab/coreutils": "^5.0.0",
+    "@jupyterlab/services": "^6.0.0",
+    "@jupyterlab/settingregistry": "^3.0.0",
+    "@jupyterlab/ui-components": "^3.0.0",
+    "@lumino/coreutils": "^1.5.3",
+    "@lumino/signaling": "^1.4.3",
+    "@lumino/widgets": "^1.16.1",
+    "d3": "^5.5.0",
+    "jupyterlab_toastify": "^4.1.3",
+    "react-d3-graph": "^2.5.0",
+    "react-virtualized-auto-sizer": "^1.0.2",
+    "react-window": "^1.8.6",
+    "semver": "^6.0.0||^7.0.0",
+    "typestyle": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@jupyterlab/testutils": "^3.0.0",
+    "@types/jest": "^26.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-d3-graph": "^2.3.4",
+    "@types/react-virtualized-auto-sizer": "^1.0.0",
+    "@types/react-window": "^1.8.2",
+    "@types/semver": "^7.3.1",
+    "jest": "^26.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "ts-jest": "^26.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "sideEffects": [
+    "style/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

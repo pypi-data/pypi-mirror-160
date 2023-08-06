@@ -1,0 +1,16 @@
+jupyter_client
+jupyterlab_server
+packaging
+tornado
+traitlets
+
+[:python_version < "3.7"]
+typing
+
+[test]
+coverage
+flake8
+nb_conda_kernels>=2.2.0
+pytest
+pytest-asyncio
+requests

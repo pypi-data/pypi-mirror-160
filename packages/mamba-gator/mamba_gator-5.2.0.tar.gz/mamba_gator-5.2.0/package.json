@@ -1,0 +1,51 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamba-org/gator.git"
+  },
+  "author": "Jupyter Development Team",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mamba-org/gator/issues"
+  },
+  "homepage": "https://github.com/mamba-org/gator",
+  "scripts": {
+    "build": "lerna run build",
+    "build:dev": "lerna run build:dev",
+    "build:prod": "lerna bootstrap && lerna run build:prod",
+    "clean": "lerna run clean",
+    "eslint": "eslint . --fix --ext .ts,.tsx",
+    "eslint:check": "eslint . --ext .ts,.tsx",
+    "install": "lerna bootstrap",
+    "prettier": "npx prettier --write \"**/*{.ts,.tsx,.js,.jsx,.css,.json,.md}\"",
+    "prettier:check": "npx prettier --list-different \"**/*{.ts,.tsx,.js,.jsx,.css,.json,.md}\"",
+    "publish": "yarn run clean && yarn run build && lerna publish",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.18.3",
+    "husky": "^0.14.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^9.4.3",
+    "prettier": "^2.1.1",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.1.3",
+    "watch": "~1.0.2"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "private": true
+}

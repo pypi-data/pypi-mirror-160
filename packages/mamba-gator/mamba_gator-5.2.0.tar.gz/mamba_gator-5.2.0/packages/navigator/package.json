@@ -1,0 +1,58 @@
+{
+  "name": "@mamba-org/navigator",
+  "version": "3.1.0",
+  "private": true,
+  "files": [
+    "lib/**/*.{d.ts,js.map,js}",
+    "style/**/*.{css,svg}",
+    "schema/*.json"
+  ],
+  "sideEffects": [
+    "style/**/*.css"
+  ],
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "directories": {
+    "lib": "lib/"
+  },
+  "scripts": {
+    "build": "tsc && webpack --mode=production",
+    "build:dev": "tsc && webpack",
+    "build:prod": "yarn run build",
+    "clean": "rimraf lib tsconfig.tsbuildinfo ../../mamba_gator/navigator/static/*.* ../../mamba_gator/nbextension/static/*.*",
+    "prepublishOnly": "yarn run build",
+    "watch:ts": "tsc -w --listEmittedFiles",
+    "watch:webpack": "webpack --watch",
+    "watch": "npm-run-all --parallel watch:ts watch:webpack"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^3.0.0",
+    "@jupyterlab/apputils": "^3.0.0",
+    "@jupyterlab/mainmenu": "^3.0.0",
+    "@jupyterlab/theme-light-extension": "^3.0.0",
+    "@jupyterlab/ui-components": "^3.0.0",
+    "@lumino/widgets": "^1.16.1",
+    "@mamba-org/gator-common": "^3.0.2",
+    "es6-promise": "~4.2.8",
+    "jupyterlab_toastify": "^4.1.3",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "file-loader": "~6.0.0",
+    "fs-extra": "^9.0.1",
+    "glob": "~7.1.6",
+    "mini-css-extract-plugin": "~1.3.2",
+    "npm-run-all": "^4.1.5",
+    "raw-loader": "~4.0.0",
+    "read-package-tree": "^5.3.1",
+    "style-loader": "~2.0.0",
+    "svg-url-loader": "~6.0.0",
+    "url-loader": "~4.1.0",
+    "webpack": "^5.55.1",
+    "webpack-bundle-analyzer": "^4.1.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
