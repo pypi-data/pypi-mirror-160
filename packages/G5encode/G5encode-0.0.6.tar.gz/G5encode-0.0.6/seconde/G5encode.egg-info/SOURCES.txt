@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+seconde/G5encode.egg-info/PKG-INFO
+seconde/G5encode.egg-info/SOURCES.txt
+seconde/G5encode.egg-info/dependency_links.txt
+seconde/G5encode.egg-info/top_level.txt
+seconde/encoding/G5encode.py
+seconde/encoding/__init__.py
