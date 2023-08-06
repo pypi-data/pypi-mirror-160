@@ -1,0 +1,4 @@
+[console_scripts]
+wton = wton.ui.direct_cli:main
+wton-gui = wton.ui.gui:main
+wton-interactive = wton.ui.interactive_cli:main
