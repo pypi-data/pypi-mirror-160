@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jp_number/__init__.py
+jp_number/jp_number.py
+jp_number/versions.py
+jp_number.egg-info/PKG-INFO
+jp_number.egg-info/SOURCES.txt
+jp_number.egg-info/dependency_links.txt
+jp_number.egg-info/top_level.txt
