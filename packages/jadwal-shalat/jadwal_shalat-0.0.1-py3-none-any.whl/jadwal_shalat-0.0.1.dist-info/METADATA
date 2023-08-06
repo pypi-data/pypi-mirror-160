@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: jadwal-shalat
+Version: 0.0.1
+Summary: Simple Jadwal Shalat
+Home-page: https://gitlab.com/nesstero/jadwal-shalat
+Author: nestero
+Author-email: nestero@mail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Jadwal Shalat
+Simpel jadwal shalat
+
+# Installasi
+```shell
+$ pip install jadwal-shalat
+```
+
+# Usage
+## cli
+```shell
+$ jadwal-shalat
+```
+## python
+```python
+from jadwal_shalat import shalat
+
+def waktuShalat():
+    Shalat = shalat()
+    jadwalShalat = Shalat.jadwal()
+    display = f"""\033[92m
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣧⡀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣴⠀⠀⠀⠀⠀⠀⠀⠀⡌⠀⡆⠙⣆⠀
+⠀⠀⠀⠀⠀⠀⣰⡻⡁⠀⠀⠀⠀⠀⠀⠸⣴⠒⢻⣳⠞⠀
+⠀⠀⠀⠀⠀⠰⡡⠥⡷⠀⠀⠀⠀⠀⠀⠀⡆⣧⢸⢹⠆⠀
+⠀⠀⢀⣤⠶⠛⠛⠛⠛⡲⢤⡀⠀⠀⠀⡤⣓⣻⣾⣾⣤⡀
+⠀⣰⠟⠀⠀⠀⠀⠀⠀⠠⣷⣝⢆⠀⠀⢻⣗⡯⠯⣯⡽⠇
+⢀⣿⣠⣤⡶⠶⢶⣯⣽⣿⡟⢿⣏⡆⠀⠀⢅⡠⡟⣿⡇⠀
+⠀⢙⣉⣤⠭⠭⠽⣿⣿⣿⣿⣿⣾⠁⠀⠀⠀⣽⠁⡏⡇⠀
+⠀⢰⠐⡆⢺⠀⠈⢱⠉⢸⡏⡟⢿⠀⠀⠀⡄⣩⠀⡗⡇⠀
+⢀⡼⠖⣓⣉⣉⣩⣭⣭⣥⣤⣁⣉⡄⠀⠀⡇⣫⠀⡷⡇⠀
+⢀⡉⠁⠀⠀⠀⢀⣼⠿⢿⣿⣿⣷⡆⠀⠀⡇⠛⠀⡧⡇⠀
+⠀⠙⢿⣿⣿⣷⣿⣶⣶⣦⣽⣿⣿⣿⣦⣀⣧⣿⡀⣿⡇⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠛⠛⠃\033[0m
+\033[1mJadwal Shalat {jadwalShalat[10]} 
+Hari\t: {jadwalShalat[0]}, {jadwalShalat[1]}
+Imsak\t: {jadwalShalat[2]}\t Subuh\t: {jadwalShalat[3]}
+Terbit\t: {jadwalShalat[4]}\t Dhuha\t: {jadwalShalat[5]}
+Dzuhur\t: {jadwalShalat[6]}\t Ashar\t: {jadwalShalat[7]}
+Maghrib\t: {jadwalShalat[8]}\t Isya\t: {jadwalShalat[9]}
+"""
+    print(display)
+
+waktuShalat()
+```
+![ss](ss.png)
