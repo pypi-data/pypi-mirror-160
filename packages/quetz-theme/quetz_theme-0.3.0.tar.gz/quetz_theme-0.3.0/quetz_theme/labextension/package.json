@@ -1,0 +1,77 @@
+{
+  "name": "quetz-theme",
+  "version": "0.2.0",
+  "description": "A dark-yellow theme for Quetz.",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "quetz"
+  ],
+  "homepage": "https://github.com/mamba-org/quetz-theme",
+  "bugs": {
+    "url": "https://github.com/mamba-org/quetz-theme/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "QuantStack",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mamba-org/quetz-theme.git"
+  },
+  "scripts": {
+    "build": "jlpm run build:lib && jlpm run build:labextension:dev",
+    "build:prod": "jlpm run build:lib && jlpm run build:labextension",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:lib": "tsc",
+    "clean": "jlpm run clean:lib",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
+    "clean:labextension": "rimraf quetz_theme/labextension",
+    "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
+    "eslint": "eslint . --ext .ts,.tsx --fix",
+    "eslint:check": "eslint . --ext .ts,.tsx",
+    "install:extension": "jlpm run build",
+    "watch": "run-p watch:src watch:labextension",
+    "watch:src": "tsc -w",
+    "watch:labextension": "jupyter labextension watch ."
+  },
+  "dependencies": {
+    "@jupyterlab/apputils": "^3.0.0",
+    "@lumino/application": "^1.25.0"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.4.0",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.0.3"
+  },
+  "sideEffects": [
+    "style/*.css"
+  ],
+  "jupyterlab": {
+    "extension": true,
+    "themePath": "style/index.css",
+    "outputDir": "quetz_theme/labextension",
+    "_build": {
+      "load": "static/remoteEntry.64619c43bf40a2e55590.js",
+      "extension": "./extension"
+    }
+  },
+  "quetz": {
+    "extension": true,
+    "themePath": "style/index.css",
+    "outputDir": "quetz_theme/labextension"
+  }
+}
