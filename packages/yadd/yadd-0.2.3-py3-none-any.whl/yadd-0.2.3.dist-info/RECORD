@@ -1,0 +1,11 @@
+yadd/__init__.py,sha256=EyOOTB4q_adVlm-afB-79SO6lZ5W-40J4_2AG3UX8kc,202
+yadd/__main__.py,sha256=hzlPSnQbolXQaJN_USXcb_A26-QRIZ8_xP-zQlB-rQ8,90
+yadd/__version__.py,sha256=k5O4ejv0o-LbPqAHSeGJfdpaviwbryWEMg47v9hHNZw,63
+yadd/make_versions_file.py,sha256=rsQJCIfTSXgS45UZCax-w0A3eQ6bPUplnn2Qu5xNf78,938
+yadd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yadd/yadd_cli.py,sha256=Xs3cHDFEBOxlntWWRwo9Hmz4K0BOl27apebLI7Sc_3A,827
+yadd/yadd_module.py,sha256=Jdcq1tCPki9RREPqm7Kv7Qz6A3A3BGhrJ70NHo6xmkk,10350
+yadd-0.2.3.dist-info/METADATA,sha256=tuBhhyvTRWLPx2ZXMVMx46RFrqbU3o5W90RIVhGFNrY,1392
+yadd-0.2.3.dist-info/WHEEL,sha256=liJPdWJO-LaTaS3jCRTQCzug2NduIeDTswBay6mhVX8,86
+yadd-0.2.3.dist-info/licenses/LICENSE,sha256=cOyJnGXm52D0itV40Yb557ztxi4CNQ4UO5gO9_Ht_z0,1088
+yadd-0.2.3.dist-info/RECORD,,
