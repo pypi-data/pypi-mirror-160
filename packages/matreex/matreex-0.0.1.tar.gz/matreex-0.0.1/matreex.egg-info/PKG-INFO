@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: matreex
+Version: 0.0.1
+Summary: Matreex: compact and interactive visualisation of large gene families using hierarchical phylogenetic profiles
+Home-page: UNKNOWN
+Author: Victor Rossier and Clement Train
+License: LGPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

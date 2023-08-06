@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/matreex
+matreex/__init__.py
+matreex/_runners.py
+matreex/matreex.py
+matreex.egg-info/PKG-INFO
+matreex.egg-info/SOURCES.txt
+matreex.egg-info/dependency_links.txt
+matreex.egg-info/requires.txt
+matreex.egg-info/top_level.txt
