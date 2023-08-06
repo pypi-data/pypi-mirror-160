@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+ForTheMainWord.egg-info/PKG-INFO
+ForTheMainWord.egg-info/SOURCES.txt
+ForTheMainWord.egg-info/dependency_links.txt
+ForTheMainWord.egg-info/top_level.txt
+kits/__init__.py
+kits/main.py
