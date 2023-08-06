@@ -1,0 +1,9 @@
+README.md
+setup.py
+_skbuild/linux-x86_64-3.9/cmake-install/pymarian.cpython-39-x86_64-linux-gnu.so
+pymarian.egg-info/PKG-INFO
+pymarian.egg-info/SOURCES.txt
+pymarian.egg-info/dependency_links.txt
+pymarian.egg-info/not-zip-safe
+pymarian.egg-info/requires.txt
+pymarian.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pymarian
+Version: 1.11.7
+Summary: A test project using pybind11 and CMake
+Author: Marcin Junczys-Dowmunt
+Author-email: marcinjd@microsoft.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: test
+
+UNKNOWN
+
