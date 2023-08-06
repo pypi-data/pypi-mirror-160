@@ -1,0 +1,11 @@
+LICENSE
+README.md
+maya_toolbar.py
+pyproject.toml
+setup.cfg
+setup.py
+maya_toolbar.egg-info/PKG-INFO
+maya_toolbar.egg-info/SOURCES.txt
+maya_toolbar.egg-info/dependency_links.txt
+maya_toolbar.egg-info/requires.txt
+maya_toolbar.egg-info/top_level.txt
