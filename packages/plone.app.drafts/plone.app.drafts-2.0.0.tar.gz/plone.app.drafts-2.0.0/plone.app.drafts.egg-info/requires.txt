@@ -1,0 +1,13 @@
+setuptools
+ZODB3
+zope.interface
+zope.component
+zope.schema
+zope.annotation
+plone.app.uuid
+plone.behavior>=1.1
+Zope2
+
+[test]
+plone.app.testing
+plone.app.dexterity
