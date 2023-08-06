@@ -1,0 +1,12 @@
+scapy/LinReg.py,sha256=n5_PT5PChCJDwOzjGBpLsZNFJPmJcN-Ci29TBD9UTgA,1688
+scapy/UT.py,sha256=zXA3dkoRYxD9lBVoqqiqWILmGBaq_rPh7X7wmvosldU,562
+scapy/XrTools.py,sha256=ar6vFgZB3ftfVSSBwVTrbQ3Oasy0NnL99xQFyTUoX8U,1611
+scapy/__init__.py,sha256=i8mQYfSGK-RsGTJCkeEjtT0lYdCEHEBGVpn8hb702lg,232
+scapy/linger_cal.py,sha256=feTksZe4dYbQSAFVcqJQw172lCoeI6o9_j-bkLNlydM,4067
+scapy/load_sst.py,sha256=bll1rqR5LnmaA4BLS60ja81fnzPqc_3kvtGTF1jEIdM,185
+scapy/version.py,sha256=v0zqRembIW__d7HVDd71J2eoXGtALnzdY8JdBVk-BPY,21
+scapy/example/data/HadISST_sst_2x2.nc,sha256=A3KPKxTtnIWjbL7SgPKvSdrTkA226465gbncCHnX4Ps,32154860
+sacpy-0.0.5.dist-info/METADATA,sha256=Wtm-_iASJiLGU8dZYpvoJi9lAucr7iyd6UFP5Qs5PLo,1728
+sacpy-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sacpy-0.0.5.dist-info/top_level.txt,sha256=fVn4sGE9A22VnfLizj-_43ljEouOxKtZ3e5cARFh0f0,12
+sacpy-0.0.5.dist-info/RECORD,,
