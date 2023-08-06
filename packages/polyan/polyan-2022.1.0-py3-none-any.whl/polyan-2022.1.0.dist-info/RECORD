@@ -1,0 +1,12 @@
+polyan/__init__.py,sha256=c1XdSawAk4uosenRP6JP4MnAetpVxCwscS4alYZY8o4,81
+polyan/polyan.py,sha256=22uEWB1iGO_09cM0y136vwHN6IIESYiqZqmGynFYIy4,21186
+polyan/Data/GRCh38.csv,sha256=envCdd-p-YOZ6mD0OfhBQ2hG1wtqC4BIOs_5h83Ws2Q,17624652
+polyan/Data/Untitled.ipynb,sha256=YiZLCcxiozyV-pzcGYclor5dSqLT-IQdWNMOXjxKI-8,12072
+polyan/Data/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+polyan/Data/parameters.json,sha256=NMfZhoWAAOduvS3BixzGM6UiMMIHPJudOVjg7cVWTNw,408
+polyan/Data/sacCer3.csv,sha256=-rrd0MnDcuGQePRic36NUEC2QVMQPA2a3SEO4ExiqxE,307423
+polyan-2022.1.0.dist-info/LICENSE,sha256=pJzl8HYxPikJG-hVLrVHSYSLGyNUabXm71wNyGGum_o,1075
+polyan-2022.1.0.dist-info/METADATA,sha256=5dFskA2t3Yj8qprpco8HMqbT5JnsZKke627xBuhF8vo,2516
+polyan-2022.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+polyan-2022.1.0.dist-info/top_level.txt,sha256=iVTWGK4MMW6YJ66rF-RaLJODYs2PpSRBHVeEmAK_nhA,7
+polyan-2022.1.0.dist-info/RECORD,,
