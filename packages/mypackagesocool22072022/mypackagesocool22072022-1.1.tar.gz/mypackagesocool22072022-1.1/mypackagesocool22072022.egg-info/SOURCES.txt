@@ -1,0 +1,7 @@
+setup.py
+mypackagesocool22072022/__init__.py
+mypackagesocool22072022/my_math.py
+mypackagesocool22072022.egg-info/PKG-INFO
+mypackagesocool22072022.egg-info/SOURCES.txt
+mypackagesocool22072022.egg-info/dependency_links.txt
+mypackagesocool22072022.egg-info/top_level.txt
