@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+dataflow_meta/__init__.py
+dataflow_meta/__main__.py
+dataflow_meta.egg-info/PKG-INFO
+dataflow_meta.egg-info/SOURCES.txt
+dataflow_meta.egg-info/dependency_links.txt
+dataflow_meta.egg-info/entry_points.txt
+dataflow_meta.egg-info/requires.txt
+dataflow_meta.egg-info/top_level.txt

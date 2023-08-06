@@ -1,0 +1,2 @@
+[console_scripts]
+dataflow-meta = dataflow_meta.cli:cli
