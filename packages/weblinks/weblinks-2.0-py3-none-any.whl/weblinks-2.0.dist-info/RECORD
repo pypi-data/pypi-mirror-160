@@ -1,0 +1,12 @@
+weblinks/__init__.py,sha256=nxhQ7DOdIbmzOwbBIEh0aIYmTXWSDRpUtFVkB7cgtyg,210
+weblinks/config.py,sha256=1Vf80yySCjZ-Ea5Kxfz5_eiwSiuVgi3aIhCgJsmTRP4,1683
+weblinks/proxy.py,sha256=8JK9NGZhIQztsBs4JoQyTNiIRDPqA6j606AyGTNI4w8,955
+weblinks/run.py,sha256=xO1VXPSBuxIyVsUXAVLoqCdNVFXFKd7rj88bX5d5ODM,4612
+weblinks/utils.py,sha256=h2_GdLZ8o__KZgGl2wd5RkTFPpV10tzcZzKVZxRE9Ms,2141
+weblinks/weblinks.py,sha256=WOn_HhTV7vFUQ8HadqoTvcb67NSxg7TQjzH1qsGTNzM,1588
+weblinks-2.0.dist-info/LICENSE,sha256=42qje2Hp_TnayvCudk8vzQxBzns7cQvaPN_kfUaJ7-c,11348
+weblinks-2.0.dist-info/METADATA,sha256=csGi0n__EbcopX5iBe-haaK279WmBCczXCFPC_3QQOs,6674
+weblinks-2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+weblinks-2.0.dist-info/entry_points.txt,sha256=il3mDMNFxtgwmMpMVT451qJv4hhwkvGLEIEh24jxY6c,48
+weblinks-2.0.dist-info/top_level.txt,sha256=31t_PSfHD9ikARWXDhEEHnQ-1idHaepT4hUv9-1GURw,9
+weblinks-2.0.dist-info/RECORD,,
