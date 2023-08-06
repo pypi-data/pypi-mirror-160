@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/duy_book/__init__.py
+src/duy_book/random_split1.py
+src/duy_book/tqdm1.py
+src/duy_book.egg-info/PKG-INFO
+src/duy_book.egg-info/SOURCES.txt
+src/duy_book.egg-info/dependency_links.txt
+src/duy_book.egg-info/top_level.txt
