@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: ragraph
+Version: 1.16.0
+Summary: Ratio graph handling in Python.
+Home-page: https://gitlab.com/ratio-case/python/ragraph
+License: GPL-3.0-or-later
+Author: Ratio Innovations B.V.
+Author-email: info@ratio-case.nl
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: esl
+Provides-Extra: plot
+Requires-Dist: dd (>=0.5.7,<0.6.0)
+Requires-Dist: kaleido (==0.2.1); extra == "plot"
+Requires-Dist: lxml (>=4.8.0,<5.0.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: plotly (>=5.7.0,<6.0.0)
+Requires-Dist: raesl; extra == "esl"
+Requires-Dist: ruamel.yaml (>=0.17.21,<0.18.0)
+Project-URL: Documentation, https://ragraph.ratio-case.nl
+Project-URL: Repository, https://gitlab.com/ratio-case/python/ragraph
+Description-Content-Type: text/x-rst
+
+#######
+RaGraph
+#######
+
+RaGraph is a package to create, manipulate, and analyze graphs consisting of nodes and
+edges. Nodes usually represent (hierarchies of) objects and edges the dependencies or
+relationships between them.
+
+These graphs, or networks if you will, lend themselves well to applied analyses like
+clustering and sequencing, as well as analyses involving the calculation of various
+insightful metrics.
+
+
+**********
+Quickstart
+**********
+
+Installation
+============
+
+RaGraph can be installed using ``pip install ragraph`` for any Python version >=3.9. Or,
+for Poetry managed projects, use ``poetry add ragraph`` to add it as a dependency.
+
+
+Using RaGraph
+=============
+
+RaGraph's primary use is working with Graph objects that contain Nodes and Eges between
+Nodes. See the `usage documentation <https://ragraph.ratio-case.nl/usage/index.html>`_
+for more info!
+
+
+***************
+Developer guide
+***************
+
+Python packaging information
+============================
+
+This project is packaged using `poetry <https://python-poetry.org/>`_. Packaging
+information as well as dependencies are stored in `pyproject.toml <./pyproject.toml>`_.
+
+Installing the project and its development dependencies can be done using ``poetry install``.
+
+
+Invoke tasks
+============
+
+Most elemental maintenance tasks can be accomplished using
+[Invoke](https://www.pyinvoke.org/). After installing using ``poetry install`` and
+enabling the environment using ``poetry shell``, you can run all tasks using ``inv
+[taskname]`` or ``invoke [taskname]``. E.g. ``inv docs`` builds the documentation.
+
+
+Versioning
+==========
+
+This project uses `semantic versioning <https://semver.org>`_. Version increments are
+checked using `Raver <https://raver.ratio-case.nl>`_.
+
+
+Changelog
+=========
+
+Changelog format as described by https://keepachangelog.com/ has been adopted.
+

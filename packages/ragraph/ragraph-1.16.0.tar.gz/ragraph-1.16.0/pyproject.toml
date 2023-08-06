@@ -1,0 +1,88 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "ragraph"
+version = "1.16.0"
+description = "Ratio graph handling in Python."
+authors = ["Ratio Innovations B.V. <info@ratio-case.nl>"]
+license = "GPL-3.0-or-later"
+documentation = "https://ragraph.ratio-case.nl"
+readme = "README.rst"
+repository = "https://gitlab.com/ratio-case/python/ragraph"
+homepage = "https://gitlab.com/ratio-case/python/ragraph"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dd = { version = "^0.5.7" }
+lxml = { version = "^4.8.0" }
+numpy = { version = "^1.22.3" }
+plotly = { version = "^5.7.0" }
+"ruamel.yaml" = "^0.17.21"
+kaleido = { version = "0.2.1", optional = true }
+raesl = { version = "*", optional = true }
+
+[tool.poetry.extras]
+esl = ["raesl"]
+plot = ["kaleido"]
+
+[tool.poetry.dev-dependencies]
+black = "*"
+invoke = "^1.7.1"
+jupyterlab = "^3"
+pandas = "^1.4.3"
+pydata-sphinx-theme = { version = "*" }
+pytest = "*"
+pytest-cov = "*"
+pytest-doctestplus = "*"
+pygments-csv-lexer = { version = "*" }
+raver = { version = "^3.0.1"}
+Sphinx = { version = "*" }
+sphinx-autoapi = { version = "*" }
+sphinx-copybutton = { version = "*" }
+sphinx-prompt = { version = "*" }
+sphinxcontrib-bibtex = { version = "*" }
+sphinxemoji = { version = "*" }
+
+[[tool.poetry.source]]
+name = "ratio"
+url = "https://gitlab.com/api/v4/projects/24588477/packages/pypi/simple/"
+secondary = true
+
+[[tool.poetry.source]]
+name = "pypi-public"
+url = "https://pypi.org/simple/"
+default = true
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[tool.pytest.ini_options]
+addopts = "-s --cov --cov-report xml:./.pytest_cache/coverage.xml --cov-report term-missing --doctest-plus --doctest-rst --basetemp ./tests/.temp"
+testpaths = ["docs", "tests"]
+markers = ["slow"]
+
+[tool.coverage.run]
+source = [
+    "ragraph",
+    "/usr/local/lib/python3.9/site-packages/ragraph",
+    "/home/ratio/.local/lib/python3.9/site-packages/ragraph",
+]
+disable_warnings = ["module-not-imported"]
+
+[tool.coverage.paths]
+source = [
+    "ragraph",
+    "/usr/local/lib/python3.9/site-packages/ragraph",
+    "/home/ratio/.local/lib/python3.9/site-packages/ragraph",
+]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.raver]
+ref = "origin/master"
+changelog = "./docs/source/changelog.rst"
