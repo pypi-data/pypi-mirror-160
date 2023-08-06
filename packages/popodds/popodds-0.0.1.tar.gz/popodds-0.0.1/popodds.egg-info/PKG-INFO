@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: popodds
+Version: 0.0.1
+Summary: popodds
+Home-page: https://github.com/mdmould/popodds
+Author: Matthew Mould
+Author-email: mattdmould@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+popodds
