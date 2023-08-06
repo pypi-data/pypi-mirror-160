@@ -1,0 +1,2757 @@
+{
+  "wdbc": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 569,
+      "number_of_dimensions": 31,
+      "weak_outlier_proportion": 0.2091,
+      "strong_outlier_proportion": 0.1336,
+      "estimated_max_overlap": 0.6795,
+      "estimated_mean_overlap": 0.6795,
+      "missing_values_proportion": 0.0
+    },
+    "name": "wdbc",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/wdbc.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/wdbc.arff",
+    "description": "                            0\n0                    IDNumber\n1                       class\n2    RealValuedInputFeature_1\n3    RealValuedInputFeature_2\n4    RealValuedInputFeature_3\n5    RealValuedInputFeature_4\n6    RealValuedInputFeature_5\n7    RealValuedInputFeature_6\n8    RealValuedInputFeature_7\n9    RealValuedInputFeature_8\n10   RealValuedInputFeature_9\n11  RealValuedInputFeature_10\n12  RealValuedInputFeature_11\n13  RealValuedInputFeature_12\n14  RealValuedInputFeature_13\n15  RealValuedInputFeature_14\n16  RealValuedInputFeature_15\n17  RealValuedInputFeature_16\n18  RealValuedInputFeature_17\n19  RealValuedInputFeature_18\n20  RealValuedInputFeature_19\n21  RealValuedInputFeature_20\n22  RealValuedInputFeature_21\n23  RealValuedInputFeature_22\n24  RealValuedInputFeature_23\n25  RealValuedInputFeature_24\n26  RealValuedInputFeature_25\n27  RealValuedInputFeature_26\n28  RealValuedInputFeature_27\n29  RealValuedInputFeature_28\n30  RealValuedInputFeature_29\n31  RealValuedInputFeature_30"
+  },
+  "water-treatment": {
+    "stats": {
+      "is_imbalanced": null,
+      "number_of_clusters": 0,
+      "number_of_datapoint": 527,
+      "number_of_dimensions": 38,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.129,
+      "estimated_max_overlap": null,
+      "estimated_mean_overlap": null,
+      "missing_values_proportion": 0.0295
+    },
+    "name": "water-treatment",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/water-treatment.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/water-treatment.arff",
+    "description": "           0\n0       date\n1        Q-E\n2       ZN-E\n3       PH-E\n4      DBO-E\n5      DQO-E\n6       SS-E\n7      SSV-E\n8      SED-E\n9     COND-E\n10      PH-P\n11     DBO-P\n12      SS-P\n13     SSV-P\n14     SED-P\n15    COND-P\n16      PH-D\n17     DBO-D\n18     DQO-D\n19      SS-D\n20     SSV-D\n21     SED-D\n22    COND-D\n23      PH-S\n24     DBO-S\n25     DQO-S\n26      SS-S\n27     SSV-S\n28     SED-S\n29    COND-S\n30  RD-DBO-P\n31   RD-SS-P\n32  RD-SED-P\n33  RD-DBO-S\n34  RD-DQO-S\n35  RD-DBO-G\n36  RD-DQO-G\n37   RD-SS-G\n38  RD-SED-G"
+  },
+  "haberman": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 306,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.0393,
+      "strong_outlier_proportion": 0.0261,
+      "estimated_max_overlap": 0.6962,
+      "estimated_mean_overlap": 0.6962,
+      "missing_values_proportion": 0.0
+    },
+    "name": "haberman",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/haberman.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/haberman.arff",
+    "description": "                                            0\n0         Age_of_patient_at_time_of_operation\n1                  Patients_year_of_operation\n2  Number_of_positive_axillary_nodes_detected\n3                                       class"
+  },
+  "arrhythmia": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 13,
+      "number_of_datapoint": 452,
+      "number_of_dimensions": 262,
+      "weak_outlier_proportion": 0.2722,
+      "strong_outlier_proportion": 0.5597,
+      "estimated_max_overlap": 0.9927,
+      "estimated_mean_overlap": 0.6275,
+      "missing_values_proportion": 0.0
+    },
+    "name": "arrhythmia",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/arrhythmia.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/arrhythmia.arff",
+    "description": "         0\n0       V1\n1       V2\n2       V3\n3       V4\n4       V5\n..     ...\n258   V259\n259   V260\n260   V261\n261   V262\n262  Class\n\n[263 rows x 1 columns]"
+  },
+  "letter": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 26,
+      "number_of_datapoint": 20000,
+      "number_of_dimensions": 16,
+      "weak_outlier_proportion": 0.2088,
+      "strong_outlier_proportion": 0.0578,
+      "estimated_max_overlap": 0.9732,
+      "estimated_mean_overlap": 0.7043,
+      "missing_values_proportion": 0.0
+    },
+    "name": "letter",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/letter.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/letter.arff",
+    "description": "        0\n0   x-box\n1   y-box\n2   width\n3    high\n4   onpix\n5   x-bar\n6   y-bar\n7   x2bar\n8   y2bar\n9   xybar\n10  x2ybr\n11  xy2br\n12  x-ege\n13  xegvy\n14  y-ege\n15  yegvx\n16  class"
+  },
+  "segment": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 7,
+      "number_of_datapoint": 2310,
+      "number_of_dimensions": 19,
+      "weak_outlier_proportion": 0.1914,
+      "strong_outlier_proportion": 0.1134,
+      "estimated_max_overlap": 0.8822,
+      "estimated_mean_overlap": 0.2389,
+      "missing_values_proportion": 0.0
+    },
+    "name": "segment",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/segment.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/segment.arff",
+    "description": "                       0\n0    region-centroid-col\n1    region-centroid-row\n2     region-pixel-count\n3   short-line-density-5\n4   short-line-density-2\n5             vedge-mean\n6               vegde-sd\n7             hedge-mean\n8               hedge-sd\n9         intensity-mean\n10           rawred-mean\n11          rawblue-mean\n12         rawgreen-mean\n13            exred-mean\n14           exblue-mean\n15          exgreen-mean\n16            value-mean\n17       saturation-mean\n18              hue-mean\n19                 class"
+  },
+  "balance-scale": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 625,
+      "number_of_dimensions": 4,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.8426,
+      "estimated_mean_overlap": 0.7564,
+      "missing_values_proportion": 0.0
+    },
+    "name": "balance-scale",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/balance-scale.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/balance-scale.arff",
+    "description": "                0\n0     left-weight\n1   left-distance\n2    right-weight\n3  right-distance\n4           class"
+  },
+  "iris": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 150,
+      "number_of_dimensions": 4,
+      "weak_outlier_proportion": 0.0866,
+      "strong_outlier_proportion": 0.0067,
+      "estimated_max_overlap": 0.136,
+      "estimated_mean_overlap": 0.0455,
+      "missing_values_proportion": 0.0
+    },
+    "name": "iris",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/iris.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/iris.arff",
+    "description": "             0\n0  sepallength\n1   sepalwidth\n2  petallength\n3   petalwidth\n4        class"
+  },
+  "heart-statlog": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 270,
+      "number_of_dimensions": 13,
+      "weak_outlier_proportion": 0.3296,
+      "strong_outlier_proportion": 0.0519,
+      "estimated_max_overlap": 0.5362,
+      "estimated_mean_overlap": 0.5362,
+      "missing_values_proportion": 0.0
+    },
+    "name": "heart-statlog",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/heart-statlog.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/heart-statlog.arff",
+    "description": "                                       0\n0                                    age\n1                                    sex\n2                                  chest\n3                 resting_blood_pressure\n4                      serum_cholestoral\n5                    fasting_blood_sugar\n6   resting_electrocardiographic_results\n7            maximum_heart_rate_achieved\n8                exercise_induced_angina\n9                                oldpeak\n10                                 slope\n11               number_of_major_vessels\n12                                  thal\n13                                 class"
+  },
+  "sonar": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 208,
+      "number_of_dimensions": 60,
+      "weak_outlier_proportion": 0.2981,
+      "strong_outlier_proportion": 0.2115,
+      "estimated_max_overlap": 0.7614,
+      "estimated_mean_overlap": 0.7614,
+      "missing_values_proportion": 0.0
+    },
+    "name": "sonar",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/sonar.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/sonar.arff",
+    "description": "               0\n0    attribute_1\n1    attribute_2\n2    attribute_3\n3    attribute_4\n4    attribute_5\n..           ...\n56  attribute_57\n57  attribute_58\n58  attribute_59\n59  attribute_60\n60         Class\n\n[61 rows x 1 columns]"
+  },
+  "thy": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 215,
+      "number_of_dimensions": 5,
+      "weak_outlier_proportion": 0.1395,
+      "strong_outlier_proportion": 0.0186,
+      "estimated_max_overlap": 0.1664,
+      "estimated_mean_overlap": 0.1072,
+      "missing_values_proportion": 0.0
+    },
+    "name": "thy",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/thy.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/thy.arff",
+    "description": "       0\n0     a1\n1     a2\n2     a3\n3     a4\n4     a5\n5  class"
+  },
+  "tae": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 151,
+      "number_of_dimensions": 5,
+      "weak_outlier_proportion": 0.0728,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9636,
+      "estimated_mean_overlap": 0.9175,
+      "missing_values_proportion": 0.0
+    },
+    "name": "tae",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/tae.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/tae.arff",
+    "description": "                                                   0\n0  Whether_of_not_the_TA_is_a_native_English_speaker\n1                                  Course_instructor\n2                                             Course\n3                         Summer_or_regular_semester\n4                                         Class_size\n5                                              Class"
+  },
+  "vowel": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 11,
+      "number_of_datapoint": 990,
+      "number_of_dimensions": 14,
+      "weak_outlier_proportion": 0.1778,
+      "strong_outlier_proportion": 0.004,
+      "estimated_max_overlap": 1.0,
+      "estimated_mean_overlap": 1.0,
+      "missing_values_proportion": 0.0
+    },
+    "name": "vowel",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/vowel.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/vowel.arff",
+    "description": "                 0\n0    Train or Test\n1   Speaker Number\n2              Sex\n3        Feature 0\n4        Feature 1\n5        Feature 2\n6        Feature 3\n7        Feature 4\n8        Feature 5\n9        Feature 6\n10       Feature 7\n11       Feature 8\n12       Feature 9\n13           Class"
+  },
+  "wisc": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 699,
+      "number_of_dimensions": 9,
+      "weak_outlier_proportion": 0.063,
+      "strong_outlier_proportion": 0.0629,
+      "estimated_max_overlap": 0.301,
+      "estimated_mean_overlap": 0.301,
+      "missing_values_proportion": 0.0
+    },
+    "name": "wisc",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/wisc.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/wisc.arff",
+    "description": "                       0\n0        Clump_Thickness\n1   Cell_Size_Uniformity\n2  Cell_Shape_Uniformity\n3      Marginal_Adhesion\n4   Single_Epi_Cell_Size\n5            Bare_Nuclei\n6        Bland_Chromatin\n7        Normal_Nucleoli\n8                Mitoses\n9                  Class"
+  },
+  "dermatology": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 366,
+      "number_of_dimensions": 34,
+      "weak_outlier_proportion": 0.1831,
+      "strong_outlier_proportion": 0.1612,
+      "estimated_max_overlap": 0.9856,
+      "estimated_mean_overlap": 0.6303,
+      "missing_values_proportion": 0.0006
+    },
+    "name": "dermatology",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/dermatology.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/dermatology.arff",
+    "description": "                                           0\n0                                   erythema\n1                                    scaling\n2                           definite_borders\n3                                    itching\n4                         koebner_phenomenon\n5                          polygonal_papules\n6                         follicular_papules\n7                   oral_mucosal_involvement\n8                 knee_and_elbow_involvement\n9                          scalp_involvement\n10                            family_history\n11                      melanin_incontinence\n12             eosinophils_in_the_infiltrate\n13                            PNL_infiltrate\n14          fibrosis_of_the_papillary_dermis\n15                                exocytosis\n16                                acanthosis\n17                            hyperkeratosis\n18                             parakeratosis\n19               clubbing_of_the_rete_ridges\n20             elongation_of_the_rete_ridges\n21  thinning_of_the_suprapapillary_epidermis\n22                        spongiform_pustule\n23                         munro_microabcess\n24                     focal_hypergranulosis\n25       disappearance_of_the_granular_layer\n26   vacuolisation_and_damage_of_basal_layer\n27                                spongiosis\n28             saw-tooth_appearance_of_retes\n29                      follicular_horn_plug\n30              perifollicular_parakeratosis\n31       inflammatory_monoluclear_inflitrate\n32                      band-like_infiltrate\n33                                       Age\n34                                     class"
+  },
+  "wine": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 178,
+      "number_of_dimensions": 13,
+      "weak_outlier_proportion": 0.2697,
+      "strong_outlier_proportion": 0.0618,
+      "estimated_max_overlap": 0.665,
+      "estimated_mean_overlap": 0.306,
+      "missing_values_proportion": 0.0
+    },
+    "name": "wine",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/wine.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/wine.arff",
+    "description": "                               0\n0                          class\n1                        Alcohol\n2                     Malic_acid\n3                            Ash\n4              Alcalinity_of_ash\n5                      Magnesium\n6                  Total_phenols\n7                     Flavanoids\n8           Nonflavanoid_phenols\n9                Proanthocyanins\n10               Color_intensity\n11                           Hue\n12  OD280/OD315_of_diluted_wines\n13                       Proline"
+  },
+  "cpu": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 116,
+      "number_of_datapoint": 209,
+      "number_of_dimensions": 6,
+      "weak_outlier_proportion": 0.0239,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 1.0,
+      "estimated_mean_overlap": 0.0671,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cpu",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/cpu.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/cpu.arff",
+    "description": "       0\n0   MYCT\n1   MMIN\n2   MMAX\n3   CACH\n4  CHMIN\n5  CHMAX\n6  class"
+  },
+  "iono": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 351,
+      "number_of_dimensions": 34,
+      "weak_outlier_proportion": 0.0912,
+      "strong_outlier_proportion": 0.0085,
+      "estimated_max_overlap": 0.8323,
+      "estimated_mean_overlap": 0.8323,
+      "missing_values_proportion": 0.0
+    },
+    "name": "iono",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/iono.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/iono.arff",
+    "description": "        0\n0     a01\n1     a02\n2     a03\n3     a04\n4     a05\n5     a06\n6     a07\n7     a08\n8     a09\n9     a10\n10    a11\n11    a12\n12    a13\n13    a14\n14    a15\n15    a16\n16    a17\n17    a18\n18    a19\n19    a20\n20    a21\n21    a22\n22    a23\n23    a24\n24    a25\n25    a26\n26    a27\n27    a28\n28    a29\n29    a30\n30    a31\n31    a32\n32    a33\n33    a34\n34  class"
+  },
+  "german": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 51,
+      "weak_outlier_proportion": 0.275,
+      "strong_outlier_proportion": 0.631,
+      "estimated_max_overlap": 0.6426,
+      "estimated_mean_overlap": 0.6426,
+      "missing_values_proportion": 0.0
+    },
+    "name": "german",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/german.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/german.arff",
+    "description": "                                                    0\n0                 Status_of_existing_checking_account\n1                                   Duration_in_month\n2                                      Credit_history\n3                                             Purpose\n4                                       Credit_amount\n5                               Savings_account_bonds\n6                            Present_employment_since\n7   Installment_rate_in_percentage_of_disposable_i...\n8                             Personal_status_and_sex\n9                            Other_debtors_guarantors\n10                            Present_residence_since\n11                                           Property\n12                                       Age_in_years\n13                            Other_installment_plans\n14                                            Housing\n15            Number_of_existing_credits_at_this_bank\n16                                                Job\n17  Number_of_people_being_liable_to_provide_maint...\n18                                          Telephone\n19                                     foreign_worker\n20                                              CLASS"
+  },
+  "glass": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 214,
+      "number_of_dimensions": 9,
+      "weak_outlier_proportion": 0.1682,
+      "strong_outlier_proportion": 0.0514,
+      "estimated_max_overlap": 0.9156,
+      "estimated_mean_overlap": 0.4458,
+      "missing_values_proportion": 0.0
+    },
+    "name": "glass",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/glass.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/glass.arff",
+    "description": "       0\n0     RI\n1     Na\n2     Mg\n3     Al\n4     Si\n5    'K'\n6     Ca\n7     Ba\n8     Fe\n9  Class"
+  },
+  "zoo": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 7,
+      "number_of_datapoint": 101,
+      "number_of_dimensions": 16,
+      "weak_outlier_proportion": 0.1584,
+      "strong_outlier_proportion": 0.0891,
+      "estimated_max_overlap": 1.0,
+      "estimated_mean_overlap": 0.3866,
+      "missing_values_proportion": 0.0
+    },
+    "name": "zoo",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/zoo.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/zoo.arff",
+    "description": "           0\n0       HAIR\n1   FEATHERS\n2       EGGS\n3       MILK\n4   AIRBORNE\n5    AQUATIC\n6   PREDATOR\n7    TOOTHED\n8   BACKBONE\n9   BREATHES\n10  VENOMOUS\n11      FINS\n12      LEGS\n13      TAIL\n14  DOMESTIC\n15   CATSIZE\n16     class"
+  },
+  "yeast": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 10,
+      "number_of_datapoint": 1484,
+      "number_of_dimensions": 8,
+      "weak_outlier_proportion": 0.1092,
+      "strong_outlier_proportion": 0.0505,
+      "estimated_max_overlap": 0.9893,
+      "estimated_mean_overlap": 0.6827,
+      "missing_values_proportion": 0.0
+    },
+    "name": "yeast",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/yeast.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/yeast.arff",
+    "description": "       0\n0    mcg\n1    gvh\n2    alm\n3    mit\n4    erl\n5    pox\n6    vac\n7    nuc\n8  class"
+  },
+  "vehicle": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 846,
+      "number_of_dimensions": 18,
+      "weak_outlier_proportion": 0.162,
+      "strong_outlier_proportion": 0.0248,
+      "estimated_max_overlap": 0.9202,
+      "estimated_mean_overlap": 0.7879,
+      "missing_values_proportion": 0.0
+    },
+    "name": "vehicle",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/vehicle.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/vehicle.arff",
+    "description": "                            0\n0                 COMPACTNESS\n1                 CIRCULARITY\n2        DISTANCE CIRCULARITY\n3                RADIUS RATIO\n4        PR.AXIS ASPECT RATIO\n5     MAX.LENGTH ASPECT RATIO\n6               SCATTER RATIO\n7               ELONGATEDNESS\n8      PR.AXIS RECTANGULARITY\n9   MAX.LENGTH RECTANGULARITY\n10      SCALED VARIANCE_MAJOR\n11      SCALED VARIANCE_MINOR\n12  SCALED RADIUS OF GYRATION\n13       SKEWNESS ABOUT_MAJOR\n14       SKEWNESS ABOUT_MINOR\n15       KURTOSIS ABOUT_MAJOR\n16       KURTOSIS ABOUT_MINOR\n17              HOLLOWS RATIO\n18                      Class"
+  },
+  "ecoli": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 8,
+      "number_of_datapoint": 336,
+      "number_of_dimensions": 7,
+      "weak_outlier_proportion": 0.0625,
+      "strong_outlier_proportion": 0.0179,
+      "estimated_max_overlap": 0.9012,
+      "estimated_mean_overlap": 0.4079,
+      "missing_values_proportion": 0.0
+    },
+    "name": "ecoli",
+    "origin": "real",
+    "filetype": "arff",
+    "local_filepath": "datasets/ecoli.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/real/ecoli.arff",
+    "description": "       0\n0    mcg\n1    gvh\n2    lip\n3    chg\n4    aac\n5   alm1\n6   alm2\n7  class"
+  },
+  "disk-4000n": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 4000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0002,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.5835,
+      "estimated_mean_overlap": 0.5835,
+      "missing_values_proportion": 0.0
+    },
+    "name": "disk-4000n",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/disk-4000n.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/disk-4000n.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "triangle2": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.036,
+      "strong_outlier_proportion": 0.002,
+      "estimated_max_overlap": 0.942,
+      "estimated_mean_overlap": 0.2224,
+      "missing_values_proportion": 0.0
+    },
+    "name": "triangle2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/triangle2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/triangle2.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "pmf": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 5,
+      "number_of_datapoint": 649,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.0462,
+      "strong_outlier_proportion": 0.0108,
+      "estimated_max_overlap": 0.5245,
+      "estimated_mean_overlap": 0.1318,
+      "missing_values_proportion": 0.0
+    },
+    "name": "pmf",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/pmf.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/pmf.arff",
+    "description": "                 0\n0          PMF-VAF\n1          AML-VAF\n2  Relapse-PMF-VAF\n3            class"
+  },
+  "dartboard2": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9491,
+      "estimated_mean_overlap": 0.381,
+      "missing_values_proportion": 0.0
+    },
+    "name": "dartboard2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/dartboard2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/dartboard2.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "sizes2": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.037,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9627,
+      "estimated_mean_overlap": 0.3201,
+      "missing_values_proportion": 0.0
+    },
+    "name": "sizes2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/sizes2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/sizes2.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "zelnik3": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 266,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0038,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9294,
+      "estimated_mean_overlap": 0.4047,
+      "missing_values_proportion": 0.0
+    },
+    "name": "zelnik3",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/zelnik3.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/zelnik3.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "donutcurves": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.017,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.654,
+      "estimated_mean_overlap": 0.1591,
+      "missing_values_proportion": 0.0
+    },
+    "name": "donutcurves",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/donutcurves.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/donutcurves.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "DS-850": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 5,
+      "number_of_datapoint": 850,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0329,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.691,
+      "estimated_mean_overlap": 0.1405,
+      "missing_values_proportion": 0.0
+    },
+    "name": "DS-850",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/DS-850.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/DS-850.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "3MC": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 400,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.2524,
+      "estimated_mean_overlap": 0.0901,
+      "missing_values_proportion": 0.0
+    },
+    "name": "3MC",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/3MC.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/3MC.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "triangle1": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.043,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9458,
+      "estimated_mean_overlap": 0.1889,
+      "missing_values_proportion": 0.0
+    },
+    "name": "triangle1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/triangle1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/triangle1.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "cluto-t4-8k": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 7,
+      "number_of_datapoint": 8000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.01,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.8558,
+      "estimated_mean_overlap": 0.407,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cluto-t4-8k",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/cluto-t4-8k.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/cluto-t4-8k.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "square5": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.043,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9885,
+      "estimated_mean_overlap": 0.4061,
+      "missing_values_proportion": 0.0
+    },
+    "name": "square5",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/square5.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/square5.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "3-spiral": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 312,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0224,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9132,
+      "estimated_mean_overlap": 0.8681,
+      "missing_values_proportion": 0.0
+    },
+    "name": "3-spiral",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/3-spiral.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/3-spiral.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "cuboids": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1002,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.3505,
+      "estimated_mean_overlap": 0.131,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cuboids",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/cuboids.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/cuboids.arff",
+    "description": "       0\n0      x\n1      y\n2      z\n3  class"
+  },
+  "sizes5": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.038,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9522,
+      "estimated_mean_overlap": 0.3202,
+      "missing_values_proportion": 0.0
+    },
+    "name": "sizes5",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/sizes5.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/sizes5.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "sizes4": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.038,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.951,
+      "estimated_mean_overlap": 0.3174,
+      "missing_values_proportion": 0.0
+    },
+    "name": "sizes4",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/sizes4.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/sizes4.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "target": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 770,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0013,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 1.0,
+      "estimated_mean_overlap": 0.1586,
+      "missing_values_proportion": 0.0
+    },
+    "name": "target",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/target.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/target.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "ds2c2sc13": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 13,
+      "number_of_datapoint": 588,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0068,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9041,
+      "estimated_mean_overlap": 0.1287,
+      "missing_values_proportion": 0.0
+    },
+    "name": "ds2c2sc13",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/ds2c2sc13.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/ds2c2sc13.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "twodiamonds": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 800,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0312,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9902,
+      "estimated_mean_overlap": 0.9902,
+      "missing_values_proportion": 0.0
+    },
+    "name": "twodiamonds",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/twodiamonds.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/twodiamonds.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "atom": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 800,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.03,
+      "strong_outlier_proportion": 0.0025,
+      "estimated_max_overlap": 0.1795,
+      "estimated_mean_overlap": 0.1795,
+      "missing_values_proportion": 0.0
+    },
+    "name": "atom",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/atom.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/atom.arff",
+    "description": "       0\n0      x\n1      y\n2      z\n3  class"
+  },
+  "spiral": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.014,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.7678,
+      "estimated_mean_overlap": 0.7678,
+      "missing_values_proportion": 0.0
+    },
+    "name": "spiral",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/spiral.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/spiral.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "curves2": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.014,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9034,
+      "estimated_mean_overlap": 0.9034,
+      "missing_values_proportion": 0.0
+    },
+    "name": "curves2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/curves2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/curves2.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "insect": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 30,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.1,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.8298,
+      "estimated_mean_overlap": 0.7845,
+      "missing_values_proportion": 0.0
+    },
+    "name": "insect",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/insect.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/insect.arff",
+    "description": "       0\n0  attr1\n1  attr2\n2  attr3\n3  class"
+  },
+  "dense-disk-3000": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 3000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0003,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.6982,
+      "estimated_mean_overlap": 0.6982,
+      "missing_values_proportion": 0.0
+    },
+    "name": "dense-disk-3000",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/dense-disk-3000.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/dense-disk-3000.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "square1": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.043,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9885,
+      "estimated_mean_overlap": 0.3262,
+      "missing_values_proportion": 0.0
+    },
+    "name": "square1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/square1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/square1.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "xor": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9923,
+      "estimated_mean_overlap": 0.9754,
+      "missing_values_proportion": 0.0
+    },
+    "name": "xor",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/xor.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/xor.arff",
+    "description": "       0\n0      x\n1      y\n2      z\n3  class"
+  },
+  "elliptical_10_2": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 10,
+      "number_of_datapoint": 500,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.012,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9733,
+      "estimated_mean_overlap": 0.1512,
+      "missing_values_proportion": 0.0
+    },
+    "name": "elliptical_10_2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/elliptical_10_2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/elliptical_10_2.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "cure-t0-2000n-2D": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 2000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.002,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.1852,
+      "estimated_mean_overlap": 0.1231,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cure-t0-2000n-2D",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/cure-t0-2000n-2D.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/cure-t0-2000n-2D.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "long2": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.039,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.0,
+      "estimated_mean_overlap": 0.0,
+      "missing_values_proportion": 0.0
+    },
+    "name": "long2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/long2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/long2.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "2d-4c": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1261,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0396,
+      "strong_outlier_proportion": 0.0008,
+      "estimated_max_overlap": 0.0586,
+      "estimated_mean_overlap": 0.0098,
+      "missing_values_proportion": 0.0
+    },
+    "name": "2d-4c",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/2d-4c.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/2d-4c.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "wingnut": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1016,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0315,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.6488,
+      "estimated_mean_overlap": 0.6488,
+      "missing_values_proportion": 0.0
+    },
+    "name": "wingnut",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/wingnut.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/wingnut.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "spiralsquare": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 1500,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0246,
+      "strong_outlier_proportion": 0.0007,
+      "estimated_max_overlap": 0.9505,
+      "estimated_mean_overlap": 0.2003,
+      "missing_values_proportion": 0.0
+    },
+    "name": "spiralsquare",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/spiralsquare.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/spiralsquare.arff",
+    "description": "       0\n0     a0\n1     a1\n2  CLASS"
+  },
+  "smile2": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.023,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.942,
+      "estimated_mean_overlap": 0.2075,
+      "missing_values_proportion": 0.0
+    },
+    "name": "smile2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/smile2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/smile2.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "zelnik2": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 303,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.0756,
+      "estimated_mean_overlap": 0.045,
+      "missing_values_proportion": 0.0
+    },
+    "name": "zelnik2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/zelnik2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/zelnik2.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "square4": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.043,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9885,
+      "estimated_mean_overlap": 0.3713,
+      "missing_values_proportion": 0.0
+    },
+    "name": "square4",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/square4.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/square4.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "square3": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.043,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9885,
+      "estimated_mean_overlap": 0.3485,
+      "missing_values_proportion": 0.0
+    },
+    "name": "square3",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/square3.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/square3.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "D31": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 31,
+      "number_of_datapoint": 3100,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0481,
+      "strong_outlier_proportion": 0.0035,
+      "estimated_max_overlap": 0.9951,
+      "estimated_mean_overlap": 0.0846,
+      "missing_values_proportion": 0.0
+    },
+    "name": "D31",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/D31.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/D31.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "birch-rg1": {
+    "stats": {
+      "is_imbalanced": null,
+      "number_of_clusters": 0,
+      "number_of_datapoint": 100000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": null,
+      "estimated_mean_overlap": null,
+      "missing_values_proportion": 0.0
+    },
+    "name": "birch-rg1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/birch-rg1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/birch-rg1.arff",
+    "description": "   0\n0  x\n1  y"
+  },
+  "s-set2": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 15,
+      "number_of_datapoint": 5000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0538,
+      "strong_outlier_proportion": 0.0074,
+      "estimated_max_overlap": 0.9907,
+      "estimated_mean_overlap": 0.1109,
+      "missing_values_proportion": 0.0
+    },
+    "name": "s-set2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/s-set2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/s-set2.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "sizes3": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.042,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9384,
+      "estimated_mean_overlap": 0.3141,
+      "missing_values_proportion": 0.0
+    },
+    "name": "sizes3",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/sizes3.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/sizes3.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "hepta": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 7,
+      "number_of_datapoint": 212,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.0189,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9529,
+      "estimated_mean_overlap": 0.281,
+      "missing_values_proportion": 0.0
+    },
+    "name": "hepta",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/hepta.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/hepta.arff",
+    "description": "       0\n0      x\n1      y\n2      z\n3  class"
+  },
+  "2d-4c-no4": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 863,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.051,
+      "strong_outlier_proportion": 0.0035,
+      "estimated_max_overlap": 0.326,
+      "estimated_mean_overlap": 0.0813,
+      "missing_values_proportion": 0.0
+    },
+    "name": "2d-4c-no4",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/2d-4c-no4.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/2d-4c-no4.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "golfball": {
+    "stats": {
+      "is_imbalanced": null,
+      "number_of_clusters": 1,
+      "number_of_datapoint": 4002,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": null,
+      "estimated_mean_overlap": null,
+      "missing_values_proportion": 0.0
+    },
+    "name": "golfball",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/golfball.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/golfball.arff",
+    "description": "       0\n0      x\n1      y\n2      z\n3  class"
+  },
+  "shapes": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.02,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.865,
+      "estimated_mean_overlap": 0.2756,
+      "missing_values_proportion": 0.0
+    },
+    "name": "shapes",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/shapes.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/shapes.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "disk-5000n": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 5000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.598,
+      "estimated_mean_overlap": 0.598,
+      "missing_values_proportion": 0.0
+    },
+    "name": "disk-5000n",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/disk-5000n.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/disk-5000n.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "smile1": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.025,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9458,
+      "estimated_mean_overlap": 0.2095,
+      "missing_values_proportion": 0.0
+    },
+    "name": "smile1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/smile1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/smile1.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "threenorm": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.031,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.5976,
+      "estimated_mean_overlap": 0.5976,
+      "missing_values_proportion": 0.0
+    },
+    "name": "threenorm",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/threenorm.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/threenorm.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "cassini": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.0558,
+      "estimated_mean_overlap": 0.0341,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cassini",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/cassini.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/cassini.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "longsquare": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 900,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0422,
+      "strong_outlier_proportion": 0.0011,
+      "estimated_max_overlap": 0.9324,
+      "estimated_mean_overlap": 0.126,
+      "missing_values_proportion": 0.0
+    },
+    "name": "longsquare",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/longsquare.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/longsquare.arff",
+    "description": "       0\n0     a0\n1     a1\n2  CLASS"
+  },
+  "lsun": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 400,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0125,
+      "strong_outlier_proportion": 0.0025,
+      "estimated_max_overlap": 0.3808,
+      "estimated_mean_overlap": 0.1377,
+      "missing_values_proportion": 0.0
+    },
+    "name": "lsun",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/lsun.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/lsun.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "st900": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 9,
+      "number_of_datapoint": 900,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0333,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9848,
+      "estimated_mean_overlap": 0.2694,
+      "missing_values_proportion": 0.0
+    },
+    "name": "st900",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/st900.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/st900.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "mopsi-joensuu": {
+    "stats": {
+      "is_imbalanced": null,
+      "number_of_clusters": 0,
+      "number_of_datapoint": 4590,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": -0.0,
+      "strong_outlier_proportion": 0.0179,
+      "estimated_max_overlap": null,
+      "estimated_mean_overlap": null,
+      "missing_values_proportion": 0.0
+    },
+    "name": "mopsi-joensuu",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/mopsi-joensuu.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/mopsi-joensuu.arff",
+    "description": "   0\n0  x\n1  y"
+  },
+  "2d-4c-no9": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 876,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0445,
+      "strong_outlier_proportion": 0.0034,
+      "estimated_max_overlap": 0.1104,
+      "estimated_mean_overlap": 0.0191,
+      "missing_values_proportion": 0.0
+    },
+    "name": "2d-4c-no9",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/2d-4c-no9.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/2d-4c-no9.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "impossible": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 8,
+      "number_of_datapoint": 3673,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0182,
+      "strong_outlier_proportion": 0.0022,
+      "estimated_max_overlap": 0.938,
+      "estimated_mean_overlap": 0.3211,
+      "missing_values_proportion": 0.0
+    },
+    "name": "impossible",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/impossible.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/impossible.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "disk-6000n": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 6000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.5954,
+      "estimated_mean_overlap": 0.5954,
+      "missing_values_proportion": 0.0
+    },
+    "name": "disk-6000n",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/disk-6000n.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/disk-6000n.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "flame": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 240,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0083,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.1905,
+      "estimated_mean_overlap": 0.1905,
+      "missing_values_proportion": 0.0
+    },
+    "name": "flame",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/flame.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/flame.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "spherical_4_3": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 400,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.035,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.028,
+      "estimated_mean_overlap": 0.0111,
+      "missing_values_proportion": 0.0
+    },
+    "name": "spherical_4_3",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/spherical_4_3.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/spherical_4_3.arff",
+    "description": "       0\n0      x\n1      y\n2      z\n3  class"
+  },
+  "cluto-t8-8k": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 9,
+      "number_of_datapoint": 8000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0111,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9326,
+      "estimated_mean_overlap": 0.1825,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cluto-t8-8k",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/cluto-t8-8k.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/cluto-t8-8k.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "twenty": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 20,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.037,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9827,
+      "estimated_mean_overlap": 0.1907,
+      "missing_values_proportion": 0.0
+    },
+    "name": "twenty",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/twenty.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/twenty.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "disk-4600n": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 4600,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.6132,
+      "estimated_mean_overlap": 0.6132,
+      "missing_values_proportion": 0.0
+    },
+    "name": "disk-4600n",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/disk-4600n.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/disk-4600n.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "s-set4": {
+    "stats": {
+      "is_imbalanced": null,
+      "number_of_clusters": 0,
+      "number_of_datapoint": 5000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0182,
+      "estimated_max_overlap": null,
+      "estimated_mean_overlap": null,
+      "missing_values_proportion": 0.0
+    },
+    "name": "s-set4",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/s-set4.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/s-set4.arff",
+    "description": "   0\n0  x\n1  y"
+  },
+  "disk-4500n": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 4500,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.6035,
+      "estimated_mean_overlap": 0.6035,
+      "missing_values_proportion": 0.0
+    },
+    "name": "disk-4500n",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/disk-4500n.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/disk-4500n.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "smile3": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.018,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.8981,
+      "estimated_mean_overlap": 0.2,
+      "missing_values_proportion": 0.0
+    },
+    "name": "smile3",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/smile3.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/smile3.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "tetra": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 400,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.02,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 1.0,
+      "estimated_mean_overlap": 0.522,
+      "missing_values_proportion": 0.0
+    },
+    "name": "tetra",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/tetra.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/tetra.arff",
+    "description": "       0\n0      x\n1      y\n2      z\n3  class"
+  },
+  "s-set3": {
+    "stats": {
+      "is_imbalanced": null,
+      "number_of_clusters": 0,
+      "number_of_datapoint": 5000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.008,
+      "estimated_max_overlap": null,
+      "estimated_mean_overlap": null,
+      "missing_values_proportion": 0.0
+    },
+    "name": "s-set3",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/s-set3.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/s-set3.arff",
+    "description": "   0\n0  x\n1  y"
+  },
+  "2d-3c-no123": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 715,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0364,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.3967,
+      "estimated_mean_overlap": 0.2748,
+      "missing_values_proportion": 0.0
+    },
+    "name": "2d-3c-no123",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/2d-3c-no123.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/2d-3c-no123.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "zelnik5": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 512,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0312,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.0,
+      "estimated_mean_overlap": 0.0,
+      "missing_values_proportion": 0.0
+    },
+    "name": "zelnik5",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/zelnik5.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/zelnik5.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "zelnik6": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 238,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.1393,
+      "estimated_mean_overlap": 0.0897,
+      "missing_values_proportion": 0.0
+    },
+    "name": "zelnik6",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/zelnik6.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/zelnik6.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "simplex": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 500,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.068,
+      "strong_outlier_proportion": 0.006,
+      "estimated_max_overlap": 0.9647,
+      "estimated_mean_overlap": 0.4765,
+      "missing_values_proportion": 0.0
+    },
+    "name": "simplex",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/simplex.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/simplex.arff",
+    "description": "       0\n0      x\n1      y\n2      z\n3  class"
+  },
+  "dense-disk-5000": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 5000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.6948,
+      "estimated_mean_overlap": 0.6948,
+      "missing_values_proportion": 0.0
+    },
+    "name": "dense-disk-5000",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/dense-disk-5000.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/dense-disk-5000.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "birch-rg3": {
+    "stats": {
+      "is_imbalanced": null,
+      "number_of_clusters": 0,
+      "number_of_datapoint": 100000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": -0.0,
+      "strong_outlier_proportion": 0.0001,
+      "estimated_max_overlap": null,
+      "estimated_mean_overlap": null,
+      "missing_values_proportion": 0.0
+    },
+    "name": "birch-rg3",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/birch-rg3.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/birch-rg3.arff",
+    "description": "   0\n0  x\n1  y"
+  },
+  "banana": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 4811,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0004,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.2346,
+      "estimated_mean_overlap": 0.2346,
+      "missing_values_proportion": 0.0
+    },
+    "name": "banana",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/banana.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/banana.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "mopsi-finland": {
+    "stats": {
+      "is_imbalanced": null,
+      "number_of_clusters": 0,
+      "number_of_datapoint": 13467,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": -0.0,
+      "strong_outlier_proportion": 0.0176,
+      "estimated_max_overlap": null,
+      "estimated_mean_overlap": null,
+      "missing_values_proportion": 0.0
+    },
+    "name": "mopsi-finland",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/mopsi-finland.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/mopsi-finland.arff",
+    "description": "   0\n0  x\n1  y"
+  },
+  "square2": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.043,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9885,
+      "estimated_mean_overlap": 0.3344,
+      "missing_values_proportion": 0.0
+    },
+    "name": "square2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/square2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/square2.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "disk-3000n": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 3000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.6202,
+      "estimated_mean_overlap": 0.6202,
+      "missing_values_proportion": 0.0
+    },
+    "name": "disk-3000n",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/disk-3000n.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/disk-3000n.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "donut3": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 999,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.028,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.9783,
+      "estimated_mean_overlap": 0.5142,
+      "missing_values_proportion": 0.0
+    },
+    "name": "donut3",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/donut3.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/donut3.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "curves1": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.014,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.0728,
+      "estimated_mean_overlap": 0.0728,
+      "missing_values_proportion": 0.0
+    },
+    "name": "curves1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/curves1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/curves1.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "spherical_5_2": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 5,
+      "number_of_datapoint": 250,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.004,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9724,
+      "estimated_mean_overlap": 0.3069,
+      "missing_values_proportion": 0.0
+    },
+    "name": "spherical_5_2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/spherical_5_2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/spherical_5_2.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "zelnik1": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 299,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.5758,
+      "estimated_mean_overlap": 0.3349,
+      "missing_values_proportion": 0.0
+    },
+    "name": "zelnik1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/zelnik1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/zelnik1.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "2d-10c": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 9,
+      "number_of_datapoint": 2990,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0425,
+      "strong_outlier_proportion": 0.008,
+      "estimated_max_overlap": 0.4733,
+      "estimated_mean_overlap": 0.021,
+      "missing_values_proportion": 0.0
+    },
+    "name": "2d-10c",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/2d-10c.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/2d-10c.arff",
+    "description": "       0\n0     a0\n1     a1\n2  CLASS"
+  },
+  "cure-t2-4k": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 7,
+      "number_of_datapoint": 4200,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0024,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.971,
+      "estimated_mean_overlap": 0.1226,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cure-t2-4k",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/cure-t2-4k.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/cure-t2-4k.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "chainlink": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 3,
+      "weak_outlier_proportion": 0.016,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.1296,
+      "estimated_mean_overlap": 0.1296,
+      "missing_values_proportion": 0.0
+    },
+    "name": "chainlink",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/chainlink.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/chainlink.arff",
+    "description": "       0\n0      x\n1      y\n2      z\n3  class"
+  },
+  "dpb": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 4000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0318,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.7525,
+      "estimated_mean_overlap": 0.1963,
+      "missing_values_proportion": 0.0
+    },
+    "name": "dpb",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/dpb.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/dpb.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "spherical_6_2": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 300,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0167,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9344,
+      "estimated_mean_overlap": 0.1269,
+      "missing_values_proportion": 0.0
+    },
+    "name": "spherical_6_2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/spherical_6_2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/spherical_6_2.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "long3": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.039,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.0,
+      "estimated_mean_overlap": 0.0,
+      "missing_values_proportion": 0.0
+    },
+    "name": "long3",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/long3.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/long3.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "ds3c3sc6": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 905,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0144,
+      "strong_outlier_proportion": 0.0011,
+      "estimated_max_overlap": 0.6602,
+      "estimated_mean_overlap": 0.1431,
+      "missing_values_proportion": 0.0
+    },
+    "name": "ds3c3sc6",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/ds3c3sc6.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/ds3c3sc6.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "zelnik4": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 5,
+      "number_of_datapoint": 622,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.3295,
+      "estimated_mean_overlap": 0.0813,
+      "missing_values_proportion": 0.0
+    },
+    "name": "zelnik4",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/zelnik4.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/zelnik4.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "cluto-t7-10k": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 10,
+      "number_of_datapoint": 10000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0036,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9736,
+      "estimated_mean_overlap": 0.2523,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cluto-t7-10k",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/cluto-t7-10k.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/cluto-t7-10k.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "engytime": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 4096,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0459,
+      "strong_outlier_proportion": 0.0032,
+      "estimated_max_overlap": 0.2884,
+      "estimated_mean_overlap": 0.2884,
+      "missing_values_proportion": 0.0
+    },
+    "name": "engytime",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/engytime.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/engytime.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "2d-20c-no0": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 20,
+      "number_of_datapoint": 1517,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0363,
+      "strong_outlier_proportion": 0.0013,
+      "estimated_max_overlap": 0.7324,
+      "estimated_mean_overlap": 0.0578,
+      "missing_values_proportion": 0.0
+    },
+    "name": "2d-20c-no0",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/2d-20c-no0.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/2d-20c-no0.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "fourty": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 40,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.041,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9957,
+      "estimated_mean_overlap": 0.0901,
+      "missing_values_proportion": 0.0
+    },
+    "name": "fourty",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/fourty.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/fourty.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "aggregation": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 7,
+      "number_of_datapoint": 788,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0051,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.8875,
+      "estimated_mean_overlap": 0.1784,
+      "missing_values_proportion": 0.0
+    },
+    "name": "aggregation",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/aggregation.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/aggregation.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "blobs": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 300,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0433,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9496,
+      "estimated_mean_overlap": 0.3389,
+      "missing_values_proportion": 0.0
+    },
+    "name": "blobs",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/blobs.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/blobs.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "dartboard1": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.8617,
+      "estimated_mean_overlap": 0.6595,
+      "missing_values_proportion": 0.0
+    },
+    "name": "dartboard1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/dartboard1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/dartboard1.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "complex8": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 8,
+      "number_of_datapoint": 2551,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0125,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9418,
+      "estimated_mean_overlap": 0.1426,
+      "missing_values_proportion": 0.0
+    },
+    "name": "complex8",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/complex8.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/complex8.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "cluto-t5-8k": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 7,
+      "number_of_datapoint": 8000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0009,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9814,
+      "estimated_mean_overlap": 0.9116,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cluto-t5-8k",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/cluto-t5-8k.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/cluto-t5-8k.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "diamond9": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 9,
+      "number_of_datapoint": 3000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0313,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9958,
+      "estimated_mean_overlap": 0.2528,
+      "missing_values_proportion": 0.0
+    },
+    "name": "diamond9",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/diamond9.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/diamond9.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "sizes1": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.04,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9482,
+      "estimated_mean_overlap": 0.3189,
+      "missing_values_proportion": 0.0
+    },
+    "name": "sizes1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/sizes1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/sizes1.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "birch-rg2": {
+    "stats": {
+      "is_imbalanced": null,
+      "number_of_clusters": 0,
+      "number_of_datapoint": 100000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": null,
+      "estimated_mean_overlap": null,
+      "missing_values_proportion": 0.0
+    },
+    "name": "birch-rg2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/birch-rg2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/birch-rg2.arff",
+    "description": "   0\n0  x\n1  y"
+  },
+  "s-set1": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 15,
+      "number_of_datapoint": 5000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0532,
+      "strong_outlier_proportion": 0.0056,
+      "estimated_max_overlap": 0.9006,
+      "estimated_mean_overlap": 0.108,
+      "missing_values_proportion": 0.0
+    },
+    "name": "s-set1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/s-set1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/s-set1.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "long1": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.04,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.0,
+      "estimated_mean_overlap": 0.0,
+      "missing_values_proportion": 0.0
+    },
+    "name": "long1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/long1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/long1.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "disk-1000n": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.006,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.6124,
+      "estimated_mean_overlap": 0.6124,
+      "missing_values_proportion": 0.0
+    },
+    "name": "disk-1000n",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/disk-1000n.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/disk-1000n.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "aml28": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 5,
+      "number_of_datapoint": 804,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0273,
+      "strong_outlier_proportion": 0.01,
+      "estimated_max_overlap": 0.1778,
+      "estimated_mean_overlap": 0.0233,
+      "missing_values_proportion": 0.0
+    },
+    "name": "aml28",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/aml28.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/aml28.arff",
+    "description": "         0\n0    tumor\n1  relapse\n2    class"
+  },
+  "DS-577": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 577,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0503,
+      "strong_outlier_proportion": 0.0017,
+      "estimated_max_overlap": 0.6139,
+      "estimated_mean_overlap": 0.2201,
+      "missing_values_proportion": 0.0
+    },
+    "name": "DS-577",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/DS-577.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/DS-577.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "donut1": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.021,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.2836,
+      "estimated_mean_overlap": 0.2836,
+      "missing_values_proportion": 0.0
+    },
+    "name": "donut1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/donut1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/donut1.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "jain": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 373,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0054,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.1188,
+      "estimated_mean_overlap": 0.1188,
+      "missing_values_proportion": 0.0
+    },
+    "name": "jain",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/jain.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/jain.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "rings": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.015,
+      "strong_outlier_proportion": 0.004,
+      "estimated_max_overlap": 0.7269,
+      "estimated_mean_overlap": 0.5125,
+      "missing_values_proportion": 0.0
+    },
+    "name": "rings",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/rings.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/rings.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "complex9": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 9,
+      "number_of_datapoint": 3031,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0023,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.984,
+      "estimated_mean_overlap": 0.2273,
+      "missing_values_proportion": 0.0
+    },
+    "name": "complex9",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/complex9.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/complex9.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "ds4c2sc8": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 8,
+      "number_of_datapoint": 485,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0144,
+      "strong_outlier_proportion": 0.0021,
+      "estimated_max_overlap": 0.5337,
+      "estimated_mean_overlap": 0.1009,
+      "missing_values_proportion": 0.0
+    },
+    "name": "ds4c2sc8",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/ds4c2sc8.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/ds4c2sc8.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "dpc": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.041,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.7708,
+      "estimated_mean_overlap": 0.1839,
+      "missing_values_proportion": 0.0
+    },
+    "name": "dpc",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/dpc.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/dpc.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  },
+  "gaussians1": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 100,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.03,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.0,
+      "estimated_mean_overlap": 0.0,
+      "missing_values_proportion": 0.0
+    },
+    "name": "gaussians1",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/gaussians1.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/gaussians1.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "2sp2glob": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 4,
+      "number_of_datapoint": 2000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.024,
+      "strong_outlier_proportion": 0.0015,
+      "estimated_max_overlap": 0.7811,
+      "estimated_mean_overlap": 0.1402,
+      "missing_values_proportion": 0.0
+    },
+    "name": "2sp2glob",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/2sp2glob.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/2sp2glob.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "donut2": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.021,
+      "strong_outlier_proportion": 0.001,
+      "estimated_max_overlap": 0.5636,
+      "estimated_mean_overlap": 0.5636,
+      "missing_values_proportion": 0.0
+    },
+    "name": "donut2",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/donut2.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/donut2.arff",
+    "description": "       0\n0     a0\n1     a1\n2  class"
+  },
+  "elly-2d10c13s": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 10,
+      "number_of_datapoint": 2796,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0172,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.8321,
+      "estimated_mean_overlap": 0.2658,
+      "missing_values_proportion": 0.0
+    },
+    "name": "elly-2d10c13s",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/elly-2d10c13s.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/elly-2d10c13s.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "2dnormals": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.045,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.3354,
+      "estimated_mean_overlap": 0.3354,
+      "missing_values_proportion": 0.0
+    },
+    "name": "2dnormals",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/2dnormals.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/2dnormals.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "circle": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 2,
+      "number_of_datapoint": 1000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.7285,
+      "estimated_mean_overlap": 0.7285,
+      "missing_values_proportion": 0.0
+    },
+    "name": "circle",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/circle.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/circle.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "compound": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 399,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.015,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9321,
+      "estimated_mean_overlap": 0.2677,
+      "missing_values_proportion": 0.0
+    },
+    "name": "compound",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/compound.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/compound.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "pathbased": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 300,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.02,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9511,
+      "estimated_mean_overlap": 0.6263,
+      "missing_values_proportion": 0.0
+    },
+    "name": "pathbased",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/pathbased.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/pathbased.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "R15": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 15,
+      "number_of_datapoint": 600,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0416,
+      "strong_outlier_proportion": 0.0017,
+      "estimated_max_overlap": 0.9501,
+      "estimated_mean_overlap": 0.0592,
+      "missing_values_proportion": 0.0
+    },
+    "name": "R15",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/R15.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/R15.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "cure-t1-2000n-2D": {
+    "stats": {
+      "is_imbalanced": true,
+      "number_of_clusters": 6,
+      "number_of_datapoint": 2000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.001,
+      "strong_outlier_proportion": 0.0,
+      "estimated_max_overlap": 0.9676,
+      "estimated_mean_overlap": 0.0916,
+      "missing_values_proportion": 0.0
+    },
+    "name": "cure-t1-2000n-2D",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/cure-t1-2000n-2D.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/cure-t1-2000n-2D.arff",
+    "description": "       0\n0      x\n1      y\n2  class"
+  },
+  "xclara": {
+    "stats": {
+      "is_imbalanced": false,
+      "number_of_clusters": 3,
+      "number_of_datapoint": 3000,
+      "number_of_dimensions": 2,
+      "weak_outlier_proportion": 0.0397,
+      "strong_outlier_proportion": 0.0013,
+      "estimated_max_overlap": 0.3021,
+      "estimated_mean_overlap": 0.1051,
+      "missing_values_proportion": 0.0
+    },
+    "name": "xclara",
+    "origin": "artificial",
+    "filetype": "arff",
+    "local_filepath": "datasets/xclara.arff",
+    "github_filepath": "https://github.com/IvanReznikov/python-clustering/raw/main/datasets/artificial/xclara.arff",
+    "description": "       0\n0      x\n1      y\n2  CLASS"
+  }
+}
