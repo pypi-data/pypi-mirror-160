@@ -1,0 +1,5 @@
+Flask
+PyYAML
+python-jose
+redis
+termcolor
