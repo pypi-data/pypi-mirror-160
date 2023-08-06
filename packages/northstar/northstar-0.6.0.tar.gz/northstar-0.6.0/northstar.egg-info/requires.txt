@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+python-igraph>=0.8.0
+leidenalg>=0.8.0
+anndata
+
+[atlas-fetcher]
+requests
+loompy
