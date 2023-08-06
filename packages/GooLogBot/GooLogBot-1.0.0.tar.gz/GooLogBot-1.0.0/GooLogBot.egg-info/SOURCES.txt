@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+GooLogBot.egg-info/PKG-INFO
+GooLogBot.egg-info/SOURCES.txt
+GooLogBot.egg-info/dependency_links.txt
+GooLogBot.egg-info/top_level.txt
+Library/methods/__init__.py
+Library/methods/read_logs.py

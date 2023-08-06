@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GooLogBot"
+version = "1.0.0"
+authors = [{name = "David Marienburg", email = "dmarienburg@pps.net"},]
+description = "A lightweight program for reading log files and reporting rows, logged at specific levels, in a google chat"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python =  ">=3.0.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "logging",
+    "chat-bot",
+    "google-chat"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dmarienburg/GooLogBot"
+"Bug Tracker" = "https://github.com/dmarienburg/GooLogBot/issues"
