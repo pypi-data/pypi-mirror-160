@@ -1,0 +1,10 @@
+epydemic>=1.11.1
+networkx
+pandas
+pygsp
+pyunlocbox
+matplotlib
+mypy
+jedi
+jedi-language-server
+black
