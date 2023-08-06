@@ -1,0 +1,8 @@
+LICENSE
+README.md
+colourfulprint
+setup.py
+colourfulprint.egg-info/PKG-INFO
+colourfulprint.egg-info/SOURCES.txt
+colourfulprint.egg-info/dependency_links.txt
+colourfulprint.egg-info/top_level.txt
