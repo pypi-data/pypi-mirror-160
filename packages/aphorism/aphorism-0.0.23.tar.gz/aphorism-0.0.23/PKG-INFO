@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: aphorism
+Version: 0.0.23
+Summary: My first Python package
+Home-page: https://pypi.org/project/aphorism
+Author: Joshua Fetbrandt
+Author-email: abc@gmail.com
+License: MIT
+Keywords: altair visuals oppe metrics hospital credentialing image text processing python healthcare
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+## Project Title
+
+```aphorism```
+
+## Installing / Upgrading / Uninstalling ```aphorism```
+
+Installing ```aphorism``` is as easy as opening a command line/terminal and calling: 
+
+```
+pip install aphorism
+```
+
+Optionally, you can install specific versions or upgrade in the standard ways, respectively:
+
+```
+pip install aphorism==versionnumber
+pip install --upgrade aphorism
+```
+
+Uninstalling also works as you expect:
+
+```
+pip uninstall aphorism
+```
+
+## Importing ```aphorism```
+
+Importing aphorism is as easy as: 
+
+```
+import aphorism
+```
+
+All standard Python syntaxes apply once imported, and subsets or subpackages of ```aphorism``` can be imported in the standard way: 
+
+```
+from aphorism import ... (as ...)
+```
+
+## Project Motivation
+
+To provide a structured, clean environment for my python code, examples, and historical work products.
+
+
+## Current To-Do and Feature Enhancement List
+
+- Need to figure out how to add/access data in the folder. I can see it, but I can't access it. 
+- Need to figure out why the package won't let me install required packages even when they are listed under install_requires.
+- Build the COVID reporting functions into a module.
+- Build the COVID reporting data structures/examples into the module.
+- Build out the general function file with all of the various functions. 
+- Need to finish merging in the OPPE code for locations, volumes, readmissions, ...
+- Need to finish adding all of the LaTeX and SQL files to this after patient info is cleaned.
+- Need to complete the markdown file with all appropriate notations and sections.
+- Need to finish the GUI that directly interacts with the data files/folders.
+- Set up a repository for the *.shp files with a link to the US Census Bureau.
+- Create a complete resource/reference section. Make sure to include a link to GitHub with the info on generating __init__.py, setup.py, and setup.cfg.
+
+
+

@@ -1,0 +1,7 @@
+numpy
+pandas
+altair
+altair_saver
+selenium
+html2pdf
+opencv-python
