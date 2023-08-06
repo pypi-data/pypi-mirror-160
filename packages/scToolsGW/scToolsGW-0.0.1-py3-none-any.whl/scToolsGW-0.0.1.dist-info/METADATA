@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: scToolsGW
+Version: 0.0.1
+Summary: Tools to help me with daily single-cell RNA-sequencing analyses.
+Author: Griffen Wakelin
+Author-email: gwakelin@upei.ca
+Maintainer: Griffen Wakelin
+License: MIT
+License-File: LICENSE
+
