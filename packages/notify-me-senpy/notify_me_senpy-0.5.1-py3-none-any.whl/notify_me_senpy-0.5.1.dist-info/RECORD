@@ -1,0 +1,13 @@
+senpy/__init__.py,sha256=1JoQc_fPcxgyOiKnfmw_nyBuMVkSNLF9Ttr-GphXpZ4,69
+senpy/account_manager.py,sha256=WDvfLQMFrzjuauSeWJmqUZ6MLt054rHiY1MB555g_Lk,7242
+senpy/cli.py,sha256=7T2l9jgQEO6WGo_G_5WtrrkbofSkvSNRWg1rC7v4Lvk,1497
+senpy/jobs.py,sha256=JWu4bvlCNWDaHPRhhIcXhJrycVgKD4JznVXuT6u8ZS4,9410
+senpy/notifications.py,sha256=JBnCaFfp84dfrCGT9yMBITrWliQK0N9PFen79P9SBPM,417
+senpy/request_utils.py,sha256=qrfz9_HhmzwFJkgbcYBIBT5-m3AIObr_bhgsy9Gt-R4,5620
+senpy/user_token.py,sha256=Od-jEeaF9bwtkWV2GpDHVIlOKJca98T3p-OmoIkTBzg,629
+notify_me_senpy-0.5.1.dist-info/LICENSE.txt,sha256=0ElQUwUZZ-vnb7H6zSh9edHtgA2hvnXPUBpVa8OaBHI,32471
+notify_me_senpy-0.5.1.dist-info/METADATA,sha256=m73FeCb4b7Vw18_ygpKtNnZIUjbsAtEZR9gXGwIN21M,6583
+notify_me_senpy-0.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+notify_me_senpy-0.5.1.dist-info/entry_points.txt,sha256=jR8rX--YKlyU8TDwXCRXHr5nrjLzG2bA1Vb06V_6ri8,41
+notify_me_senpy-0.5.1.dist-info/top_level.txt,sha256=Fyz6PiiB-WyypXdUxsNY4HiTT1tvI3U_TS8Zfg-6sVQ,6
+notify_me_senpy-0.5.1.dist-info/RECORD,,
