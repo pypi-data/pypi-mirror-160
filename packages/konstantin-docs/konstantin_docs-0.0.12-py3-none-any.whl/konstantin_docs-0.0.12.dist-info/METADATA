@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: konstantin-docs
+Version: 0.0.12
+Summary: Генерация документации
+Home-page: https://github.com/Konstantin-Dudersky/konstantin_docs
+Author: Konstantin-Dudersky
+Author-email: Konstantin.Dudersky@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests
+Requires-Dist: typing_extensions
+Project-URL: Repository, https://github.com/Konstantin-Dudersky/konstantin_docs
+Description-Content-Type: text/markdown
+
+# kroki-python
+
+Lib for interaction with https://kroki.io
+
+## Запустить тест:
+
+```sh
+poetry run poe docs
+```
+
+Или запусить task в vs code - F1 -> Task: Run task -> docs
+
+## Загрузить пакет в pypi
+
+Собрать и опубликовать пакет
+
+```sh
+poetry build && poetry publish
+```
+
+Логин: konstantin-dudersky
+
+## Задача poe
+
+Дописать в файл pyproject.toml:
+
+```toml
+docs = {script = "konstantin_docs.main:generate_images(path_src='test/dia_src', path_dist='test/dia_dist')"}
+```
+
+## Создать задачу vscode
+
+В файле .vscode/tasks.json:
+
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "docs",
+      "type": "shell",
+      "command": "poetry run poe docs"
+    }
+  ]
+}
+```
+
