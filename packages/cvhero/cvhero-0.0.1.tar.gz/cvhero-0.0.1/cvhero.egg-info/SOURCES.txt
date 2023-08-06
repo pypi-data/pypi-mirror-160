@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+cvhero.egg-info/PKG-INFO
+cvhero.egg-info/SOURCES.txt
+cvhero.egg-info/dependency_links.txt
+cvhero.egg-info/top_level.txt
