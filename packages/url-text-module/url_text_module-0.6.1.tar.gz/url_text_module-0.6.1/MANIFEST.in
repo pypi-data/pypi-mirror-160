@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+graft src/url_text_module
+recursive-exclude * *.py[co]
+include versioneer.py
+include src/url_text_module/_version.py
