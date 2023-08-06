@@ -1,0 +1,3 @@
+[console_scripts]
+chkpy = chkpy.__main__:main
+
