@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: radicalpy
+Version: 0.1rc4
+Home-page: https://github.com/Spin-Chemistry-Labs/radicalpy
+Author: Lewis M. Antill
+Author-email: lewismantill@gmail.com
+Maintainer: Emil Vatai
+Maintainer-email: emil.vatai@gmail.com
+License: MIT
+Keywords: quantum spin chemistry
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+Radical pair toolbox
