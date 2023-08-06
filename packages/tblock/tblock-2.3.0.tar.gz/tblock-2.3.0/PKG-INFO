@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: tblock
+Version: 2.3.0
+Summary: An anti-capitalist ad-blocker that uses the hosts file
+Home-page: https://tblock.codeberg.page/
+Author: Twann
+Author-email: tw4nn@disroot.org
+License: GPLv3
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+<img align="center" src="https://codeberg.org/tblock/tblock/raw/branch/main/assets/icons/tblock.svg" alt="TBlock logo" width="220px">
+</p>
+<p align="center">
+<h1 align="center">TBlock</h1>
+</p>
+<p align="center">
+<a href="https://github.com/humanetech-community/awesome-humane-tech"><img src="https://codeberg.org/tblock/tblock/raw/branch/main/assets/icons/humane-tech-badge.svg" alt="Awesome Humane Tech"></a>
+<a href="https://framagit.org/twann/tblock/-/pipelines"><img src="https://framagit.org/twann/tblock/badges/main/pipeline.svg" alt="Pipeline status"></a>
+<a href="https://codeberg.org/tblock/tblock"><img src="https://codeberg.org/tblock/tblock/raw/branch/main/assets/icons/codeberg.svg" alt="Hosted on Codeberg" height="20px"></a>
+</p>
+
+## Description
+
+TBlock is a free and open-source system-wide ad-blocker that is compatible with most filter list formats.
+
+## Features
+
+- Blocks ads and trackers system-wide
+- Compatible with most filter list formats
+- Has an online repository to help you find and subscribe to popular blocklists in an easy way
+- Has a built-in filter list converter
+- Has a built-in daemon that regularly updates the filter lists and prevents your hosts file from being modified by other programs and users
+
+## Installation
+
+You can easily install TBlock with:
+
+```sh
+pipx install tblock
+```
+
+More installation methods — such as Windows installer and packages for Linux distributions — can be found [on the website](https://tblock.codeberg.page/install).
+
+## Usage
+
+After installing, you need to update the repository index and subscribe to the default blocklist in order to enable protection against ads and trackers:
+
+```sh
+tblock -Sy tblock-base
+```
+
+If afterwards you want to disable TBlock's protection, you can do so by running:
+
+```sh
+tblock -D
+```
+
+Then, to enable it again:
+
+```sh
+tblock -H
+```
+
+You can find other blocklists [on the repository](https://tblock.codeberg.page/repository) and more information on how to use TBlock [in the documentation](https://tblock.codeberg.page/docs).
+
+## Roadmap
+
+Here is a list of the upcoming changes in TBlock code. Suggestions are, of course, welcome.
+
+- [ ] Mark filter lists that are included in another list as `subscribed` when the user subscribes to the list
+- [ ] Allow virtual filter lists to exist (would act as a "group", like `base-devel` does on Arch Linux)
+- [ ] Implement a GUI for TBlock
+- [ ] Rewrite the entire code, make a clearer public API and publish release 3.0.0
+
+## Contributing
+
+Everyone is welcome to contribute to TBlock in different ways. Bug reports can be made directly from the [Gitea issue tracker](https://codeberg.org/tblock/tblock/issues), by sending an email to the team or in [our Matrix room](https://matrix.to/#/#tblock:envs.net). 
+
+If you want to suggest a modification in the code, you can [open a pull request](https://codeberg.org/tblock/tblock/pulls) or send your patch using email or Matrix.
+
+If you want to be a beta-tester, you can install the latest beta version from our [release page](https://codeberg.org/tblock/tblock/releases) and contact us to give a feedback.
+
+You can find more information on how to contribute [here](https://codeberg.org/tblock/tblock/src/branch/main/CONTRIBUTING.md).
+
+## Authors and acknowledgment
+
+TBlock is currently mainained by [Twann](https://codeberg.org/twann), who is also its creator.
+A big thank you to all the people [who contribute(d) to the project](https://codeberg.org/tblock/tblock/src/branch/main/CONTRIBUTORS.md).
+
+## Libraries
+
+Here is a list of all libraries used in the project:
+
+| Name | Author | License |
+| --- | --- | --- |
+| [colorama](https://github.com/tartley/colorama) | Jonathan Hartley | BSD |
+| [requests](https://requests.readthedocs.io/) | Kenneth Reitz | Apache 2.0 |
+| [urllib3](https://urllib3.readthedocs.io/) | Andrey Petrov | MIT |
+| [argumentor](https://codeberg.org/twann/python-argumentor) | Twann | LGPLv3 |
+
+## Contact
+
+- [Blog](https://fediverse.blog/~/TBlock)
+- [Mastodon](https://fosstodon.org/@tblock)
+- [Matrix](https://matrix.to/#/#tblock:matrix.org)
+- [Telegram](https://t.me/tblock)
+- [XMPP](xmpp:tblockproject@chat.disroot.org?join)
+
+## License
+
+[![GPLv3](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)](https://www.gnu.org/licenses/gpl-3.0)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
