@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/colorway_background.py
+src/colorway_foreground.py
+src/colorway.egg-info/PKG-INFO
+src/colorway.egg-info/SOURCES.txt
+src/colorway.egg-info/dependency_links.txt
+src/colorway.egg-info/requires.txt
+src/colorway.egg-info/top_level.txt
+tests/test_background.py
+tests/test_foreground.py
