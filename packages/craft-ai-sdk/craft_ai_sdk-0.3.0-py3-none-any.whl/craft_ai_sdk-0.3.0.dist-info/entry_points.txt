@@ -1,0 +1,9 @@
+[console_scripts]
+bump-version=scripts.scripts:bump_version
+format=scripts.scripts:format
+lint=scripts.scripts:lint
+reformat=scripts.scripts:reformat
+test=scripts.scripts:test
+test-base=scripts.scripts:test_base
+test-platform=scripts.scripts:test_platform
+
