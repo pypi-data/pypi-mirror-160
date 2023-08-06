@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/rendering_minecraft/__init__.py
+src/rendering_minecraft/colormap.py
+src/rendering_minecraft.egg-info/PKG-INFO
+src/rendering_minecraft.egg-info/SOURCES.txt
+src/rendering_minecraft.egg-info/dependency_links.txt
+src/rendering_minecraft.egg-info/top_level.txt
