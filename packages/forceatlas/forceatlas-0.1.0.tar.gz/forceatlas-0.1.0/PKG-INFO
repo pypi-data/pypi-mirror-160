@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: forceatlas
+Version: 0.1.0
+Summary: Python-friendly ForceAtlas2 library with networkx compatibility and support for thread-based parallelism
+Home-page: https://github.com/ryanrudes/forceatlas
+Download-URL: https://github.com/ryanrudes/forceatlas/archive/refs/tags/v0.1.0.tar.gz
+Author: Ryan Rudes
+Author-email: ryanrudes@gmail.com
+License: GPLv3+
+Keywords: multithreading,networkx,forceatlas2,graph-layout,force-directed-graphs
+License-File: LICENSE

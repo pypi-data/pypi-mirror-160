@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+forceatlas/__init__.py
+forceatlas/layout.py
+forceatlas.egg-info/PKG-INFO
+forceatlas.egg-info/SOURCES.txt
+forceatlas.egg-info/dependency_links.txt
+forceatlas.egg-info/requires.txt
+forceatlas.egg-info/top_level.txt
