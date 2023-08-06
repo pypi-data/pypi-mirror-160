@@ -1,0 +1,7 @@
+
+[dev]
+alfred-cli
+build
+mypy
+setuptools-scm
+twine
