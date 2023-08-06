@@ -1,0 +1,10 @@
+MambuPy
+MambuPy/api
+MambuPy/orm
+MambuPy/rest
+MambuPy/rest1to2
+mambupy
+mambupy/api
+mambupy/orm
+mambupy/rest
+mambupy/rest1to2
