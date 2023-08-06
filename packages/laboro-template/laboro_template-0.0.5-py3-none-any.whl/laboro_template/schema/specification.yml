@@ -1,0 +1,16 @@
+class: Template
+methods:
+  - name: render
+    args:
+      - name: template
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: params
+        required: False
+        type: dict
+        implied: []
+        excluded: []
+        secret: False
