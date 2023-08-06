@@ -1,0 +1,8 @@
+invertedai_drive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+invertedai_drive/drive.py,sha256=yCsX0Emi2uH7503jVb17NoS5WmI3yvNyJ3qc3hAGeuA,6178
+invertedai_drive/models.py,sha256=UQjTTaO49_APsdNS-Bt4XMHsmLZQ4prvli8ceooMjMI,470
+invertedai_drive/requirements.txt,sha256=R3BxUDlRWIyQD1ySpJv9b3torXnlMPQo5XCz07xW7sE,48
+invertedai_drive/utils.py,sha256=8bruf0ngrlptXxSCscVZfvznrptfXcrJgs5BKASzf-Q,1540
+invertedai_drive-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+invertedai_drive-0.1.0.dist-info/METADATA,sha256=8txBnbEZ01AnU8VMyXSgWLfjnURVMUE5a5ggpxh8_UY,772
+invertedai_drive-0.1.0.dist-info/RECORD,,
