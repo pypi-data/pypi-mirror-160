@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: django-execute-sql
+Version: 2022.7.24
+Summary: execute sql from file/folder/admin
+Home-page: https://github.com/andrewp-as-is/django-execute-sql.py
+License: Unlicense
+Description: [![](https://img.shields.io/badge/released-2022.7.25-green.svg?longCache=True)](https://pypi.org/project/django-execute-sql/)
+        [![](https://img.shields.io/badge/license-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+        
+        ### Installation
+        ```bash
+        $ pip install django-execute-sql
+        ```
+        
+        #### `settings.py`
+        ```python
+        INSTALLED_APPS+=['django_execute_sql']
+        ```
+        #### `migrate`
+        ```bash
+        $ python manage.py migrate
+        ```
+        
+        ### Features
+        +  error tracking
+        +  admin interface
+        
+        ### Examples
+        ```bash
+        $ python manage.py execute_sql path/to/file.sql
+        $ python manage.py execute_sql path/to/folder # *.sql files
+        ```
+        
+        `-i/--ignore-errors`
+        ```bash
+        $ python manage.py execute_sql -i path/to/folder
+        $ python manage.py execute_sql --ignore-errors path/to/folder
+        ```
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
