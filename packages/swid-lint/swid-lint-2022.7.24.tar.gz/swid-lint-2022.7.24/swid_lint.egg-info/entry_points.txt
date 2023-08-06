@@ -1,0 +1,2 @@
+[console_scripts]
+swid-lint = swid_lint.cli:app
