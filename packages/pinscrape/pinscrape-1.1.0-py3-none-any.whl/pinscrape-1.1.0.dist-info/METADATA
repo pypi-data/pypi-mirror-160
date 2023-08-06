@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pinscrape
+Version: 1.1.0
+Summary: Pinterest data scraper
+Home-page: https://github.com/iamatulsingh/pinscrape
+Author: Atul Singh
+Author-email: atulsingh0401@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: tqdm (==4.64.0)
+Requires-Dist: pydotmap
+Requires-Dist: opencv-python (==4.5.3.56)
+
+# pinscrape
+[![built with Python3](https://img.shields.io/badge/built%20with-Python3.x-red.svg)](https://www.python.org/)
+
+### This package can be use to scrape images from pinterest just by using any search keywords. Install it just by using <br><br>
+`pip install pinscrape`
+### How to use?
+```python
+from pinscrape import pinscrape
+details = pinscrape.scraper.scrape("messi", "output", {}, 10)
+
+if details["isDownloaded"]:
+    print("\nDownloading completed !!")
+    print(f"\nTotal urls found: {len(details['extracted_urls'])}")
+    print(f"\nTotal images downloaded (including duplicate images): {len(details['url_list'])}")
+    print(details)
+else:
+    print("\nNothing to download !!")
+```
+
+`scrape("messi", "output", {}, 10)` <br/>
+- `"messi"` is keyword
+- `"output"` is path to a folder where you want to save images
+- `{}` is proxy if you want to add
+- `10` is a number of threads you want to use for downloading those images
