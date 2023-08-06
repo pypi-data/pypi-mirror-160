@@ -1,0 +1,13 @@
+test.py,sha256=qRkPcoucU1VP2KSWOF9VCaWhxUysDD5gHu1b9A7a6KM,2848
+carsomenlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+carsomenlp/glossa.py,sha256=2yKZDcoQcjezEGD-zpxknbPeB8AOqmlyxA5P4UPnkew,2561
+carsomenlp/matcher.py,sha256=3qyg2MTa7H9euq-sadZvLCuvMxD2tfAWYipmxoeZezc,3874
+carsomenlp/tokenizer.py,sha256=-NEQhFuV8MGtznCZpixcQUdeAdwRW2fOXyvCUKhGsIw,1236
+carsomenlp/translator.py,sha256=AZCm-JOCSBLRszaE_h9xYyBmHca75fqEyx721vpUHKQ,847
+carsomenlp/utils.py,sha256=ie3LLcJkfdhgnGGBJuigd4r_A0tyDXASYRCK_pqkzpI,219
+carsomenlp/wrangler.py,sha256=5x0ykCavhtdrlx-pIqUXVoWw0TyylHMIJvXgkCnD4E8,3894
+carsomenlp-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+carsomenlp-0.0.2.dist-info/METADATA,sha256=4qZKpkTrax28zHGBgOpw0UNxrNqTVHLFM_6K-JZ46ms,2805
+carsomenlp-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+carsomenlp-0.0.2.dist-info/top_level.txt,sha256=d6YEjiiZura9tY6yh9ZqVQXjhX8Ei1y7ZyzqwKB-a5E,16
+carsomenlp-0.0.2.dist-info/RECORD,,
