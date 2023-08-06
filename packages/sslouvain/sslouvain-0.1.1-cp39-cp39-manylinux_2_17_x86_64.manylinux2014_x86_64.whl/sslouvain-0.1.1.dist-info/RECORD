@@ -1,0 +1,15 @@
+sslouvain-0.1.1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+sslouvain-0.1.1.dist-info/WHEEL,sha256=FNUt4eBsrBVn_Yc5KG3aXtKE40X3uNZrbGLNCbVxyFw,148
+sslouvain-0.1.1.dist-info/top_level.txt,sha256=Vx7bGz4gJb77XsPtt96x0uRNGI005dap9pXk2oij7yI,10
+sslouvain-0.1.1.dist-info/METADATA,sha256=BXacjcVMiQ_JOFWLfPBW9KznbbKMJKKIG_m_vXwKjB0,1778
+sslouvain-0.1.1.dist-info/RECORD,,
+sslouvain.libs/libigraph-8fc433fa.so.0.0.0,sha256=WzRfQeS451HRAkZUvOUMmnoAdxJX49wPSiQUQq1S6mU,4560528
+sslouvain.libs/libgmp-afec2dd4.so.10.2.0,sha256=QtnCh5ZFHG9wDRlKZvkHy1r2vtRfTVqOMms8hJeT-ZU,515856
+sslouvain.libs/liblzma-004595ca.so.5.2.2,sha256=uBYgw3aPH1qysw-Huk3--_U9lrgRLm3YRPLN0yz4p28,163472
+sslouvain.libs/libxml2-3998bec4.so.2.9.1,sha256=SOn0rU9TJ0gAcQimCxNNEHEEhZCPEd5WbTqVb0UL5uQ,1601968
+sslouvain/Optimiser.py,sha256=OQEGoygHZJr1OoiT2v_5TT85hxU-eDoEm6cIiuV_2YI,16629
+sslouvain/_version.py,sha256=_5oNl8FI3yMr-ngxYLMrAEALbJeQMiFog2ORNoAHy8c,463
+sslouvain/VertexPartition.py,sha256=Zluf-GA_o2I0N9rZYu2IssJrwC_XtJ_2hXhWl6D0UmI,38880
+sslouvain/_c_louvain.cpython-39-x86_64-linux-gnu.so,sha256=67SEUSdIhoo1npZssM29AL4uSS4l0TPvnD4Dldda9MY,4014264
+sslouvain/functions.py,sha256=KPhgtaN3V3kr484qBD-aiOpYL7aEHd5_4oy8MyLYgdM,17693
+sslouvain/__init__.py,sha256=DcNMrs50NQQTyh1oM-nHmjp3Btfj_TvjHTayPZWc3co,2977
