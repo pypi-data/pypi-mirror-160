@@ -1,0 +1,3 @@
+[console_scripts]
+mwr_raw2l1=mwr_raw2l1.__main__:main
+
