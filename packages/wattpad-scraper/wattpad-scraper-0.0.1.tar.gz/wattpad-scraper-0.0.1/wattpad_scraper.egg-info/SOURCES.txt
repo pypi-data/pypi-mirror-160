@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+wattpad-scraper/__init__.py
+wattpad-scraper/wattpad_downloader.py
+wattpad-scraper/models/__init__.py
+wattpad-scraper/utils/__init__.py
+wattpad-scraper/utils/parse_content.py
+wattpad-scraper/utils/request.py
+wattpad_scraper.egg-info/PKG-INFO
+wattpad_scraper.egg-info/SOURCES.txt
+wattpad_scraper.egg-info/dependency_links.txt
+wattpad_scraper.egg-info/requires.txt
+wattpad_scraper.egg-info/top_level.txt
