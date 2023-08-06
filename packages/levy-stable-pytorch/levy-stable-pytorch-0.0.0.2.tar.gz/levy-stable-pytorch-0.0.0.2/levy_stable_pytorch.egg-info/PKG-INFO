@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: levy-stable-pytorch
+Version: 0.0.0.2
+Summary: Package provides torch-based pdf, score calculation and sampling of levy stable distribution.
+Home-page: https://github.com/UNIST-LIM-Lab/levy-distribution-pytorch
+Author: Jinhyeok Kim
+Author-email: jinhyuk@unist.ac.rk
+License: UNKNOWN
+Project-URL: Source, https://github.com/UNIST-LIM-Lab/levy-distribution-pytorch
+Platform: UNKNOWN
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
