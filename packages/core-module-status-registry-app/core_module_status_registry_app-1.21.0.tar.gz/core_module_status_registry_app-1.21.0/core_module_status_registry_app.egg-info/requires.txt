@@ -1,0 +1,4 @@
+Django
+mock
+core-parser-app==1.21.*
+core-main-registry-app==1.21.*
