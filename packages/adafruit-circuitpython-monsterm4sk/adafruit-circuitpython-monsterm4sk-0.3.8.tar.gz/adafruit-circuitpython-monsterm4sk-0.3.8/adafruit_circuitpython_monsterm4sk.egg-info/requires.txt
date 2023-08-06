@@ -1,0 +1,6 @@
+Adafruit-Blinka
+adafruit-circuitpython-busdevice
+adafruit-circuitpython-register
+adafruit-circuitpython-seesaw
+adafruit-circuitpython-st7789
+adafruit-circuitpython-lis3dh
