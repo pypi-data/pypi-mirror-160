@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bibliograph/TextNet.py
+bibliograph/__init__.py
+bibliograph/core.py
+bibliograph/tests.py
+bibliograph/util.py
+bibliograph.egg-info/PKG-INFO
+bibliograph.egg-info/SOURCES.txt
+bibliograph.egg-info/dependency_links.txt
+bibliograph.egg-info/requires.txt
+bibliograph.egg-info/top_level.txt
