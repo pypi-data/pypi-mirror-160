@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ImageDuplicateFinder.egg-info/PKG-INFO
+ImageDuplicateFinder.egg-info/SOURCES.txt
+ImageDuplicateFinder.egg-info/dependency_links.txt
+ImageDuplicateFinder.egg-info/entry_points.txt
+ImageDuplicateFinder.egg-info/requires.txt
+ImageDuplicateFinder.egg-info/top_level.txt
+image_duplicate_finder/__init__.py
+image_duplicate_finder/__main__.py
+image_duplicate_finder/constants.py
+image_duplicate_finder/duplication_functions.py
+image_duplicate_finder/os_functions.py
+image_duplicate_finder/test/__init__.py
+image_duplicate_finder/test/test.py

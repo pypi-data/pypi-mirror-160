@@ -1,0 +1,2 @@
+[console_scripts]
+idf = image_duplicate_finder:find_duplicate_argparse
