@@ -1,0 +1,3 @@
+mactalk
+unisapi
+unispeak_nvda
