@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: adverity-json-parser
+Version: 1.0.0
+Summary: Adverity json parser is a package created to parse json files on the adverity datastreams.
+Home-page: https://github.com/devoteamgcloud/adverity-json-parser
+Author: Nabil Lahssini | Jonas Ameye
+Author-email: nabil.lahssini@devoteam.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# adverity-json-parser
+## Example
+```
+from adverity_json_parser import parser
+
+DATASTREAM_ID = "1234"
+INSTANCE_URL = "https://reprise.datatap.adverity.com/api/columns/"
+TOKEN = "qwertyuiopasdfghjklzxcvbnmqwertyu"
+JSON_PATH = "/Users/example/Documents/data-streams/table_schemas/general.json"
+SCPECIAL_CHARS = ",().- %:!#&*§±+=" #Optional
+
+instance = parser.Parser(DATASTREAM_ID, INSTANCE_URL, TOKEN, JSON_PATH)
+instance.transform()
+```

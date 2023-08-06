@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+adverity_json_parser/__init__.py
+adverity_json_parser/parser.py
+adverity_json_parser.egg-info/PKG-INFO
+adverity_json_parser.egg-info/SOURCES.txt
+adverity_json_parser.egg-info/dependency_links.txt
+adverity_json_parser.egg-info/requires.txt
+adverity_json_parser.egg-info/top_level.txt
