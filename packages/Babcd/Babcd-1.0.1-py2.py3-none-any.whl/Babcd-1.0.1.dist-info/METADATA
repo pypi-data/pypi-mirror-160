@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Babcd
+Version: 1.0.1
+Summary: A small example package
+Home-page: https://mp.weixin.qq.com/s
+Author: wl
+Author-email: 3022949584@qq.com
+License: DBC License
+Platform: all
+
+This is a simple example package.
+
