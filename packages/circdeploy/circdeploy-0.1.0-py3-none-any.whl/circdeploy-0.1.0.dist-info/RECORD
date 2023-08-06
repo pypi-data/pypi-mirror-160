@@ -1,0 +1,8 @@
+circdeploy/__init__.py,sha256=TLMj8tOBZMVCMdXP1NXrH0Mgq72LnH2qyZ4wjuVoHG8,71
+circdeploy/__main__.py,sha256=dHYCoq-bbgoMVxbXdJtoE9YPYJCw2BMhFpn0NrEOtsE,30
+circdeploy/main.py,sha256=hgakOXa9OCdfaUb8TP2gRUkjPG4tjMJJqnWgV8XuDII,5151
+circdeploy-0.1.0.dist-info/entry_points.txt,sha256=1-o3FvS8ZdUniifZHWTe16kZXHQlIp5-qvTQj1ALQ8g,51
+circdeploy-0.1.0.dist-info/LICENSE,sha256=11hb8RjcTeFDRqQejj-yuh282tttUVTgQ8MFWVaLk6k,1076
+circdeploy-0.1.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+circdeploy-0.1.0.dist-info/METADATA,sha256=xot4CJoGZrKkXH1I3AQLoZRntnYsQ7DyQzXmd1PI1DE,3035
+circdeploy-0.1.0.dist-info/RECORD,,
