@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: user-agent-data
+Version: 1.0.1
+Summary: user_agent
+Home-page: 
+Author: xddmmm
+Author-email: 3163450460@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: py-L (>=0.12.0)
+Requires-Dist: ter (==3.1.0)
+
