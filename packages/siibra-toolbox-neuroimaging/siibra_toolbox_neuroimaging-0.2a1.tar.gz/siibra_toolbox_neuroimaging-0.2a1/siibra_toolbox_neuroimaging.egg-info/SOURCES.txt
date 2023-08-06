@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+siibra_toolbox_neuroimaging/__init__.py
+siibra_toolbox_neuroimaging/assignment.py
+siibra_toolbox_neuroimaging/cli.py
+siibra_toolbox_neuroimaging.egg-info/PKG-INFO
+siibra_toolbox_neuroimaging.egg-info/SOURCES.txt
+siibra_toolbox_neuroimaging.egg-info/dependency_links.txt
+siibra_toolbox_neuroimaging.egg-info/entry_points.txt
+siibra_toolbox_neuroimaging.egg-info/requires.txt
+siibra_toolbox_neuroimaging.egg-info/top_level.txt
