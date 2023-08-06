@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-communication.neongeckocom=skill_communication:CommunicationSkill
+
