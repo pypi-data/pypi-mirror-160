@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: plspy
+Version: 0.3.0
+Summary: Implementation of McIntosh Lab's Partial Least Squares neuroimaging tool
+Home-page: https://github.com/McIntosh-Lab/plspy
+Author: Noah Frazier-Logue
+Author-email: noah_frazier-logue@sfu.ca
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
