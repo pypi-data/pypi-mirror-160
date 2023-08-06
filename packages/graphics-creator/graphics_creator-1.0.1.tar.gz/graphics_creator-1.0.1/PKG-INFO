@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: graphics-creator
+Version: 1.0.1
+Summary: Python project for creation graphics
+Author: He1TPOH
+Author-email: nikulin.vlad07@mail.ru
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
