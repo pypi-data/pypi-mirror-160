@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/cli/VERSION.txt
+src/cli/__init__.py
+src/cli/soos.py
+src/pipy_pre_release_example.egg-info/PKG-INFO
+src/pipy_pre_release_example.egg-info/SOURCES.txt
+src/pipy_pre_release_example.egg-info/dependency_links.txt
+src/pipy_pre_release_example.egg-info/entry_points.txt
+src/pipy_pre_release_example.egg-info/requires.txt
+src/pipy_pre_release_example.egg-info/top_level.txt
