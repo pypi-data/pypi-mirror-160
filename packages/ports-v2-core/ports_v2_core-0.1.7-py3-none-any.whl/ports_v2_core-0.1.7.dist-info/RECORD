@@ -1,0 +1,15 @@
+ports_v2_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ports_v2_core/rpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ports_v2_core/rpc/clients/__init__.py,sha256=qCKI1BUj21NPLIy7rysOatYVc0QcyTI-c__Gy8dvDCM,1322
+ports_v2_core/rpc/clients/auth.py,sha256=MGmgOKCOwZ_-uYLy6yns5qX6TC-SrlvGdWLR6Iog238,1656
+ports_v2_core/rpc/clients/crypto.py,sha256=COB9LwZtEX1sYbENURaNB6zFyJDwT1tyPryfnLtKLPU,1832
+ports_v2_core/rpc/clients/user.py,sha256=n9iBb-WlDKh42ZLEOfqmLj_1EV8ZQ5NonatpBS1G8QM,1515
+ports_v2_core/rpc/errors/__init__.py,sha256=YO8nYD5jeAo9kCXgX0GBTTV5Oj2LJlDjxyAyFiFg2fE,340
+ports_v2_core/rpc/errors/auth.py,sha256=9nspiPPhvOd7hDPV3H3RIo_gPv02dgNWknjDZCKnCrQ,395
+ports_v2_core/rpc/errors/crypto.py,sha256=ejJ1kkz4N3A9-Hsw0JyX_Wir-Pmim0EaTCNUgvBQANI,374
+ports_v2_core/rpc/errors/users.py,sha256=f66ZBBc_pzwSiYxa3_aGh7yEVCvVBEy5d0-_PW7V9bw,381
+ports_v2_core/schemas/__init__.py,sha256=NDDmZVg6nFWfHllMxQllqg73e2vMiQfPUmDsh5HZv9o,195
+ports_v2_core/schemas/users.py,sha256=z_MbKFtE1FXyCxIDip3JhKe7oIvm_BoJc5EEBr8-8x0,968
+ports_v2_core-0.1.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ports_v2_core-0.1.7.dist-info/METADATA,sha256=ekjmxGKvw6wAXeGXQPrNaeTGpxlQWRxzNpfoKMkpUig,475
+ports_v2_core-0.1.7.dist-info/RECORD,,
