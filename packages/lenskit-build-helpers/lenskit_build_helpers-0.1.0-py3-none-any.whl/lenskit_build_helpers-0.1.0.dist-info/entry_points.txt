@@ -1,0 +1,3 @@
+[console_scripts]
+lkbuild=lkbuild:lkbuild_main
+

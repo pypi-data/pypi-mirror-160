@@ -1,0 +1,16 @@
+lkbuild/__init__.py,sha256=xp51o460kjZGE36hbqZRpvewxsnAME-Cu0Xu8J_WEzI,377
+lkbuild/__main__.py,sha256=g51s85VtXe235_R3f99RYk2YQrTozbhD50tIOjpm3U4,132
+lkbuild/datasets.py,sha256=jP2rjs6TYjt1H9yqkVtR0Rh3aaBEwj3MVagp7YRPdic,895
+lkbuild/env.py,sha256=wag94q4pigsNfQHlk9St2kyb3eInpJtsxvukfqV-bfM,563
+lkbuild/tasks.py,sha256=b_cf_mxm4XLvdlzCWkG9rW6y8mmI3QSJMYjgE4OHRfk,4007
+lkbuild/specs/mkl-spec.yml,sha256=XLlunoZtPblq6Tontjde3wrQ06QsHT1ZI7KogQe58pw,86
+lkbuild/specs/openblas-spec.yml,sha256=P2pQqtNwahDCxEnluStRLIdieic8mu7exHDaHf_LEtk,87
+lkbuild/specs/python-3.10-spec.yml,sha256=68lwtksFQqmrp9WSPZCQWYVhCcrernp6FzaCBnVAfyQ,80
+lkbuild/specs/python-3.7-spec.yml,sha256=RT8BAP7IKMDIGCKQ9XwhD814RSuq9tO1HQxD7lNCsqQ,78
+lkbuild/specs/python-3.8-spec.yml,sha256=5MDsikaEQjPu7hXkyyBRMxEfCTuN0LgLcwCHWAp3Pvs,78
+lkbuild/specs/python-3.9-spec.yml,sha256=WyVN9jG1WBWOd3su5e33wvILy3FyTf3FDpfEhuaTSFw,78
+lenskit_build_helpers-0.1.0.dist-info/entry_points.txt,sha256=y27aEBJLnKfkxkS1G4Kim-kzMguruOT-OH7kejE2zbc,48
+lenskit_build_helpers-0.1.0.dist-info/LICENSE.md,sha256=xvT2rxnmmXEAns7kywgk_CFAVU4inQoZwhr5YY7oo-o,1092
+lenskit_build_helpers-0.1.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+lenskit_build_helpers-0.1.0.dist-info/METADATA,sha256=DR6hZMGCAUWwpPoeAa7cScwPaUb076Jro-GBUW7N6_E,1456
+lenskit_build_helpers-0.1.0.dist-info/RECORD,,
