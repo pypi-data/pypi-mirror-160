@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: skittles-terminal
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/xxninjabunnyxx/skittles-terminal-py
+Author: xxninjabunnyxx
+Author-email: xxninjabunnyxx@gmail.com
+Project-URL: Bug Tracker, https://github.com/xxninjabunnyxx/skittles-terminal-py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# skittles-terminal-py
