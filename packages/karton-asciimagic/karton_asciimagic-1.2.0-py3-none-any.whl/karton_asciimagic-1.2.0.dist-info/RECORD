@@ -1,0 +1,14 @@
+karton_asciimagic-1.2.0-nspkg.pth,sha256=vHa-jm6pBTeInFrmnsHMg9AOeD88czzQy-6QCFbpRcM,539
+karton/asciimagic/__init__.py,sha256=kYhgqqMMsoowQDi_AsLw95BITblww1i4AZA3QkHneF8,61
+karton/asciimagic/__main__.py,sha256=LEO2zleSCD64XsjrmU1oE1OnDD03VlYIBdDMwFV2Bds,54
+karton/asciimagic/__version__.py,sha256=MpAT5hgNoHnTtG1XRD_GV_A7QrHVU6vJjGSw_8qMGA4,22
+karton/asciimagic/asciiclassifier.py,sha256=I1Q2bZfrqJRDAmZcl6bbf-zMw-WfaiuFh0HNPdAYE2o,3250
+karton/asciimagic/asciimagic.py,sha256=J_op8HCRN8LTt7Ta7CuCFjyrvIRbN29kq-YxHFmwkaI,1597
+karton/asciimagic/decoders.py,sha256=LIgxJ0svLbAOIsnvsMu5r7DTvbCNdEWt_DAbDLUlGT4,1950
+karton_asciimagic-1.2.0.dist-info/LICENSE,sha256=o8h7hYhn7BJC_-DmrfqWwLjaR_Gbe0TZOOQJuN2ca3I,1519
+karton_asciimagic-1.2.0.dist-info/METADATA,sha256=swvE3Ztb-Wz5rkxguzAQ9Kq7wNbzZ7sFpykoTJG7xdg,1262
+karton_asciimagic-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+karton_asciimagic-1.2.0.dist-info/entry_points.txt,sha256=vp2rE4wKqWSz_0e3cPoY9INnvLxoDfHwA3oVRRRLaz8,73
+karton_asciimagic-1.2.0.dist-info/namespace_packages.txt,sha256=X8SslCPsqXDCnGZqrYYolzT3xPzJMq1r-ZQSc0jfAEA,7
+karton_asciimagic-1.2.0.dist-info/top_level.txt,sha256=X8SslCPsqXDCnGZqrYYolzT3xPzJMq1r-ZQSc0jfAEA,7
+karton_asciimagic-1.2.0.dist-info/RECORD,,

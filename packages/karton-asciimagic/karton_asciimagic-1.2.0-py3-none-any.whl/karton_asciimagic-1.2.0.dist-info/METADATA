@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: karton-asciimagic
+Version: 1.2.0
+Summary: Various encoders for ascii-encoded executables for Karton framework
+Home-page: https://github.com/CERT-Polska/karton-asciimagic/
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: karton-core (<6.0.0,>=5.0.0)
+
+# AsciiMagic karton service
+
+Extracts next stages of various ASCII files that contain malware, for example hex, base64, etc.
+
+**Author**: CERT.pl
+
+**Maintainers**: ola, msm, nazywam
+
+**Consumes:**
+```json
+{
+    "type": "sample",
+    "stage": "recognized",
+    "kind": "ascii"
+} 
+```
+
+**Produces:**
+```json
+{
+    "type": "sample",
+    "kind": "runnable",
+    "stage": "recognized",
+    "platform": "win32",
+    "extension": "exe",
+}, {
+    "type": "sample",
+    "kind": "raw"
+}
+```
+
+
+## Usage
+
+First of all, make sure you have setup the core system: https://github.com/CERT-Polska/karton
+
+Then install karton-asciimagic from PyPi:
+
+```shell
+$ pip install karton-asciimagic
+
+$ karton-asciimagic
+```
+
+![Co-financed by the Connecting Europe Facility by of the European Union](https://www.cert.pl/uploads/2019/02/en_horizontal_cef_logo-e1550495232540.png)
+
+
