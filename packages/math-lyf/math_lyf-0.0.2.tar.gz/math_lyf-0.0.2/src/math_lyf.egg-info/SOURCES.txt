@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/math_lyf/__init__.py
+src/math_lyf/math.py
+src/math_lyf.egg-info/PKG-INFO
+src/math_lyf.egg-info/SOURCES.txt
+src/math_lyf.egg-info/dependency_links.txt
+src/math_lyf.egg-info/top_level.txt
