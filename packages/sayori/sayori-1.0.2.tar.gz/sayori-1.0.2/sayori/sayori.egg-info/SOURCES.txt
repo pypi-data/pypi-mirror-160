@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sayori/sayori.egg-info/PKG-INFO
+sayori/sayori.egg-info/SOURCES.txt
+sayori/sayori.egg-info/dependency_links.txt
+sayori/sayori.egg-info/top_level.txt
