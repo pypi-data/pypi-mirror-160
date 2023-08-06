@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+dir/KloockyDE.egg-info/PKG-INFO
+dir/KloockyDE.egg-info/SOURCES.txt
+dir/KloockyDE.egg-info/dependency_links.txt
+dir/KloockyDE.egg-info/requires.txt
+dir/KloockyDE.egg-info/top_level.txt
