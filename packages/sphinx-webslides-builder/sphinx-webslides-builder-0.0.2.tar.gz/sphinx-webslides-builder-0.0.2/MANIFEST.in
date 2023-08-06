@@ -1,0 +1,2 @@
+recursive-include sphinx_webslides_builder/themes/webslides_base *.conf *.css *.js *.html
+recursive-include sphinx_webslides_builder *.py

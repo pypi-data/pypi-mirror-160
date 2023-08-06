@@ -1,0 +1,2 @@
+[sphinx.builders]
+webslides = sphinx_webslides_builder
