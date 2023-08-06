@@ -1,0 +1,14 @@
+README.md
+setup.py
+TRDstest.egg-info/PKG-INFO
+TRDstest.egg-info/SOURCES.txt
+TRDstest.egg-info/dependency_links.txt
+TRDstest.egg-info/top_level.txt
+trdstest/TRLRF.py
+trdstest/__init__.py
+trdstest/base.py
+trdstest/decomposition.py
+trdstest/functions.py
+trdstest/main.py
+trdstest/ops.py
+trdstest/test.py
