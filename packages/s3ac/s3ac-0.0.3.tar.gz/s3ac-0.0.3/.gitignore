@@ -1,0 +1,4 @@
+/.idea/
+/s3ac.iml
+/venv*/
+**/__pycache__
