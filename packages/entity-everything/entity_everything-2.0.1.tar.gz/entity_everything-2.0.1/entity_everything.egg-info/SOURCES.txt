@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+entity_everything/__init__.py
+entity_everything/__main__.py
+entity_everything.egg-info/PKG-INFO
+entity_everything.egg-info/SOURCES.txt
+entity_everything.egg-info/dependency_links.txt
+entity_everything.egg-info/top_level.txt
+entity_everything/libs/__init__.py
+entity_everything/libs/html_entities_decode.py
+entity_everything/libs/html_entities_encode.py
+entity_everything/tests/__init__.py
+entity_everything/tests/test_html_entities_decode.py
+entity_everything/tests/test_html_entities_encode.py
