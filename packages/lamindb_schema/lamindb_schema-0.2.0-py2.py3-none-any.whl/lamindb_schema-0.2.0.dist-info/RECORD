@@ -1,0 +1,12 @@
+lamindb_schema/__init__.py,sha256=O5GUTZqU4pqKdDRbiiXSIpG5duYIDAUiMKsIMaQu1dc,110
+lamindb_schema/_biolab.py,sha256=FlLpPW-w7KaTLh_qCZtqUcTFS4p0UnqhFIBnkU6v124,1460
+lamindb_schema/_bionty.py,sha256=sD64aBFMnDQNbf3mmp6pmfi9wWgNN592jvfw0QAh-As,2575
+lamindb_schema/_provenance.py,sha256=tcXXvIIZ5hhlp4xXWy0Zp0X9aTT99P8CgrvBoCMb3fY,3755
+lamindb_schema/biolab.py,sha256=FdcZD0rIMOxoNlWGKGbIyYrtOnIXpmTRrrZXmkkujBc,79
+lamindb_schema/bionty.py,sha256=V8ufii-xx1Lsj2xQ0yQYyTdtzC80dkOza2SOYSk-oYE,140
+lamindb_schema/id.py,sha256=Fr8Lce_6Hya3fQ4inwjbOChUJsmq1G-yAg99UToCP98,950
+lamindb_schema/provenance.py,sha256=8sV66n7xqQiUBRZ7GULQTceAWCw56QVlibbrI5ek9lY,125
+lamindb_schema-0.2.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+lamindb_schema-0.2.0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+lamindb_schema-0.2.0.dist-info/METADATA,sha256=KdIW-48SZz7VfmYFJ8Yo-6jYtlAhKRUj40_GLtDFJNI,762
+lamindb_schema-0.2.0.dist-info/RECORD,,
