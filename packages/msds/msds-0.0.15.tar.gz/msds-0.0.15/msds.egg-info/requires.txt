@@ -1,0 +1,6 @@
+pandas
+tenacity
+inquirer
+click
+rich
+tables
