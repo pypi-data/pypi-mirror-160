@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "optimus-id"
+version = "1.1.0"
+description = "Transform internal id's to obfuscated integers using Knuth's integer hash"
+readme = "README.md"
+authors = ["gazorby <gazorby@pm.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+black = {version = "^22.1.0", allow-prereleases = true}
+pytest-emoji = "^0.2.0"
+pytest-cov = "^3.0.0"
+Cython = "^0.29.28"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "Cython", "setuptools"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.build]
+script = "build.py"
+
+[tool.pytest.ini_options]
+addopts = "-s --emoji"
+testpaths = ["tests/"]
+
+[tool.isort]
+src_paths = ["applembic", "tests"]
+profile = "black"
+indent = 4
+combine_star = true
+combine_as_imports = true
+lines_after_imports = 2
+known_pytest = ["pytest"]
+known_first_party = ["applembic"]
+sections = [
+    "FUTURE",
+    "STDLIB",
+    "PYTEST",
+    "THIRDPARTY",
+    "FIRSTPARTY",
+    "LOCALFOLDER",
+]
+
+[tool.autopub]
+git-username = "gazorby"
+git-email = "gazorby@pm.me"
+project-name = "optimus-id"
