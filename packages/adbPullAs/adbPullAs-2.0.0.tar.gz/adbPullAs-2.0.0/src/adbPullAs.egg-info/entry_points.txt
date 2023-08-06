@@ -1,0 +1,2 @@
+[console_scripts]
+adbPullAs = adbPullAs:main

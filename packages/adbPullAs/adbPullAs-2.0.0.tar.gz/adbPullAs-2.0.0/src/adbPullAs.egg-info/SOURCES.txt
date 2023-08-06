@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/adbPullAs/VERSION
+src/adbPullAs/__init__.py
+src/adbPullAs.egg-info/PKG-INFO
+src/adbPullAs.egg-info/SOURCES.txt
+src/adbPullAs.egg-info/dependency_links.txt
+src/adbPullAs.egg-info/entry_points.txt
+src/adbPullAs.egg-info/top_level.txt
