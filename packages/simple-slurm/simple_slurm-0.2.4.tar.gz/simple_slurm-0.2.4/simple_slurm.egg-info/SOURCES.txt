@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+simple_slurm/__init__.py
+simple_slurm/arguments.txt
+simple_slurm/core.py
+simple_slurm/filename_patterns.txt
+simple_slurm/output_env_vars.txt
+simple_slurm.egg-info/PKG-INFO
+simple_slurm.egg-info/SOURCES.txt
+simple_slurm.egg-info/dependency_links.txt
+simple_slurm.egg-info/top_level.txt
