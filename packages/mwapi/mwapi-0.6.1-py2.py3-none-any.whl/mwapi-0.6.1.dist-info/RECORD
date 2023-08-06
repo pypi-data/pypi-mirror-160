@@ -1,0 +1,12 @@
+mwapi/__init__.py,sha256=Z3rUF-7LkezjBKhyNEv7OAFQe7mhy4C8g414ezoHLDw,883
+mwapi/about.py,sha256=1dRcBi81YXk8j8hbyxldtW8Dt1yFHW86y_q5cOXaXLI,365
+mwapi/async_session.py,sha256=umKTQuM70fSk8COPQUzh552_9xqHWU-8yo-qua_vbXU,8509
+mwapi/cli.py,sha256=jtd6wgewMFykzOcPDXVObgotkNt2n1xiH6Qx4TqOjko,2155
+mwapi/errors.py,sha256=Oa6ZpG7Lk1KxYDVXpGzx8JFz9TNU0qP0_wLfKX7g8B8,2618
+mwapi/session.py,sha256=GqQKTofc8GFXVm49MO7Du-6FdDq5nW7nPvyOe8IuVMw,13649
+mwapi/util.py,sha256=1SXGuSJivbFWgwNGDYrp_l7cGYtLUubqij1nf92onb8,578
+mwapi-0.6.1.dist-info/LICENSE,sha256=hG9491IaoEhhNKx81M2yheg0lDHxJFGYpih1YU8vTIU,1076
+mwapi-0.6.1.dist-info/METADATA,sha256=75pX1uFPAXCpWNOyA2NALkj3vk0IVF3bm1PDxStTxMw,4274
+mwapi-0.6.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+mwapi-0.6.1.dist-info/top_level.txt,sha256=FuRUXx6X-BC5gkEFh3LBfAA0P7xtqLuWzdlAL9QOw2w,6
+mwapi-0.6.1.dist-info/RECORD,,
