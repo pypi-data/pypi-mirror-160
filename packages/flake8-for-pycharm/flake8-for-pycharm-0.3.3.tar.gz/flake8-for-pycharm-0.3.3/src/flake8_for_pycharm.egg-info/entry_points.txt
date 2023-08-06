@@ -1,0 +1,3 @@
+[flake8.report]
+pycharm = flake8_for_pycharm.reporters:DefaultJSON
+
