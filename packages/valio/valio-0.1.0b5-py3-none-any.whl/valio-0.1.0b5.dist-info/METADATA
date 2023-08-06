@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: valio
+Version: 0.1.0b5
+Summary: Pluggable validation library that supports dataclasses, async validation, async tasks, validation extension, regex validation, dynamic documentation and much more. 
+Author: bitplorer
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: phonenumbers (>=8.12.50,<9.0.0)
+Requires-Dist: typingx (>=0.6.0,<0.7.0)
