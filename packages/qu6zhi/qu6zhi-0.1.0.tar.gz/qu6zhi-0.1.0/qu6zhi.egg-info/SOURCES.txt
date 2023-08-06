@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mypackage/__init__.py
+mypackage/__version__.py
+mypackage/core.py
+qu6zhi.egg-info/PKG-INFO
+qu6zhi.egg-info/SOURCES.txt
+qu6zhi.egg-info/dependency_links.txt
+qu6zhi.egg-info/top_level.txt
