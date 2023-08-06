@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: storagy
+Version: 1.0.0.dev1
+Summary: A common API for many types of storage.
+Home-page: https://github.com/samuelcorradi/storagy
+Author: Samuel Corradi
+Author-email: samuelcorradi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database
+Requires-Python: >=3.7.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Storagy
+
+A common API for many types of storage.

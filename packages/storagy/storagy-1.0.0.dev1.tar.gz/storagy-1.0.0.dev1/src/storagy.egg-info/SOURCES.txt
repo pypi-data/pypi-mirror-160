@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/storagy/__init__.py
+src/storagy/filter.py
+src/storagy/utils.py
+src/storagy.egg-info/PKG-INFO
+src/storagy.egg-info/SOURCES.txt
+src/storagy.egg-info/dependency_links.txt
+src/storagy.egg-info/top_level.txt
+src/storagy/conn/__init__.py
+src/storagy/conn/csv.py
+src/storagy/conn/directory.py
+src/storagy/conn/excel.py
+src/storagy/conn/flatfile.py
+src/storagy/conn/sqlserver.py
