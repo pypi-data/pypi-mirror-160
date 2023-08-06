@@ -1,0 +1,103 @@
+class: Http
+methods:
+  - name: request
+    args:
+      - name: method
+        required: False
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+        default: GET
+      - name: url
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: params
+        type:
+          - dict
+          - list
+          - tuple
+        implied: []
+        excluded: []
+        required: False
+        secret: False
+        default: null
+      - name: data
+        type: dict
+        implied: []
+        excluded:
+          - json
+        required: False
+        secret: False
+        default: null
+      - name: json
+        type:
+          - dict
+          - list
+        implied: []
+        excluded:
+          - data
+          - files
+        required: False
+        secret: False
+        default: null
+      - name: files
+        type: list
+        implied: []
+        excluded:
+          - json
+        required: False
+        secret: False
+        default: null
+      - name: headers
+        type: dict
+        implied: []
+        excluded: []
+        required: False
+        secret: False
+        default: null
+      - name: cookies
+        type: dict
+        implied: []
+        excluded: []
+        required: False
+        secret: False
+        default: null
+      - name: auth
+        type: dict
+        implied: []
+        excluded: []
+        required: False
+        secret: True
+        default: null
+      - name: timeout
+        type: int
+        implied: []
+        excluded: []
+        required: False
+        secret: False
+        default: null
+      - name: proxy
+        type: str
+        implied: []
+        excluded: []
+        required: False
+        secret: False
+        default: null
+      - name: verify
+        type: bool
+        implied: []
+        excluded: []
+        required: False
+        secret: False
+        default: True
+      - name: exit_on_error
+        type: bool
+        implied: []
+        excluded: []
+        required: False
+        secret: False
+        default: True
