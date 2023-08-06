@@ -1,0 +1,7 @@
+setup.py
+table-crawler/__init__.py
+table-crawler/table-crawler.py
+table_crawler.egg-info/PKG-INFO
+table_crawler.egg-info/SOURCES.txt
+table_crawler.egg-info/dependency_links.txt
+table_crawler.egg-info/top_level.txt
