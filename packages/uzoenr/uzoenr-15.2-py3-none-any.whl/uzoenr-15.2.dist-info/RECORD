@@ -1,0 +1,12 @@
+uzoenr/__init__.py,sha256=Gvn5MzP-bzqoLwkzPDe0eKMkJdgiZ8SJ_aF2Famj21s,21
+uzoenr/fb2.py,sha256=1LPWH5n2Uf9Z_vUIYbrYgaUvAYUiQ5u-fV8LSa4T4wg,404
+uzoenr/morpho.py,sha256=T0D2kHYimodDygFCb1IRolOrPAmQMxcWk368FLwsihc,158
+uzoenr/rss.py,sha256=4O03LbxnFG_hU8MHjtW8G0KBJ8hUdapQZMVuufV9wd8,516
+uzoenr/uzoenr.py,sha256=s0g8RIFX7JCLB4Ls8Q0D6GJKSPTtoqyfg_dYn5DKOUc,18659
+uzoenr/zimread.py,sha256=gidfCwMkTIJx8r6m4A4iKUBTTn85ar4ru-TEyODvR04,1932
+uzoenr-15.2.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+uzoenr-15.2.dist-info/METADATA,sha256=wmNr9hgr1XgDq3pkSz6uk2kg0VBcTNOcuuwWySPp7Tc,5023
+uzoenr-15.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uzoenr-15.2.dist-info/entry_points.txt,sha256=o7CxLZ9qods2G7KItJPk4x2emYg_2F2CCVIULNzV1RM,77
+uzoenr-15.2.dist-info/top_level.txt,sha256=wIgDwlAf_BMwp8X8TtSh53xOhKjqyRZRZza1tzg2TqA,7
+uzoenr-15.2.dist-info/RECORD,,
