@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+mbmutils/mbmutils.egg-info/PKG-INFO
+mbmutils/mbmutils.egg-info/SOURCES.txt
+mbmutils/mbmutils.egg-info/dependency_links.txt
+mbmutils/mbmutils.egg-info/top_level.txt
