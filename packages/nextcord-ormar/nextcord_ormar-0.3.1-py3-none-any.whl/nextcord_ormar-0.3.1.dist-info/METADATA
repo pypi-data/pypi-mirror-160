@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nextcord-ormar
+Version: 0.3.1
+Summary: Database integration for Nextcord with Tortoise-ORM
+License: MIT
+Author: Peter DeVita
+Author-email: mewtwo2643@yahoo.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=5.1,<6.0); extra == "docs"
+Requires-Dist: alembic (>=1.8,<2.0)
+Requires-Dist: nextcord (>=2.0,<3.0)
+Requires-Dist: ormar (>=0.11,<0.12)
+Requires-Dist: releases (>=1.6,<2.0); extra == "docs"
+Requires-Dist: six (>=1.16.0,<2.0.0); extra == "docs"
+Requires-Dist: sphinx-argparse (>=0.3.1,<0.4.0); extra == "docs"

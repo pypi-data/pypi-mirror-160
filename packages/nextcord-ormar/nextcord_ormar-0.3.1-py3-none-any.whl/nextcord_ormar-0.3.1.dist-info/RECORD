@@ -1,0 +1,11 @@
+nextcord_ormar/__init__.py,sha256=pZoXjuMPcwFaL2YOO43xGxSJj6qQY-PP0q8ZAbUtqSU,3876
+nextcord_ormar/models.py,sha256=_kIhxqNnaBPm6WDY-hudXEqDFKb2DeR4t6rLH_8Y8BQ,586
+nextcord_ormar/nxalembic/__init__.py,sha256=Lmwi4HFcI3R8uoohiS2x0BQT4hhRs9k-2KaMZBgY1xo,3808
+nextcord_ormar/nxalembic/parser.py,sha256=uYBgbJYz5BIBMj6rEGiiCJDfnnp74tYD4uDGM6QGtaY,1057
+nextcord_ormar/nxalembic/template/env.py,sha256=Pwe5g3yIOgjd1IiAW4rRLg8ODY4hrENkIoB9QZZbc14,2955
+nextcord_ormar/nxalembic/template/script.py.mako,sha256=HNlf26BI1xvQKjiUojnj15BPrVUfVVr81IOgliJf83c,510
+nextcord_ormar-0.3.1.dist-info/entry_points.txt,sha256=Xx2ypflJAGDcvI-LFvoS1zG5KK1VhkvfLY5HcMgcn7s,59
+nextcord_ormar-0.3.1.dist-info/LICENSE,sha256=x73S52hPmgHBytePkgopJFeSk2BQ2iWGdXhK-bPzV2k,1069
+nextcord_ormar-0.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nextcord_ormar-0.3.1.dist-info/METADATA,sha256=w9zUQivX0rAuMF6YnutmVxl34wHcXDKQ8_otRxUX8Lg,821
+nextcord_ormar-0.3.1.dist-info/RECORD,,
