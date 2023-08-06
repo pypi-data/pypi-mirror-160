@@ -1,0 +1,9 @@
+databusclient/__init__.py,sha256=cAd6mstc3Jm-z0brBtUHk5vCS0zsFTdKxfLlZHwoxLk,75
+databusclient/__main__.py,sha256=8mBdqPHIIvTW85cvpFzAWnMDy_c2BFDng9o4xed8loM,41
+databusclient/cli.py,sha256=qcZlCbvkYz9mJ8BAxfa6qzWiEcS986feC8Mp3s7pFQE,1188
+databusclient/client.py,sha256=6GLjeGchIGBVdqVQDlhzbTEr6eJB2h_z1Mz6-Jv1Pec,6971
+databusclient-0.5.dist-info/METADATA,sha256=1rmPcgo8IwW08sZvW941VjS1CsDRA0GSHidhdjy0GpM,2397
+databusclient-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+databusclient-0.5.dist-info/entry_points.txt,sha256=iTS2v4fchLunaPwFUmPjlXLpVqsHtpHvvl-aNqILT_Q,63
+databusclient-0.5.dist-info/top_level.txt,sha256=FbiauzUyMgTvYj7DN62-wXszfO51pa1r5k6TYC9uAR8,14
+databusclient-0.5.dist-info/RECORD,,
