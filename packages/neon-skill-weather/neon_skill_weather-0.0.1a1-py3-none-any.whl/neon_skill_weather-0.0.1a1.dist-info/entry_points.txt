@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-weather.neongeckocom=skill_weather:WeatherSkill
+
