@@ -1,0 +1,2 @@
+tekleo-common-message-protocol
+tekleo-common-utils

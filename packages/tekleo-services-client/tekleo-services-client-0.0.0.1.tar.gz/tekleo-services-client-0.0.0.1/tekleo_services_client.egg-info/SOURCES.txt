@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+tekleo_services_client/__init__.py
+tekleo_services_client/client_ai_car_plate.py
+tekleo_services_client.egg-info/PKG-INFO
+tekleo_services_client.egg-info/SOURCES.txt
+tekleo_services_client.egg-info/dependency_links.txt
+tekleo_services_client.egg-info/requires.txt
+tekleo_services_client.egg-info/top_level.txt
