@@ -1,0 +1,17 @@
+odoo/addons/purchase_order_no_zero_price/README.rst,sha256=jOehLcoCmHe0FeVuE_DB9GXGA-Uv1V9ZSgdpc4lfs3w,3189
+odoo/addons/purchase_order_no_zero_price/__init__.py,sha256=sOqpELR4rGDZlInLtVMZNwcP6Ci4ToEJgT0e-vKKFvE,131
+odoo/addons/purchase_order_no_zero_price/__manifest__.py,sha256=cI2gSm-1II6QAZ_E-vPvz3p-mg9NvsLg7Ip6_gwfxog,571
+odoo/addons/purchase_order_no_zero_price/i18n/purchase_order_no_zero_price.pot,sha256=2x3fOCqGSEg1LVfYhEVG-kB_k3Lwe4pWhbjdgzb0iek,720
+odoo/addons/purchase_order_no_zero_price/models/__init__.py,sha256=gXC5lQMi4CCH8DHBvVh-mkGMQCm_u9AhIvGvxa3p2xg,144
+odoo/addons/purchase_order_no_zero_price/models/purchase_order_line.py,sha256=GuOsbEJtAEg6x3whcADKDZimOTkjN77-ZIPTmjSKM_4,1132
+odoo/addons/purchase_order_no_zero_price/readme/CONTRIBUTORS.rst,sha256=-1ZehNpjHbyWSv05MJuCLomgZSw98usY97iB8QElH9s,105
+odoo/addons/purchase_order_no_zero_price/readme/DESCRIPTION.rst,sha256=7UalXTpP-A1XBZo4XnRExA4hFVGs1RhLj8TPV0sTtzY,168
+odoo/addons/purchase_order_no_zero_price/readme/USAGE.rst,sha256=qifAjWFZ_TzTfNnvwVSKaWF98mSu9z5_Cr6aMgWQGkg,227
+odoo/addons/purchase_order_no_zero_price/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/purchase_order_no_zero_price/static/description/index.html,sha256=AzVevITnTLWfVz88jpIpr7FIL1vdggznss7ciK7x6qM,12636
+odoo/addons/purchase_order_no_zero_price/tests/__init__.py,sha256=x-JwQX9P4QyTOUoatyHor6Uy7gByhsnNx6PAMtUY64U,158
+odoo/addons/purchase_order_no_zero_price/tests/test_purchase_order_no_zero_price.py,sha256=wkAV5RoiVoQDXvCWHvDux5xHdPauz7DrASx-4FxAZpc,1948
+odoo_addon_purchase_order_no_zero_price-15.0.1.0.0.4.dist-info/METADATA,sha256=w10d3L5GSD1mhR9QcBAAoWbrhRFV0T71G4xLUkq9CVc,3820
+odoo_addon_purchase_order_no_zero_price-15.0.1.0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo_addon_purchase_order_no_zero_price-15.0.1.0.0.4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_purchase_order_no_zero_price-15.0.1.0.0.4.dist-info/RECORD,,
