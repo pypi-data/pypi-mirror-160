@@ -1,0 +1,16 @@
+platinum/__init__.py,sha256=UlbzaAi7HVVOw0kl8P5qnSm6Xw-FPRLpAmvQepaIKiA,879
+platinum/chromium.py,sha256=VwM44kc1nCvZdQYT2PRq41OZduMW7nqtZ5anWiHiv80,191737
+platinum/console.py,sha256=ZGM5DosS4BcAN8nDrXlmNj9X79JOjXmwS3jJVMLq02A,1634
+platinum/constants.py,sha256=u-wjrmvooYORYUdeVfh3VZItda04JphqTxlEKxMOhuA,11403
+platinum/exceptions.py,sha256=LMV11ICw0wTb_IPf3gd3zZllEFbE3H8Qmle43BjtVXA,142
+platinum/user_agent.py,sha256=yP_nYNsmJB8w6nSTBnZnA5hnth3A_tppSHU9OPOGo1k,8609
+platinum/data/android_build.json,sha256=gFHiL0NP0AIgrgiBAPHEVklSt3Ca3QKpTv_BXG4_U8I,3045
+platinum/data/android_dev.json,sha256=1B866ZOIn6C_j7whOpp6auhLykEX-z9vWo-AY2aaN4E,3507
+platinum/data/ios.json,sha256=HiQj-Pzgu-wXSb6-zizZPatOf0mXCc5UQmW-RzI8ZWM,1242
+platinum/data/opera_build.json,sha256=gMTBtPGlgrZlr3EpbEBlTrfJv2_ue-EfnGQcnKEUq0k,2415
+platinum2-1.5.0.dist-info/LICENSE,sha256=2XpMeic_OsDy6gMww2sr_7zpHO0cyPORcbZIOZJLpZo,11343
+platinum2-1.5.0.dist-info/METADATA,sha256=OZXoK4MvIRdEhO8c-4UYHCSVRmYhMqImUNZIZ007nPM,4788
+platinum2-1.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+platinum2-1.5.0.dist-info/entry_points.txt,sha256=Qyrw7CTOlP42Ox4JQeeejXt4DIrrxCmCJ5hQ3MSEtpc,52
+platinum2-1.5.0.dist-info/top_level.txt,sha256=nC79Pv01TDtdEokOFKgKBi1FlMpR84gTIjB3mGsmt94,9
+platinum2-1.5.0.dist-info/RECORD,,
