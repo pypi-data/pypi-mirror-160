@@ -1,0 +1,10 @@
+numpy
+pyproj
+cartopy
+shapely
+numba
+geopandas
+
+[testing]
+pytest
+pytest-cov

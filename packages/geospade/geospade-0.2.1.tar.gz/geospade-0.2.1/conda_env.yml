@@ -1,0 +1,13 @@
+name: geospade
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.8
+    - gdal
+    - numpy
+    - pyproj
+    - cartopy
+    - shapely
+    - numba
+    - geopandas
