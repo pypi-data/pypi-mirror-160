@@ -1,0 +1,7 @@
+pandas
+matplotlib.pyplot
+unittest
+numpy
+os
+pdb
+ffmpeg
