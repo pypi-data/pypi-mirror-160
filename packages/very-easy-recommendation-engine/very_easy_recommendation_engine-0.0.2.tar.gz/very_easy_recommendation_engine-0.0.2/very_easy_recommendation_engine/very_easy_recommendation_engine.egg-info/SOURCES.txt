@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+very_easy_recommendation_engine/very_easy_recommendation_engine.egg-info/PKG-INFO
+very_easy_recommendation_engine/very_easy_recommendation_engine.egg-info/SOURCES.txt
+very_easy_recommendation_engine/very_easy_recommendation_engine.egg-info/dependency_links.txt
+very_easy_recommendation_engine/very_easy_recommendation_engine.egg-info/requires.txt
+very_easy_recommendation_engine/very_easy_recommendation_engine.egg-info/top_level.txt
