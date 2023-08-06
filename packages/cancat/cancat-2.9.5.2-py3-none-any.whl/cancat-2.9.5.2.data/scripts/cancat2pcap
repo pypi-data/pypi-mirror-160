@@ -1,0 +1,4 @@
+#!python
+
+from cancatlib.scripts.cancat2pcap import main
+main()
