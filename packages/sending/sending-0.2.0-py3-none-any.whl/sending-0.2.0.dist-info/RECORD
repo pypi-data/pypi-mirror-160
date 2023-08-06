@@ -1,0 +1,10 @@
+sending/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+sending/backends/jupyter.py,sha256=r41fwce-jiZUyJmtGngNRGtKSuVknA7xQU_P6-CAY48,4749
+sending/backends/memory.py,sha256=w_pRJf2L4XicjmNHZY0HimA5jRzNdu1-_Ai0pka0faQ,1320
+sending/backends/redis.py,sha256=pwnFEMK7wb-TcnvBS5vwh87vkY-ZkHw2Ph2h-JRhotE,1252
+sending/base.py,sha256=GIOfqfMI-OZwC3C-ICUlAOP43G3-ABMkLy4B9YlSbaE,15568
+sending/logging.py,sha256=33foKepfSZjQZjJvYCwvJGeIm1OFlxbvNnWk174EDJI,337
+sending/util.py,sha256=CHVf9sooPvNTOdJhw8HIlOE3K7y3B9y_UX0I2SOMPKw,369
+sending-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sending-0.2.0.dist-info/METADATA,sha256=cwfuEh_yzgQcOG97L8W2jTBjPo-geFz0gbTFoj3i_Y0,530
+sending-0.2.0.dist-info/RECORD,,
