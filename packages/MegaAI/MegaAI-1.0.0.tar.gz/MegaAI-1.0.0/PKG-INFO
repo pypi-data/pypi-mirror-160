@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: MegaAI
+Version: 1.0.0
+Home-page: 
+Author: Lubix88
+Author-email: 
+License: MIT
+Keywords: MegaAI
+
+MegaAI
+======
+
+Installing
+~~~~~~~~~~
+
+**Python 3.9 or higher is required**
+
+.. code:: sh
+
+    # Linux/macOS
+    pip3 install -U mariocard.py
+
+    # Windows
+    pip install -U mariocard.py

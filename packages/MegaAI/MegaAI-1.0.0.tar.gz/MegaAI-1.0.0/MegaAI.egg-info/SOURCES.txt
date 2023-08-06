@@ -1,0 +1,8 @@
+README.rst
+setup.py
+MegaAI/__init__.py
+MegaAI.egg-info/PKG-INFO
+MegaAI.egg-info/SOURCES.txt
+MegaAI.egg-info/dependency_links.txt
+MegaAI.egg-info/requires.txt
+MegaAI.egg-info/top_level.txt
