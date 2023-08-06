@@ -1,0 +1,8 @@
+__pycache__/
+.vscode/
+.tox/
+*.pyc
+.idea/*
+docs/_build/*
+dist/
+tcs_client.egg-info/

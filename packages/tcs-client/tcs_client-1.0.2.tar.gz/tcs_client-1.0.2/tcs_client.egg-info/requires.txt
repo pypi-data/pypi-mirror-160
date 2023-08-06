@@ -1,0 +1,6 @@
+scln-client
+
+[test]
+pytest-cov
+coverage
+setuptools_scm

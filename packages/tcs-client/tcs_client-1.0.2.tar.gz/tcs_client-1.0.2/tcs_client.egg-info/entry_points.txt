@@ -1,0 +1,2 @@
+[console_scripts]
+tcs_infoa = tcs_client.tcs_client:tcs_infoa
