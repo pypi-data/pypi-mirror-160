@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}{{ resource.get_name() }}{% endblock title %}
+
+{% block content -%}
+    <div class="card">
+        <h5 class="card-header">
+            Metadata
+        </h5>
+        <div class="card-body">
+            <p>{{ resource.get_description() }}</p>
+            <dl>
+                {% if obo.data_version %}
+                    <dt>Data Version</dt>
+                    <dd>{{ obo.data_version }}</dd>
+                {% endif %}
+                <dt>Bioregistry</dt>
+                <dd>
+                    <a href="https://bioregistry.io/{{ obo.ontology }}">
+                        <code>bioregistry:{{ obo.ontology }}</code>
+                    </a>
+                </dd>
+                {% if not manifest %}
+                    <dt>Example Page</dt>
+                    <dd><a href="{{ resource.get_example() }}">{{ resource.get_example() }}</a></dd>
+                {% endif %}
+                {% if obo.idspaces %}
+                    {% for k, v in obo.idspaces.items() %}
+                        <dt><span class="badge badge-info">Prefix</span> {{ k }}</dt>
+                        <dd>{{ v }}</dd>
+                    {% endfor %}
+                {% endif %}
+            </dl>
+
+            {% if obo.synonym_typedefs %}
+                <h3>Synonym Definitions</h3>
+                <ul>
+                    {% for typedef in obo.synonym_typedefs %}
+                        <li>{{ typedef }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    </div>
+    {% if manifest %}
+        <div class="card" style="margin-top: 1em;">
+            <h5 class="card-header">
+                Terms, Relations, and Properties
+            </h5>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Local Identifier</th>
+                    <th>Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for term in manifest %}
+                    <tr>
+                        <td>
+                            {% if term.is_metadata_tag %}
+                                Property
+                            {% else %}
+                                {{ term.__class__.__name__ }}
+                            {% endif %}
+                        </td>
+                        <td align="right"><a href="{{ term.identifier }}">{{ term.identifier }}</a></td>
+                        <td>{{ term.name }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% elif obo.typedefs %}
+        <div class="card" style="margin-top: 1em;">
+            <h5 class="card-header">
+                Relation Definitions
+            </h5>
+            <ul>
+                {% for typedef in obo.typedefs %}
+                    <li>{{ typedef }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+{%- endblock content %}
