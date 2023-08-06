@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+evaldocsloader/__init__.py
+evaldocsloader/plugin.py
+evaldocsloader.egg-info/PKG-INFO
+evaldocsloader.egg-info/SOURCES.txt
+evaldocsloader.egg-info/dependency_links.txt
+evaldocsloader.egg-info/entry_points.txt
+evaldocsloader.egg-info/requires.txt
+evaldocsloader.egg-info/top_level.txt
