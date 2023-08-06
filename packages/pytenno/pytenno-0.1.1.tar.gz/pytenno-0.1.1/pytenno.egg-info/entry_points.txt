@@ -1,0 +1,2 @@
+[console_scripts]
+pytenno = pytenno.__main__:main

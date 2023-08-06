@@ -1,0 +1,36 @@
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytenno"
+version = "0.1.1"
+description = "A asynchronous Python library for interacting with the warframe.market API"
+readme = "README.md"
+authors = [{ name="Ryan Peckham", email="86629697+ShadowMagic896@users.noreply.github.com" }]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+]
+keywords = ["warframe", "market", "api", "asyncio", "aiohttp", "wrapper"]
+dependencies = [
+    "aiohttp >= 3.8.1",
+]
+requires-python = ">=3.8"
+
+[tool.setuptools]
+py-modules = []
+
+[project.optional-dependencies]
+dev = ["black", "isort"]
+
+[project.urls]
+Homepage = "https://github.com/ShadowMagic896/pytenno"
+BugTracker = "https://github.com/ShadowMagic896/pytenno/issues"
+Documentation = "https://pytenno.readthedocs.io"
+
+[project.scripts]
+pytenno = "pytenno.__main__:main"

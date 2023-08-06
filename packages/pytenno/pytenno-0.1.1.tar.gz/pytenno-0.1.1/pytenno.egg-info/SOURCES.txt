@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pytenno.egg-info/PKG-INFO
+pytenno.egg-info/SOURCES.txt
+pytenno.egg-info/dependency_links.txt
+pytenno.egg-info/entry_points.txt
+pytenno.egg-info/requires.txt
+pytenno.egg-info/top_level.txt
