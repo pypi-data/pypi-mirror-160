@@ -1,0 +1,64 @@
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python package
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.8", "3.10"]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Add conda to system path
+      run: |
+        echo before "Add conda to system path" My python version is actually: $(python --version).
+        # $CONDA is an environment variable pointing to the root of the miniconda directory
+        echo $CONDA/bin >> $GITHUB_PATH
+        echo after "Add conda to system path" My python version is actually: $(python --version).
+    - name: Install dependencies from conda
+      run: |
+        # This is to get the correct python version inside conda
+        IFS=' ' read -ra split <<< "$(python --version)"
+        conda install -y python==$(echo "${split[1]}")
+        # Now install the dependencies
+        conda install python $()
+        conda install -y -c conda-forge vina
+        echo after "Install dependencies from conda vina" My python version is actually: $(python --version).
+        conda install -y -c conda-forge rdkit">=2020.0"
+        echo after "Install dependencies from conda rdkit" My python version is actually: $(python --version).
+    - name: Install pip dependencies and moldrug on test mode
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install flake8
+        pip install -e .[test]
+        python -m pip install pytest-cov
+        echo after "Install pip dependencies and moldrug on test mode" My python version is actually: $(python --version).
+    - name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 moldrug --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 moldrug --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        echo after "Lint with flake8" My python version is actually: $(python --version).
+    - name: Test with pytest
+      run: |
+        echo before "Test with pytest" My python version is actually: $(python --version).
+        pytest --cov moldrug
+        echo after "Test with pytest" My python version is actually: $(python --version).
+    - name: Upload coverage reports to Codecov with GitHub Action
+      uses: codecov/codecov-action@v3

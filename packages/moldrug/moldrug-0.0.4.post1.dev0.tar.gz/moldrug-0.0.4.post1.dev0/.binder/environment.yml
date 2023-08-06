@@ -1,0 +1,17 @@
+name: moldrug
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - pip
+  - python==3.9.*
+  - rdkit
+  - vina
+  - pip:
+    - moldrug
+    - requests
+    - matplotlib

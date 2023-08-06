@@ -1,0 +1,37 @@
+{% set data = load_setup_py_data() %}
+
+# Building: conda build -c conda-forge -c bioconda  conda/
+package:
+  name: moldrug
+  version: {{ data['version'] }}
+
+source:
+  path: ..
+
+build:
+  noarch: python
+  number: 0
+  script: python -m pip install .
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - rdkit >=2022.0.0
+    - autodock-vina
+    - python
+    - ipykernel
+    - ipython
+
+test:
+  imports:
+    - moldrug
+
+about:
+  home: {{ data['url'] }}
+  license:  {{ data['license'] }}
+  dev_url: {{ data['url'] }}
+  doc_url: {{ data['project_urls']['Documentation'] }}
+  doc_source_url: https://github.com/ale94mleon/MolDrug/tree/main/docs/source
+  summary: {{ data['description'] }}
+
