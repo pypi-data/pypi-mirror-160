@@ -1,0 +1,17 @@
+beautifulsoup4<5,>=4.10.0
+click<9,>=8.0.3
+googleapis-common-protos<2,>=1.53.0
+grpcio-tools<2,>=1.41.1
+grpcio<2,>=1.41.1
+lnd-grpc-client<1,>=0.3.39
+lxml<5,>=4.7.1
+protobuf<4,>=3.19.1
+requests<3,>=2.27.1
+rich<12,>=11.2.0
+tabulate<1,>=0.8.9
+tqdm<5,>=4.62.3
+
+[tests]
+flake8-black<1,>=0.3.2
+flake8<5,>=4.0.1
+pytest<7,>=6.2.5

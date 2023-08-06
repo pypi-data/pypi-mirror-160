@@ -1,0 +1,3 @@
+[console_scripts]
+boostcli = src.cli:cli
+
