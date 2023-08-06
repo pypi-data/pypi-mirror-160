@@ -1,0 +1,12 @@
+itk_higherorderaccurategradient-1.1.3.dist-info/RECORD,,
+itk_higherorderaccurategradient-1.1.3.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_higherorderaccurategradient-1.1.3.dist-info/WHEEL,sha256=z9qir6Vi_mkOsxGi50wLYU-N2ok_4rABw72J-twhmMA,102
+itk_higherorderaccurategradient-1.1.3.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_higherorderaccurategradient-1.1.3.dist-info/METADATA,sha256=dYmxa-GYFgE3klHwu8hy88msgSX-byKN_oSrby915Bc,1639
+itk/itkHigherOrderAccurateDerivativeImageFilterPython.py,sha256=a5tSf2YGV12RT5Xe-8KwBB2kqv22dLCdK9Tw8mqzVkY,32849
+itk/HigherOrderAccurateGradientPython.py,sha256=x2dGPt5aWWy1fTC4BD9TTgIjexJFefuDjQdBdXsb_7E,2605
+itk/_HigherOrderAccurateGradientPython.so,sha256=TjFMDbKECqX0obJAEMh2phQ54MMMO3_EB3HWBWJlSpY,4136512
+itk/itkHigherOrderAccurateGradientmageFilterPython.py,sha256=9gJowpTfwfz482UmyLnutk7Ace1VCx2LbMMMH16aLkE,33406
+itk/Configuration/HigherOrderAccurateGradientConfig.py,sha256=bKIjsrohimLknaC6K3Gas9A2UWm5M1zU9NWHKdTaows,2496
+itk/Configuration/HigherOrderAccurateGradient_snake_case.py,sha256=KL4btcJFiLwrAyDKT2xFK-s61Jfa0XDW6uBBKbagQLw,122
+itk/.dylibs/libtbb.12.3.dylib,sha256=MSZbu6sGJ04ReL_0b72XtWowiSQgR1mQeMWnj2C41vc,387664
