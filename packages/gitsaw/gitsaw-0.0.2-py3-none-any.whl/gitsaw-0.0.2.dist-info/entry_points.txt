@@ -1,0 +1,2 @@
+[console_scripts]
+gitsaw = prune.__main__:main
