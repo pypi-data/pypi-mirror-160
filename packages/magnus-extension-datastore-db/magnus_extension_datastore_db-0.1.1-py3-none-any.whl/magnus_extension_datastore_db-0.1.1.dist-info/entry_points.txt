@@ -1,0 +1,6 @@
+[magnus.datastore.BaseRunLogStore]
+db=magnus_extension_datastore_db.db:DBStore
+
+[magnus.integration.BaseIntegration]
+local-container-run_log_store-db=magnus_extension_datastore_db.integration:LocalContainerComputeDBStore
+
