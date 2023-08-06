@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: kavitapy
+Version: 0.1.0a1
+Summary: A python wrapper for the Kavita API
+Project-URL: Homepage, https://gitlab.com/RealStickman/kavitapy
+Project-URL: Bug Tracker, https://gitlab.com/RealStickman/kavitapy/issues
+Author-email: RealStickman <mrc@frm01.net>
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Requires-Dist: requests>=2.27.0
+Description-Content-Type: text/markdown
+
+# A python wrapper for the Kavita API
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+    - [Plugin authentication](#authentication)
+    - [HTTP Status Code](#status_code)
+    - [/api/Reader endpoints](#api_reader)
+    - [/api/Library endpoints](#api_library)
+    - [/api/Series endpoints](#api_series)
+- [Versioning](#versioning)
+
+## Installation <a name="installation"></a>
+Use pip in your terminal of choice.  
+`$ python -m pip install kavitapy`  
+
+This library requires Python 3. Testing is done on Python 3.10  
+
+## Usage <a name="usage"></a>
+Import the package using  
+```python
+from kavitapy import api
+```
+
+or  
+```python
+import kavitapy
+```
+
+### Plugin authentication <a name="authentication"></a>
+Plugin authentication is done simply by initialising the api-object.  
+```python
+kavita = kavitapy.api("url","api key")
+```
+
+You can view the full response for your authentication request.  
+```python
+kavita.raw_plugin_auth
+```
+
+Your token can also be accessed.  
+```python
+kavita.token
+```
+
+Replace `url` with your server address. Make sure to include `http://` or `https://`.  
+Replace `api key` with your user's API key. You can find it under the 3rd Party Clients tab in your user settings in the webinterface.  
+
+### HTTP Status Code <a name="status_code"></a>
+Executing any method updates the status code returned.  
+```python
+kavita.status_code
+```
+
+### /api/Reader endpoints <a name="api_reader"></a>
+**Return information about a single chapter**  
+```python
+kavita.reader_chapter_info(Chapter(Int))
+```
+
+**Mark all series in the list as read or unread**  
+```python
+kavita.reader_mark_multiple_series("operation",Series(List))
+```
+`operation` can be either `read` or `unread`.  
+
+**Mark all series in the list as read**  
+```python
+kavita.reader_mark_multiple_series_read(Series(List))
+```
+
+**Mark all series in the list as unread**  
+```python
+kavita.reader_mark_multiple_series_unread(Series(List))
+```
+
+**Return progress for a chapter**  
+```python
+kavita.reader_get_progress(Chapter(Int))
+```
+
+**Set reading progress on chapter**  
+```python
+kavita.reader_progress(Series(Int),Volume(Int),Chapter(Int),Page(Int),Bookscroll(String))
+```
+
+**Return the current progress on a series**  
+```
+kavita.reader_continue_point(Serie(Int))
+```
+
+### /api/Library endpoints <a name="api_library"></a>
+
+### /api/Series endpoints <a name="api_series"></a>
+
+## Versioning <a name="versioning"></a>
+This project aims to follow the [PEP 440 specification](https://peps.python.org/pep-0440/) versioning.  
