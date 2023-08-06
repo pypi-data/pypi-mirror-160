@@ -1,0 +1,12 @@
+crmv2_auth_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crmv2_auth_lib/auth.py,sha256=UJhWJbgITLG2CRsMxf4Pt9luBFQ6e_vR0Zk_4Qr4v9I,5056
+crmv2_auth_lib/percobaan.py,sha256=zW-zagbI72Ci30j0-aD6BlIQk142wePcv_v6g_-DoKo,47
+crmv2_auth_lib old/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crmv2_auth_lib old/auth.py,sha256=i_cHKCIXQAxa-q1hGEN3A6uNt_0h7wrBeDkHqK3Pwmc,4755
+crmv2_auth_lib old/percobaan.py,sha256=zW-zagbI72Ci30j0-aD6BlIQk142wePcv_v6g_-DoKo,47
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_function.py,sha256=VaNuMl2uropaMy6UrzuVbrNO45JAfwVSIXbowuJGOPg,99
+crmv2_auth_lib-0.2.5.dist-info/METADATA,sha256=JrBJq23tIQ_sI0yKZ8hzd6KlZLh8-udyEk1fCFZuC5c,146
+crmv2_auth_lib-0.2.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+crmv2_auth_lib-0.2.5.dist-info/top_level.txt,sha256=OWbWvs559SKfiuQ2Enp_4RFTF6DQMImYb1jlSoDRO2E,15
+crmv2_auth_lib-0.2.5.dist-info/RECORD,,
