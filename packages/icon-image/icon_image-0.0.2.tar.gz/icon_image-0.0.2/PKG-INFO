@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: icon_image
+Version: 0.0.2
+Summary: Generate icons programmatically in Python. Helps nudge AI algorithms
+Home-page: https://github.com/rogerfitz/icon-image
+Download-URL: https://github.com/rogerfitz/icon-image/releases
+Author: Sports Data Direct
+Author-email: matteo@matteohoch.com
+License: UNKNOWN
+Keywords: icon,CLIP,GAN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
