@@ -1,0 +1,11 @@
+sub20/__init__.py,sha256=lbTv8QCd6SUeCfQeu8NwezOvt0UieAukzBQLYZKkAQ4,130
+sub20/_errors.py,sha256=9EFbaIIAjBGjjcEf5H6u4l0dLFmHKtjZOypxM4i3eFE,323
+sub20/device.py,sha256=o-ztoCG9EmGGudn4CNeegZW5LN6FunXpMHwwUUSPnPI,22008
+sub20/ctypeslib/__init__.py,sha256=d7nGvV6Py4VQzfglyPozcCJVJ0Gz7M16sFFQqDTUELo,20
+sub20/ctypeslib/libsub.py,sha256=qpalMj_H2MzUu_iUFgX1fCdB0siDo1B5OKohrsi-A-E,4808
+sub20/ctypeslib/utils.py,sha256=JdWIJlpithTPyWs8KW3qEC73ybTf3oZ7fSZ0yVC99YQ,530
+pysub20-0.0.1.dist-info/METADATA,sha256=MpsCeTazobXhuZ16EZVbF4j9PbQUfEZM3f-g6Qws9Ec,3996
+pysub20-0.0.1.dist-info/WHEEL,sha256=liJPdWJO-LaTaS3jCRTQCzug2NduIeDTswBay6mhVX8,86
+pysub20-0.0.1.dist-info/licenses/AUTHORS,sha256=aEPs44PxYdcwh1bFPsGxeyGcVjvs9M2xebqyEr479jc,75
+pysub20-0.0.1.dist-info/licenses/LICENSE,sha256=f_4ZVFh8d9-6HPjrmy6nQ2cfpuY_nnovJYEZ1C4U7v4,27030
+pysub20-0.0.1.dist-info/RECORD,,
