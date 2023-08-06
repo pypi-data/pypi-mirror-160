@@ -1,0 +1,12 @@
+__pycache__
+/build
+/dist
+/MANIFEST
+/*.egg*
+/.coverage
+/coverage.*
+/htmlcov
+/.tox
+/venv*
+*.pyc
+_build

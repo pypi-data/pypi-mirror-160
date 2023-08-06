@@ -1,0 +1,16 @@
+sigtools~=4.0.0a2
+attrs>=19.1.0
+od
+docutils>=0.17.0
+
+[clize-own-docs]
+sphinx~=4.2.0
+sphinx_rtd_theme
+
+[datetime]
+python-dateutil
+
+[test]
+repeated_test>=2.3.0a3
+python-dateutil
+Pygments
