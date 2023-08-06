@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/cogworks_data/__init__.py
+src/cogworks_data/_utils.py
+src/cogworks_data/audio.py
+src/cogworks_data/language.py
+src/cogworks_data/vision.py
+src/cogworks_data.egg-info/PKG-INFO
+src/cogworks_data.egg-info/SOURCES.txt
+src/cogworks_data.egg-info/dependency_links.txt
+src/cogworks_data.egg-info/requires.txt
+src/cogworks_data.egg-info/top_level.txt
