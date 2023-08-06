@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mlops-sm
+Version: 0.0.21
+Summary: Utility package for MlOps project
+Download-URL: https://gitlab.provectus.com/mldemo/mlops-platform/mlops-utilities/-/archive/0.0.19/mlops-utilities-0.0.19.tar.gz
+Author: Provectus Team
+Author-email: abelov@provectus.com
+License: MIT
+Keywords: MLOps,Utility package
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
