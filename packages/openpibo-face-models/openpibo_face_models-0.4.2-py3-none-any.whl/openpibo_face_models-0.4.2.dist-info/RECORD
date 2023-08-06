@@ -1,0 +1,11 @@
+openpibo_face_models/__init__.py,sha256=dqdnwWHsVO8ATQNu0hmfBQWoct2-PcGAzcKoB9tZlHg,151
+openpibo_face_models/models/age_net.caffemodel,sha256=bd5dB99codZv855SVpPwXM-50sQ34Yj90aENQuV_q9Y,45661480
+openpibo_face_models/models/deploy_age.prototxt,sha256=9Ytz4uIHZvVMWDyxqUBPRdq4kBdz2mhk2UtjIS7TfKA,2308
+openpibo_face_models/models/deploy_gender.prototxt,sha256=c3mVPgSOW_-tnfxrOogH9_yCbi8nQy31bUwmcHhLjng,2309
+openpibo_face_models/models/gender_net.caffemodel,sha256=rHVxsoGuB4gXdktkWiBUG9aqG6vqwgpF5tjefWG6DlA,45649168
+openpibo_face_models/models/haarcascade_eye.xml,sha256=ccxk_DBaNV3GAGeID2-71D3RVb1j7jhEZhob2jSy_Yw,341406
+openpibo_face_models/models/haarcascade_frontalface_default.xml,sha256=D31FJ4ROtRTUpJSOgi2pD7sWo0oLu7xq3GSYdHpar7A,930127
+openpibo_face_models-0.4.2.dist-info/METADATA,sha256=gvzbvIhFxgFpaNV0mvrDI7UUQHmXEQX3l6t9YBPbGYw,774
+openpibo_face_models-0.4.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+openpibo_face_models-0.4.2.dist-info/top_level.txt,sha256=tC5djl_0yCyAfkqiNUBxqSRLpfwCL4DM9BJc-AGe9K4,21
+openpibo_face_models-0.4.2.dist-info/RECORD,,
