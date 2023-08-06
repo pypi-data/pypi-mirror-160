@@ -1,0 +1,12 @@
+LICENSE,sha256=tYPBihrOUCNWxhVsCOgoR8H4RHxNO697Yy-vPlWxGHQ,1641
+pyvplm/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pyvplm/addon/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pyvplm/addon/comsoladdon.py,sha256=WUuj2mjzTzhzXsNE6bmSzX6LV5Fd3apgZaOjreTV1uY,15521
+pyvplm/addon/pixdoe.py,sha256=U1eGK8SqJdlF1s1axCfYLjRDEf8hrhFkOJpGt3q6m04,50453
+pyvplm/addon/variablepowerlaw.py,sha256=mh5uSwER9L6AraOKUXWfIG5VmbS0cMtc7_6wTV3FefU,161266
+pyvplm/core/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pyvplm/core/definition.py,sha256=wYnfJvmPe179P0VUEH0u1jTAr9106rHYOHFJtwaQ08A,35445
+pyvplm-0.1.0b0.dist-info/LICENSE,sha256=tYPBihrOUCNWxhVsCOgoR8H4RHxNO697Yy-vPlWxGHQ,1641
+pyvplm-0.1.0b0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyvplm-0.1.0b0.dist-info/METADATA,sha256=NCGK19Wcug2V_YtXl55ymcKGGRMJic7XIh28ZxDH_oY,7899
+pyvplm-0.1.0b0.dist-info/RECORD,,
