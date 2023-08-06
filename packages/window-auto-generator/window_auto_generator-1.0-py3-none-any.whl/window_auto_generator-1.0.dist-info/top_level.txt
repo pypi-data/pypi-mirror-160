@@ -1,0 +1,1 @@
+window_auto_generator

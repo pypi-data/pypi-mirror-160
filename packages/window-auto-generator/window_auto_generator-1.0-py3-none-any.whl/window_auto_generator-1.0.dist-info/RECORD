@@ -1,0 +1,11 @@
+generator/__init__.py,sha256=3Z0aywz3S3iUqTWXWfG0qDlyb4x2NcP40xzuY-CQllk,98
+generator/main.py,sha256=2rfS-jLo1Dh-bX3rzwCRSwiwFu-oOeMWwFLsC0ld078,2559
+generator/test_main.py,sha256=33mj3f4nW4mhPSN0-CJ-EgdCD0vzn3FyH2rlNuX9jnw,559
+window_auto_generator/__init__.py,sha256=3Z0aywz3S3iUqTWXWfG0qDlyb4x2NcP40xzuY-CQllk,98
+window_auto_generator/generator.py,sha256=2rfS-jLo1Dh-bX3rzwCRSwiwFu-oOeMWwFLsC0ld078,2559
+window_auto_generator/test_generator.py,sha256=auYfbucZM9c7cqHL4ku4E6R7w2f563k-uyBsVqFuChM,564
+window_auto_generator-1.0.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+window_auto_generator-1.0.dist-info/METADATA,sha256=QRiLZl_1XLAkqhMz8MdsPNWVYRQ9ATD4muBzkI1Yr24,911
+window_auto_generator-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+window_auto_generator-1.0.dist-info/top_level.txt,sha256=uT6CV-TpitWpenPToyqz3LZItk9CIqzTks_wEpqPbYw,22
+window_auto_generator-1.0.dist-info/RECORD,,
