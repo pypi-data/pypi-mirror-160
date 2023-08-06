@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rqalpha-mod-dbds
+Version: 0.1.0
+Summary: RQAlpha Mod db as datasource
+Home-page: 
+Author: LayeWang
+Author-email: laye0619@gmail.com
+License: Apache License v2
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: rqalpha
+Requires-Dist: tushare
+Requires-Dist: pymongo
+Requires-Dist: pytz
+Requires-Dist: pandas
+
+UNKNOWN
+
