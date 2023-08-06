@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: wordcloud_mapper
+Version: 0.1.0
+Summary: A package for creating wordcloud maps in Python.
+Home-page: https://github.com/GabZech/wordcloud_mapper
+Author: Gabriel da Silva Zech
+Author-email: g.dev@posteo.net
+License: GNU General Public License v3
+Project-URL: Documentation, https://gabzech.github.io/wordcloud_mapper
+Keywords: wordcloud_mapper
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+================
+WordCloud_Mapper
+================
+
+
+.. image:: https://img.shields.io/pypi/v/wordcloud_mapper.svg
+        :target: https://pypi.python.org/pypi/wordcloud_mapper
+
+.. image:: https://img.shields.io/travis/GabZech/wordcloud_mapper.svg
+        :target: https://travis-ci.com/GabZech/wordcloud_mapper
+
+.. image:: https://readthedocs.org/projects/wordcloud-mapper/badge/?version=latest
+        :target: https://wordcloud-mapper.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+`WordCloud_Mapper` is a Python package that allows one to **create wordclouds shaped like regions on a map**. 
+
+Such visualisations are especially useful when communicating sets of data that consist of many different observations and each observation is attributed to a specific region and size of occurrence. Take the example below, a dataset containing the name of the biggest companies (in terms of estimated number of employees) for each region in Germany and Italy in 2019.
+
+|
+
+.. image:: https://github.com/GabZech/wordcloud_mapper/raw/main/docs/figures/merged_DEU_ITA.png
+
+Installation
+------------
+
+To install `WordCloud_Mapper`, run in your terminal:
+
+.. code-block:: console
+
+    pip install wordcloud_mapper
+
+or
+
+.. code-block:: console
+
+    pip install wordcloud-mapper
+
+
+Features and usage
+------------------
+
+* **Create a wordcloud map** from data stored in a DataFrame object using wordcloud_map().
+* **Easily resize a map** by any desired scaling factor using resize_map().
+* **Load dummy datasets** to test out the package's features using load_companies().
+
+See the `documentation <https://GabZech.github.io/wordcloud_mapper>`_ for more information on how to use the package and its functions.
+
+
+Notes on geographical nomenclature
+----------------------------------
+
+The classification of regions used here follows the European Union's Nomenclature of Territorial Units for Statistics (`NUTS <https://en.wikipedia.org/wiki/Nomenclature_of_Territorial_Units_for_Statistics>`_), a geocode standard for referencing the subdivisions of countries. The advantage of using this system is that the classification of regions across countries is **standardised and hierarchically structured**. For instance, Germany has the base code *DE* (NUTS 0), the state of Bavaria has the code *DE2* (NUTS 1), its subregion of Oberbayern has the code *DE21* (NUTS 2) and the city of Munich has the code *DE212* (NUTS 3). Since each region is given a unique identifier which is directly linked to the regional level above it, it is fairly easy to identify and match any dataset to these regions.
+
+However, this means that **this package currently only works for creating wordcloud maps for EU countries**. For an overview of the NUTS regions and levels, you can browse the available `maps for each EU country <https://ec.europa.eu/eurostat/web/nuts/nuts-maps>`_ or use `this interactive map <https://ec.europa.eu/statistical-atlas/viewer/?config=typologies.json&>`_ instead. If you have a dataset containing postcodes and want to convert these to NUTS regions, you can find the `correspondence tables here <https://ec.europa.eu/eurostat/web/nuts/correspondence-tables/postcodes-and-nuts>`_.
+
+In a future release, support nor non-NUTS regional referencing systems will be implemented.
+
+Feedback and contributions
+--------------------------
+
+This package is under active development, so any feedback, recommendations, suggestions or contribution requests are more than welcome! 
+
+Please read the contribution instructions or email g.dev@posteo.net if you would like to provide any feedback.
+
+
+=======
+History
+=======
+
+0.1.0 (2022-07-27)
+------------------
+
+* First release on PyPI.
