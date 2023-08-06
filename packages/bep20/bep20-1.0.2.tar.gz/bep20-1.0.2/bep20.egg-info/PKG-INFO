@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: bep20
+Version: 1.0.2
+Summary: Python package that models the methods for tokens following the BEP-20 token standard on the Binance Smart chain.
+Home-page: https://github.com/hschickdevs/Python-BEP20-Token
+Author: Harrison Schick
+Author-email: hschickdevs@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="center">
+  <img src="https://alphawallet.com/wp-content/uploads/2021/02/BNB.png" width=200/>
+  <h1>Python-BEP20-Token</h1>
+  <p>A Python package that models token methods using the <a href="https://github.com/bnb-chain/BEPs/blob/master/BEP20.md">BEP-20 token standard</a> for tokens on the Binance Smart Chain (BSC).</p>
+</div>
+
+> NOTE: This package is in development and currently only offers basic functionality...
+___
+# Installation:
+
+```bash
+pip install bep20
+```
+
+
+# Feature List:
+
+* `Methods:`
+  - [x] name()
+  - [x] symbol()
+  - [x] decimals()
+  - [x] totalSupply()
+  - [x] balanceOf()
+  - [x] getOwner()
+  - [ ] transfer()
+  - [ ] transferFrom()
+  - [x] prepare_approve()
+    * Returns an uncalled approve() function ready to be signed by the owner.
+  - [x] allowance()
+
