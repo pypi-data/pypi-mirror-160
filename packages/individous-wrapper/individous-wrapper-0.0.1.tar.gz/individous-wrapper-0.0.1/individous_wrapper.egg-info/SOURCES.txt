@@ -1,0 +1,8 @@
+setup.py
+individous_wrapper/__init__.py
+individous_wrapper/video.py
+individous_wrapper.egg-info/PKG-INFO
+individous_wrapper.egg-info/SOURCES.txt
+individous_wrapper.egg-info/dependency_links.txt
+individous_wrapper.egg-info/requires.txt
+individous_wrapper.egg-info/top_level.txt
