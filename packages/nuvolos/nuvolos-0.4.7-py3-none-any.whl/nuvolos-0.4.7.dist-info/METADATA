@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: nuvolos
+Version: 0.4.7
+Summary: The Nuvolos python library for database connectivity
+Home-page: https://github.com/nuvolos-cloud/python-connector
+Author: Alphacruncher
+Author-email: support@nuvolos.cloud
+License: MIT
+Requires-Dist: keyring
+Requires-Dist: pyarrow (!=8.0.0)
+Requires-Dist: sqlalchemy (>='1.4.0')
+Requires-Dist: pandas (>=1.1.0)
+Requires-Dist: snowflake-connector-python (>2.6.1)
+Requires-Dist: snowflake-sqlalchemy (!=1.4.0)
+
+nuvolos - The database connectivity library for Nuvolos
+=======================================================
+
+Installation
+============
+
+.. code:: bash
+
+    $ pip install --upgrade nuvolos
+
+Usage
+=====
+The library provides two convenience functions for returning a database connection to access table data in Nuvolos.
+
+Documentation and examples available at: https://docs.nuvolos.cloud/data/access-data-from-applications#connecting-with-python
