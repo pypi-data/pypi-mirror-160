@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: does-it-fit
+Version: 0.0.1
+Summary: A python package that checks if shapes positioned on the circumference of a circle overlap or not
+Home-page: https://github.com/shimwell/example_package_for_flf
+Author: Jonathan Shimwell
+Author-email: jonathan.shimwell@firstlightfusion.com
+License: MIT
+Project-URL: Source, https://github.com/shimwell/example_package_for_flf
+Project-URL: Tracker, https://github.com/shimwell/example_package_for_flf/issues
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+[![Python](https://www.python.org/static/community_logos/python-powered-w-100x40.png)](https://www.python.org)
+
+[![my_CI](https://github.com/shimwell/example_package_for_flf/actions/workflows/ci.yml/badge.svg)](https://github.com/shimwell/example_package_for_flf/actions/workflows/ci.yml)
+
+A python package :snake: to that checks if shapes positioned on the circumference of a circle overlap or not
+
+
+# installation
+
+To install run this pip command from the terminal
+
+```bash
+pip install example_package_for_flf
+```
+
+# testing
+
+```bash
+pip install does_it_fit[test]
+pytest tests
+```
+
+# Usage
+
+How to ...
+
+```python
+import example_package_for_flf
+example_package_for_flf.fits()
+```

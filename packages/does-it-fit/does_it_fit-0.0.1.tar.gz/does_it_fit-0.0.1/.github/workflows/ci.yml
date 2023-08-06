@@ -1,0 +1,28 @@
+name: my_CI
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  testing:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: install package
+        run: |
+          pip install --upgrade pip
+          pip install .
+
+      - name: install packages for tests
+        run: |
+          pip install .[tests]
+
+      - name: Run test_utils
+        run: |
+           pytest tests
