@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: spatial-networks
+Version: 0.0.2
+Summary: Demo library on Spatial Networks
+Home-page: https://github.com/pauldechorgnat/spatial-networks
+Author: Paul Déchorgnat
+Author-email: dev.dechorgnp@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow (==9.2.0)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: fonttools (==4.33.3)
+Requires-Dist: kiwisolver (==1.4.3)
+Requires-Dist: matplotlib (==3.5.2)
+Requires-Dist: networkx (==2.8.4)
+Requires-Dist: numpy (==1.23.0)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: six (==1.16.0)
+
+# Spatial Networks
+
+Implementation of Spatial Networks based on [Rémy Cabazet lecture](https://www.youtube.com/watch?v=KsGV_FHwhfY).
+
+> This repository has two objectives:
+>
+> - learning about Spatial Networks
+> - understanding how to create a Python package
+
+## TODO
+
+- [ ] Add tests
+- [ ] Add simpler drawing functions
+- [ ] Better computations
+- [ ] Add examples
+
+> - [Tutorial](https://towardsdatascience.com/deep-dive-create-and-publish-your-first-python-library-f7f618719e14)
+> - [Related](https://github.com/tomalrussell/snkit)
+
+
