@@ -1,0 +1,13 @@
+wordcloud_mapper/__init__.py,sha256=UCUlqxiwxN-aUJM5biA5dGBEsRl5FoqK047bvXZHJ1o,270
+wordcloud_mapper/load_companies.py,sha256=GM-FsUzKNrSCEX-Ry9iwKrlDd-HkUoyEUE_hMfd3cPc,898
+wordcloud_mapper/resize_map.py,sha256=D5AM4PT-nCWE6ugFW7DPyTIoRFGnN0WGpdqavi8cg7c,827
+wordcloud_mapper/wordcloud_map.py,sha256=zntCmnL_JnyNmlEYDVcAZ0GmoD-0629hx6Le-2cB-bw,19311
+wordcloud_mapper/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordcloud_mapper/data/companies_DEU.csv,sha256=A7yu1jS3AmQJjv7CkMcSGa3hsuINIkuyjCCVwtzJv-c,46023
+wordcloud_mapper/data/companies_ITA.csv,sha256=3PfHUIYagqpFtnMS-OcUGQriQ8d-SDowmwALcb6Z8Hc,58848
+wordcloud_mapper-0.1.0.dist-info/AUTHORS.rst,sha256=gTuTXdM_bnWihJOo3xS8VdVGME4wVLgeCcGTKZXezCc,816
+wordcloud_mapper-0.1.0.dist-info/LICENSE,sha256=EefqKwfqlYmQmPYaJ0PQwVRioIw1frXrKVRtdXYgF74,1605
+wordcloud_mapper-0.1.0.dist-info/METADATA,sha256=RGgl8_Mz1GkVpk_CDwdXoNWeA4kFy7INXcCj5d1keKU,4764
+wordcloud_mapper-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+wordcloud_mapper-0.1.0.dist-info/top_level.txt,sha256=cw0PB6bJdO2A7ZrMFkClB7X0xebTIG8ZDNS-iBf0aFA,17
+wordcloud_mapper-0.1.0.dist-info/RECORD,,
