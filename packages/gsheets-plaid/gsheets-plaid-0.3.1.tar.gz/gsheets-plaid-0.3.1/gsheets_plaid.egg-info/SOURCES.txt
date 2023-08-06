@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gsheets_plaid/__init__.py
+gsheets_plaid/__main__.py
+gsheets_plaid/create_sheet.py
+gsheets_plaid/services.py
+gsheets_plaid/sync.py
+gsheets_plaid.egg-info/PKG-INFO
+gsheets_plaid.egg-info/SOURCES.txt
+gsheets_plaid.egg-info/dependency_links.txt
+gsheets_plaid.egg-info/requires.txt
+gsheets_plaid.egg-info/top_level.txt
+gsheets_plaid/web_server/__init__.py
+gsheets_plaid/web_server/main.py
+gsheets_plaid/web_server/session_manager.py
