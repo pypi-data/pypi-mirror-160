@@ -1,0 +1,3 @@
+[console_scripts]
+raesl=raesl.cli:cli
+
