@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+performance_tools/__init__.py
+python_performance_tools.egg-info/PKG-INFO
+python_performance_tools.egg-info/SOURCES.txt
+python_performance_tools.egg-info/dependency_links.txt
+python_performance_tools.egg-info/top_level.txt
+python_performance_tools.egg-info/zip-safe
