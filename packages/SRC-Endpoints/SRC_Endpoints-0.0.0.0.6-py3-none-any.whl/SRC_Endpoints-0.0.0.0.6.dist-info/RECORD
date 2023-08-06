@@ -1,0 +1,11 @@
+SRC_Endpoints/__init__.py,sha256=VmP9-wDWIuNybdclI2w5n8vOjWv3cwm6l46bH27vEUY,1061
+SRC_Endpoints/announcement_handling.py,sha256=ahFsHe_qpzHNs8fabli50I4FK9WLeOjQDsbXhr9FuuU,9581
+SRC_Endpoints/date_handling.py,sha256=CnwlTRFkZcMuf_rmQmbkmybKlcNfMWL3a7juuFG9Bx4,7333
+SRC_Endpoints/forecast_flows_handling.py,sha256=tEDiHZakq-xYnsiHELsVDRamqKgALTDL0YU_9Az0i2k,13539
+SRC_Endpoints/name_handling.py,sha256=mPT6h6CXqWffLuk_SKJ36xpwaw7zOLN5_vasQo6t0FI,3983
+SRC_Endpoints/user_handling.py,sha256=9DChmJF8W4ewrOSXADE0QmLaWdga7uEQdeo4UZNYPrw,6168
+SRC_Endpoints-0.0.0.0.6.dist-info/LICENSE,sha256=7d17y_QECLw8vi1DHLPRypZQ5q32zmdX6RvsfY9TeZ8,1087
+SRC_Endpoints-0.0.0.0.6.dist-info/METADATA,sha256=yjy088giCS4X_0v59GVio_Se0tHb-xpsHV8yZm38nb8,3660
+SRC_Endpoints-0.0.0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SRC_Endpoints-0.0.0.0.6.dist-info/top_level.txt,sha256=pEJlNYzP-mV5GZCwr_grtz10C9tR6yGuDlvIy3Zx-P0,14
+SRC_Endpoints-0.0.0.0.6.dist-info/RECORD,,
