@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: calculate-application
+Version: 0.0.1
+Summary: A sample Python project for calculation
+Home-page: https://github.com/naturalett/getting-started
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: xmlrunner
+
+UNKNOWN
+

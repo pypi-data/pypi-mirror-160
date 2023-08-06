@@ -1,0 +1,7 @@
+calculate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calculate/calc.py,sha256=kqvM1t1__tiMXYLEKIhNemgvsz5NH6k-eHE-QDDTNyI,982
+calculate/unit_test.py,sha256=VAD-zFnfNTZcgQTo3gevSXPsBYCbe1uj3cCRXsvxOp4,1419
+calculate_application-0.0.1.dist-info/METADATA,sha256=BDHLlXjC4bWG3BwUIkEqNn9adm37lCC_q-QHkSwbyW0,241
+calculate_application-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+calculate_application-0.0.1.dist-info/top_level.txt,sha256=6ZTAowwBxlSEDS1GfMtlGDijN6BfDLe_m73jRe_oxrY,10
+calculate_application-0.0.1.dist-info/RECORD,,
