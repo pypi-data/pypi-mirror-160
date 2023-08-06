@@ -1,0 +1,10 @@
+pillow_avif/__init__.py,sha256=KjJsqr2XKw0ZJsUUdN5M5bRoIISUDzap1R6Pk5H75J4,84
+pillow_avif/_avif.so,sha256=LzJ4SEdZuXFD2h5MstXN0GYQ3yr8OBbz7FnXDadyzk8,200632
+pillow_avif/AvifImagePlugin.py,sha256=J-a1lf1yj7RqH9ZI7_WEMCAuG77ofcek_f5GtiY_auc,8177
+pillow_avif_plugin-1.2.2.dist-info/RECORD,,
+pillow_avif_plugin-1.2.2.dist-info/METADATA,sha256=kN5pi2ZhTv1r5WC7tuB3T9KGvSixj5tJIF1B6iYQR4E,1614
+pillow_avif_plugin-1.2.2.dist-info/LICENSE,sha256=Y-GPM2BDn_PNAiKqwHfB2ubsfRy0GSy4Y_0XqT_80Sg,23691
+pillow_avif_plugin-1.2.2.dist-info/WHEEL,sha256=wl-CvFgz50D-cemFsrYwETxZl6ZcINuTrJR-jAeEDsk,114
+pillow_avif_plugin-1.2.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pillow_avif_plugin-1.2.2.dist-info/top_level.txt,sha256=xrg4zRnqDyl_JEyEQh3oCcAU4BHneocD-DCFDzf4g9E,12
+pillow_avif_plugin.libs/libavif-e4a4594a.so.14.0.1,sha256=aW61wCu8ar3FAuqsWbCxIfmF3hJdOkiRGKgxEGTixE0,10148944
