@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-xray
+Version: 0.2.1
+Summary: Python-xray converts Xray commands into python3 methods making it very easy to use xray in any of your python pentesting projects
+Home-page: https://github.com/yang445786754/py-xray
+Author: Tony_9410
+Author-email: tony_9410@foxmail.com
+Project-URL: Documentation, https://github.com/yang445786754/py-xray
+Project-URL: How it is used, https://github.com/yang445786754/py-xray
+Project-URL: Homepage, https://github.com/yang445786754/py-xray
+Project-URL: Source, https://github.com/yang445786754/py-xray
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-xray
+python client for chaitin‘s xray
