@@ -1,0 +1,8 @@
+GitPython
+colorama>=0.4
+docopt<1.0,>=0.3
+jsonpickle>=1.2
+munch<3.0,>=2.5
+packaging>=18.0
+py-cpuinfo>=4.0
+wrapt<2.0,>=1.0
