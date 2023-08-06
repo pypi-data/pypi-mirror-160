@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: datapackage_convert
+Version: 0.5.2
+Requires-Dist: openpyxl; extra == 'dev'
+Requires-Dist: pandas; extra == 'dev'
+Requires-Dist: pyarrow; extra == 'dev'
+Requires-Dist: sphynx; extra == 'dev'
+Requires-Dist: furo==2022.4.7; extra == 'dev'
+Requires-Dist: myst_parser; extra == 'dev'
+Provides-Extra: dev
+Summary: Convert your datapackages
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Datapackage Convert
+
+[**Full Documentation**](http://datapackage_convert.opendata.coop/)
+
+Conversions from tabular-data-packages. Currently:
+
+* Merge mulitple datapackages into one.
+* To SQLite  
+* To Parquet 
+* To XLSX
+* To Postgres
+
+All conversions aim to be memory efficiant and as fast they can be. This is the python library, providing bindings to the [rust library](https://github.com/kindly/datapackage_convert).
+
+
+## Install
+
+```
+pip install datapackage-convert
+```
+
+## Usage
+
+When refering to a datapackage you can either reference:
+
+* A `datapackage.json` file.
+* A datapackage directory containing a `datapackage.json` file. e.g.  `/a/datapackage/dir`
+* A zip file containing a `datapackage.json` file. e.g. `my_datapackage.zip`
+
+### Merge datapackage
+
+This will merge datapckages into a single one.
+
+```
+from datapackage_convert import merge_datapackage
+
+merge_datapackage('output_datapackage', ['datapackage1', 'datapackage2'])
+```
+
+### To SQLite
+
+Will convert to sqlite file. Adding foreign key relationships and indexes for them.
+
+```
+from datapackage_convert import datapackage_to_sqlite
+
+datapackage_to_sqlite('mydatabase.db', 'my_datapackage')
+```
+
+### To parquet
+
+Will convert to snappy compressed parquet files. 
+
+```
+from datapackage_convert import datapackage_to_parquet
+
+datapackage_to_parquet('output_directory', 'my_datapackage')
+```
+
+### To xlsx
+
+Will convert to XLSX files. 
+
+```
+from datapackage_convert import datapackage_to_xlsx
+
+datapackage_to_xlsx('output.xlsx', 'my_datapackage')
+```
+
+### To postgres
+
+Will insert data into postgres database. 
+
+```
+from datapackage_convert import datapackage_to_postgres
+
+datapackage_to_xlsx('postgres://name:pass@host/dbname', 'my_datapackage')
+```
