@@ -1,0 +1,2 @@
+[datasette]
+publish_vercel = datasette_publish_vercel
