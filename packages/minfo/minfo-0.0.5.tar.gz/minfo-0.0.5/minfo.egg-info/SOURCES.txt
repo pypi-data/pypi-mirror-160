@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+include/mutual_info.h
+minfo/__init__.py
+minfo/mi_bool.py
+minfo/mi_float.py
+minfo.egg-info/PKG-INFO
+minfo.egg-info/SOURCES.txt
+minfo.egg-info/dependency_links.txt
+minfo.egg-info/requires.txt
+minfo.egg-info/top_level.txt
+src/minfo.cpp
+src/mutual_info.cpp
