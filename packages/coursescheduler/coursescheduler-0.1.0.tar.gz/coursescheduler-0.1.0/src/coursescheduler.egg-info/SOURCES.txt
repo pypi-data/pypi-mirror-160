@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/coursescheduler/__init__.py
+src/coursescheduler/constraints.py
+src/coursescheduler/csp.py
+src/coursescheduler/datamodels.py
+src/coursescheduler/models.py
+src/coursescheduler/scheduler.py
+src/coursescheduler/verifyconstraints.py
+src/coursescheduler.egg-info/PKG-INFO
+src/coursescheduler.egg-info/SOURCES.txt
+src/coursescheduler.egg-info/dependency_links.txt
+src/coursescheduler.egg-info/top_level.txt
+src/coursescheduler/temp_json_input/professor_object.json
+src/coursescheduler/temp_json_input/schedule_object.json
