@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jacob-comeau
+Version: 0.1.0
+Summary: Demo library
+Home-page: UNKNOWN
+Author: Jacob Comeau
+License: JAKE
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+UNKNOWN
+
