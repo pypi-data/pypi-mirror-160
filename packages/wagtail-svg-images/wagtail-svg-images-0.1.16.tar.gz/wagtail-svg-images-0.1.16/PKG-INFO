@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wagtail-svg-images
+Version: 0.1.16
+Summary: Workaround to support SVG as Images in Wagtail
+License: MIT
+Author: Ramiro A Alvarez U
+Author-email: liko28s@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: wagtail (>=3.0.1,<4.0.0)
+Requires-Dist: wagtail-instance-selector (>=2.1.2,<3.0.0)
