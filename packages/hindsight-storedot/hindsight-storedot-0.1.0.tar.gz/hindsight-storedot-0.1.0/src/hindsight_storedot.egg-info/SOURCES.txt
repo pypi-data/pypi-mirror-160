@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hindsight/__init__.py
+src/hindsight_storedot.egg-info/PKG-INFO
+src/hindsight_storedot.egg-info/SOURCES.txt
+src/hindsight_storedot.egg-info/dependency_links.txt
+src/hindsight_storedot.egg-info/requires.txt
+src/hindsight_storedot.egg-info/top_level.txt
