@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/repo-gist_sync/__init__.py
+src/repo-gist_sync/cli.py
+src/repo-gist_sync/repo_gist_sync.py
+src/repo_gist_sync.egg-info/PKG-INFO
+src/repo_gist_sync.egg-info/SOURCES.txt
+src/repo_gist_sync.egg-info/dependency_links.txt
+src/repo_gist_sync.egg-info/entry_points.txt
+src/repo_gist_sync.egg-info/requires.txt
+src/repo_gist_sync.egg-info/top_level.txt
+src/repo_gist_sync.egg-info/zip-safe
