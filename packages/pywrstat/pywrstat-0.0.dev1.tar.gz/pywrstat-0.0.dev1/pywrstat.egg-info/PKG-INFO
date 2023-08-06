@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pywrstat
+Version: 0.0.dev1
+Summary: Pwrstat (CyberPower UPS Linux command line) Python wrapper API
+Home-page: https://github.com/jean-edouard-boulanger/pywrstat
+Author: Jean-Edouard Boulanger
+Author-email: jean.edouard.boulanger@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: System :: Power (UPS)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pywrstat
+
+Pwrstat (CyberPower UPS Linux command line) Python wrapper API. Pywrstat needs the `pwrstat` command line utility installed
+on the same machine.
+
+

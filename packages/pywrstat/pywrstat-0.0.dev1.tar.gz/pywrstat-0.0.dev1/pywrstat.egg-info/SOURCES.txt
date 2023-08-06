@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pywrstat/__init__.py
+pywrstat/client.py
+pywrstat/dto.py
+pywrstat/errors.py
+pywrstat/reader.py
+pywrstat/version.py
+pywrstat.egg-info/PKG-INFO
+pywrstat.egg-info/SOURCES.txt
+pywrstat.egg-info/dependency_links.txt
+pywrstat.egg-info/requires.txt
+pywrstat.egg-info/top_level.txt
