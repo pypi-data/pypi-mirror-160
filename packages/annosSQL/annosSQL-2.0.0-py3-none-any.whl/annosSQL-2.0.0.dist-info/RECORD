@@ -1,0 +1,14 @@
+annosSQL/Donos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+annosSQL/Donos/docache.py,sha256=K_u8bduct9j5D5mrFfSKEPvAFxefPGtAgUASp23lDgo,7842
+annosSQL/Donos/doconn.py,sha256=XBwazYsIp7lmSldQc7wS5bKqIwdVk3K6rRy_dt5x9-s,4571
+annosSQL/Donos/dosql.py,sha256=8ccN1ACcknwWHoWtcbNkYzO7MWao00m3UA2BT46rtMU,6955
+annosSQL/Innos/Interface.py,sha256=9iuo5tt9Jb6ROQP12rWLwaA5adYRxHf7TNo1to3evJY,4754
+annosSQL/Innos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+annosSQL/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+annosSQL/test/t3.py,sha256=uhp6ksvLIHQqe0qdzYSNt8D3wRkvoiIOAh5s_bWKCek,703
+annosSQL/test/t4.py,sha256=uJB1bSC8odljdadLsUklEyEp2PB0_eWpZsxB96NROhk,2281
+annosSQL/test/tesys.py,sha256=23auAoKqoPO566z8232C6xB7WXkoO7eAOkBZ90E393w,2780
+annosSQL-2.0.0.dist-info/METADATA,sha256=YQlhn3Y_wHeoAs0V6qo0bA3BKNu_YxOxbMQNF_hjuQU,4008
+annosSQL-2.0.0.dist-info/RECORD,,
+annosSQL-2.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+annosSQL-2.0.0.dist-info/top_level.txt,sha256=myzDk44NhP-mhS72Kz6p8GkbxM1QPwtSZZcTId7loZg,9
