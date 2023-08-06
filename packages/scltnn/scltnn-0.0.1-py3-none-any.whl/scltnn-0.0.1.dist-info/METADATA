@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: scltnn
+Version: 0.0.1
+Summary: A library to calculate the latent time of scRNA-seq
+Home-page: https://github.com/Starlitnightly/scltnn.git
+Author: starlitnightly
+Author-email: starlitnightly@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scanpy
+Requires-Dist: scvelo
+Requires-Dist: scglue
+
+# scLTNN (single cell latent time neuron network)
+
+[![Lifecycle:maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![bulid:passing](https://img.shields.io/appveyor/build/gruntjs/grunt)](https://img.shields.io/appveyor/build/gruntjs/grunt)
+[![License:GPL](https://img.shields.io/badge/license-GPL-blue)](https://img.shields.io/apm/l/vim-mode)
+
+**A composite regression neural network for latent timing prediction of single-cell RNA-seq data**
+
+[![ltnn](ltnn.png)](ltnn.png)
+
+For more details, please check out our [publication]().
+
+## Directory structure
+
+````
+```
+.
+├── scLTNN                  # Main Python package
+├── data                    # Data files
+├── experiments             # Experiments and case studies
+├── docs                    # Documentation files
+├── LICENSE
+└── README.md
+```
+````
+
+## Installation
+
+The `scLTNN` package can be installed via pip: 
+
+```
+pip install scltnn
+```
+
+## Usage
+
+Please checkout the documentations and tutorials at scltnn.readthedocs.io.
+
+## Reproduce results
+
+1. Follow instructions in `data` to prepare the necessary data
+2. Follow instructions in `experiments` for case studies
+
+
+
+
