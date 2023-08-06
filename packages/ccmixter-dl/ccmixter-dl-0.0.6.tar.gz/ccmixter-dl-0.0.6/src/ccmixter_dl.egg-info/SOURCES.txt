@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ccmixter_dl.egg-info/PKG-INFO
+src/ccmixter_dl.egg-info/SOURCES.txt
+src/ccmixter_dl.egg-info/dependency_links.txt
+src/ccmixter_dl.egg-info/top_level.txt
+src/ccmixterdl/__init__.py
+src/ccmixterdl/main.py
