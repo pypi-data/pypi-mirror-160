@@ -1,0 +1,9 @@
+mirror_gitblit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mirror_gitblit/__version__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+mirror_gitblit/configuration.py,sha256=ycG2mXKqxgDp6GJucSIdLlsTN5BZ0y-7NvGtNl2KIOQ,228
+mirror_gitblit/repos.py,sha256=VjK6uSvTKLO5iG8WivVBR-dB-HpZJ2Kte3pvyrdQi5E,4490
+mirror_gitblit-0.1.1.dist-info/METADATA,sha256=CXCI4UoiPidMQtlLKOMjB27rH3fh8p7ccKQuMIHnN84,1267
+mirror_gitblit-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mirror_gitblit-0.1.1.dist-info/entry_points.txt,sha256=NAkimu6NmSZF50Wl5X8s-La82W5ETzQ3Am0mwRd_mPA,135
+mirror_gitblit-0.1.1.dist-info/top_level.txt,sha256=rYa1IVSuupU9Piw2E_54Nt7Djj8fIEZVMfZ7bW1FwMs,15
+mirror_gitblit-0.1.1.dist-info/RECORD,,
