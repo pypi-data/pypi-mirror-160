@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: enterble
+Version: 1.0.0
+Summary: BLE device scanner and data collector for Flowtime
+Home-page: https://github.com/Entertech/Enter-Biomodule-BLE-PC-SDK.git
+Author: Lockey
+Author-email: chenyitao@entertech.cn
+License: Entertech
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
