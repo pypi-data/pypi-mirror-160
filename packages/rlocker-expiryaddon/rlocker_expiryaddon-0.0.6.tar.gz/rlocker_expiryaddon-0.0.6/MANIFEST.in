@@ -1,0 +1,2 @@
+include HISTORY.md
+recursive-include templates *.html schema.js
