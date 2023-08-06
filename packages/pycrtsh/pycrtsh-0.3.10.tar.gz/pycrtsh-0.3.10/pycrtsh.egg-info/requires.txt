@@ -1,0 +1,4 @@
+requests
+lxml==4.9.1
+beautifulsoup4>=4.11.1
+python-dateutil
