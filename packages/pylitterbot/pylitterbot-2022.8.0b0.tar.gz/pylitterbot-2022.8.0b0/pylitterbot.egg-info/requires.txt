@@ -1,0 +1,20 @@
+aiohttp>=3.8.1
+deepdiff>=5.8.1
+PyJWT>=2.4.0
+
+[:python_version < "3.9"]
+backports.zoneinfo
+
+[lint]
+black
+isort
+pylint
+mypy
+
+[test]
+pytest
+pytest-asyncio
+pytest-cov
+pytest-aiohttp
+pytest-freezegun
+aioresponses
