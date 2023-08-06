@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-aicsimageio = napari_aicsimageio:napari.yaml
