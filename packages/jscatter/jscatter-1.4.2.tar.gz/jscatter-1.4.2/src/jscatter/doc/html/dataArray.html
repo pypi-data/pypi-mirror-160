@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>2. dataArray &#8212; Jscatter 1.4.2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css" />
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="shortcut icon" href="_static/Jscatter-32x-32.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="3. dataList" href="dataList.html" />
+    <link rel="prev" title="1. Beginners Guide / Help" href="BeginnersGuide.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="dataList.html" title="3. dataList"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="BeginnersGuide.html" title="1. Beginners Guide / Help"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Jscatter 1.4.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><span class="section-number">2. </span>dataArray</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="dataarray">
+<h1><span class="section-number">2. </span>dataArray<a class="headerlink" href="#dataarray" title="Permalink to this heading">¶</a></h1>
+<p>dataArray contain a single matrix like dataset with attributes.</p>
+<ul class="simple">
+<li><p>matrix like data with columns and rows</p></li>
+<li><p>attributes are linked to the data e.g. from a measurement/simulation/fit parameters.</p></li>
+<li><p>all numpy array functionality preserved as e.g. slicing, index tricks.</p></li>
+<li><p>fit routine from scipy.optimize (leastsquare, differential-evolution,..)</p></li>
+<li><p>read/write in human readable ASCII text including attributes (optional zipped).</p></li>
+<li><p>For programmers: a ndarray subclass</p></li>
+</ul>
+<p>dataArray creation can be from read ASCII files or ndarrays as data=js.dA(‘filename.dat’).
+See <code class="xref py py-class docutils literal notranslate"><span class="pre">dataArray</span></code> for details.</p>
+<p>Hint for Beginners:</p>
+<ul class="simple">
+<li><p>The dataArray methods should not be used directly from this module.</p></li>
+<li><p>Instead create a dataArray and use the methods from this object as in the examples.</p></li>
+</ul>
+<p><strong>Example Read data and plot</strong> (see <a class="reference internal" href="BeginnersGuide.html#reading-ascii-files"><span class="std std-ref">Reading ASCII files</span></a> for more about reading data)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="n">i5</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">datapath</span><span class="o">+</span><span class="s1">&#39;/iqt_1hho.dat&#39;</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>  <span class="c1"># read 5th data from file with multiple data</span>
+<span class="n">i5</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dL</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">datapath</span><span class="o">+</span><span class="s1">&#39;/iqt_1hho.dat&#39;</span><span class="p">)[</span><span class="mi">5</span><span class="p">]</span>       <span class="c1"># same as above (but read as dataList, then select 5th)</span>
+<span class="n">p</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">grace</span><span class="p">()</span>
+<span class="n">p</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">i5</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Example create/change/…</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">r_</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mf">0.5</span><span class="p">]</span>                                        <span class="c1"># a list of values</span>
+<span class="n">D</span><span class="p">,</span><span class="n">A</span><span class="p">,</span><span class="n">q</span><span class="o">=</span><span class="mf">0.45</span><span class="p">,</span><span class="mf">0.99</span><span class="p">,</span><span class="mf">1.2</span>
+
+<span class="c1"># create dataArray from numpy array</span>
+<span class="n">data0</span> <span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="n">A</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)]</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+<span class="n">data</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">([</span><span class="n">x</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">q</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">D</span><span class="o">*</span><span class="n">x</span><span class="p">),</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">))</span><span class="o">*</span><span class="mf">0.05</span><span class="p">]))</span>
+
+<span class="n">data</span><span class="o">.</span><span class="n">D</span><span class="o">=</span><span class="n">D</span><span class="p">;</span><span class="n">data</span><span class="o">.</span><span class="n">A</span><span class="o">=</span><span class="n">A</span><span class="p">;</span><span class="n">data</span><span class="o">.</span><span class="n">q</span><span class="o">=</span><span class="n">q</span>
+<span class="n">data</span><span class="o">.</span><span class="n">Y</span><span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">Y</span><span class="o">*</span><span class="n">data</span><span class="o">.</span><span class="n">A</span>                                     <span class="c1"># change Y values</span>
+<span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">*=</span><span class="mi">2</span>                                               <span class="c1"># change 3rd column</span>
+<span class="n">data</span><span class="o">.</span><span class="n">reason</span><span class="o">=</span><span class="s1">&#39;just as a test&#39;</span>                             <span class="c1"># add comment</span>
+<span class="n">data</span><span class="o">.</span><span class="n">Temperature</span><span class="o">=</span><span class="mf">273.15</span><span class="o">+</span><span class="mi">20</span>                               <span class="c1"># add attribut</span>
+<span class="n">data</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s1">&#39;justasexample.dat&#39;</span><span class="p">)</span>                        <span class="c1"># save data</span>
+<span class="n">data2</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="s1">&#39;justasexample.dat&#39;</span><span class="p">)</span>                         <span class="c1"># read data into dataArray</span>
+<span class="n">data2</span><span class="o">.</span><span class="n">Y</span><span class="o">=</span><span class="n">data2</span><span class="o">.</span><span class="n">Y</span><span class="o">/</span><span class="n">data2</span><span class="o">.</span><span class="n">A</span>
+<span class="c1"># use a method (from fitting or housekeeping)</span>
+<span class="n">data2</span><span class="o">.</span><span class="n">interp</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">r_</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">2</span><span class="p">:</span><span class="mf">0.01</span><span class="p">])</span> <span class="c1"># for interpolation</span>
+</pre></div>
+</div>
+<p><strong>Example fit</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="n">data</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">datapath</span><span class="o">+</span><span class="s1">&#39;/exampledata0.dat&#39;</span><span class="p">)</span> <span class="c1"># load data into a dataArray</span>
+<span class="k">def</span> <span class="nf">parabola</span><span class="p">(</span><span class="n">q</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
+   <span class="n">y</span> <span class="o">=</span> <span class="p">(</span><span class="n">q</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">b</span><span class="o">*</span><span class="n">q</span><span class="o">+</span><span class="n">c</span>
+   <span class="k">return</span> <span class="n">y</span>
+<span class="n">data</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span> <span class="n">model</span><span class="o">=</span><span class="n">parabola</span> <span class="p">,</span><span class="n">freepar</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">:</span><span class="mi">4</span><span class="p">},</span> <span class="n">fixpar</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;c&#39;</span><span class="p">:</span><span class="o">-</span><span class="mi">20</span><span class="p">},</span> <span class="n">mapNames</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;q&#39;</span><span class="p">:</span><span class="s1">&#39;X&#39;</span><span class="p">})</span>
+<span class="n">data</span><span class="o">.</span><span class="n">showlastErrPlot</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>The dataarray module can be run standalone in a new project.</p>
+<section id="dataarray-class">
+<h2><span class="section-number">2.1. </span>dataArray Class<a class="headerlink" href="#dataarray-class" title="Permalink to this heading">¶</a></h2>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>dataArray creating by data=js.dA(‘filename.dat’) or from numpy arrays.</p></li>
+<li><p>Array columns can be accessed as automatic generated attributes like <em>.X,.Y,.eY</em> (see protectedNames).
+or by indexing as <a href="#id1"><span class="problematic" id="id2">*</span></a>data[0] -&gt; .X *</p></li>
+<li><p>Corresponding column indices are set by <code class="xref py py-meth docutils literal notranslate"><span class="pre">setColumnIndex()</span></code> (default X,Y,eY = 0,1,2).</p></li>
+<li><p>Multidimensional fitting of  1D,2D,3D (.X,.Z,.W) data.
+.Y are used as function values at coordinates [.X,.Z,.W] in fitting.</p></li>
+<li><p>Attributes can be set like:  data.aName= 1.2345</p></li>
+<li><p>Methods are used as data.methodname(arguments)</p></li>
+</ul>
+</section>
+<section id="attribute-methods">
+<h2><span class="section-number">2.2. </span>Attribute Methods<a class="headerlink" href="#attribute-methods" title="Permalink to this heading">¶</a></h2>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+</tbody>
+</table>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+</tbody>
+</table>
+</section>
+<section id="fit-methods">
+<h2><span class="section-number">2.3. </span>Fit Methods<a class="headerlink" href="#fit-methods" title="Permalink to this heading">¶</a></h2>
+<p><strong>Least square fit</strong></p>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+</tbody>
+</table>
+<p><strong>Prediction</strong></p>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+</tbody>
+</table>
+</section>
+<section id="housekeeping-methods">
+<h2><span class="section-number">2.4. </span>Housekeeping Methods<a class="headerlink" href="#housekeeping-methods" title="Permalink to this heading">¶</a></h2>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+</tbody>
+</table>
+</section>
+<section id="convenience">
+<h2><span class="section-number">2.5. </span>Convenience<a class="headerlink" href="#convenience" title="Permalink to this heading">¶</a></h2>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+</tbody>
+</table>
+<hr class="docutils" />
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/Jscatter1.gif" alt="Logo"/>
+            </a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="BeginnersGuide.html">1. Beginners Guide / Help</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. dataArray</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#dataarray-class">2.1. dataArray Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#attribute-methods">2.2. Attribute Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fit-methods">2.3. Fit Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#housekeeping-methods">2.4. Housekeeping Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#convenience">2.5. Convenience</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dataList.html">3. dataList</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formel.html">4. formel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sas.html">5. smallanglescattering (sas)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formfactor.html">6. formfactor (ff)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="structurefactor.html">7. structurefactor (sf)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dynamic.html">8. dynamic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dls.html">9. dls</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parallel.html">10. parallel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GracePlot.html">11. Plotting in XmGrace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mpl.html">12. mpl</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">13. Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Extending.html">14. Extending/Contributing/Fortran</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tips.html">15. Tips</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Remarks.html">16. Intention and Remarks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation.html">17. Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="citing.html">18. Citing Jscatter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">19. Changelog</a></li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="BeginnersGuide.html"
+                          title="previous chapter"><span class="section-number">1. </span>Beginners Guide / Help</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="dataList.html"
+                          title="next chapter"><span class="section-number">3. </span>dataList</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/dataArray.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="dataList.html" title="3. dataList"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="BeginnersGuide.html" title="1. Beginners Guide / Help"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Jscatter 1.4.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><span class="section-number">2. </span>dataArray</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2022, Ralf Biehl.
+      Last updated on Jul 26, 2022.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.1.0.
+    </div>
+  </body>
+</html>
