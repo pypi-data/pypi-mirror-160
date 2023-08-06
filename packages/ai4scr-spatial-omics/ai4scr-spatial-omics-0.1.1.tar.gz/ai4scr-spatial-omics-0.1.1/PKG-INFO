@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ai4scr-spatial-omics
+Version: 0.1.1
+Summary: Installable spatialOmics package
+Home-page: https://github.com/AI4SCR/spatial-omics
+Author: Adriano Martinelli
+Author-email: art@zurich.ibm.com
+Description-Content-Type: text/markdown
+Provides-Extra: vcs
+Provides-Extra: test
+Provides-Extra: dev
+
+todo
