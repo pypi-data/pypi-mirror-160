@@ -1,0 +1,18 @@
+[project]
+name = "web_converter"
+version = "0.0.1"
+authors = [
+  { name="ctyzan" },
+]
+description = "A package that converts headers and cookies"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ctyzan/web_converter"
+"Bug Tracker" = "https://github.com/ctyzan/web_converter/issues"
