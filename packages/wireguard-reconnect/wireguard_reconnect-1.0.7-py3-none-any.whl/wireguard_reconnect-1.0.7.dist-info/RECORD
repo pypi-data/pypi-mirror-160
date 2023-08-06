@@ -1,0 +1,12 @@
+wireguard_reconnect/__init__.py,sha256=HYhAtj1vFq6eHvOOjTOThVQR55SpyCnwPi_lkAVhoqA,40
+wireguard_reconnect/__main__.py,sha256=f421E_FNU21AxfFVJz-4myCtuutNv4GOmxY-o2xsVt4,138
+wireguard_reconnect/parser.py,sha256=YIP0xpSsW1zyGiJsUJRL79xtrYtONszEPV019DWQTnc,2893
+wireguard_reconnect/utils.py,sha256=4lvhl8qfkmCGHwKvR-F-i5r22DzNv7YPDI2AUvVU9aA,503
+wireguard_reconnect/wireguard_reconnect.py,sha256=FaPOUyKuCbWnejBWQojV3jgMhtrCBg07wc6fatR3BKY,2139
+wireguard_reconnect-1.0.7.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+wireguard_reconnect-1.0.7.dist-info/METADATA,sha256=DSBhtX9HKBmsYIaBfEnl5jsGPe312xX6j_8ri_D9roQ,7637
+wireguard_reconnect-1.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wireguard_reconnect-1.0.7.dist-info/entry_points.txt,sha256=Bf2fJRggELv1n921MjRbOUZ9D9qasJyZVDyLCTnhWpc,85
+wireguard_reconnect-1.0.7.dist-info/top_level.txt,sha256=M3mP7_FkWzsALJrgiM91kF993AvObNJFxGdfzaVbaJA,20
+wireguard_reconnect-1.0.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wireguard_reconnect-1.0.7.dist-info/RECORD,,

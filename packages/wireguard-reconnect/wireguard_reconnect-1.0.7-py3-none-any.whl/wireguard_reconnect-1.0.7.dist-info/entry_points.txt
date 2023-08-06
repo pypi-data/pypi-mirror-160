@@ -1,0 +1,2 @@
+[console_scripts]
+wireguard-reconnect = wireguard_reconnect.wireguard_reconnect:main
