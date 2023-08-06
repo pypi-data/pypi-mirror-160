@@ -1,0 +1,3 @@
+[fsspec.specs]
+wandbfs=wandbfsspec.core.WandbFileSystem
+
