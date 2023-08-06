@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+purify/__about__.py
+purify/__init__.py
+purify/purify.py
+purify/py.typed
+purify.egg-info/PKG-INFO
+purify.egg-info/SOURCES.txt
+purify.egg-info/dependency_links.txt
+purify.egg-info/top_level.txt
