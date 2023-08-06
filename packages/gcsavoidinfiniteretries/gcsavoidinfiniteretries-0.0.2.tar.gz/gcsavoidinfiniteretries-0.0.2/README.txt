@@ -1,0 +1,1 @@
+This is a very simple library which takes timestamp, event id and max age in ms, and drop the deployment, return None, if event age is greater than given max age in ms.

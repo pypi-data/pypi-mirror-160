@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+gcsavoidinfiniteretries/__init__.py
+gcsavoidinfiniteretries/main.py
+gcsavoidinfiniteretries.egg-info/PKG-INFO
+gcsavoidinfiniteretries.egg-info/SOURCES.txt
+gcsavoidinfiniteretries.egg-info/dependency_links.txt
+gcsavoidinfiniteretries.egg-info/requires.txt
+gcsavoidinfiniteretries.egg-info/top_level.txt
