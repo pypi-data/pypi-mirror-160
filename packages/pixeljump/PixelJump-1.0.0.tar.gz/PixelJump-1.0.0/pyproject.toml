@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "PixelJump"
+version = "1.0.0"
+description = "NUS Orbital 21/22 Team PixelJump"
+authors = ["Wilson Oh <e0773510@u.nus.edu>", "Jiang Pinran <e0725480@u.nus.edu>"]
+readme = "README.md"
+repository = "https://github.com/WilsonOh/Orbital21-22-PixelJump-5215"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pygame = "^2.1.2"
+pygame-widgets = "^1.0.0"
+lizard = "^1.17.10"
+
+[tool.poetry.dev-dependencies]
+pyinstaller = "^5.1"
+pytest = "^7.1.2"
+mypy = "^0.961"
+
+[tool.poetry.scripts]
+pixeljump = 'pixeljump.main:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
