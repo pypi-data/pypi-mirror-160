@@ -1,0 +1,4 @@
+google-api-core[grpc]<3.0.0dev,>=2.8.0
+proto-plus<2.0.0dev,>=1.15.0
+protobuf<4.0.0dev,>=3.19.0
+grpc-google-iam-v1<1.0.0dev,>=0.12.4
