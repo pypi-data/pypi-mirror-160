@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: gremlin-dsl
+Version: 0.2.0
+Summary: A small example DSL using gremlinpython
+License: MIT
+Author: Elliot Hershberg
+Author-email: eahershberg@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: gremlinpython (>=3.6.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# gremlin-dsl
+
+A small example Gremlin DSL for the toy Modern database.
+
+## About
+
+There aren't many complete examples of building a **domain specific language (DSL)** using the Gremlin Python driver.
+This is a small example Python package that implements a DSL for the Modern toy database, served using the Gremlin Server.
+
+## Usage Notes
+
+The first necessary step is to install the Gremlin server:
+
+```bash
+$ curl -o gremlin-server.zip https://dlcdn.apache.org/tinkerpop/3.6.0/apache-tinkerpop-gremlin-server-3.6.0-bin.zip
+$ unzip gremlin-server.zip
+$ rm -rf gremlin-server.zip
+```
+
+The link for the latest release of the Gremlin Server can be found [here](https://tinkerpop.apache.org/).
+
+Next, start the server with the Modern config:
+
+```bash
+$ cd apache-tinkerpop-gremlin-server-3.6.0/
+$ bin/gremlin-server.sh conf/gremlin-server-modern.yaml
+```
+
+Docs on using the Gremlin Server can be found [here](https://tinkerpop.apache.org/docs/current/reference/#gremlin-server).
+
