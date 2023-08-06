@@ -1,0 +1,17 @@
+odoo/addons/mrp_production_filter_lot/README.rst,sha256=JNhoKLNRvQP3mfJ4TJdXaLKLXSoPqYnAqYZKtZ_F92k,3110
+odoo/addons/mrp_production_filter_lot/__init__.py,sha256=o78DHoI4mtwy3u0fkdaMwikzsPuLYURO89Lx-3F93C0,89
+odoo/addons/mrp_production_filter_lot/__manifest__.py,sha256=-mc3thylzRrC_XjN8XQzY1tR29S_SHVkBGRnf3CkmuI,719
+odoo/addons/mrp_production_filter_lot/i18n/it.po,sha256=owJ2j5Dg6A7etlXaBrEbh489dfXclMp5AYmDpDVLgRI,1208
+odoo/addons/mrp_production_filter_lot/i18n/mrp_production_filter_lot.pot,sha256=meq_I3BT5NllHkMJnHw2MtOr8Bsl-iMJF1iM6iGV4lI,967
+odoo/addons/mrp_production_filter_lot/readme/CONTRIBUTORS.rst,sha256=OAZyfjCBUgNRFRXiAAI2W6Ar7K-0cfAvXWvyqniyPKI,68
+odoo/addons/mrp_production_filter_lot/readme/DESCRIPTION.rst,sha256=0AWT6-DeMFvaRMQ5bqn0gSBYb0piBUIk8gIYMWNOdjk,179
+odoo/addons/mrp_production_filter_lot/readme/USAGE.rst,sha256=Azrz4e4oHrioo6NAqlt4zPkc5E0TMetrPQ8v2eT2BrY,267
+odoo/addons/mrp_production_filter_lot/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mrp_production_filter_lot/static/description/index.html,sha256=oj9hL1lF64W2NCJfpBx9i04cE_XQ4-M4lV-mj39ad08,12494
+odoo/addons/mrp_production_filter_lot/wizards/__init__.py,sha256=Wxetv1Aoq5EG7yJKPIKGUoN_Omwy3dGPY968eoBx1bQ,106
+odoo/addons/mrp_production_filter_lot/wizards/mrp_product_produce_line.py,sha256=aqxLIg8h8xC9F07LodgjaV37fDaw3xB8OjTNYITXcTg,430
+odoo/addons/mrp_production_filter_lot/wizards/mrp_product_produce_views.xml,sha256=n2KHSBPnqMtX4l6AnSKicabjf0EZu7ok6kBCT9xoMVc,983
+odoo12_addon_mrp_production_filter_lot-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=0l-OAj01yUNf-gOL7Q1XKGCADKoX93ULXHH3u5evvZY,3816
+odoo12_addon_mrp_production_filter_lot-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_mrp_production_filter_lot-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_mrp_production_filter_lot-12.0.1.0.0.99.dev3.dist-info/RECORD,,
