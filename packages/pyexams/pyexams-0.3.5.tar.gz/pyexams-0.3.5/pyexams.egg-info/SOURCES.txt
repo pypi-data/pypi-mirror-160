@@ -1,0 +1,14 @@
+README.md
+setup.py
+pyexams/__init__.py
+pyexams/command_line (copia 1).py
+pyexams/command_line.py
+pyexams/metadata_collector.py
+pyexams/pyexams.py
+pyexams/send.py
+pyexams.egg-info/PKG-INFO
+pyexams.egg-info/SOURCES.txt
+pyexams.egg-info/dependency_links.txt
+pyexams.egg-info/entry_points.txt
+pyexams.egg-info/requires.txt
+pyexams.egg-info/top_level.txt
