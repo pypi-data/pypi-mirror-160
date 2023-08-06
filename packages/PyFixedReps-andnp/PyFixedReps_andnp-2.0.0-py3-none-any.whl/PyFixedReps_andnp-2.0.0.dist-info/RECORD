@@ -1,0 +1,9 @@
+PyFixedReps/BaseRepresentation.py,sha256=wHxvY9NJMxOIQLntIqyGpbEyLj6kFRirz-eFrdpoZLo,234
+PyFixedReps/RBF.py,sha256=l841SK0JLEU3r92m-MBc5GoEPTd7pkvznq92fZfdQXo,751
+PyFixedReps/TileCoder.py,sha256=YZ3wClMd3kYpCBOJeX42SSuU3onNsEkjZifA8Lw8VcI,3194
+PyFixedReps/__init__.py,sha256=T4FYA7vDtuoFhoZk7MRV6woDoWFu8yl7sQoZUnLNMik,105
+PyFixedReps/_jit.py,sha256=C3ocwNgsEyzMSyOGiaIDYOMZawkLuWEee682l1yYo8w,477
+PyFixedReps_andnp-2.0.0.dist-info/METADATA,sha256=BCJXiUvRxBkQWjq0wN0cTXpkisl39j9N5Z9NlMjmY8U,4295
+PyFixedReps_andnp-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyFixedReps_andnp-2.0.0.dist-info/top_level.txt,sha256=-5qc2MBeM9A3vOuQbptmYd8K9U277EbKztWQWkuZR3I,12
+PyFixedReps_andnp-2.0.0.dist-info/RECORD,,
