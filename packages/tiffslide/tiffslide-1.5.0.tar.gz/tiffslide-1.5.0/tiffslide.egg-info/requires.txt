@@ -1,0 +1,12 @@
+imagecodecs
+fsspec
+pillow
+tifffile>=2020.9.22
+zarr
+typing_extensions>=4.0
+
+[dev]
+black
+pytest>=6
+pytest-cov
+mypy
