@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+nbconvert_article_html/__init__.py
+nbconvert_article_html.egg-info/PKG-INFO
+nbconvert_article_html.egg-info/SOURCES.txt
+nbconvert_article_html.egg-info/dependency_links.txt
+nbconvert_article_html.egg-info/entry_points.txt
+nbconvert_article_html.egg-info/requires.txt
+nbconvert_article_html.egg-info/top_level.txt
+test/test_annotations.py
+test/test_collector_abstract.py
+test/test_collector_labels.py
+test/test_solve_references.py
