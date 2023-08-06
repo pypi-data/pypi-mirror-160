@@ -1,0 +1,14 @@
+microcosm>=2.12.0
+microcosm-logging>=1.0.0
+
+[healthcheck]
+waitress>=2.0.0
+Flask<2
+Flask>=1.0.2
+markupsafe<2.1
+requests>=2.27.1
+
+[test]
+coverage>=3.7.1
+parameterized>=0.8.1
+PyHamcrest>=1.8.5
