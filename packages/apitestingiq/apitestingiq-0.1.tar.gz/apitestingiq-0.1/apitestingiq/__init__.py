@@ -1,0 +1,1 @@
+from apitestingiq.apitesting import get_asset_node_red
