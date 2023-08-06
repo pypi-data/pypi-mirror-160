@@ -1,0 +1,16 @@
+[project]
+name = "entity-gym-rs"
+requires-python = ">=3.6"
+dependencies = [
+    "numpy~=1.22.3",
+    "ragged-buffer~=0.3.7",
+    "entity-gym~=0.1.5",
+]
+
+[build-system]
+requires = ["maturin>=0.13,<0.14"]
+build-backend = "maturin"
+
+[tool.maturin]
+features  = ["python"]
+profile = "release"
