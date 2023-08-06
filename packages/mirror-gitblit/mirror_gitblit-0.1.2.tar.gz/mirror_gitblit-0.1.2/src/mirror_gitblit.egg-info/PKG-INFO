@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: mirror-gitblit
+Version: 0.1.2
+Summary: Tool to mirror repositories of a gitblit server
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Scripts to make backup of gitblit
+        
+        This package requires at least python 3.6.
+        
+        ## List all Repositories: `list_repos.py`
+        
+        The command `python list_repos.py` lists all repositories of Server configured by
+        variable `base_web_url`. Result is the file `repos.json`.
+        
+        As an alternative, once can also use a browser to create a List of repositories:
+        
+        1. login with an admin account in Gitblit
+        2. Open a Browser Console on the same session
+        3. In the Console Prompt once can use the function `fetch()` like
+        
+        ```javascript
+        fetch("https://bayes.htwsaar.de/gitblit/rpc/?req=LIST_REPOSITORIES")
+          .then(result => result.json()).then(json => json1 = json)
+        ```
+           to get list of repository.
+        
+        4. The list of repository can be found in network-Tab
+        
+        
+        
+        ## Clone all Repository: `clone-all.py`
+        
+        
+        1. Configure paramter in `configuration_local.py`.
+        2. Call `python3 clone-all.py`
+        
+         ## Restore repository to new server
+         
+         Use `python restore.py` to restore repositories cloned by `clone-all` to 
+         new server. Check parameters in `configuration_local.py` for accurate value. 
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
