@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main   # push commit to the main branch
+    tags:
+      - '*'  # push tag to the main branch
+  pull_request:
+    branches:
+      - main   # pull request to the main branch
+  workflow_dispatch:   # allow manual triggering
+
+defaults:
+  run:
+    shell: bash -l {0}
+
+jobs:
+  build-linux:
+    name: CI py${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10']
+        # python-version: ['3.8', '3.9', '3.10', '3.11']  # 2022-Q4
+      max-parallel: 5
+    env:
+      python_version: ${{ matrix.python-version }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Create Python ${{ matrix.python-version }} environment
+        uses: mamba-org/provision-with-micromamba@v12
+        with:
+          environment-file: .github/env-ci.yml
+          environment-name: anaconda-test-env-py-${{ matrix.python-version }}
+
+      - name: Check Code Style
+        run: |
+          flake8
+          black murky/murky_tool.py
+          black murky/create_release_notes.py
+          black setup.py
+
+      - name: Python Tests
+        run: |
+          coverage run --concurrency=thread --parallel-mode -m pytest -vvv .
+
+      - name: Install for functional testing
+        run: |
+          python3 ./setup.py build sdist
+          python3 -m pip install .
+
+      - name: Command Tests
+        run: |
+          murky_tool --help
+          murky_tool name murky/env_example1.yml
+          murky_tool conda murky/env_example1.yml
+          murky_tool pip murky/env_example1.yml
+          murky_create.sh help

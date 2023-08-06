@@ -1,0 +1,7 @@
+name: murky
+
+channels:
+  - defaults
+
+dependencies:
+  - pygithub

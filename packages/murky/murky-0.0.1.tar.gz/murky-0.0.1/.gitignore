@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+MANIFEST
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Microsoft Visual Studio Code
+.vscode/
