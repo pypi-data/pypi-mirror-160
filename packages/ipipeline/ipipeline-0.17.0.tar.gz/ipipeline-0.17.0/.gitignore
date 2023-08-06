@@ -1,0 +1,11 @@
+# directories
+venv/
+dist/
+__pycache__/
+.pytest_cache/
+
+# files
+.env
+.coverage
+tmp.py
+notes.md
