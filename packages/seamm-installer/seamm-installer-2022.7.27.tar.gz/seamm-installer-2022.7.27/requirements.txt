@@ -1,0 +1,6 @@
+alembic
+platformdirs
+requests
+tabulate
+tkhtmlview
+
