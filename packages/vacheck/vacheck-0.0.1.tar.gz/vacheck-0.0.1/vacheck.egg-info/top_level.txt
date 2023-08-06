@@ -1,0 +1,4 @@
+dist
+tests
+vacheck
+venv
