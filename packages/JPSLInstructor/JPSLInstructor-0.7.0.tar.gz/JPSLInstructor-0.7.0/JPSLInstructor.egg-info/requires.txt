@@ -1,0 +1,4 @@
+jupyter>=1.0.0
+jupyter-instructortools>=0.6.0
+jupyterPiDAQ>=0.7.8
+Algebra_with_SymPy>=0.9.1
