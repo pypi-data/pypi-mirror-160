@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-25 11:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: djangocms_faq/admin.py:25
+msgid ""
+"<i>Editing the faq using the django admin will only update the draft page, "
+"you will need to refresh the page to see the changes, and publish the page "
+"to made the changes appear on the live page.</i>"
+msgstr ""
+"<i>Modifier la faq en utilisant l'administration de django ne mettra à jour que la page de brouillon, "
+"vous devrez rafraîchir la page pour voir les changements, et publier la page "
+"pour que les changements apparaissent sur la page en direct.</i>"
+
+#: djangocms_faq/admin.py:56
+msgid ""
+"<i>Editing a question using the django admin will only update the draft "
+"version, you will need to refresh the page to see the changes, and publish "
+"the page to made the changes appear on the live page.</i>"
+msgstr ""
+"<i>Modifier une question en utilisant l'administration de django ne mettra à jour que la page "
+"de brouillon, vous devrez rafraîchir la page pour voir les changements, et publier "
+"la page pour que les changements apparaissent sur la page en direct.</i>"
+
+#: djangocms_faq/cms_plugins.py:22 djangocms_faq/cms_plugins.py:36
+#: djangocms_faq/cms_plugins.py:57
+msgid "Faq"
+msgstr "Faq"
+
+#: djangocms_faq/cms_plugins.py:23 djangocms_faq/models.py:42
+msgid "Faq Container"
+msgstr "Conteneur de Faq"
+
+#: djangocms_faq/cms_plugins.py:37 djangocms_faq/models.py:112
+msgid "Faq Question"
+msgstr "Question de Faq"
+
+#: djangocms_faq/cms_plugins.py:58 djangocms_faq/models.py:143
+msgid "Faq Search"
+msgstr "Recherche Faq"
+
+#: djangocms_faq/models.py:20
+msgid "Title"
+msgstr "Titre"
+
+#: djangocms_faq/models.py:20
+msgid ""
+"Optional. Title that will be displayed on top of the FAQ. If not specified, "
+"nothing will be displayed."
+msgstr ""
+"Facultatif. Titre qui sera affiché en haut de la FAQ. S'il n'est pas spécifié, "
+"rien ne sera affiché."
+
+#: djangocms_faq/models.py:21
+msgid "Name"
+msgstr "Nom"
+
+#: djangocms_faq/models.py:21
+msgid ""
+"Required. Will not be displayed on the website. Used to distinguish between "
+"several faqs.<br />"
+msgstr ""
+"Obligatoire. Ne sera pas affiché sur le site web. Utilisé pour s'y retrouver entre "
+"plusieurs faqs.<br />"
+
+#: djangocms_faq/models.py:37 djangocms_faq/models.py:104
+msgid "Not on a page (maybe an apphook, like the blog)"
+msgstr "Pas sur une page (peut-être sur un apphook, comme le blog)"
+
+#: djangocms_faq/models.py:39 djangocms_faq/models.py:106
+msgid "Page"
+msgstr "Page"
+
+#: djangocms_faq/models.py:52 djangocms_faq/models.py:63
+msgid "Draft"
+msgstr "Brouillon"
+
+#: djangocms_faq/models.py:73
+msgid "Question"
+msgstr "Question"
+
+#: djangocms_faq/models.py:75
+msgid "Keywords"
+msgstr "Mot-clefs"
+
+#: djangocms_faq/models.py:81
+msgid ""
+"Unique slug for this question. Keep empty to let it be auto-generated. <br /"
+"><i>Warning: There is no control that the slug is unique, so you have to "
+"update it yourself if there is another question on the same page with the "
+"same slug.</i>"
+msgstr ""
+"Slug unique pour cette question. Laissez vide pour qu'il soit généré automatiquement. <br /"
+"><i>Attention : Il n'y a aucun contrôle que le slug est unique, vous devez donc "
+"le mettre à jour vous-même s'il y a une autre question sur la même page qui contient le "
+"même slug.</i>"
+
+#: djangocms_faq/models.py:124
+msgid "Keyword"
+msgstr "Mot-clef"
+
+#: djangocms_faq/models.py:134
+msgid "Search name"
+msgstr "Nom de la recherche"
+
+#: djangocms_faq/models.py:137
+msgid "Search in"
+msgstr "Rechercher dans"
+
+#: djangocms_faq/models.py:138
+msgid "Format: name (source page name).<br />"
+msgstr "Format: nom (nom de la page).<br />"
+
+#: djangocms_faq/templates/faq/faq_search.html:87
+#: djangocms_faq/templates/faq/faq_search.html:120
+msgid "No result found."
+msgstr "Aucun résultat n'a été trouvé."
+
+#~ msgid ""
+#~ "Unique slug for this question. Keep empty to let it be auto-generated."
+#~ msgstr ""
+#~ "Slug unique pour cette question. Laisser vide pour le laisse s'auto-"
+#~ "générer."

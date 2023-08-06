@@ -1,0 +1,4 @@
+django-cms
+
+[fuzzy_search]
+thefuzz
