@@ -1,0 +1,18 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'calaccess_raw',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',
+        'PORT': '5432'
+    },
+    'alt': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'calaccess_raw_alt',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',
+        'PORT': '5432'
+    }
+}

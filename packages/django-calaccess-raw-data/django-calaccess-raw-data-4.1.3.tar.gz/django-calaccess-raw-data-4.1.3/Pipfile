@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "==3.2.*"
+django-postgres-copy = ">=2.6.*"
+"hurry.filesize" = "*"
+"psycopg2-binary" = "*"
+pytz = "*"
+requests = "*"
+clint = "*"
+django-internetarchive-storage = "*"
+csvkit = "*"
+
+[dev-packages]
+Sphinx = "*"
+sphinx_rtd_theme = "*"
+sphinx-autobuild = "*"
+subsample = "*"
+pydocstyle = "*"
+"flake8" = "*"
+"flake8-docstrings" = "*"
+coverage = "*"
+requests-mock = "*"
+twine = "*"
+setuptools-scm = "*"
+
+[requires]
+python_version = "3.9"

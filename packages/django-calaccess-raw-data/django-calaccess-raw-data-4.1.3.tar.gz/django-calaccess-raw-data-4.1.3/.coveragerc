@@ -1,0 +1,12 @@
+[run]
+include =
+    calaccess_raw/*.py
+
+omit =
+    calaccess_raw/tests/*.py
+    calaccess_raw/migrations/*.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    add_introspection_rules
