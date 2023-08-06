@@ -1,0 +1,21 @@
+Control zeolite NVT
+use gaspressure
+finish use-block
+temperature 273.0
+acceptmolmoveupdate 200
+acceptmolrotupdate 200
+steps 1000000
+equilibration 50000
+print 100000
+revconformat dlmonte
+archiveformat dlpoly4
+stack 10000
+yamldata 1000
+maxmolrot 0.005
+move molecule 1 20
+co2
+move rotatemol 1 20
+co2
+move gcinsertmol 1 60 0.5
+co2 0.06
+start simulation

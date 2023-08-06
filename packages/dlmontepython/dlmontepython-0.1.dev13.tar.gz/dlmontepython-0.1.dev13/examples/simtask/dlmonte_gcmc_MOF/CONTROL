@@ -1,0 +1,21 @@
+Test nitrogen simulation
+use gaspressure
+use ortho
+finish use-block
+seeds 66 26 2 47
+Temperature 77
+equilibration 0
+steps 1000000
+print 1000000
+yamldata 1000
+ewald prec 1e-06
+acceptatmmoveupdate 200
+acceptmolrotupdate 200
+move gcinsertmol 1 50 0.7
+Nitrogen 0.001
+move molecule 1 25
+Nitrogen
+move rotatemol 1 25
+Nitrogen
+start simulation
+

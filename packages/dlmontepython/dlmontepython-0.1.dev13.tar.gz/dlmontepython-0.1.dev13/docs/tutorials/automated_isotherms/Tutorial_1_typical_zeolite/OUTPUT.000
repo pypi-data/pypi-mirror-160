@@ -1,0 +1,1323 @@
+
+                   ===================================================================
+                   * * *                                                         * * *
+                   * * *            D L - M O N T E - v e r. 2.0 (7)             * * *
+                   * * *                                                         * * *
+                   * * *           STFC / CCP5 - Daresbury Laboratory            * * *
+                   * * *                 program library  package                * * *
+                   * * *                                                         * * *
+                   * * *     general purpose Monte Carlo simulation software     * * *
+                   * * *                                                         * * *
+                   * * *     version:  2.07  / January 2020                      * * *
+                   * * *     author :  J. A. Purton (2007-2015)                  * * *
+                   * * *     website:  https://gitlab.com/dl_monte               * * *
+                   * * *     -----------------------------------------------     * * *
+                   * * *     co-authors:                                         * * *
+                   * * *     -------------                                       * * *
+                   * * *     A. V. Brukhno   - Free Energy Diff, planar pores    * * *
+                   * * *     T. L. Underwood - Lattice/Phase-Switch MC methods   * * *
+                   * * *     R. J. Grant     - extra potentials, optimizations   * * *
+                   * * *     -----------------------------------------------     * * *
+                   * * *                                                         * * *
+                   * * *     current execution:                                  * * *
+                   * * *     ==================                                  * * *
+                   * * *     number of nodes/CPUs/cores:          1              * * *
+                   * * *     number of threads per node:          1              * * *
+                   * * *     number of threads employed:          1              * * *
+                   * * *                                                         * * *
+                   * * * ======================================================= * * *
+                   * * * Publishing data obtained with DL_MONTE? - please cite:  * * *
+                   * * * ------------------------------------------------------- * * *
+                   * * *                                                         * * *
+                   * * *  A. V. Brukhno et al., Molecular Simulation 2019,       * * *
+                   * * *  DOI: 10.1080/08927022.2019.1569760,                    * * *
+                   * * *  `DL_MONTE: a multipurpose code for Monte Carlo         * * *
+                   * * *  simulation`                                            * * *
+                   * * *                                                         * * *
+                   * * *  J. A. Purton, J. C. Crabtree & S. C. Parker,           * * *
+                   * * *  Molecular Simulation 2013, 39 (14-15), 1240-1252       * * *
+                   * * *  `DL_MONTE: A general purpose program for parallel      * * *
+                   * * *  Monte Carlo simulation`                                * * *
+                   * * *                                                         * * *
+                   * * * ------------------------------------------------------- * * *
+                   * * * if using Lattice-Switch method, please also cite:       * * *
+                   * * * ------------------------------------------------------- * * *
+                   * * *              Bruce A.D., Wilding N.B. and G.J. Ackland, * * *
+                   * * *                         Phys. Rev. Lett. 1997, 79, 3002 * * *
+                   * * *    `Free Energy of Crystalline Solids: A Lattice-Switch * * *
+                   * * *                                      Monte Carlo Method`* * *
+                   * * * ------------------------------------------------------- * * *
+                   * * * if using Planar Pore (slit) geometry, please also cite: * * *
+                   * * * ------------------------------------------------------- * * *
+                   * * *                                         Broukhno A. V., * * *
+                   * * *     `Free Energy and Surface Forces in polymer systems: * * *
+                   * * *                          Monte Carlo Simulation Studies`* * *
+                   * * *                           PhD Thesis, Lund, Sweden 2003 * * *
+                   * * *                                                         * * *
+                   * * *    Brukhno A. V., Akinshina A., Coldrick Z., Nelson A., * * *
+                   * * *                                             and Auer S. * * *
+                   * * *                              Soft Matter. 2011, 7, 1006 * * *
+                   * * *               `Phase phenomena in supported lipid films * * *
+                   * * *                        under varying electric potential`* * *
+                   ===================================================================
+
+ ----------------------------------------------------------------------------------------------------
+ FIELD title  (100 symbols max) :
+ ----------------------------------------------------------------------------------------------------
+'force fields and bond constraints for for co2 in a zeolite (use epm2 for vdw)'
+ ----------------------------------------------------------------------------------------------------
+
+ reading species:   1 - atomic field 'zeolite' of        584 atoms (max)
+
+ ------------------
+
+ reading species:   2 - molecule 'co2' of          3 atoms (         3 max)
+
+ ------------------
+
+
+ ====================================================================================================
+ atom data :
+ ====================================================================================================
+ element           mass             charge
+ --------------------------------------------------
+  Si              28.0000         2.4000
+  O_              16.0000        -1.2000
+  C_              12.0000         0.6512
+  O_C             16.0000        -0.3256
+  Xe               1.0000         0.0000
+
+
+ ====================================================================================================
+ molecule data :
+ ====================================================================================================
+ molecule name / rigid / exclude VDW & Coulomb
+ --------------------------------------------------
+ 'zeolite '    /   F   /  F
+ --------------------------------------------------
+
+ --------------------------------------------------
+ 'co2     '    /   F   /  F
+ --------------------------------------------------
+
+----------
+ bonds: 
+----------
+         1         2         1
+         1         3         1
+         2         3         2
+
+
+
+ ----------------------------------------------------------------------------------------------------
+ nonbonded (vdw) potentials :
+ ----------------------------------------------------------------------------------------------------
+ O_      C_         lj                0.500000       0.094567       2.892000       0.000000       0.000000       0.000000       0.000000
+
+ VdW repulsion capped at D_core(  1) =     1.684126 by E_cap = 0.100000E+06
+
+ O_      O_C        lj                0.500000       0.159984       3.033000       0.000000       0.000000       0.000000       0.000000
+
+ VdW repulsion capped at D_core(  2) =     1.843503 by E_cap = 0.100000E+06
+
+ C_      C_         lj                0.500000       0.055892       2.757000       0.000000       0.000000       0.000000       0.000000
+
+ VdW repulsion capped at D_core(  3) =     1.537849 by E_cap = 0.100000E+06
+
+ C_      O_C        lj                0.500000       0.094567       2.892000       0.000000       0.000000       0.000000       0.000000
+
+ VdW repulsion capped at D_core(  4) =     1.684126 by E_cap = 0.100000E+06
+
+ O_C     O_C        lj                0.500000       0.159984       3.033000       0.000000       0.000000       0.000000       0.000000
+
+ VdW repulsion capped at D_core(  5) =     1.843503 by E_cap = 0.100000E+06
+
+ O_C     Xe         12-6              0.50000016777216.000000       0.000000       0.000000       0.000000       0.000000       0.000000
+
+ VdW repulsion capped at D_core(  6) =     2.534307 by E_cap = 0.100000E+06
+
+
+
+--------------------
+ bond potentials: 
+--------------------
+     1   buck              0.000000       0.100000       0.000000       0.000000       0.000000       0.000000
+     2   buck              0.000000       0.100000       0.000000       0.000000       0.000000       0.000000
+
+
+ --------------------------------------------------
+ configuration box No.          1
+ --------------------------------------------------
+
+ the maximum no of atoms/molecules in this cell:     1184 /      201
+
+ the factual no of atoms/molecules in this cell:      740 /       53
+
+          lattice vectors
+    24.47507     0.00000     0.00000
+     0.00000    24.47507     0.00000
+     0.00000     0.00000    24.47507
+
+          Using: is_simple_orthogonal:    T
+
+
+          Using: is_orthogonal:    T
+
+
+          reciprocal lattice vectors
+     0.04086     0.00000     0.00000
+     0.00000     0.04086     0.00000
+     0.00000     0.00000     0.04086
+
+
+ --------------------------------------------------
+ configuration sample (up to 10 atoms):
+ --------------------------------------------------
+
+ molecule zeolite 
+ Si        c        1   type   1
+     11.0477985     -8.9786073    -11.2003247     0
+ Si        c        2   type   1
+     -4.5913451     -9.0433928    -11.2003247     0
+ Si        c        3   type   1
+     -4.5913451     -8.9786073     -6.8194995     0
+ Si        c        4   type   1
+    -11.1997227     11.0461098     -8.9775206     0
+ Si        c        5   type   1
+     -2.8581501     -7.3101954     11.5368056     0
+ Si        c        6   type   1
+    -10.7101135      9.3129123     11.5368056     0
+ Si        c        7   type   1
+     11.0477985     -9.0433928     -6.8194995     0
+ Si        c        8   type   1
+     -6.8188999     -4.5930339     -8.9775206     0
+ Si        c        9   type   1
+      9.3146011    -10.7118023     11.5368056     0
+ Si        c       10   type   1
+     -7.3085066     -2.8598389     11.5368056     0
+
+
+ --------------------------------------------------
+ NOTE: FED calculation is OFF; order parameter =  0 (should be zero)
+
+
+ ==================================================
+                simulation parameters 
+ ==================================================
+
+ cell (box) type [ < 0 -> 2D-slit; else 3D-bulk ] =          0 (bulk: XYZ-PBC)
+
+ global cutoff for interactions (Angstroms)       =   0.1200000E+02
+
+ cutoff for vdw interactions (Angstroms)          =   0.1200000E+02
+
+ Verlet neighbour lists not used                  =   F  F
+
+ system temperature (Kelvin)                      =   0.2730000E+03
+
+ constant volume simulation (NVT), i.e. volume not sampled
+
+ system pressure (katms)                          =   0.1000000E-02
+
+ total number of MC steps (cycles)                =    1000000
+
+ number of equilibration steps                    =      50000
+
+ number of pre-heating steps                      =         -1
+
+ maximum no of non-bonded neighbours              =          0
+
+ maximum no of three-body triplets per atom       =          6
+
+ three body list updated every (cycles)           =         50
+
+ stack-size for block averaging                   =      10000
+
+ statistics data saved every (cycles) -> PTFILE*  =       1000
+
+ energy frames printed every (cycles) -> OUTPUT*  =     100000
+
+ energy checks printed every (cycles) -> OUTPUT*  =      10000
+
+ level of precision used in energy checks         =   0.1000000E-09
+
+ configurations stored every (cycles) -> REVCON*  =       1000
+
+ trajectories archived every (cycles) -> HISTORY* =       1000 (DL_POLY-4 format)
+
+ REVCON configuration data in DL_MONTE style (extended native)
+
+ HISTORY* in DL_POLY-4 (all/subset)
+
+ Coulomb treatment for configuration  1           =          1
+
+ dielectric constant (medium permittivity)        =   0.1000000E+01
+
+ ewald precision                                  =   0.1000000E-05
+
+ all g-vectors stored on each node
+
+ molecule types to be moved 
+     co2      XYZ =   1  1  1
+
+ initial maximum for mol displacement             =   0.1000000E+00
+
+ displacement distance update  (cycles)           =        200
+
+ acceptance ratio for mol  displacement           =   0.3700000E+00
+
+ molecules moved with stride (frequency)          =         20
+
+ molecule types to be rotated 
+     co2     
+
+ initial maximum for mol rotation (degrees)       =   0.5000000E-02
+
+ initial maximum for mol rotation (radians)       =   0.8726646E-04
+
+ mol rotation angle update  (cycles)              =        200
+
+ acceptance ratio for mol rotation                =   0.3700000E+00
+
+ molecules rotated with stride (frequency)        =         20
+
+ tolerance for rejection (energy units)           =   0.1000000E+03
+
+ random number seeds (i,j,k,l) =     12    34    56    78 (for workgroup    0)
+
+ total job time and close time =      1000000.00         200.00
+
+ rotation of molecules will use Euler method
+
+ Grand-Canonical (GCMC, muVT) scheme using partial pressure (katm)
+
+ species 'co2' is movable by translation
+
+ species 'co2' is movable by rotation
+
+ Grand Canonical (GCMC) ensemble using molecules
+
+ the number of different molecule types           =     1
+
+ the frequency of mol insert/delete               =    60
+
+ the minimum distance for inserts                 =     0.5000
+
+ the number of atoms in molecule   1 is     3
+
+ the maximum number of atoms in molecule          =     3
+
+ molecule name co2     
+
+ the partial gas pressure of molecules (katms)    =      0.0010000
+
+ number of moving particles for box    1        52
+
+ energy unit conversion factor (user -> internal) =      418.4000000000
+
+ beta (deca-J/mol) & Bjerrum length (Angstroem)   =        0.0044055551      612.0879217074
+
+ ==================================================
+
+
+
+ Initialisation phase 1 - elapsed time:  0 h :  0 m :  0.005 s
+
+
+
+
+ cutoffs for lattice summation in box:  1
+
+ eta                                 :    0.26506
+ real space cutoff A                 :   12.00000
+ reciprocal space cutoff 1/A         :    0.28601
+ kmax1, kmax2, kmax3                 :   7  7  7
+
+
+ total & max number of reciprocal lattice vectors:       754       754
+
+
+ Initialisation phase 2 - elapsed time:  0 h :  0 m :  0.006 s
+
+
+ --------------------------------------------------
+                  initial energies 
+ --------------------------------------------------
+
+ break down of energies for box:   1
+
+ total energy                       -0.2546128251E+06
+ reciprocal space coulomb            0.1755023510E+03
+ real space coulomb                 -0.2546280656E+06
+ external mfa coulomb                0.0000000000E+00
+ nonbonded two body (vdw)           -0.1602618861E+03
+ bonded two body (pair)              0.0000000000E+00
+ nonbonded three body                0.0000000000E+00
+ bonded three body (angle)           0.0000000000E+00
+ bonded four body (angle)            0.0000000000E+00
+ many body energy                    0.0000000000E+00
+ external potential energy           0.0000000000E+00
+ total virial                        0.0000000000E+00
+ volume                              0.1466128426E+05
+
+ long-range correction (vdw)         0.0000000000E+00
+
+ components of energies by  molecule: zeolite 
+
+ total energy                       -0.2546772559E+06
+ reciprocal space coulomb            0.0000000000E+00
+ real space coulomb - other types    0.8549827347E+01
+ real space coulomb - same type     -0.1722520843E+06
+ real space coulomb - self energy   -0.8237642680E+05
+ real space coulomb - corection      0.0000000000E+00
+ vdw - other types mol              -0.5729462549E+02
+ vdw - same type mol                 0.0000000000E+00
+ bonded two body (pair)              0.0000000000E+00
+ nonbonded three body                0.0000000000E+00
+ bonded three body (angle)           0.0000000000E+00
+ many body energy                    0.0000000000E+00
+ external potential energy           0.0000000000E+00
+
+ components of energies by  molecule: co2     
+
+ total energy                       -0.1110715473E+03
+ reciprocal space coulomb            0.0000000000E+00
+ real space coulomb - other types    0.8549827347E+01
+ real space coulomb - same type     -0.9939186802E+01
+ real space coulomb - self energy   -0.1642522643E+04
+ real space coulomb - corection      0.1635807715E+04
+ vdw - other types mol              -0.5729462549E+02
+ vdw - same type mol                -0.4567263515E+02
+ bonded two body (pair)              0.0000000000E+00
+ nonbonded three body                0.0000000000E+00
+ bonded three body (angle)           0.0000000000E+00
+ many body energy                    0.0000000000E+00
+ external potential energy           0.0000000000E+00
+
+
+ Initialisation phase 3 - elapsed time:  0 h :  0 m :  0.022 s
+
+
+ Resetting time and proceeding to simulation
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.56624E-06  0.24946E-08  0.38736E-11 -0.53178E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.84937E-06  0.37419E-08  0.59490E-11 -0.79771E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.14901E-07 -0.65648E-10 -0.10588E-12  0.13996E-15 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.10431E-06 -0.45954E-09 -0.72368E-12  0.97966E-15 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.23842E-06 -0.10504E-08 -0.17191E-11  0.22394E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.53644E-06 -0.23633E-08 -0.37043E-11  0.50380E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.71526E-06  0.31511E-08  0.51573E-11 -0.67185E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.29802E-06 -0.13130E-08 -0.20579E-11  0.27990E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.59605E-06  0.26259E-08  0.42767E-11 -0.55986E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration       100000 - elapsed time:  0 h :  0 m : 14.112 s
+
+
+ ====================================================================================================
+      step      en-total            h-total             coul-rcp            coul-real
+      step      en-vdw              en-three            en-pair             en-angle 
+      step      en-four             en-many             en-external         en-extMFA
+      step      volume              cell-a              cell-b              cell-c   
+      step      alpha               beta                gamma 
+      r-av      en-total            h-total             coul-rcp            coul-real
+      r-av      en-vdw              en-three            en-pair             en-angle 
+      r-av      en-four             en-many             en-external         en-extMFA
+      r-av      volume              cell-a              cell-b              cell-c   
+      r-av      alpha               beta                gamma 
+ ----------------------------------------------------------------------------------------------------
+    100000    -0.2544832995E+06    0.1218281081E+03    0.2048758260E+03   -0.2546431301E+06
+              -0.4504520771E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2544579417E+06    0.1461325017E+03    0.2078711260E+03   -0.2546385715E+06
+              -0.2724134597E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c         16.0000         11.0737
+ O_C      c         32.0000         22.1474
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2              16.0000         11.0737
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.98348E-06  0.43328E-08  0.68556E-11 -0.92366E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.62585E-06  0.27572E-08  0.42419E-11 -0.58774E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.61095E-06  0.26916E-08  0.42387E-11 -0.57378E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.25332E-06 -0.11160E-08 -0.16858E-11  0.23788E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.75996E-06  0.33480E-08  0.53228E-11 -0.71376E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.14901E-07  0.65648E-10  0.10290E-12 -0.13995E-15 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.89407E-07 -0.39389E-09 -0.60320E-12  0.83957E-15 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.89407E-07 -0.39389E-09 -0.61738E-12  0.83965E-15 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.59605E-06  0.26259E-08  0.41747E-11 -0.55980E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.61095E-06  0.26916E-08  0.42188E-11 -0.57379E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration       200000 - elapsed time:  0 h :  0 m : 27.994 s
+
+
+    200000    -0.2544807179E+06    0.1246234952E+03    0.2066760234E+03   -0.2546439505E+06
+              -0.4344340985E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2544707430E+06    0.1339198534E+03    0.2075756992E+03   -0.2546421723E+06
+              -0.3614637600E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c         17.0000         13.8266
+ O_C      c         34.0000         27.6532
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2              17.0000         13.8266
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.71526E-06  0.31511E-08  0.49624E-11 -0.67176E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.26822E-06  0.11817E-08  0.18264E-11 -0.25189E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.65565E-06  0.28885E-08  0.47044E-11 -0.61585E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.19372E-06  0.85342E-09  0.13832E-11 -0.18195E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.80466E-06  0.35450E-08  0.55564E-11 -0.75571E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.41723E-06  0.18381E-08  0.29937E-11 -0.39190E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.75996E-06  0.33480E-08  0.52975E-11 -0.71375E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.78976E-06  0.34793E-08  0.57226E-11 -0.74183E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.49174E-06  0.21664E-08  0.34942E-11 -0.46186E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.58115E-06  0.25603E-08  0.41096E-11 -0.54584E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration       300000 - elapsed time:  0 h :  0 m : 41.898 s
+
+
+    300000    -0.2544636601E+06    0.1410398638E+03    0.2065277870E+03   -0.2546343472E+06
+              -0.3584066329E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2544914677E+06    0.1142491462E+03    0.2055216635E+03   -0.2546463534E+06
+              -0.5063594360E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c         14.0000         18.7558
+ O_C      c         28.0000         37.5116
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2              14.0000         18.7558
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.52154E-06 -0.22977E-08 -0.36704E-11  0.48986E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.74506E-06 -0.32824E-08 -0.53459E-11  0.69983E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.59605E-07  0.26259E-09  0.41747E-12 -0.55983E-15 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.93877E-06 -0.41358E-08 -0.65131E-11  0.88167E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.86427E-06 -0.38076E-08 -0.61413E-11  0.81179E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.70035E-06 -0.30855E-08 -0.49765E-11  0.65781E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.59605E-07  0.26259E-09  0.40586E-12 -0.55976E-15 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.32783E-06 -0.14443E-08 -0.22961E-11  0.30789E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.11027E-05 -0.48579E-08 -0.80297E-11  0.10358E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.74506E-06 -0.32824E-08 -0.53199E-11  0.69980E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration       400000 - elapsed time:  0 h :  0 m : 56.203 s
+
+
+    400000    -0.2544560973E+06    0.1475335815E+03    0.2080276313E+03   -0.2546384891E+06
+              -0.2563580069E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2544720604E+06    0.1327082258E+03    0.2075659839E+03   -0.2546422291E+06
+              -0.3739729245E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c          9.0000         14.3211
+ O_C      c         18.0000         28.6422
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2               9.0000         14.3211
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.11921E-05 -0.52518E-08 -0.85955E-11  0.11197E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.80466E-06 -0.35450E-08 -0.56629E-11  0.75577E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.10133E-05 -0.44641E-08 -0.70971E-11  0.95166E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.12964E-05 -0.57114E-08 -0.89520E-11  0.12175E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.19073E-05 -0.84029E-08 -0.13619E-10  0.17915E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.22650E-05 -0.99785E-08 -0.15567E-10  0.21271E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.19819E-05 -0.87312E-08 -0.14360E-10  0.18616E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.18924E-05 -0.83373E-08 -0.12768E-10  0.17772E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.18179E-05 -0.80090E-08 -0.13108E-10  0.17076E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.18626E-05 -0.82060E-08 -0.13172E-10  0.17495E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration       500000 - elapsed time:  0 h :  1 m : 10.874 s ( 70.874)
+
+
+    500000    -0.2544955646E+06    0.1102044247E+03    0.2087634411E+03   -0.2546553749E+06
+              -0.4895317516E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2544693150E+06    0.1352732113E+03    0.2064985779E+03   -0.2546414352E+06
+              -0.3437842105E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c         19.0000         13.4775
+ O_C      c         38.0000         26.9550
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2              19.0000         13.4775
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.38743E-05 -0.17068E-07 -0.26628E-10  0.36385E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.20713E-05 -0.91251E-08 -0.15158E-10  0.19456E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.27269E-05 -0.12014E-07 -0.18830E-10  0.25610E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.26226E-05 -0.11554E-07 -0.18110E-10  0.24631E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.16838E-05 -0.74182E-08 -0.11573E-10  0.15814E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.22948E-05 -0.10110E-07 -0.16385E-10  0.21554E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.64075E-06 -0.28229E-08 -0.44454E-11  0.60177E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.23693E-05 -0.10438E-07 -0.16917E-10  0.22254E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.28163E-05 -0.12407E-07 -0.19820E-10  0.26451E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.19968E-05 -0.87968E-08 -0.14257E-10  0.18755E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration       600000 - elapsed time:  0 h :  1 m : 25.418 s ( 85.418)
+
+
+    600000    -0.2544591891E+06    0.1446555802E+03    0.2078322081E+03   -0.2546384579E+06
+              -0.2856339704E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2544624552E+06    0.1417755324E+03    0.2072577440E+03   -0.2546392470E+06
+              -0.3046597886E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c         10.0000         11.8058
+ O_C      c         20.0000         23.6116
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2              10.0000         11.8058
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.19073E-05 -0.84029E-08 -0.13686E-10  0.17915E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.19372E-05 -0.85342E-08 -0.13633E-10  0.18195E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.14156E-05 -0.62365E-08 -0.97294E-11  0.13295E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.14305E-05 -0.63022E-08 -0.10165E-10  0.13436E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.17285E-05 -0.76152E-08 -0.12107E-10  0.16235E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.16838E-05 -0.74182E-08 -0.12262E-10  0.15817E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.13411E-05 -0.59083E-08 -0.98145E-11  0.12597E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.19222E-05 -0.84686E-08 -0.12792E-10  0.18051E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.20862E-05 -0.91907E-08 -0.14474E-10  0.19592E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.10729E-05 -0.47266E-08 -0.73739E-11  0.10076E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration       700000 - elapsed time:  0 h :  1 m : 39.200 s ( 99.200)
+
+
+    700000    -0.2545125486E+06    0.9428953981E+02    0.2024737997E+03   -0.2546492595E+06
+              -0.6576285933E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2545071452E+06    0.9916617721E+02    0.2027903774E+03   -0.2546484327E+06
+              -0.6150289701E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c         24.0000         21.5366
+ O_C      c         48.0000         43.0732
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2              24.0000         21.5366
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.20564E-05 -0.90594E-08 -0.13810E-10  0.19311E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.12666E-05 -0.55801E-08 -0.90881E-11  0.11897E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.53644E-06 -0.23633E-08 -0.38303E-11  0.50385E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.11325E-05 -0.49892E-08 -0.80863E-11  0.10637E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.13858E-05 -0.61053E-08 -0.97528E-11  0.13016E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.18626E-05 -0.82060E-08 -0.13365E-10  0.17495E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.20117E-05 -0.88625E-08 -0.13698E-10  0.18892E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.25481E-05 -0.11226E-07 -0.17351E-10  0.23929E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.10431E-05 -0.45954E-08 -0.71690E-11  0.97960E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.13411E-05 -0.59083E-08 -0.94382E-11  0.12596E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration       800000 - elapsed time:  0 h :  1 m : 53.161 s (113.161)
+
+
+    800000    -0.2544464328E+06    0.1571980234E+03    0.2085999025E+03   -0.2546320873E+06
+              -0.2294541855E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2544593970E+06    0.1447739901E+03    0.2063592598E+03   -0.2546357105E+06
+              -0.3004579144E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c          9.0000         11.5264
+ O_C      c         18.0000         23.0528
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2               9.0000         11.5264
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.20415E-05 -0.89938E-08 -0.14720E-10  0.19176E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.13709E-05 -0.60396E-08 -0.94222E-11  0.12875E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.15646E-05 -0.68930E-08 -0.11118E-10  0.14695E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.21905E-05 -0.96502E-08 -0.15269E-10  0.20573E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.12815E-05 -0.56457E-08 -0.88909E-11  0.12036E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.25332E-06 -0.11160E-08 -0.17249E-11  0.23790E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.16093E-05 -0.70900E-08 -0.11113E-10  0.15114E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.20266E-05 -0.89281E-08 -0.14127E-10  0.19033E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.98348E-06 -0.43328E-08 -0.65748E-11  0.92352E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.19521E-05 -0.85999E-08 -0.13672E-10  0.18334E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration       900000 - elapsed time:  0 h :  2 m :  7.278 s (127.278)
+
+
+    900000    -0.2544802387E+06    0.1244612563E+03    0.2060097254E+03   -0.2546455893E+06
+              -0.4065912883E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2544723394E+06    0.1324415943E+03    0.2063084746E+03   -0.2546409756E+06
+              -0.3767231329E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c         14.0000         14.3792
+ O_C      c         28.0000         28.7584
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2              14.0000         14.3792
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.80466E-06 -0.35450E-08 -0.56629E-11  0.75573E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.53644E-06 -0.23633E-08 -0.38680E-11  0.50388E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.11921E-06 -0.52518E-09 -0.78975E-12  0.11194E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.87917E-06 -0.38732E-08 -0.63392E-11  0.82580E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.13411E-05 -0.59083E-08 -0.94836E-11  0.12596E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.10133E-05 -0.44641E-08 -0.69642E-11  0.95161E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.11027E-05 -0.48579E-08 -0.79120E-11  0.10357E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum =  0.32783E-06  0.14443E-08  0.22744E-11 -0.30788E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.13411E-05 -0.59083E-08 -0.95759E-11  0.12597E-13 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.77486E-06 -0.34137E-08 -0.54794E-11  0.72781E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ Iteration      1000000 - elapsed time:  0 h :  2 m : 21.128 s (141.128)
+
+
+   1000000    -0.2544835542E+06    0.1215734046E+03    0.2057915229E+03   -0.2546433195E+06
+              -0.4602621864E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+
+
+              -0.2544673623E+06    0.1371426158E+03    0.2079342725E+03   -0.2546418126E+06
+              -0.3348396168E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.1466128426E+05    0.2447507350E+02    0.2447507350E+02    0.2447507350E+02
+               0.9000000000E+02    0.9000000000E+02    0.9000000000E+02
+           
+ Si       c        192.0000        192.0000
+ O_       c        384.0000        384.0000
+ C_       c         16.0000         13.0878
+ O_C      c         32.0000         26.1756
+ Xe       c          8.0000          8.0000
+
+ zeolite           1.0000          1.0000
+
+ co2              16.0000         13.0878
+ ----------------------------------------------------------------------------------------------------
+
+ Workgroup    0, box    1 check: U_recalc - U_accum = -0.19372E-06 -0.85342E-09 -0.13504E-11  0.18193E-14 (internal, kT, kT/atom, dU/U)
+
+ ----------------------------------------------------------------------------------------------------
+
+
+
+ ====================================================================================================
+                          averages and fluctuations
+ ----------------------------------------------------------------------------------------------------
+      avrg      en-total            h-total             coul-rcp            coul-real
+      avrg      en-vdw              en-three            en-pair             en-angle 
+      avrg      en-four             en-many             en-external         en-extMFA
+      flct      en-total            h-total             coul-rcp            coul-real
+      flct      en-vdw              en-three            en-pair             en-angle 
+      flct      en-four             en-many             en-external         en-extMFA
+ ----------------------------------------------------------------------------------------------------
+    950000    -0.2544744812E+06    0.1303693227E+03    0.2062896373E+03   -0.2546417593E+06
+              -0.3901149134E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+
+               0.1951913706E+02    0.1856201583E+02    0.2320374728E+01    0.5921785460E+01
+               0.1337877714E+02    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+               0.0000000000E+00    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+
+
+
+ average cell parameters and fluctuations
+
+          vol   =     0.1466128426E+05    0.0000000000E+00
+          a     =        24.4750735002        0.0000000000
+          b     =        24.4750735002        0.0000000000
+          c     =        24.4750735002        0.0000000000
+          alpha =        90.0000000000        0.0000000000
+          beta  =        90.0000000000        0.0000000000
+          gamma =        90.0000000000        0.0000000000
+    
+ Si       c        192.0000          0.0000
+ O_       c        384.0000          0.0000
+ C_       c         14.7042          4.5748
+ O_C      c         29.4084          9.1497
+ Xe       c          8.0000          0.0000
+
+ zeolite           1.0000          0.0000
+
+ co2              14.7042          4.5748
+
+
+ ----------------------------------------------------------------------------
+                          final energies 
+ ----------------------------------------------------------------------------
+
+ break down of energies for box:   1
+
+ total energy                       -0.2544835542E+06
+ reciprocal space coulomb            0.2057915229E+03
+ real space coulomb                 -0.2546433195E+06
+ external mfa coulomb                0.0000000000E+00
+ nonbonded two body (vdw)           -0.4602621864E+02
+ bonded two body (pair)              0.0000000000E+00
+ nonbonded three body                0.0000000000E+00
+ bonded three body (angle)           0.0000000000E+00
+ bonded four body (angle)            0.0000000000E+00
+ many body energy                    0.0000000000E+00
+ external potential energy           0.0000000000E+00
+ total virial                        0.0000000000E+00
+ volume                              0.1466128426E+05
+
+ long-range correction (vdw)         0.0000000000E+00
+
+ components of energies by  molecule: zeolite 
+
+ total energy                       -0.2546558850E+06
+ reciprocal space coulomb            0.0000000000E+00
+ real space coulomb - other types   -0.5977173361E+01
+ real space coulomb - same type     -0.1722520843E+06
+ real space coulomb - self energy   -0.8237642680E+05
+ real space coulomb - corection      0.0000000000E+00
+ vdw - other types mol              -0.2139677471E+02
+ vdw - same type mol                 0.0000000000E+00
+ bonded two body (pair)              0.0000000000E+00
+ nonbonded three body                0.0000000000E+00
+ bonded three body (angle)           0.0000000000E+00
+ many body energy                    0.0000000000E+00
+ external potential energy           0.0000000000E+00
+
+ components of energies by  molecule: co2     
+
+ total energy                       -0.3346065830E+02
+ reciprocal space coulomb            0.0000000000E+00
+ real space coulomb - other types   -0.5977173361E+01
+ real space coulomb - same type     -0.1219873087E+01
+ real space coulomb - self energy   -0.5053915823E+03
+ real space coulomb - corection      0.5037574144E+03
+ vdw - other types mol              -0.2139677471E+02
+ vdw - same type mol                -0.3232669213E+01
+ bonded two body (pair)              0.0000000000E+00
+ nonbonded three body                0.0000000000E+00
+ bonded three body (angle)           0.0000000000E+00
+ many body energy                    0.0000000000E+00
+ external potential energy           0.0000000000E+00
+
+
+ ----------------------------------------------------------------------------
+                          processing data 
+ ----------------------------------------------------------------------------
+
+ total no of attempted & empty mol moves  :    200077         0
+ successful no of mol moves & acceptance  :     75596      0.37783453
+
+ displacement (Angstroms) for zeolite  :   0.1000
+ displacement (Angstroms) for co2      :   0.6353
+
+ total no of mol rotations      :    199876
+ successful no of mol rotations :     78614      0.39331385
+
+ angle of rot for (degrees) zeolite  :   0.0050
+ angle of rot for (degrees) co2      :  35.0337
+
+ attempted molecule inserts  =     300330
+ successful molecule inserts =      27850      0.09273133
+
+ attempted & empty molecule deletes  =     299717         0
+ successful molecule deletes =      27886      0.09304110
+
+
+ pure simulation time (excl. init.):  0 h :  2 m : 21.156 s (141.156)
+
+
+
+
+ total elapsed time   (incl. init.):  0 h :  2 m : 21.178 s (141.178)
+
+
+ normal exit 

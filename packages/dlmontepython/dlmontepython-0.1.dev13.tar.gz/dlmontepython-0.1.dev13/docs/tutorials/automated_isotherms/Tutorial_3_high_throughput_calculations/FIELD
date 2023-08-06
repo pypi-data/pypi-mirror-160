@@ -1,0 +1,31 @@
+zeolite
+CUTOFF 12.0
+UNITS kcal
+NCONFIGS 1
+ATOMS 4
+Si core 28.0 2.4
+O core 16.0 -1.2
+C_ core 12.0 0.6512
+O_C core 16.0 -0.3256
+MOLTYPES 2
+zeolite
+MAXATOM 2304
+co2
+ATOMS 3 3
+C_ core 0.0 0.0 0.0
+O_C core 1.163 0.0 0.0
+O_C core -1.163 0.0 0.0
+RIGID
+EXCLUDE 
+FINISH
+VDW 7 1.0e10
+O core C_ core lj 0.094566874 2.892
+O core O_C core lj 0.15998351 3.033
+C_ core C_ core lj 0.055892323 2.757
+C_ core O_C core lj 0.094566874 2.892
+Si core O core morl 7.853516 2.1 2.006700 23.06
+O core O core morl 0.977671 3.18937 1.88682 507.05
+O_C core O_C core lj 0.19198021199999998 3.033
+CLOSE
+0.340554 	2.006700 	2.100000 
+0.042395 	1.379316 	3.618701 

@@ -1,0 +1,35 @@
+TRAPPE N2 and DREIDING/UFF IRMOF1#Header
+CUTOFF 12 #cutoff in A
+UNITS K 
+NCONFIGS 1 #number of configuration boxes in the CONFIG file
+ATOMTYPES 9 #number of unique atoms in the simulation
+N core 14 -0.482
+M core 0 0.964
+Zn core 65.38 1.147
+O\_Zn core 16 -1.30
+O core 16 -0.63
+C\_OO core 12 0.72 #carbonyl carbon
+C\_COO core 12 -0.071 #C-COO carbon
+C core 12 -0.102 #CH carbon
+H core 1 0.118
+MOLTYPES 2 #number of unique molecules in the sim
+IRMOF1
+MAXATOM 424
+Nitrogen
+ATOMS 3 3
+N core 0 0 -0.55
+M core 0 0 0 #name and cartesian coordinates
+N core 0 0 0.55
+RIGID
+EXCLUDE
+FINISH
+VDW 8 
+N core N core +lj 36.0 3.310
+N core Zn core +lj 47.37 3.037
+N core O\_Zn core +lj 32.95 3.405
+N core O core +lj 41.62 3.358
+N core C\_OO core +lj 41.488 3.604
+N core C\_COO core +lj 41.488 3.604
+N core C core +lj 41.488 3.604
+N core H core +lj 16.584 2.253
+CLOSE
