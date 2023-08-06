@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/maki_proxy.py
+src/makiproxy5.egg-info/PKG-INFO
+src/makiproxy5.egg-info/SOURCES.txt
+src/makiproxy5.egg-info/dependency_links.txt
+src/makiproxy5.egg-info/requires.txt
+src/makiproxy5.egg-info/top_level.txt
