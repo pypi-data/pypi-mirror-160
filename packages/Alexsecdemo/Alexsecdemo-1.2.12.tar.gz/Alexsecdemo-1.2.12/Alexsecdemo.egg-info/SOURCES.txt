@@ -1,0 +1,12 @@
+Alexsecdemoraw.py
+setup.py
+Alexsecdemo.egg-info/PKG-INFO
+Alexsecdemo.egg-info/SOURCES.txt
+Alexsecdemo.egg-info/dependency_links.txt
+Alexsecdemo.egg-info/not-zip-safe
+Alexsecdemo.egg-info/top_level.txt
+mymod1/__init__.py
+mymod1/testmymod1.py
+mymod2/__init__.py
+mymod2/mymod2.py
+zzzsecdemo/zzzsecdemo1.py
