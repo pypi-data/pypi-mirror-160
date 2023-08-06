@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nbgitpuller-link"
+description = "Create an nbgitpuller link"
+authors = [
+  {name = "Mark Piper", email = "mark.piper@colorado.edu"},
+]
+maintainers = [
+  {name = "Mark Piper", email = "mark.piper@colorado.edu"},
+]
+keywords = [
+  "jupyter",
+  "jupyterhub",
+  "notebook",
+  "git",
+  "nbgitpuller",
+]
+license = {text = "MIT License"}
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Education",
+]
+requires-python = ">=3.7"
+dependencies = [
+  "click",
+  "validators",
+]
+dynamic = ["readme", "version"]
+
+[project.urls]
+Homepage = "https://github.com/mdpiper/nbgitpuller-link"
+Documentation = "https://github.com/mdpiper/nbgitpuller-link#readme"
+Repository = "https://github.com/mdpiper/nbgitpuller-link"
+Changelog = "https://github.com/mdpiper/nbgitpuller-link/blob/main/CHANGES.md"
+
+[project.optional-dependencies]
+testing = [
+  "black",
+  "flake8",
+  "isort >=5",
+  "pytest",
+  "pytest-cov",
+  "pytest-datadir",
+  "coveralls",
+]
+
+[project.scripts]
+nbgitpuller-link = "nbgitpuller_link.cli:main"
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md", "LICENSE.md"], content-type = "text/markdown"}
+version = {attr = "nbgitpuller_link._version.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nbgitpuller_link*"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = ["nbgitpuller_link", "tests"]
+norecursedirs = [".*", "*.egg*", "build", "dist"]
+addopts = """
+  --ignore setup.py
+  --tb native
+  --strict
+  --durations 16
+  --doctest-modules
+  -vvv
+"""
+doctest_optionflags = [
+  "NORMALIZE_WHITESPACE",
+  "IGNORE_EXCEPTION_DETAIL",
+  "ALLOW_UNICODE"
+]
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+combine_as_imports = true
+line_length = 88
