@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: foran
+Version: 2022.7.25
+Summary: Answering if a local is in front of its remote.
+Home-page: https://git.sr.ht/~sthagen/foran
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://todo.sr.ht/~sthagen/foran
+Project-URL: Documentation, https://codes.dilettant.life/docs/foran
+Project-URL: Source Code, https://git.sr.ht/~sthagen/foran
+Project-URL: Test Coverage, https://codes.dilettant.life/coverage/foran
+Keywords: git,developer-tools
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8.3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: GitPython (>=3.1.27)
+Requires-Dist: typer (>=0.6.1)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# foran
+
+Answering if a local is in front of its remote.
+
+[License: MIT](https://git.sr.ht/~sthagen/foran/tree/default/item/LICENSE)
+
+[![version](https://img.shields.io/pypi/v/foran.svg?style=flat)](https://pypi.python.org/pypi/foran/)
+[![downloads](https://img.shields.io/pypi/dm/foran.svg?style=flat)](https://pypi.python.org/pypi/foran/)
+[![wheel](https://img.shields.io/pypi/wheel/foran.svg?style=flat)](https://pypi.python.org/pypi/foran/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/foran.svg?style=flat)](https://pypi.python.org/pypi/foran/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/foran.svg?style=flat)](https://pypi.python.org/pypi/foran/)
+
+The English "in front" may translate to the Danish "foran".
+
+... and the default report stem `foran-eller-bagved` alludes to the English "In front or behind?" question which corresponds to the Danish "Foran eller bagved?"
+
+
+## Documentation
+
+User and developer [documentation of foran](https://codes.dilettant.life/docs/foran).
+
+## Bug Tracker
+
+Feature requests and bug reports are bested entered in the [todos of foran](https://todo.sr.ht/~sthagen/foran).
+
+## Primary Source repository
+
+The primary source repository of [foran is at sourcehut](https://git.sr.ht/~sthagen/foran)
+a collection of tools useful for software development.
+
+## Status
+
+Experimental.
+
+**Note**: The default branch is `default`.
