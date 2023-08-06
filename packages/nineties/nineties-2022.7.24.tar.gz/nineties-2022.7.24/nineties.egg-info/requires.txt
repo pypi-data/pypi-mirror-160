@@ -1,0 +1,10 @@
+faker>=13.15.1
+
+[dev]
+black
+coverage
+flake8
+mypy
+pytest
+pytest-cov
+pytest-flake8
