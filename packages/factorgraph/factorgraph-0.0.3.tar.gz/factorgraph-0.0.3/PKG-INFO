@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: factorgraph
+Version: 0.0.3
+Summary: Factor graphs and loopy belief propagation library.
+Home-page: https://github.com/mbforbes/py-factorgraph/
+Author: Maxwell Forbes
+Author-email: mbforbes@gmail.com
+License: MIT
+Keywords: factorgraph factor graph loopy belief propagation lbp sum product
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+UNKNOWN
+
