@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cps3
+Version: 1.0.1
+Summary: Fast list/copy for s3 and in general
+Home-page: https://github.com/drorspei/fassst
+Author: Dror Speiser
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE
+
+# fassst
+Fast tools for S3
+
+

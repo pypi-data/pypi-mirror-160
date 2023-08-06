@@ -1,0 +1,2 @@
+[console_scripts]
+cps3 = cps3.main:main

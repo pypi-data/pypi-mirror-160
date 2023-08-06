@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+python/cps3/__init__.py
+python/cps3/cpsish.py
+python/cps3/main.py
+python/cps3/morefs.py
+python/cps3.egg-info/PKG-INFO
+python/cps3.egg-info/SOURCES.txt
+python/cps3.egg-info/dependency_links.txt
+python/cps3.egg-info/entry_points.txt
+python/cps3.egg-info/requires.txt
+python/cps3.egg-info/top_level.txt
