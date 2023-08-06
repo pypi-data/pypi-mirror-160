@@ -1,0 +1,29 @@
+name: napari-nlm
+display_name: napari NLM
+contributions:
+  commands:
+    - id: napari-nlm.make_sample_data_2d
+      python_name: napari_nlm._sample_data:make_sample_data_2d
+      title: Load sample data from napari NLM
+    
+    - id: napari-nlm.make_sample_data_3d
+      python_name: napari_nlm._sample_data:make_sample_data_3d
+      title: Load sample data from napari NLM
+    
+    - id: napari-nlm.denoise_nlm
+      python_name: napari_nlm._widget:denoise_nlm
+      title: denoise_nlm
+
+  sample_data:
+    - command: napari-nlm.make_sample_data_2d
+      display_name: 2D (noisy bricks)
+      key: unique_id.1
+  
+    - command: napari-nlm.make_sample_data_3d
+      display_name: 3D (noisy cells)
+      key: unique_id.2
+  
+  widgets:
+    - command: napari-nlm.denoise_nlm
+      autogenerate: true
+      display_name: denoise_nlm
