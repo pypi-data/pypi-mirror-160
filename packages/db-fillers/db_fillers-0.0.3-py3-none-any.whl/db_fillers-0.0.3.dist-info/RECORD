@@ -1,0 +1,12 @@
+db_fillers/__init__.py,sha256=BnHCA43yo3wIzbcCTupKL1tO2IKrRb7TF9U1HrLH0t0,87
+db_fillers/_version.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+db_fillers/database.py,sha256=wjVUQdfR3f86RMs6ZKFmebasb00cH074tYZsDh35fKs,7737
+db_fillers/fillers.py,sha256=mhY-_ucrc5Ltixb4C5T-gNNWikk5ZM7U0SwWpUvo9rI,5719
+db_fillers/getters.py,sha256=uIagjzl9Wgzza5jS2jUawQC66sMp_rwbAOBcq0X-Eac,2372
+db_fillers/init_script.sql,sha256=Od7qvMuarAQAbpTSWAimzT1BurVOMZ4T8S-bdyiE95Q,477
+db_fillers/initscript.sql,sha256=Od7qvMuarAQAbpTSWAimzT1BurVOMZ4T8S-bdyiE95Q,477
+db_fillers-0.0.3.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+db_fillers-0.0.3.dist-info/METADATA,sha256=QV0Ra82QyZtsyUH0R56MWE4rb7S6HW7-4LEcdeux5p4,486
+db_fillers-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+db_fillers-0.0.3.dist-info/top_level.txt,sha256=nyaezffNqsl2dRRzgEZYJsLa2GyL4flwnUbzZM1K9ZQ,11
+db_fillers-0.0.3.dist-info/RECORD,,
