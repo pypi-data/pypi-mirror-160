@@ -1,0 +1,2 @@
+[console_scripts]
+pyetta = pyetta.cli_entry:main

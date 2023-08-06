@@ -1,0 +1,11 @@
+pyserial
+click>=8.0
+pyocd>=0.34
+colorama
+prettytable
+junit-xml
+
+[dev]
+pytest
+sphinx
+sphinx-rtd-theme
