@@ -1,0 +1,7 @@
+optimus_id/__init__.py,sha256=Ci9RJ9zsCm85n1JUpsHElaNfKCQZDQbKb7VdYyGjmKA,76
+optimus_id/optimus.pyx,sha256=CSAixwKe7PCMNbtn-g_5M5QrOYNKNRWdyyrTPOwtHjk,2217
+optimus_id/optimus.c,sha256=vefYUqUWLARgG4VryssnWZCJZuI3N53mGQWSVXD68xo,327763
+optimus_id-1.1.0.dist-info/LICENSE,sha256=CVY6u4g08Noa5OeTktd-u4KKNugMVpuwmraHWuB9zNI,1070
+optimus_id-1.1.0.dist-info/WHEEL,sha256=4i2ILsAjP3g_BDyHNBp53nLRXGX8Fl1BbijFBoQQcu4,100
+optimus_id-1.1.0.dist-info/METADATA,sha256=2qAnA2WgwjBksvCUE9CvEFpTWUT2mgmoHg_hd69FX9Q,4346
+optimus_id-1.1.0.dist-info/RECORD,,
