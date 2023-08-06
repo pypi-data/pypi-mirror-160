@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: BCPy2000
+Version: 1.5
+Summary: A reimplementation of BCI2000 using Python
+Home-page: https://github.com/neurotechcenter/BCpy2000
+Author: Nicholas Luczak
+Author-email: luczak@neurotechcenter.org
+License: GNU
+Description: UNKNOWN
+Keywords: brain-computer interface,PsychoPy,experiment design,experiment control,science,neuroscience
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
