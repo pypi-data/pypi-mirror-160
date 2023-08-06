@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+        <head>
+                <!-- Page information -->
+                <meta charset="UTF-8" />
+                <meta name="node_id" content="{node_id}">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <link rel="shortcut icon" href="/favicon.ico" />
+
+                <!-- Set title -->
+                <title>{title}</title>
+
+                <!-- Includes -->
+                {dynamic_includes}
+
+                <!-- Onload tweaks -->
+                <script>
+                        const CURRENT_NODE = '{pinnedNode}';
+                </script>
+        </head>
+
+<body class="theme-obs-light">
+        <div id="antiflash"></div>
+        {search_html}
+        <div id="page_holder" class="flex_col">
+                <div id="header" class="header" style="position:fixed">
+                        <div id="header_flex" class="flex_row">
+                                <a href="{html_url_prefix}/index.html" id="homelink" title="Clear screen and go to homepage">{title}</a>
+                                <div class="navbar-button" onclick="toggle_menu()">
+                                        ≡
+                                </div>
+                                <div id="navbar" class="navbar">
+                                        {{navbar_links}}
+                                        <div class="icon-tray">
+                                                {theme_button}
+                                                {search_button}
+                                                {graph_button}
+                                                {dirtree_button}
+                                                {tags_page_button}
+                                                {rss_button}
+                                        </div>
+                                </div>
+                        </div>
+                        {theme_popup}
+                </div>
+                <div id="header2" class="header">
+                        <div id="header_flex2" class="flex_row">
+                                <a href="{html_url_prefix}/index.html" id="homelink" title="Clear screen and go to homepage">{title}</a>
+                                <div class="navbar-button" onclick="toggle_menu()">
+                                        ≡
+                                </div>
+                                <div id="navbar2" class="navbar">
+                                        {{navbar_links}}
+                                        <div class="icon-tray">
+                                                {theme_button}
+                                                {search_button}
+                                                {graph_button}
+                                                {dirtree_button}
+                                                {tags_page_button}
+                                                {rss_button}
+                                        </div>
+                                </div>
+                        </div>
+                        {theme_popup}
+                </div>
+                <div class="flex_row" id="container_row">
+                        <div class="container-wrapper {container_wrapper_class_list}">
+                                <div class="container">
+                                {content}
+                                <!-- end content -->
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        {footer_js_inclusions}
+</body>
+</html>
