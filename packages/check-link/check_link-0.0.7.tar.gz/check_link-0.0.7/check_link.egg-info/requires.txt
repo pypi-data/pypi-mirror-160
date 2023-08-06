@@ -1,0 +1,15 @@
+httpx
+requests
+
+[cli]
+click
+
+[dev]
+pytest
+pytest-httpx
+pytest-cov
+aioresponses
+responses
+faker
+
+[faster]
