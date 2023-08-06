@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: package-circle-to-polygon
+Version: 0.0.1
+Summary: A small example package
+Author: leihb
+Author-email: leihaibo1992@gmail.com
+License: MIT License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+# README
