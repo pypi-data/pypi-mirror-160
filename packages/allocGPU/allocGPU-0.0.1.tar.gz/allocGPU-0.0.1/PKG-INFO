@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: allocGPU
+Version: 0.0.1
+Summary: A Python library that automatically sets multiple gpus.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Public Domain
+Description: UNKNOWN
+Platform: any
