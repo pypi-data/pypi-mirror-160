@@ -1,0 +1,4 @@
+defaults:
+  - _train
+  - override score_function: npmi
+  - override scores: pmi
