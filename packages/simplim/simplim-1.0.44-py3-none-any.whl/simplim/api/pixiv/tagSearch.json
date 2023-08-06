@@ -1,0 +1,42 @@
+{
+    "error": false,
+    "body": {
+        "tag": "pokemon",
+        "word": "pokemon",
+        "pixpedia": {
+            "abstract": "pokemon\u3068\u306f\u30dd\u30b1\u30e2\u30f3\uff08\u30dd\u30b1\u30c3\u30c8\u30e2\u30f3\u30b9\u30bf\u30fc\uff09\u306e\u3053\u3068\u3002\u8ee2\u9001\u8a18\u4e8b\u3002\r\n",
+            "image": "https://i.pximg.net/c/384x280_80_a2_g2/img-master/img/2011/07/20/02/05/30/20446076_p0_master1200.jpg",
+            "id": "20446076",
+            "yomigana": "\u307d\u3051\u3082\u3093",
+            "parentTag": "\u30dd\u30b1\u30e2\u30f3",
+            "siblingsTags": [
+                "\u30dd\u30b1\u30e2\u30f3\u30c8\u30ec\u30fc\u30ca\u30fc",
+                "\u30a2\u30cb\u30dd\u30b1"
+            ],
+            "childrenTags": [
+                "pkmn"
+            ]
+        },
+        "breadcrumbs": {
+            "successor": [
+                {
+                    "tag": "pokemon",
+                    "translation": {
+                        "zh": "pokemon"
+                    }
+                }
+            ],
+            "current": []
+        },
+        "myFavoriteTags": [],
+        "tagTranslation": {
+            "pokemon": {
+                "en": "",
+                "ko": "\ud3ec\ucf13\ubaac",
+                "zh": "",
+                "zh_tw": "",
+                "romaji": ""
+            }
+        }
+    }
+}
