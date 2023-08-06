@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: discord-interactions-flask
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/buckley-w-david/discord-interactions-flask
+License: MIT
+Author: David Buckley
+Author-email: david@davidbuckley.ca
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Flask (>=2.1.3,<3.0.0)
+Requires-Dist: PyNaCl (>=1.5.0,<2.0.0)
+Requires-Dist: jsons (>=1.6.3,<2.0.0)
+Requires-Dist: urllib3 (>=1.26.10,<2.0.0)
+Project-URL: Repository, https://github.com/buckley-w-david/discord-interactions-flask
+Description-Content-Type: text/markdown
+
+# discord-interactions-flask
+
+A [Flask](https://github.com/pallets/flask/) extension to support interacting with [Discord Interactions](https://discord.com/developers/docs/interactions/application-commands).
+
+Check out the [quickstart](https://docs.davidbuckley.ca/discord-interactions-flask/usage/quickstart.html) or the [examples directory](/examples) for an idea of how to use it.
+
+```python
+import os
+
+from flask import Flask
+
+from discord_interactions_flask import Discord
+from discord_interactions_flask import helpers
+from discord_interactions_flask.interactions ChatInteraction
+
+app = Flask(__name__)
+app.config['DISCORD_PUBLIC_KEY'] = os.environ['DISCORD_PUBLIC_KEY']
+app.config['DISCORD_CLIENT_ID'] = os.environ['DISCORD_CLIENT_ID']
+app.config['DISCORD_CLIENT_SECRET'] = os.environ['DISCORD_CLIENT_SECRET']
+
+discord = Discord()
+
+@discord.command("slash-example")
+def chat_command(interaction: ChatInteraction) -> types.InteractionResponse:
+    return helpers.content_response("Hello, World!")
+
+chat_command.description = "Say hello via a slash command"
+
+discord.init_app(app)
+```
+
