@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+pytest = "*"
+black = "*"
+isort = "*"
+flake8 = "*"
+mypy = "*"
+typing-extensions = "*"
+pytest-cov = "*"
+coverage = "*"
+build = "*"
+
+[scripts]
+test = "pytest"
+coverage = "pytest --cov=throttle_controller tests"
+format = "sh -c 'isort tests/ throttle_controller/ ; black tests/ throttle_controller/'"
+lint = "sh -c 'flake8 tests/ throttle_controller/ && mypy tests/ throttle_controller/ && isort --check tests/ throttle_controller/ && black --check tests/ throttle_controller/'"
