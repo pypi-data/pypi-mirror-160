@@ -1,0 +1,6 @@
+README.txt
+setup.py
+pymzl/pymzl.egg-info/PKG-INFO
+pymzl/pymzl.egg-info/SOURCES.txt
+pymzl/pymzl.egg-info/dependency_links.txt
+pymzl/pymzl.egg-info/top_level.txt
