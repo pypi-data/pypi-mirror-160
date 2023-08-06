@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: unotify
+Version: 1.1
+Summary: Simple Python Linux/Ubuntu Notify Package
+Home-page: UNKNOWN
+Author: Gowixx
+Author-email: <ItsGowixx@gmail.com>
+License: UNKNOWN
+Keywords: python,notify,toast,notification
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# uNotify
+> Notification library for Linux/Ubuntu
+
+## Installing w/ PyPi
+> `$ pip install unotify`
+
+## Installing w/ Git
+> `$ git clone https://github.com/Gowixx/unotify.git` <br />
+> `$ cd unotify-main` <br />
+> `$ python3 setup.py install`<br />
+
