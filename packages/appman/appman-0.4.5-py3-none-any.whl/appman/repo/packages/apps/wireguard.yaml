@@ -1,0 +1,10 @@
+id: wireguard
+name: Wireguard
+description: Fast, modern, secure kernel VPN tunnel
+labels:
+  - network
+  - security
+formulas:
+  apt: wireguard
+  pacman: wireguard-tools
+  winget: WireGuard.WireGuard

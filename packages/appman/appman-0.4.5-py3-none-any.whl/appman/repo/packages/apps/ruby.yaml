@@ -1,0 +1,12 @@
+id: ruby
+name: ruby
+description: A dynamic programming language with a focus on simplicity and productivity
+labels:
+  - cli
+  - dev-tools
+  - prog-langs
+formulas:
+  brew: ruby
+  dnf: ruby
+  pacman: ruby
+  scoop: ruby

@@ -1,0 +1,8 @@
+id: abbr
+name: abbr
+description: Command-line tool to look up abbreviations for terms
+labels:
+  - cli
+  - utils
+formulas:
+  pip: abbr-cli

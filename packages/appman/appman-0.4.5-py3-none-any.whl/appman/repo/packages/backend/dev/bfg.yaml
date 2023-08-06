@@ -1,0 +1,6 @@
+id: bfg
+name: bfg
+description: BFG Repo-Cleaner removes large or troublesome blobs like git-filter-branch does, but faster
+labels: []
+formulas:
+  scoop: bfg

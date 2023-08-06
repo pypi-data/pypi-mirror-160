@@ -1,0 +1,11 @@
+id: hyperfine
+name: hyperfine
+description: A command-line benchmarking tool
+homepage: https://github.com/sharkdp/hyperfine
+labels:
+  - cli
+  - utils
+formulas:
+  brew: hyperfine
+  cargo: hyperfine
+  pacman: hyperfine

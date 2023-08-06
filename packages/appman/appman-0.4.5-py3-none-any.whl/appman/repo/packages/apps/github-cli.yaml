@@ -1,0 +1,16 @@
+id: github-cli
+name: GitHub CLI
+description: Official GitHub CLI
+labels:
+  - cli
+  - dev-tools
+formulas:
+  brew: gh
+  choco: gh
+  conda:
+    pmid: gh
+    channel: conda-forge
+  dnf: gh
+  pacman: github-cli
+  scoop: gh
+  winget: GitHub.cli

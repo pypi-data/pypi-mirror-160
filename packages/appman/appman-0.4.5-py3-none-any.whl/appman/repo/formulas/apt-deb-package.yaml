@@ -1,0 +1,14 @@
+os: ubuntu
+commands:
+  install: >-
+    DEBPATH=~/tmp/$(basename $source)
+    && wget -q -O $DEBPATH $source
+    && sudo apt-get install -yqq $DEBPATH
+    && rm $DEBPATH
+  uninstall: sudo apt-get remove -yqq $name
+  installed: apt list --installed -qq $name
+args:
+  - name
+  - source
+requires:
+  - wget

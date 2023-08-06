@@ -1,0 +1,6 @@
+id: vcplusplus-redist
+name: Microsoft Visual C++ Redistributable
+labels:
+  - dev-tools
+formulas:
+  winget: Microsoft.VC++2015-2022Redist-x64

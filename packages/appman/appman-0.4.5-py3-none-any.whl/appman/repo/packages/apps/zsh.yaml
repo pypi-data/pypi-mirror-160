@@ -1,0 +1,9 @@
+id: zsh
+name: zsh
+labels:
+  - cli
+formulas:
+  apt: zsh
+  brew: zsh
+  dnf: zsh
+  pacman: zsh

@@ -1,0 +1,14 @@
+id: postgresql
+name: postgresql
+labels:
+  - cli
+  - dev-tools
+  - db
+formulas:
+  apt: postgresql
+  brew: postgresql
+  choco: postgresql
+  dnf: postgresql
+  pacman: postgresql
+  scoop: postgresql
+  winget: PostgreSQL.PostgreSQL

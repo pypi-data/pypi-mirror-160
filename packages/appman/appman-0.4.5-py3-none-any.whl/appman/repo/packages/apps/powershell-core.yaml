@@ -1,0 +1,14 @@
+id: powershell-core
+name: Powershell Core
+description: Cross-platform automation and configuration tool/framework, known as
+  Powershell Core, that works well with existing tools and is optimized for dealing
+  with structured data
+labels:
+  - cli
+formulas:
+  choco: powershell-core
+  scoop: pwsh
+  winget: Microsoft.PowerShell
+  apt-deb-package:
+    name: powershell
+    source: https://github.com/PowerShell/PowerShell/releases/download/v7.1.3/powershell_7.1.3-1.ubuntu.20.04_amd64.deb

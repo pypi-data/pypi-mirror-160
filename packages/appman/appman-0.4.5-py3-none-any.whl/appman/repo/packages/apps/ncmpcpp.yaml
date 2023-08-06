@@ -1,0 +1,10 @@
+id: ncmpcpp
+name: ncmpcpp
+labels:
+  - cli
+  - music
+formulas:
+  apt: ncmpcpp
+  brew: ncmpcpp
+  dnf: ncmpcpp
+  pacman: ncmpcpp

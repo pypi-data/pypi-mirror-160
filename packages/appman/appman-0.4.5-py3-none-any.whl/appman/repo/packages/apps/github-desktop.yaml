@@ -1,0 +1,9 @@
+id: github-desktop
+name: GitHub Desktop
+description: GitHub Desktop
+labels:
+  - gui
+  - dev-tools
+formulas:
+  choco: github-desktop
+  winget: GitHub.GitHubDesktop

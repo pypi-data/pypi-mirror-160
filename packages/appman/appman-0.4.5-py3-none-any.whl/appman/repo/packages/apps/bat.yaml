@@ -1,0 +1,15 @@
+id: bat
+name: bat
+description: A cat(1) clone with syntax highlighting and Git integration
+comments: https://github.com/sharkdp/bat#on-ubuntu-using-apt
+labels:
+  - cli
+  - utils
+formulas:
+  brew: bat
+  dnf: bat
+  pacman: bat
+  scoop: bat
+  apt-deb-package:
+    name: bat
+    source: https://github.com/sharkdp/bat/releases/download/v0.19.0/bat_0.19.0_amd64.deb

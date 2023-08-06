@@ -1,0 +1,6 @@
+id: vcredist2017
+name: vcredist2017
+description: Microsoft Visual C++ Redistributable for Visual Studio 2017
+labels: []
+formulas:
+  scoop: vcredist2017

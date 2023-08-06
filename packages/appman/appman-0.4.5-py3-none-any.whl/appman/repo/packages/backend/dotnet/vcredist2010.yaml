@@ -1,0 +1,6 @@
+id: vcredist2010
+name: vcredist2010
+description: Microsoft Visual C++ Redistributable for Visual Studio 2010
+labels: []
+formulas:
+  scoop: vcredist2010

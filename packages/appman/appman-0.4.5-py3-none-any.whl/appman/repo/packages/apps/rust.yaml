@@ -1,0 +1,21 @@
+id: rust
+name: rust
+description: A language empowering everyone to build reliable and efficient software.
+  (GNU toolchain)
+labels:
+  - cli
+  - dev-tools
+  - prog-langs
+formulas:
+  brew: rust
+  choco: rust
+  scoop: rust
+  winget: Rustlang.rust-gnu
+custom-formulas:
+  - os: unix-like
+    commands:
+      install: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+      uninstall: rustup self uninstall
+      installed: command -v rustup
+    requires:
+      - curl

@@ -1,0 +1,7 @@
+id: fontconfig
+name: fontconfig
+labels: []
+formulas:
+  apt: fontconfig
+  dnf: fontconfig
+  pacman: fontconfig

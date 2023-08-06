@@ -1,0 +1,11 @@
+id: typora
+name: typora
+description: a markdown editor, markdown reader.
+homepage: https://typora.io/
+labels:
+  - gui
+  - notes
+  - editor
+formulas:
+  snap: typora
+  winget: Typora.Typora

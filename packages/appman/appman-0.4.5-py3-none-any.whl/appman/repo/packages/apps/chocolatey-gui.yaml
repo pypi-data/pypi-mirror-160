@@ -1,0 +1,8 @@
+id: chocolatey-gui
+name: Chocolatey GUI
+labels:
+  - gui
+  - package-manager
+formulas:
+  choco: chocolateygui
+  winget: Chocolatey.ChocolateyGUI

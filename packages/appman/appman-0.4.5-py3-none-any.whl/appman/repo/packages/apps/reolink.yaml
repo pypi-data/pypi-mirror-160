@@ -1,0 +1,7 @@
+id: reolink
+name: Reolink
+labels:
+  - gui
+  - security
+formulas:
+  winget: Reolink.Reolink

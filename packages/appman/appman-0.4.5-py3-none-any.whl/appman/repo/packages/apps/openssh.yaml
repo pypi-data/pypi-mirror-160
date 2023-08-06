@@ -1,0 +1,9 @@
+id: openssh
+name: openssh
+description: A suite of secure networking utilities based on the Secure Shell protocol
+labels:
+  - cli
+  - security
+formulas:
+  scoop: openssh
+  dnf: openssh

@@ -1,0 +1,12 @@
+id: obsidian
+name: Obsidian
+description: Obsidian is a powerful knowledge base on top of a local folder
+  of plain text Markdown files.
+homepage: https://obsidian.md/
+labels:
+  - gui
+  - notes
+  - editor
+formulas:
+  choco: obsidian
+  winget: Obsidian.Obsidian

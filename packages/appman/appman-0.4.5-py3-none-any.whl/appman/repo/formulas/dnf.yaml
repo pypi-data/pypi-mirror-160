@@ -1,0 +1,7 @@
+os: fedora
+commands:
+  init: sudo dnf upgrade -yq
+  install: sudo dnf install -yq $pmid
+  uninstall: sudo dnf remove -yq $pmid
+  update-all: sudo dnf upgrade -yq
+  installed: dnf list --installed -q $pmid

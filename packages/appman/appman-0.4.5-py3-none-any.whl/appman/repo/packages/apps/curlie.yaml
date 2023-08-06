@@ -1,0 +1,11 @@
+id: curlie
+name: curlie
+description: The power of curl, the ease of use of httpie.
+homepage: https://github.com/rs/curlie
+labels:
+  - cli
+  - utils
+formulas:
+  brew: rs/tap/curlie
+  choco: httpie
+  go: github.com/rs/curlie@latest

@@ -1,0 +1,10 @@
+id: tree
+name: tree
+labels:
+  - cli
+  - utils
+formulas:
+  apt: tree
+  brew: tree
+  dnf: tree
+  pacman: tree

@@ -1,0 +1,10 @@
+id: wget
+name: wget
+labels:
+  - cli
+  - utils
+formulas:
+  apt: wget
+  brew: wget
+  dnf: wget
+  pacman: wget
