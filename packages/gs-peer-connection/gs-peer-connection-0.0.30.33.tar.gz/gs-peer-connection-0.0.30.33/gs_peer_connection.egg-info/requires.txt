@@ -1,0 +1,5 @@
+aiortc
+aiohttp
+python-socketio
+opencv-python
+crc32c
