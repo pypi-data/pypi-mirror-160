@@ -1,0 +1,6 @@
+flashy.py
+setup.py
+flashy.egg-info/PKG-INFO
+flashy.egg-info/SOURCES.txt
+flashy.egg-info/dependency_links.txt
+flashy.egg-info/top_level.txt
