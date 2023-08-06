@@ -1,0 +1,10 @@
+gitpython
+discord-webhook
+jesse
+pandas
+
+[dev]
+check-manifest
+
+[test]
+coverage
