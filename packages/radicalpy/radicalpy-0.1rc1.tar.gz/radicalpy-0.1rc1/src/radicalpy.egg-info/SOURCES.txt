@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+setup.py
+src/radicalpy/__init__.py
+src/radicalpy/data.py
+src/radicalpy/pauli_matrices.py
+src/radicalpy/simulation.py
+src/radicalpy.egg-info/PKG-INFO
+src/radicalpy.egg-info/SOURCES.txt
+src/radicalpy.egg-info/dependency_links.txt
+src/radicalpy.egg-info/requires.txt
+src/radicalpy.egg-info/top_level.txt
+src/radicalpy/data/spin_data.json
+src/radicalpy/data/molecules/adenine.json
