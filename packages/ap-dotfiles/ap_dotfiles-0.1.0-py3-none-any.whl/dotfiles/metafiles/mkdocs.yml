@@ -1,0 +1,21 @@
+site_name: xxxxx
+site_url: https://xxxx/xxxxx
+repo_url: https://github.com/xxxx/xxxxx
+site_description: "xxxx"
+copyright: xxxx
+
+theme:
+  name: material
+  logo: xxxxx.png
+  favicon: xxxxxx.png
+
+nav:
+  - xxxxx: xxxxx.md
+
+
+plugins:
+  - search
+  - mkdocstrings
+
+docs_dir: site/xxxxx
+site_dir: docs/xxxxx
