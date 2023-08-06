@@ -1,0 +1,8 @@
+qloader/__init__.py,sha256=gF6QV8gGEvOo2laL8nI8ZOZJuXURmnSywaa9bnB2cPQ,23
+qloader/args.py,sha256=OSZoVRe4l4b3-j_fUPHVuMoqQIlUBgQjgyuNIyamY8E,2604
+qloader/browserdriver.py,sha256=PyYBAPMGYjoCv6ZAlZavZHXsImRZPFggFr5T82J04Kw,7627
+qloader/logger.py,sha256=EfRndUGasdw4Icu2m66J6DqFd-S1MFIbEdDNs8c2GvQ,1659
+qloader/query.py,sha256=njeInMb9eVraXS35PqlSo1I0GBli8AvnXR7ynfCpjXo,9196
+qloader-8.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+qloader-8.1.5.dist-info/METADATA,sha256=ifFPxWpAsHvxS-TyNVYgHvH7fhKGlhMwGP60GHKxw_k,520
+qloader-8.1.5.dist-info/RECORD,,
