@@ -1,0 +1,3 @@
+scooby
+uvicorn
+werkzeug
