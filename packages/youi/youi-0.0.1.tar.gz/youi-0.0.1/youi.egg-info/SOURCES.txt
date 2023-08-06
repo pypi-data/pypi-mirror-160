@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+youi/__init__.py
+youi.egg-info/PKG-INFO
+youi.egg-info/SOURCES.txt
+youi.egg-info/dependency_links.txt
+youi.egg-info/requires.txt
+youi.egg-info/top_level.txt
