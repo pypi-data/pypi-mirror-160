@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+tmp/__init__.py
+tmp/main.py
+tmp_sample.egg-info/PKG-INFO
+tmp_sample.egg-info/SOURCES.txt
+tmp_sample.egg-info/dependency_links.txt
+tmp_sample.egg-info/top_level.txt
