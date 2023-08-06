@@ -1,0 +1,3 @@
+[console_scripts]
+re_binmerge=re_helpers.binmerge:main
+
