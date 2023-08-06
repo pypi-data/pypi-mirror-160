@@ -1,0 +1,65 @@
+### BUILD CONFIG ###
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+
+[project]
+authors = [{name = "Ben Soyka", email = "bensoyka@icloud.com"}]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+]
+dynamic = ["version", "description"]
+license = {file = "LICENSE"}
+name = "blabber"
+readme = "README.md"
+requires-python = "~=3.7"
+
+[tool.flit.module]
+name = "blabber"
+
+[tool.flit.external-data]
+directory = "blabber/data"
+
+[project.urls]
+Changelog = "https://github.com/bsoyka/blabber/releases"
+# Documentation = ""
+Source = "https://github.com/bsoyka/blabber"
+
+### TOOLS ###
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+line_length = 79
+profile = "black"
+
+[tool.poe.tasks]
+_black = "black ."
+_isort = "isort ."
+format = ["_black", "_isort"]
+install = "flit install"
+test = "tox"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py37,py38,py39,py310
+isolated_build = True
+[testenv]
+deps = pytest
+commands = pytest
+"""
