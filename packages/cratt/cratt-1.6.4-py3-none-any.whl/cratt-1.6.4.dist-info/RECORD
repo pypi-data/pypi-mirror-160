@@ -1,0 +1,12 @@
+cratt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cratt/__main__.py,sha256=34HX9HvqUvMEM6Q4xOTXvYi5Yn9tm13gqqeqxuhuljM,67
+cratt/cli.py,sha256=UgOPaBX7sOc7sPte2YfmxHisNzD0OkiPQpdqnhwJaSA,1026
+cratt/cra.py,sha256=UjlDuMd44s3ZuW1gh0LBh4k8jN7WRw6-RKHUcxWkWzE,4693
+cratt/template.py,sha256=KVYmFRLjfM5fl__POojKHmdL76V7Py6tYlh0b39XLss,2806
+cratt/utils.py,sha256=I-PZkIjWJNU0aHzGopSYlxvi95NiHH6c4Dt1IC2KARw,137
+cratt-1.6.4.dist-info/LICENSE,sha256=uU3JBfLx1-Zdh3JTs4gzh49ryzX_OvDmPb0R1VT59Vc,1063
+cratt-1.6.4.dist-info/METADATA,sha256=AfE7cEa8RrY1KBOuBwX3FIgTWMQvHtt3ntWUrjbitJ0,1613
+cratt-1.6.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cratt-1.6.4.dist-info/entry_points.txt,sha256=0xUkSVBUkXm5BTzNqAw3rSgC_RBqfxp7_jexqesu318,42
+cratt-1.6.4.dist-info/top_level.txt,sha256=w_eoSXiaQuxpX7fiC-1PFTNeK6AOZ8QbOb3t2JJyu7s,6
+cratt-1.6.4.dist-info/RECORD,,
