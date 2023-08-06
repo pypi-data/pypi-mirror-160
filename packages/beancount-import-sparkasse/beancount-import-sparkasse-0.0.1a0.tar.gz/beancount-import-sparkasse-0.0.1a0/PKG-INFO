@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: beancount-import-sparkasse
+Version: 0.0.1a0
+Summary: Beancount importer plugin for Sparkasse CSV-CAMT exports
+Home-page: https://github.com/laermannjan/beancount-import-sparkasse
+License: MIT
+Keywords: beancount,plain-text-accounting,ledger,sparkasse
+Author: Jan Laermann
+Author-email: laermannjan@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Topic :: Text Processing
+Classifier: Typing :: Typed
+Requires-Dist: beancount (>=2.3.5,<3.0.0)
+Project-URL: Repository, https://github.com/laermannjan/beancount-import-sparkasse
+Description-Content-Type: text/markdown
+
+# Beancount Importer - Sparkasse
+[![tests_badge](https://github.com/laermannjan/beancount-import-sparkasse/actions/workflows/main.yaml/badge.svg)](https://github.com/laermannjan/beancount-import-sparkasse/actions/) [![image](https://img.shields.io/pypi/v/beancount-import-sparkasse.svg)](https://pypi.python.org/pypi/beancount-import-sparkasse) [![image](https://img.shields.io/pypi/pyversions/beancount-import-sparkasse.svg)](https://pypi.python.org/pypi/beancount-import-sparkasse) [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![license_badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Installation
+The importer is available on [PyPI](https://pypi.org/project/beancount-import-sparkasse)
+``` sh
+pip install --user beancount-import-sparkasse
+```
+
+## Configuration
+Add the importer to your `beancount` import config
+
+``` python
+from beancount_import_sparkase import SparkasseCSVCAMTImporter
+
+CONFIG = [
+    SparkasseCSVCAMTImporter(
+        iban="DE01 2345 6789 0123 4567 89",
+        account="Assets:DE:Sparkasse:Giro"
+    )
+]
+
+```
+
