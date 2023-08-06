@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kcorrect
+Version: 5.0.0b0
+Summary: K-correction calculator
+Home-page: https://github.com/blanton144/kcorrect
+Author: Michael Blanton
+Author-email: michael.blanton@gmail.com
+License: BSD 3-Clause License
+Project-URL: Repository, https://github.com/blanton144/kcorrect
+Project-URL: Documentation, https://kcorrect.readthedocs.org
+Description: UNKNOWN
+Keywords: astronomy,software
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
