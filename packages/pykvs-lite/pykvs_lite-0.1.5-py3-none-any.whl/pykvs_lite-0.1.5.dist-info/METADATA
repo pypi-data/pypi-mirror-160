@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pykvs-lite
+Version: 0.1.5
+Summary: Simple and convenient Key-value Store Library
+Home-page: https://github.com/kujirahand/pykvs_lite
+Author: kujirahand
+Author-email: web@kujirahand.com
+Maintainer: kujirahand
+Maintainer-email: web@kujirahand.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# pykvs_lite
+
+Key-Value Store for Python
+
+## Features
+
+- Simple and convenient Key-value Store Library
+- Easy to install (Use SQLite for the back end)
+
+## Installation
+
+```
+$ python3 -m pip install pykvs_lite
+```
+
+## Repository
+
+- [GitHub](https://github.com/kujirahand/pykvs_lite)
+
+
+
+
