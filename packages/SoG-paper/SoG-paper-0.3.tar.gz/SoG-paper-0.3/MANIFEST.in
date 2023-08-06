@@ -1,0 +1,10 @@
+include SoG/tex/files/*.tex
+include SoG/tex/files/*.bib
+include SoG/tex/files/*.bst
+include SoG/tex/files/*.sty
+include SoG/test/files/*
+include bin/*
+prune meeting_recordings
+prune notes
+prune presentations
+prune SoG/legacy_code
