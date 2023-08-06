@@ -1,0 +1,152 @@
+## 就是個簡單的 Pmb Restful Api Wrap
+
+需要二個環境變數
+- AUTH_URL
+
+用來指定公司統一登入(ad)的 api 網址
+- PMB_API_URL
+
+用來指定 pmb 服務的網址
+
+#### 除錯專用
+
+可以追加設定 DEBUG 環境變數
+
+有設定 DEBUG 的話就可以用 PMB_API_URL_DEBUG 來指定 Pmb 服務的網址
+### 例
+```env
+DEBUG=True
+PMB_API_URL_DEBUG=http://127.0.0.1:5000
+```
+### 使用範例
+
+```python
+import pmb_py as pmb
+from pmb_py import log_in, log_out
+
+log_in(YOUR_USERNAME, YOUR_PASSWORD)
+# log_in(YOUR_USERNAME, YOUR_PASSWORD, mode='pmb')
+# mode 指定為 'pmb' 時會切換成 pmb 自己的登錄方式, 'ad' 為預設值
+
+quert_result = pmb.api.Projects.list()
+print(quert_result.result)
+# list 會回傳 QueryResult 物件
+
+project = pmb.api.Projects.get(id=100)
+print(project)
+# 未找到的話會引發 PmbError 例外
+
+log_out()  # 記得登出
+```
+
+`目前未對權限部份做太多著墨，所以想用的同事，請記得問一下專用的登入帳號密碼`
+
+不然可能會因為權限的問題使得功能無法操作
+
+## 查詢
+### list() 
+list() 接受以 keyword 引數的方式查詢，可以接受 `limit` 引數，預設為 1000，最大為 4000
+
+### 使用範例
+```python
+import pmb_py as pmb
+from pmb_py import log_in, log_out
+
+q_result = pmb.api.GanttItem.list(project_id=1311)
+print(q_result.results)
+
+q_result = pmb.api.Blocks.list(project_id=1311, type_id=2)
+print(q_result.results)
+```
+
+### get()
+get() 固定接收 id 做為查詢依據，查無物件會引發異常
+
+
+#### QueryResult 物件
+
+##### 屬性說明
+
+ - limit = limit
+    
+    本次查詢的數量限制
+ 
+ - next = next
+    
+    查詢的下一頁
+ - previous = previous
+    
+    查詢的上一頁
+ - results = results
+    
+    查詢的結果
+ - start = start
+    
+    查詢的啟始數
+ - total_count = total_count
+    
+    全部的數量
+ - query_params():
+    把查詢參數字典化
+
+
+此外還有一個 first() 函式方便取得第一個元素，取不到時回傳 None
+
+
+## 建立
+
+可接受所有可用欄位當做 keyword 建立物件，不要給 id
+
+### 例
+```python
+gantt_item = pmb_py.api.GanttItems.create(
+    name='test',
+    task_type=4,
+    project_id=5,
+    sg_task_id=15000,
+    read_only=True,
+    status='',
+)
+```
+
+
+### 更新
+可接受所有可用欄位當做 keyword 更新物件，固定以 id 為第一位引數
+
+```python
+pmb_py.api.GanttItems.update(5, legend='test update')
+```
+
+### 刪除
+固定以 id 為第一位引數, 回傳 `True` 或 `False`, 
+
+```python
+pmb_py.api.GanttItems.remove(5)
+```
+
+
+## Projects
+### list
+- 當給予 `member_id` 引數時其他引數將會無效，會回傳指定的 `member_id` 所有專案
+
+### 歷史更新紀錄
+V 0.4.1
+增加對 pmb 的新登入機制支援(ad 跟 pmb 自己的登錄)
+
+V 0.4.0
+增加對 pmb session 支援
+
+v 0.3.4
+增加對 gantt task api (api.anttTasks) 的支援
+
+v 0.3.3
+增加欄位 (對應 pmb 0.2.0 版的 api)
+
+V 0.3.2
+add Project new column "hour_type"
+
+V 0.3.1
+add query_params method for QueryResult
+
+V 0.3.0
+add blocks_between_date function
