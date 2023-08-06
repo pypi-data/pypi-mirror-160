@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: crosswalk
+Version: 0.0.0b
+Summary: A Python package to perform geographical crosswalk and adjustments
+Home-page: https://github.com/nikbpetrov/crosswalk
+Author: Nikolay Petrov & Andrés Gvirtz
+Author-email: nikbpetrov@gmail.com
+License: MIT
+Download-URL: https://github.com/nikbpetrov/crosswalk/archive/refs/tags/0.0.0b.tar.gz
+Description: UNKNOWN
+Keywords: crosswalk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
