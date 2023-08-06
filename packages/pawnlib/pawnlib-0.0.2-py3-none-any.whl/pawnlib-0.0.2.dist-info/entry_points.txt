@@ -1,0 +1,3 @@
+[console_scripts]
+pawnlib_cli = pawnlib.pawnlib_cli:main
+
