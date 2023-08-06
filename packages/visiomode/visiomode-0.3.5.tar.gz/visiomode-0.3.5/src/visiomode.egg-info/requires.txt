@@ -1,0 +1,6 @@
+Flask
+PyYAML
+pyserial
+numpy
+pygame==2.0.1
+importlib
