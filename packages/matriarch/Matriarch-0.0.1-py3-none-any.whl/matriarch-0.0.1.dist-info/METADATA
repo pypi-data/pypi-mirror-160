@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: matriarch
+Version: 0.0.1
+Summary: Matriarch
+Home-page: https://github.com/quansight
+Author: Quansight
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/quansight
+Description-Content-Type: text/markdown
+
+# Matriarch
+
+Stay tuned!
+
