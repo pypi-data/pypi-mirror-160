@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: fieldfitter
+Version: 0.2.0
+Summary: Scaffold/model field fitting library using OpenCMISS-Zinc.
+Home-page: https://github.com/ABI-Software/fieldfitter
+Author: Auckland Bioengineering Institute
+Author-email: r.christie@auckland.ac.nz
+License: Apache Software License
+Description: Field Fitter
+        ============
+        
+        Scaffold/model field fitting library using OpenCMISS-Zinc.
+        
+        Takes as input a Zinc model file and a Zinc data file.
+        Model requires a model coordinates field, and data a data coordinates field
+        which are in the same aligned/fitted configuration.
+        
+        Additional fields defined on the data may be defined and fitted to a continuous field
+        on the model or a subgroup of it. The fitted field is defined using the
+        basis and mappings of the first component of the model coordinates field.
+        
+        
+        
+        License
+        =======
+        
+        ::
+        
+           Copyright 2022 University of Auckland
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Description-Content-Type: text/x-rst

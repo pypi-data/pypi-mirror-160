@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+src/fieldfitter/__init__.py
+src/fieldfitter/fitter.py
+src/fieldfitter.egg-info/PKG-INFO
+src/fieldfitter.egg-info/SOURCES.txt
+src/fieldfitter.egg-info/dependency_links.txt
+src/fieldfitter.egg-info/not-zip-safe
+src/fieldfitter.egg-info/requires.txt
+src/fieldfitter.egg-info/top_level.txt
