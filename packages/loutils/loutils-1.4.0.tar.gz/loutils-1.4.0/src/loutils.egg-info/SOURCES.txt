@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/loutils/__init__.py
+src/loutils/doc2pdf.py
+src/loutils/doc2print.py
+src/loutils.egg-info/PKG-INFO
+src/loutils.egg-info/SOURCES.txt
+src/loutils.egg-info/dependency_links.txt
+src/loutils.egg-info/requires.txt
+src/loutils.egg-info/top_level.txt
