@@ -1,0 +1,8 @@
+EasyMCP2221/Constants.py,sha256=e3lmMWBxm15Jy-MGoVBbMGmFMJ1HtGbOC2n0BG-nF4A,3061
+EasyMCP2221/I2C_Slave.py,sha256=BMXhg-1k6WjPfHMjEAcJ-oDX8dbp8rD6KpNUDAQIlW8,6543
+EasyMCP2221/MCP2221.py,sha256=h6J3L7_MUmW--13japgpAKknyAIjBXVsrQ-4Bicarxk,44403
+EasyMCP2221/__init__.py,sha256=JQnhl-Mf_s1qX7-px9q8CkgZgI-E18gkuEQzlDUHxD0,27
+easymcp2221-1.5.1.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+easymcp2221-1.5.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+easymcp2221-1.5.1.dist-info/METADATA,sha256=Wr4Hop0OWCYFlZizBtmFcURw4R17lO2v27H8Y6v_B24,2339
+easymcp2221-1.5.1.dist-info/RECORD,,
