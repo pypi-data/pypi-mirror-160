@@ -1,0 +1,14 @@
+fds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fds/protobuf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fds/protobuf/stach/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fds/protobuf/stach/v3/Column_pb2.py,sha256=hN7Oc_pqgm1IjdIQAMFQK4dpRA07O5MhMy3PNJKih5s,2719
+fds/protobuf/stach/v3/MetadataItem_pb2.py,sha256=e46E00qIVbNqJwQX1i8VjJjzb-9Lh4n2wU2YTF4X84s,1879
+fds/protobuf/stach/v3/RowOrganizedTable_pb2.py,sha256=Y6lV2i3ROr6b9e3addKalWTgjqpo6ix3wGrakjDTYak,6097
+fds/protobuf/stach/v3/TableView_pb2.py,sha256=gszu_Vkujz71vvRznt0zPM1l3OIVWcDnyXJpg1JWSMY,6606
+fds/protobuf/stach/v3/Table_pb2.py,sha256=dfsbHtpcOwY4dRpmWVoDbvksfUYaWdstybsIkZCbTGA,4885
+fds/protobuf/stach/v3/Views_pb2.py,sha256=UtW6vwuzYZnAGktXtTVlkSQ0l9LZl8wxRtRXabbPw-w,2388
+fds/protobuf/stach/v3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fds.protobuf.stach.v3-1.0.0.dist-info/METADATA,sha256=iwy66BZzHKoY-j-iSFUvtNlLKgN4IAHrSqowfatLk2M,285
+fds.protobuf.stach.v3-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fds.protobuf.stach.v3-1.0.0.dist-info/top_level.txt,sha256=52v1bB-782Xh07STWqzml3q9GVhwaqsY3NCEMiH3Hnc,4
+fds.protobuf.stach.v3-1.0.0.dist-info/RECORD,,
