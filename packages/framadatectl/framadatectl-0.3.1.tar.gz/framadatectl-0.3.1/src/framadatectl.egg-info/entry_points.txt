@@ -1,0 +1,2 @@
+[console_scripts]
+framadatectl = framadatectl.__main__:main
