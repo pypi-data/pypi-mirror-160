@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: bapsflib
+Version: 2.0.0b1
+Summary: A toolkit for handling data collected at BaPSF
+Home-page: https://github.com/BaPSF/bapsflib
+Download-URL: https://pypi.org/project/bapsflib/
+Author: Basic Plasma Science Facility
+Maintainer: Erik T. Everson
+Maintainer-email: eeverson@physics.ucla.edu
+License: 3-clause BSD
+Project-URL: BaPSF, http://plasma.physics.ucla.edu/
+Project-URL: Documentation, https://bapsflib.readthedocs.io/en/latest/
+Project-URL: GitHub, https://github.com/BaPSF/bapsflib
+Keywords: bapsf,HDF5,lapd,physics,plasma,plasma physics,science
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSES/LICENSE.txt
+Requires-Dist: astropy (>=4.3.1)
+Requires-Dist: h5py (>=3.0)
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: scipy (>=0.19)
+Provides-Extra: developer
+Requires-Dist: black (==22.3.0) ; extra == 'developer'
+Requires-Dist: codespell ; extra == 'developer'
+Requires-Dist: isort ; extra == 'developer'
+Requires-Dist: sphinx (>=3.2.0) ; extra == 'developer'
+Requires-Dist: sphinx-automodapi (>=0.13) ; extra == 'developer'
+Requires-Dist: sphinx-changelog ; extra == 'developer'
+Requires-Dist: sphinx-gallery ; extra == 'developer'
+Requires-Dist: sphinx-rtd-theme ; extra == 'developer'
+Requires-Dist: towncrier (>=19.2.0) ; extra == 'developer'
+Requires-Dist: codecov (>=2.0.15) ; extra == 'developer'
+Requires-Dist: coverage[toml] (>=4.5.1) ; extra == 'developer'
+Provides-Extra: docs
+Requires-Dist: black (==22.3.0) ; extra == 'docs'
+Requires-Dist: codespell ; extra == 'docs'
+Requires-Dist: isort ; extra == 'docs'
+Requires-Dist: sphinx (>=3.2.0) ; extra == 'docs'
+Requires-Dist: sphinx-automodapi (>=0.13) ; extra == 'docs'
+Requires-Dist: sphinx-changelog ; extra == 'docs'
+Requires-Dist: sphinx-gallery ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: towncrier (>=19.2.0) ; extra == 'docs'
+Provides-Extra: extras
+Requires-Dist: black (==22.3.0) ; extra == 'extras'
+Requires-Dist: codespell ; extra == 'extras'
+Requires-Dist: isort ; extra == 'extras'
+Provides-Extra: tests
+Requires-Dist: black (==22.3.0) ; extra == 'tests'
+Requires-Dist: codespell ; extra == 'tests'
+Requires-Dist: isort ; extra == 'tests'
+Requires-Dist: codecov (>=2.0.15) ; extra == 'tests'
+Requires-Dist: coverage[toml] (>=4.5.1) ; extra == 'tests'
+
+# bapsflib
+
+[![PyPI](https://img.shields.io/pypi/v/bapsflib.svg)](https://pypi.org/project/bapsflib)
+[![License](https://img.shields.io/badge/License-BSD-blue.svg)](./LICENSES/LICENSE.txt)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bapsflib.svg)](https://pypi.org/project/bapsflib)
+
+[![Documentation Status](https://readthedocs.org/projects/bapsflib/badge/)](https://bapsflib.readthedocs.io/en/latest)
+[![codecov](https://codecov.io/gh/BaPSF/bapsflib/branch/master/graph/badge.svg)](https://codecov.io/gh/BaPSF/bapsflib/branch/master)
+
+[![h5py](https://img.shields.io/badge/powered%20by-h5py-%235e9ffa.svg)](https://www.h5py.org/)
+
+The **bapsflib** package is developed on Python 3.7+ and is intended to 
+be a toolkit for reading, manipulating, and analyzing data collected at 
+the Basic Plasma Science Facility 
+([BaPSF](http://plasma.physics.ucla.edu/)) at UCLA. 
+
+The current development cycle is focused on providing a high-level, 
+structured interface between the user and the HDF5 files generated from
+experiments on the Large Plasma Device (LaPD).  This interface 
+leverages [h5py](https://www.h5py.org/).
+
+## Installation
+
+**bapsflib** is registered with [PyPI](https://pypi.org/) and can be 
+installed with `pip` via
+
+`pip install bapsflib`
+
+To install from source look to installation instructions in 
+documentation, 
+[here](https://bapsflib.readthedocs.io/en/latest/installation.html).
+
+## Documentation
+
+The documentation is hosted on Read the Docs at 
+https://bapsflib.readthedocs.io/en/latest
+
+## License
+
+**bapsflib** is licensed under a 3-clause BSD license, see 
+[LICENSE.txt](LICENSES/LICENSE.txt).
