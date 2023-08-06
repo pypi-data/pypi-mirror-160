@@ -1,0 +1,4 @@
+include TwitterHandler/kafka
+include TwitterHandler/VERSION
+include requirements.txt
+include README.md
