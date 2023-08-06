@@ -1,0 +1,3 @@
+_version
+find_duplicates
+restore_exif
