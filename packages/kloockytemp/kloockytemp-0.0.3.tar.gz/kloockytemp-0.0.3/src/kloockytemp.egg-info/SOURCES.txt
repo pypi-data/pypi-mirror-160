@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+src/kloockytemp.egg-info/PKG-INFO
+src/kloockytemp.egg-info/SOURCES.txt
+src/kloockytemp.egg-info/dependency_links.txt
+src/kloockytemp.egg-info/main.py
+src/kloockytemp.egg-info/requires.txt
+src/kloockytemp.egg-info/top_level.txt
