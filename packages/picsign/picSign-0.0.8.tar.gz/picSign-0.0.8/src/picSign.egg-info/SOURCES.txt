@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/picSign/__init__.py
+src/picSign/command_line.py
+src/picSign/pic_sign.py
+src/picSign.egg-info/PKG-INFO
+src/picSign.egg-info/SOURCES.txt
+src/picSign.egg-info/dependency_links.txt
+src/picSign.egg-info/entry_points.txt
+src/picSign.egg-info/requires.txt
+src/picSign.egg-info/top_level.txt
+src/picsign/__init__.py
+src/picsign/command_line.py
+src/picsign/pic_sign.py
