@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: otlpy
+Version: 0.0.4
+Summary: Python Open Trading Library
+Author-email: Tom <nanticj@users.noreply.github.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: fastapi
+Requires-Dist: httpx
+Requires-Dist: loguru
+Requires-Dist: pycryptodome
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: tompy
+Requires-Dist: typer
+Requires-Dist: uvicorn
+Requires-Dist: websockets
+Requires-Dist: black ; extra == "develop"
+Requires-Dist: flit ; extra == "develop"
+Requires-Dist: isort ; extra == "develop"
+Requires-Dist: mypy ; extra == "develop"
+Requires-Dist: pylint ; extra == "develop"
+Requires-Dist: pytest ; extra == "develop"
+Project-URL: Home, https://github.com/nanticj/otlpy
+Provides-Extra: develop
+
+# otlpy
+Python Open Trading Library
+
