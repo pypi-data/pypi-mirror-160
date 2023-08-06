@@ -1,0 +1,3 @@
+[pytest11]
+pytest-modelator=modelator.pytest
+
