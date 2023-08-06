@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+YahooFinanceScraping.egg-info/PKG-INFO
+YahooFinanceScraping.egg-info/SOURCES.txt
+YahooFinanceScraping.egg-info/dependency_links.txt
+YahooFinanceScraping.egg-info/not-zip-safe
+YahooFinanceScraping.egg-info/requires.txt
+YahooFinanceScraping.egg-info/top_level.txt
+yfs/__init__.py

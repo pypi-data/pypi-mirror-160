@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: YahooFinanceScraping
+Version: 0.0.3
+Summary: Library to scraping from yahoo finance page quote data..
+Home-page: https://github.com/juliansantosinfo/yahoofinancescraping
+Author: Julian de Almeida Santos
+Author-email: julian.santos.info@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/juliansantosinfo/yahoofinancescraping
+Description: # YahooFinanceScraping
+        
+        **YahooFinanceScraping** is a library to scraping quote data.
+        
+        ## Features
+        
+        - Regular market price.
+        - Previous close.
+        - Open value.
+        - Days range.
+        
+        ## Installation
+        
+        - Run `pip install yahoofinancescraping`
+        
+        ## Example
+        
+        ```python
+        from yfs import YahooFinanceScraping
+        
+        yfs = YahooFinanceScraping('IBM')
+        
+        regular_market_price = yfs.regular_market_price()
+        print(regular_market_price)
+        
+        previous_close = yfs.previous_close()
+        print(previous_close)
+        
+        open_value = yfs.open_value()
+        print(open_value)
+        
+        days_range = yfs.days_range()
+        print(days_range)
+        
+        ```
+        
+        ### Console Output
+        
+        ```bash
+        foo@bar ~/
+        $ python test.py
+        133,04
+        132,21
+        133,00
+        {'min': Decimal('130.89'), 'max': Decimal('133.77')}
+        ```
+        
+        ## Upgrade
+        
+        - Run `pip install yahoofinancescraping --upgrade`
+        
+Keywords: yahoo,finance
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Web Environment
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
