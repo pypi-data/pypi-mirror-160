@@ -1,0 +1,3 @@
+[console_scripts]
+list-gitblit-repos = mirror_gitblit.cli:list_repos
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/mirror_gitblit/GitblitMirror.py
+src/mirror_gitblit/__init__.py
+src/mirror_gitblit/__version__.py
+src/mirror_gitblit.egg-info/PKG-INFO
+src/mirror_gitblit.egg-info/SOURCES.txt
+src/mirror_gitblit.egg-info/dependency_links.txt
+src/mirror_gitblit.egg-info/entry_points.txt
+src/mirror_gitblit.egg-info/not-zip-safe
+src/mirror_gitblit.egg-info/requires.txt
+src/mirror_gitblit.egg-info/top_level.txt
