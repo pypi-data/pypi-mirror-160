@@ -1,0 +1,339 @@
+![](Logos/AQME_logo.jpg)
+[![CircleCI](https://img.shields.io/circleci/build/github/jvalegre/aqme?label=Circle%20CI&logo=circleci)](https://app.circleci.com/pipelines/github/jvalegre/aqme)
+[![Codecov](https://img.shields.io/codecov/c/github/jvalegre/aqme?label=Codecov&logo=codecov)](https://codecov.io/gh/jvalegre/aqme)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/jvalegre/aqme/master?label=Codefactor%20grade&logo=Codefactor)](https://www.codefactor.io/repository/github/jvalegre/aqme/overview/master)
+[![Codacy](https://img.shields.io/codacy/grade/3a4cc7c7705e46129c7ea0fca58af846?label=Codacy%20grade&logo=Codacy)](https://www.codacy.com/gh/jvalegre/aqme/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jvalegre/aqme&amp;utm_campaign=Badge_Grade)
+[![lgtm](https://img.shields.io/lgtm/grade/python/github/jvalegre/aqme?label=LGTM%20grade&logo=lgtm)](https://lgtm.com/projects/g/jvalegre/aqme/context:python)
+
+___
+# <p align="center">Automated Quantum Mechanical Environments (AQME)</p>
+## <p align="center">-- Table of contents --</p>
+### <p align="center">[What is AQME?](https://github.com/jvalegre/aqme#what-is-aqme) &nbsp; &nbsp; [Installation](https://github.com/jvalegre/aqme#installation) &nbsp; &nbsp; [Requirements](https://github.com/jvalegre/aqme#requirements)</p>
+### <p align="center">[Features and modules](https://github.com/jvalegre/aqme#features-and-modules) &nbsp; &nbsp; [Quickstart](https://github.com/jvalegre/aqme#quickstart) &nbsp; &nbsp; [Extended documentation](https://github.com/jvalegre/aqme#extended-documentation-installation-use-examples-etc)</p>
+### <p align="center">[Developers and help desk](https://github.com/jvalegre/aqme#developers-and-help-desk) &nbsp; &nbsp; [License](https://github.com/jvalegre/aqme#license) &nbsp; &nbsp; [Reference](https://github.com/jvalegre/aqme#reference)</p>
+___
+## What is AQME?  
+The code is an ensemble of automated QM workflows that can be run through jupyter notebooks, command lines and yaml files. Some of the most popular workflows include:  
+  - [ ] RDKit- and CREST-based conformer generator leading to ready-to-submit QM input files starting from individual files or SMILES databases  
+  - [ ] Post-processing of QM output files to fix convergence errors, extra imaginary frequencies, unfinished jobs, duplicates and error terminations, as well as to detect spin contamination, isomerization issues, and more optimization problems  
+  - [ ] Analysis of homogeneity of QM calculations (same level of theory, grid size, program and version, solvation models, etc)  
+  - [ ] Generation of xTB, DFT and RDKit descriptors in json and csv files that are ready to use in machine-learning models or used to predict NMR spectra  
+  - [ ] More other useful workflows  
+
+Don't miss out the latest hands-on tutorials from our [YouTube channel](https://www.youtube.com/channel/UCHRqI8N61bYxWV9BjbUI4Xw)!  
+
+## Installation
+Check our [AQME installation in 2 mins](https://www.youtube.com/watch?v=LbHpM5KaxpE) video for a quick installation guide using pip. In a nutshell, AQME and its dependencies are installed as follows:  
+1. Using the code in GitHub: `pip install .` with setup.py (most updated version, recommended)  
+2. Using pip: `pip install aqme`  
+3. Using conda-forge: `conda install -c conda-forge aqme`  
+  
+Requirements:  
+  * RDKit and Openbabel: `conda install -c conda-forge rdkit openbabel`  
+  * If CMIN is used, torch-related modules are needed: `pip install torch torchvision torchani`  
+  
+Known incompatibilities:  
+  * RDKit cannot be installed through `pip install rdkit` in Windows when Anaconda prompts are used  
+
+## Requirements
+* Python 3  
+* Any of the AQME installation options as detailed in the installation section
+* Torch-related modules if CMIN is used (shown in the installation section)
+
+## Features and modules
+### CSEARCH
+Module on charge of conformational sampling starting from multiple input types (SMILES, csv, sdf, xyz, etc). Options:
+#### RDKit-based conformational sampling
+Faster sampling, suitable especially for unimolecular systems. Options:  
+  - [ ] RDKit standard sampling  
+  - [ ] Systematic Unbounded Multiple Minimum search (SUMM)  
+  - [ ] FullMonte sampling  
+#### CREST-based conformational sampling
+Slower sampling, suitable for all types of systems (including noncovalent complexes and constrained systems such as transition states)
+
+### CMIN
+Module used to refine conformers generated in CSEARCH through new geometry optimizations. Options:  
+  - [ ] xTB (GFN0-xTB, GFN1-xTB, GFN2-xTB, GFN-FF)  
+  - [ ] ANI (ANI-1x, ANI-1ccx, ANI-2x)  
+
+### QPREP
+Generator of input files for QM calculations. Options:  
+  - [ ] Gaussian  
+  - [ ] ORCA  
+  - [ ] pySCF (loading parameters in jupyter notebook)  
+
+### QCORR
+cclib-based analyzer of output files from multiple QM programs. This module:  
+  - [ ] Separates normally terminated files with no errors, extra imaginary frequencies, duplicates, isomerization to other systems and spin contamination  
+  - [ ] Automatically generates new com files to "fix" the different issues of the calculations with strategies that are optimal for each type of issue (Gaussian and ORCA)  
+  - [ ] Checks that all the calculations are homogeneous (i.e. using the same level of theory, same grid size, same program and version, solvation model, etc)  
+
+### QDESC
+Descriptor generator from multiple input types such as SMILES, log files, xyz, etc. Descriptors generated with:  
+  - [ ] RDKit descriptors (i.e. number of polar H, number of aromatic rings, etc)  
+  - [ ] xTB (i.e. atomic charges, molecular dipole, solvation energy, etc)  
+  - [ ] QM programs (i.e. descriptors from cclib)  
+
+## Quickstart
+### Using AQME in Jupyter Notebooks
+There are multiple ready-to-use workflows presented as jupyter notebooks in the 'Example workflows' folder. Some examples are:  
+  * CSEARCH_CMIN_conformer_generation folder --> CSEARCH/CMIN conformational sampling from SMILES and creation of QM input files  
+
+  * QCORR_processing_QM_outputs --> QCORR analysis of Gaussian output files, generation of JSON files with all the information and creation of new QM input files  
+
+  * QPREP_generating_input_files --> QPREP preparation of input files for Gaussian, ORCA and PySCF from LOG/OUT, SDF and JSON files  
+
+### Using AQME through command lines in terminals
+AQME can also be run through command lines. Some examples are:  
+  * CSEARCH for conformer generation with one SMILES and name:  
+    ```
+    python -m aqme --csearch --program rdkit --smi CCC --name proprane
+    ```  
+  * CSEARCH for conformer generation with multiple SMILES and names:  
+    ```
+    python -m aqme --csearch --program rdkit --input FILENAME.csv
+    ```  
+    ** The csv file must contain the list of SMILES in a column called "SMILES" and the corresponding names in a column called "code_name" (see Example_workflows for more information)  
+
+  * CSEARCH for conformer generation using a YAML file containing constrains:  
+    ```
+    python -m aqme --varfile FILENAME.yaml
+    ```  
+    ** The YAML file must contain the following parameters:  
+    ```
+    input : 'smi.csv' #name of input
+    output_name : 'csearch' #name for output
+
+    csearch : True #activate CSEARCH
+    program : 'rdkit' #program used in CSEARCH
+    ```
+
+  * QCORR analysis of Gaussian output files and json file generation:  
+    ```
+    python -m aqme --qcorr --program gaussian --freq_conv opt=(calcfc,maxstep=5) --files=*.log
+    ```  
+  * QPREP input file generation from SDF files (coming from CSEARCH for example):  
+    ```
+    python -m aqme --qprep --program gaussian --qm_input "M062x def2tzvp opt freq" --files *.sdf
+    ```  
+  * QPREP input file generation from last geometry of output files (log or out files):  
+    ```
+    python -m aqme --qprep --program gaussian--qm_input "M062x def2tzvp opt freq" --files *.log --suffix M062X
+    ```  
+  * QPREP input file generation from json files:  
+    ```
+    python -m aqme --qprep --program orca --qm_input "BP86 def2-SVP def2/J" --files *.json --suffix BP86
+    ```  
+
+## Extended documentation (installation, use, examples, etc)
+** ReadTheDocs page in process **  
+- [ ] CSEARCH arguments:  
+    **program : str, default=None**  
+        Program required in the conformational sampling. Current options: 'rdkit', 'summ', 'fullmonte', 'crest'  
+    **smi : str, default=None**  
+        Optionally, define a SMILES string as input  
+    **name : str, default=None**  
+    (If smi is defined) optionally, define a name for the system  
+    **input : str, default=''**  
+        (If smi is None) Optionally, file containing the SMILES strings and names of the molecules. Current file extensions: .smi, .sdf, .cdx, .csv, .com, .gjf, .mol, .mol2, .xyz, .txt, .yaml, .yml, .rtf  
+        For .csv files (i.e. FILENAME.csv), two columns are required, 'code_name' with the names and 'SMILES' for the SMILES string  
+    **w_dir_main : str, default=os.getcwd()**  
+        Working directory  
+    **varfile : str, default=None**  
+        Option to parse the variables using a yaml file (specify the filename)  
+    **max_workers : int, default=4**  
+        Number of simultaneous RDKit jobs run with multiprocessing (WARNING! More than 12 simultaneous jobs might collapse your computer!)  
+    **charge : int, default=None**  
+        Charge of the calculations used in the following input files. If charge isn't defined, it automatically reads the charge of the SMILES string  
+    **mult : int, default=None**  
+        Multiplicity of the calculations used in the following input files. If mult isn't defined, it automatically reads the multiplicity of the mol object created with the SMILES string  
+    **verbose : bool, default=False**  
+        If True, more information regarding the conformational sampling is printed  
+    **prefix : str, default=''**  
+        Prefix added to all the names  
+    **suffix : str, default=''**  
+        Suffix added to all the names  
+    **stacksize : str, default='1G'**  
+        Controls the stack size used (especially relevant for xTB/CREST calculations of large systems, where high stack sizes are needed)  
+
+    *-- Options for RDKit-based methods (RDKit, SUMM and Fullmonte), organic and organometallic molecules --*  
+    **sample : int, default='auto'**  
+        Number of conformers used initially in the RDKit sampling. If this option isn't specified, AQME automatically calculates (previously benchmarked) an approximate number based on number of rotatable bonds, XH (i.e. OH) groups, saturated cycles, etc (see the auto_sampling() function in csearch.py for more information)  
+    **auto_sample : int, default=20**  
+        Base multiplicator number used in the sample option  
+    **ff : str, default='MMFF'**  
+        Force field used in RDKit optimizations and energy calculations. Current options: MMFF and UFF (if MMFF fails, AQME tries to use UFF automatically)  
+    **ewin_csearch : float, default=5.0**  
+        Energy window in kcal/mol to discard conformers (i.e. if a conformer is more than the E window compared to the most stable conformer)  
+    **initial_energy_threshold : float, default=0.0001**  
+        Energy difference in kcal/mol between unique conformers for the first filter of only E  
+    **energy_threshold : float, default=0.25**  
+        Energy difference in kcal/mol between unique conformers for the second filter of E + RMS  
+    **rms_threshold : float, default=0.25**  
+        RMS difference between unique conformers for the second filter of E + RMS  
+    **opt_steps_rdkit : int, default=1000**  
+        Max cycles used in RDKit optimizations  
+    **heavyonly : bool, default=True**  
+        Only consider heavy atoms during RMS calculations for filtering (in the Chem.rdMolAlign.GetBestRMS() RDKit function)  
+    **max_matches_rmsd : int, default=1000**  
+        Max matches during RMS calculations for filtering (maxMatches option in the Chem.rdMolAlign.GetBestRMS() RDKit function)  
+    **max_mol_wt : int, default=0**  
+        Discard systems with molecular weights higher than this parameter (in g/mol). If 0 is set, this filter is off  
+    **max_torsions : int, default=0**  
+        Discard systems with more than this many torsions (relevant to avoid molecules with many rotatable bonds). If 0 is set, this filter is off  
+    **seed : int, default=62609**  
+        Random seed used during RDKit embedding (in the Chem.rdDistGeom.EmbedMultipleConfs() RDKit function)  
+
+    *-- Options for RDKit-based methods (RDKit, SUMM and Fullmonte), organometallic molecules only --*  
+    **metal_complex : bool, default=False**  
+        Performs modified conformational sampling of metal complexes, fixing issues related to RDKit when dealing with metals. This option works well with metal coordination numbers up to 6, but it might give trouble with metals containing 7 or more ligands  
+    **metal : list of str, default=[]**  
+        Specify metal atom(s) of the system. Multiple metals can be used simultaneously (i.e. ['Pd','Ir'])  
+    **metal_oxi : list of int, default=[]**  
+        Specify metal oxidation state. Multiple metals can be used simultaneously (i.e. [2,3]). This is important to calculate the charge of the molecule based on SMILES strings  
+    **complex_type : str, default=''**  
+        Forces the metal complexes to adopt a predefined geometry. This option is especially relevant when RDKit predicts wrong complex geometries or gives a mixture of geometries. Current options: squareplanar, squarepyramidal, linear, trigonalplanar  
+
+    *-- Options for the SUMM method only --*  
+    **degree : float, default=120.0**  
+        Interval of degrees to rotate dihedral angles during SUMM sampling (i.e. 120.0 would create 3 conformers for each dihedral, at 0, 120 and 240 degrees)  
+
+    *-- Options for the Fullmonte method only --*  
+    **ewin_fullmonte : float, default=5.0**  
+        Energy window in kcal/mol to discard conformers (i.e. if a conformer is more than the E window compared to the most stable conformer)  
+    **ewin_sample_fullmonte : float, default=2.0**  
+        Energy window in kcal/mol to use conformers during the Fullmonte sampling (i.e. conformers inside the E window compared to the most stable conformer are considered as unique in each step of the sampling)  
+    **nsteps_fullmonte : int, default=100**  
+        Number of steps (or conformer batches) to carry during the Fullmonte sampling  
+    **nrot_fullmonte : int, default=3**  
+        Number of dihedrals to rotate simultaneously (picked at random) during each step of the Fullmonte sampling  
+    **ang_fullmonte : float, default=30**  
+        Available angle interval to use in the Fullmonte sampling. For example, if the angle is 120.0, the program chooses randomly between 120 and 240 degrees (picked at random) during each step of the sampling  
+
+    *-- Options for CREST --*  
+    **constraints_atoms : list, default=[]**  
+        Specify constrained atoms as [AT1,AT2,AT3]. An example of multiple constraints (atoms 1, 2 and 5 are frozen: [1,2,5]  
+    **constraints_dist : list of lists, default=[]**  
+        Specify distance constraints as [AT1,AT2,DIST]. An example of multiple constraints (atoms 1 and 2 with distance 1.8 Å, and atoms 4 and 5 with distance 2.0 Å): [[1,2,1.8],[4,5,2.0]]  
+    **constraints_angle : list of lists, default=[]**  
+        Specify angle constraints as [AT1,AT2,AT3,ANGLE]. An example of multiple constraints (atoms 1, 2 and 3 with an angle of 180 degrees, and atoms 4, 5 and 6 with an angle of 120): [[1,2,3,180],[4,5,6,120]]  
+    **constraints_dihedral : list of lists, default=[]**  
+        Specify dihedral constraints as [AT1,AT2,AT3,AT4,DIHEDRAL]. An example of multiple constraints (atoms 1, 2, 3 and 4 with a dihedral angle of 180 degrees, and atoms 4, 5, 6 and 7 with a dihedral angle of 120): [[1,2,3,4,180],[4,5,6,7,120]]  
+    **crest_force : float, default=0.5**  
+        Force constant for constraints in the .xcontrol.sample file for CREST jobs  
+    **crest_keywords : str, default=None**  
+        Define additional keywords to use in CREST that are not included in --chrg, --uhf, -T and -cinp. For example: '--alpb ch2cl2 --nci --cbonds 0.5'  
+    **cregen : bool, default=False**  
+        If True, perform a CREGEN analysis after CREST (filtering options below)  
+    **cregen_keywords : str, default=None**  
+        Additional keywords for CREGEN (i.e. cregen_keywords='--ethr 0.02')  
+
+- [ ] QPREP arguments:  
+    **files : mol object, str or list of str, default=None**  
+        This module prepares input QM file(s). Formats accepted: mol object(s), Gaussian or ORCA LOG/OUT output files, JSON, XYZ, SDF, PDB. Also, lists can be used (i.e. [FILE1.log, FILE2.log] or \*.FORMAT such as \*.json).  
+    **atom_types : list of str, default=[]**  
+        (If files is None) List containing the atoms of the system  
+    **cartesians : list of str, default=[]**  
+        (If files is None) Cartesian coordinates used for further processing  
+    **w_dir_main : str, default=os.getcwd()**  
+        Working directory  
+    **destination : str, default=None,**  
+        Directory to create the input file(s)  
+    **varfile : str, default=None**  
+        Option to parse the variables using a yaml file (specify the filename)  
+    **program : str, default=None**  
+        Program required to create the new input files. Current options: 'gaussian', 'orca'  
+    **qm_input : str, default=''**  
+        Keywords line for new input files (i.e. 'B3LYP/6-31G opt freq')  
+    **qm_end : str, default=''**  
+        Final line(s) in the new input files  
+    **charge : int, default=None**  
+        Charge of the calculations used in the following input files. If charge isn't defined, it defaults to 0  
+    **mult : int, default=None**  
+        Multiplicity of the calculations used in the following input files. If mult isn't defined, it defaults to 1  
+    **suffix : str, default=''**  
+        Suffix for the new input files (i.e. FILENAME_SUFFIX.com for FILENAME.log)  
+    **chk : bool, default=False**  
+        Include the chk input line in new input files for Gaussian calculations  
+    **mem : str, default='4GB'**  
+        Memory for the QM calculations (i) Gaussian: total memory; (ii) ORCA: memory per processor  
+    **nprocs : int, default=2**  
+        Number of processors used in the QM calculations  
+    **gen_atoms : list of str, default=[]**  
+        Atoms included in the gen(ECP) basis set (i.e. ['I','Pd'])  
+    **bs_gen : str, default=''**  
+        Basis set used for gen(ECP) atoms	(i.e. 'def2svp')  
+    **bs_nogen : str, default=''**  
+        Basis set used for non gen(ECP) atoms in gen(ECP) calculations (i.e. '6-31G\*')  
+
+- [ ] QCORR arguments:  
+    **files : list of str, default=''**  
+        Filenames of QM output files to analyze. If \*.log (or other strings that are not lists such as \*.out) are specified, the program will look for all the log files in the working directory through glob.glob(\*.log)  
+    **w_dir_main : str, default=os.getcwd()**  
+        Working directory  
+    **fullcheck : bool, default=True**  
+        Perform an analysis to detect whether the calculations were done homogeneously (i.e. same level of theory, solvent, grid size, etc)  
+    **varfile : str, default=None**  
+        Option to parse the variables using a yaml file (specify the filename)  
+    **ifreq_cutoff : float, default=0.0**  
+        Cut off for to consider whether a frequency is imaginary (absolute of the specified value is used)  
+    **amplitude_ifreq : float, default=0.2**  
+        Amplitude used to displace the imaginary frequencies to fix  
+    **freq_conv : str, default=None**  
+        If a string is defined, it will remove calculations that converged during optimization but did not convergence in the subsequent frequency calculation. Options: opt keyword as string (i.e. 'opt=(calcfc,maxstep=5)'). If readfc is specified in the string, the chk option must be included as well.  
+    **s2_threshold : float, default=10.0**  
+        Cut off for spin contamination during analysis in % of the expected value (i.e. multiplicity 3 has an the expected <S\*\*2> of 2.0, if s2_threshold = 10, the <S\*\*2> value is allowed to be 2.0 +- 0.2). Set s2_threshold = 0 to deactivate this option.  
+    **dup_threshold : float, default=0.0001**  
+        Energy (in hartree) used as the energy difference in E, H and G to detect duplicates  
+    **isom_type : str, default=None**  
+        Check for isomerization from the initial input file to the resulting output files. It requires the extension of the initial input files (i.e. isom_type='com' or 'gjf') and the folder of the input files must be added in the isom_inputs option  
+    **isom_inputs : str, default=os.getcwd()**  
+        Folder containing the initial input files to check for isomerization  
+    **vdwfrac : float, default=0.50**  
+        Fraction of the summed VDW radii that constitutes a bond between two atoms in the isomerization filter  
+    **covfrac : float, default=1.10**  
+        Fraction of the summed covalent radii that constitutes a bond between two atoms in the isomerization filter  
+
+    *-- Options related to file generation to fix issues found by QCORR --*  
+    New input files are generated through the QPREP module and, therefore, all QPREP arguments can be used when calling QCORR and will overwrite default options. For example, if the user specifies qm_input='wb97xd/def2svp', all the new input files generated to fix issues will contain this keywords line. See examples in the 'Example_workflows' folder for more information.  
+
+- [ ] QDESCP arguments:  
+    **w_dir_main : str, default=os.getcwd()**  
+        Working directory  
+    **destination : str, default=None,**  
+        Directory to create the JSON file(s)  
+    **files : list of str, default=''**  
+        Filenames of SDF/PDB/XYZ to calculate xTB descriptors. If \*.sdf (or other strings that are not lists such as \*.pdb) are specified, the program will look for all the SDF files in the working directory through glob.glob(\*.sdf)  
+    **program : str, default=None**  
+        Program required to create the new input files. Current options: 'gaussian', 'orca'  
+    **charge : int, default=None**  
+        Charge of the calculations used in the following input files. If charge isn't defined, it defaults to 0  
+    **mult : int, default=None**  
+        Multiplicity of the calculations used in the following input files. If mult isn't defined, it defaults to 1
+    **qdescp_temp : float, default=300**  
+        Temperature required for the xTB property calculations
+    **qdescp_acc : float, default=0.2**  
+        Accuracy required for the xTB property calculations
+    **boltz : bool, default=False**  
+        Calculation of Boltzmann averaged xTB properties
+
+- [ ] VIZMOL arguments:  
+    **files : list of str, default=''**  
+        Filenames of SDF/PDB/XYZ to visualize conformers. If \*.sdf (or other strings that are not lists such as \*.pdb) are specified, the program will look for all the SDF files in the working directory through glob.glob(\*.sdf). Internal options of "line", "stick", "sphere" incorporated. Code reference from: [https://iwatobipen.wordpress.com]
+
+
+## Developers and help desk
+List of main developers and contact emails:  
+  - [ ] [Shree Sowndarya S. V.](https://orcid.org/0000-0002-4568-5854), main developer of the CSEARCH, CMIN, QDESCP and VIZMOL modules. Contact: [svss@colostate.edu](mailto:svss@colostate.edu)  
+  - [ ] [Juan V. Alegre-Requena](https://orcid.org/0000-0002-0769-7168), main developer of the QCORR and QPREP modules. Contact: [jvalegre@unizar.es](mailto:jvalegre@unizar.es)  
+  - [ ] [Turki Alturaifi](https://www.chem.pitt.edu/person/turki-alturaifi), worked in benchmarking the parameters for RDKit-based conformer generation. Contact: [turki0@rams.colostate.edu](mailto:turki0@rams.colostate.edu)  
+  - [ ] [Raúl Pérez-Soto](https://orcid.org/0000-0002-6237-2155), worked in refactoring the code. Contact: [rperez@iciq.es](mailto:rperez@iciq.es)  
+  - [ ] [Robert S. Paton](https://orcid.org/0000-0002-0104-4166), research group supervisor and code advisor. Contact: [robert.paton@colostate.edu](mailto:robert.paton@colostate.edu)  
+
+For suggestions and improvements of the code (greatly appreciated!), please reach out through the issues and pull requests options of Github.  
+
+## License
+AQME is freely available under an [MIT](https://opensource.org/licenses/MIT) License  
+
+## Reference
+AQME v1.0, Alegre-Requena, J. V.; Sowndarya, S.; Pérez-Soto, R.; Alturaifi, T. M.; Paton, R. S., 2021. https://github.com/jvalegre/aqme  

@@ -1,0 +1,9 @@
+PyYAML
+pandas
+progress
+ase
+numpy
+cclib
+matplotlib
+seaborn
+cffi
