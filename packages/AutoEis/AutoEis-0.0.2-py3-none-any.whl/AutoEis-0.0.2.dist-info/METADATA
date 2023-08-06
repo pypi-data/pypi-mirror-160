@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: AutoEis
+Version: 0.0.2
+Summary: An Automated EIS analysis packgae
+Home-page: https://github.com/kbknudsen/PyEIS
+Author: Runze zhang, Robert Black, Parisa Karimi, Jason Hattrick-Simpers
+Author-email: runzee.zhang@mail.utoronto.ca
+Keywords: python,Electrochemical impedance spectroscopy,Fully-automated,equivalent circuit models,gene-expression programming,genetic algorithm
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Description-Content-Type: text/markdown
+
+
+For test only
