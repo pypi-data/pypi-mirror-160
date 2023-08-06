@@ -1,0 +1,6 @@
+audiocraft.py
+setup.py
+audiocraft.egg-info/PKG-INFO
+audiocraft.egg-info/SOURCES.txt
+audiocraft.egg-info/dependency_links.txt
+audiocraft.egg-info/top_level.txt
