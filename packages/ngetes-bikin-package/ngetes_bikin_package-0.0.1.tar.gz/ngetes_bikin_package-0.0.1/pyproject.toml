@@ -1,0 +1,15 @@
+[project]
+name = "ngetes_bikin_package"
+version = "0.0.1"
+authors = [
+  { name="Mas mas ganteng", email="tampan@example.com" },
+]
+description = "Coba-coba setelah sekian lama tidak membuat package"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

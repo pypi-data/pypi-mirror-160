@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/mas_apip/__init__.py
+src/mas_apip/apip.py
+src/ngetes_bikin_package.egg-info/PKG-INFO
+src/ngetes_bikin_package.egg-info/SOURCES.txt
+src/ngetes_bikin_package.egg-info/dependency_links.txt
+src/ngetes_bikin_package.egg-info/top_level.txt
