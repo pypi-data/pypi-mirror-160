@@ -1,0 +1,5 @@
+{
+  "name": "Golang Basic",
+  "description": "Golang spider with basic configuration",
+  "cmd": "go mod tidy && go run main.go"
+}
