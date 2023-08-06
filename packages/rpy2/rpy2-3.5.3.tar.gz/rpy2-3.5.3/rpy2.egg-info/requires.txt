@@ -1,0 +1,26 @@
+cffi>=1.10.0
+jinja2
+pytz
+tzlocal
+
+[:platform_system == "Windows"]
+packaging
+
+[all]
+numpy
+pytest
+setuptools
+pandas
+
+[numpy]
+pandas
+
+[pandas]
+numpy
+pandas
+
+[setup]
+setuptools
+
+[test]
+pytest
