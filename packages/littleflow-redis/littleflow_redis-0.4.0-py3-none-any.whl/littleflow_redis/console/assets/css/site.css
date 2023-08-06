@@ -1,0 +1,101 @@
+
+#workflows .uk-width-expand {
+   width: 80%;
+}
+
+#workflows .uk-accordion-title span {
+   display: inline-block;
+}
+
+#workflows .uk-accordion-title span.state {
+   vertical-align: top;
+   padding-left: 1em;
+}
+
+svg .statediagram-state.started rect {
+   fill: rgba(0,100,0,0.5) !important
+}
+
+svg .statediagram-state.ended rect {
+   fill: rgba(0,0,100,0.5) !important
+}
+
+svg .statediagram-state.failed rect {
+   fill: rgba(150,0,0,0.5) !important
+}
+
+tr.started {
+   background-color: rgba(0,100,0,0.25);
+}
+tr.started:nth-of-type(odd) {
+   background-color: rgba(0,100,0,0.15) !important;
+}
+
+tr.ended {
+   background-color: rgba(0,0,100,0.25);
+}
+
+tr.ended:nth-of-type(odd) {
+   background-color: rgba(0,0,100,0.15) !important;
+}
+
+tr.failed {
+   background-color: rgba(150,0,0,0.25);
+}
+
+tr.failed:nth-of-type(odd) {
+   background-color: rgba(150,0,0,0.15) !important;
+}
+
+#upload-workflow {
+   border: none;
+   margin-top: 1em;
+}
+
+input[type=file]::file-selector-button {
+  border: 1px solid transparent;
+  padding: .4em .8em;
+  border-radius: 0;
+  background-color: rgba(0,0,100,0.5);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+#workflows .uk-accordion-content .uk-iconnav {
+   width: 90%;
+   margin-left: 2em;
+   margin-right: auto;
+   margin-bottom: 0.2rem;
+   padding-bottom: 0.2rem;
+   border-bottom: 1px solid rgba(50,50,50,0.25);
+}
+.mermaid svg {
+   display: block;
+   width: 90%;
+   margin-left: 2em;
+   margin-right: auto;
+   border-bottom: 1px solid rgba(50,50,50,0.25);
+}
+
+.mermaid.horizontal svg {
+   height: 40vh;
+}
+
+
+.mermaid.vertical svg {
+   height: 80vh;
+}
+
+input[type=file]::file-selector-button:hover {
+   background-color: rgba(0,0,100,0.6);
+}
+
+.uk-button.uk-button-primary {
+   background-color: rgba(0,0,100,0.5)
+}
+.uk-button.uk-button-primary:hover {
+   background-color: rgba(0,0,100,0.6);
+}
+
+.svg-pan-zoom-control { position: relative; top: 50px;}
