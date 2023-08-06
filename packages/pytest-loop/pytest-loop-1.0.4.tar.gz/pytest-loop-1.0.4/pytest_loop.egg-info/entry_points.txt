@@ -1,0 +1,3 @@
+[pytest11]
+loop = pytest_loop
+
