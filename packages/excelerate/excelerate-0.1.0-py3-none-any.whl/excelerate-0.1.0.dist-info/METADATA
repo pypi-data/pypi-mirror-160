@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: excelerate
+Version: 0.1.0
+Summary: Easily generate beautiful excel reports in python
+Home-page: https://github.com/FrostyTheSouthernSnowman/excelerate
+License: MIT
+Keywords: excel,python,automation,data
+Author: Yosi Frost
+Author-email: yosi_frost@icloud.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Project-URL: Repository, https://github.com/FrostyTheSouthernSnowman/excelerate
+Description-Content-Type: text/markdown
+
+# Excelerate
+
+Accelerate your project with beautiful excel reports
+
