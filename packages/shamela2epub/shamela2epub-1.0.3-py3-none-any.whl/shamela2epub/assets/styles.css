@@ -1,0 +1,7 @@
+* {
+    direction: rtl;
+}
+
+.text-center,  h2 {
+    text-align: center;
+}
