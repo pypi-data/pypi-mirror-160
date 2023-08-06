@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: berrosoft-upgrade
+Version: 0.1
+Summary: Fonctions packagées de mise à jour pour les programmes berrosoft
+Home-page: UNKNOWN
+Author: Manuel Berrocal
+Author-email: m.berrocal@absolacom.com
+Maintainer: Manuel Berrocal
+Maintainer-email: m.berrocal@absolacom.com
+License: GPL V3
+Keywords: manuel berrocal upgrade update berrosoft package Python
+Platform: ALL
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+
+berrosoft_upgrade
+
+
+
+USAGE
+from berrosoft_upgrade import bupgrade
+bupgrade.update(url="", version="0", verbose=False, clean=True)
+
+
