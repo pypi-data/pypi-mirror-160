@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/marple/__init__.py
+src/marpledata.egg-info/PKG-INFO
+src/marpledata.egg-info/SOURCES.txt
+src/marpledata.egg-info/dependency_links.txt
+src/marpledata.egg-info/top_level.txt
