@@ -1,0 +1,9 @@
+setup.py
+calculate/__init__.py
+calculate/calc.py
+calculate/unit_tests.py
+ishay_calculate_application.egg-info/PKG-INFO
+ishay_calculate_application.egg-info/SOURCES.txt
+ishay_calculate_application.egg-info/dependency_links.txt
+ishay_calculate_application.egg-info/requires.txt
+ishay_calculate_application.egg-info/top_level.txt
