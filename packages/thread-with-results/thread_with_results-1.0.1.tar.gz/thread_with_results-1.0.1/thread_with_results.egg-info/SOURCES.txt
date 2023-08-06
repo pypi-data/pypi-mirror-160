@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+thread_with_results/__init__.py
+thread_with_results/exceptions.py
+thread_with_results/thread.py
+thread_with_results.egg-info/PKG-INFO
+thread_with_results.egg-info/SOURCES.txt
+thread_with_results.egg-info/dependency_links.txt
+thread_with_results.egg-info/top_level.txt
