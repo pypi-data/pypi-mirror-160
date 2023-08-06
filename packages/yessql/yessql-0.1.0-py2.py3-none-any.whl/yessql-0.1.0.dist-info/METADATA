@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yessql
+Version: 0.1.0
+Summary: An easy to use python SQL database interface for Postgres and MySQL
+Home-page: https://github.com/mitchelllisle/yessql
+Author: Mitchell Lisle
+Author-email: m.lisle90@gmail.com
+License: UNKNOWN
+Keywords: yessql
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: aiomysql
+Requires-Dist: asyncpg
+Requires-Dist: pg8000
+
+UNKNOWN
+
