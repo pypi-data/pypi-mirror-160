@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: circdeploy
+Version: 0.2.0
+Summary: Easily deploy your CircuitPython projects
+Home-page: https://github.com/plasticrake/circdeploy
+License: MIT
+Keywords: circuitpython
+Author: Patrick Seal
+Author-email: code@plasticrake.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: System :: Software Distribution
+Requires-Dist: circup (>=1.1.2,<2.0.0)
+Requires-Dist: igittigitt (>=2.1.2,<3.0.0)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# circdeploy
+
+## Easily deploy your CircuitPython projects
+
+Deploys the current working directory to a connected CircuitPython device.
+
+I don't like editing CircuitPython files directly from the mounted device folder. The OS may be
+creating hidden files or your IDE may be saving files frequently which may trigger the device
+to reboot.
+
+**Default behavior:** Copies all `./**/*.py` and `./**/*.pyc` files from the current directory to an
+automatically detected CircuitPython device, skipping any files in `.gitignore`. Any remaining
+`./**/*.py` and `./**/*.pyc` files on the device are deleted (`./lib/*` is not deleted)
+
+```text
+$ circdeploy --help
+
+ Usage: circdeploy [OPTIONS]
+
+ Deploy current CircuitPython project
+ All .py and .pyc files in the current directory tree will be copied to the destination (device)
+ All other .py and .pyc files in the destination directory tree (device) will be deleted except /lib/
+
+╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ --source,--src        -s                    TEXT  Deploy from this location. [default: (current working directory)]                     │
+│ --destination,--dest  -d                    TEXT  Deploy to this location. [default: (device path automatically detected)]              │
+│ --delete                  --no-delete             Delete files in destination. [default: delete]                                        │
+│ --use-gitignore           --no-gitignore          Ignore files using .gitignore files relative to source path. [default: use-gitignore] │
+│ --dry-run                                         Don't copy files, only output what would be done.                                     │
+│ --install-completion                              Install completion for the current shell.                                             │
+│ --show-completion                                 Show completion for the current shell, to copy it or customize the installation.      │
+│ --help                                            Show this message and exit.                                                           │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
