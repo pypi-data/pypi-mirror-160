@@ -1,0 +1,12 @@
+pyyaml>=6.0
+
+[dev]
+black
+pylint
+mypy
+types-PyYAML
+pre-commit
+docker
+
+[docker]
+docker
