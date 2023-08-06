@@ -1,0 +1,2 @@
+[console_scripts]
+Makefile.venv = Makefile_venv:cli
