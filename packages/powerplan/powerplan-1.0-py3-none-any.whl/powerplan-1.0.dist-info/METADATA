@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: powerplan
+Version: 1.0
+Summary: Get windows powerplan scheme
+Home-page: UNKNOWN
+Author: Temal
+Author-email: contact@temal.cf
+License: UNKNOWN
+Keywords: python,windows,powerplan
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
+
