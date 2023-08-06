@@ -1,0 +1,125 @@
+# -*- coding: UTF-8 -*-
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+#                                                                              #
+#                       OOOOOOOOO---------------OOOOOOOOO                      #
+#                       OOOOO-----------------------OOOOO                      #
+#                       OOO-------------------NNNN----OOO                      #
+#                       O--------------------NNNNNN-----O                      #
+#                       O----------NN--------NNN-NNN----O                      #
+#                       ---------NNNNNNN-----NNN--NNN----                      #
+#                       ---------NNNNNNNNN---NNN---NNNNNN                      #
+#                       NNNNNN---NNN---NNNNNNNNN---------                      #
+#                       ----NNN--NNN-----NNNNNN----------                      #
+#                       O----NNN-NNN--------NN----------O                      #
+#                       O-----NNNNNN--------------------O                      #
+#                       OOO----NNNN-------------------OOO                      #
+#                       OOOOO-----------------------OOOOO                      #
+#                       OOOOOOOOO---------------OOOOOOOOO                      #
+#                                                                              #
+#                                Nanohmics, Inc.                               #
+#                                                                              #
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+[project]
+name = "partis-view"
+version = "0.0.2"
+description = "Graphical interface for viewing and editing workflow files"
+maintainers = [
+  { name = "Nanohmics Inc.", email = "software.support@nanohmics.com" } ]
+license = { file = "LICENSE.txt" }
+readme = { file = "README.rst" }
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+  "Topic :: System :: Clustering",
+  "Operating System :: POSIX :: Linux" ]
+
+# NOTE: Python 3.6 is where syntax support for async generators were introduced
+# NOTE: Python 3.6.2 added certain features to typing modules which dependencies
+# NOTE: Qt for Python (Pyside2) currently supports only >= 3.6 and <= 3.9
+requires-python = ">= 3.6.2"
+
+dependencies = [
+  "partis-utils[asy,theme] == 0.0.2",
+  "partis-schema == 0.0.2",
+  "scipy >= 1.3.1",
+  # NOTE: bundled resource compiler (rcc) not sufficient until v5.14
+  "PySide2 >= 5.14, < 5.15; python_version < '3.8'",
+  # NOTE: did not support Python 3.8 until v5.15
+  "PySide2 >= 5.15, < 5.16; python_version >= '3.8'"  ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[project.optional-dependencies]
+
+doc = [
+  'partis-utils[sphinx] == 0.0.2' ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[project.scripts]
+# NOTE: gui will run only if 'gui' extras has been installed
+partis-view = "partis.view.__main__:main"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Build and distribution configuration
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[build-system]
+requires = [
+  "partis-pyproj == 0.0.2",
+  "lxml >= 4.2.5",
+  # NOTE: should be the same PySide2 as above
+  "PySide2 >= 5.14, < 5.15; python_version < '3.8'",
+  "PySide2 >= 5.15, < 5.16; python_version >= '3.8'"  ]
+
+build-backend = "partis.pyproj.backend"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist]
+
+ignore = [
+  '__pycache__',
+  '*.py[cod]',
+  '*.so',
+  '*.egg-info',
+  '.nox',
+  '.pytest_cache',
+  '.coverage',
+  'tmp',
+  'dist',
+  'build',
+  'doc/_build',
+  'doc/.nox' ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist.source]
+
+copy = [
+  'src',
+  'doc',
+  'test',
+  'pkgaux',
+  'pyproject.toml',
+  'LICENSE.txt',
+  'README.rst' ]
+
+# adds support for legacy 'setup.py'
+add_legacy_setup = true
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist.binary.purelib]
+
+copy = [
+  { src = 'src/view', dst = 'partis/view' } ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist.binary.prep]
+# run Qt 'rcc' resource compiler
+entry = "pkgaux:bdist_prep"
+
+[tool.pyproj.dist.binary.prep.kwargs]
+rcc_runs = [
+  { src = 'src/view/themes/light', prefix = '_res' },
+  { src = 'src/view/themes/dark', prefix = '_res' } ]
