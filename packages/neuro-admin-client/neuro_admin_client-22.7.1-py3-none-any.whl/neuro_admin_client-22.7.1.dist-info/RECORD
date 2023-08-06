@@ -1,0 +1,11 @@
+neuro_admin_client/__init__.py,sha256=juR5mE0TfzWu44SEzS0ez5zvYHvnsg_v1i75sWI2s7c,93572
+neuro_admin_client/entities.py,sha256=Rig_15hmpo3aDV-LuEhCdla_2c5lEw9ppbhYkyHiv0k,4478
+neuro_admin_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=XEfAbzg9YUgs_lwKRg97Kl87DpXmzak71XGWa3oTXX8,55820
+tests/test_admin_client.py,sha256=POmPCyR5BbrXq5DHOFpNAZCmEpBP5gl7Y1T2Yq8R_cY,64134
+neuro_admin_client-22.7.1.dist-info/LICENSE,sha256=pVb_3JM8l6iiZEkZq5-wPiL4om6oL4_xY0E9uzimRWg,582
+neuro_admin_client-22.7.1.dist-info/METADATA,sha256=rPf9UDkbHlzlwKCgiIEuYVAE8Cc_dnQWUNDixjhNp1U,485
+neuro_admin_client-22.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+neuro_admin_client-22.7.1.dist-info/top_level.txt,sha256=T_r-djXkppu180EX7W-JayVfUpn3Ox21kCXBAQ2Dlz4,25
+neuro_admin_client-22.7.1.dist-info/RECORD,,
