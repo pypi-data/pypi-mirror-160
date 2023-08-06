@@ -1,0 +1,5 @@
+include requirements*.txt
+include eolearn/mask/models/*
+include LICENSE
+include README.md
+exclude eolearn/tests/*
