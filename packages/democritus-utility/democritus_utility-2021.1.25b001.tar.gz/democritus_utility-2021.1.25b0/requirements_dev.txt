@@ -1,0 +1,6 @@
+black; python_version > '3.5'
+codecov
+pytest
+pytest-cov
+democritus-timer
+democritus-html
