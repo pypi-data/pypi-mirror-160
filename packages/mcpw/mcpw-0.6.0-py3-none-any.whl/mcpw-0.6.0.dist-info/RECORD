@@ -1,0 +1,14 @@
+mcpw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcpw/jupyter_functions.py,sha256=XD2vP13njJ1iRC4rG0TxrN7nuMT2Xaqpf1yLxFCLBBQ,9591
+mcpw/manager.py,sha256=6iyC9-Xi8IyjexS9-tfQ1-YM1PmCwUf83Eg_0shvkbw,9851
+mcpw/mcstas_wrapper.py,sha256=ci2iE6uGi6FP5DPJgnvTyQQbxD9zYH_tNZzfr-a3qHU,27965
+mcpw/setup.py,sha256=Bvyfx7TxZo8yeDbOijwflnMVsgv1y-aa61RIWVU1sN0,2911
+mcpw/setup_tools.py,sha256=jFhWflbRUm_3a4Qtf8updmx81Wpeu6b0BqIdONmwulc,11654
+mcpw-0.6.0.dist-info/AUTHORS,sha256=qH2VveCjgXFu9bQTaoSIRqlqw8BwoOiDX6wwdCFPwmM,90
+mcpw-0.6.0.dist-info/LICENSE,sha256=zTjoJx_Q1tj-lwu9LWlG3DFW6BdIFrZvpIWpZ6VaeYs,1064
+mcpw-0.6.0.dist-info/METADATA,sha256=WInb4uJsXu4BS55OaAmQSZ93Ohblmc7UGXnK-TbWku4,17371
+mcpw-0.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mcpw-0.6.0.dist-info/entry_points.txt,sha256=y7a-UBCbNqo8MYPAsP5ZnL8Sb_0zKQG_tTNvsVpHnpg,80
+mcpw-0.6.0.dist-info/pbr.json,sha256=kJmJqLgQQke4CJEtpe9ckLzc_NJvitRpWTvok_Imd-E,47
+mcpw-0.6.0.dist-info/top_level.txt,sha256=4eFBycKovb6aeixb0glXlJTRslYRROoHCxVQpoygD-I,5
+mcpw-0.6.0.dist-info/RECORD,,
