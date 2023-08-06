@@ -1,0 +1,13 @@
+image_duplicate_finder/__init__.py,sha256=ALmtRAfiRkf3d2__HQVIrTonp-XMOSYVVfIQ-TuZ1gY,5958
+image_duplicate_finder/__main__.py,sha256=GClTlHZzSMMD5or59COMQPZJBKwbFkba6Ofn2xy1J5E,115
+image_duplicate_finder/constants.py,sha256=RtCgPgfic4cl1yqBwKsbK_m_nEwS1_xnxx8G6ndQBrA,619
+image_duplicate_finder/duplication_functions.py,sha256=O7ZkMCsjctMHO_KfkF5vBa7UsrmDJmDq0m1kNWWQ8vA,9411
+image_duplicate_finder/os_functions.py,sha256=usiuSL28jTQCYbdt0GLxN2F179gKCGSe-EEdUhGrKsU,4650
+image_duplicate_finder/test/__init__.py,sha256=OZo-HliHj8fCzLjxpZCmGqKYVZ1ovJ-pMawieHcskN4,29
+image_duplicate_finder/test/test.py,sha256=wuruAkZ7D6MBgGv8zO4hOiZcjDA98dpd9jpnQP541oo,17378
+ImageDuplicateFinder-0.6.0.dist-info/LICENSE,sha256=aK9rPnPTjTKoXFfjNVyCHI9MLjXHcLedSlk_8_19qKM,1083
+ImageDuplicateFinder-0.6.0.dist-info/METADATA,sha256=43s-ARtRNY7kQB6CsR2I0eNl26B9BjPZqDblOXgyRs8,5540
+ImageDuplicateFinder-0.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ImageDuplicateFinder-0.6.0.dist-info/entry_points.txt,sha256=-ZxyILX3dNZBy9-0ZttEsuXukz3nLIiILY-WlhsiQlE,71
+ImageDuplicateFinder-0.6.0.dist-info/top_level.txt,sha256=VtJXYTlYGxLSQ04PwIhUAXT4xjmfWbKUtDI1PlzSAVQ,23
+ImageDuplicateFinder-0.6.0.dist-info/RECORD,,
