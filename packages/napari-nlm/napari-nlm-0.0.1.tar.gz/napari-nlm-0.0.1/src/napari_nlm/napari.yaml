@@ -1,0 +1,18 @@
+name: napari-nlm
+display_name: napari NLM
+contributions:
+  commands:
+    - id: napari-nlm.make_sample_data
+      python_name: napari_nlm._sample_data:make_sample_data
+      title: Load sample data from napari NLM
+    - id: napari-nlm.denoise_nlm
+      python_name: napari_nlm._widget:denoise_nlm
+      title: denoise_nlm
+  sample_data:
+    - command: napari-nlm.make_sample_data
+      display_name: noisy bricks
+      key: unique_id.1
+  widgets:
+    - command: napari-nlm.denoise_nlm
+      autogenerate: true
+      display_name: denoise_nlm
