@@ -1,0 +1,16 @@
+systemair/VERSION.py,sha256=C81u6r6dGlP9uvkMp0crnFzlc88TOVckmwMJdj2ltQo,179
+systemair/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+systemair/saveconnect/__init__.py,sha256=lvJ4xz2TFna9ywiSGXJmkt5fcIxiRwH7DAt3pj9Jtfg,36
+systemair/saveconnect/auth.py,sha256=xIOjhcss-64XBPa0BUPDSupTIwfbRV9YghWutHCd4-4,2081
+systemair/saveconnect/const.py,sha256=QBt6FRvgJ8enZopJozB613XOQshuX8xtljtLaAzpUUg,600
+systemair/saveconnect/data.py,sha256=E4eaCf8uR3sfE0U7wNayX4L8pkd9dyEEbUPRalAfPWM,792
+systemair/saveconnect/graphql.py,sha256=ZD2LntZoEo9Aa9d7UtO37AbaEhla__-nrWIcYtn7XH0,4102
+systemair/saveconnect/register.py,sha256=a-V3e6elEYss1TobUDw_q1g-mm-rLzYYu6QuMTBz5Is,25811
+systemair/saveconnect/registry.py,sha256=g06ixAnnvX3Enk0XAup48a0VR8bwIlDsBz5vJDtB-lk,225
+systemair/saveconnect/systemair.py,sha256=JKNTD6-kqXtTPVjnpNStbZ35ADdYNd0YQ0QaAN_29Bo,8533
+systemair/saveconnect/websocket.py,sha256=3h_WvI01Eg2PoErJZNjQqzFkFYPl1Bl8YjKO0GMoPxI,2903
+python_systemair_saveconnect-3.0.0rc1.dist-info/LICENSE.txt,sha256=czyAsTr6U7j2SECN2vil1kGQLoOuC9Bk5_uJzZvSIuQ,1056
+python_systemair_saveconnect-3.0.0rc1.dist-info/METADATA,sha256=g6dcjbm3La7jgdBfyFezrTp9EYSM5Ef7mW9XviUwIfw,1438
+python_systemair_saveconnect-3.0.0rc1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+python_systemair_saveconnect-3.0.0rc1.dist-info/top_level.txt,sha256=JwZEkQIBQ2a19JPEC-5NQ0aC-qDEODU6Kg7_-sVZWTg,10
+python_systemair_saveconnect-3.0.0rc1.dist-info/RECORD,,
