@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/scrapy_dot_items/__init__.py
+src/scrapy_dot_items/_global.py
+src/scrapy_dot_items/decorator.py
+src/scrapy_dot_items.egg-info/PKG-INFO
+src/scrapy_dot_items.egg-info/SOURCES.txt
+src/scrapy_dot_items.egg-info/dependency_links.txt
+src/scrapy_dot_items.egg-info/top_level.txt
