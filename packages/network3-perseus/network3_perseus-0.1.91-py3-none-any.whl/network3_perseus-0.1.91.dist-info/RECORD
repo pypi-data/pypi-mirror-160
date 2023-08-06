@@ -1,0 +1,10 @@
+network3_perseus/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+network3_perseus/dragon.py,sha256=Zx0D3AUgTCkygcEn_8I1YyvrfJb3Vo5Z4GfOjKTyD9w,370
+network3_perseus/network3_perseus.py,sha256=IWDt6P8BaXrxOoQdw1x7wYcd96azmaBdgPwVjmlRR-U,5147
+network3_perseus/script.py,sha256=Cf8vv63O_5NNlCCJbagOx-ftZzPItwZGcWvGftnKcVI,65
+network3_perseus/templates/intended_config.j2,sha256=5xIwNiWptFonBSl-kVgYWYbgWZ2XtcI3d_BscHMxL2I,58
+network3_perseus-0.1.91.dist-info/entry_points.txt,sha256=T2Dr5u107PbFRAZqUfpveOlxjx-mhBthPOffuSQbeOk,64
+network3_perseus-0.1.91.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+network3_perseus-0.1.91.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+network3_perseus-0.1.91.dist-info/METADATA,sha256=vOnCP8NMYrCu0Yt_lE1GF6P6x7I5m4Xb8CHv_PwZsUg,4035
+network3_perseus-0.1.91.dist-info/RECORD,,
