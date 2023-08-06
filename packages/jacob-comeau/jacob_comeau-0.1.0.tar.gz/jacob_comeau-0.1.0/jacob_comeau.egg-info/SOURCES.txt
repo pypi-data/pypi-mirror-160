@@ -1,0 +1,9 @@
+README.md
+setup.py
+jacob_comeau/__init__.py
+jacob_comeau/functions.py
+jacob_comeau.egg-info/PKG-INFO
+jacob_comeau.egg-info/SOURCES.txt
+jacob_comeau.egg-info/dependency_links.txt
+jacob_comeau.egg-info/requires.txt
+jacob_comeau.egg-info/top_level.txt
