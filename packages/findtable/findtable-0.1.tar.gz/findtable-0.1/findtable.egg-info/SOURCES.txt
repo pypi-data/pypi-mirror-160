@@ -1,0 +1,7 @@
+setup.py
+findtable/__init__.py
+findtable/findtable.py
+findtable.egg-info/PKG-INFO
+findtable.egg-info/SOURCES.txt
+findtable.egg-info/dependency_links.txt
+findtable.egg-info/top_level.txt
