@@ -1,0 +1,10 @@
+setup.py
+carter_probability/Binomialdistribution.py
+carter_probability/Gaussiandistribution.py
+carter_probability/Generaldistribution.py
+carter_probability/__init__.py
+carter_probability.egg-info/PKG-INFO
+carter_probability.egg-info/SOURCES.txt
+carter_probability.egg-info/dependency_links.txt
+carter_probability.egg-info/not-zip-safe
+carter_probability.egg-info/top_level.txt
