@@ -1,0 +1,14 @@
+ChangeLog
+MANIFEST.in
+MakeFile
+README.md
+memcache.py
+requirements.txt
+setup.cfg
+setup.py
+test-requirements.txt
+python_memcached_py38fix.egg-info/PKG-INFO
+python_memcached_py38fix.egg-info/SOURCES.txt
+python_memcached_py38fix.egg-info/dependency_links.txt
+python_memcached_py38fix.egg-info/requires.txt
+python_memcached_py38fix.egg-info/top_level.txt
