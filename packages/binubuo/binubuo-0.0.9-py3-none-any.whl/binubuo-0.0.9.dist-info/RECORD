@@ -1,0 +1,11 @@
+binubuo/BinubuoTemplate.py,sha256=kV4CNETqZRXLWU6kY8obFhiWC854Nlzf-zNOdRLKOXA,6640
+binubuo/__init__.py,sha256=EKqt0flAFzd86TeXcVkDGDrud4Z4M1d3WTaJRwnRLvs,1783
+binubuo/binubuo.py,sha256=ZVKYp0SSFNb4cRTr1U8MwVvtotasu5yVCpuc6FDE1B8,22326
+binubuo/binubuoOracle.py,sha256=6nOOdayIs_aMHX6dEIJfIAhBdtJ2DLElEvUmAFl-LOg,41686
+binubuo/binubuoPostgres.py,sha256=7qBbdITfL4IL28-dyfvDOlwN7i_zPmNVfU5YnXKdk_w,42179
+binubuo/binubuoSQLServer.py,sha256=mkV0Wy590RsAm6RyuZTJNNzFJyBYmvdNbcHXEQMtxZE,5643
+binubuo-0.0.9.dist-info/LICENSE.txt,sha256=Bc8n9tgMwX5rfL__dS8CLQV5LPWJrFiX4H7M96Cc_9A,1087
+binubuo-0.0.9.dist-info/METADATA,sha256=UQh7Uajf-iu9-qzcAL-i_SvG1JZHa1kuyRXqBOZl4KY,5391
+binubuo-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+binubuo-0.0.9.dist-info/top_level.txt,sha256=zweENXNvlaHx7deaPWY1CAqd_GMvr91pfPwAvqQqHkM,8
+binubuo-0.0.9.dist-info/RECORD,,
