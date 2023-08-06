@@ -1,0 +1,6 @@
+setup.py
+temnanoc_iq/__init__.py
+temnanoc_iq.egg-info/PKG-INFO
+temnanoc_iq.egg-info/SOURCES.txt
+temnanoc_iq.egg-info/dependency_links.txt
+temnanoc_iq.egg-info/top_level.txt
