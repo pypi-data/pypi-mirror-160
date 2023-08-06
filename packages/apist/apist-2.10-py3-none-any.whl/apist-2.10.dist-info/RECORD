@@ -1,0 +1,11 @@
+apist/__init__.py,sha256=5uC7Dg7pzotME-3qbEh8gh1dDv6yb3h18wywM4BjpOE,278
+apist/apist.py,sha256=aaNZJ8181ZdrY6Ybx3Un4xmkKzv5N2RhNl6kY7rXaf8,16604
+apist/emails.py,sha256=YJDLeV3QSdkhLtVUUKukMf100h0mdrZxfFDa5h57oZA,1789
+apist/excel_orm.py,sha256=pmZ5WCvA8bTOXNK0SjKA23p7VZjVV_BAkK6A56cRTNI,8300
+apist/logs.py,sha256=5NY3A90SsFjSGf4qVtTBJu1PvJH3zH7Vaw23ogsph-k,2097
+apist/setting.py,sha256=AwW4mEmWtgUizEUhlvSTN5ZEFmBtsOUksChfgdir59I,13458
+apist-2.10.dist-info/LICENSE,sha256=sn8oS9tc6nqBb6djWoxhOZwuSSi5bz5Pd7QEXMabE6c,1083
+apist-2.10.dist-info/METADATA,sha256=XNI5uwZ4RtFdd6knwzAfW6P8eSRKhvC9H2hsf4EB5FA,1247
+apist-2.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apist-2.10.dist-info/top_level.txt,sha256=EYMG0MdwtAHFwT9uh1Uhs8hfVPnuxZGZdne1uFpv8Xs,6
+apist-2.10.dist-info/RECORD,,
