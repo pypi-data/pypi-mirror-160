@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tahoe_scorm/__init__.py
+tahoe_scorm/exceptions.py
+tahoe_scorm/storages.py
+tahoe_scorm.egg-info/PKG-INFO
+tahoe_scorm.egg-info/SOURCES.txt
+tahoe_scorm.egg-info/dependency_links.txt
+tahoe_scorm.egg-info/top_level.txt
