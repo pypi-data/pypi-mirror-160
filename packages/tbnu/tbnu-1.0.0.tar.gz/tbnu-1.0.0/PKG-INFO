@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tbnu
+Version: 1.0.0
+Summary: TBNU is a super simple and easy to use CLI notes application
+License: MIT
+Keywords: notes,cli,terminal,note
+Author: Abdullah Mohammed
+Author-email: aamohammed4556@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: art (>=5.6,<6.0)
+Project-URL: repository, https://github.com/PhantomLel/tbnu
