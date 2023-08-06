@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: deadnews-python-template
+Version: 0.0.1a2
+Summary: Python Project Template
+Home-page: https://github.com/DeadNews/deadnews-python-template
+License: MIT
+Keywords: python,template,layout
+Author: DeadNews
+Author-email: uhjnnn@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/DeadNews/deadnews-python-template
+Description-Content-Type: text/markdown
+
+# deadnews-python-template
+
+> Python Project Template
+
+[![PyPI version](https://img.shields.io/pypi/v/deadnews-python-template)](https://pypi.org/project/deadnews-python-template)
+[![CI/CD](https://github.com/DeadNews/deadnews-python-template/actions/workflows/python-app.yml/badge.svg)](https://github.com/DeadNews/deadnews-python-template/actions/workflows/python-app.yml)
+[![pre-commit.ci](https://results.pre-commit.ci/badge/github/DeadNews/deadnews-python-template/main.svg)](https://results.pre-commit.ci/latest/github/DeadNews/deadnews-python-template/main)
+[![codecov](https://codecov.io/gh/DeadNews/deadnews-python-template/branch/main/graph/badge.svg?token=OCZDZIYPMC)](https://codecov.io/gh/DeadNews/deadnews-python-template)
+
+## Installation
+
+```sh
+pip install deadnews-python-template
+```
+
