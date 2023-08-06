@@ -1,0 +1,2 @@
+include user_agent_th/*.json
+include user_agent_th/data/*.json
