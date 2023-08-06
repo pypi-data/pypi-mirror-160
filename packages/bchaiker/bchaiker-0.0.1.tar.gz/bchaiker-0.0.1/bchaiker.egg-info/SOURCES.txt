@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+bchaiker/__init__.py
+bchaiker.egg-info/PKG-INFO
+bchaiker.egg-info/SOURCES.txt
+bchaiker.egg-info/dependency_links.txt
+bchaiker.egg-info/requires.txt
+bchaiker.egg-info/top_level.txt
