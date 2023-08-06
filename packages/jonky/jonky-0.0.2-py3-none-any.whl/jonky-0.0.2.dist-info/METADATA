@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jonky
+Version: 0.0.2
+Summary: jonky, Jari's conky
+Home-page: UNKNOWN
+Author: Jariullah Safi
+Author-email: safijari@isu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pycairo
+Requires-Dist: PyGObject
+Requires-Dist: pillow
+Requires-Dist: maya
+Requires-Dist: libjari
+Requires-Dist: bash
+Requires-Dist: orgparse
+Requires-Dist: psutil
+Requires-Dist: numpy
+
+UNKNOWN
+
