@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+src/templatepptx/__init__.py
+src/templatepptx/error.py
+src/templatepptx/main.py
+src/templatepptx.egg-info/PKG-INFO
+src/templatepptx.egg-info/SOURCES.txt
+src/templatepptx.egg-info/dependency_links.txt
+src/templatepptx.egg-info/requires.txt
+src/templatepptx.egg-info/top_level.txt
