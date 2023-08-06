@@ -1,0 +1,43 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[tool.pylint.MAIN]
+jobs = 2
+load-plugins = ['biomedit_lints']
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = "line-too-long,invalid-name,too-few-public-methods,too-many-instance-attributes,too-many-arguments,missing-docstring,fixme"
+output-format = "text"
+reports = "no"
+
+[tool.coverage.run]
+branch = true
+source = ["gpg_lite"]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py{37,38,39,310,311},report
+isolated_build = true
+
+[testenv]
+setenv =
+    py{37,38,39,310,311}: COVERAGE_FILE = .coverage.{envname}
+deps = coverage[toml]
+depends =
+    report: py{37,38,39,310,311}
+commands =
+    coverage run -m unittest discover -s test -v
+
+[testenv:report]
+skip_install = true
+parallel_show_output = True
+commands =
+    coverage combine
+    coverage report
+"""
+
+[tool.mypy]
+files = ["gpg_lite", "test"]
+strict = true
