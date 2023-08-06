@@ -1,0 +1,12 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main.py,sha256=bnOXe4zktZo7lP-_WW-tBE0CR_S6iwLj6S1kj46yycY,1354
+src/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/images/convert_image_to_ascii.py,sha256=xzL-tQaDw6d4bchgvPnWXIEAVsL0Jh9wrjVFEl_owWQ,5325
+src/videos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/videos/convert_video_to_ascii.py,sha256=i4nwwqE6oWXOf69_-JvTIuUzcabR-yWNMxkdNlp3PDY,4858
+convert_image_video_to_ascii-0.0.1.dist-info/LICENSE,sha256=gCSaY0f_d8gcmMXxGd-Vp-z0ddFxnDXPbEOAfAIb7IY,1087
+convert_image_video_to_ascii-0.0.1.dist-info/METADATA,sha256=0-WfjXeURuAj-AYQVjEsZ2bOUuSd09qU73fQtF17xY8,857
+convert_image_video_to_ascii-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+convert_image_video_to_ascii-0.0.1.dist-info/entry_points.txt,sha256=GyUzFTNRWWnX4WS8DVcWn6ay5w1VoIsVKulfnisyeJ0,52
+convert_image_video_to_ascii-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+convert_image_video_to_ascii-0.0.1.dist-info/RECORD,,
