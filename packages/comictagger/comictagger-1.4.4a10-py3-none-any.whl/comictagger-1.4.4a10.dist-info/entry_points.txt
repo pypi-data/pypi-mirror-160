@@ -1,0 +1,2 @@
+[console_scripts]
+comictagger = comictaggerlib.main:ctmain
