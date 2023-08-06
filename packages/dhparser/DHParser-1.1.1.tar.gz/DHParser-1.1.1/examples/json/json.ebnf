@@ -1,0 +1,59 @@
+# json-grammar  see: https://json.org/
+
+
+#######################################################################
+#
+#   EBNF-Directives
+#
+#######################################################################
+
+@ whitespace  = vertical        # implicit whitespace, includes any number of line feeds
+@ literalws   = right           # literals have implicit whitespace on the right hand side
+@ comment     = /(?:\/\/|#).*/  # comments range from a '#' odr '//' sign to the end of the line
+@ ignorecase  = False           # literals and regular expressions are case-sensitive
+@ drop        = whitespace, strings  # drop tokens and whitespace early
+@ disposable  = /_[A-Za-z]+/
+
+
+#######################################################################
+#
+#:  JSON elements
+#
+#######################################################################
+
+json       = ~ _element _EOF
+_element   = object | array | string | number | _bool | null
+object     = "{" [_members] §"}"
+_members   = member { "," §member }
+member     = string §":" _element
+array      = "[" [_elements] §"]"
+_elements  = _element { "," §_element }
+string     = `"` [_CHARACTERS] §`"` ~
+number     = INT [FRAC] [EXP] ~
+_bool      = true | false
+true       = `true` ~
+false      = `false` ~
+null       = "null"
+
+
+#######################################################################
+#
+#:  JSON primitives
+#
+#######################################################################
+
+# string components
+_CHARACTERS = { PLAIN | ESCAPE | UNICODE }+
+PLAIN       = /[^"\\]+/
+ESCAPE      = /\\[\/bnrt\\"]/
+UNICODE     = "\u" HEX HEX
+HEX         = /[0-9a-fA-F][0-9a-fA-F]/
+
+# number components
+INT         = [NEG] ( /[1-9][0-9]+/ | /[0-9]/ )
+NEG         = `-`
+FRAC        = DOT /[0-9]+/
+DOT         = `.`
+EXP         = (`E`|`e`) [`+`|`-`] /[0-9]+/
+
+_EOF        =  !/./        # no more characters ahead, end of file reached
