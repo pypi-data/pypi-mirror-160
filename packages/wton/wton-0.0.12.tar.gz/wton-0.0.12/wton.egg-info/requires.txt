@@ -1,0 +1,16 @@
+aiohttp==3.8.1
+bitarray==2.5.1
+cffi==1.15.0
+click==8.1.2
+crc32c==2.2.post0
+halo==0.0.31
+inquirer==2.8.0
+numpy==1.22.3
+prettytable==3.3.0
+pycparser==2.21
+pydantic==1.9.0
+pynacl==1.5.0
+pyyaml==6.0
+tvm-valuetypes==0.0.8
+typing_extensions==4.2.0
+gql==3.3.0

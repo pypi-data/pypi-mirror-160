@@ -1,0 +1,166 @@
+> WARNING: some commands may be upgraded or changed
+
+# Functionality and examples
+
+Easy installation with pip (a python package manager) in terminal
+
+```code
+$ pip install wton
+$ wton init
+```
+> WARNING: for better user experience use virtual environment (python3 -m venv venv & source venv/bin/activate)
+
+wton encrypts all your wallets info in a keystore file using your password. Create an encrypted keystore and select it as a current keystore.
+
+```code
+$ wton keystore new myKeystore
+Password []:
+
+$ wton config wton.keystore_name myKeystore
+```
+
+
+Create any type of a TON wallet
+
+```code
+$ wton wallet create \
+	PocketMoney \
+	--workchain 0 \
+	--version v4r2 \
+	--comment “My main wallet” \
+	--save-to-whitelist myPocketMoney
+```
+
+
+Add your contacts to a whitelist
+```code
+$ wton whitelist add myBestFriend EQBP5aEPlmFNr4eS3DJw2ydC4X_hOumwZoqCcJgHVSQHjZWW
+```
+
+
+Transfer money from the wallet to a whitelist contact
+```code
+$ wton transfer PockeyMoney myBestFriend 10 --message “Happy birthday!”
+```
+
+
+# Features
+
+
+Switch between mainnet and testnet
+```code
+$ wton config --network mainnet
+```
+
+
+Keystore, wallet, whitelist commands support CRUD (create, read, update, delete. Some examples
+
+```code
+$ wton wallet get oldWallet
+Raw address: 0:4fe5a10f96614daf8792dc3270db2742e17fe13ae9b0668a827098075524078d
+Nonbounceable address: UQBP5aEPlmFNr4eS3DJw2ydC4X_hOumwZoqCcJgHVSQHjchT
+Bounceable address: EQBP5aEPlmFNr4eS3DJw2ydC4X_hOumwZoqCcJgHVSQHjZWW
+Version: v4r2
+Workchain: 0
+Comment: None
+
+$ wton wallet delete oldWallet
+Are you sure you want to delete oldWallet wallet? [y/N]: y
+
+$ wton whitelist edit myBestFriend --name myFriend
+``` 
+
+
+Backup and restore your keystores
+
+```code
+$ wton keystore backup ./myKeystore.backup
+Password []: 
+Backup stores keys in UNENCRYPTED FORM. Are you sure want to export unencrypted keys to disk? [y/N]:
+$ wton keystore restore myRestoredKeystore ./myKeystore.backup
+Password []:
+```
+
+Export your wallet mnemonic words and import them in any official TON wallet
+
+```code
+$ wton wallet reveal PocketMoney
+Password []: 
+cliff spin hawk artefact language volume subway surround nuclear lawn weird arrest mule cube impact crash abandon slender turn basic sentence actor you fix
+```
+
+Import wallet from mnemonic phrase 
+
+```code
+$ wton wallet import-from-mnemonics restoredWallet v4r2 0 “cliff spin hawk artefact language volume subway surround nuclear lawn weird arrest mule cube impact crash abandon slender turn basic sentence actor you fix”
+```
+
+Export your wallet to .addr and .pk files
+
+```code
+$ wton wallet to-addr-pk PocketMoney ./destinationDir/
+Password []:
+```
+
+List all wallets and whitelist contacts with verbose information. Also, you can redirect output into a .md file to see a nice table.
+
+```code
+$ wton wallet list --verbose
+|   Name   | Version | WC |                     Address                      |       Comment        |  State   |    Balance    |
+|:--------:|:-------:|:--:|:------------------------------------------------:|:--------------------:|:--------:|:-------------:|
+|  PockeyMoney  |   v4r2  | 0  | EQBP5aEPlmFNr4eS3DJw2ydC4X_hOumwZoqCcJgHVSQHjZWW | None |  Active  | 1.095236369 |
+|  Another wallet  |   v3r2  | 0  | EQCS9ZmXTu-VlDLIsjcQMpMjF0PSdA_aTD6MqCHlaLUoTARS |         None         |  Active  |  1.095236369  |
+
+$ wton whitelist list -v  > myContacts.md
+```
+
+For daily usage you may prefer our wton-interactive version
+
+```code
+$ wton-interactive
+[✓] Pick command: Keystores
+[✓] Pick command: Open keystore
+[✓] Choose keystore to use: good.keystore
+[?] Pick command: List wallets
+ > List wallets
+   Transfer
+   Create wallet
+   Init wallet
+   Get wallet
+   Edit wallet
+   Delete wallet
+   Reveal wallet mnemonics
+   Import from mnemonics
+   Wallet to .addr and .pk
+   Backup keystore
+   Back
+```
+
+
+
+# Integrations
+
+Example of automatic salary payment, you may use cron to run pay_salary.sh
+```code
+$ cat employee.info
+employee1 EQDvtizebIVTGYASXgjYX5sHfkGLW8aFTa7wfYCyARIpARB0 10
+employee2 EQA-Ri7Oftdjq--NJmuJrFJ1YqxYk6t2K3xIFKw3syhIUgUe 20
+employee3 EQCNLRRZkvoqAW6zwYyy_BVwOBcMnwqvyrSpm8WnACdzXuu3 15.5
+
+$ cat pay_salary.sh
+cd ~/team_workspace/ton/
+source venv/bin/activate
+wton config --local wton.keystore_name yandex
+
+input="./employees.info"
+while IFS= read -r line
+do
+    stringarray=($line)
+    name=${stringarray[0]}
+    addr=${stringarray[1]}
+    salary=${stringarray[2]}
+
+    wton wallet transfer SalaryWallet $name $salary
+    sleep 10s  # wait until transaction will have been completed
+done < "$input"
+```
