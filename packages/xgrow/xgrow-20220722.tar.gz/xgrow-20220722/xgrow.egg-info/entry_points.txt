@@ -1,0 +1,2 @@
+[console_scripts]
+xgrow = xgrow._script_xgrow:main
