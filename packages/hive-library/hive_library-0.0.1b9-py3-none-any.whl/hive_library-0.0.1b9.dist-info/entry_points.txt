@@ -1,0 +1,3 @@
+[console_scripts]
+hive-cli = hive_library.cli:main
+
