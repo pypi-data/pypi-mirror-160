@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: logistics
+Version: 0.0.11
+Summary: Vandal framework logistics library.
+Home-page: http://github.com/dkundih/unin
+Author: David Kundih
+Author-email: kundihdavid@gmail.com
+Maintainer: David Kundih
+Maintainer-email: kundihdavid@gmail.com
+License: Apache Software License
+Download-URL: https://github.com/dkundih/unin/archive/refs/tags/v0.0.11.tar.gz
+Project-URL: Documentation, https://github.com/dkundih/unin/blob/master/README.md
+Project-URL: Source Code, https://github.com/dkundih/unin/tree/master/unin
+Description: **Logistics Python Package**
+        
+        ![vandal-header](https://raw.githubusercontent.com/dkundih/vandal/master/_logistics/vandal.jpg)
+        
+        [![Downloads](https://img.shields.io/pypi/dm/vandal?color=F43&label=Downloads&style=flat-square)](https://pypi.org/project/vandal)
+        [![License](https://img.shields.io/pypi/l/vandal?color=178&label=License&style=flat-square)](https://github.com/dkundih/vandal/blob/main/LICENSE)
+        [![PyPi version](https://img.shields.io/pypi/v/vandal?color=178&&label=PyPi%20version&style=flat-square)](https://pypi.org/project/vandal)
+        [![Python version](https://img.shields.io/pypi/pyversions/vandal?color=178&label=Python%20version&style=flat-square)](https://pypi.org/project/vandal)
+        [![Latest publish](https://img.shields.io/github/last-commit/dkundih/vandal?color=178&label=Latest%20publish&style=flat-square)](https://github.com/dkundih/vandal)
+        [![Format](https://img.shields.io/pypi/format/vandal?color=178&label=Format&style=flat-square)](https://pypi.org/project/vandal)
+        
+        logistics
+        =====
+        
+        Vandal framework logistics package.
+        
+        vandal 
+        =====
+        
+        Data science, Data manipulation and Machine learning library.
+        Use permitted according to the terms of use and conditions set by the attached license.
+        
+        
+        **Example of use**
+        
+        Visit my Data Library at https://github.com/dkundih/DataLibrary in order to see the demonstration of use in practical examples.
+        
+        **Installation**
+        
+        ```sh
+        # using pip.
+        pip install vandal
+        ```
+        
+        **Dependencies**
+        
+        ```sh
+        # using pip.
+        pip install vandal -r requirements.txt
+        ```
+        
+        
+        CHANGELOG
+        ==========
+        
+        0.0.2 (20/12/2021)
+        - initial release.
+        
+        0.0.2 (20/12/2021)
+        - initial change.
+        
+        0.0.3 (07/06/2022)
+        - transformed into Vandal framework logistics package.
+        
+        0.0.4 (07/06/2022)
+        - bug fix.
+        
+        0.0.5 (11/06/2022)
+        - added FilePathType and SpecialType.
+        - added multiple folders to aid testing and development.
+        
+        0.0.6 (13/06/2022)
+        - Manifesto added.
+        - special methods redefined.
+        - PEP8 alignments.
+        
+        0.0.7 (13/06/2022)
+        - added meta data.
+        
+        0.0.8 (28/07/2022)
+        - redefined the package structure.
+        - added VandalTypes function to print all the types.
+        
+        0.0.9 (28/07/2022)
+        - quick bug fix.
+        
+        0.0.10 (28/07/2022)
+        - resolved VandalTypes issues.
+Keywords: data science,machine learning,data manipulation,artificial intelligence,logistics,AI,unin,vandal,vandal-py,vandal.py,duality,duality-py,duality.py
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8.1
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Topic :: Office/Business :: Financial :: Point-Of-Sale
+Classifier: Topic :: Office/Business :: Financial :: Spreadsheet
+Description-Content-Type: text/markdown
