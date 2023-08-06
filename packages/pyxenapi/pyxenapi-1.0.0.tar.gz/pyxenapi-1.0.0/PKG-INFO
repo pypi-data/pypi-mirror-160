@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyxenapi
+Version: 1.0.0
+Summary: Python API Wrapper for XenForo Restful API
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
