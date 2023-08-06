@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: classidgraph
+Version: 0.0.3
+Summary: A simple tol for processing Directed Graphs
+Home-page: https://github.com/sasson/classidgraph
+Author: Sasson Margaliot
+Author-email: sasson@live.com
+Project-URL: Bug Tracker, https://github.com/sasson/classidgraph/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# classidgraph
+   A Python Library for Managing Directed Graph
