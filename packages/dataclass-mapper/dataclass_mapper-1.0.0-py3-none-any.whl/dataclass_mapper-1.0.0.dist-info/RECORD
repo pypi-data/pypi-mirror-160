@@ -1,0 +1,9 @@
+dataclass_mapper/__init__.py,sha256=KdRUgTj0OHLAB8502KiEXuhkdzRAeLUBAqBYQbtwS_c,200
+dataclass_mapper/field.py,sha256=t_lymPC9OiZu7DSPtVqlAPjFULzwyGB8Cs7IxtQgR-A,2202
+dataclass_mapper/mapper.py,sha256=POOSGSjJHWh5gdHyO27k0pdEOoZyaESBTFaFY_XTXa4,5268
+dataclass_mapper/mapping_method.py,sha256=v8Kr1oPvo6EzhFehPfAv_NVsndSIc4vFCXJoPokz1FY,6370
+dataclass_mapper/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataclass_mapper-1.0.0.dist-info/LICENSE.md,sha256=AjldnXAa15bmgJoxDT0NC_eLuectF0Ho5vFJdJWrpWc,1052
+dataclass_mapper-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dataclass_mapper-1.0.0.dist-info/METADATA,sha256=pd4eO2tJuWCeUjvo3td__TkyZeARs6e1qdMyxkZYX80,392
+dataclass_mapper-1.0.0.dist-info/RECORD,,
