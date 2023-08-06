@@ -1,0 +1,24 @@
+[build-system]
+requires = ['setuptools>=61.0']
+build-backend = 'setuptools.build_meta'
+#
+#[project]
+#name = 'zephir'
+#version = '0.3.5'
+#authors = [{ name="James Yu", email="yu.hyo@northeastern.edu" }, { name="Vivek Venkatachalam", email="v.venkatachalam@northeastern.edu" }]
+#maintainers = [{ name="James Yu", email="jd.ryu@icloud.com" }]
+#description = 'Multiple object tracking algorithm via image registration.'
+#readme = "README.md"
+#license = { file="LICENSE" }
+#requires-python = ">=3.8"
+#classifiers = [
+#    "Programming Language :: Python :: 3",
+#    "License :: OSI Approved :: MIT License",
+#    "Operating System :: OS Independent",
+#    'Intended Audience :: Science/Research',
+#    'Topic :: Scientific/Engineering',
+#]
+#
+#[project.urls]
+#"Homepage" = "https://github.com/venkatachalamlab/ZephIR"
+#"Bug Tracker" = "https://github.com/venkatachalamlab/ZephIR/issues"
