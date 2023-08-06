@@ -1,0 +1,7 @@
+README.md
+setup.py
+loggingclient.egg-info/PKG-INFO
+loggingclient.egg-info/SOURCES.txt
+loggingclient.egg-info/dependency_links.txt
+loggingclient.egg-info/requires.txt
+loggingclient.egg-info/top_level.txt
