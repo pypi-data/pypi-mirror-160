@@ -1,0 +1,8 @@
+pyautogui
+opencv-python
+pywhatkit
+pynput
+speechrecognition
+keyboard
+pyttsx3
+googletrans
