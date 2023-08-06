@@ -1,0 +1,5 @@
+[aiida.calculations]
+supercell = aiida_supercell.calculations:SupercellCalculation
+
+[aiida.parsers]
+supercell = aiida_supercell.parsers:SupercellParser

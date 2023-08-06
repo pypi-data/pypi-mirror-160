@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.json
+setup.py
+aiida_supercell/__init__.py
+aiida_supercell.egg-info/PKG-INFO
+aiida_supercell.egg-info/SOURCES.txt
+aiida_supercell.egg-info/dependency_links.txt
+aiida_supercell.egg-info/entry_points.txt
+aiida_supercell.egg-info/requires.txt
+aiida_supercell.egg-info/top_level.txt
+aiida_supercell/calculations/__init__.py
+aiida_supercell/parsers/__init__.py
+aiida_supercell/utils/__init__.py
