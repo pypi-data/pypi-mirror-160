@@ -1,0 +1,3 @@
+[console_scripts]
+gstst = guess_testing.cli:cli
+guess-testing = guess_testing.cli:cli

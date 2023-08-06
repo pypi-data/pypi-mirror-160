@@ -1,0 +1,14 @@
+guess_testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guess_testing/__main__.py,sha256=-ME3YEdtbnkrtHGuRDgW8BvKQLMWGmC4MvMpfuWStUc,41
+guess_testing/_base_generator.py,sha256=hBjeA5ZT_sMAeTsYjeZOjFt8bW7WLGiHeQ7yLgsZqlc,1126
+guess_testing/cli.py,sha256=pZyCR7fk-g415zFjhMlBttpYDxjmCgsZ6UZi2vc1MBs,1781
+guess_testing/generators.py,sha256=oZ0zZ7IZ5FKv-9DwYeEK6YHoZB2SzogOlMzbBInhlWg,17955
+guess_testing/guess.py,sha256=--zLfP72c72leJiXk5QyufH6q-j9ztZ5Su7gZN2v7z0,15108
+guess_testing/tracing.py,sha256=vVJZGINkJXjcFq4e3rkc-G6TtMY0KMnLikOI0zMf_gE,3493
+guess_testing/typing_generators_factory.py,sha256=D5YBjL8chmIOP8-UEuQg3mB5zSR6PbbCzz4egqSYSK8,7478
+guess_testing-2.0.0.dist-info/LICENCE.txt,sha256=AUKA0iYWQmzcB72LScO9xHM4RjuK5t7SeKNMQY9QIPI,1092
+guess_testing-2.0.0.dist-info/METADATA,sha256=IRbEQSofJ_5WNjV7CVKNqWsSCHIG4Vg1rv3XNjW-Snc,13789
+guess_testing-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+guess_testing-2.0.0.dist-info/entry_points.txt,sha256=a49frALir5E-lWq8etoJuu3sJIybAIlWu-oup-lHUQE,86
+guess_testing-2.0.0.dist-info/top_level.txt,sha256=TIR17D12cMGfbwuLoKVITgvK-wH0fKN2yhsGD4Z3Sdc,14
+guess_testing-2.0.0.dist-info/RECORD,,
