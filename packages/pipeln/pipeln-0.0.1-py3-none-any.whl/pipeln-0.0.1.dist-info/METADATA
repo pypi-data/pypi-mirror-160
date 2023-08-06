@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pipeln
+Version: 0.0.1
+Summary: A package to create a custom pipeline
+Home-page: https://github.com/Adri-Hdez/Pipeln
+Author: Adrián H.S
+Author-email: adrihs.dev@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# Pipeln
+A package to create a custom pipeline
