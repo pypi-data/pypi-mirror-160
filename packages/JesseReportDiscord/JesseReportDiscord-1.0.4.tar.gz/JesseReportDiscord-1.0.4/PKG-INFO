@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: JesseReportDiscord
+Version: 1.0.4
+Summary: Send backtest results for jesse trade to discord
+Home-page: https://github.com/qwpto/jesse-report-discord
+Author: qwpto
+Author-email: 109690977+qwpto@users.noreply.github.com
+Project-URL: Bug Reports, https://github.com/qwpto/jesse-report-discord/issues
+Project-URL: Source, https://github.com/qwpto/jesse-report-discord/
+Keywords: jesse,trade,discord
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE.txt
+
+# Jesse discord reporting library
+
+Post the results of backtests to a discord channel using a webhook
+
+install with:
+	pip install JesseReportDiscord
+
+Add the following to your strategy:
+
+	import JesseReportDiscord
+	 
+		def terminate(self):
+			JesseReportDiscord.sendJesseReportToDiscord('http://mydiscordgeneratedwebhook')
+
+
+It publishes everything that you get after enabling all the options for your backtest (except debug logs) and a little more:
+- strategy name, 
+- routes, 
+- hyperparameters, 
+- git branch,
+- git commit SHA,
+- json report,
+- csv report (dates updated to human readable),
+- legacy chart, 
+- quantstats report,
+- tradingview pine editor script
+- summary metrics

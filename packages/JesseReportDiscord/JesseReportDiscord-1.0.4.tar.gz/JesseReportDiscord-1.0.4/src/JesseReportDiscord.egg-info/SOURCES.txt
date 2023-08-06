@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/JesseReportDiscord/__init__.py
+src/JesseReportDiscord/sendJesseReportToDiscord.py
+src/JesseReportDiscord.egg-info/PKG-INFO
+src/JesseReportDiscord.egg-info/SOURCES.txt
+src/JesseReportDiscord.egg-info/dependency_links.txt
+src/JesseReportDiscord.egg-info/requires.txt
+src/JesseReportDiscord.egg-info/top_level.txt
