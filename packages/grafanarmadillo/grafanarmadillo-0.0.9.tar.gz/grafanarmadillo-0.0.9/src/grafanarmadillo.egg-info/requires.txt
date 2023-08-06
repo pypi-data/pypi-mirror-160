@@ -1,0 +1,4 @@
+grafana_api~=1.0
+
+[:python_version < "3.8"]
+typing-extensions~=3.0
