@@ -1,0 +1,19 @@
+{% extends 'ehf_invoice/base.html' %}
+{% block content %}
+    <table>
+        <tr>
+            <th>Vis alle leverandører</th>
+            <td><a href="{% url 'ehf_invoice:suppliers' %}">Leverandører</a></td>
+        </tr>
+        <tr>
+            <th><label for="serial">Slå opp serienummer</label></th>
+            <td>
+                <form method="get" action="{% url 'ehf_invoice:find_serial_number_get' %}">
+                    <input type="text" id="serial" name="serial">&nbsp;
+                    <input type="submit" value="Vis">
+                </form>
+                <span class="error">{{ error_serial_number }}</span>
+            </td>
+        </tr>
+    </table>
+{% endblock %}
