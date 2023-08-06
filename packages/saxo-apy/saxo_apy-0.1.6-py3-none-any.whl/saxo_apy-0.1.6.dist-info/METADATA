@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: saxo-apy
+Version: 0.1.6
+Summary: Python Client for Saxo Bank OpenAPI
+Project-URL: Homepage, https://github.com/gidven/saxo-openapi-client-python
+Author-email: Gid van der Ven <me@gid.works>
+License: MIT License
+        
+        Copyright (c) 2022 Gid van der Ven
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: flask==2.1.3
+Requires-Dist: pydantic==1.9.1
+Requires-Dist: pyjwt==2.4.0
+Requires-Dist: requests==2.28.1
+Description-Content-Type: text/markdown
+
+# Saxo-APY: Python Client for Saxo Bank OpenAPI
+
+[![python](https://img.shields.io/badge/python-3.7+-blue)](https://github.com/SaxoBank/saxo-openapi-client-python)
+
+
+## Features
+
+- [x] Authentication and session management with Saxo SSO OAuth 2.0
+    - Supports OAuth `Code` grant type
+    - Works seamlessly in both `SIM` and `LIVE` environments (with read and write/trade permissions)
+    - Automated handling of callback (optional)
+    - Headless authentication for deployed applications (optional)
+    - Ad-hoc refresh of OAuth tokens when sending requests
+- [x] Read operations (`GET` requests)
+- [x] Write operations (`POST`, `PUT`, `PATCH`, `DELETE`, requests)
+- [x] Error handling with practical exception messages
+
+## Installation
+
+`pip install saxo-apy`
+
+## Requirements
+
+- Python 3.7+
+- An OpenAPI application registered [on Saxo Bank's Developer Portal](https://www.developer.saxo/openapi/appmanagement)
+    - [Create a free developer account](https://www.developer.saxo/accounts/sim/signup) if you don't have one already.
+    - Ensure the application is set up with `Grant Type: Code` as authentication flow.
+    - At least 1 localhost redirect needs to be defined such as `http://localhost:12321/redirect` (for development/testing purposes)
+    - (Optional) allow the app trading permissions (note: when testing, always use an)
+
+
+## Usage
+
+Copy your apps's config by clicking `Copy App Object` on the Developer Portal app details page.
+
+The client requires this dictionary to be provided when initializing:
+
+```Python
+from saxo-apy import SaxoOpenAPIClient
+
+# copy app config here:
+config = {
+    "AppName": "Your OpenAPI App",
+    "AppKey": "...",
+    "AuthorizationEndpoint": "...",
+    "TokenEndpoint": "...",
+    "GrantType": "Code",
+    "OpenApiBaseUrl": "...",
+    "RedirectUrls": [
+        "...
+    ],
+    "AppSecret": "..."
+}
+
+client = SaxoOpenAPIClient(config)
+```
+
+## Notes
+
+The client supports OAuth Code flow and will automatically spin up a server to listen for the redirect from Saxo SSO. At least 1 `localhost` redirect needs to be defined in application config for this purpose.
+
+By default, the client will use the _first available localhost redirect_ to run the server on (typically only 1 exists in the config).
+
+The client validates redirect urls in application config automatically. OAuth 2.0 code flow requires a fixed port to be specified on the redirect url. In case this is incorrectly configured, error message will guide you to ensure app config is correct with OpenAPI:
+
+```
+one or more redirect urls have no port configured, which is required for grant type 'Code' - ensure a port is configured in the app config object for each url (example: http://localhost:23432/redirect)
+```
