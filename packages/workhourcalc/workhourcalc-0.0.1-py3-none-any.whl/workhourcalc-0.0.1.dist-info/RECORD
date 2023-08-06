@@ -1,0 +1,10 @@
+calc_work_hours/__init__.py,sha256=Krfr03TMRKovnHybOKfWciQSKvcriDacHABY75MFljY,156
+calc_work_hours/controller.py,sha256=nDKzQH9kDsM_-2H_Qtg5jXE_W9HvEBLSQ-mvBLFkYks,4397
+calc_work_hours/json_utils.py,sha256=pL7hAmTKnKYkbJsUqeznxdcfb93Kwn64tw5haHpBcOQ,2814
+calc_work_hours/main.py,sha256=SYkRCZapURm4bwdtzxaH0xywp7-Hlu855hBJmYtZ-Ww,671
+calc_work_hours/schema.py,sha256=M6z6_EP_RLojLLfqbii6_qyts54LOPaBu-gzjnltd6Q,1020
+calc_work_hours/utils.py,sha256=4Hh0hjaEI-otfkQvxY35CwZH42objzg6k5ZTS3Fj6vY,1282
+workhourcalc-0.0.1.dist-info/METADATA,sha256=utzNEctPYDEWxbEd5UltCW6Q6gxPiC3JnjD-GBczADg,521
+workhourcalc-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+workhourcalc-0.0.1.dist-info/top_level.txt,sha256=FEqmo5oA_FlOUW1C7GQi1MzqgWZVmbArN5vNAtXnZK0,16
+workhourcalc-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: workhourcalc
+Version: 0.0.1
+Summary: Calculate working hours
+Home-page: https://github.com/rasindulakkitha/calc_work_hours
+Author: Rasindu Wanigasinghe
+Author-email: rasindulakkitha95@gmail.com
+Keywords: work_hour
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Dist: arrow
+Requires-Dist: jsonschema
+
+Gets the input opening and closing time of restaurants in millisecond and writes the working hours intervals in human readable format
