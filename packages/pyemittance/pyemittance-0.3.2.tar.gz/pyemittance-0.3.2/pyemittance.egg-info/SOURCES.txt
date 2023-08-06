@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pyemittance.egg-info/PKG-INFO
+pyemittance.egg-info/SOURCES.txt
+pyemittance.egg-info/dependency_links.txt
+pyemittance.egg-info/requires.txt
+pyemittance.egg-info/top_level.txt
+pyemittance/pyemittance.egg-info/SOURCES.txt
+pyemittance/pyemittance.egg-info/dependency_links.txt
+pyemittance/pyemittance.egg-info/requires.txt
+pyemittance/pyemittance.egg-info/top_level.txt
