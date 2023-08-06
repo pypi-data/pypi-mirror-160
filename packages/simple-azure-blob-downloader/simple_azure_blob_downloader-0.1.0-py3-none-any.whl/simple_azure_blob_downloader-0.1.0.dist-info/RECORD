@@ -1,0 +1,6 @@
+simple_azure_blob_downloader/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+simple_azure_blob_downloader/download_azure_blob.py,sha256=vgQodmeSaL5sJTnqYhrkzlaIpYD3LvsS38FS7ZYFaPc,926
+simple_azure_blob_downloader-0.1.0.dist-info/entry_points.txt,sha256=CG8INe-WXbefoPh3BRma1hl1DaFQ34RQxUnbQoVSDL4,93
+simple_azure_blob_downloader-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+simple_azure_blob_downloader-0.1.0.dist-info/METADATA,sha256=2X-pD_glK1jzp3YYjd9OYrplWEN_eBlXLl5v5zp7wCQ,552
+simple_azure_blob_downloader-0.1.0.dist-info/RECORD,,

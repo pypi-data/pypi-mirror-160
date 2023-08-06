@@ -1,0 +1,3 @@
+[console_scripts]
+download-azure-blob=simple_azure_blob_downloader.download_azure_blob:main
+
