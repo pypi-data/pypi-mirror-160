@@ -1,0 +1,3 @@
+[console_scripts]
+draw_cards = deck_of_cards.deck:draw_cards
+

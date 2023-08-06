@@ -1,0 +1,6 @@
+fastcore
+
+[dev]
+plotly==5.5.0
+pandas==1.4.3
+nbformat>=4.2.0

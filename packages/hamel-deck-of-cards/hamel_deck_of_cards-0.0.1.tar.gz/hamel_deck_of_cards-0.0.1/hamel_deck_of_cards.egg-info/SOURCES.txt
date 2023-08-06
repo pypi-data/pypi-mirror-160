@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+hamel_deck_of_cards/__init__.py
+hamel_deck_of_cards/_modidx.py
+hamel_deck_of_cards/card.py
+hamel_deck_of_cards/deck.py
+hamel_deck_of_cards.egg-info/PKG-INFO
+hamel_deck_of_cards.egg-info/SOURCES.txt
+hamel_deck_of_cards.egg-info/dependency_links.txt
+hamel_deck_of_cards.egg-info/entry_points.txt
+hamel_deck_of_cards.egg-info/not-zip-safe
+hamel_deck_of_cards.egg-info/requires.txt
+hamel_deck_of_cards.egg-info/top_level.txt
