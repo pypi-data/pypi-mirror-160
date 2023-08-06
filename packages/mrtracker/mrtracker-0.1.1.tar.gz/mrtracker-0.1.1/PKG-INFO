@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mrtracker
+Version: 0.1.1
+Summary: A TUI time tracker
+Home-page: https://github.com/markbragin/mrtracker
+Author: Mark Bragin
+Author-email: m4rk.brag1n@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: jsonmerge (>=1.8.0,<2.0.0)
+Requires-Dist: platformdirs (>=2.5.2,<3.0.0)
+Requires-Dist: textual (>=0.1.18,<0.2.0)
