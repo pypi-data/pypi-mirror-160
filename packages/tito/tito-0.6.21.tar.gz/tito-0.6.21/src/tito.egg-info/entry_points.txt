@@ -1,0 +1,3 @@
+[console_scripts]
+tito = tito.cli:main
+
