@@ -1,0 +1,8 @@
+cli/VERSION.txt,sha256=tm9WAvRmW-biiPrPHeiuUpWLv_9hmu8urvqoT58HOxw,9
+cli/__init__.py,sha256=6IvMzAmr0-Z6oqTkZcgXgrkJrQXVMjBih2AZvLdDgOE,27
+cli/soos.py,sha256=gQGlG6xcMVBYsX5hQ9Y_jj2HnvsnfL7TIWqJp_HfsCY,76002
+pipy_pre_release_example-1.7.2rc2.dist-info/METADATA,sha256=msoejxVUT3jBSjtwE8vZDbIYLcv-_NCNPHk7oq2-zxg,1236
+pipy_pre_release_example-1.7.2rc2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pipy_pre_release_example-1.7.2rc2.dist-info/entry_points.txt,sha256=0GRZ0GOqxupUl0gUzIVEX9iYoLXG_9pQXxmGLFPDEVk,50
+pipy_pre_release_example-1.7.2rc2.dist-info/top_level.txt,sha256=2ImG917oaVHlm0nP9oJE-Qrgs-fq_fGWgba2H1f8fpE,4
+pipy_pre_release_example-1.7.2rc2.dist-info/RECORD,,
