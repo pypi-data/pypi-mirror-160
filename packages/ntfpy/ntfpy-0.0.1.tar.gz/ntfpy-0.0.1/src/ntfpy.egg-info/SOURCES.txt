@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/ntfpy.egg-info/PKG-INFO
+src/ntfpy.egg-info/SOURCES.txt
+src/ntfpy.egg-info/dependency_links.txt
+src/ntfpy.egg-info/requires.txt
+src/ntfpy.egg-info/top_level.txt
