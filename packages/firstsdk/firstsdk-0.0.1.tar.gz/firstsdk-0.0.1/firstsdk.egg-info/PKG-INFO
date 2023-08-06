@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: firstsdk
+Version: 0.0.1
+Summary: A simple sdk that consumes an api
+Home-page: UNKNOWN
+Author: Elias Berumen de Haro
+Author-email: ebdh_9011@hotmail.com
+License: MIT
+Keywords: sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a very simple sdk that consumes an api
+
+Change Log
+==========
+
+0.0.1 (22/07/2022)
+-------------------
+- First Release
+
