@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: democritus_hypothesis
+Version: 2021.1.21b0
+Summary: Democritus functions to interact with Hypothesis.
+Home-page: https://github.com/democritus-project/democritus-hypothesis
+Author: Floyd Hightower
+Author-email: floyd.hightower27@gmail.com
+License: MIT license
+Description: # Democritus Hypothesis
+        [![PyPI](https://img.shields.io/pypi/v/democritus_hypothesis.svg)](https://pypi.python.org/pypi/democritus_hypothesis)
+        [![Build Status](https://travis-ci.org/democritus-project/democritus_hypothesis.svg?branch=master)](https://travis-ci.org/democritus-project/democritus_hypothesis)
+        [![codecov](https://codecov.io/gh/democritus-project/democritus_hypothesis/branch/master/graph/badge.svg)](https://codecov.io/gh/democritus-project/democritus_hypothesis)
+        [![Documentation Status](https://readthedocs.org/projects/democritus-hypothesis/badge/?version=latest)](http://democritus-hypothesis.readthedocs.io/en/latest/?badge=latest)
+        [![Updates](https://pyup.io/repos/github/democritus-project/democritus_hypothesis/shield.svg)](https://pyup.io/repos/github/democritus-project/democritus_hypothesis/)
+        
+        Democritus functions<sup>[1]</sup> for working with [Hypothesis](https://hypothesis.readthedocs.io/en/latest/).
+        
+        [1] Democritus functions are <i>simple, effective, modular, well-tested, and well-documented</i> Python functions.
+        
+        ## Usage
+        
+        Coming soon...
+        
+        ## Credits
+        
+        This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and Floyd Hightower's [Python project template](https://github.com/fhightower-templates/python-project-template).
+        
+Keywords: democritus,hypothesis,hypothesis testing,tests,utility,utils,hypothesis utility
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
