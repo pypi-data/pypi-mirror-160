@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ax-spider
+Version: 0.1.1
+Summary: A simple Python crawler framework
+Home-page: UNKNOWN
+Author: Zhou-ChaoXian
+Author-email: 2542606900@qq.com
+License: GPLv3
+Project-URL: Source code, https://github.com/Zhou-ChaoXian/ax-spider
+Keywords: ax_spider
+Platform: Independant
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: httpx (>=0.23.0)
+Requires-Dist: attrs
+Requires-Dist: parsel
+Requires-Dist: itemloaders
+Requires-Dist: pathlib
+Requires-Dist: PyDispatcher
+
+一个简单的`python`爬虫框架
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+ax_spider = ax_spider.commands:run
+
