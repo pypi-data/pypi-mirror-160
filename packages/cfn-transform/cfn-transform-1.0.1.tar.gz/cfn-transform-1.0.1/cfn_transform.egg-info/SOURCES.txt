@@ -1,0 +1,9 @@
+README.md
+setup.py
+cfn_transform.egg-info/PKG-INFO
+cfn_transform.egg-info/SOURCES.txt
+cfn_transform.egg-info/dependency_links.txt
+cfn_transform.egg-info/entry_points.txt
+cfn_transform.egg-info/requires.txt
+cfn_transform.egg-info/top_level.txt
+test/test_transformation.py
