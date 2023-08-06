@@ -1,0 +1,17 @@
+cornifer/__init__.py,sha256=WuKgnOG2TvU6wJhno1TAprIUDfGKIEQrUeYyFlX6bbU,862
+cornifer/blocks.py,sha256=h3DyTUm0upzhz2jBk9vkxs9M8Tczt2kbrt7uIttGLxA,7559
+cornifer/errors.py,sha256=ZUvG3azvDAXuuW4HYgdYC4_l8W8gr_geKZcQbH5IXBg,1109
+cornifer/example.py,sha256=cT2-tb5NzqSwm27fT3Fgco0ce7l-0T6kGzOquOhvtio,925
+cornifer/file_metadata.py,sha256=ke6UPhiEGWTgi-aIkABGYyJL6xzCCoi6Vu6yi12Y29A,1762
+cornifer/info.py,sha256=NHW_DRDzYZ4k3L_X-iCbGfzo1N_dIqP2ww78CBqc2Go,8491
+cornifer/register_file_structure.py,sha256=7LdjAghscWuE9H-h0NKA2stC5EWrH_nEKb9Q6d3zjSk,1315
+cornifer/register_loader.py,sha256=7u6WN8l54r8dH10AuYWFqm4J-An_nfsuUG8OmdN_o7I,12641
+cornifer/registers.py,sha256=iNiPiaj2GZXbauY5gXVEoWhvO-8-HdRArzSbSv70sJQ,118694
+cornifer/version.py,sha256=qtAPvW8rPiePgbquVVn9YO1f0Kd1ROBetZwKen4m-ds,72
+cornifer/utilities/__init__.py,sha256=N7mT9yMW-X3-iej0223NaK7EkeZJtfFn4AGDz2Ce8os,8820
+cornifer/utilities/lmdb.py,sha256=rWoebHkqqNDNfnO2Hyct78qkFY0Uj77wtXYB4McGTDs,3772
+Cornifer-0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+Cornifer-0.1.dist-info/METADATA,sha256=9C_CzZCe_-02faYO9Meq4jSB_hUBb4dTDHJnGKuZxxc,712
+Cornifer-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Cornifer-0.1.dist-info/top_level.txt,sha256=xN-89sqxkLrcxiyL-ts25WEk8ji6qk6tIKctOYVCyeM,9
+Cornifer-0.1.dist-info/RECORD,,
