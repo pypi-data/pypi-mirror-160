@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tikon
+Version: 3.0.0
+Summary: Modelos de redes agroecológicas
+License: AGPL-v3.0
+Author: Julien Jean Malard-Adam
+Author-email: julien.malard@mail.mcgill.ca
+Requires-Python: >=3.9,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Babel (>=2.9.1,<3.0.0)
+Requires-Dist: PCSE (>=5.5.0,<6.0.0)
+Requires-Dist: Pillow (>=9.0.1,<10.0.0)
+Requires-Dist: SALib (>=1.4.5,<2.0.0)
+Requires-Dist: Shapely (>=1.8.1,<2.0.0)
+Requires-Dist: bibtexparser (>=1.2.0,<2.0.0)
+Requires-Dist: ennikkai (>=1.2.5,<2.0.0)
+Requires-Dist: frozendict (>=2.3.4,<3.0.0)
+Requires-Dist: geopy (>=2.2.0,<3.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: pyproj (>=3.3.0,<4.0.0)
+Requires-Dist: pyshp (>=2.2.0,<3.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Requires-Dist: seaborn (>=0.11.2,<0.12.0)
+Requires-Dist: spotpy (>=1.5.14,<2.0.0)
+Requires-Dist: taqdir (>=2.1.3,<3.0.0)
+Requires-Dist: tradssat (>=0.1.7,<0.2.0)
+Requires-Dist: xarray (>=2022.3.0,<2023.0.0)
+Requires-Dist: xlrd (==1.2.0)
