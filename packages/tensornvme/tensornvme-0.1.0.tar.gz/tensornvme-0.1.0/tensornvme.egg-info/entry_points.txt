@@ -1,0 +1,3 @@
+[console_scripts]
+tensornvme = tensornvme.cli:cli
+
