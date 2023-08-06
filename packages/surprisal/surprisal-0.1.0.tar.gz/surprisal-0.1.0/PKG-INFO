@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: surprisal
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: aalok-sathe
+Author-email: asathe@mit.edu
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
+Requires-Dist: plotext (>=5.0.2,<6.0.0)
+Requires-Dist: torch (>=1.12.0,<2.0.0)
+Requires-Dist: transformers (>=4.20.1,<5.0.0)
