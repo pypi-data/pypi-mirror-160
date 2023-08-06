@@ -1,0 +1,2 @@
+[console_scripts]
+rapids-env-generator = rapids_env_generator.cli:main
