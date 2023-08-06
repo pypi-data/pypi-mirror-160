@@ -1,0 +1,2 @@
+[console_scripts]
+learninghouse = learninghouse.service:run
