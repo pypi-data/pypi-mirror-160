@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+ernest_nkunzimana_distributions/Binomialdistribution.py
+ernest_nkunzimana_distributions/Gaussiandistribution.py
+ernest_nkunzimana_distributions/Generaldistribution.py
+ernest_nkunzimana_distributions/__init__.py
+ernest_nkunzimana_distributions.egg-info/PKG-INFO
+ernest_nkunzimana_distributions.egg-info/SOURCES.txt
+ernest_nkunzimana_distributions.egg-info/dependency_links.txt
+ernest_nkunzimana_distributions.egg-info/not-zip-safe
+ernest_nkunzimana_distributions.egg-info/top_level.txt
