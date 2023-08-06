@@ -1,0 +1,15 @@
+# Version constraints for pip-installation.
+#
+# This file doesn't install any packages. It specifies version constraints
+# that will be applied if a package is needed.
+#
+# When pinning something here, please provide an explanation of why.  Ideally,
+# link to other information that will help people in the future to remove the
+# pin when possible.  Writing an issue against the offending project and
+# linking to it here is good.
+
+# quality (dbt-core, google-api-core, google-cloud-bigquery, pytest) require 20.9 vs travis (tox) require 21.3
+packaging==20.9
+# Pinning snowflake-connector-python due to following issue
+# https://github.com/snowflakedb/snowflake-connector-python/issues/1206
+snowflake-connector-python==2.7.9
