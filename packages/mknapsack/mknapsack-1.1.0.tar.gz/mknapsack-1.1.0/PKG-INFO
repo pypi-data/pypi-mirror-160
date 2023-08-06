@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: mknapsack
+Version: 1.1.0
+Summary: Solving knapsack and bin packing problems with Python
+Author-email: Jesse Myrberg <jesse.myrberg@gmail.com>
+License: Copyright (c) 2022 Jesse Myrberg
+        
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+        
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: Homepage, https://github.com/jmyrberg/mknapsack
+Project-URL: Documentation, https://mknapsack.readthedocs.io
+Keywords: knapsack,bin,packing,optimization
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: <3.12,>=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+# mknapsack
+
+[![CICD](https://github.com/jmyrberg/mknapsack/actions/workflows/push.yml/badge.svg)](https://github.com/jmyrberg/mknapsack/actions/workflows/push.yml)
+[![Documentation](https://readthedocs.org/projects/mknapsack/badge/?version=latest)](https://mknapsack.readthedocs.io/en/latest/?badge=latest)
+
+![mknapsack cover](https://github.com/jmyrberg/mknapsack/blob/master/docs/cover.png?raw=true)
+
+Solving knapsack problems with Python using algorithms by [Martello and Toth](https://dl.acm.org/doi/book/10.5555/98124):
+
+* Single 0-1 knapsack problem: MT1, MT2
+* Multiple 0-1 knapsack problem: MTM, MTHM
+
+Documentation is available [here](https://mknapsack.readthedocs.io).
+
+
+## Installation
+
+1. Install Fortran compiler, if you don't already have it
+   * MacOS / Linux:
+    `brew install gcc`
+   * Linux / Windows Subsystem for Linux:
+     `sudo apt-get install gfortran`
+   * Windows (experimental):
+     * `conda install -c conda-forge m2w64-toolchain_win-64`, or
+     * [Install MSYS2](https://www.msys2.org) and `pacman -S --needed base-devel mingw-w64-x86_64-toolchain`
+
+2. `pip install -U mknapsack`
+
+
+## Example usage
+
+### Single 0-1 Knapsack Problem
+
+```python
+from mknapsack import solve_single_knapsack
+
+# Given ten items with the following profits and weights:
+profits = [78, 35, 89, 36, 94, 75, 74, 79, 80, 16]
+weights = [18, 9, 23, 20, 59, 61, 70, 75, 76, 30]
+
+# ...and a knapsack with the following capacity:
+capacity = 190
+
+# Assign items into the knapsack while maximizing profit
+res = solve_single_knapsack(profits, weights, capacity)
+```
+
+### Multiple 0-1 Knapsack Problem
+
+```python
+from mknapsack import solve_multiple_knapsack
+
+# Given ten items with the following profits and weights:
+profits = [78, 35, 89, 36, 94, 75, 74, 79, 80, 16]
+weights = [18, 9, 23, 20, 59, 61, 70, 75, 76, 30]
+
+# ...and two knapsacks with the following capacities:
+capacities = [90, 100]
+
+# Assign items into knapsacks while maximizing profit
+res = solve_multiple_knapsack(profits, weights, capacities)
+```
+
+## References
+
+* [Knapsack problems: algorithms and computer implementations](https://dl.acm.org/doi/book/10.5555/98124) by S. Martello and P. Toth, 1990
+* [Original Fortran77 source code](http://people.sc.fsu.edu/~jburkardt/f77_src/knapsack/knapsack.f) by S. Martello and P. Toth
+
+---
+Jesse Myrberg (jesse.myrberg@gmail.com)

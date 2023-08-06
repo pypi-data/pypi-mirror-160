@@ -1,0 +1,17 @@
+numpy>=1.13
+pandas>=1.0
+
+[dev]
+build
+flake8
+numpy
+pytest
+setuptools
+setuptools-scm
+twine
+wheel
+
+[docs]
+myst-parser
+piccolo-theme
+sphinx
