@@ -1,0 +1,9 @@
+pdpatch/__init__.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+pdpatch/_nbdev.py,sha256=5gQqM7d-LjDgwABUxkoNNleIRav4Hcyz5mBM1ttZ6Lw,1660
+pdpatch/case.py,sha256=BZkUmRk3GHJIWdp_V85wJRtDdwPMlv12vDnr2iX_KvU,1122
+pdpatch/core.py,sha256=sHk9RPlK09SMjYxHcnNEhdjTUYPd_dKOzTzaDTUuulI,7028
+pdpatch-0.0.7.dist-info/LICENSE,sha256=73TWkcNq9LcAPsguXg-DF9ENehsHgAx3eC69wEoIjj8,1053
+pdpatch-0.0.7.dist-info/METADATA,sha256=MDdf4MPmAN0sd_EDYwth5QkkuaKqCtlobsA6jYIUEoY,3274
+pdpatch-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pdpatch-0.0.7.dist-info/top_level.txt,sha256=JmDo2soBkscCzSRhGwcBtjHtxbc36dWI1ZkMreQXnuU,8
+pdpatch-0.0.7.dist-info/RECORD,,
