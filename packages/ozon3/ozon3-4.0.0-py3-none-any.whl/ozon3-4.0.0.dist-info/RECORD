@@ -1,0 +1,11 @@
+ozon3/__init__.py,sha256=vYxXQUh9R4Nkt5ZBi5_XCXVgr1KZbW74eSB7dnFk0yA,51
+ozon3/ozon3.py,sha256=EvrDqELp0003d33PLA-4zj7fKP77VQDN7P6tTNmx724,22365
+ozon3/urls.py,sha256=llZ7IZaysj65Mz88eV-HMnaRUsiKj0GpEtS5JF5I-xo,1335
+ozon3/historical/__init__.py,sha256=NMg8IA40Dh9FUBt3c8JDwabF4MxH3ouYIwCsLTrmDD8,64
+ozon3/historical/_reverse_engineered.py,sha256=jf9UN1C-Logiua3g3PUeoVmRyEOaLO88NUzBJoIzyLo,3165
+ozon3/historical/relevant_funcs.py,sha256=EMai6SSgNML9o4_AEbC255mhK4EjN9uqYEfpn6f3Eu4,7528
+ozon3-4.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ozon3-4.0.0.dist-info/METADATA,sha256=Gf0re5tKvtoR6Ee8doBz73op3jQNb4r5hEyludDf76I,8025
+ozon3-4.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ozon3-4.0.0.dist-info/top_level.txt,sha256=8Atmd8mVQ05gOTLSRd8hPQd40FFjeRuoTwqVxtDQWeI,6
+ozon3-4.0.0.dist-info/RECORD,,
