@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+yandex_oauth/__init__.py
+yandex_oauth/yao.py
+yandex_oauth.egg-info/PKG-INFO
+yandex_oauth.egg-info/SOURCES.txt
+yandex_oauth.egg-info/dependency_links.txt
+yandex_oauth.egg-info/requires.txt
+yandex_oauth.egg-info/top_level.txt
