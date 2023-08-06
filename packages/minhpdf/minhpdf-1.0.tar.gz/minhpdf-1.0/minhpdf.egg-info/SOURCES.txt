@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+minhpdf.egg-info/PKG-INFO
+minhpdf.egg-info/SOURCES.txt
+minhpdf.egg-info/dependency_links.txt
+minhpdf.egg-info/top_level.txt
