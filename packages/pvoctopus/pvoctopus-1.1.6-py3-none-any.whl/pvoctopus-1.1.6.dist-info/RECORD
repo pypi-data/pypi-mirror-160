@@ -1,0 +1,13 @@
+pvoctopus/LICENSE,sha256=sg9mbXH2CzwYDGr5yUfX8t19BQiWiMsgZbU7GjJIqLE,11344
+pvoctopus/__init__.py,sha256=dlfOz8DbdZcBQXa7VLLY9y0kDQKATlP7-fiZY5ooDJU,1993
+pvoctopus/octopus.py,sha256=C0TSPnE4lPwtckqKOQ_QXjB7NSr6KspXVxuUKrG0sW0,10475
+pvoctopus/util.py,sha256=WZ9j5InkLDcbavwGzl7C1VFRVwY6Hx4v0x4yVTArM5s,1774
+pvoctopus/lib/common/octopus_params.pv,sha256=eZfvgPBS7t1srwT7GFhdcZU1euKA6tVSzckQ91EBH3I,5181706
+pvoctopus/lib/linux/x86_64/libpv_octopus.so,sha256=FLUzuxWKVhI9mzZUaAgBDPn05pHcHpavG6v7eke08sY,1024056
+pvoctopus/lib/mac/arm64/libpv_octopus.dylib,sha256=5IA5NlkLxNZ6a7ymQ9WDmEZrZ9BKoI5tFTB6PDKR5Io,770560
+pvoctopus/lib/mac/x86_64/libpv_octopus.dylib,sha256=2oQ0AlI0eSLWL9eDePqys9wkFTSZk8CmxQoMrmHOQsU,945040
+pvoctopus/lib/windows/amd64/libpv_octopus.dll,sha256=Z_MV_iRLRzbZuJgSYPi-1_VzGakFGZETciaxCHfxWV4,1172480
+pvoctopus-1.1.6.dist-info/METADATA,sha256=IRz1fkykL0WpuNOErxMd1VlcVtr6olJ7HB9MwWJNo-k,3671
+pvoctopus-1.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pvoctopus-1.1.6.dist-info/top_level.txt,sha256=HutHSWoSwqUaRx9_2jsd3K99hRGBDhKLyhtxGeCjiWM,10
+pvoctopus-1.1.6.dist-info/RECORD,,
