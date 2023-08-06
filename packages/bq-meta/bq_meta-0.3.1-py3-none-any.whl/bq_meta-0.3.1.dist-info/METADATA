@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: bq-meta
+Version: 0.3.1
+Summary: BigQuery metadata viewer
+Home-page: https://github.com/martintupy/bq-meta
+Author: Martin Tupy
+Author-email: id@martintupy.com
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: pyyaml
+Requires-Dist: rich
+Requires-Dist: readchar
+
+# BigQuery metadata viewer
+
+> "Inspect BigQuery metadata faster"
+
+- quick search through available projects, dataset, tables
+- view table metadata and schema
+- open in browser
+
+## Requirements
+
+- python >= 3.6
+
+- fzf - https://github.com/junegunn/fzf (required)
+
+```bash
+brew install fzf
+```
+
+## Installation
+
+- Using [pypi](https://pypi.org/project/bq-meta/)
+
+```bash
+pip install bq-meta
+```
+
+- Initialize
+
+```bash
+bq-meta --init
+```
+
+## Examples
+
+```bash
+Usage: bq_meta [OPTIONS] [TABLE]
+
+  BiqQuery table metadata viewer
+
+Options:
+  -p, --project-id TEXT  Project name
+  -d, --dataset-id TEXT  Dataset name
+  -t, --table-id TEXT    Table name
+  --init                 Initialize bq_meta
+  --info                 Print info of currently logged account
+  --fetch-projects       Fetch projects
+  --version              Show the version and exit.
+  --help                 Show this message and exit.
+```
