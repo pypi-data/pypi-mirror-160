@@ -1,0 +1,6 @@
+requests
+urllib3
+dataclasses
+marshmallow
+PyYAML
+prettytable
