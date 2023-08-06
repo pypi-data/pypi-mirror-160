@@ -1,0 +1,15 @@
+pathlibext/__init__.py,sha256=obyswmBCygV8OXnn4MlO6HvpRXnqwWjvKqQZYXxmtKs,1522
+pathlibext/find.py,sha256=sx0i4fNT1P6Cwx2jH5t4pqlnyasVkjAiILVAioMIpfw,968
+pathlibext/json.py,sha256=kz9UJlWWgunhUyXvIDrV2Jodgqkm_xHz8I1N-urT8Tw,1541
+pathlibext/match.py,sha256=fJRLwoeUGZt4AgbhDNEDJd3u6nngTlupFlQSTA2lH0M,193
+pathlibext/rmtree.py,sha256=O7ejrvEqAeyHijTOXluDqUZk-Bg-qokf0GWhYcyikb0,414
+pathlibext/shell.py,sha256=pKCD_L9dO_kvVvLDtFpCKGayXufMt4N4H32uOMiMH3M,430
+pathlibext/stat.py,sha256=DqZe6sgwZ1L1FFxe0qCGBGgKhx5p6KIogRpdj1fs4V8,883
+pathlibext/tmpdir.py,sha256=Xw5R0e5AkiSpgvjLqeLvKRDMDQbXzmIGFH9ZvpF2KqE,325
+pathlibext/tmpfile.py,sha256=wf_a0UUgVLd8t1hHWJw4Pqkh48VHHEmzVw94Ok-M3l0,557
+pathlibext/workdir.py,sha256=s3iJeAzGRh1HNvbGQ6BzbPTDjOCD7VRxJvGk9M0zz5I,202
+pathlibext-0.0.4.dist-info/LICENSE,sha256=Aj0-IJzhOj3-vJ9GTP4151OCciqd5Up19cEzGSr3gyQ,1050
+pathlibext-0.0.4.dist-info/METADATA,sha256=atAbUD6eGcU3t_RwLcSNKx-HIkWJFLbY0CnlTdMPsjQ,6880
+pathlibext-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pathlibext-0.0.4.dist-info/top_level.txt,sha256=Sul0pi5I7Depvg9jaQKDS6qomMEGeqggVk9ufQrXS5M,11
+pathlibext-0.0.4.dist-info/RECORD,,
