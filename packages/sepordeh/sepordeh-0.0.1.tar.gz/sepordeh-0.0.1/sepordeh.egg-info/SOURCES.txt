@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+sepordeh/__init__.py
+sepordeh/payment.py
+sepordeh.egg-info/PKG-INFO
+sepordeh.egg-info/SOURCES.txt
+sepordeh.egg-info/dependency_links.txt
+sepordeh.egg-info/not-zip-safe
+sepordeh.egg-info/requires.txt
+sepordeh.egg-info/top_level.txt
