@@ -1,0 +1,7 @@
+README.md
+codigoo.py
+setup.py
+codigoo.egg-info/PKG-INFO
+codigoo.egg-info/SOURCES.txt
+codigoo.egg-info/dependency_links.txt
+codigoo.egg-info/top_level.txt
