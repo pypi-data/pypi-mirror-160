@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+awg.py
+setup.py
+awg_scpi/__init__.py
+awg_scpi/awg.py
+awg_scpi/scpi.py
+awg_scpi/siglent.py
+awg_scpi.egg-info/PKG-INFO
+awg_scpi.egg-info/SOURCES.txt
+awg_scpi.egg-info/dependency_links.txt
+awg_scpi.egg-info/not-zip-safe
+awg_scpi.egg-info/requires.txt
+awg_scpi.egg-info/top_level.txt
