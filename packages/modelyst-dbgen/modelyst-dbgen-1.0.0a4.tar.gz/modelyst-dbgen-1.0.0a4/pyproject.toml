@@ -1,0 +1,103 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.1.0b3"]
+
+[tool.black]
+line-length = 110
+skip-string-normalization = true
+target-version = ['py36', 'py37', 'py38']
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "v$version"
+version = "1.0.0a4"
+version_files = [
+  "pyproject.toml:version",
+  "src/dbgen/__init__.py",
+]
+
+[tool.poetry]
+authors = ["Michael Statt <michael.statt@modelyst.io>", "Kristopher Brown <kris.brown@modelyst.io"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3.9",
+]
+description = "DBgen (Database Generator) is an open-source Python library for connecting raw data, scientific theories, and relational databases"
+documentation = "https://www.dbgen.modelyst.com"
+exclude = ["tests*"]
+homepage = "https://www.dbgen.modelyst.com"
+include = ["requirements.txt", "LICENSE", "src/dbgen/py.typed"]
+keywords = ["ETL", "Postgres", "Databases"]
+license = "Apache-2.0"
+maintainers = ["Michael Statt <michael.statt@modelyst.io>"]
+name = "modelyst-dbgen"
+packages = [
+  {include = "dbgen", from = "src"},
+]
+readme = "README.md"
+repository = "https://github.com/modelyst/dbgen"
+version = "1.0.0a4"
+
+[tool.poetry.dependencies]
+PyYAML = "^6.0"
+boto3 = {version = "^1.21.0", optional = true}
+chardet = ">=4.0.0,<5.0.0"
+cookiecutter = "2.1.1"
+modelyst-sqlmodel = "^0.0.9"
+networkx = "^2.6.3"
+psutil = "^5.9.0"
+psycopg = {version = "^3.0.15", extras = ["pool"]}
+psycopg-binary = {version = "^3.0.15", extras = ["pool"]}
+psycopg2-binary = "^2.9.1"
+pydantic = "1.9.1"
+pydasher = "^0.0.13"
+python = ">=3.8,<4.0"
+rich = "^11.1.0"
+typer = "^0.6.1"
+types-PyYAML = "^6.0.5"
+typing-extensions = ">=3.10.0.1"
+
+[tool.poetry.extras]
+boto3 = ["boto3"]
+
+[tool.poetry.group.dev.dependencies]
+Faker = "^12.3.3"
+Jinja2 = "3.0.3"
+autoflake = "^1.4"
+black = "22.3.0"
+commitizen = "^2.28.0"
+flake8 = "^3.9.2"
+hypothesis = "^6.21.3"
+interrogate = "^1.5.0"
+isort = "^5.9.3"
+mdx-include = "^1.4.1"
+mkdocs = "^1.2.3"
+mkdocs-autorefs = "^0.3.0"
+mkdocs-markdownextradata-plugin = "^0.2.4"
+mkdocs-material = "^8.1.10"
+mkdocs-pymdownx-material-extras = "^1.5.4"
+mkdocstrings = "^0.16.2"
+moto = "^3.1.1"
+mypy = "^0.971"
+pdocs = "^1.1.1"
+pre-commit = "^2.16.0"
+pydocstyle = "^6.1.1"
+pytest = "^6.2.5"
+pytest-benchmark = "^3.4.1"
+pytest-cov = "^2.12.1"
+pytest-sugar = "^0.9.4"
+
+[tool.poetry.scripts]
+dbgen = "dbgen.__main__:main"
+
+[tool.pytest.ini_options]
+markers = [
+  "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+  "database: marks a test that requires a database (deselect with '-m \"not database\")",
+  "bad: marks a test that is currently failing (deselect with '-m \"not bad\")",
+]
+testpaths = [
+  "tests",
+]
