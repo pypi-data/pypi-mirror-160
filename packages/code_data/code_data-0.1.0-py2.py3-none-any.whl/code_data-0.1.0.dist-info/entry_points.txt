@@ -1,0 +1,3 @@
+[console_scripts]
+python-code-data=code_data._cli:main
+
