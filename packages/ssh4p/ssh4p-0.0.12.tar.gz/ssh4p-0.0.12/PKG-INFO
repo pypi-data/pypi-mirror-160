@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: ssh4p
+Version: 0.0.12
+Summary: a shell ssh manager tools for python
+Home-page: UNKNOWN
+Author: xzcoder
+Author-email: zhushuai_it@163.com
+License: UNKNOWN
+Description: a shell ssh manager tools for python
+Platform: linux
+Platform: macos
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Clustering
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
