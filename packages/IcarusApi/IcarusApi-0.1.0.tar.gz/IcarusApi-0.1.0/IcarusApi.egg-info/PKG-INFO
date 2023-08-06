@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: IcarusApi
+Version: 0.1.0
+Summary: Icarus Api
+Home-page: UNKNOWN
+Author: N0P3
+Author-email: n0p3@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Icarus Api
+
+_用以提供开发时的补全提示_
+## 0.1.0
+- ICARUS
+  - 调整了shell_exec的参数
+- utils
+  - 增加read_file,save_file
+- net
+  - 增加ssh,ssh_exec
+  - 增加Tcp类，连接后可进行收发操作
+- cmds
+  - 新增cmds包，用于生成常见命令
+  - PUT_PUBLIC_KEY() 生成写入公钥命令
+## 0.0.9
+- utils
+  - 增加notice 调用系统通知 _(toast)_
+- net
+  - 完善net包提示
+##0.0.8
+- net
+  - 增加request
+
+##0.0.7
+- utils
+  - 增加walkdir，unzip
+- net
+  - 增加download
+
+##0.0.6
+- ICARUS
+  - 增加shell_fetch，kill_task
+## 0.0.5
+整理api格式
+
+## 0.0.4
+- fofa
+- coding
+- vault
+
+
+## 0.0.3
+- docker
+
+## 0.0.2
+- utils.color
+
+## 0.0.1
+- ICARUS
+- utils
+
