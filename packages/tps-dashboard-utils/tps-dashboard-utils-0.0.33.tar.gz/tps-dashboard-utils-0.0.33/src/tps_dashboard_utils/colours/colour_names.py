@@ -1,0 +1,13 @@
+# LAYOUT
+mint = '#48CFAD'
+aqua = '#4FC1E9'
+lavender = '#AC92EC'
+bluejeans = '#5D9CEC'
+sunflower = '#FFCE54'
+grapefruit = '#ED5565'
+bittersweet = '#FC6E51'
+grass = '#A0D468'
+pink_rose = '#EC87C0'
+light_grey = '#F5F7FA'
+mid_grey = '#CCD1DC'
+dark_grey = '#656D78'
