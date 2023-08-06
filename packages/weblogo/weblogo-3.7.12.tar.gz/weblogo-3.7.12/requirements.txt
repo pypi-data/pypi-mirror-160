@@ -1,0 +1,17 @@
+numpy
+scipy
+setuptools
+setuptools-scm
+
+# Testing
+pytest >= 4.6
+pytest-cov
+tox
+flake8
+mypy
+isort
+black
+
+# Docs
+sphinx
+guzzle_sphinx_theme
