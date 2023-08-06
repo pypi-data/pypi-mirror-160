@@ -1,0 +1,4 @@
+python-dateutil<2.9,>=2.8.0
+pytz
+requests<3,>=2.3
+tzlocal
