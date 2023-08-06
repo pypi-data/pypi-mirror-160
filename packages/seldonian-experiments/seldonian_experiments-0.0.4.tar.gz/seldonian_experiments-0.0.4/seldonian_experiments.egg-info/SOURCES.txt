@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+experiments/__init__.py
+experiments/experiments.py
+experiments/generate_plots.py
+experiments/utils.py
+seldonian_experiments.egg-info/PKG-INFO
+seldonian_experiments.egg-info/SOURCES.txt
+seldonian_experiments.egg-info/dependency_links.txt
+seldonian_experiments.egg-info/requires.txt
+seldonian_experiments.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_experiments.py
+tests/test_generate_plots.py
