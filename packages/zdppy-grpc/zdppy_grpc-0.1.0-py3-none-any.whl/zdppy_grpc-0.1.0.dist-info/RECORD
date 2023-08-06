@@ -1,0 +1,12 @@
+zdppy_grpc/__init__.py,sha256=OTmNPgf_aUzT8x9qcC7pV4IyVJ6a05ZE9zvfMHM0-hM,282
+zdppy_grpc/grpc.py,sha256=WbcsQ7t2OW5SmLcYEVaSSfbqNDGW458AFrsvd-al_xE,522
+zdppy_grpc/health/__init__.py,sha256=w3kqSAyaZgP-W0890xR4L4WeBPGrtsQCQJe0FUFR0K0,577
+zdppy_grpc/health/v1/__init__.py,sha256=w3kqSAyaZgP-W0890xR4L4WeBPGrtsQCQJe0FUFR0K0,577
+zdppy_grpc/health/v1/_async.py,sha256=WESSgLznCE0fogVGo7W4YON8eFC3pQH2cgFVlIqEgnc,3825
+zdppy_grpc/health/v1/health.py,sha256=VtxJBzAneeEsWGxJvOKp4jSP6xEGkLFT8bfWmZX7jhs,5540
+zdppy_grpc/health/v1/health_pb2.py,sha256=CHf5fZcQfp0L2u5AInR_2zpoka5EXSE0ruS-pYDG_fg,5745
+zdppy_grpc/health/v1/health_pb2_grpc.py,sha256=YZdTkJ14Kmx0nU78-dUocq2Z3PhDGj7INDmXwN47omc,5093
+zdppy_grpc-0.1.0.dist-info/LICENSE,sha256=nxPT6MxxQBPHF50T4QMhpqG_MqqIRS5jKw0gwa8YqCA,1087
+zdppy_grpc-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+zdppy_grpc-0.1.0.dist-info/METADATA,sha256=zHsykufepnOtY2CQzdwDlFj0SS69S2ui8GhpWIOJIy0,429
+zdppy_grpc-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zdppy-grpc
+Version: 0.1.0
+Summary: 基于gRPC的Python微服务开发框架
+Author: zhangdapeng520
+Author-email: pygosuperman@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: grpcio (>=1.45.0,<2.0.0)
+Requires-Dist: grpcio-tools (>=1.45.0,<2.0.0)
