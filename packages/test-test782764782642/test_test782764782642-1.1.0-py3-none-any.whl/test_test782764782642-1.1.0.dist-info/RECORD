@@ -1,0 +1,10 @@
+casbin_redis_watcher/__init__.py,sha256=7NmrG3xZJQlBL1wIJxQ1rf6O7TTHmpN7Ra69NfmD6Nw,689
+casbin_redis_watcher/options.py,sha256=V0HdyGUBeEwGjrR-W1fsEcoLBTZ7CvmrAlgdfic7iT8,1025
+casbin_redis_watcher/watcher.py,sha256=V_7zcDbuIDGEweBe69Agztwm12D3X4Wpy9-IbndMqPs,5921
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_redis_watcher.py,sha256=xvii3yZA1PlifqQSjMTrSpjhUUAD_gXSKlE-rPY21gI,6950
+test_test782764782642-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+test_test782764782642-1.1.0.dist-info/METADATA,sha256=zdJP52kGv1hC5z8H9kLVLIZCMG5LB3GlF5_zFId2VRA,1995
+test_test782764782642-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+test_test782764782642-1.1.0.dist-info/top_level.txt,sha256=yZM1L3FkxjHxB67ha1mAIQx_OdemVTeMj9BgHTsrgfU,27
+test_test782764782642-1.1.0.dist-info/RECORD,,
