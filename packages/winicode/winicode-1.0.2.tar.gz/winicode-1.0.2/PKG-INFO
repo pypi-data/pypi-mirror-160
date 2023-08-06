@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: winicode
+Version: 1.0.2
+Summary: Set Windows code page to UTF-8
+Home-page: https://github.com/changyuheng/winicode.py
+Author: Johann Chang
+Author-email: mr.changyuheng@gmail.com
+License: MPL-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Win32 (MS Windows)
+Requires-Python: >=2.7
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+winicode
+========
+
+Set Windows code page to Unicode: UTF-8 (65001).
+
+Installation
+------------
+
+.. code:: sh
+
+    pip install winicode
+
+Usage
+-----
+
+.. code:: py
+
+    import winicode
+
+

@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+src/winicode/__init__.py
+src/winicode.egg-info/PKG-INFO
+src/winicode.egg-info/SOURCES.txt
+src/winicode.egg-info/dependency_links.txt
+src/winicode.egg-info/requires.txt
+src/winicode.egg-info/top_level.txt
