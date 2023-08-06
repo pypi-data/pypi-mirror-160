@@ -1,0 +1,10 @@
+setup.py
+jmtor_probdistributions/Binomialdistribution.py
+jmtor_probdistributions/Gaussiandistribution.py
+jmtor_probdistributions/Generaldistribution.py
+jmtor_probdistributions/__init__.py
+jmtor_probdistributions.egg-info/PKG-INFO
+jmtor_probdistributions.egg-info/SOURCES.txt
+jmtor_probdistributions.egg-info/dependency_links.txt
+jmtor_probdistributions.egg-info/not-zip-safe
+jmtor_probdistributions.egg-info/top_level.txt
