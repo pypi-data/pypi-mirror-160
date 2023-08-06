@@ -1,0 +1,28 @@
+vatnumber
+=========
+
+Python module to validate VAT numbers.
+
+Nutshell
+--------
+
+This is a fork of vatnumber project https://pypi.org/project/vatnumber/
+
+changed to work with python3 and setuptools > 58.0
+
+Here a simple example to validate VAT numbers format::
+
+    >>> import vatnumber_xtra
+    >>> vatnumber_xtra.check_vat('BE0123456749')
+    True
+
+Here a simple example to validate European VAT through VIES service::
+
+    >>> import vatnumber_xtra
+    >>> vatnumber_xtra.check_vies('BE0897290877')
+    True
+
+
+For more information please visit the `vatnumber website`_.
+
+.. _vatnumber website: http://code.google.com/p/vatnumber/

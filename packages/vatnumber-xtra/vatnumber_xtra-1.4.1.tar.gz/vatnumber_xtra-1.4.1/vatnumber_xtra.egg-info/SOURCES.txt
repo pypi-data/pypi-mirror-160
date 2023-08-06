@@ -1,0 +1,14 @@
+CHANGELOG
+COPYRIGHT
+INSTALL
+LICENSE
+MANIFEST.in
+README
+setup.py
+vatnumber_xtra/__init__.py
+vatnumber_xtra/tests.py
+vatnumber_xtra.egg-info/PKG-INFO
+vatnumber_xtra.egg-info/SOURCES.txt
+vatnumber_xtra.egg-info/dependency_links.txt
+vatnumber_xtra.egg-info/requires.txt
+vatnumber_xtra.egg-info/top_level.txt
