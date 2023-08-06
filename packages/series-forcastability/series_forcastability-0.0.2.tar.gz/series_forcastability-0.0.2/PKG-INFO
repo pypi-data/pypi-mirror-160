@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: series_forcastability
+Version: 0.0.2
+Summary: Determine a series forecastability based on the series characteristics
+Home-page: https://github.com/santhoshv6/ADI_CV2
+Author: Santhosh V, Arjun Jannamatti
+Author-email: santhoshv40@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Determine series forecastability
+
+### Instructions
+
+1. Install:
+
+        pip install series_forcastability
+
+
+2. Determine series forecastability based on the series characteristics
+
+        from series_forcastability import main
+        # Check series forecastability
+        cov = main.sf(series).forecastability()

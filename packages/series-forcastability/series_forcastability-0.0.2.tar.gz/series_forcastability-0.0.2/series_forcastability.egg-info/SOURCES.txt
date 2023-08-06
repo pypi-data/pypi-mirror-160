@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+series_forcastability/__init__.py
+series_forcastability/main.py
+series_forcastability.egg-info/PKG-INFO
+series_forcastability.egg-info/SOURCES.txt
+series_forcastability.egg-info/dependency_links.txt
+series_forcastability.egg-info/top_level.txt
