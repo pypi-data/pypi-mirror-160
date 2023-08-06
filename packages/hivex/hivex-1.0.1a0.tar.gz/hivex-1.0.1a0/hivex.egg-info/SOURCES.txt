@@ -1,0 +1,8 @@
+README.md
+setup.py
+examples/__init__.py
+hivex.egg-info/PKG-INFO
+hivex.egg-info/SOURCES.txt
+hivex.egg-info/dependency_links.txt
+hivex.egg-info/requires.txt
+hivex.egg-info/top_level.txt
