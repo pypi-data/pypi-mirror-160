@@ -1,0 +1,10 @@
+recaptcha_manager/__init__.py,sha256=muCzP-VLFKMsUSZ4mCpPvwXsdQgFOzIu5MlyMyR4Las,196
+recaptcha_manager/exceptions.py,sha256=3b_6UOO2Ovmzyi5Wgu1-VH3LUyrldkAD_uNn3_4MMyo,1822
+recaptcha_manager/generators.py,sha256=jjdUG2tIFw4vRWfeTZ5ZaNWGuWsXlY8om_gjJIEPMxE,559
+recaptcha_manager/manager.py,sha256=SMYCqJkQD9rjZTsmDW9WjivNj1FWNVdNL0Mf5jh0rUA,40649
+recaptcha_manager/services.py,sha256=8zIvYSg7nOxb6cyq726W9H9QovXncaS5hCvbACpwrP8,44047
+recaptcha_manager-0.0.5.dist-info/LICENSE.txt,sha256=trv6ZODZPH6dtzZqeNDUaMB-O7xNMIdj9009fliKYlM,1092
+recaptcha_manager-0.0.5.dist-info/METADATA,sha256=qP50eyZXn8-NZ8eh8_pPW_GZUuPV2psnTN89ROf4H18,4751
+recaptcha_manager-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+recaptcha_manager-0.0.5.dist-info/top_level.txt,sha256=jt4AZT7TNQolBB24LY8LF1oNqnNHLANDM0ILUk3v4kI,18
+recaptcha_manager-0.0.5.dist-info/RECORD,,
