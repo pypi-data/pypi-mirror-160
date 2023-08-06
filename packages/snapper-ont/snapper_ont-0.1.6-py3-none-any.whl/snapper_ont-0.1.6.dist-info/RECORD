@@ -1,0 +1,11 @@
+snapper/snapper.py,sha256=wV4biBrC7p2YXp_fyQKc_QrUHm7c5-i7hkkwpUJ_Lt4,4621
+snapper/src/data_processing.py,sha256=kTloahvsXZ7sNDzmp37n3uefhiQCzKGYYuUGs4f_SKk,4429
+snapper/src/motif_extraction.py,sha256=awSQj2SsCaqkKyhtNoWsZwtew7BoVFTNHk4koZ0KRsI,9435
+snapper/src/plotting.py,sha256=CA9zvEzjHqHFNNVp-1lOg7MDb3BquCwueAZXIv67EOs,1832
+snapper/src/statistics.py,sha256=elh1PpccVYKtrBAJjI0sfWcCUsC3_gKkSpGL3Jxbot4,2594
+snapper_ont-0.1.6.dist-info/LICENSE,sha256=XZJj3Jlu9KxiJgnFRTGI5QOxtLhCOJOEy3_Jzyniw5U,1074
+snapper_ont-0.1.6.dist-info/METADATA,sha256=G9dUGnxaPHOP5WWtYOM5OU8f6wuZLyLkI1BgCE2K-S4,567
+snapper_ont-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snapper_ont-0.1.6.dist-info/entry_points.txt,sha256=nQA5YB9rbmWLq2dLzPbD75jmHThGAbBTIhy6GwIZx78,49
+snapper_ont-0.1.6.dist-info/top_level.txt,sha256=TOaMBGpCyp6b8zMIA6tUyNV0Bgs4sOQBPPwtO6SpT40,8
+snapper_ont-0.1.6.dist-info/RECORD,,
