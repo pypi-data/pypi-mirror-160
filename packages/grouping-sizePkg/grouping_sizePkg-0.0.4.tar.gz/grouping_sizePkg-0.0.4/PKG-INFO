@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: grouping_sizePkg
+Version: 0.0.4
+Summary: Grouping for cmf
+Home-page: https://github.com/pstrito/grouping_sizePip.git
+Author: Example Author
+Author-email: author@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+grouping_sizePip
