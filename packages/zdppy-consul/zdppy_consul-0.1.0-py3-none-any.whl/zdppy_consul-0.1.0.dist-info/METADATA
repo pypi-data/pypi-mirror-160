@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: zdppy-consul
+Version: 0.1.0
+Summary: Python使用consul作为注册中心
+Author: zhangdapeng520
+Author-email: pygosuperman@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: zdppy-requests (>=0.1.2,<0.2.0)
