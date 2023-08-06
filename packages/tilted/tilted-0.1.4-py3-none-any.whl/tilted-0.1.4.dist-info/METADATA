@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: tilted
+Version: 0.1.4
+Summary: Tilted is a lightweight, open-source Python package with a simple interface for poker hand evaluation & comparison.
+Home-page: https://github.com/MaxAtkinson/tilted
+License: Apache-2.0
+Keywords: poker,hand,card,deck,suit
+Author: Max Atkinson
+Author-email: hiremaxatkinson@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/MaxAtkinson/tilted
+Description-Content-Type: text/markdown
+
+
+# Tilted
+<img align="left" src="https://user-images.githubusercontent.com/8881202/169894189-c4d64c08-7751-4d0e-a95f-640f07c2e7bd.jpeg" width="100" height="100" />
+
+Tilted is a lightweight, open-source Python package with a simple interface for poker hand evaluation & comparison.
+
+![](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/MaxAtkinson/7619cec46699fe0fd901fc40718d52dc/raw/36640b1c7fdfc5715ea0c0d147522ce077e6f6da/test-coverage.json)
+![](https://github.com/MaxAtkinson/tilted/actions/workflows/test-coverage.yml/badge.svg?branch=main)
+![](https://img.shields.io/github/v/release/MaxAtkinson/tilted)
+
+<br />
+<br />
+
+## Installation
+With Poetry:
+```sh
+poetry add tilted
+```
+
+With Pip:
+```sh
+pip install tilted
+```
+
+## Basic Usage
+Tilted can be used to generate, evaluate and compare 5-card poker hands.
+
+### Hand Generation
+To generate a random hand:
+```python
+from tilted import Deck, Hand
+
+
+deck = Deck()
+unknown_hand = Hand(deck.draw_many(5))
+
+unknown_hand  # <Hand: 8♦ T♠ T♣ Q♣ K♥>
+unknown_hand.hand_rank  # <HandRank.PAIR: 2>
+```
+
+### Hand Evaluation
+To evaluate an unknown hand:
+```python
+from tilted import Card, CardRank, CardSuit, Hand
+
+
+unknown_hand = Hand([
+  Card(CardRank.TEN, CardSuit.SPADES),
+  Card(CardRank.JACK, CardSuit.SPADES),
+  Card(CardRank.QUEEN, CardSuit.SPADES),
+  Card(CardRank.KING, CardSuit.SPADES),
+  Card(CardRank.ACE, CardSuit.SPADES),
+])
+
+unknown_hand.hand_rank  # <HandRank.ROYAL_FLUSH: 10>
+```
+
+### Hand Comparison
+To compare two hands:
+```python
+from tilted import Card, CardRank, CardSuit, Hand
+
+
+royal_flush = Hand([
+  Card(CardRank.TEN, CardSuit.SPADES),
+  Card(CardRank.JACK, CardSuit.SPADES),
+  Card(CardRank.QUEEN, CardSuit.SPADES),
+  Card(CardRank.KING, CardSuit.SPADES),
+  Card(CardRank.ACE, CardSuit.SPADES),
+])
+
+straight_flush = Hand([
+  Card(CardRank.NINE, CardSuit.HEARTS),
+  Card(CardRank.TEN, CardSuit.HEARTS),
+  Card(CardRank.JACK, CardSuit.HEARTS),
+  Card(CardRank.QUEEN, CardSuit.HEARTS),
+  Card(CardRank.KING, CardSuit.HEARTS),
+])
+
+royal_flush > straight_flush  # True
+```
+
+### Game & Dealing
+To create a game, deal cards to the board and determine the winning player:
+
+```python
+from tilted import Game
+
+
+num_players = 2
+game = Game(num_players)
+
+game.deal_next_street()
+game.board.flop  # [A♦, A♠, A♣]
+
+game.deal_next_street()
+game.board.turn  # K♣
+
+game.deal_next_street()
+game.board.river  # Q♣
+
+game.board.cards  # [A♦, A♠, A♣, K♣, Q♣]
+
+game.players[0].name  # "Player #1"
+game.players[0].hole_cards  # [A♥, K♥]
+game.players[1].name  # "Player #2"
+game.players[1].hole_cards  # [T♦, Q♦]
+
+game.get_winner()  # [<Player: Player #1>]
+```
+
+NOTE: `get_winner` returns a list to account for split pots (when two players have the winning hand).
+
+
+## Roadmap
+
+### Features
+- [x] Hand evaluation
+- [x] Hand comparison
+- [x] Deck support
+- [x] Board & dealing (Flop, Turn, River)
+- [x] Player support
+- [x] Full board & hole card evaluation
+- [ ] Buttons & betting
+- [ ] Game state serialization
+- [ ] Simulations API and/or simulation examples
+
+### Deployment
+- [x] CI
+- [x] Badges
+
