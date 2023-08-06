@@ -1,0 +1,26 @@
+struct TestMessage {
+  a: uint8
+  b: int32
+  status: bool
+  message: string[16]
+}
+
+struct ArrayMessage {
+  numbers: int32[]
+}
+
+struct Ack {
+  code: uint8
+}
+
+protocol {
+  maxLength = 256
+  framing = COBS
+  crc = CRC8
+
+  messageIds {
+    TestMessage = 1
+    Ack = 2
+    ArrayMessage = 3
+  }
+}

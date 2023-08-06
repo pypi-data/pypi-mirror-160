@@ -1,0 +1,3 @@
+[console_scripts]
+bakelite=bakelite.generator.cli:main
+

@@ -1,0 +1,70 @@
+from dataclasses import dataclass
+from enum import Enum
+from bakelite.proto.serialization import struct, enum
+from bakelite.proto.runtime import Registry, ProtocolBase
+from typing import List
+
+{{""}}
+{{""}}
+
+% for comment in comments:
+#{{ comment }}
+% endfor
+
+{{""}}
+
+registry = Registry()
+
+{{""}}
+{{""}}
+
+% for enum in enums
+% if enum.comment
+# {{ enum.comment }}
+% endif
+@enum(registry, r'''{{to_desc(enum)}}''')
+class {{ enum.name }}(Enum):
+  % for value in enum.values:
+  % if value.comment
+  #{{ value.comment }}
+  % endif
+  {{ value.name }} = {{ value.value }}
+  % endfor
+  {{""}}
+  {{""}}
+% endfor
+
+% for struct in structs
+% if struct.comment
+# {{ struct.comment }}
+% endif
+@struct(registry, r'''{{to_desc(struct)}}''')
+@dataclass
+class {{ struct.name }}:
+  % for member in struct.members:
+  % if member.comment
+  #{{ member.comment }}
+  % endif
+  {{ member.name }}: {{map_type(member)}}{{ ' = ' + member.value if member.value }}
+  % endfor
+  {{""}}
+  {{""}}
+% endfor
+
+{{""}}
+{{""}}
+
+%if proto
+
+class Protocol(ProtocolBase):
+  def __init__(self, **kwargs):
+    super().__init__(
+      % for option in proto.options:
+      {{option.name}}="{{option.value}}",
+      % endfor
+      registry=registry,
+      desc=r'''{{to_desc(proto)}}''',
+      **kwargs
+    )
+
+%endif
