@@ -1,0 +1,12 @@
+# -------------------------------------------------------------
+# SVMT configuration file
+#
+# ------------- location of the training set-------------------
+TRAINSET =  /src/lima/build/lima_linguisticdata/disambiguisationMatrices/por/corpus/SVMToolModel/corpus_por.txt
+# ------------- location of the Joachims svmlight software ----
+SVMDIR = /usr/bin
+# ------------- name of the model to create -------------------
+NAME = lima
+# ------- action items ----------------------------------------
+do M0 LR
+# -------------------------------------------------------------
