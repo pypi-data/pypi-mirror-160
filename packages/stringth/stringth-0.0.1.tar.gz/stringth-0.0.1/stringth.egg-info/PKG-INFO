@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: stringth
+Version: 0.0.1
+Summary: Converts to and from nth strings and integers
+Home-page: UNKNOWN
+Author: taennan
+Author-email: taennan@scoobyapps.com
+License: Apache-2.0
+Keywords: string,str,nth
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE_APACHE
+
+
+# Stringth
+
+A simple Python3 package which converts to and from nth strings and integers
+
+# License
+
+Apache-2.0
+
+
