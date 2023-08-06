@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: partis-view
+Version: 0.0.2
+Requires-Python: >=3.6.2
+Maintainer-email: "Nanohmics Inc." <software.support@nanohmics.com>
+Summary: Graphical interface for viewing and editing workflow files
+License-File: LICENSE.txt
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Clustering
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Provides-Extra: doc
+Requires-Dist: PySide2<5.15,>=5.14; python_version < "3.8"
+Requires-Dist: scipy>=1.3.1
+Requires-Dist: partis-schema==0.0.2
+Requires-Dist: partis-utils[asy,theme]==0.0.2
+Requires-Dist: PySide2<5.16,>=5.15; python_version >= "3.8"
+Requires-Dist: partis-utils[sphinx]==0.0.2; extra == "doc"
+Description-Content-Type: text/x-rst
+
+The ``partis.view`` package is a graphical interface for viewing and editing workflow files.
+
+https://nanohmics.bitbucket.io/doc/partis/view
