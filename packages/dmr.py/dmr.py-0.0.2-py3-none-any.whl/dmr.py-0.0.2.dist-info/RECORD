@@ -1,0 +1,13 @@
+dmr/__init__.py,sha256=2_efsfzjG5VX24UCYl0PdZvEDYcxkgoW1EAJmy6wHkY,21
+dmr/main.py,sha256=qXyNLaM8OAN385zO7hTPAVN1Jdc0QzclrsJ_UROYbnI,3969
+dmr/utils/__init__.py,sha256=TWH-vWrV52swvTrLGE1feJ3LA_hu7QyD802FSLlAmQk,51
+dmr/utils/async_scraper.py,sha256=EPpibImF-RTCW9XTj6UYqfBTk25GSKP4PdBvDconuBE,2131
+dmr/utils/clean_data.py,sha256=zUWWJpj8XlhZtmIfm7tIpQ77hxr_lL9Nr2JJavAiOyI,879
+dmr/utils/extract_data.py,sha256=Rt5plsuVa11OaG_e1njoGkw7VooQwz8Bd7pHToRefGM,4179
+dmr/utils/headers.py,sha256=gpHaa5rO5V2gvFsGz6Yd3DsXRJ3M5ZxKoF4-g0Ucywg,756
+dmr/utils/scraper.py,sha256=Gj0NH9LchG2T-Zx0AAFufqNk1P_ZZVjy8qSpX8x2ho0,1939
+dmr.py-0.0.2.dist-info/LICENSE,sha256=hDAlYIpCW9SYHQSHax5OgE4Kd9RQLyzb8RYOohTGxVI,1063
+dmr.py-0.0.2.dist-info/METADATA,sha256=a1c-WMmbDsKJSl07yi08B28sRvpYdTrYeHgYtKB2VfY,3770
+dmr.py-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dmr.py-0.0.2.dist-info/top_level.txt,sha256=RHcnA6DoDSl7jjaiiNQklLi0EImIAmooh0j2H_s5lNA,4
+dmr.py-0.0.2.dist-info/RECORD,,
