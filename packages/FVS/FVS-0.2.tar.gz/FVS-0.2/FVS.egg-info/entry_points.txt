@@ -1,0 +1,3 @@
+[console_scripts]
+fvs = fvs.cli:fvs_cli
+
