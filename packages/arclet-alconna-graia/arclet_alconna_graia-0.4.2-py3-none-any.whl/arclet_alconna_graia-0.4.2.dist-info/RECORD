@@ -1,0 +1,12 @@
+arclet/alconna/graia/__init__.py,sha256=gn1ez-qDsHGgZGetvi1y6BuSbBd90FfldZeYNwJgtvE,542
+arclet/alconna/graia/analyser.py,sha256=ETiS9TaQ1iYaTtFXzsQ9eFUaJtLGGh_0YWqwHAv2twU,1958
+arclet/alconna/graia/create.py,sha256=8Z7MSKmAInKsfHUwGijWuhcAQPuhahp8_-Wi4AURTLM,1505
+arclet/alconna/graia/dispatcher.py,sha256=sldI72JhFaAlemD2n9UqCnChh9PwMVArYPM0ejyW8ds,10076
+arclet/alconna/graia/saya.py,sha256=pqNl5qfNKBAPeW3ig8gUW7PAhw349lWlWIJORGf6JPI,2596
+arclet/alconna/graia/utils.py,sha256=nfI8uxY5DMeN7KIF-80Z2kzqIqCHIWj3qLqQZVs1SyU,3685
+arclet_alconna_graia-0.4.2.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+arclet_alconna_graia-0.4.2.dist-info/METADATA,sha256=LrDh1wEycxM9PiqhAeWmdNt6t6Hh5VYWkB2P-bdNXAo,1169
+arclet_alconna_graia-0.4.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+arclet_alconna_graia-0.4.2.dist-info/entry_points.txt,sha256=7ig4y6ihiYOvTbRgO7BnnhFBkG3cgUUlEzud1YnyjXA,89
+arclet_alconna_graia-0.4.2.dist-info/top_level.txt,sha256=m1q3y28rlv8tUntWZX0qX1yJWnuOQwOKGRXYuovV0Bo,7
+arclet_alconna_graia-0.4.2.dist-info/RECORD,,
