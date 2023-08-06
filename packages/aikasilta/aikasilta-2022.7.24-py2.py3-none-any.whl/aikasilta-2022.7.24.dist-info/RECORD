@@ -1,0 +1,15 @@
+aikasilta/__init__.py,sha256=Czc1EP5V-2WZvIFWHMfIoIwCD_lgOsTD2m4iY3T92yc,26
+aikasilta/__main__.py,sha256=BuckYuQ5ZG2lr5ahmJhdDwtXEi-ICVFrh2K-_mevnTA,150
+aikasilta/bridge.py,sha256=g240b774c-U1omnvJQlOcwI_QQp6lGGcz957HhuT4_Y,5492
+aikasilta/cli.py,sha256=VoKZD6f9rTSyftbvxxFQBNbhfMDa4R2SdW-KO7MMXz4,1057
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/context.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_bridge.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_cli.py,sha256=ksM4vrNR1BLKaBZbwbdVDYicUHXW0JhznbQQn_pJONA,375
+aikasilta-2022.7.24.dist-info/LICENSE,sha256=NpMdbXDPQfOKFkp3mpaePQrBhcjltWWrjBt9lkJSBQQ,1069
+aikasilta-2022.7.24.dist-info/METADATA,sha256=xvz91rGKc0k-aAw0ZeT2K1eay5lmIrbyki62BOeORi0,2829
+aikasilta-2022.7.24.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aikasilta-2022.7.24.dist-info/entry_points.txt,sha256=gDYNaZ49vLHMAoBMaXsSgsxVzcGjztm1kTbmGDEVn_E,48
+aikasilta-2022.7.24.dist-info/top_level.txt,sha256=DKnns43aDSzqywzDZn_OUX7S2pWQQBfvKR3dRFTY0F4,15
+aikasilta-2022.7.24.dist-info/RECORD,,
