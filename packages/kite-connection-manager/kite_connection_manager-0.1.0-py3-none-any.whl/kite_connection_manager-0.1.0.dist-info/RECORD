@@ -1,0 +1,9 @@
+kite_connection_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kite_connection_manager/connect_without_apikey.py,sha256=iIeMb3ISfgrmH4O-aWPaD0Cl2laZ2YyBWEhv8-f1qR8,11579
+kite_connection_manager/login.py,sha256=SfSne0ma7WcAChXOPR5wcEYGw0bjAGE8Wl63CNR8m5E,5274
+kite_connection_manager/utils.py,sha256=dCRb_FYvW0mumAp8d3kUYQkrFbNJ_r5Ec-UsDe8lVb8,866
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kite_connection_manager-0.1.0.dist-info/METADATA,sha256=NlH5UUta0r8dQysrO2DKcAxdOsV6HpQlIkUvFlZBqk4,807
+kite_connection_manager-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kite_connection_manager-0.1.0.dist-info/top_level.txt,sha256=mAms78sQ0t5DkS4YJA_G_vqcNJhCAuetbTyFXs0zNPY,30
+kite_connection_manager-0.1.0.dist-info/RECORD,,
