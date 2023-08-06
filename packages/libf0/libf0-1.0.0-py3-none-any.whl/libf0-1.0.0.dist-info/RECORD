@@ -1,0 +1,14 @@
+libf0/__init__.py,sha256=wnHaWRAyCv1S985qldna_isHtmbNJW2TmahuUFTVZUg,131
+libf0/pyin.py,sha256=VOB73Izz2_PY239712NRrTUNYdqDhEbHly39Iv58uh0,16010
+libf0/salience.py,sha256=qsEMWmr7JAKO77kKj5Jql3Ibi9pIJxsk9mEx4oVm-7o,14017
+libf0/swipe.py,sha256=i12dEENGZDkiLFT3v8Raz37tF5U4a5_jJmlhCLu4f7k,9695
+libf0/swipe_slim.py,sha256=reRabmb-ypeO_hHiNcka5s5HXXycK74wym9VIqRlVA4,6772
+libf0/utils.py,sha256=gmz1SFLIx-BmlfTMOqImpXe34jLiFHEvxOrtPEBootQ,3068
+libf0/yin.py,sha256=9Pk-b6rxWAKvRNz_quVJnVuCXuiwjr8RdlCy_XuOTM0,7487
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_algorithms.py,sha256=D6ofVV1wE1XTRQ7Z8yTycow5W1XdOgZGTURujARMn-U,5806
+libf0-1.0.0.dist-info/LICENCE,sha256=SvWip-QiIOKyqWK67_TcJOyur6WKxTMHsb77c0Xtji8,1496
+libf0-1.0.0.dist-info/METADATA,sha256=gVlULrBzV1HmYYrHQnPLuu3JZ01AFWHREdoiCw9YtvA,5236
+libf0-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+libf0-1.0.0.dist-info/top_level.txt,sha256=lVWEJcwrho_2bXIcYRgJVQXLLtcgk26BpFUdpfRFQ48,12
+libf0-1.0.0.dist-info/RECORD,,
