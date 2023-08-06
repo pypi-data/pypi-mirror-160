@@ -1,0 +1,14 @@
+yaqd_dwyer/VERSION,sha256=B_waPu-jsVNG1-e7pprAInHvFaHRh_3zC3WBG95TUMQ,9
+yaqd_dwyer/__init__.py,sha256=xgHebUeQtAeGk9NvtnjVDyTe72feKOVzNFoYj9h345A,82
+yaqd_dwyer/__version__.py,sha256=aIq6BYZ2Vu4z6qhpulwJjQVwfXWBRNlRKwBX_hECB00,493
+yaqd_dwyer/_dwyer_16b.py,sha256=xxf4BGZ8--6MgPl8bkX-wGfmxdI9kdcUWTG4jliI-3U,4286
+yaqd_dwyer/_dwyer_16c.py,sha256=vAgCBPgqbfmm7cH4oMOagTurvyTMoucZf1sNgDVYO9Y,2438
+yaqd_dwyer/dwyer-16b.avpr,sha256=ezdbqZr4m0tRA2tE7wDa0-FaabtSOANzMcisFEAEPts,9726
+yaqd_dwyer/dwyer-16b.toml,sha256=UWGlK3uYSxXO3BVgPXtChjTXDTxt7PrrTAxoOr8mcLU,342
+yaqd_dwyer/dwyer-16c.avpr,sha256=r7FcLJBZNrqUP9MW-FFWZHvOUkOSzH-qOxpT36zxNyA,10816
+yaqd_dwyer/dwyer-16c.toml,sha256=B9k2pew9LlOgBFagOOZyzAWtu60ZFIIQkRRDUUlCeck,885
+yaqd_dwyer-2022.7.0.dist-info/entry_points.txt,sha256=3LC_GGFdoszOdB1bJlWQ9AAXyUC-cdac4CGJ6gYmGw4,121
+yaqd_dwyer-2022.7.0.dist-info/LICENSE,sha256=gQ0onXQnjXJoTSbNwqxcuw8B8tGCEvORxsRGc5mnrdU,7633
+yaqd_dwyer-2022.7.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+yaqd_dwyer-2022.7.0.dist-info/METADATA,sha256=-PXVRPssX5k48NPAu2gPyJlIScsCs3m7RjFykOWXbVM,1791
+yaqd_dwyer-2022.7.0.dist-info/RECORD,,

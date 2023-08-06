@@ -1,0 +1,4 @@
+[console_scripts]
+yaqd-dwyer-16b=yaqd_dwyer._dwyer_16b:Dwyer16B.main
+yaqd-dwyer-16c=yaqd_dwyer._dwyer_16c:Dwyer16C.main
+
