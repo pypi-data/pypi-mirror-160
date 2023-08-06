@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bifeatureanalysis/__init__.py
+bifeatureanalysis/templateproj.py
+bifeatureanalysis.egg-info/PKG-INFO
+bifeatureanalysis.egg-info/SOURCES.txt
+bifeatureanalysis.egg-info/dependency_links.txt
+bifeatureanalysis.egg-info/top_level.txt
