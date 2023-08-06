@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: rembgpy
+Version: 1.0.1
+Summary: A simple python api wrapper for remove.bg.
+Home-page: https://github.com/jiroawesome/rembgpy
+Author: jiroawesome
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jiroawesome/rembgpy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# rembgpy
+
+- A simple python api wrapper for remove.bg.
+
+## Installation
+
+```
+pip install rembgpy
+```
+
+## Usage
+
+```python
+from rembgpy import RemBg
+import base64
+
+api = RemBg("api-key", "logged-error.log")
+with open("titty.jpg", "rb") as image_file:
+    encoded_string = base64.b64encode(image_file.read())
+print(api.remove_b64(encoded_string))
+```
+
+## Usage 2
+
+```python
+from rembgpy import RemBg
+
+api = RemBg("api-key", "logged-error.log")
+print(api.remove_img("https://sample.com/img_url.jpg"))
+```
+
