@@ -1,0 +1,9 @@
+ase
+bayesian-optimization
+cclib>=1.7
+matplotlib
+natsort
+numpy
+scipy<=1.7.3
+umap-learn
+pytest
