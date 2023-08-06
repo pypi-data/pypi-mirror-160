@@ -1,0 +1,32 @@
+name: Package
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Switch branch
+      uses: actions/checkout@v3
+      
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.9"
+        
+    - name: Install Python dependencies
+      run: |
+        which python
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Flit publish
+      run:
+        flit publish
+      env:
+        FLIT_USERNAME: __token__
+        FLIT_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+#       FLIT_INDEX_URL: https://test.pypi.org/legacy/
