@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: window-auto-generator
+Version: 1.1
+Summary: Auto generate a window with text browser and buttons from config info
+Home-page: https://github.com/OuterCloud/GenWindow
+Author: zenkilan
+Author-email: 434209210@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: PyQt5
+
+## Usage Intro
+
+- Generate a window with text browser and buttons from config
+
+## How To Use
+
+```python
+import sys
+from PyQt5.QtWidgets import QApplication
+from window_auto_generator import ToolWindow, ToolConf, Button, ReqProto
+
+app = QApplication(sys.argv)
+tw = ToolWindow(ToolConf(
+    name="my window",
+    desc="my window desc",
+    buttons=[
+        Button("test", "desc", ReqProto("http://127.0.0.1:8000/hello?user=1", "GET", None)),
+    ]
+))
+sys.exit(app.exec_())
+```
+
