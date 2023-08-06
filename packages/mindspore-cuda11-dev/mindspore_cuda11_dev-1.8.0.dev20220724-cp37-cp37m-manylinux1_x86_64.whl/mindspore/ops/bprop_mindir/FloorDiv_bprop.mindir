@@ -1,0 +1,16 @@
+
+0.1.1	MindSpore*1.8.0:ú
+˜
+bprop.141:xbprop.141:[CNode]142:1bprop.141:[CNode]142:1"(REF::S-Prim-hyper_map[zeros_like_leaf]:2:/Default/S-Prim-hyper_map[zeros_like_leaf]-op102
+˜
+bprop.141:ybprop.141:[CNode]143:3bprop.141:[CNode]143:3"(REF::S-Prim-hyper_map[zeros_like_leaf]:2:/Default/S-Prim-hyper_map[zeros_like_leaf]-op103
+™
+bprop.141:[CNode]142:1
+bprop.141:[CNode]143:3bprop.141:[CNode]144:4bprop.141:[CNode]144:4"REF::S-Prim-MakeTuple:5:Default/S-Prim-MakeTuple-op104	bprop.141*
+bprop.141:x*
+bprop.141:y*
+bprop.141:out*
+bprop.141:dout2
+bprop.141:[CNode]144:4:@fdede69709904c01691843e70cf6c5b0e5655f5e83a7ec72516c5cde5272b0e4PbH
+#S-Prim-hyper_map[zeros_like_leaf]:2!S-Prim-hyper_map[zeros_like_leaf]b&
+S-Prim-MakeTuple:5S-Prim-MakeTupleh
