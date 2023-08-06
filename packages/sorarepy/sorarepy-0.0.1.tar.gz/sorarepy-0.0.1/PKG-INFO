@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: sorarepy
+Version: 0.0.1
+Summary: A python wrapper for the Sorare API.
+Home-page: https://github.com/seanyboi/sorarepy/tree/master/
+Author: Sean O'Connor
+Author-email: oconnorjamessean@gmail.com
+License: Apache Software License 2.0
+Keywords: sorare python api graphql football baseball
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Sorare Py
+> A python wrapper for the Sorare API
+
+
+## Requirements
+
+`python >= 3.7`
+
+## Install
+
+`pip install sorarepy`
+
+`conda install -c seanyboi sorarepy`
+
+## How to use
+
+Import
+
+```
+from sorarepy.login import LoginSorare
+```
+
+### Login
+
+To receieve your JWT and team name slug.
+
+```
+l = LoginSorare(app_name="test_app", email="abc@gmail.com", password="abc", two_factor="12345")
+token, club_name = l.login()
+```
+
+## Contributions
+
+If there is any particular data you wish to be added to the package please let me know!
+
+Issues and pull requests are always welcome.
+
+## Acknowledgements
+
+A huge massive thanks to Sorare for open sourcing their API. 
+Without them this package wouldn't be possible so please go check them out!
+
+Sorare - https://sorare.com
+
+## Disclaimer
+
+We do not store any personal information like email, password or your two factor password, that is down to you to keep safe!

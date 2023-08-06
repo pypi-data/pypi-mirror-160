@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+sorarepy/__init__.py
+sorarepy/_nbdev.py
+sorarepy/login.py
+sorarepy.egg-info/PKG-INFO
+sorarepy.egg-info/SOURCES.txt
+sorarepy.egg-info/dependency_links.txt
+sorarepy.egg-info/not-zip-safe
+sorarepy.egg-info/requires.txt
+sorarepy.egg-info/top_level.txt
