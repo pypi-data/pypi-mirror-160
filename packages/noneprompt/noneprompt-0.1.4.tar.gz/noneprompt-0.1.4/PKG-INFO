@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: noneprompt
+Version: 0.1.4
+Summary: Prompt toolkit for console interaction
+Home-page: https://github.com/nonebot/noneprompt
+License: MIT
+Keywords: prompt,inquirer,prompt-toolkit
+Author: yanyongyu
+Author-email: yyy@nonebot.dev
+Requires-Python: >=3.7.3,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: prompt-toolkit (>=3.0.19,<4.0.0)
+Project-URL: Documentation, https://github.com/nonebot/noneprompt
+Project-URL: Repository, https://github.com/nonebot/noneprompt
+Description-Content-Type: text/markdown
+
+# NonePrompt
+
+Prompt toolkit for console interaction.
+
+Typing is supported.
+
+## Installation
+
+```bash
+pip install noneprompt
+```
+
+## Usage
+
+### Input
+
+```python
+from noneprompt import InputPrompt
+
+InputPrompt("What is your name?", validator=lambda string: True).prompt()
+```
+
+### Confirm
+
+```python
+from noneprompt import ConfirmPrompt
+
+ConfirmPrompt("Are you sure?", default_choice=False).prompt()
+```
+
+### List
+
+```python
+from noneprompt import ListPrompt, Choice
+
+ListPrompt("What is your favorite color?", choices=[Choice("Red"), Choice("Blue")]).prompt()
+```
+
+### Checkbox
+
+```python
+from noneprompt import CheckboxPrompt, Choice
+
+CheckboxPrompt("Choose your favorite colors", choices=[Choice("Red"), Choice("Blue")]).prompt()
+```
+
+## Try from command line
+
+```bash
+noneprompt -h
+```
+
