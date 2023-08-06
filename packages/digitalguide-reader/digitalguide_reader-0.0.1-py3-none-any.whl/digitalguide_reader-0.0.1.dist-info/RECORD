@@ -1,0 +1,13 @@
+digitalguide_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+digitalguide_reader/gsheet2actions.py,sha256=e_yR11uWdOtAp5gwIcAJWTJTfXjbbxG8i1DqHFw_dJU,3514
+digitalguide_reader/standardinteraktion/Action.py,sha256=YcqmWi3ACqDNNoSzoiVcn1QN-0Pa7ZdAsUlFO7gyFmw,6768
+digitalguide_reader/standardinteraktion/Interaktion.py,sha256=Q6UOfFb1NWUpkHTWF6aVaba6DV3NU9LM6D8HRKwNBl0,18949
+digitalguide_reader/standardinteraktion/Route.py,sha256=ZY03BwptaYzLVYyOQxlaLBh9ayUZHtWdJbFCLAylHJQ,1823
+digitalguide_reader/standardinteraktion/Trigger.py,sha256=rJJHsFEZdUTok2fyZBZEkOGaAsEQESne5Lp7kG5IEUo,2261
+digitalguide_reader/standardinteraktion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+digitalguide_reader/standardinteraktion/wegInteraktion.py,sha256=EhIxD4QlAPzZDER2B8I_fPqGqyopgAgsddckaYIIqq8,3414
+digitalguide_reader-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+digitalguide_reader-0.0.1.dist-info/METADATA,sha256=h_L92EMDOI1Mx2ayimo0EHYmgcsr0n4d-FlFk7frnhA,513
+digitalguide_reader-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+digitalguide_reader-0.0.1.dist-info/top_level.txt,sha256=yZRQqHDPcDRjijz3S9a1tSZRRw3Iy9JZbixumCP0YgE,20
+digitalguide_reader-0.0.1.dist-info/RECORD,,
