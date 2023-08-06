@@ -1,0 +1,10 @@
+Alexsecdemoraw.py
+setup.py
+mymod1/__init__.py
+mymod1/unit.py
+mymod2/__init__.py
+mymod2/mymod2.py
+zjusecdemo.egg-info/PKG-INFO
+zjusecdemo.egg-info/SOURCES.txt
+zjusecdemo.egg-info/dependency_links.txt
+zjusecdemo.egg-info/top_level.txt
