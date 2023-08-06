@@ -1,0 +1,9 @@
+splatnet/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+splatnet/splatnet2/__init__.py,sha256=LVXCiXF6yUemkxAoqwsIptz0war4LCuZBP4QUiZPfLE,95
+splatnet/splatnet2/config.py,sha256=cCieFT-kz_08Xd-2K4n5c4cLsNUDdpBu6PPvt-JeLj0,12217
+splatnet/splatnet2/models.py,sha256=uhyUNYfjVtIRWk-ZVls-a0jfYcWRcxr3utG2FJEp68E,3031
+splatnet/splatnet2/splatnet2.py,sha256=FoO2ea5v3hfWa5_v3ulFo8T1CrGNaCrgaD2WxQu8NKE,1641
+splatnet-0.1.4.dist-info/LICENSE,sha256=4QMuLTaP8ovcXQVplnPAnDqkjCC20wZ3f08EH43GNbo,1064
+splatnet-0.1.4.dist-info/WHEEL,sha256=KXNDfOTTCr-VyxnCJDozfJ6nmi3hNN9RABDaCXBsNak,85
+splatnet-0.1.4.dist-info/METADATA,sha256=AGI51c8r8q8w_IXC_Wr_jaLy_wpEz1pYY1GSr8wpDe4,1696
+splatnet-0.1.4.dist-info/RECORD,,
