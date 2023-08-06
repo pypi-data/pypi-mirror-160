@@ -1,0 +1,187 @@
+#! /usr/bin/env python3
+# -*- coding: utf-8 -*-
+# vim:fenc=utf-8
+#
+import os
+import re
+import sys
+import json
+import logging
+import argparse
+import pkgconfig
+
+# SDNN Build Module
+from tvm.sdrv.model_build import ModelBuild
+
+
+def build_model(model_dict, relative_json_path, model_save_path):
+    ## begin model build
+    sdnn_build_obj.build(model_dict, relative_json_path)
+    ## export model dynamic library
+    sdnn_build_obj.save_library(model_save_path)
+    sdnn_build_obj.create_deploy_json(model_save_path)
+    #sdnn_build_obj.save_params(model_save_path)
+    print("-------------------------------------------")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="sdnn build tools")
+
+    parser.add_argument('--version', '-v', action='version',
+                        version='%(prog)s version : v2.2.0',
+                        help='show the sdnn version')
+
+    parser.add_argument('--debug', '-d', action='store_true',
+                        dest='debug',
+                        help='print debug information',
+                        default=False)
+
+    parser.add_argument('--file', '-f', dest='files',
+                        action='append', required=True,
+                        help='the path of model file or json file')
+
+    parser.add_argument('--host', dest='host',
+                        choices=['x86_64','aarch64'],
+                        default="aarch64",
+                        help='the host type of running device')
+
+    parser.add_argument('--os', dest='os',
+                        choices=['linux', 'android', 'qnx'],
+                        default="linux",
+                        help='the os of running device')
+
+    parser.add_argument('--accelerator', '-a',
+                        dest='device',
+                        default='cpu',
+                        choices=['cpu','gpu', 'slimai'],
+                        help='the device type of accelerator chip:[cpu, gpu, slimai]')
+
+    parser.add_argument('--elf_build_off', '-b', dest='elf_build_off',
+                        action="store_true",
+                        help='whether off build elf file for slimai')
+
+    parser.add_argument('--elf_mode', '-m', dest='elf_mode',
+                        default="merge",
+                        choices=['merge','separate'],
+                        help='select the mode of model lib combine with elf file')
+
+    parser.add_argument('--emu', '-e', dest='emulation',
+                        action="store_true",
+                        help='whether enable slimai emulation')
+
+    parser.add_argument('--opt_level', '-l', dest='opt_level',
+                        default=3, type=int,
+                        choices=[1, 2, 3, 4],
+                        help='the optianal level of model build')
+
+    parser.add_argument('--save', '-s', dest='lib_path',
+                        default="models",
+                        help='the saved path of model')
+
+    parser.add_argument('--type', '-t', dest='net_type',
+                        choices=['onnx', 'caffe', 'tf', 'tflite'],
+                        default="null",
+                        help='the type of model')
+
+    parser.add_argument('--name', '-n', dest='net_name',
+                        default="null",
+                        help='the name of model')
+
+    parser.add_argument('--domain', dest='domain',
+                        default="null",
+                        choices=['Classification', 'Detection', 'Segmentation'],
+                        help='the domain of model')
+
+    parser.add_argument('--channel_order', '-c', dest='channel_order',
+                        default="null",
+                        choices=['RGB', 'BGR'],
+                        help='the channel_order of model')
+
+    parser.add_argument('--mean', dest='mean',
+                        default="null",
+                        help='the mean of model')
+
+    parser.add_argument('--std', dest='std',
+                        default="null",
+                        help='the mean of model')
+
+    parser.add_argument('--cfg', dest='cfg_file',
+                        default="null",
+                        help='the path of cfg file')
+
+    parser.add_argument('--quant_bit', '-qb', dest='quant_bit',
+                        default="null",
+                        choices=['8bit', '16bit', 'auto'],
+                        help='the bit width of quant')
+
+    args = parser.parse_args()
+
+    ## Step1: Create model build instance object
+    sdnn_build_obj = ModelBuild(args.host, args.device, args.os, args.opt_level,
+                                args.emulation, args.debug,
+                                args.elf_mode, args.elf_build_off)
+    ## Step2: Create model save path
+    model_save_path = "%s/%s-%s_%s" % (args.lib_path, args.host, args.os, args.device)
+    if not os.path.exists(model_save_path):
+        os.system("mkdir -p %s" % (model_save_path))
+
+    ## Step3: file classification
+    json_files = []
+    model_files = []
+    num_files = len(args.files)
+    for f in args.files:
+        if f.endswith(".json"):
+            json_files.append(f)
+        else:
+            model_files.append(f)
+
+    print("\033[0;36m------------------------------------------- \033[0m")
+    print("\033[1;34m%s-%s-%s\033[0m" % (args.host, args.os, args.device))
+    print("\033[0;36m-------------------------------------------\033[0m")
+    ## Step4: Build model using json file content
+    if json_files:
+        for i, json_file in enumerate(json_files):
+            relative_json_path,_ = os.path.split(json_file)
+            ## Parse json file
+            with open(json_file) as f:
+                sdnn_models_dict = json.load(f)
+            ## judge whether enable SlimAI Build
+            if i == len(json_files) -1:
+                os.environ["SLIMAI_BUILD_ELF"] = "1"
+            else:
+                os.environ["SLIMAI_BUILD_ELF"] = "0"
+            revise_dict = sdnn_build_obj.revise_model_dict(args, sdnn_models_dict, relative_json_path)
+            ## build
+            build_model(revise_dict, relative_json_path, model_save_path)
+
+
+    ## Step5: Build model by command line parameters
+    if model_files:
+        # package model file to array
+        models_array = []
+        caffe_model_array = []
+        for mod in model_files:
+            _,ext = os.path.splitext(mod)
+            if ext == '.onnx' or ext == '.pb' or ext == '.tflite':
+                models_array.append([mod])
+            elif ext == '.caffemodel' or ext == '.prototxt':
+                caffe_model_array.append(mod)
+                if len(caffe_model_array) == 2:
+                    models_array.append(caffe_model_array)
+                    caffe_model_array = []
+            else:
+                raise SystemExit("model type not support: %s" % mod)
+        # build models
+        for i, mod_file in enumerate(models_array):
+            ## judge whether enable SlimAI Build
+            if i == len(models_array) -1:
+                os.environ["SLIMAI_BUILD_ELF"] = "1"
+            else:
+                os.environ["SLIMAI_BUILD_ELF"] = "0"
+            ## struct model dict
+            model_dict = sdnn_build_obj.create_model_dict(args, mod_file)
+            ## build
+            build_model(model_dict, '.', model_save_path)
+    ## Step6: For slimai device, when using separate mode, copy the elf file to
+    # target path
+    if args.elf_mode == "separate":
+        sdnn_build_obj.save_elf_binary(model_save_path)
