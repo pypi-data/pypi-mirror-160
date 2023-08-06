@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: calculate-application-eyal
+Version: 0.0.1
+Summary: A sample python project for calculation
+Home-page: https://github.com/naturalett/getting-started
+Requires-Dist: xmlrunner
+
