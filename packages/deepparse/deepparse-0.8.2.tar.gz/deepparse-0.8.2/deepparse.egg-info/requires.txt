@@ -1,0 +1,12 @@
+numpy
+torch
+bpemb
+gensim>=4.0.0
+requests
+fasttext
+pymagnitude-light
+poutyne
+pandas
+
+[colorama]
+colorama>=0.4.3
