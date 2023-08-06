@@ -1,0 +1,7 @@
+vidgear[core]
+numpy
+akida
+akida-models
+opencv-python
+imutils
+flask
