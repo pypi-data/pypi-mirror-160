@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+zamtelsms/__init__.py
+zamtelsms/sms.py
+zamtelsms.egg-info/PKG-INFO
+zamtelsms.egg-info/SOURCES.txt
+zamtelsms.egg-info/dependency_links.txt
+zamtelsms.egg-info/not-zip-safe
+zamtelsms.egg-info/requires.txt
+zamtelsms.egg-info/top_level.txt
+zamtelsms/smsapi/__init__.py
+zamtelsms/smsapi/zamtel.py
