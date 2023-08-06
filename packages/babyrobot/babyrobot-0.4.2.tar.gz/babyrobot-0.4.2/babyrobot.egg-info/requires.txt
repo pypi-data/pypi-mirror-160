@@ -1,0 +1,2 @@
+gym
+ipycanvas==0.11
