@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jf-tokenize-package
+Version: 1.0.3
+Summary: A simple tokenizer function for NLP
+Home-page: https://github.com/Granju/tokenize-package
+Author: Julien Flandre
+Author-email: julien.flandre@gmail.com
+License: MIT
+Keywords: tokenizer function
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+
+This tokenizer function turns text into lowercase word                       tokens, removes English stopwords, lemmatize the tokens                       and replaces URLs with a placeholder.
+
