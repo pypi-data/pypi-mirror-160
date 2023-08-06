@@ -1,0 +1,4 @@
+defaults:
+  - _train
+  - override score_function: branching_entropy
+  - override scores: branching_entropy

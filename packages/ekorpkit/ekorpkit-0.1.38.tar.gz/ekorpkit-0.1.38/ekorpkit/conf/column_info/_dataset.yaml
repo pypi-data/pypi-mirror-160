@@ -1,0 +1,8 @@
+defaults:
+  - /columns: corpus
+  - datetime: default
+  - timestamp: default
+
+data:
+  id: int
+  text: str

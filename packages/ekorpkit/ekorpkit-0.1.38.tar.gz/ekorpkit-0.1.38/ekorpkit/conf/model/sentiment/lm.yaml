@@ -1,0 +1,12 @@
+defaults:
+  - _default
+  - /model/ngram: lm
+  - features: lm
+  - override /_predict_: sentiment_lm
+
+name: lmsa
+_predict_:
+  lexicon_features:
+  features:
+    - polarity
+    - uncertainty
