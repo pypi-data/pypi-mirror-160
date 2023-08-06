@@ -1,0 +1,8 @@
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+required-version = '22.3.0'
+extend-exclude = '/(slides)/'
+
+[tool.pytest.ini_options]
+addopts = '--cov=./notif --cov-report html --cov-report xml'
