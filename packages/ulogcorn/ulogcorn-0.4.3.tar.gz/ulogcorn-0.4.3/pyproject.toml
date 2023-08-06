@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ulogcorn"
+version = "0.4.3"
+description = "Unify logging for a gunicorn and uvicorn application with loguru"
+authors = ["Joy <icocoabeans@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+loguru = "^0.6.0"
+uvicorn = {extras = ["standard"], version = "^0.18.1"}
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+fastapi = "^0.78.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
