@@ -1,0 +1,8 @@
+requests
+plotly
+numpy
+pandas
+gspread
+binance-connector
+google-cloud-storage
+ibapi
