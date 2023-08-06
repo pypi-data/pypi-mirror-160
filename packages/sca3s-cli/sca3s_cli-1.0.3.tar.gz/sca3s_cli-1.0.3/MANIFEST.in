@@ -1,0 +1,2 @@
+include *.md LICENSE
+global-exclude *.pdf
