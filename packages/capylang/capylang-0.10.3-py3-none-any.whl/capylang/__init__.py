@@ -1,0 +1,1 @@
+print("Capylang is not meant to be ran like this, silly!")
