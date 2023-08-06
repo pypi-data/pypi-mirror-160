@@ -1,0 +1,2 @@
+[console_scripts]
+test_application = test_application.test_application:main
