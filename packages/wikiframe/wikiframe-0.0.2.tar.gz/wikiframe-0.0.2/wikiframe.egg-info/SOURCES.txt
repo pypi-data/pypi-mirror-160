@@ -1,0 +1,11 @@
+LICENCE.md
+README.md
+setup.py
+wikiframe/__init__.py
+wikiframe/cow_say.py
+wikiframe/extractor.py
+wikiframe.egg-info/PKG-INFO
+wikiframe.egg-info/SOURCES.txt
+wikiframe.egg-info/dependency_links.txt
+wikiframe.egg-info/requires.txt
+wikiframe.egg-info/top_level.txt
