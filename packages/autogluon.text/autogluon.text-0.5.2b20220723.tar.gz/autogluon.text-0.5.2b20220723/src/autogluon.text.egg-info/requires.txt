@@ -1,0 +1,5 @@
+autogluon.multimodal==0.5.2b20220723
+autogluon-contrib-nlp==0.0.1b20220208
+
+[tests]
+black>=22.3,~=22.0
