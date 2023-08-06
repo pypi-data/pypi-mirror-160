@@ -1,0 +1,2 @@
+include src/empyre/vis/mplstyles/*.mplstyle
+graft tests
