@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mosaicml-experimental
+Version: 0.0.1
+Summary: Experimental and third-party algorithms
+Home-page: https://github.com/mosaicml/experimental
+Author: MosaicML
+Author-email: team@mosaicml.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: mosaicml (>=0.8.0)
+Requires-Dist: pytest (==7.1.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: yapf (==0.32.0)
+Requires-Dist: isort (==5.10.1)
+Requires-Dist: ipython (==7.32.0)
+Requires-Dist: ipykernel (==6.9.2)
+Requires-Dist: jupyter (==1.0.0)
+Requires-Dist: yamllint (==1.26.3)
+Requires-Dist: docformatter (==1.4)
+

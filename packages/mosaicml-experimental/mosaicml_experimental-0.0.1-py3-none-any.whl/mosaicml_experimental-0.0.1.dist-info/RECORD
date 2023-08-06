@@ -1,0 +1,10 @@
+experimental/__init__.py,sha256=Qqr6d1FZy996-QOET3eWZHIqFvJCzfY-159yQ3LkXVg,51
+experimental/algorithms/__init__.py,sha256=owstVUXzgssOBbEN9zugALNkwmQOgQ93ikmbYVDn7UM,2006
+experimental/algorithms/example_algorithm/__init__.py,sha256=6FL_YmuUpnTwISPad8UDw6LUWK18AtgsI4sVZZ-GVpQ,128
+experimental/algorithms/example_algorithm/example_algorithm.py,sha256=mDREuGjuK6yuFgg3SpKDpM-JMAbeCLGGgw68rraPDps,607
+experimental/algorithms/example_algorithm/metadata.json,sha256=vvI1ddnqKcTjuFObLalUODgAJNhKwF8kAb1ybVIA96Q,164
+mosaicml_experimental-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mosaicml_experimental-0.0.1.dist-info/METADATA,sha256=mSHZoo1TD9EabVwD1G8YoVAnDUWY_UIt1k_AAYdPg4Y,792
+mosaicml_experimental-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mosaicml_experimental-0.0.1.dist-info/top_level.txt,sha256=WSY2rwaGHd8blqg-pL5FRbAjnA07FjL5jwB6CnTTaG8,13
+mosaicml_experimental-0.0.1.dist-info/RECORD,,
