@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+FuncsForSPO/__init__.py
+FuncsForSPO/exceptions.py
+FuncsForSPO/functions_for_py.py
+FuncsForSPO/functions_selenium.py
+FuncsForSPO/openpyxl_funcs.py
+FuncsForSPO/sqlite_functions.py
+FuncsForSPO.egg-info/PKG-INFO
+FuncsForSPO.egg-info/SOURCES.txt
+FuncsForSPO.egg-info/dependency_links.txt
+FuncsForSPO.egg-info/requires.txt
+FuncsForSPO.egg-info/top_level.txt
