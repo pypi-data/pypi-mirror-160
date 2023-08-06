@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "lk-qtquick-scaffold"
+version = "2.0.0-alpha.0"
+homepage = "https://github.com/likianta/lk-qtquick-scaffold"
+description = "A flexible toolset to improve QML coding experience for PyQt/PySide development."
+readme = "README.md"
+authors = ["Likianta <likianta@foxmail.com>"]
+license = "MIT"
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+default = true
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lk-lambdex = ""
+lk-logger = ""
+lk-utils = ""
+qtpy = ""
+pyside6 = { version = "", optional = true }
+pyside2 = { version = "", optional = true }
+
+[tool.poetry.extras]
+qt6 = ["pyside6"]  # pip install lk-qtquick-scaffold[qt6]
+qt5 = ["pyside2"]  # pip install lk-qtquick-scaffold[qt5]
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
