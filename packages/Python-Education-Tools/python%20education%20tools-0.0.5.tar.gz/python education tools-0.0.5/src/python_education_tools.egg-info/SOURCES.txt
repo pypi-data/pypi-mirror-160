@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/pet/__init__.py
+src/pet/that.py
+src/python_education_tools.egg-info/PKG-INFO
+src/python_education_tools.egg-info/SOURCES.txt
+src/python_education_tools.egg-info/dependency_links.txt
+src/python_education_tools.egg-info/top_level.txt
