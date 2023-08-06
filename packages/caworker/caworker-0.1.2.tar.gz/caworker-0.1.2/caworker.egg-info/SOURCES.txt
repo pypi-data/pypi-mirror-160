@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+caworker/__init__.py
+caworker/worker.py
+caworker.egg-info/PKG-INFO
+caworker.egg-info/SOURCES.txt
+caworker.egg-info/dependency_links.txt
+caworker.egg-info/requires.txt
+caworker.egg-info/top_level.txt
