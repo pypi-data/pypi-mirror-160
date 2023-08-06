@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mcpi-command-utils
+Version: 1.0
+Summary: A minimal server and client for the Minecraft Pi API.
+Home-page: UNKNOWN
+Author: The StevePi Organization
+Maintainer: LEHAtupointow
+Maintainer-email: leha2@tuxfamily.org
+License: UNKNOWN
+Description: # mcpi_command_utils
+        
+        A minimal server and client library for the Minecraft Pi API.
+        
+        ## Known security vunerabilities
+        A type of SQL-injection-like exploit exists (If the user uses commas in chat, the server will recognize the words inbetween the commas as separate arguments), however, this can be fixed by using the "raw" argument when using the `@on` decorator. See the server example for more information.
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
