@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ftta
+Version: 0.1.0
+Summary: python binding for china stock formula algorithm
+Author: AlphaTrion
+Author-email: taishifu@aifantai.com
+License: MIT
+
+python binding for china stock formula algorith
