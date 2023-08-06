@@ -1,0 +1,2 @@
+pytest-bdd<7.0.0,>=6.0.0
+pytest-testinfra<7.0.0,>=6.0.0
