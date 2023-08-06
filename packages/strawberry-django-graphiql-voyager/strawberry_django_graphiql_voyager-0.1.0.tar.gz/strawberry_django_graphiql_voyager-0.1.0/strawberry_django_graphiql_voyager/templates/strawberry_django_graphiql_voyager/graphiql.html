@@ -1,0 +1,191 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>graphiql explorer</title>
+    <link
+      href="{% static 'strawberry_django_graphiql_voyager/css/11.66866c8b.chunk.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'strawberry_django_graphiql_voyager/css/main.d0b1e8f9.chunk.css' %}"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      !(function (u) {
+        function e(e) {
+          for (
+            var r, t, n = e[0], o = e[1], a = e[2], c = 0, f = [];
+            c < n.length;
+            c++
+          )
+            (t = n[c]), l[t] && f.push(l[t][0]), (l[t] = 0);
+          for (r in o)
+            Object.prototype.hasOwnProperty.call(o, r) && (u[r] = o[r]);
+          for (s && s(e); f.length; ) f.shift()();
+          return d.push.apply(d, a || []), i();
+        }
+        function i() {
+          for (var e, r = 0; r < d.length; r++) {
+            for (var t = d[r], n = !0, o = 1; o < t.length; o++) {
+              var a = t[o];
+              0 !== l[a] && (n = !1);
+            }
+            n && (d.splice(r--, 1), (e = p((p.s = t[0]))));
+          }
+          return e;
+        }
+        var t = {},
+          l = { 10: 0 },
+          d = [];
+        function p(e) {
+          if (t[e]) return t[e].exports;
+          var r = (t[e] = { i: e, l: !1, exports: {} });
+          return u[e].call(r.exports, r, r.exports, p), (r.l = !0), r.exports;
+        }
+        (p.e = function (a) {
+          var e = [],
+            t = l[a];
+          if (0 !== t)
+            if (t) e.push(t[2]);
+            else {
+              var r = new Promise(function (e, r) {
+                t = l[a] = [e, r];
+              });
+              e.push((t[2] = r));
+              var n,
+                c = document.createElement("script");
+              (c.charset = "utf-8"),
+                (c.timeout = 120),
+                p.nc && c.setAttribute("nonce", p.nc),
+                (c.src =
+                  p.p +
+                  "{% static 'strawberry_django_graphiql_voyager/js/' %}" +
+                  ({}[a] || a) +
+                  "." +
+                  {
+                    0: "803372fe",
+                    1: "dc94fe74",
+                    2: "8a52e67c",
+                    3: "ac475cb0",
+                    4: "fed8c0f9",
+                    5: "ffa46665",
+                    6: "d6d03960",
+                    7: "8ca85c96",
+                    8: "ccee8b02",
+                    12: "fed03a7b",
+                    13: "2ac64509",
+                    14: "7f39502d",
+                    15: "812c88f9",
+                    16: "04df955b",
+                    17: "e84c62d5",
+                    18: "9d20f18a",
+                    19: "8e86fbfa",
+                    20: "3b18185a",
+                    21: "7d95f9df",
+                    22: "92ae6867",
+                    23: "6098cda7",
+                    24: "3f9f09be",
+                    25: "aaa060ca",
+                    26: "c9d41cb0",
+                    27: "a867a579",
+                  }[a] +
+                  ".chunk.js"),
+                (n = function (e) {
+                  (c.onerror = c.onload = null), clearTimeout(f);
+                  var r = l[a];
+                  if (0 !== r) {
+                    if (r) {
+                      var t = e && ("load" === e.type ? "missing" : e.type),
+                        n = e && e.target && e.target.src,
+                        o = new Error(
+                          "Loading chunk " +
+                            a +
+                            " failed.\n(" +
+                            t +
+                            ": " +
+                            n +
+                            ")"
+                        );
+                      (o.type = t), (o.request = n), r[1](o);
+                    }
+                    l[a] = void 0;
+                  }
+                });
+              var f = setTimeout(function () {
+                n({ type: "timeout", target: c });
+              }, 12e4);
+              (c.onerror = c.onload = n), document.head.appendChild(c);
+            }
+          return Promise.all(e);
+        }),
+          (p.m = u),
+          (p.c = t),
+          (p.d = function (e, r, t) {
+            p.o(e, r) ||
+              Object.defineProperty(e, r, { enumerable: !0, get: t });
+          }),
+          (p.r = function (e) {
+            "undefined" != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+              Object.defineProperty(e, "__esModule", { value: !0 });
+          }),
+          (p.t = function (r, e) {
+            if ((1 & e && (r = p(r)), 8 & e)) return r;
+            if (4 & e && "object" == typeof r && r && r.__esModule) return r;
+            var t = Object.create(null);
+            if (
+              (p.r(t),
+              Object.defineProperty(t, "default", { enumerable: !0, value: r }),
+              2 & e && "string" != typeof r)
+            )
+              for (var n in r)
+                p.d(
+                  t,
+                  n,
+                  function (e) {
+                    return r[e];
+                  }.bind(null, n)
+                );
+            return t;
+          }),
+          (p.n = function (e) {
+            var r =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return p.d(r, "a", r), r;
+          }),
+          (p.o = function (e, r) {
+            return Object.prototype.hasOwnProperty.call(e, r);
+          }),
+          (p.p = ""),
+          (p.oe = function (e) {
+            throw (console.error(e), e);
+          });
+        var r = (window.webpackJsonp = window.webpackJsonp || []),
+          n = r.push.bind(r);
+        (r.push = e), (r = r.slice());
+        for (var o = 0; o < r.length; o++) e(r[o]);
+        var s = n;
+        i();
+      })([]);
+    </script>
+
+    <script src="{% static 'strawberry_django_graphiql_voyager/js/11.8ed24263.chunk.js' %}"></script>
+    <script src="{% static 'strawberry_django_graphiql_voyager/js/main.6c751b76.chunk.js' %}"></script>
+  </body>
+</html>
