@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "clinicalomicsdb"
+version = "0.2.0"
+description = "Clinical Trial Omics Database"
+authors = ["Chang In Moon <changin.moon@bcm.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.3"
+Werkzeug = "^2.1.2"
+requests = "^2.28.0"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
