@@ -1,0 +1,9 @@
+etcd_watcher/__init__.py,sha256=zsOv8yAIsKOMsVkkxE_lQQcHcEHRFy4DcjrfgEDobvI,652
+etcd_watcher/watcher.py,sha256=L4-dW3o242rdcN81Liyv4hbVehH2v9ZlKl8ZBYqRS_U,5219
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_etcd_watcher.py,sha256=mqWnt3_U9Snn88NcOSNMKKDWf4S864BC62c-sBPWA1o,2143
+casbin_etcd_watcher-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+casbin_etcd_watcher-1.0.2.dist-info/METADATA,sha256=uhfKzsbAxRG8gcveubaX4RxorLVqyTN7wFExmp6ghFM,2193
+casbin_etcd_watcher-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+casbin_etcd_watcher-1.0.2.dist-info/top_level.txt,sha256=d4vmS92kWVPtGlDA8XpoHmdGUfWYY0B1qb4AIOMqxVo,19
+casbin_etcd_watcher-1.0.2.dist-info/RECORD,,
