@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/bycore/__init__.py
+src/bycore/cipher.py
+src/bycore/generate.py
+src/bycore/hashing.py
+src/bycore/managers.py
+src/bycore/models.py
+src/bycore/storage.py
+src/bycore.egg-info/PKG-INFO
+src/bycore.egg-info/SOURCES.txt
+src/bycore.egg-info/dependency_links.txt
+src/bycore.egg-info/top_level.txt
