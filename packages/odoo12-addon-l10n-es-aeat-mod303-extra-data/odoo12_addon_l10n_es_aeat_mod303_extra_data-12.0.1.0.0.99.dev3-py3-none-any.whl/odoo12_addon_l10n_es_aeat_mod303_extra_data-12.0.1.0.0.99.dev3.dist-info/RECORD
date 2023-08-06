@@ -1,0 +1,14 @@
+odoo/addons/l10n_es_aeat_mod303_extra_data/README.rst,sha256=5UQl9hhs8FYXYQ0q8nIGtDJs_2H75JYid0vUVTQR8OA,3313
+odoo/addons/l10n_es_aeat_mod303_extra_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/l10n_es_aeat_mod303_extra_data/__manifest__.py,sha256=Ccrx5F3_OyXUibz-5cVuIRoiiFgaG-b4bUtsQMezHyg,681
+odoo/addons/l10n_es_aeat_mod303_extra_data/data/2021-07/l10n_es_aeat_map_tax_line.xml,sha256=h6ZDK2tp4nbVDWUWbiRRK4Psf137FisRqYCCC4vFYqY,907
+odoo/addons/l10n_es_aeat_mod303_extra_data/i18n/l10n_es_aeat_mod303_extra_data.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/l10n_es_aeat_mod303_extra_data/readme/CONTRIBUTORS.rst,sha256=mUjDV5-rkJlcj9erAC8zbNOrh9uON6vCfGvGRX9TciE,81
+odoo/addons/l10n_es_aeat_mod303_extra_data/readme/DESCRIPTION.rst,sha256=D1PuehlKGluKaQVJ2uhr7fdziXnmKcj-PyWEq7uB8fI,233
+odoo/addons/l10n_es_aeat_mod303_extra_data/readme/HISTORY.rst,sha256=fJMzx8NdbQk2r9HBO-904R1mFShmDxv4BPzh71QikbU,129
+odoo/addons/l10n_es_aeat_mod303_extra_data/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/l10n_es_aeat_mod303_extra_data/static/description/index.html,sha256=5nehgBZ6XPBphhtFgqj5TZOP9EM3o63JQI4jl8Jxy_E,12788
+odoo12_addon_l10n_es_aeat_mod303_extra_data-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=QLV66cxK_rmjhkFRikpM1SZ607bCBM484M4_q_Ws92A,4009
+odoo12_addon_l10n_es_aeat_mod303_extra_data-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_l10n_es_aeat_mod303_extra_data-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_l10n_es_aeat_mod303_extra_data-12.0.1.0.0.99.dev3.dist-info/RECORD,,
