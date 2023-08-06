@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: linkedinPak
+Version: 0.0.1
+Summary: A very basic linkedin Project to follow Hr Tech Recruiters
+Home-page: https://github.com/asifkasi/Linkedin-Project
+Author: Asif Kasi
+Author-email: asifkasi37@gmail.com
+License: MIT
+Keywords: linkedin
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Simple package file to follow HR Tech Recruiters.
+
+change log
+==========
+
+0.0.1(24/07/2022)
+------------------
+
+- First Release
+- Follow activities of HR Tech Recruiter
+
+

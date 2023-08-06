@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+exe file.py
+setup.py
+LinkedPak/__init__.py
+linkedinPak.egg-info/PKG-INFO
+linkedinPak.egg-info/SOURCES.txt
+linkedinPak.egg-info/dependency_links.txt
+linkedinPak.egg-info/top_level.txt
