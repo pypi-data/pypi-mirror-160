@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: eo-learn-geometry
+Version: 1.2.0
+Summary: A collection of geometry EOTasks and utilities
+Home-page: https://github.com/sentinel-hub/eo-learn
+Author: Sinergise EO research team
+Author-email: eoresearch@sinergise.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: eo-learn-core
+Requires-Dist: geopandas (>=0.8.1)
+Requires-Dist: rasterio (>=1.2.7)
+Requires-Dist: scikit-image (>=0.15.0)
+Requires-Dist: shapely
+
+# eolearn.geometry subpackage
+
+Geometry subpackage used for geometric transformation and conversion between vector and raster data.
+
+For more information on the package content, visit [readthedocs](https://eo-learn.readthedocs.io/en/latest/eolearn.geometry.html).
+
+
