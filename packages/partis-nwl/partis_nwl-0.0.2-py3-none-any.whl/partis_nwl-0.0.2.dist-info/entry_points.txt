@@ -1,0 +1,7 @@
+[partis_view]
+view_editors = partis.nwl.view.plugin:get_view_editors
+
+[console_scripts]
+partis-nwl = partis.nwl.__main__:main
+partis-nwl-pkg = partis.nwl.tool_pkg.__main__:main
+

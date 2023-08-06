@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: partis-nwl
+Version: 0.0.2
+Requires-Python: >=3.6.2
+Maintainer-email: "Nanohmics Inc." <software.support@nanohmics.com>
+Summary: Implementation of Nano Workflow Language (NWL)
+License-File: LICENSE.txt
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: System :: Clustering
+Classifier: License :: OSI Approved :: BSD License
+Provides-Extra: doc
+Requires-Dist: build>=0.7.0
+Requires-Dist: partis-utils[asy]==0.0.2
+Requires-Dist: partis-schema==0.0.2
+Requires-Dist: tomli>=1.2.3
+Requires-Dist: ruamel.yaml==0.16.5
+Requires-Dist: partis-utils[sphinx]==0.0.2; extra == "doc"
+Description-Content-Type: text/x-rst
+
+The ``partis.nwl`` package is part of a workflow development toolkit.
+
+https://nanohmics.bitbucket.io/doc/partis/nwl
