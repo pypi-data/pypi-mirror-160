@@ -1,0 +1,3 @@
+[console_scripts]
+lc = llgd.cli.cli:main
+lcui = llgd.ui.__main__:main
