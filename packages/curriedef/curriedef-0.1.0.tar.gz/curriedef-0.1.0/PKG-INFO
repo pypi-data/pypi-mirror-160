@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: curriedef
+Version: 0.1.0
+Summary: Currying facade for Python
+Home-page: https://github.com/kaiserthe13th/curriedef
+Author: kaiserthe13th
+Author-email: superkerem13@gmail.com
+License: MIT
+Download-URL: https://github.com/kaiserthe13th/curriedef/archive/refs/tags/0.1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
