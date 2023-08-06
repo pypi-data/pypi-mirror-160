@@ -1,0 +1,12 @@
+egauge-python>=0.4.8
+sexpdata
+
+[server]
+django-autocomplete-light>=3
+django-bootstrap3-datetimepicker-3>=2.6.0
+django-crispy-forms
+django-filter
+django<4,>=2.0.0
+djangorestframework
+openpyxl
+tablib>=3.0.0
