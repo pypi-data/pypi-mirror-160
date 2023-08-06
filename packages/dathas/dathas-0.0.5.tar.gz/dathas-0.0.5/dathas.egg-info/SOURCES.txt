@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dathas/__init__.py
+dathas/dathas.py
+dathas/util.py
+dathas.egg-info/PKG-INFO
+dathas.egg-info/SOURCES.txt
+dathas.egg-info/dependency_links.txt
+dathas.egg-info/top_level.txt
