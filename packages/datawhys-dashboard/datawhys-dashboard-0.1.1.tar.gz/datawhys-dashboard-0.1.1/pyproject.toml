@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "datawhys-dashboard"
+version = "0.1.1"
+description = "DataWhys Dashboard SDK allows users to create a DataWhys Dashboard directly within their Python notebooks"
+authors = ["DataWhys DevTeam <devteam@datawhys.ai>"]
+readme = "README.md"
+repository = "https://bitbucket.org/mondobrain/datawhys-dashboard-sdk"
+homepage = "https://datawhys.ai"
+keywords = ["datawhys", "dashboard", "data", "visualization"]
+classifiers = [
+  # How mature is this project?
+  "Development Status :: 3 - Alpha",
+  # Intended audience
+  "Intended Audience :: Developers",
+  "Topic :: Software Development",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Visualization",
+  # Language of project
+  "Natural Language :: English",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+pandas = "^1.1.5"
+requests = "^2.27.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+isort = "^5.10.1"
+pytest = "^5.2"
+requests-mock = "^1.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"

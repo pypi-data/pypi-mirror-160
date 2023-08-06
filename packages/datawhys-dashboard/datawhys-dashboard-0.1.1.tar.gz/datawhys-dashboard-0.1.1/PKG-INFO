@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: datawhys-dashboard
+Version: 0.1.1
+Summary: DataWhys Dashboard SDK allows users to create a DataWhys Dashboard directly within their Python notebooks
+Home-page: https://datawhys.ai
+Keywords: datawhys,dashboard,data,visualization
+Author: DataWhys DevTeam
+Author-email: devteam@datawhys.ai
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development
+Requires-Dist: pandas (>=1.1.5,<2.0.0)
+Requires-Dist: requests (>=2.27.0,<3.0.0)
+Project-URL: Repository, https://bitbucket.org/mondobrain/datawhys-dashboard-sdk
+Description-Content-Type: text/markdown
+
+# DataWhys Dashboard Python SDK
+
+DataWhys Dashboard SDK allows users to create a DataWhys Dashboard directly within their Python notebooks.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install datawhys-dashboard.
+
+```bash
+pip install datawhys-dashboard
+```
+
+## Usage
+
+```python
+import datawhys_dashboard as dwdash
+
+# Set your credentials
+dwdash.api_key = "<API_KEY>" # Ask your datawhys rep for this key
+dwdash.api_base = "https://emea.datawhys.ai/api/v0.2/"
+
+# Build a pandas dataframe and store in `df` (not shown)
+
+# Create a dashboard
+from datawhys_dashboard import create_dashboard
+create_dashboard(df, outcome="Risk")
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Take a look at `CONTRIBUTING.md` for more info
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
