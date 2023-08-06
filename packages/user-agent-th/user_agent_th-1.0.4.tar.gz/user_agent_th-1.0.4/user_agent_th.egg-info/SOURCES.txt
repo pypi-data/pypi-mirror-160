@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+data/random_ua.json
+th_random_ua/__init__.py
+th_random_ua/test.py
+th_random_ua/th_random_ua.py
+user_agent_th.egg-info/PKG-INFO
+user_agent_th.egg-info/SOURCES.txt
+user_agent_th.egg-info/dependency_links.txt
+user_agent_th.egg-info/requires.txt
+user_agent_th.egg-info/top_level.txt
