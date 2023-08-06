@@ -1,0 +1,13 @@
+pydis/__init__.py,sha256=8KkR-E5ky7mWQFG7YWCUFqScMjT3CLn-RdhQxMByZls,38
+pydis/core.py,sha256=xN9iz24VxO-h5eLPYzVq1iFlbNWFeSeYHzj27ciprDE,3139
+pydis/exceptions.py,sha256=P9SKutoXE6HC58JYUin8lIea-EfeX3iaCqThnzDpW5I,459
+pydis/utils.py,sha256=AH_7ApCZlHRflhXwd5dCcA7NETKhWSdshrf-EjDt4i8,699
+pydis/value.py,sha256=0eYWbbXmr7KQQYv6vdmwxok6VI01E573K3IFE3AYYZ0,1230
+pydis/version.py,sha256=uDsHzdBL5OOm9sWR4pdFc17w2OFPMuA40z5wlk3kHNM,51
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_core.py,sha256=NQan7EZTEp-eoTmmaJ669dwm_jau4RXbQGBZx31jpxs,2660
+pydictdis-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydictdis-0.1.3.dist-info/METADATA,sha256=SlhzPARNe4PK3W4qYYfdDStCzB9rkMvp7lqIoIW7HWU,2412
+pydictdis-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydictdis-0.1.3.dist-info/top_level.txt,sha256=3MW7tIVsr5afEqaoBP2BJJJNPeRfkizr9DrR49n6Psg,11
+pydictdis-0.1.3.dist-info/RECORD,,
