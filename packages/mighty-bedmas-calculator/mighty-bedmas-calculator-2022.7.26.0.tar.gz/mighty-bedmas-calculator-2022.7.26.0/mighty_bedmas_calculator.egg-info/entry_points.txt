@@ -1,0 +1,3 @@
+[console_scripts]
+mighty-bedmas-calculator = mighty_bedmas_calculator._cli:cli
+

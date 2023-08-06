@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: mighty-bedmas-calculator
+Version: 2022.7.26.0
+Summary: Calculate string infix expressions following BEDMAS.
+Home-page: https://github.com/jdboisvert/mightly-bedmas-calculator
+Author: Jeffrey Boisvert
+Author-email: info.jeffreyboisvert@gmail.com
+License: MIT License
+Download-URL: https://github.com/jdboisvert/mightly-bedmas-calculator/archive/refs/tags/v2022.7.26.0.zip
+Project-URL: Repository, https://github.com/jdboisvert/mightly-bedmas-calculator
+Project-URL: Bug Reports, https://github.com/jdboisvert/mightly-bedmas-calculator/issues
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# The Might BEDMAS Calculator v2022.7.26.0
+A package to calculate infix expressions following BEDMAS.
+
+## Features
+
+This will calculate an expression following thr BEDMAS order of operations and the following operators are supported:
+
+* Add +
+* Subtract -
+* Multiply *
+* Divide /
+* Power of ^
+* Brakcets ()
+
+## Usage via the command line
+
+    ❯ pip install git+ssh://git@github.com/jdboisvert/mightly-bedmas-calculator
+
+    ❯ mighty-bedmas-calculator calculate "2+2"
+    4
+
+    ❯ mighty-bedmas-calculator calculate "2-3"
+    -1
+
+    ❯ mighty-bedmas-calculator calculate "(2+3)^4"
+    625
+
+
+## Development
+
+### Getting started
+
+    pip install -r requirements_dev.txt
+
+    # set up pre-commit hooks
+    pre-commit install
+
+### Pre-commit
+
+A number of pre-commit hooks are set up to ensure all commits meet basic code quality standards.
+
+If one of the hooks changes a file, you will need to `git add` that file and re-run `git commit` before being able to continue.
+
+### Testing
+
+[pytest](https://docs.pytest.org/en/6.2.x/) is used for testing.
+
+    # just the unit tests against your current python version
+    pytest
+
+    # just the unit tests with a matching prefix
+    pytest -k test_some_function
+
+
