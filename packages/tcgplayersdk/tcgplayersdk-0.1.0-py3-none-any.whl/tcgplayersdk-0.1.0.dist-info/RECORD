@@ -1,0 +1,17 @@
+tcgplayersdk/UnlimitedBaseSet.csv,sha256=yTAAexjZGBb5pfFMaE3MXRp0TBCr3A83GYr9DbBOfj4,20829
+tcgplayersdk/category_enum.py,sha256=qLfSUOZN_TmQ_YLJtiESmXwd7A6zO0Jic-QjruoD-WM,1664
+tcgplayersdk/decorators.py,sha256=1YQdCx3fPiAPtZtDT46yyw1rCT0DRpEBhnx8XgUgrXg,424
+tcgplayersdk/exceptions.py,sha256=dOllPlL9PV_Drv5KTpmVj3UpYwImDqnkSpbKgobEsYo,611
+tcgplayersdk/schemas/api_response.py,sha256=Y0RrHKJGYSfVwN5dp3JRBa_66mda3IFc11keBJ0Ei4I,324
+tcgplayersdk/schemas/category.py,sha256=n4cIC9qWg7jif7hlLxzZI36X6Llh6UpE5vrGfk5_4yE,654
+tcgplayersdk/schemas/group.py,sha256=XmwIEl-8vqN2I-q5GCPJ8EQXN1A1inWarR4BZw6kZV8,501
+tcgplayersdk/schemas/identity.py,sha256=WltNz80vLUCVZHpSJcjSqgmkvpT7pREy5ulYTJF29EI,889
+tcgplayersdk/schemas/product.py,sha256=Gp72qdDdRF-6lDI648tWLdR1hDZQDvyvyvbmjEw6rFk,1787
+tcgplayersdk/schemas/product_price.py,sha256=pqzUXYMrT7QmwW4R2PbcQUGjqk3TCfEz7Ix_COWefuA,569
+tcgplayersdk/schemas/sku_price.py,sha256=mJn-3Csl6sM1SgiJmXcRo8-1jeIEzx1Bh0KxnqzGihY,516
+tcgplayersdk/schemas/snake_case_schema.py,sha256=Fsl9jx3JsZ8cSUh6mDr5LQ5H3Yxm1VPBD-fTcvEyKuM,380
+tcgplayersdk/sdk.py,sha256=KTQDWQDPTAmqL8qN7IOU8y0SKLpQ0cIMlvjqjx2somg,7118
+tcgplayersdk/util.py,sha256=BVeV0qtv2pQsf-ZFkodBYmdUDlN2ofxEfiO10tnrv0c,324
+tcgplayersdk-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tcgplayersdk-0.1.0.dist-info/METADATA,sha256=w0heX5B85fH86rBgpkvoDfGSu2NGg48FGdnG9dK6Lw8,589
+tcgplayersdk-0.1.0.dist-info/RECORD,,
