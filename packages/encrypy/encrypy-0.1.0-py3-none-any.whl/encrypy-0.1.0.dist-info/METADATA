@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: encrypy
+Version: 0.1.0
+Summary: A Python encryption tool.
+Home-page: https://github.com/samirelanduk/encrypy
+Author: Sam Ireland
+Author-email: mail@samireland.com
+License: MIT
+Keywords: Encryption
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+
+# encrypy
+
+To encrypt a file:
+
+```bash
+encrypy encrypt secrets.txt -o secrets.enc
+```
+
+To decrypt the file:
+
+```bash
+encrypy decrypt secrets.enc -o secrets.txt
+```
+
+If the encrypted file was a Python script, you can also run it encrypted:
+
+```bash
+encrypy run myscript.enc
+```
+
