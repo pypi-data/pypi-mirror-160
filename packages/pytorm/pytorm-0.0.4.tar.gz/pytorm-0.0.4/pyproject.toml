@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "pytorm"
+version = "0.0.4"
+description = "Implementation of repository pattern over SQLAlchemy"
+keywords = [
+    "python",
+    "sqlalchemy",
+    "fastapi",
+]
+
+license = "MIT"
+
+authors = [
+    "Maxim Bigin <i@flaiers.me>"
+]
+
+readme = "README.md"
+homepage = "https://github.com/flaiers/pytorm"
+repository = "https://github.com/flaiers/pytorm"
+documentation = "https://github.com/flaiers/pytorm"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^1.4.37"
+multimethod = "^1.8"
+fastapi = "^0.78.0"
+
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.19.0"
+wemake-python-styleguide = "^0.16.1"
+mypy = "^0.961"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
