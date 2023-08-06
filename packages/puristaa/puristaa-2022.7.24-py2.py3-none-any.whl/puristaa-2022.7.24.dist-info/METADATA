@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: puristaa
+Version: 2022.7.24
+Summary: Puristaa (Finnish for compress) - shared prefix compression of ordered string sequences.
+Home-page: https://git.sr.ht/~sthagen/puristaa
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://todo.sr.ht/~sthagen/puristaa
+Project-URL: Documentation, https://sthagen.github.io/puristaa
+Project-URL: Source Code, https://git.sr.ht/~sthagen/puristaa
+Project-URL: Test Coverage, https://codes.dilettant.life/coverage/puristaa
+Keywords: compression,developer-tools,text-processing
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# puristaa
+
+Puristaa (Finnish for compress)
+
+[License: MIT](https://git.sr.ht/~sthagen/puristaa/tree/default/item/LICENSE)
+
+Provide a memory neutral and fast implementation that is clear to understand and works for the use case of extracting a common prefix of a sequence of strings and yielding that prefix and a generator for the compressed strings of the original sequence.
+
+The latter is not yet clear. One simple implementation path is to receive a reference to a sequence, determine min-max, compare min to max by character and break with first index of enumaeration not matching. Finally yield first the prefix, subsequently all strings of the sequence each shortened by the prefix.
+
+Another still open question is, if a composition of functions can be construed, such that the prefix finding algorithm respects a caller provided policy representing the inner structure of the strings.
+ An example for an inner structure is a sequence of paths as strings. A path policy would provide a separator that modifies the prefix finding algorithm to backtrack to the previous such separator token.
+
+why? well, imagine the sequence `'bar/baz', 'bar/bazaar'` and a path policy providing the boolean predicate `lambda x: x == '/'` should not yield `'bar/baz', '', 'aar'` but instead `'bar/', 'baz', 'bazaar'`.
+
+[![version](https://img.shields.io/pypi/v/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![downloads](https://img.shields.io/pypi/dm/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![wheel](https://img.shields.io/pypi/wheel/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+
+## Documentation
+
+User and developer [documentation of puristaa](https://codes.dilettant.life/docs/puristaa).
+
+## Bug Tracker
+
+Feature requests and bug reports are bested entered in the [todos of puristaa](https://todo.sr.ht/~sthagen/puristaa).
+
+## Primary Source repository
+
+The primary source repository of [puristaa is at sourcehut](https://git.sr.ht/~sthagen/puristaa)
+a collection of tools useful for software development.
+## Status
+
+Experimental
+
+**Note**: The default branch is `default`.
+
+# Use
+
+## Commandline API
