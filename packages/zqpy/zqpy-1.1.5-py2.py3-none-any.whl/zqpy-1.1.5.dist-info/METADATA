@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: zqpy
+Version: 1.1.5
+Summary: 使用老版本:pip install zqpy==0.1.48 
+ 使用新版本:pip install zqpy 
+ 新老版本区别在于：最前面位 0（老版本）1（新版本）
+Home-page: https://gitee.com/qingBB/zqpy
+Author: 周清
+Author-email: 1620829248@qq.com
+Maintainer: 周清
+Maintainer-email: 1620829248@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: psutil (==5.9.0)
+Requires-Dist: natsort (==7.0.1)
+Requires-Dist: requests (==2.28.0)
+Requires-Dist: pymongo (==4.1.1)
+Requires-Dist: opencv-python
+Requires-Dist: pytesseract (==0.3.7)
+Requires-Dist: websockets (==8.1)
+Requires-Dist: websockets-routes
+Requires-Dist: Werkzeug (==1.0.1)
+Requires-Dist: xmltodict (==0.12.0)
+Requires-Dist: pywin32 (==304)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: aircv (==1.4.6)
+Requires-Dist: pyttsx3 (==2.71)
+Requires-Dist: jieba (==0.42.1)
+Requires-Dist: openpyxl (==3.0.6)
+Requires-Dist: qrcode (==6.1)
+Requires-Dist: moviepy (==1.0.3)
+
+使用老版本:pip install zqpy==0.1.48 
+使用新版本:pip install zqpy 
+新老版本区别在于：最前面位 0（老版本）1（新版本）
+
