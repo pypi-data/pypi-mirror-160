@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['eatlocal']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['GitPython>=3.1.26,<4.0.0',
+ 'beautifulsoup4>=4.10.0,<5.0.0',
+ 'python-dotenv>=0.20.0,<0.21.0',
+ 'rich>=11.1.0,<12.0.0',
+ 'selenium>=4.1.0,<5.0.0',
+ 'typer>=0.4.0,<0.5.0']
+
+entry_points = \
+{'console_scripts': ['eatlocal = eatlocal.__main__:cli']}
+
+setup_kwargs = {
+    'name': 'eatlocal',
+    'version': '0.8.3',
+    'description': 'eatlocal helps the user solve PyBite code challenges on their local machine',
+    'long_description': "[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)\n\n# eatlocal\n\nEatlocal helps the user solve [PyBites](https://codechalleng.es) code challenges locally. This cli tool allows you to download, unzip, and organize bites according to the expected structure from PyBites website. You can display bite directions directly in the terminal. Once you have solved the bite you can use eatlocal to submit and it will open a bowser tab at the corresponding bite page.\n\n## Updates\n\n### version 0.8.3\n\neatlocal is now compatible with Python 3.8. This matches the expected python version for the platform.\n\n### Breaking Changes\n\n+ With version `0.8.0` there is a new `eatlocal init` command. Use this to configure your credentials and local git repository. You no longer need to set environment variables manually.\n+ When displaying a bite, there is no longer a live display. The directions and source code are printed to the console. This eliminated the need for the getkey library and made installing eatlocal on windows easier.\n\n## DEMOS\n\n### Configure\n\n![gif of init command](./docs/demos/init.gif)\n\n### Download Bites\n\n![gif of download command](./docs/demos/download.gif) \n\n### Display Bites\n\n![gif of display command](./docs/demos/display.gif) \n\n### Submit Bites\n\n![gif of submit command](./docs/demos/submit.gif) \n\n## Table of Contents\n\n- [eatlocal](#eatlocal)\n  - [Updates](#updates)\n    - [Version](#version-080)\n    - [Breaking Changes](#breaking-changes)\n  - [DEMOS](#demos)\n    - [Download Bites](#download-bites)\n    - [Display Bites](#display-bites)\n    - [Submit Bites](#submit-bites)\n  - [Table of Contents](#table-of-contents)\n  - [Usage](#usage)\n  - [Installation](#installation)\n    - [macOS/Linux](#macoslinux)\n    - [Windows](#windows)\n  - [Setup](#setup)\n    - [Install Chrome and Chromedriver](#install-chrome-and-chromedriver)\n      - [macOS](#macos)\n      - [Linux](#linux)\n      - [Windows](#windows-1)\n\n\n## Usage\n\nSet up your configuration file:\n\n```bash\neatlocal init\n```\n\nDownload and extract bites:\n\n```bash\n# use -V, --verbose to print what's happening\neatlocal download <bite number>\n```\n\nDisplay bites in the terminal:\n\n```bash\n# change the theme with -t <theme name>\neatlocal display <bite number>\n```\n\n\nSubmit bites:\n\n```bash\n# use -V, --verbose to print what's happening\neatlocal submit <bite number>\n\n```\n\n## Installation\n\nThere are a few options for install eatlocal.\n\n### Using pipx\n\nIf you have [pipx](https://pypa.github.io/pipx/) installed:\n```bash\npipx install eatlocal\n```\n\n### macOS/Linux\n\n```bash\npip3 install eatlocal\n```\n\n### Windows\n\n```bash\npip install eatlocal\n```\n\n## Setup\n\n1. Go through the directions on the PyBites website to connect your GitHub account to your PyBites account. You will find the necessary steps under `Settings` in the navigation sidebar.\n2. Run `eatlocal init` to configure your PyBites username, PyBites password*, and local git repository.\n2. Make sure you have Chrome and chromedriver installed and on `$PATH`. The chromedriver version must match the version of your Chrome browser. [Chromedriver downloads](https://chromedriver.chromium.org/downloads).\n\n*Note:  If you signed up for PyBites by authenticating through GitHub or Google, you may need to set a password manually in order to use `eatlocal`.\n\n### Install Chrome and Chromedriver\n\n#### macOS\n\nOne option is to use homebrew [homebrew](https://brew.sh/). \n\nInstall chrome:\n\n```bash\nbrew install --cask google-chrome\n```\n\nInstall chromedriver:\n\n```bash\nbrew install chromedriver\n```\n\nBefore you run chromedriver for the first time (and after you update versions), you must explicitly give permission since the developer has not been verified. Running the following command in the terminal removes the warning put in place by Apple:\n\n```bash\nxattr -d com.apple.quarantine $(which chromedriver)\n```\n\nHomebrew automatically puts chromedriver on `$PATH` for you. And since homebrew handles both chrome and chromedriver installations for me, I can run `brew update && brew upgrade` to help ensure I have the same version number for both chrome and chromedriver. If you do not go the homebrew route, you must manually ensure that your version of chrome matches the version of chromedriver.\n\n\n#### Linux\n\nNavigate to the download page for [google chrome](https://www.google.com/chrome/) and download the appropriate version for your system. Then, open up a terminal and navigate to where you downloaded the file. For me it was `~/Downloads`. I ran the following commands to install and check which version I have.\n\n```bash\ncd ~/Downloads\nsudo dpkg -i google-chrome-stable_current_amd64.deb\ngoogle-chrome --version\n```\n\nNext, navigate to the [chromedriver download page](https://chromedriver.chromium.org/downloads) and choose the version that matches the output from `google-chrome --version`. Download that file that matches your system. Head back to your terminal.\n\n1. Ensure that you have unzip installed:\n\n```bash\nsudo apt install unzip\n```\n\n2. Unzip the chromedriver file. For me it was located in the downloads folder: \n\n```bash\nunzip ~/Downloads/chromedriver_linux64.zip -d ~/Downloads\n```\n\n3. Make it executable and move to `/usr/local/share`:\n\n```bash\nchmod +x ~/Downloads/chromedriver\nsudo mv -f ~/Downloads/chromedriver /usr/local/share/chromedriver\n```\n\n4. Create symlinks:\n\n```bash\nsudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver\n```\n5. Confirm you have access:\n\n```bash\nwhich chromedriver\n```\n\n#### Windows\n\nIf working in windows powershell you can use [chocolately](https://chocolatey.org/) to install both Chrome and chromedriver (with matching versions).\n\nI've found that in order to install packages I have to use an elevated administrative shell, with `choco install chromedriver`.\n\n![chromedriver in chocolatey](https://i.ibb.co/2cCShcd/chromedriver-via-chocolately.png)\n\n\n\n##### WSL\n\n`eatlocal` does not work with [WSL2](https://docs.microsoft.com/en-us/windows/wsl/about). There seems to be an issue between [WSL2 and `google-chrome` and chromedriver](https://developercommunity.visualstudio.com/t/selenium-ui-test-can-no-longer-find-chrome-binary/1170486). Perhaps this will be resolved in the future with [WSLg](https://github.com/microsoft/wslg). For now, there is a workaround: Follow instructions for Windows users except install eatlocal globally. Using PowerShell or Windows Terminal, navigate to your WSL distribution's directory that holds your repository and initialize eatlocal from there. Now just download and submit through your external PowerShell command line instead of your bash terminal. Everything should still behave the same, you just can't use your WSL shell or your integrated terminal in VS Code.\n",
+    'author': 'Russell Helmstedter',
+    'author_email': 'rhelmstedter@gmail.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/rhelmstedter/eatlocal',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
