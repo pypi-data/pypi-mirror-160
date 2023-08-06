@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+geokernels/__init__.py
+geokernels/geodesics.py
+geokernels/kernels.py
+geokernels/test.py
+geokernels/test_geodesics.py
+geokernels/test_kernels.py
+geokernels.egg-info/PKG-INFO
+geokernels.egg-info/SOURCES.txt
+geokernels.egg-info/dependency_links.txt
+geokernels.egg-info/requires.txt
+geokernels.egg-info/top_level.txt
+tests/test_kernel_old.py
+tests/test_kernels_old.py
