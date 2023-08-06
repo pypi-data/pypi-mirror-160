@@ -1,0 +1,15 @@
+pyphm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyphm/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyphm/datasets/airbus.py,sha256=-qF18ROH8YfI6goA-cYkFSqlU0iB3e1-xzrlIVPodm0,10127
+pyphm/datasets/ims.py,sha256=blbywnG1WsrMtqxmfsyamcs9wI-WEvcnhCvIaSO_MhM,12883
+pyphm/datasets/milling.py,sha256=Y5GHrS-Mk2GD7lqsxUmhjB11h4tcJIJD3_0633pXn0E,15053
+pyphm/datasets/pyphm.py,sha256=gZ0r-xxNxPKX1XEeWGE4LJedFmTQVHAdiIXZVxslux4,729
+pyphm/datasets/utils.py,sha256=7xaHd5Fm31gYqv0mvJGb0pcbB-KFF3aaBGV9moXoJd8,18815
+pyphm/datasets/auxilary_metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyphm/datasets/auxilary_metadata/airbus_dfvalid_groundtruth.csv,sha256=1MeT_5OYdBlREW_cp92efgaz56HBdo9FOnD-ZnSU2bg,5251
+pyphm/datasets/auxilary_metadata/milling_labels_with_tool_class.csv,sha256=hgUj_FwdpjZqgj5zWDynNAGct3hiE9lOTi4AtHG_8Qk,6617
+pyphm-0.0.5.dist-info/LICENSE,sha256=Al3pvXq11wnypRrfcFd32FVp21X-4zs09fD3fUFdbUw,1091
+pyphm-0.0.5.dist-info/METADATA,sha256=S3fkXspJQKOtCizSgHcIfYlWgWgReJAb_jRuxFfW2ww,2579
+pyphm-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyphm-0.0.5.dist-info/top_level.txt,sha256=uIqC-EuqA4hFJpr2io0Qr4GDQVOvKhvPRpOnUkmOW-A,6
+pyphm-0.0.5.dist-info/RECORD,,
