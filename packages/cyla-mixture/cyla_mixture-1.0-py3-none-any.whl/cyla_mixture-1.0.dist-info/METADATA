@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cyla-mixture
+Version: 1.0
+Summary: Replaces some Cyrillic letters with similar Latin ones.
+Home-page: https://github.com/Hattiffnat/cyla_mixture.git
+Author: hattiffnat
+Author-email: sereyfeam@gmail.com
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt5
+
+file: README.md
+
