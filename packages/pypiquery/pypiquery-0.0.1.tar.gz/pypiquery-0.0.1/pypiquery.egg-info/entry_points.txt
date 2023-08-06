@@ -1,0 +1,3 @@
+[console_scripts]
+ppq = pypiquery:main
+pypiquery = pypiquery:main

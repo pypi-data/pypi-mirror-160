@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pypiquery.py
+setup.cfg
+setup.py
+pypiquery.egg-info/PKG-INFO
+pypiquery.egg-info/SOURCES.txt
+pypiquery.egg-info/dependency_links.txt
+pypiquery.egg-info/entry_points.txt
+pypiquery.egg-info/requires.txt
+pypiquery.egg-info/top_level.txt
