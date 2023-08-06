@@ -1,0 +1,14 @@
+SparkStream/VERSION,sha256=IGYgplfxzMivcrhm_c7yDmQcSPOc4n8zjOgxOUnGPlM,5
+SparkStream/__init__.py,sha256=DZfTx6-YQSTn9U-6YlVQDMiaZhQ6eK_86g3fESSRaj0,614
+SparkStream/streamer.py,sha256=WFLMG1u_TBoPd3hgH_n8c1tYym4QOf7ENXDRHwDRJtQ,4971
+SparkStream/utils.py,sha256=dU1r4Gijd_EedC2yv1OWZtvwXROM16VxoGHkxKK5PD4,539
+SparkStream/Config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SparkStream/Config/logging_config.py,sha256=xpS7m-aQnApqwAqgqMIw6Bn6CVhiEgCRKkiYfs0k5HE,1000
+SparkStream/Text/__init__.py,sha256=BKtX207kEZQ7_npj2XtqoDtqdAALJshHxe6fr5MfprY,86
+SparkStream/Text/text_analyzer.py,sha256=1hY8jSlSxmVo3N144UrTnPz-EEfKAYd7ojDFaS0B0mE,652
+SparkStream/Text/text_cleaner.py,sha256=kp3FgB34Mf87lIwfartIK0UiVzn7URiBgc6XjObLfSI,5893
+SparkStream-1.2.1.dist-info/LICENSE,sha256=HUAEiUMAOO9bQ6MD9lN8lzkWtTy8gHgrBPi2Q-sGMKM,1079
+SparkStream-1.2.1.dist-info/METADATA,sha256=J8DPJx3lDz69p6gQTTh2cSNpa3enEmd4okmaOPyEaz4,818
+SparkStream-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SparkStream-1.2.1.dist-info/top_level.txt,sha256=knZEDRU2TvK1kh_PApzbYPozLW_-4iVlPM4EgGo5dyY,12
+SparkStream-1.2.1.dist-info/RECORD,,
