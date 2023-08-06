@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+waghamdb/__init__.py
+waghamdb/exceptions.py
+waghamdb/pipelines.py
+waghamdb.egg-info/PKG-INFO
+waghamdb.egg-info/SOURCES.txt
+waghamdb.egg-info/dependency_links.txt
+waghamdb.egg-info/top_level.txt
