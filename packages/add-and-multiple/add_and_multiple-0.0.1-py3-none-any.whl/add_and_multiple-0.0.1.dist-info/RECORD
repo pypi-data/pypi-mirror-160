@@ -1,0 +1,8 @@
+src/add_and_multiple/__init__.py,sha256=-ohOd9GgfmnJ9CRDeKqte_Uqkj4Zt3G0U0VovpHzpww,55
+src/add_and_multiple/add_multiple.py,sha256=keceGmIfdtclvtCsCKMcTiHfSMvAa-anJBbNUHpLY-c,123
+test/add.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/multiple.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+add_and_multiple-0.0.1.dist-info/METADATA,sha256=J5u7rWL4Nb3WDekEnoK7YoEvF7b6jo_ikJo4Eisvm4Q,297
+add_and_multiple-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+add_and_multiple-0.0.1.dist-info/top_level.txt,sha256=ko5Zp-GH1-aCqmTB-_pzAfcKWZ9D29cRgzo8EmAy2_k,9
+add_and_multiple-0.0.1.dist-info/RECORD,,
