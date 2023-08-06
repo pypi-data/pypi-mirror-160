@@ -1,0 +1,3 @@
+[console_scripts]
+certbot-aws-store=certbot_aws_store.cli:cli_entrypoint
+
