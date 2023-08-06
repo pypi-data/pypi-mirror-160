@@ -1,0 +1,5 @@
+{
+ "nomenclature1": ["saprotroph", "biotroph", "hemibiotroph", "necrotroph", "symbiont"],
+ "nomenclature2": ["saprotroph", "monomertroph", "mesotroph", "polymertroph", "vasculartroph"],
+ "nomenclature3": ["saprotroph", "monomertroph1", "monomertroph2", "monomertroph3", "mesotroph_intracellular", "mesotroph_extracellular", "polymertroph_narrow", "polymertroph_broad", "vasculartroph"]
+}
