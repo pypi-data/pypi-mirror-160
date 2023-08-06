@@ -1,0 +1,3 @@
+[console_scripts]
+anitui=anitui.__init__:main
+
