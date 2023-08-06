@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: oarepo-vocabularies-model-builder
+Version: 0.0.5
+Summary: "An extension to the invenio module for managing hierarchical vocabularies. Model builder extension."
+Home-page: https://github.com/oarepo/oarepo-vocabularies
+Author: techlib.cz
+Author-email: miroslav.simek@gmail.com
+License: MIT
+Keywords: invenio vocabulary management
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+Provides-Extra: tests
+Provides-Extra: elasticsearch6
+Provides-Extra: elasticsearch7
+Provides-Extra: mysql
+Provides-Extra: postgresql
+Provides-Extra: sqlite
+
+..
+    Copyright (C) 2022 techlib.cz .
+
+    OARepo-Vocabularies is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+
+======================
+ OARepo-Vocabularies
+======================
+
+An extension to `invenio-vocabularies` that adds
+hierarchy to vocabulary records. It consists of three packages:
+
+1. `oarepo-vocabularies` - supporting libraries
+2. `oarepo-vocabularies-basic` - a generated vocabulary implementation
+   roughly equivalent to the basic invenio-vocabularies record
+3. `oarepo-vocabularies-model-builder` - an extension to oarepo
+   model builder to easily use vocabularies in your own metadata model
+
+TODO
+====
+
+Document this.
