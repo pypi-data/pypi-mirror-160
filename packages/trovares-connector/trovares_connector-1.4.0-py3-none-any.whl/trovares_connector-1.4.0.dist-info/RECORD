@@ -1,0 +1,9 @@
+trovares_connector/__init__.py,sha256=2DLdAIEBMn-3EAArEO6J_mk2BuxlKuam_ibR8rGIuP8,1081
+trovares_connector/common.py,sha256=l1mfgG8iDxWXeG3P7GRWuoiM4CQJm55M4CIOGLBv1wQ,3825
+trovares_connector/odbc.py,sha256=AhJCoIq7vbfNcRbPz9zD4Xzc_unxVfS6bozAqdyscmI,22037
+trovares_connector/trovares_connector.py,sha256=tUYMaJLcjSZZGphkkUji0T5jNWYY3N6nUkeByi5zIWc,66045
+trovares_connector-1.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+trovares_connector-1.4.0.dist-info/METADATA,sha256=NVO5m0vskB0WtntyQt_pDxX0XJpOvQGxlKoPxFjm0MA,4754
+trovares_connector-1.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+trovares_connector-1.4.0.dist-info/top_level.txt,sha256=oA0HtAKFnTqDrwEdvXT6KQxdZ6s0pbxM0cB0h-LZTDY,19
+trovares_connector-1.4.0.dist-info/RECORD,,
