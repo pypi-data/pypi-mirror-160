@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Gitlog.egg-info/PKG-INFO
+Gitlog.egg-info/SOURCES.txt
+Gitlog.egg-info/dependency_links.txt
+Gitlog.egg-info/not-zip-safe
+Gitlog.egg-info/top_level.txt
+gitlog/__init__.py
+gitlog/follow.py
+gitlog/lld.py
+gitlog/profile.py
+gitlog/repo.py
+gitlog/urls.py
+gitlog/user.py
