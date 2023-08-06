@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: xshl-target
+Version: 0.1.0
+Summary: Python Library for XSHL Targets
+Home-page: https://github.com/mcode-cc/py-xshl-target
+Author: MCode GmbH
+Author-email: python@xshl.org
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/mcode-cc/py-xshl-target/issues
+Keywords: yandex cloud monitoring trace
+Platform: Any
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Communications
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py-xshl-target
