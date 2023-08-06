@@ -1,0 +1,6 @@
+fsspec
+numpy
+pandas
+rioxarray
+xarray>=0.18.0
+xmlschema
