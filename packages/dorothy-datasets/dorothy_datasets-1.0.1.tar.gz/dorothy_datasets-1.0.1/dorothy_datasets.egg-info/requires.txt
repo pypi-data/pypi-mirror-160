@@ -1,0 +1,7 @@
+numpy
+pandas
+future
+tqdm
+sklearn
+colorama
+hashlib
