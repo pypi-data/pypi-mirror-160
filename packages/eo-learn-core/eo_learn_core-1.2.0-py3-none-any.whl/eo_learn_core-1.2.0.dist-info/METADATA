@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: eo-learn-core
+Version: 1.2.0
+Summary: Core Machine Learning Framework at Sinergise
+Home-page: https://github.com/sentinel-hub/eo-learn
+Author: Sinergise EO research team
+Author-email: eoresearch@sinergise.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs (>=19.2.0)
+Requires-Dist: boto3
+Requires-Dist: fs
+Requires-Dist: fs-s3fs
+Requires-Dist: geopandas (>=0.8.1)
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: python-dateutil
+Requires-Dist: sentinelhub (>=3.4.4)
+Requires-Dist: tqdm (>=4.27)
+Requires-Dist: typing-extensions ; python_version < "3.8"
+Provides-Extra: ray
+Requires-Dist: ray[default] ; extra == 'ray'
+
+# eolearn.core subpackage
+
+The main subpackage which implements basic building blocks (EOPatch, EOTask and EOWorkflow) and commonly used functionalities.
+
+For more information on the package content, visit [readthedocs](https://eo-learn.readthedocs.io/en/latest/eolearn.core.html).
+
+
