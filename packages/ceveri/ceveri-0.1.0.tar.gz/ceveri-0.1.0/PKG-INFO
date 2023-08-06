@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ceveri
+Version: 0.1.0
+Summary: Google Cloud API ile veri yerelleştirmesi amacıyla çeviri işlemleri gerçekleştiren bir kütüphane.
+Home-page: https://ceveri-package.readthedocs.io
+Author: Arda Uzunoğlu
+Author-email: ardauzunogluarda@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: Turkish
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing
+License-File: LICENSE.txt
+
+CeVeri is a library that aims to translate text-based data collected mainly in western languages â€‹â€‹into under-resourced languages â€‹â€‹via the Google Translate API, thus preventing the sloping distribution that occurs in natural language processing studies in under-resourced languages.
+
+Change Log
+==========
+
+0.1.0 (25/07/2022)
+------------------
+- First release.
+- Trial version.
+- Supports .xlsx, .json, and .txt files.
+
