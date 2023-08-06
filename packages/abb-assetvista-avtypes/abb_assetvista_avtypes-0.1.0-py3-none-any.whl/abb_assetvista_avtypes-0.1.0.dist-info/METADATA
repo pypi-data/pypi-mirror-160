@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: abb-assetvista-avtypes
+Version: 0.1.0
+Summary: Package defining the classes and methods required for using the ABB AssetVista library on the Genix Streaming Calculation Engine.
+Author: Tiago Prata
+Author-email: tiago.prata@br.abb.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Requires-Dist: pint
+
+UNKNOWN
+
