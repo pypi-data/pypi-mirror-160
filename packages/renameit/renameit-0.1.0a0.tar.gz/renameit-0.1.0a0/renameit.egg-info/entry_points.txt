@@ -1,0 +1,2 @@
+[console_scripts]
+renameit = renameit.core.cli:main

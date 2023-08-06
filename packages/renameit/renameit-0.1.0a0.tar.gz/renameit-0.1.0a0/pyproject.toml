@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=62"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
+
+[[tool.mypy.overrides]]
+module = [
+    "confight.*",
+    "fire.*",
+    "boto3.*",
+    "google.*"
+]
+ignore_missing_imports = true

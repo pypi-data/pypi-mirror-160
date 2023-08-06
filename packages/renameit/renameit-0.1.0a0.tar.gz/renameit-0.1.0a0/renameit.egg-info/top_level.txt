@@ -1,0 +1,5 @@
+dist
+docs
+renameit
+scripts
+tests
