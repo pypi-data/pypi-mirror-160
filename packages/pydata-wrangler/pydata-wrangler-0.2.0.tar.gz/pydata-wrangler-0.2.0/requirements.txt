@@ -1,0 +1,12 @@
+scikit-learn
+importlib-metadata
+pandas
+scipy
+numpy
+requests
+six
+setuptools
+tqdm
+configparser
+dill
+Pillow
