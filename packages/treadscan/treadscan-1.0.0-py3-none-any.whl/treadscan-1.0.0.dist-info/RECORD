@@ -1,0 +1,10 @@
+treadscan/__init__.py,sha256=Srg7JNr3SE3dzkqFTkksSHzNohMp4R5Veg_NwmTiiAM,99
+treadscan/detector.py,sha256=CqxRZWPGkdLpWkfKm2Ag1OTypqePZxIHRtkCfaVEtuM,28356
+treadscan/extractor.py,sha256=cNtZqNNjbvvbUzimALVceXSNKzfdaDcdS6t-x4neNAk,15843
+treadscan/segmentor.py,sha256=vDpAEXrGns15xLapNIDPKRQ6DoApycilTIRAqghQ34g,16620
+treadscan/utilities.py,sha256=nFdY4tyr6m6fEGwdD9zJAI_LbDNezIkRPAk8w9GSrOA,20307
+treadscan-1.0.0.dist-info/LICENSE,sha256=rhQJ1wfH38cJGAJi-MYVSXqxgoMF10TdbVRwnlgHgN4,1072
+treadscan-1.0.0.dist-info/METADATA,sha256=UD4blzVrL0BUM8u97X96R4ZvkraT6oHu7RJpakzKXCA,5391
+treadscan-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+treadscan-1.0.0.dist-info/top_level.txt,sha256=xwVqJ5BzyIX3DsH2tLU6cQUzFeSl57zKZst_uO86900,10
+treadscan-1.0.0.dist-info/RECORD,,
