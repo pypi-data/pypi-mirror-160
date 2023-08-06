@@ -1,0 +1,10 @@
+postgresql/__init__.py,sha256=gwW5PyCpBAf8wVElsNfYUtCT5MF_gvVxu8qg5vpSEj0,292
+postgresql/dbmanager.py,sha256=FOyYZZkmEIXghK-R4sz6K_uVZWn-SC40kUaYnPT7p7E,2325
+postgresql/ephemeralpostgresqldbcontext.py,sha256=5670DMfYrkwtpec_6Lw6Bu56d7WBboBr1nHeWnY1pgM,3238
+postgresql/ephemeralpostgresqldbcontextbuilder.py,sha256=ZVrIshU0sXvewznmyce4cGeZoOzuD5TtIvv2VZ5APE8,931
+postgresql/filesmanager.py,sha256=e0TK4CnBXv7AzMahnGnV2JmoJl5nC5UN1Njsrd3RTPc,351
+ephemerals_postgresql-1.0.0.dist-info/LICENSE.md,sha256=E_lu6c5aNng5iuSGfitbqNBekMqymTUq3bR5W0RmBlo,1074
+ephemerals_postgresql-1.0.0.dist-info/METADATA,sha256=jOdYpjDvuDQA5DaxM3mYX3UiTFjE6h8Gz8_VJN-quMo,744
+ephemerals_postgresql-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ephemerals_postgresql-1.0.0.dist-info/top_level.txt,sha256=s_9RON2sNE8U56LnTrVuesKoADmtZVnJZmip-UFkEbA,11
+ephemerals_postgresql-1.0.0.dist-info/RECORD,,

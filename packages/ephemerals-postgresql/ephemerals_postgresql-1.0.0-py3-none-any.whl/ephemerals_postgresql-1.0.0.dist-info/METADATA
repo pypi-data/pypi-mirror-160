@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ephemerals-postgresql
+Version: 1.0.0
+Summary: Ephemeral PostgreSQL Server Database Context Helper.
+Home-page: https://github.com/paranoid-software/ephemerals.py/tree/main/postgresql
+Author: Paranoid Software
+Author-email: info@paranoid.software
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: psycopg2 (>=2.9.3)
+
+# Ephemeral PostgreSQL Database Context
+
+Ephemeral database context for PostgreSQL, it can be used to code integration tests with a fairly isolated database environment.
+
+
