@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: prefect-azure
+Version: 0.2.0
+Summary: Prefect tasks and subflows for interacting with Azure
+Home-page: https://github.com/PrefectHQ/prefect-azure
+Author: Prefect Technologies, Inc.
+Author-email: help@prefect.io
+License: Apache License 2.0
+Keywords: prefect
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prefect (>=2.0b9)
+Provides-Extra: all_extras
+Requires-Dist: azure-cosmos ; extra == 'all_extras'
+Requires-Dist: azure-storage-blob ; extra == 'all_extras'
+Requires-Dist: azureml-core ; extra == 'all_extras'
+Provides-Extra: blob_storage
+Requires-Dist: azure-storage-blob ; extra == 'blob_storage'
+Provides-Extra: cosmos_db
+Requires-Dist: azure-cosmos ; extra == 'cosmos_db'
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: mkdocs ; extra == 'dev'
+Requires-Dist: mkdocs-material ; extra == 'dev'
+Requires-Dist: mkdocstrings[python] ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: mkdocs-gen-files ; extra == 'dev'
+Requires-Dist: interrogate ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: aiohttp ; extra == 'dev'
+Requires-Dist: azure-cosmos ; extra == 'dev'
+Requires-Dist: azure-storage-blob ; extra == 'dev'
+Requires-Dist: azureml-core ; extra == 'dev'
+Requires-Dist: mock ; (python_version < "3.8") and extra == 'dev'
+Provides-Extra: ml_datastore
+Requires-Dist: azureml-core ; extra == 'ml_datastore'
+
+# prefect-azure
+
+## Welcome!
+
+prefect-azure is a collection of prebuilt Prefect tasks that can be used to quickly construct Prefect flows.
+
+## Getting Started
+
+### Python setup
+
+Requires an installation of Python 3.7+
+
+We recommend using a Python virtual environment manager such as pipenv, conda or virtualenv.
+
+These tasks are designed to work with Prefect 2.0. For more information about how to use Prefect, please refer to the [Prefect documentation](https://orion-docs.prefect.io/).
+
+### Installation
+
+Install `prefect-azure` with `pip`
+
+```bash
+pip install prefect-azure
+```
+
+To use Blob Storage:
+```bash
+pip install "prefect-azure[blob_storage]"
+```
+
+To use Cosmos DB:
+```bash
+pip install "prefect-azure[cosmos_db]"
+```
+
+To use ML Datastore:
+```bash
+pip install "prefect-azure[ml_datastore]"
+```
+
+
+### Write and run a flow
+
+```python
+from prefect import flow
+
+from prefect_azure import AzureBlobStorageCredentials
+from prefect_azure.blob_storage import blob_storage_download
+
+@flow
+def example_blob_storage_download_flow():
+    connection_string = "connection_string"
+    blob_storage_credentials = AzureBlobStorageCredentials(
+        connection_string=connection_string,
+    )
+    data = blob_storage_download(
+        blob="prefect.txt",
+        container="prefect",
+        azure_credentials=blob_storage_credentials,
+    )
+    return data
+
+example_blob_storage_download_flow()
+```
+
+## Resources
+
+If you encounter and bugs while using `prefect-azure`, feel free to open an issue in the [prefect-azure](https://github.com/PrefectHQ/prefect-azure) repository.
+
+If you have any questions or issues while using `prefect-azure`, you can find help in either the [Prefect Discourse forum](https://discourse.prefect.io/) or the [Prefect Slack community](https://prefect.io/slack)
+
+## Development
+
+If you'd like to install a version of `prefect-azure` for development, clone the repository and perform an editable install with `pip`:
+
+```bash
+git clone https://github.com/PrefectHQ/prefect-azure.git
+
+cd prefect-azure/
+
+pip install -e ".[dev]"
+
+# Install linting pre-commit hooks
+pre-commit install
+```
