@@ -1,0 +1,10 @@
+pyomniunwarp/__init__.py,sha256=NFWItuXfC_BuNGAVjr2TV2khB7_oDhBzQYlFq4Rf4bQ,20
+pyomniunwarp/example.py,sha256=knwfytQUytKluDh5jiK_GX5AWasA9d1deaQmCofSvO0,2414
+pyomniunwarp/remap.py,sha256=4jkERFxAMBDi-pbvsS4aThi5_kn_wS54-EltxigAZ44,16754
+pyomniunwarp/data/calib_results.txt,sha256=b0kZgjJJGSVuXTFX5G29nVW5S14s0Ykt7XHfvMZHIOQ,614
+pyomniunwarp/data/example.jpg,sha256=EJIyzpMCpYh5W8XNW_RSOeIeMYBAxg0Nolb9feM1YSw,174262
+pyomniunwarp-0.2.0.dist-info/LICENSE,sha256=Sz3qOCZO21I7cZtkugjXuE9J6WuDpfxkV7StFfNNyX4,1051
+pyomniunwarp-0.2.0.dist-info/METADATA,sha256=O0PzVanFvTd0-edxjUauoNwj72ruC-YQ48WRyF0OVXQ,2054
+pyomniunwarp-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pyomniunwarp-0.2.0.dist-info/top_level.txt,sha256=dFIqDh3RSw1Wep70CUMbrmgNVtP-tb0Of5RXRq1cqG0,13
+pyomniunwarp-0.2.0.dist-info/RECORD,,
