@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: playbacker
+Version: 0.1.0
+Summary: Live music performance playback
+License: MIT
+Author: Lev Vereshchagin
+Author-email: mail@vrslev.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: SoundFile (==0.10.3-post1)
+Requires-Dist: inquirer (==2.9.2)
+Requires-Dist: numpy (==1.23.1)
+Requires-Dist: pydantic (==1.9.1)
+Requires-Dist: sounddevice (==0.4.4)
+Requires-Dist: soxr (==0.3.0)
+Requires-Dist: textual (==0.1.18)
+Requires-Dist: textual-inputs (==0.2.6)
+Requires-Dist: typer (==0.6.1)
+Requires-Dist: uvloop (==0.16.0)
+Description-Content-Type: text/markdown
+
+# Playbacker
+
+<img src="img/tui.png">
+
+TUI application for managing playback on live music performances (metronome, cues and backing tracks).
+
+## Rational
+
+Usually people use Ableton Live, Logic Pro or any other DAW for performances. I had issues with this kind of setup: too big, clumsy and require a lot of time.
+There's [MultiTracks' Playback](https://www.multitracks.com/products/playback/), but you have to pay a subscription to get important functionality. Also, it doesn't seem that robust.
+
+## Solution
+
+Make my own app! 😃
+
+- Works only on macOS (with minimal effort can be adapted for Linux or Windows)
+- Configurable channel map
+- Storage management based on simple yaml files
+- Fully customizable: can be used as library to make your own frontend, tracks or whatever
+
+## Installation
+
+```sh
+pip install playbacker
+```
+
+Or better of with pipx:
+
+```sh
+pipx install playbacker
+```
+
+## Usage
+
+- Setup configuration and storage files (example is in /example directory)
+- Run `playbacker <PRETTY DEVICE NAME FROM CONFIG>`, for example, `playbacker default`
+
