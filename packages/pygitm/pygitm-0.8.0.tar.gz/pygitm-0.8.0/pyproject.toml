@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "pygitm"
+version = "0.8.0"
+description = "A git library written in Python"
+authors = ["Alexis Beaulieu <alexisbeaulieu97@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/alexisbeaulieu97/pygitm"
+repository = "https://github.com/alexisbeaulieu97/pygitm"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytcm = "^0.5.6"
+
+[tool.poetry.dev-dependencies]
+python-semantic-release = "^7.29.1"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.urls]
+"Changelog" = "https://github.com/alexisbeaulieu97/pytcm/blob/main/CHANGELOG.md"
+
+[tool.semantic_release]
+version_variable = [
+    "pygitm/__init__.py:__version__",
+]
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
+version_pattern = [
+    "VERSION:{version}"
+]
+branch = "main"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
