@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyreparse"
+version = "0.0.3"
+authors = [
+  { name="dsidlo", email="dsidlo@gmail.com" },
+]
+description = "Build Efficient RegExp Parsing Engines."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Text Processing",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dsidlo/pyreparse"
+"Bug Tracker" = "https://github.com/dsidlo/pyreparse/issues"
+
