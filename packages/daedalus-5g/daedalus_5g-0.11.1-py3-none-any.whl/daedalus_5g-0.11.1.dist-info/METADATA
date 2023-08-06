@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: daedalus-5g
+Version: 0.11.1
+Summary: A tool for creating 4G/5G environments both with SDRs and virtual simulation to run experiments in
+Author-email: cglewis <clewis@iqt.org>
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: docker (==5.0.3)
+Requires-Dist: docker-compose (==1.29.2)
+Requires-Dist: dovesnap (==1.1.1)
+Requires-Dist: plumbum (==1.7.2)
+Requires-Dist: inquirer (==2.9.2)
+Provides-Extra: confuser
+Requires-Dist: fusepy ; extra == 'confuser'
+Provides-Extra: generate_fs
+Requires-Dist: essential-generators ; extra == 'generate_fs'
+Requires-Dist: numpy ; extra == 'generate_fs'
+Provides-Extra: test
+Requires-Dist: attrs (==21.4.0) ; extra == 'test'
+Requires-Dist: codecov (==2.1.12) ; extra == 'test'
+Requires-Dist: pylint (==2.14.4) ; extra == 'test'
+Requires-Dist: pytype (==2022.6.30) ; extra == 'test'
+Requires-Dist: pytest (==7.1.2) ; extra == 'test'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'test'
+Requires-Dist: ruamel.yaml (==0.17.21) ; extra == 'test'
+
+# Blue Team
+The following directory has a series of tools that are used for defending and building out environments for running scenarios in.
+
+# 4G/5G Environment Creation Tool
+
+## Dependencies
+- Linux with a recent kernel
+- Docker
+- python3 and pip3
+- uhd-host (`sudo apt-get install -y uhd-host`)
+
+## Installation
+The main tool in this directory is called `daedalus` and can be installed with easily with pip:
+
+```
+pip3 install daedalus-5g
+```
+
+or locally:
+
+```
+git clone https://github.com/IQTLabs/Daedalus
+cd Daedalus/blue
+sudo python3 setup.py install
+```
+
+Once installed, you can simply execute `daedalus` and you will be prompted for the 4G/5G environments you'd like it to create.
+
+** Note **
+```
+AMD64 CPUs must support SSE4.1, AVX, AVX2, and FMA. If you don't have those, you can alternatively try starting daedalus with -b which will build the images locally and might work.
+
+ARM64 CPUs don't have those requirements, but you will need g++ when pip installing for grpc.
+```
