@@ -1,0 +1,10 @@
+animegifs/__init__.py,sha256=ubnoNS_WPdEn1Kcz1MLv7hiUH5OWMWqVgYjg_SG2FMU,42
+animegifs/animegifs.py,sha256=tCNCH6cTWkcfpEu_AoDbPAyKGG100thDY3gropkAljk,2847
+animegifs/dis_utils/__init__.py,sha256=ljeacAgraZKhCnvJ_lHW2H3O-lzNBmO4dIpf6_EVIXc,40
+animegifs/dis_utils/gifs.py,sha256=BaBmI1j_lK3imnqDu-gvHvWrUHmDNRak2TZnAz5siok,596
+animegifs/dis_utils/infoes.py,sha256=bXJOZR3iFCir7IVK9KiDG95OxN1o5c8tZ_loi1HNCdE,6
+animegifs-0.3.3.dist-info/LICENSE,sha256=jcdnolbyX3S_yiegvaBZ-WT7mL_iOe2ASPds6UgBYqA,1086
+animegifs-0.3.3.dist-info/METADATA,sha256=pnG4WR7FsJjZceaGZdQsov1Q1OiAdMshtgz4kbhynAA,1020
+animegifs-0.3.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+animegifs-0.3.3.dist-info/top_level.txt,sha256=ie8USECDUUOz2YkAqNSzqvsDMe5zMXBerzuoL17x1YI,10
+animegifs-0.3.3.dist-info/RECORD,,
