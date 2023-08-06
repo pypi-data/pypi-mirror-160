@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+py2sterimol/__init__.py
+py2sterimol/py2sterimol.py
+py2sterimol.egg-info/PKG-INFO
+py2sterimol.egg-info/SOURCES.txt
+py2sterimol.egg-info/dependency_links.txt
+py2sterimol.egg-info/top_level.txt
+test/__init__.py
+test/test_py2sterimol.py
