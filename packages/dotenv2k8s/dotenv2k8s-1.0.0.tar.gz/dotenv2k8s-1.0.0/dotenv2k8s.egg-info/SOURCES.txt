@@ -1,0 +1,11 @@
+README.md
+README.rst
+setup.py
+bin/dotenv2k8s
+dotenv2k8s/__init__.py
+dotenv2k8s/main.py
+dotenv2k8s.egg-info/PKG-INFO
+dotenv2k8s.egg-info/SOURCES.txt
+dotenv2k8s.egg-info/dependency_links.txt
+dotenv2k8s.egg-info/requires.txt
+dotenv2k8s.egg-info/top_level.txt
