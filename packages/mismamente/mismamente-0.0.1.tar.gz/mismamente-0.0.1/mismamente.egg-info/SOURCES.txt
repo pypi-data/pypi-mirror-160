@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+mismamente/__init__.py
+mismamente/__main__.py
+mismamente/workshops.py
+mismamente.egg-info/PKG-INFO
+mismamente.egg-info/SOURCES.txt
+mismamente.egg-info/dependency_links.txt
+mismamente.egg-info/requires.txt
+mismamente.egg-info/top_level.txt
