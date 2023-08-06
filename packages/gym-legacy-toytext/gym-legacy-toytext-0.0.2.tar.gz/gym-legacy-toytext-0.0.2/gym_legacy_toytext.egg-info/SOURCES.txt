@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+gym_legacy_toytext.egg-info/PKG-INFO
+gym_legacy_toytext.egg-info/SOURCES.txt
+gym_legacy_toytext.egg-info/dependency_links.txt
+gym_legacy_toytext.egg-info/requires.txt
+gym_legacy_toytext.egg-info/top_level.txt
+gym_toytext/__init__.py
+gym_toytext/guessing_game.py
+gym_toytext/hotter_colder.py
+gym_toytext/kellycoinflip.py
+gym_toytext/nchain.py
+gym_toytext/roulette.py
