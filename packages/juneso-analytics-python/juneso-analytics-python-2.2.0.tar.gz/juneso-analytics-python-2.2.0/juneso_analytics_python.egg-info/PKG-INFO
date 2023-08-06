@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: juneso-analytics-python
+Version: 2.2.0
+Summary: The hassle-free way to integrate analytics into any python application.
+Home-page: https://github.com/juneHQ/analytics-python
+Author: June
+Author-email: work@june.so
+Maintainer: June
+Maintainer-email: work@june.so
+License: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.0
+Provides-Extra: test
+License-File: LICENSE
+
+
+June SDK is the simplest way to integrate analytics into your application.
+
+Documentation and more details at https://www.june.so/docs/python

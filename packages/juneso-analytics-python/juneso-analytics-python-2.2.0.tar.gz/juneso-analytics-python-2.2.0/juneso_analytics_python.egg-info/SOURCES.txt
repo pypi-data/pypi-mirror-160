@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+analytics/test/client.py
+june/analytics/__init__.py
+june/analytics/client.py
+june/analytics/consumer.py
+june/analytics/request.py
+june/analytics/utils.py
+june/analytics/version.py
+juneso_analytics_python.egg-info/PKG-INFO
+juneso_analytics_python.egg-info/SOURCES.txt
+juneso_analytics_python.egg-info/dependency_links.txt
+juneso_analytics_python.egg-info/requires.txt
+juneso_analytics_python.egg-info/top_level.txt
