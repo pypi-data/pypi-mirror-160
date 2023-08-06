@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+jsontreeview/__init__.py
+jsontreeview/treeviewer.py
+jsontreeview.egg-info/PKG-INFO
+jsontreeview.egg-info/SOURCES.txt
+jsontreeview.egg-info/dependency_links.txt
+jsontreeview.egg-info/top_level.txt
