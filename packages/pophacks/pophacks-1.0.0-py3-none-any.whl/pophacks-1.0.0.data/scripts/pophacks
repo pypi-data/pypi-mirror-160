@@ -1,0 +1,65 @@
+#!python
+import argparse
+import sys
+import time
+
+# import os
+# sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+
+
+# TODO: Implement Logging Mechanisms
+
+
+DESCRIPTION = "A collection of fun hacks on popular culture"
+
+
+def _monkeytype(args: argparse.Namespace):
+    """MonkeyType subparser runner method"""
+
+    from selenium.webdriver import Chrome, Safari, Firefox, Edge, Ie
+    import pophacks.monkeytype
+
+    drivers = {
+        "chrome": Chrome,
+        "safari": Safari,
+        "firefox": Firefox,
+        "edge": Edge,
+        "ie": Ie,
+    }
+
+    with pophacks.monkeytype.MonkeyType(drivers.get(args.driver)()) as f:
+        try:
+            if args.timer is not None:
+                f.timerset(args.timer)
+
+            f.speedtype(args.wpm)
+
+            print("releasing..", flush=1)
+            time.sleep(10)
+
+        finally:
+            f.driver.close()
+            f.driver.quit()
+
+def main(argv: list = sys.argv[1:]):
+    ap = argparse.ArgumentParser(description="Command line tool for pophacks")
+    ap.set_defaults(_callback_method=lambda *args: print(DESCRIPTION))
+
+    ## catalogues
+    subp = ap.add_subparsers()
+
+    # c. monkeytype
+    mt = subp.add_parser("monkeytype", help="MonkeyType hack tool")
+    mt.add_argument('-w', "--wpm", type=int, default=100)
+    mt.add_argument('-t', "--timer", type=int, default=None, choices=(1, 2, 3, 4))
+    mt.add_argument('-d', "--driver", type=str, default="chrome", choices=("chrome", "safari", "edge", "firefox", "ie"))
+
+    mt.set_defaults(_callback_method=_monkeytype)
+
+    ## parse
+    args = ap.parse_args(argv)
+    args._callback_method(args)
+
+
+if __name__ == '__main__':
+    main()
