@@ -1,0 +1,14 @@
+byteplug_document-0.1-nspkg.pth,sha256=flQde6uNzXw-XakKI44FzUgNxZ7Vy4T-6yU9inBsa18,549
+byteplug/document/__init__.py,sha256=UEJvN5RALp_I4RESvOH9yKdtb-7xwEYxpignYuIucsU,622
+byteplug/document/document.py,sha256=z4xUTuSxyLMXDwGlZ-FuQR2gg7WZE2XBYcKwh9Khr84,10737
+byteplug/document/exception.py,sha256=Z_FGRYGgj19yap4ExClzOa9GT6kngjfCfuPObp86c2Q,603
+byteplug/document/object.py,sha256=rgtnxuy0rS8hx_W90MIiQ0gKwB1y81sPqDpu5G-7wZA,10640
+byteplug/document/specs.py,sha256=_nUSBQSlkYNiyg-yPn06mhnf-mV4WPpuWnSHltKjNtM,12922
+byteplug/document/types.py,sha256=7gMjPiu9QJ2334I68crRtIfI4BNkyGkg2_JEHXNTWzo,6142
+byteplug/document/utils.py,sha256=D3nQovl8AYQ1P8xQu1JjKdA9q7HdXGK9GPtj2SJc-g4,1083
+byteplug_document-0.1.dist-info/LICENSE.txt,sha256=XDG0TrhEhz_FLwSIu5YHjcETB5ehKBp5Yr-kfBJxiHY,10238
+byteplug_document-0.1.dist-info/METADATA,sha256=I_mlmc46ceeUkVg0Z-4ZO_4Ob99ND4_IQDmWV73rpJI,462
+byteplug_document-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+byteplug_document-0.1.dist-info/namespace_packages.txt,sha256=4RrdCWmCUIuw1tZMTlQV5Zunnmz2zAyByC3IBJ1BM9U,9
+byteplug_document-0.1.dist-info/top_level.txt,sha256=4RrdCWmCUIuw1tZMTlQV5Zunnmz2zAyByC3IBJ1BM9U,9
+byteplug_document-0.1.dist-info/RECORD,,
