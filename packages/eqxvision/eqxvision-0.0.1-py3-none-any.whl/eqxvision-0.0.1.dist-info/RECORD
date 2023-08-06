@@ -1,0 +1,12 @@
+eqxvision/__init__.py,sha256=QYQzLWgwqWbtIYeMwNntABNxCkHxawbMPum8bGa03vE,90
+eqxvision/layers/__init__.py,sha256=DkfIfGI54wPlILdMpOgfHn2ZiRUD3Fz9pywhJCFWNT8,30
+eqxvision/layers/activations.py,sha256=EucfbEngImu9ZeGiHue9aIADZDHwgqM-OHbQmOXTDhc,602
+eqxvision/models/__init__.py,sha256=l4yJ7Sx8X_r6csU8xrKv-JTBwbq_1C-nRU9vg0TgSNc,29
+eqxvision/models/classification/__init__.py,sha256=bKAytcy0Q5uvHVDEb8SVC0HoDy97L7po4-qnC9equpU,230
+eqxvision/models/classification/alexnet.py,sha256=w4zJ5uzSUzhvM2yxb70ApNoEQcjbe2RxhHLml2mKfi0,3103
+eqxvision/models/classification/resnet.py,sha256=p1TRw4IvEIbNukz48QREqR3al3eFA5IN5191SgyLTeY,14161
+eqxvision-0.0.1.dist-info/entry_points.txt,sha256=99PqwB_F2nQsopaLTgI46VZFqJaRlEy4V9cZqeGhPCI,34
+eqxvision-0.0.1.dist-info/LICENSE,sha256=kVUuu2CXaGRAt9Q5jBOW2RwqNr1LZ8EfPOwXvtbvQWw,1076
+eqxvision-0.0.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+eqxvision-0.0.1.dist-info/METADATA,sha256=qssMJUQDOG28aWzkbzzXVBN0hDI6NSUgZNhWMS7Jmcw,3097
+eqxvision-0.0.1.dist-info/RECORD,,
