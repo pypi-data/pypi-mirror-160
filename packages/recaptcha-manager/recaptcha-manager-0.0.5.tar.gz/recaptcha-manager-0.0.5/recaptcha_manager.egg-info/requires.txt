@@ -1,0 +1,4 @@
+
+[:platform_system == "Windows"]
+requests-futures>=1.0.0
+multiprocess
