@@ -1,0 +1,11 @@
+sphinxcontrib_opendataservices_jsonschema-0.5.0-nspkg.pth,sha256=bvCbvTDhKUCTNtrCbu6HVe8TsYC4G4-hRkXeHdEJ6t4,574
+sphinxcontrib/jsonschema.py,sha256=4qaiYGrY8Xa_oNMqAAJUbxaqpHmGFuAfXusXDv7UZ84,19093
+tests/__init__.py,sha256=cYJSTxRjhogweP0JuwKCEY8xiuVW221t6exPQtsAoz8,121
+tests/test_directive.py,sha256=GL0Yuwgr1ztFHB6_jAVQtvKPGWe_pDuC4QNGD35VdfY,2766
+tests/test_jsonschema.py,sha256=WGsG6BLlFMj1zG4ZXuQWTURCgrW9iqfgjIoOI3gF_sU,16201
+sphinxcontrib_opendataservices_jsonschema-0.5.0.dist-info/LICENSE,sha256=hmE-_jfFvI90hbgtxSZYW9t5smTEbOMvTbyM-TJ7dkw,1418
+sphinxcontrib_opendataservices_jsonschema-0.5.0.dist-info/METADATA,sha256=u9Chguwm5lqbDBYbvIjF2qSwaE7XNmWgU4jgw7aCYgo,2334
+sphinxcontrib_opendataservices_jsonschema-0.5.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+sphinxcontrib_opendataservices_jsonschema-0.5.0.dist-info/namespace_packages.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_opendataservices_jsonschema-0.5.0.dist-info/top_level.txt,sha256=takF8yTwXcZOz9PPIyDUWCnRMNf00TOUwPtnoaTBDvs,20
+sphinxcontrib_opendataservices_jsonschema-0.5.0.dist-info/RECORD,,
