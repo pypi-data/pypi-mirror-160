@@ -1,0 +1,16 @@
+hdcms.cpython-39-darwin.so,sha256=uxgvLAXpL0_KHuIOIeG7wOIwRjQyqqqmnbjztuJqMWE,73207
+hdcms/examples/main.py,sha256=_JozLtItPGSRUgxL6CjoBcR8oHQ3G-hEh_ewS5AvroY,500
+hdcms/src/fixwindows.h,sha256=zDDE1vEPVf_ZVtAyx4uvOTP31ilN3hAg_RXyU4urGnA,882
+hdcms/src/main.c,sha256=EE1DlhmcejO_lBzwHXzMC_pUw-q3H2ikPui91KM9I8M,9807
+hdcms/src/main.h,sha256=IRhIeyCHWKRewJPYQiEYfj9L2gF4WpJ1kTZ5pJ0T6x8,48
+hdcms/src/util/array.c,sha256=setW4uS5HLTB_unSSB7s0YUoIMhhb1rYW0OdtRQyV6E,20541
+hdcms/src/util/array.h,sha256=UJ3xTFhaRQkiTxzKhJpdkHQjaEB9OBRjwqJt4lVtijI,9150
+hdcms/src/util/bin.c,sha256=ChNegH90f8KEL5DzYcVy79evxKfHf4qtHY0Zc1CG4B0,3845
+hdcms/src/util/bin.h,sha256=wb416AQ8Dls4PuHSvUrItaUPZa6ML0itwEtmVgxvu1Y,2486
+hdcms/src/util/peak.c,sha256=hhO5r3qEWFxWFwyiAuQqL_b6U5GN1Dg_BUNKy29WvQw,6744
+hdcms/src/util/peak.h,sha256=D9-YUOAMVshIAS64SmYumGZYGzeDdh6uapdYbZBYfRk,5345
+hdcms-0.0.6.dist-info/LICENSE,sha256=Wjov_2f7bDT49kf9t_IbwphSv55so50HexNgBJh1xXc,1830
+hdcms-0.0.6.dist-info/METADATA,sha256=cuSzbBr8hDEQw02mPG80Vi2ocR51AOlAp7MLFzUwcgo,4414
+hdcms-0.0.6.dist-info/WHEEL,sha256=oITnL8r4K9lhj-wWSHlE2XUA0J8WLXdegrKtvi_34zA,108
+hdcms-0.0.6.dist-info/top_level.txt,sha256=JsI5dOd9l8UcDIHK7QsNVvi7azipJ4OAiRjHketEQIM,6
+hdcms-0.0.6.dist-info/RECORD,,
