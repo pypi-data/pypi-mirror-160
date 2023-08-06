@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+download_novel_util.egg-info/PKG-INFO
+download_novel_util.egg-info/SOURCES.txt
+download_novel_util.egg-info/dependency_links.txt
+download_novel_util.egg-info/top_level.txt
+download_util/__init__.py
+download_util/download_util.py
