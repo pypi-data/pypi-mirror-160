@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ozon3/__init__.py
+src/ozon3/ozon3.py
+src/ozon3/urls.py
+src/ozon3.egg-info/PKG-INFO
+src/ozon3.egg-info/SOURCES.txt
+src/ozon3.egg-info/dependency_links.txt
+src/ozon3.egg-info/requires.txt
+src/ozon3.egg-info/top_level.txt
+src/ozon3/historical/__init__.py
+src/ozon3/historical/_reverse_engineered.py
+src/ozon3/historical/relevant_funcs.py
