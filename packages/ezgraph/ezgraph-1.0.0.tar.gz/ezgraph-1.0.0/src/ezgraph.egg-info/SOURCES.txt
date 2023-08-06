@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+src/ezgraph/__init__.py
+src/ezgraph/tools.py
+src/ezgraph.egg-info/PKG-INFO
+src/ezgraph.egg-info/SOURCES.txt
+src/ezgraph.egg-info/dependency_links.txt
+src/ezgraph.egg-info/requires.txt
+src/ezgraph.egg-info/top_level.txt
