@@ -1,0 +1,10 @@
+apricot-select
+igraph
+ncfs
+numpy
+pandas
+scanpy
+scikit-learn
+scipy
+louvain
+sslouvain
