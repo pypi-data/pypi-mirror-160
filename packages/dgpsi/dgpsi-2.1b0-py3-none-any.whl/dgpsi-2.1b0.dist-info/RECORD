@@ -1,0 +1,15 @@
+dgpsi/__init__.py,sha256=X0XkFxoiJx0KkB7jZIr1NP8IrFxFBd0IRZfFytByz8s,267
+dgpsi/dgp.py,sha256=23je1--ODt0rNq-KYSK-hvOQOzjuY1S3G1wQNHrwmAg,12624
+dgpsi/emulation.py,sha256=lo0TUJxMYrLmEegAwaFDN2qaU0CwA3YVrwmHWv8y9WM,17355
+dgpsi/functions.py,sha256=o2Jtp_ebqyZXWuffVZ_hCq_SrtL5E_NKoUKHJYrU7Xs,16355
+dgpsi/gp.py,sha256=5SmCCZKLJS5_khjR07LRb87T1gMAOlmlQOy083gpmGk,4967
+dgpsi/imputation.py,sha256=E6SEuXZcUfD4kFG3feXSeQnv-VJesiNAylNJXD0mfck,5168
+dgpsi/kernel_class.py,sha256=vi_2Omx2OklJ-Snw67I4Xk3tdLPYw6oBugCMEouIYOI,24965
+dgpsi/likelihood_class.py,sha256=2C-EairHks-ee4O2dY4zFY8HTwU9LCiHy7UMy6U-A84,8469
+dgpsi/linkgp.py,sha256=08X2Zf5QLeiKQuIvmkZdWmxxBw6PKkLzaRxnveYWt20,25264
+dgpsi/synthetic.py,sha256=xObs8uQr8Qf6_NE9KSLLJlMzs-VCmaXoMAy55Gb3xtk,2072
+dgpsi-2.1b0.dist-info/LICENSE,sha256=PurjRStkZP22aFUdsJlRnUxQRJI6dAtpfJd9fm2OWTY,1066
+dgpsi-2.1b0.dist-info/METADATA,sha256=Tv-8yzDa7JfmXUQ4EPXJIUE7B7HbWqrlKZceCI8LsNY,4763
+dgpsi-2.1b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dgpsi-2.1b0.dist-info/top_level.txt,sha256=CMiwioEx36dkORElWTz4pK2mQ6db4OyheEuCe97e0s8,6
+dgpsi-2.1b0.dist-info/RECORD,,
