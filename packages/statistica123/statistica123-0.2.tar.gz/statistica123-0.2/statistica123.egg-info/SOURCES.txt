@@ -1,0 +1,6 @@
+setup.py
+statistica123/init.py
+statistica123.egg-info/PKG-INFO
+statistica123.egg-info/SOURCES.txt
+statistica123.egg-info/dependency_links.txt
+statistica123.egg-info/top_level.txt
