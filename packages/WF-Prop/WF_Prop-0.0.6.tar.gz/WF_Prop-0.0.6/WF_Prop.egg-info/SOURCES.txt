@@ -1,0 +1,64 @@
+Git&sphinx_quick_Tutorials.pptx
+Manual.html
+Manual.md
+README.md
+TODO_list.md
+conf.py
+index.rst
+setup.py
+units_conversion_wave_function_Normalization_factor.pdf
+.idea/.gitignore
+.idea/.name
+.idea/Wave_Function_Propagation.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/other.xml
+.idea/vcs.xml
+.idea/workspace-DESKTOP-GQ4HDLF.xml
+.idea/workspace-DESKTOP-K7NKDLL-2.xml
+.idea/workspace-DESKTOP-K7NKDLL-3.xml
+.idea/workspace-DESKTOP-K7NKDLL.xml
+.idea/inspectionProfiles/profiles_settings.xml
+Nadav's_Code/CPFunctions.py
+Nadav's_Code/ChargeProp.py
+Nadav's_Code/Example.m
+Nadav's_Code/Example.py
+Nadav's_Code/FFTDerivTest.py
+Nadav's_Code/IntegrateLOCPOT.py
+Nadav's_Code/LOCPOT Share.txt
+Nadav's_Code/ReadLOCPOT.py
+Nadav's_Code/fft-deriv.pdf
+Nadav's_Code/timedependedSE.pdf
+WF_Prop.egg-info/PKG-INFO
+WF_Prop.egg-info/SOURCES.txt
+WF_Prop.egg-info/dependency_links.txt
+WF_Prop.egg-info/requires.txt
+WF_Prop.egg-info/top_level.txt
+WaveFunctionPropagation/Help_function_library_yair.py
+WaveFunctionPropagation/Locpot_class.py
+WaveFunctionPropagation/Main_execution.py
+WaveFunctionPropagation/Stage_1.py
+WaveFunctionPropagation/Stage_2.py
+WaveFunctionPropagation/Structure_vis.py
+WaveFunctionPropagation/savitzky_golay.py
+Yair_code/GUI_Work_Flow.pptx
+Yair_code/Gui-table-values-keys.xlsx
+Yair_code/Plots/.pdf
+Yair_code/Plots/1D potential along axis Z.png
+Yair_code/Plots/Convergence test energies vs time.pdf
+Yair_code/Plots/Cumulative probabilty vs dt.pdf
+Yair_code/Plots/Figure_2.png
+Yair_code/Plots/Main_File.pdf
+Yair_code/Plots/Probabilty current vs Time of simulation.pdf
+Yair_code/Plots/Probabilty current vs dt.pdf
+Yair_code/Plots/Probabilty current vs time, all iterations.pdf
+Yair_code/Plots/Total energies through the convergence test.pdf
+Yair_code/Plots/ani_2.gif
+Yair_code/Plots/convereged_system.xlsx
+Yair_code/__pycache__/Help_function_library_yair.cpython-39.pyc
+Yair_code/__pycache__/Locpot_class.cpython-39.pyc
+Yair_code/__pycache__/Main_File.cpython-39.pyc
+Yair_code/__pycache__/Stage_1.cpython-39.pyc
+Yair_code/__pycache__/Stage_2.cpython-39.pyc
+Yair_code/__pycache__/Structure_vis.cpython-39.pyc
+Yair_code/__pycache__/savitzky_golay.cpython-39.pyc
