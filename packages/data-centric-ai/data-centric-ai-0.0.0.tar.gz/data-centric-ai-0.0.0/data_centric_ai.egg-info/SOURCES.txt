@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+data_centric_ai.egg-info/PKG-INFO
+data_centric_ai.egg-info/SOURCES.txt
+data_centric_ai.egg-info/dependency_links.txt
+data_centric_ai.egg-info/requires.txt
+data_centric_ai.egg-info/top_level.txt

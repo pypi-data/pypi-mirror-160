@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: data-centric-ai
+Version: 0.0.0
+Summary: A helper package for the requirements of the Data Centric AI Book
+Home-page: https://github.com/Ben-Epstein/dcai/
+Author: Ben Epstein
+Author-email: ben.epstein97@gmail.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dcai
+An installation tool for the Data Centric AI book
+
+
