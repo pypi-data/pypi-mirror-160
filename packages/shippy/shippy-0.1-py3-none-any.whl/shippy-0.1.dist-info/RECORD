@@ -1,0 +1,10 @@
+shippy/__init__.py,sha256=FnBZACiAWe18V-13EEMdMuMY35unCzfEB-j42s1KNiU,68
+shippy/api.py,sha256=oCosY-QjfDWwEHy7Hecbnxh4VFHAsRoXdveiKvxNTP8,478
+shippy/gateway.py,sha256=Afq7u_JzXIeTFD8Q6UHs9GvxfE65ppj1W1Px7yUDqzI,694
+shippy/shipment.py,sha256=3Bx8FaZGxC8zOyyQWADExmv5U8UORf0oiNOOEA63CdE,539
+shippy-0.1.dist-info/METADATA,sha256=klaae_dtumz7wos8wZ3g7_DmGe_Rnhxza9GjBOHyA1U,453
+shippy-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shippy-0.1.dist-info/entry_points.txt,sha256=P7kAE_xFRzzKSE9SdHbbyWYuicZ_7bpzlK1SjaLjgS4,63
+shippy-0.1.dist-info/top_level.txt,sha256=bKzZ56t78g1rmiadqNeCfoLQeniNMgBwBHWxs4Vohmk,7
+shippy-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+shippy-0.1.dist-info/RECORD,,
