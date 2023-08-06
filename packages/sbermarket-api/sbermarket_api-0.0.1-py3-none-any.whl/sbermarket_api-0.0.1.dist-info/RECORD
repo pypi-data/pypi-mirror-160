@@ -1,0 +1,9 @@
+sbermarket_api/__init__.py,sha256=PkP7jAg5v7vbtdAmFIRJNQoTBdFyNdE4k5OoorrDK5k,382
+sbermarket_api/api.py,sha256=fBA_8R3-I-Hbebyduoq8HE0O3IRHfxiE2dUeQiUds08,3963
+sbermarket_api/client.py,sha256=pwJho4xSSYkh0tvqp8oqXm3aX49ssPoIxksaifRReSg,1524
+sbermarket_api/product.py,sha256=cNZHAQTj6MRkGR8eO3NrRHwH4e63dnAI593fgFMrzMI,1402
+sbermarket_api/store.py,sha256=c4TM7m7KymfOY5arfRGUnpEwNtcSa1R6e43d18cmAN8,1274
+sbermarket_api-0.0.1.dist-info/LICENSE,sha256=5wuYCZt1iM6eznDZYdeCzIvi-Mo2K0_jwwOfzUFWBIc,1091
+sbermarket_api-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sbermarket_api-0.0.1.dist-info/METADATA,sha256=ggk178Bx5m77nuyzzIMqnkpwAmVk8S6CQ70iFjtDXnA,5545
+sbermarket_api-0.0.1.dist-info/RECORD,,
