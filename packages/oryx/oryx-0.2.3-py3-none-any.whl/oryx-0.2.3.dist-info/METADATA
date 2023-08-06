@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: oryx
+Version: 0.2.3
+Summary: Probabilistic programming and deep learning in JAX
+License: Apache 2.0
+Author: Google LLC
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: jax (==0.3.15)
+Requires-Dist: jaxlib (==0.3.15)
+Requires-Dist: tfp-nightly[jax] (==0.17.0.dev20220722)
