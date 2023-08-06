@@ -1,0 +1,10 @@
+README.md
+setup.py
+tensor_algebra_dont_use.egg-info/PKG-INFO
+tensor_algebra_dont_use.egg-info/SOURCES.txt
+tensor_algebra_dont_use.egg-info/dependency_links.txt
+tensor_algebra_dont_use.egg-info/requires.txt
+tensor_algebra_dont_use.egg-info/top_level.txt
+tensors/__init__.py
+tensors/indexed.py
+test/test.py
