@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ccproxy
+Version: 0.0.1
+Summary: get free proxy
+Author: duan
+Author-email: 2096258508@qq.com
+License: MIT License
+Requires-Dist: requests
+Requires-Dist: lxml
+
+get free proxy!
