@@ -1,0 +1,9 @@
+cdk_sops_secrets/__init__.py,sha256=AFe3miFw5U3Sgp_cY3a8cQOFCojlJQYm2iYjU4a-I7k,65918
+cdk_sops_secrets/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_sops_secrets/_jsii/__init__.py,sha256=RQZriq5xztwRtWDr-Rs_HW_Cc29Cebm5UIyamqK5PzM,403
+cdk_sops_secrets/_jsii/cdk-sops-secrets@0.3.142.jsii.tgz,sha256=G7lYx7okB-tVCP_HMg2OiTss1EQHAbtOF6ArZqYAwaI,6958288
+cdk_sops_secrets-0.3.142.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_sops_secrets-0.3.142.dist-info/METADATA,sha256=RILe41Wd0fX-aCFuDjwCplYIPq1GTsx35pBo_pjfP50,10209
+cdk_sops_secrets-0.3.142.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdk_sops_secrets-0.3.142.dist-info/top_level.txt,sha256=YWo8-D0IVIr2KVY5qKYGOWK6LaoxTTm9rebSHNwN-TI,17
+cdk_sops_secrets-0.3.142.dist-info/RECORD,,
