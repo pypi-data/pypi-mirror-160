@@ -1,0 +1,8 @@
+molecule_slide_generator/__init__.py,sha256=6Dg2moYiv652wKPSigiGsqvx2Sqs9JILILf0Hahc6Cw,62
+molecule_slide_generator/data_extraction.py,sha256=KyOlOEBgRO_O7UCFGcV7bOu83kSvEiZS7bRdyfUwIKw,3923
+molecule_slide_generator/slide_generator.py,sha256=oAHOlsJIlQBl1KQjOpffnSGNviUWK1OZIgq3nQhph98,16806
+molecule_slide_generator-0.2.0.dist-info/METADATA,sha256=-Bx4y0HOSua4EybXyFpJybfBIIHcNQ3SMHh6p3E5Wec,9052
+molecule_slide_generator-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+molecule_slide_generator-0.2.0.dist-info/license.txt,sha256=LB1zYUjY13cJijCONiTIHFnKjQfBZNrznoMRO4Az1e0,1546
+molecule_slide_generator-0.2.0.dist-info/top_level.txt,sha256=bmuCVF0HxItOGce0PBmMddy3gzAy9yWCyLLXLkv3fHQ,25
+molecule_slide_generator-0.2.0.dist-info/RECORD,,
