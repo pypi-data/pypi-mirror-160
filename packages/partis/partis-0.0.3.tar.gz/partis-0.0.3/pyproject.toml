@@ -1,0 +1,196 @@
+# -*- coding: UTF-8 -*-
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+#                                                                              #
+#                       OOOOOOOOO---------------OOOOOOOOO                      #
+#                       OOOOO-----------------------OOOOO                      #
+#                       OOO-------------------NNNN----OOO                      #
+#                       O--------------------NNNNNN-----O                      #
+#                       O----------NN--------NNN-NNN----O                      #
+#                       ---------NNNNNNN-----NNN--NNN----                      #
+#                       ---------NNNNNNNNN---NNN---NNNNNN                      #
+#                       NNNNNN---NNN---NNNNNNNNN---------                      #
+#                       ----NNN--NNN-----NNNNNN----------                      #
+#                       O----NNN-NNN--------NN----------O                      #
+#                       O-----NNNNNN--------------------O                      #
+#                       OOO----NNNN-------------------OOO                      #
+#                       OOOOO-----------------------OOOOO                      #
+#                       OOOOOOOOO---------------OOOOOOOOO                      #
+#                                                                              #
+#                                Nanohmics, Inc.                               #
+#                                                                              #
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+[project]
+name = "partis"
+version = "0.0.3"
+description = "Top-level namespace package for partis packages"
+readme = "README.rst"
+license = { file = "LICENSE.txt" }
+
+requires-python = ">= 3.6.2"
+
+dependencies = [
+  'partis-pyproj == 0.0.3',
+  # NOTE: apparent bug in pip that ignores optional dependency extras if a
+  # required depencency without the extra was already given.
+  'partis-utils[sphinx] == 0.0.3',
+  'partis-schema == 0.0.3',
+  'partis-nwl == 0.0.3',
+  'partis-view == 0.0.3' ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[[project.maintainers]]
+name = "Nanohmics Inc."
+email = "software.support@nanohmics.com"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[project.optional-dependencies]
+
+#...............................................................................
+test = [
+  "pip >= 18.1",
+  "nox >= 2021.10.1",
+  "build >= 0.7.0",
+  # numpy needed to run some of the tests where the source code does not need it
+  "numpy",
+  "tomli >= 1.2.3",
+  "pytest >= 6.2.5",
+  "pytest-cov >= 3.0.0",
+  "pytest_mock >= 3.6.1",
+  "PyVirtualDisplay >= 2.2",
+  "coverage[toml] >= 6.2",
+  # for testing partis-pyproj[meson]
+  "meson >= 0.61.3",
+  "ninja >= 1.10.2.3",
+  "Cython>=0.29.18" ]
+
+#...............................................................................
+cov = [
+  "coverage[toml] >= 6.2" ]
+
+#...............................................................................
+lint = [
+  # "flake8-bugbear",
+  # "flake8",
+  # "flake8-docstrings",
+  "pyflakes == 2.4.0" ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Build and distribution configuration
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[build-system]
+requires = [
+  "partis-pyproj == 0.0.3" ]
+
+build-backend = "partis.pyproj.backend"
+
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist]
+
+ignore = [
+  '__pycache__',
+  '*.py[cod]',
+  '*.so',
+  '*.egg-info',
+  '.nox',
+  '.pytest_cache',
+  '.coverage',
+  'tmp',
+  'dist',
+  'build' ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pyproj.dist.source]
+
+copy = [
+  'test',
+  'pyproject.toml',
+  'README.rst',
+  'LICENSE.txt' ]
+
+# adds support for legacy 'setup.py'
+add_legacy_setup = true
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Testing configuration
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.noxfile]
+python = [
+  "3.10",
+  "3.9",
+  "3.8",
+  "3.7",
+  "3.6" ]
+
+envdir = "tmp/.nox"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--maxfail=1 --cov --cov-append"
+testpaths = [
+  "test",
+  "src/partis-pyproj/test",
+  "src/partis-utils/test",
+  "src/partis-schema/test",
+  "src/partis-nwl/test",
+  "src/partis-view/test" ]
+
+log_level = "NOTSET"
+# un-comment the following to print *all* logging messages
+#log_cli = true
+#log_cli_level = "NOTSET"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.coverage.run]
+branch = true
+data_file = "tmp/.coverage"
+# parallel = true
+disable_warnings = [
+  "module-not-measured" ]
+source = [
+  "partis" ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.coverage.paths]
+# Source code paths which are to be considered equivalent when combining coverage reports.
+# NOTE: the order must be from "most specific" to "least specific" so that
+# installed sub-package directories are combined to the correct source path
+partis-pyproj = [
+  "src/partis-pyproj/src/pyproj",
+  "*/site-packages/partis/pyproj" ]
+
+partis-utils-mono = [
+  "src/partis-utils/src/utils",
+  "*/site-packages/partis/utils" ]
+
+partis-schema = [
+  "src/partis-schema/src/schema",
+  "*/site-packages/partis/schema" ]
+
+partis-schema_meta = [
+  "src/partis-schema/src/schema_meta",
+  "*/site-packages/partis/schema_meta" ]
+
+partis-nwl = [
+  "src/partis-nwl/src/nwl",
+  "*/site-packages/partis/nwl" ]
+
+partis-view = [
+  "src/partis-view/src/view",
+  "*/site-packages/partis/view" ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.coverage.report]
+exclude_lines = [
+  "if self.debug:",
+  "pragma: no cover",
+  "raise NotImplementedError",
+  "if __name__ == .__main__.:" ]
+
+ignore_errors = true
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[tool.coverage.html]
+directory = "build/htmlcov"

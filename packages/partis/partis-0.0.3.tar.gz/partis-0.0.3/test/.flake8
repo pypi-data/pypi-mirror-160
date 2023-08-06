@@ -1,0 +1,46 @@
+[flake8]
+indent-size = 2
+max-complexity = 10
+max-line-length = 81
+hang-closing = True
+docstring-convention = numpy
+
+select =
+  # code complexity
+  C90,
+  # All E class violations are “errors” reported by pycodestyle
+  E,
+  # All F class violations are reported by pyflakes
+  F,
+  # All W class violations are “warnings” reported by pycodestyle
+  W,
+  # missing whitespace around arithmetic operator
+  # E226,
+  # multiple spaces after ‘,’
+  E241,
+  # tab after ‘,’
+  E242
+
+ignore =
+  # 1 blank line required before class docstring
+  D203,
+  # whitespace after ‘(’
+  E201,
+  # whitespace before ‘)’
+  E202,
+  # whitespace before ‘,’, ‘;’, or ‘:’
+  E203,
+  # unexpected spaces around keyword / parameter equals
+  E251,
+  # block comment should start with ‘# ‘
+  E265,
+  # expected 2 blank lines, found 0
+  E302,
+  # line too long (TODO: fix many lines extending slightly past the limit)
+  E501
+
+exclude =
+  .git,
+  .nox,
+  __pycache__,
+  dist
