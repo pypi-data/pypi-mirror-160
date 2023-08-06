@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: zenoml-image-segmentation
+Version: 0.0.1
+Summary: Image Segmentation for Zeno
+Home-page: https://dig.cmu.edu/zeno/
+License: MIT
+Keywords: ml,testing
+Author: Ángel Alexander Cabrera
+Author-email: alex.cabrera@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/cmudig/zeno
+Description-Content-Type: text/markdown
+
+# Zeno View for Image Segmentation
+
+## Development
+
+First, build the frontend:
+
+```bash
+cd frontend
+npm install
+npm run build
+```
+
+## Install
+
+Install the package from PyPI:
+
+```
+pip install zenoml_image_segmentation
+```
+
+And pass as the `task` argument to a Zeno `.toml` file.
+
+### [Follow the documentation to get started](https://dig.cmu.edu/zeno/intro.html)
+
