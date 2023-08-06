@@ -1,0 +1,10 @@
+.. include:: ../defs.rst
+
+.. module :: pyserialsensors.devices.ads1015
+
+ADS1015 - Voltage sensor
+==============================================
+
+.. autoclass :: ADS1015
+ :members:
+ :noindex:

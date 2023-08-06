@@ -1,0 +1,9 @@
+.. include:: ../defs.rst
+
+.. module :: pyserialsensors.devices.max31865
+
+MAX31865 - RTD Temperature sensor
+==============================================
+
+.. autoclass :: MAX31865
+ :members:

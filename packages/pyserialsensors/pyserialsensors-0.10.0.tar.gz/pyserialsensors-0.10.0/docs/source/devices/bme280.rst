@@ -1,0 +1,11 @@
+.. include:: ../defs.rst
+
+.. module :: pyserialsensors.devices.bme280
+
+BME280 - Pressure sensor
+==============================================
+
+Funny text about the sensor
+
+.. autoclass :: BME280
+ :members:

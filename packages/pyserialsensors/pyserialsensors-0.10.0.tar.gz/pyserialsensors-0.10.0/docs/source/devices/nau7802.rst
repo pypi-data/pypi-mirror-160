@@ -1,0 +1,10 @@
+.. include:: ../defs.rst
+
+.. module :: pyserialsensors.devices.nau7802
+
+NAU7802 - Kelvin bridge sensor
+==============================================
+
+.. autoclass :: NAU7802
+ :members:
+
