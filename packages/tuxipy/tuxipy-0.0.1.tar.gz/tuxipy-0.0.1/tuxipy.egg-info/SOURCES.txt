@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tuxipy/__init__.py
+tuxipy/tuxi.py
+tuxipy.egg-info/PKG-INFO
+tuxipy.egg-info/SOURCES.txt
+tuxipy.egg-info/dependency_links.txt
+tuxipy.egg-info/requires.txt
+tuxipy.egg-info/top_level.txt
