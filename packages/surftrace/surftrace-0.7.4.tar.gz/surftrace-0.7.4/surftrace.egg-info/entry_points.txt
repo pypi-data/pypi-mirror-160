@@ -1,0 +1,4 @@
+[console_scripts]
+kobuild = surftrace.kobuild:main
+surftrace = surftrace.surftrace:main
+
