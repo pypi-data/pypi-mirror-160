@@ -1,0 +1,4 @@
+click
+sxtwl<2
+jinja2
+arrow
