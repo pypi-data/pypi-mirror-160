@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: lumikko
+Version: 2022.7.24
+Summary: For now a lumikko (Finnish for wiesel), later maybe feed back changes upstream towards a lisko.
+Home-page: https://git.sr.ht/~sthagen/lumikko
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://todo.sr.ht/~sthagen/lumikko
+Project-URL: Documentation, https://codes.dilettant.life/docs/lumikko
+Project-URL: Source Code, https://git.sr.ht/~sthagen/lumikko
+Keywords: developer-tools,sloc,taxonomies
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: GitPython (>=3.1.27)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# Lumikko
+
+For now a lumikko (Finnish for wiesel), later maybe feed back changes upstream towards a lisko.
+
+[License: MIT](https://git.sr.ht/~sthagen/lumikko/tree/default/item/LICENSE)
+
+[![version](https://img.shields.io/pypi/v/lumikko.svg?style=flat)](https://pypi.python.org/pypi/lumikko/)
+[![downloads](https://img.shields.io/pypi/dm/lumikko.svg?style=flat)](https://pypi.python.org/pypi/lumikko/)
+[![wheel](https://img.shields.io/pypi/wheel/lumikko.svg?style=flat)](https://pypi.python.org/pypi/lumikko/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/lumikko.svg?style=flat)](https://pypi.python.org/pypi/lumikko/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/lumikko.svg?style=flat)](https://pypi.python.org/pypi/lumikko/)
+
+## Usage
+
+* [Usage documentation](https://codes.dilettant.life/docs/lumikko/usage).
+* [Command Line API](https://codes.dilettant.life/docs/lumikko/api).
+
+## Documentation
+
+User and developer [documentation of lumikko](https://codes.dilettant.life/docs/lumikko).
+
+## Bug Tracker
+
+Feature requests and bug reports are bested entered in the [todos of lumikko](https://todo.sr.ht/~sthagen/lumikko).
+## Primary Source repository
+
+The primary source repository of [lumikko is at sourcehut](https://git.sr.ht/~sthagen/lumikko)
+a collection of tools useful for software development.
+
+## Status
+
+Experimental.
+
+**Note**: The default branch is `default`.
