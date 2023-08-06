@@ -1,0 +1,3 @@
+[console_scripts]
+dp-cgans=dp_cgans.__main__:cli
+
