@@ -1,0 +1,3 @@
+[console_scripts]
+bhp=bhp.__main__:cli
+

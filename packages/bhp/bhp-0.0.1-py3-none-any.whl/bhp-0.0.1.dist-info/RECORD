@@ -1,0 +1,9 @@
+LICENSE,sha256=Rvc9ZRVlx3pkIKsbygmXNdwmUcVaHbzIJKtlo7EgbF8,1517
+bhp/__init__.py,sha256=52eq0hdOZ19xMJqe7e4sVjLkwbVTMZhaGwPK5PqLPeM,81
+bhp/__main__.py,sha256=8EaA3ahkt0pvWe-btpAmHXJHi2XyuMiyMmV2WfQ7HdI,3629
+bhp/lib/output.py,sha256=Km9mL1_XBIGgMHBLtGWVlqGuoR8kpkCGqD7tLj5GHyw,2388
+bhp-0.0.1.dist-info/entry_points.txt,sha256=qZGNNLGPog5gFjmMYBbesz1NOJsId_hvezjiU5Jncwg,40
+bhp-0.0.1.dist-info/LICENSE,sha256=Rvc9ZRVlx3pkIKsbygmXNdwmUcVaHbzIJKtlo7EgbF8,1517
+bhp-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+bhp-0.0.1.dist-info/METADATA,sha256=VRCY1fJOFvMLpQ3zFEmngoXjuTKTSB1CB_hpV0sqXGg,2848
+bhp-0.0.1.dist-info/RECORD,,
