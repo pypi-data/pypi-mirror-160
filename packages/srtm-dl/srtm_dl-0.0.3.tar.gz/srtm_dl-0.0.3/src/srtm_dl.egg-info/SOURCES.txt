@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/srtm/__init__.py
+src/srtm/srtm.py
+src/srtm_dl.egg-info/PKG-INFO
+src/srtm_dl.egg-info/SOURCES.txt
+src/srtm_dl.egg-info/dependency_links.txt
+src/srtm_dl.egg-info/requires.txt
+src/srtm_dl.egg-info/top_level.txt
