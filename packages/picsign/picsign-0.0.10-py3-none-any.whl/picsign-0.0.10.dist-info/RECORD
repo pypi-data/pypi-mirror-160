@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picsign/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picsign/command_line.py,sha256=aCwidcBuIvAqbUEXdFeMJ0KvIiCSGDIa7iaolzDXJzA,963
+picsign/pic_sign.py,sha256=LLIfP3VaJw4WMP4pWguELWArLqmdoJtgh89zGDOVuFQ,4506
+picsign-0.0.10.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+picsign-0.0.10.dist-info/METADATA,sha256=6Zt1mKjJEszhtvczyO6TmK0hby8CcyUARX1YPR61YJ0,42096
+picsign-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+picsign-0.0.10.dist-info/entry_points.txt,sha256=aX6FJHHKFIRqX0Ogds_G5bIJBImjamxA5IQON6cPH78,54
+picsign-0.0.10.dist-info/top_level.txt,sha256=-ZARPmIqmSdvzQjdddnEDlmMTEUzcnOgLUcKGBPAYko,17
+picsign-0.0.10.dist-info/RECORD,,
