@@ -1,0 +1,17 @@
+dataclasses
+pydantic
+typing-extensions
+atomicwrites
+attrs
+colorama
+coverage
+importlib-metadata
+more-itertools
+packaging
+pluggy
+py
+pyparsing
+pytest
+pytest-cov
+wcwidth
+zipp
