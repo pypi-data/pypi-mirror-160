@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: stringmetrics
+Version: 2.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: A fast library for string metrics, including Levenshtein distance
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Stringmetrics
+
+A library that implements Levenshtein distance and other string metrics. This
+
+Python bindings for the Rust stringmetrics library
+
+```py
+>>> from stringmetrics import levenshtein
+>>> levenshtein("a slow cat", "a fast bat")
+5
+>>> levenshtein("a slow cat", "a fast bat", limit=3)
+3
+```
+
