@@ -1,0 +1,10 @@
+aiooss2/__init__.py,sha256=y-g5_YCx3L0sLcfAi2K9zNFlz0Qn_BGUB8Va4IZM-Po,206
+aiooss2/api.py,sha256=9sIAezyN9F8tpPJ5An-RagYQkm0tFEWc4kLK0MD__yo,11336
+aiooss2/exceptions.py,sha256=TyfAwUNxoJR1lyFGsFrS71SYLG7Id_GK0bPwURhbtVE,596
+aiooss2/http.py,sha256=iBWFBEvhCyOJy5z67iBhPB9IwpsUEGrQF0jMOIWayr8,2993
+aiooss2/iterators.py,sha256=T_UAeCq4xUp0cjBcTssib5z8gyTag-YD_BbVQpXzOxE,2328
+aiooss2-0.1.2.dist-info/LICENSE,sha256=ruywyh73zH_NPXmU-H0t6Q5BqkhffwaveOg5eBrEnqs,11345
+aiooss2-0.1.2.dist-info/METADATA,sha256=xHTYwImX8NYXBuDXziR4PrGar1ojAZ-doQ133687MQc,876
+aiooss2-0.1.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aiooss2-0.1.2.dist-info/top_level.txt,sha256=eyyojX9oH1HZ6i37PkII6FNwOJe5fH70tyhyiP_xrX0,8
+aiooss2-0.1.2.dist-info/RECORD,,
