@@ -1,0 +1,25 @@
+[build-system]
+requires = ['setuptools', 'numpy', 'Cython']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'smet'
+version = '0.1.0-dev0'
+dependencies = [
+    # ===================== numerical bases
+    'numpy',
+    'cython',
+    'scipy',  # evaluate
+    'pandas',
+    # ===================== operational
+    'astropy',
+    'sgp4',
+    'fiona',
+    'shapely',
+    # ===================== plotting
+    'matplotlib',
+    'pyvista',
+    'imageio-ffmpeg',
+    # ===================== persisting
+    'h5py'
+]

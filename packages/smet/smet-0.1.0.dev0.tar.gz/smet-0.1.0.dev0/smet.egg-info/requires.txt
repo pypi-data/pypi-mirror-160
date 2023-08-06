@@ -1,0 +1,12 @@
+numpy
+cython
+scipy
+pandas
+astropy
+sgp4
+fiona
+shapely
+matplotlib
+pyvista
+imageio-ffmpeg
+h5py

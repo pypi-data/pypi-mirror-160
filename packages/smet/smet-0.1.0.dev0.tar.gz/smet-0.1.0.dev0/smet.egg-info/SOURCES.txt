@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+smet/__init__.py
+smet.egg-info/PKG-INFO
+smet.egg-info/SOURCES.txt
+smet.egg-info/dependency_links.txt
+smet.egg-info/requires.txt
+smet.egg-info/top_level.txt
