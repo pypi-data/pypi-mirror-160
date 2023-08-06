@@ -1,0 +1,9 @@
+dbt-core<2.0.0,>=1.0.0
+
+[test]
+dbt-spark[odbc]<2.0.0,>=1.0.0
+pyspark<4.0.0,>=3.0.0
+pre-commit>=2.14.1
+pytest>=6.2.5
+pytest-spark>=0.6.0
+pytest-cov>=2.12.1
