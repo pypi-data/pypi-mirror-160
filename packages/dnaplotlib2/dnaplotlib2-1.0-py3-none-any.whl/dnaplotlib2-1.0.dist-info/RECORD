@@ -1,0 +1,11 @@
+dnaplotlib/__init__.py,sha256=QRQVCvrZgAVDw3PYA13tmCY-etwoWMf28dzE7ZaoZI8,46
+dnaplotlib/dnaplotlib.py,sha256=1wRCsD4BG9r5pxzJ9E5VLZZ4ILO0hpg6A7qMwI3AijU,135665
+dnaplotlib/sbol/__init__.py,sha256=KxAYe5HdHjOXywJojYIvZJOwbtQW9oniCkBSXwF0agE,29
+dnaplotlib/sbol/sbolplotlib.py,sha256=XV0H9jwzJlD5lQ5q5rXyiLOljE0oCH9uAuzl6Xl6zyo,4694
+dnaplotlib2-1.0.data/scripts/library_plot.py,sha256=cfusEmeLuSAMyzzahoAv_AsB8SDPLXDn8toQn5smKlI,9278
+dnaplotlib2-1.0.data/scripts/quick.py,sha256=NXMpiGDl928_ejzC3s0wpfMJTbUrtEwDOw4NBvcetRY,4968
+dnaplotlib2-1.0.dist-info/LICENSE.txt,sha256=4dz2UKEfkuyJXntD7WrA38cwzWZ7MurZfH-Fmgu8Ez8,1060
+dnaplotlib2-1.0.dist-info/METADATA,sha256=k4wQtiLvtiIaWlfBb-7mRKlHa33osss8JOBPtgZh6fY,4390
+dnaplotlib2-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dnaplotlib2-1.0.dist-info/top_level.txt,sha256=lokrSs8klR4DsEk9kOTbz0-o6FVZdROA2QIcLg6jx4k,11
+dnaplotlib2-1.0.dist-info/RECORD,,
