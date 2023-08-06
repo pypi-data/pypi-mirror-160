@@ -1,0 +1,16 @@
+pathlib
+typing
+tqdm
+pandarallel
+haversine
+scipy
+numpy
+datetime
+geopandas
+rtree
+shapely
+pandas
+scikit-mobility
+diffprivlib
+jinja2
+seaborn
