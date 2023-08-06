@@ -1,0 +1,3 @@
+[console_scripts]
+liwc-trie=liwc_trie.__main__:main
+

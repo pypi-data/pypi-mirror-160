@@ -1,0 +1,10 @@
+liwc_trie/__init__.py,sha256=95BuzqCOUcTyra8Ykk4AiFkx3E4RgWfMTl2fePyISbg,17
+liwc_trie/__main__.py,sha256=8v6eSESwzcNnHEAyNF5Usl0TSsaV7u8bL9jznETXK0I,208
+liwc_trie/dicx.py,sha256=njxlLdzNUjxPKN5P0ceuGU5HYo-lYlpsCp4RfPcGjSU,1852
+liwc_trie/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liwc_trie/trie.py,sha256=BVoKroHoNQeoDG6G50Nue3BZTf49a4tkgKyqcVMYhpg,3083
+liwc_trie-0.1.0.dist-info/entry_points.txt,sha256=k1j8KoAu_XKCeb_Gh2pImS9HsS9NiAvkABTvSb2Mlzs,53
+liwc_trie-0.1.0.dist-info/LICENSE,sha256=_1wwI8VHE3ohKlahwBZ8yCRusOG-G9IKSynjNESTI6U,1074
+liwc_trie-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+liwc_trie-0.1.0.dist-info/METADATA,sha256=8T8trVSpBQjgGAsmv8-tnrF3NQjDBSje3Db2gI8T4GY,3225
+liwc_trie-0.1.0.dist-info/RECORD,,
