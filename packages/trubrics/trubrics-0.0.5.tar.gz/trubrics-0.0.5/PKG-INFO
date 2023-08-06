@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: trubrics
+Version: 0.0.5
+Summary: Combine data science knowledge with business user feedback to validate machine learning.
+License-File: LICENSE
+
+Full documentation available at https://trubrics.github.io/trubrics-sdk/.
