@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bonesis
+Version: 0.4.90
+Summary: Synthesis of Most Permissive Boolean Networks
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: computational systems biology
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: boolean.py
+Requires-Dist: clingo
+Requires-Dist: colomoto-jupyter
+Requires-Dist: mpbn (>=1.7)
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+UNKNOWN
+
