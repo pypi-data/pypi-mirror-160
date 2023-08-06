@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pubsub_meta/__init__.py
+pubsub_meta/__main__.py
+pubsub_meta/cli.py
+pubsub_meta.egg-info/PKG-INFO
+pubsub_meta.egg-info/SOURCES.txt
+pubsub_meta.egg-info/dependency_links.txt
+pubsub_meta.egg-info/entry_points.txt
+pubsub_meta.egg-info/requires.txt
+pubsub_meta.egg-info/top_level.txt
