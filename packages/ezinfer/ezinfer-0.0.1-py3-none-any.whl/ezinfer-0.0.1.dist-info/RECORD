@@ -1,0 +1,15 @@
+ezinfer/base_infer/__init__.py,sha256=fe6h9qU5Py_Y0Utr9dU-yczcBtBUEkTPnMZRnX8Kdyo,33
+ezinfer/base_infer/base_infer.py,sha256=H3UpWAZheZ9-32At7MUJp8qhHL5SCGudAPIIiS1TmjM,676
+ezinfer/mxnet_infer/__init__.py,sha256=dMkXGAFUodseWzKigec4PhYrTpImDbeVVpDxy6JoL0Y,35
+ezinfer/mxnet_infer/mxnet_infer.py,sha256=aS5lRQGHVHOQxBbAwL-taU8jvpZLOWGI8js241rsy3g,711
+ezinfer/onnx_infer/__init__.py,sha256=Ifpn9nJJGpJH6MsEG-Ut7fZ-xtDJjOdyRU3nTk2cLJs,33
+ezinfer/onnx_infer/onnx_infer.py,sha256=eV6iaRRe_nEgqWl5LLpkY5Fyx4pX88hETXErCADf4QU,917
+ezinfer/pytorch_infer/__init__.py,sha256=doc_2eXQ7KSSDwLF3n9lGyu2zATh5_uZvRT71uiYHyQ,39
+ezinfer/pytorch_infer/pytorch_infer.py,sha256=S0KrjbcKe1Y_6HN9eKDeYiy3VDRxDXppVoVCaucdrno,767
+ezinfer/tensorflow_infer/__init__.py,sha256=ZgCy6bmEg2oXT0kPvcRQGX-XdW3nv5go0X3mSgpCwFE,45
+ezinfer/tensorflow_infer/tensorflow_infer.py,sha256=2vHF7LDbWfzwGQFEKEXEfQctlQ62kcNfjZq_51UC40c,644
+ezinfer-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ezinfer-0.0.1.dist-info/METADATA,sha256=izbr3Y0qwb0BkB1V5QYPhXolT-EAxptFx40MLUfB2uw,40914
+ezinfer-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ezinfer-0.0.1.dist-info/top_level.txt,sha256=DqSZBcdIalpE2SO2sHVK6MNdN1dYDs4fhqXmOZDUqXQ,8
+ezinfer-0.0.1.dist-info/RECORD,,
