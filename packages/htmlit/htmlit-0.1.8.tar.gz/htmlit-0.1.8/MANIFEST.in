@@ -1,0 +1,3 @@
+include htmlit2/templates/base.html
+include htmlit2/templates/index.html
+include htmlit2/templates/style.css
