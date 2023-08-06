@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cloudshell-iac-terraform
+Version: 1.2.2
+Summary: Allow execution of Terraform modules from CloudShell
+Home-page: UNKNOWN
+Author: QualiLabs
+Author-email: support@qualisystems.com
+License: UNKNOWN
+Keywords: sandbox cloud IaC cloudshell terraform
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: cloudshell-shell-core (==5.0.5)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: cloudshell-automation-api (==2021.1.0.181140)
+Requires-Dist: retry (==0.9.2)
+Requires-Dist: python-hcl2 (==2.0.1)
+
+UNKNOWN
+
+
