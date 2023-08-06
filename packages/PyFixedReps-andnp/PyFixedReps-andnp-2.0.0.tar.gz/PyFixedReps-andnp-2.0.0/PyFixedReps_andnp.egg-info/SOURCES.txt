@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+PyFixedReps/BaseRepresentation.py
+PyFixedReps/RBF.py
+PyFixedReps/TileCoder.py
+PyFixedReps/__init__.py
+PyFixedReps/_jit.py
+PyFixedReps_andnp.egg-info/PKG-INFO
+PyFixedReps_andnp.egg-info/SOURCES.txt
+PyFixedReps_andnp.egg-info/dependency_links.txt
+PyFixedReps_andnp.egg-info/requires.txt
+PyFixedReps_andnp.egg-info/top_level.txt
