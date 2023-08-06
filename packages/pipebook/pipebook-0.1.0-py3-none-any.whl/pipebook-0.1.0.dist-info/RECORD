@@ -1,0 +1,14 @@
+pipebook/__init__.py,sha256=SoRO5nQydm41bA1E_zvc-_UvnOjwQ4FS6p7-25DaZ7g,98
+pipebook/__main__.py,sha256=Pf-MGVAzFVL-xanZ4r8PASEEK8bmDUuGxcc6QbpoxEI,81
+pipebook/app.py,sha256=zzr5Mz3qaqOmuHUKKcfa2UlFQuZRszrrHw3eI1BWGvE,3705
+pipebook/data.py,sha256=_CTlDfmBZKt2NSHGZ82Z8MtoQQrGkVCpCdpmJcZtzgE,708
+pipebook/doc.py,sha256=mNNIljLJSzJjQp_MFL9FHtnRGnEyvHljHDDCwcmnh54,2629
+pipebook/io.py,sha256=NmCBXEylLIfYgmxtxLkCDYbWtQNPzK7qxgMSSh3GeN4,1307
+pipebook/resources/book.png,sha256=rmlJzM5s4tDUywEXyOKn32PVG3n3hsZOXzbyZkJXK8Q,10095
+pipebook/resources/pipbook.png,sha256=PLb_KXLvEY8jN2x6geHbEme4UR85XnB7053707Yypbg,7402
+pipebook/resources/pipebook2.png,sha256=7GC49gZDy8zxsOBmcqoTJZC-ADlh_UIgtZsfGqCJtKU,117842
+pipebook/view.py,sha256=6GNYuSV4IbOG7ckzGxFpDBpbTMs3YB-jOia2PSIn8XI,1279
+pipebook-0.1.0.dist-info/LICENSE,sha256=s-COvqADIK57pTOYYFw3trlL4vtqd5Dq2X3rGY2aBlo,1073
+pipebook-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pipebook-0.1.0.dist-info/METADATA,sha256=hWIUdHwlr9cFMnerYITr5c9wo1GgOexEAFua6jbhELI,452
+pipebook-0.1.0.dist-info/RECORD,,
