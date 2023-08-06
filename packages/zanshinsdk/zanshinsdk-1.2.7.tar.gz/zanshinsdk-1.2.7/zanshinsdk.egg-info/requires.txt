@@ -1,0 +1,4 @@
+httpx==0.23.0
+
+[with_boto3]
+boto3>=1.21.21
