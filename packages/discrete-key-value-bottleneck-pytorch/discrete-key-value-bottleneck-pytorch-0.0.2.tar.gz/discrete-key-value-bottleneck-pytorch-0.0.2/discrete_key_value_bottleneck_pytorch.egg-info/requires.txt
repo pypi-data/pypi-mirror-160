@@ -1,0 +1,3 @@
+einops>=0.4
+vector-quantize-pytorch
+torch>=1.6
