@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fourcats-flask
+Version: 0.0.1
+Summary: A flask encapsulated based on personal habits for fast use.
+Home-page: https://github.com/FourCats-Py/FourCats-Flask
+Author: ShiWeiDong
+Author-email: shiweidong1993@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/FourCats-Py/FourCats-Flask/archive/0.0.1.tar.gz
+Keywords: fourcats,flask
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FourCats-Flask
+A flask encapsulated based on personal habits for fast use.
+
+
