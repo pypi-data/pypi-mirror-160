@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+remagic/__init__.py
+remagic/main.py
+remagic/pattern.py
+remagic/utils.py
+remagic.egg-info/PKG-INFO
+remagic.egg-info/SOURCES.txt
+remagic.egg-info/dependency_links.txt
+remagic.egg-info/top_level.txt
+tests/__init__.py
+tests/test_create_pattern.py

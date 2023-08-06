@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: remagic
+Version: 0.0.4
+Summary: Work with RegEx with relative ease. Partly inspired by magic-regexp for Node
+Home-page: https://github.com/ificiana/remagic
+Author: Ificiana
+Author-email: ificiana@gmail.com
+License: MIT License
+Description: 
+        # remagic
+        Working with regex made easier! 
+        Partly inspired from `magic-regexp` for Node
+        
+        ```py
+        from remagic import *
+        pattern1 = create(DIGIT)  # matches any digit
+        pattern2 = char_in("aeiou")  # matches any char in "aeiou"
+        pattern3 = ~pattern2  # negates the pattern in pattern2, 
+        # i.e. match everything except characters in "aeiou"
+        pattern4 = pattern1 + pattern3
+        # finally compile, use standard flags as optional argument
+        R = pattern4.compile()
+        # use the regex later
+        ``` 
+        
+        ## Work in Progress!
+        
+        ### Known bugs
+        
+        - improper behaviour with `any_of`
+        
+        ### TODO: Documentation
+Keywords: remagic,regex
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
