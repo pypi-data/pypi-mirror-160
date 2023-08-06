@@ -1,0 +1,10 @@
+udlai/__init__.py,sha256=oGElHhCpzg-wFZkhyZw6DUtvxv2zFRS8rXrlJpKj7t4,1401
+udlai/_version.py,sha256=Rp1Ip54MjyF9vwh0obZL3_uohWFcUleIqm2ef48AHoM,497
+udlai/features.py,sha256=f9yuKzKyUgz6XCY6UtyGMBpjhvOENDGWrTsJTpgMstE,11939
+udlai/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+udlai/tests/test_features.py,sha256=v5F20WqBniHDyY4DGCu95sPT3mQG7Ruj3s9gZaBVlss,4189
+udlai-0.1.0.dist-info/LICENSE,sha256=yb1YWqUeXig_e-UQoO9GLUwF09ImiNE8f1ImCOD0-LQ,1067
+udlai-0.1.0.dist-info/METADATA,sha256=b_C3cie3lRxSCa0ScaeSpJyYVZ4tSDQNvdBFaGA5Zi4,4325
+udlai-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+udlai-0.1.0.dist-info/top_level.txt,sha256=1j1HKKiH8LwjuV8AElDxCO33CSWYUQQI6wYjGjDC6Sw,6
+udlai-0.1.0.dist-info/RECORD,,
