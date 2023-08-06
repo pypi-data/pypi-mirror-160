@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: blind-video-watermark
+Version: 0.1.0
+Summary: Blind Video Watermarking in Python
+Home-page: https://github.com/eluv-io/blind-video-watermark
+Author: Qingyuan Liu
+Author-email: pixelledliu@gmail.com
+License: MIT
+Platform: linux
+Platform: windows
+Platform: macos
+Requires-Python: >=3.6
+License-File: LICENSE
