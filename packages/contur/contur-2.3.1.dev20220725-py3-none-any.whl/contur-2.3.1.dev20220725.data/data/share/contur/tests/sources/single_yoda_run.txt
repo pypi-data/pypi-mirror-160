@@ -1,0 +1,201 @@
+Run Information 
+Contur is running in /Users/jonbutterworth/gitstuff/contur-dev/tests 
+on analysis objects in ['sources/myscan00/13TeV/0014/runpoint_0014.yoda.gz'] 
+Using search analyses 
+Theory uncertainties assumed uncorrelated. 
+No data systematic correlations being used. 
+
+Sampled at:
+CZdL1x1: 1.062202380952381
+CZdL3x3: -1.062202380952381
+CZuL1x1: 1.062202380952381
+CZuL3x3: -1.062202380952381
+CZuR1x1: 1.062202380952381
+CZuR3x3: -1.062202380952381
+cotH: 4.5
+mZp: 3666.6666666666665
+
+Combined DATABG exclusion for these plots is 99.9922450940935 % 
+Combined SMBG exclusion for these plots is 98.8781635780931 % 
+Combined EXP exclusion for these plots is 99.5674139803819 % 
+
+pools
+Pool:ATLAS_13_SSLLMET
+Exclusion with DATABG=0.00000000
+/ATLAS_2019_I1738841/d01-x01-y01
+Exclusion with SMBG=0.00000000
+/ATLAS_2019_I1738841/d01-x01-y01
+Exclusion with EXP=0.00000000
+/ATLAS_2019_I1738841/d01-x01-y01
+
+Pool:ATLAS_13_JETS
+Exclusion with SMBG=0.35105146
+/ATLAS_2018_I1634970/d03-x01-y01
+Exclusion with DATABG=0.99439345
+/ATLAS_2018_I1634970/d07-x01-y01,/ATLAS_2018_I1634970/d08-x01-y01,/ATLAS_2018_I1634970/d09-x01-y01,/ATLAS_2018_I1634970/d10-x01-y01,/ATLAS_2018_I1634970/d11-x01-y01,/ATLAS_2018_I1634970/d12-x01-y01
+Exclusion with EXP=0.97669262
+/ATLAS_2018_I1634970/d07-x01-y01,/ATLAS_2018_I1634970/d08-x01-y01,/ATLAS_2018_I1634970/d09-x01-y01,/ATLAS_2018_I1634970/d10-x01-y01,/ATLAS_2018_I1634970/d11-x01-y01,/ATLAS_2018_I1634970/d12-x01-y01
+
+Pool:CMS_13_JETS
+Exclusion with DATABG=0.57390172
+/CMS_2016_I1459051/d01-x01-y01,/CMS_2016_I1459051/d02-x01-y01,/CMS_2016_I1459051/d03-x01-y01,/CMS_2016_I1459051/d04-x01-y01,/CMS_2016_I1459051/d05-x01-y01,/CMS_2016_I1459051/d06-x01-y01,/CMS_2016_I1459051/d07-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_TTHAD
+Exclusion with DATABG=0.92715747
+/ATLAS_2018_I1646686/d06-x01-y01
+Exclusion with SMBG=0.91237247
+/ATLAS_2018_I1646686/d06-x01-y01
+Exclusion with EXP=0.81849704
+/ATLAS_2018_I1646686/d06-x01-y01
+
+Pool:CMS_13_TTHAD
+Exclusion with DATABG=0.07481248
+/CMS_2019_I1764472/d01-x01-y01
+Exclusion with SMBG=0.10137044
+/CMS_2019_I1764472/d01-x01-y01
+Exclusion with EXP=0.06842434
+/CMS_2019_I1764472/d01-x01-y01
+
+Pool:ATLAS_13_GAMMA
+Exclusion with DATABG=0.61920448
+/ATLAS_2019_I1772071/d02-x01-y01
+Exclusion with SMBG=0.51119558
+/ATLAS_2019_I1772071/d02-x01-y01
+Exclusion with EXP=0.31985931
+/ATLAS_2019_I1772071/d02-x01-y01
+
+Pool:ATLAS_13_EEJET
+Exclusion with DATABG=0.00990538
+/ATLAS_2020_I1788444:LMODE=EL/d14-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_MMJET
+Exclusion with DATABG=0.07758870
+/ATLAS_2019_I1718132:LMODE=MUMU/d57-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_LLJET
+Exclusion with DATABG=0.00405156
+/ATLAS_2019_I1768911/d27-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:CMS_13_EEJET
+Exclusion with DATABG=0.01370173
+/CMS_2018_I1667854:LMODE=EL/d03-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:CMS_13_MMJET
+Exclusion with DATABG=0.00913478
+/CMS_2018_I1667854:LMODE=MU/d03-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_HMDY
+Exclusion with DATABG=0.45836163
+/ATLAS_2019_I1725190/d01-x01-y01,/ATLAS_2019_I1725190/d02-x01-y01
+Exclusion with SMBG=0.45836163
+/ATLAS_2019_I1725190/d01-x01-y01,/ATLAS_2019_I1725190/d02-x01-y01
+Exclusion with EXP=0.56209010
+/ATLAS_2019_I1725190/d01-x01-y01,/ATLAS_2019_I1725190/d02-x01-y01
+
+Pool:CMS_13_HMDY
+Exclusion with DATABG=0.13562379
+/CMS_2018_I1711625/d05-x01-y01,/CMS_2018_I1711625/d06-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_4L
+Exclusion with DATABG=0.00000000
+/ATLAS_2017_I1625109/d02-x01-y01
+Exclusion with SMBG=0.00000000
+/ATLAS_2019_I1720442/d01-x01-y01
+Exclusion with EXP=0.00000000
+/ATLAS_2019_I1720442/d01-x01-y01
+
+Pool:ATLAS_13_LL_GAMMA
+Exclusion with DATABG=0.02997757
+/ATLAS_2019_I1764342/d04-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_LMETJET
+Exclusion with DATABG=0.91244091
+/ATLAS_2019_I1750330:TYPE=BOTH/d843-x01-y01
+Exclusion with EXP=0.43083062
+/ATLAS_2019_I1750330:TYPE=BOTH/d843-x01-y01
+Exclusion with SMBG=0.72119782
+/ATLAS_2019_I1750330:TYPE=BOTH/d855-x01-y01
+
+Pool:CMS_13_MMETJET
+Exclusion with DATABG=0.00047415
+/CMS_2019_I1705068/d04-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:CMS_13_LMETJET
+Exclusion with DATABG=0.19891197
+/CMS_2018_I1662081/d12-x01-y01
+Exclusion with SMBG=0.13547772
+/CMS_2018_I1662081/d12-x01-y01
+Exclusion with EXP=0.12244900
+/CMS_2018_I1662081/d13-x01-y01
+
+Pool:ATLAS_13_LMET_GAMMA
+Exclusion with DATABG=0.00002570
+/ATLAS_2018_I1707015:LMODE=SINGLE/d05-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_L1L2MET_GAMMA
+Exclusion with DATABG=0.00003573
+/ATLAS_2018_I1707015:LMODE=DILEPTON/d10-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_L1L2MET
+Exclusion with DATABG=0.00030490
+/ATLAS_2019_I1734263/d01-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_L1L2METJET
+Exclusion with DATABG=0.25819176
+/ATLAS_2019_I1718132:LMODE=ELMU/d67-x01-y01
+Exclusion with SMBG=0.09547017
+/ATLAS_2019_I1759875/d01-x01-y01
+Exclusion with EXP=0.07834377
+/ATLAS_2019_I1759875/d01-x01-y01
+
+Pool:CMS_13_LLJET
+Exclusion with DATABG=0.02600794
+/CMS_2020_I1814328/d04-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:LHCB_13_L1L2B
+Exclusion with DATABG=0.00000000
+/LHCB_2018_I1662483/d01-x01-y01
+Exclusion with SMBG=0.00000000
+/LHCB_2018_I1662483/d01-x01-y01
+Exclusion with EXP=0.00079254
+/LHCB_2018_I1662483/d01-x01-y01
+
+Pool:ATLAS_13_GAMMA_MET
+Exclusion with DATABG=0.16572598
+/ATLAS_2018_I1698006:LVETO=ON/d04-x01-y01
+No exclusion evaluated for SMBG
+No exclusion evaluated for EXP
+
+Pool:ATLAS_13_METJET
+Exclusion with DATABG=0.22404969
+/ATLAS_2016_I1458270/d05-x01-y01
+Exclusion with SMBG=0.22404969
+/ATLAS_2016_I1458270/d05-x01-y01
+Exclusion with EXP=0.21496657
+/ATLAS_2016_I1458270/d05-x01-y01
