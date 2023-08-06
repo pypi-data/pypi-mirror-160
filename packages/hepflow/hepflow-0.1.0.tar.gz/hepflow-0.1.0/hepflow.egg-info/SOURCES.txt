@@ -1,0 +1,13 @@
+.flake8
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+hepflow/__init__.py
+hepflow/__version__.py
+hepflow.egg-info/PKG-INFO
+hepflow.egg-info/SOURCES.txt
+hepflow.egg-info/dependency_links.txt
+hepflow.egg-info/not-zip-safe
+hepflow.egg-info/top_level.txt
