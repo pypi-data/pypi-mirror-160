@@ -1,0 +1,7 @@
+pyelftools
+jsonschema
+
+[all]
+pyelftools
+jsonschema
+pytest>=4.6.2

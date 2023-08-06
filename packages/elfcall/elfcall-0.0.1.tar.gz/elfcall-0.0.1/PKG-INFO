@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: elfcall
+Version: 0.0.1
+Summary: generate callgraph data for ELF binaries
+Home-page: https://github.com/vsoch/elfcall
+Author: Vanessa Sochat
+Author-email: vsoch@users.noreply.github.io
+Maintainer: Vanessa Sochat
+License: LICENSE
+Keywords: ELF,callgraph
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.3
+Description-Content-Type: text/markdown
+Provides-Extra: all
+License-File: LICENSE
+
+# Elfcall
+
+Generate call graph data for an elf binary.
+
+This works by way of extracting symbols fromthe ELF, figuring out dependencies
+via links and RPATH, and then outputting data to file.
+
+⭐️ [Documentation](https://vsoch.github.io/elfcall/) ⭐️
+
+## TODO
+
+ - tests tests tests!
+
+## License
+
+Licensed under the terms of the General Public License version 3
+
+SPDX-License-Identifier: GPL-3.0-only
+
+Copyright 2018-2019 - Armijn Hemel
+Copyright 2021 - Open Source Automation Development Lab (OSADL) eG, author Carsten Emde
+Copyright 2022 - Vanessa Sochat (@vsoch)
+
+

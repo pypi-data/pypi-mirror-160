@@ -1,0 +1,3 @@
+[console_scripts]
+elfcall = elfcall.client:run_client
+
