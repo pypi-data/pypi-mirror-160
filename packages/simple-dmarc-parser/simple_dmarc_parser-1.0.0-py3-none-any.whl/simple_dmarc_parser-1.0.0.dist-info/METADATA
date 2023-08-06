@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simple-dmarc-parser
+Version: 1.0.0
+Summary: A Python script that processes DMARC reports from a mailbox and gives a basic summary.
+Author: FrostTheFox
+Author-email: python@frostthefox.pw
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: imap-tools (>=0.56.0,<0.57.0)
+Requires-Dist: xmltodict (>=0.13.0,<0.14.0)
