@@ -1,0 +1,68 @@
+# documentation: https://python-poetry.org/docs/pyproject/
+
+[tool.poetry.scripts]
+ego-cli = "pyego.cli:execute"
+
+[tool.poetry]
+packages = [
+    { from = "./",   include = "Makefile", format = ["sdist"] },
+    { from = "./",   include = "tests/",   format = ["sdist"] },
+    { from = "src/", include = "pyego/",   format = ["sdist", "wheel"] },
+]
+include = [
+  "docs/site/",
+]
+exclude = [
+]
+
+name = "pyego"
+version = "0.1.1"
+authors = [ "John Doe <john.doe@ema.il>", "Smith Doe <smith.doe@ema.il>" ]
+maintainers = [ "Smith Doe <smith.doe@ema.il>", "Sam Doe <sam.doe@ema.il>" ]
+description = "Short distribution description."
+readme = "README.md"
+license = "MIT"
+keywords = []
+classifiers = [ # https://pypi.org/classifiers/
+    "Natural Language :: English",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3.9",
+]
+homepage = "https://github.com/johndoe/reponame/"
+repository = "https://github.com/johndoe/reponame/"
+documentation = "https://github.com/johndoe/reponame/"
+[tool.poetry.urls]
+"Bug Reports" = "https://github.com/johndoe/reponame/issues"
+"Sponsorship" = "https://github.com/sponsors/johndoe"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+ujson = "^5.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+mkdocs = "^1.3.0"
+mkdocs-add-number-plugin = "^1.2.2"
+mkdocs-enumerate-headings-plugin = "^0.5.0"
+mkdocs-exclude = "^1.0.2"
+mkdocs-exclude-search = "^0.6.4"
+mkdocs-extensions = "^0.1.2"
+mkdocs-macros-plugin = "^0.6.3"
+mkdocs-material = "^8.1.8"
+mkdocs-material-extensions = "^1.0.3"
+mkdocs-minify-plugin = "^0.5.0"
+mkdocs-redirects = "^1.0.3"
+mkdocs-roamlinks-plugin = "^0.1.3"
+mkdocs-git-revision-date-localized-plugin = "^0.11.1"
+
+[tool.poetry.extras]
+mysql = ["mysqlclient"]
+pgsql = ["psycopg2"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
