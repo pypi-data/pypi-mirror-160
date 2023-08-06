@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+sharkiq/__init__.py
+sharkiq/ayla_api.py
+sharkiq/const.py
+sharkiq/exc.py
+sharkiq/sharkiq.py
+sharkiq.egg-info/PKG-INFO
+sharkiq.egg-info/SOURCES.txt
+sharkiq.egg-info/dependency_links.txt
+sharkiq.egg-info/requires.txt
+sharkiq.egg-info/top_level.txt
