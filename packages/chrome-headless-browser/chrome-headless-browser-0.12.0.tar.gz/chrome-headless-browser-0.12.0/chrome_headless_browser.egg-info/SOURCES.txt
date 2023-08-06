@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+version.txt
+chrome_headless/__init__.py
+chrome_headless/browser.py
+chrome_headless/testcase.py
+chrome_headless/util.py
+chrome_headless/webview.py
+chrome_headless_browser.egg-info/PKG-INFO
+chrome_headless_browser.egg-info/SOURCES.txt
+chrome_headless_browser.egg-info/dependency_links.txt
+chrome_headless_browser.egg-info/requires.txt
+chrome_headless_browser.egg-info/top_level.txt
