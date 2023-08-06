@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pcdscalc
+Version: 0.3.3
+Summary: PCDS Calculation Routines
+Home-page: https://github.com/pcdshub/pcdscalc
+Author: SLAC National Accelerator Laboratory
+License: BSD
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+===============================
+pcdscalc
+===============================
+
+.. image:: https://img.shields.io/travis/pcdshub/pcdscalc.svg
+        :target: https://travis-ci.org/pcdshub/pcdscalc
+
+.. image:: https://img.shields.io/pypi/v/pcdscalc.svg
+        :target: https://pypi.python.org/pypi/pcdscalc
+
+
+PCDS Control-system Agnostic Calculation Routines
+
+Documentation
+-------------
+
+https://pcdshub.github.io/pcdscalc/
+
+
+Requirements
+------------
+
+* Python 3.6+
+* See `requirements`_.
+
+Installation
+------------
+
+::
+
+    $ pip install git+https://github.com/pcdshub/pcdscalc
+
+
+Running the Tests
+-----------------
+::
+
+  $ pytest -vv
+
+
+.. _requirements: requirements.txt
