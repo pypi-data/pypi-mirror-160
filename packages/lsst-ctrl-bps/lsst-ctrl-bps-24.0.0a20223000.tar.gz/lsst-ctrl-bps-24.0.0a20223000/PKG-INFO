@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: lsst-ctrl-bps
+Version: 24.0.0a20223000
+Summary: Pluggable execution of workflow graphs from Rubin pipelines.
+Author-email: Rubin Observatory Data Management <dm-admin@lists.lsst.org>
+License: GPLv3+ License
+Project-URL: Homepage, https://github.com/lsst/ctrl_bps
+Keywords: lsst
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: COPYRIGHT
+License-File: LICENSE
+
+# ctrl_bps
+This package provides a PipelineTask execution framework for multi-node processing for the LSST Batch Production Service (BPS).
+
+This is a Python 3 only package.
