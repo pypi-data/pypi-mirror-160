@@ -1,0 +1,12 @@
+daita/__init__.py,sha256=RZUd4J9vcUxWcs4ntUpKXdBWxsKN50vt24uLI2kG_Co,24
+daita/daita.py,sha256=Y1nL1fL7aq-l9i0GS2CZDQNVNzClxRAkJtNCu0p-lFE,489
+daita/dashboard.py,sha256=zSF8Tca8Y_zWNk70ZerQRcKMHObc_QoTlLIPfgZrzzk,3383
+daita/footer.py,sha256=yXOcVhtDtoN5AUS-PMH_Lkrg1URUBUlZVoDEYcM0APU,310
+daita/upload_images.py,sha256=6euhuj4XT0zm6xG8MTficEQrJ7dRk8X8eT2KGIL0GxY,5742
+daita/upload_zip.py,sha256=cKjZO9-fGAYSoguauJpeuJHwdeEv1fEbr6OlFOk2XsY,1650
+daita-0.0.2.3.dist-info/LICENSE,sha256=6le3x13HNDVJuaI9g29ixUxcWvSOzmsrVmNiGU9rDq8,1075
+daita-0.0.2.3.dist-info/METADATA,sha256=VCQrHmmwxTg8ypUxCUGylvWU9AK-wvPuSwxTIpgpTWs,1572
+daita-0.0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+daita-0.0.2.3.dist-info/entry_points.txt,sha256=zyUICdPckf0nBWlbSTHfUA35AckCxf6VPd6O2vRIWpg,43
+daita-0.0.2.3.dist-info/top_level.txt,sha256=a5PxeG_miSR4662lb7kGqvTEl0IDicKmbuiJ_aCIhe0,6
+daita-0.0.2.3.dist-info/RECORD,,
