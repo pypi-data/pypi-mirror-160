@@ -1,0 +1,9 @@
+openfermion>=1.5.0
+cirq-core>=0.15.0
+cirq-google>=0.15.0
+jupyter
+numpy>=1.14
+scipy
+pyasn1-modules==0.2.7
+Sphinx>=2.3.1
+Cython
