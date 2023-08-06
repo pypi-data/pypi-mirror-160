@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-messaging.neongeckocom=skill_messaging:MessagingSkill
+
