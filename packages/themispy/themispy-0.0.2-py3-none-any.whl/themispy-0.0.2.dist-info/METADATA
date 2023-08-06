@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: themispy
+Version: 0.0.2
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: azure-functions
+Requires-Dist: azure-storage-blob
+Requires-Dist: scrapy
+
