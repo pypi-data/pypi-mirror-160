@@ -1,0 +1,3 @@
+[console_scripts]
+pelican-data-files = pelican.plugins.data_files.tools.cli:main
+
