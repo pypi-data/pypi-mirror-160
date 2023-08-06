@@ -1,0 +1,4 @@
+[wrap-git]
+url = https://github.com/lz4/lz4.git
+revision = fb46a7fe8cd99bb9b8d9fc95d8fa6c238593a740
+patch_directory = lz4
