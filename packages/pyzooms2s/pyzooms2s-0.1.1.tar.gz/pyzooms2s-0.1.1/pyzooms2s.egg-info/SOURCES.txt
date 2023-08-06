@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+pyzooms2s/__init__.py
+pyzooms2s/pyzooms2s.py
+pyzooms2s.egg-info/PKG-INFO
+pyzooms2s.egg-info/SOURCES.txt
+pyzooms2s.egg-info/dependency_links.txt
+pyzooms2s.egg-info/requires.txt
+pyzooms2s.egg-info/top_level.txt

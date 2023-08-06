@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyzooms2s
+Version: 0.1.1
+Summary: Zoom Python Server-to-Server OAuth SDK
+Home-page: https://github.com/MikeRalston98/pyzooms2s
+Author: Michael Ralston
+Author-email: michaelaaralston2@gmail.com
+License: MIT
+Keywords: Zoom,Server-To-Server
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
