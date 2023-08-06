@@ -1,0 +1,12 @@
+README.md
+setup.py
+dorothy_datasets/__init__.py
+dorothy_datasets/configs.py
+dorothy_datasets/datasets.py
+dorothy_datasets/stratified_kfold.py
+dorothy_datasets/utils.py
+dorothy_datasets.egg-info/PKG-INFO
+dorothy_datasets.egg-info/SOURCES.txt
+dorothy_datasets.egg-info/dependency_links.txt
+dorothy_datasets.egg-info/requires.txt
+dorothy_datasets.egg-info/top_level.txt
