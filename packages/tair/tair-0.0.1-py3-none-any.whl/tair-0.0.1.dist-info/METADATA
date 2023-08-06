@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tair
+Version: 0.0.1
+Summary: Python client for Tair
+Home-page: https://github.com/alibaba/tair-py
+Author: Vincil Lau
+Author-email: vincillau@outlook.com
+License: MIT
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: redis (>=4.2)
+
