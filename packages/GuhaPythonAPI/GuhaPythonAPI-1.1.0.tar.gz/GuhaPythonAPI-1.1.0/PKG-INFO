@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: GuhaPythonAPI
+Version: 1.1.0
+Summary: Low Usage Secure Data Encryption Algorithm API, Written in Java, Python, and TypeScript
+Home-page: https://github.com/yamunasoftware/GuhaAPI
+Author: Yamuna Software Solutions
+Author-email: yamunasoftware18@gmail.com
+License: MIT
+Download-URL: https://github.com/yamunasoftware/GuhaAPI/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Security,Encryption,Cross-Language
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
