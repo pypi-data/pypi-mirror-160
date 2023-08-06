@@ -1,0 +1,5 @@
+setup.py
+iamspy.egg-info/PKG-INFO
+iamspy.egg-info/SOURCES.txt
+iamspy.egg-info/dependency_links.txt
+iamspy.egg-info/top_level.txt
