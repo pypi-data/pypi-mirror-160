@@ -1,0 +1,8 @@
+aiohttp_aiopylimit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_aiopylimit/decorators.py,sha256=e3CwSf8ygN3z5aql5fkeQP-mQKbLIQFfsz9ESsm5DA4,1341
+aiohttp_aiopylimit/limit.py,sha256=PPmt-uyOTk7hXbWF9vluAqEdhU4b9gjfq5ccAyDAXgQ,2252
+aiohttp_aiopylimit-1.0.0.dev0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiohttp_aiopylimit-1.0.0.dev0.dist-info/METADATA,sha256=rtgiE_KvHfjI42g48M5EuAh-jZeHWHHr0ytf6TVkNxY,379
+aiohttp_aiopylimit-1.0.0.dev0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aiohttp_aiopylimit-1.0.0.dev0.dist-info/top_level.txt,sha256=HiK6ottceFmZOUYyJSl5P2-e1fdbcYVpOiivEnOWHBw,19
+aiohttp_aiopylimit-1.0.0.dev0.dist-info/RECORD,,

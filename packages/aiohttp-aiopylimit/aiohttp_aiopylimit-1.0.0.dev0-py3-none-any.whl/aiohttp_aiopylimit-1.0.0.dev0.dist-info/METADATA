@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: aiohttp-aiopylimit
+Version: 1.0.0.dev0
+Summary: A utlity package to help with distributed rate limiting with aiohttp and redis
+Home-page: https://github.com/dmarkey/aiohttp-aiopylimit
+Author: David Markey
+Author-email: david@dmarkey.com
+Keywords: rate limiting,throttle,redis,asyncio,aiohttp
+License-File: LICENSE
+Requires-Dist: aiopylimit (<=0.2.2)
+
