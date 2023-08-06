@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+algodocs/__init__.py
+algodocs.egg-info/PKG-INFO
+algodocs.egg-info/SOURCES.txt
+algodocs.egg-info/dependency_links.txt
+algodocs.egg-info/requires.txt
+algodocs.egg-info/top_level.txt
