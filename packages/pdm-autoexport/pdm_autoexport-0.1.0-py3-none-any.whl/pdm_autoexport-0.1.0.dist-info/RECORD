@@ -1,0 +1,7 @@
+pdm_autoexport/__init__.py,sha256=KI4Ipu-9JAcP21bf8XEhVgODsqpsEYGiD743rn_YIhc,268
+pdm_autoexport/hook.py,sha256=HZmzoR0MWxilYQ_T1hZA-CZWb04ut7yOuld7Hqah68M,1951
+pdm_autoexport-0.1.0.dist-info/entry_points.txt,sha256=YZ82I0OtNEIuHkU7IyqRGC2KjNFubgzohrPfmKD0sOM,38
+pdm_autoexport-0.1.0.dist-info/WHEEL,sha256=yeUPXbjHZ9L_W7c-3WOvRilLHys4L6b4CnlTTUzMMUo,87
+pdm_autoexport-0.1.0.dist-info/METADATA,sha256=dbBcgUffzeLkAuF1HzXvFwkHaKVaJufvxq0AQ6AMPns,2245
+pdm_autoexport-0.1.0.dist-info/license_files/LICENSE,sha256=ZfpC41Q0TE6uWT3m2I5jcRHEmFF3zbU2dJPi1LtEGgE,1067
+pdm_autoexport-0.1.0.dist-info/RECORD,,
