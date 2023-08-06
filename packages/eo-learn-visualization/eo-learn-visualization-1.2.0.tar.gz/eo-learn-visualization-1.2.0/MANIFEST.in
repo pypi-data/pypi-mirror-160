@@ -1,0 +1,5 @@
+include requirements*.txt
+include eolearn/visualization/report_templates/report.html
+include LICENSE
+include README.md
+exclude eolearn/tests/*
