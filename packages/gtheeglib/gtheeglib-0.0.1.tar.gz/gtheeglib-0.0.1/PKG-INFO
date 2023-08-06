@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gtheeglib
+Version: 0.0.1
+Summary: A very simple EEG library
+Home-page: 
+Author: gth
+Author-email: hadrien.gayaptagheu@esprit.tn
+License: MIT
+Keywords: EEG
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Welcome to gtheeglib
+It's a big project library that facilitates the utilisation and processing of Electroencephalogram
+
+Change Log
+============
+
+0.0.1 (24/07/2022)
+------------------
+
+- First Release
+
