@@ -1,0 +1,113 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '**'
+  pull_request: {}
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+
+    - run: pip install -U pip wheel
+    - run: pip install -r tests/requirements-linting.txt
+    - run: pip install .
+
+    - run: make lint
+
+  test:
+    name: test py${{ matrix.python-version }} on ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu, macos, windows]
+        python-version: ['3.7', '3.8', '3.9', '3.10']
+
+    env:
+      PYTHON: ${{ matrix.python-version }}
+      OS: ${{ matrix.os }}
+      EXTRAS: yes
+
+    runs-on: ${{ matrix.os }}-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: set up python
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - run: pip install -U pip wheel
+    - run: pip install -r tests/requirements.txt
+    - run: pip install .
+    - run: pip freeze
+
+    - name: test with extras
+      run: make test
+
+    - run: coverage xml
+
+    - uses: codecov/codecov-action@v2.0.3
+      with:
+        file: ./coverage.xml
+        env_vars: EXTRAS,PYTHON,OS
+
+    - name: uninstall extras
+      run: pip uninstall -y multidict numpy pydantic asyncpg sqlalchemy
+
+    - name: test without extras
+      run: make test
+
+    - run: coverage xml
+
+    - uses: codecov/codecov-action@v2.0.3
+      with:
+        file: ./coverage.xml
+        env_vars: EXTRAS,PYTHON,OS
+      env:
+        EXTRAS: no
+
+  deploy:
+    needs:
+      - test
+      - lint
+    if: "success() && startsWith(github.ref, 'refs/tags/')"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: set up python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: install
+        run: pip install -U build twine setuptools
+
+      - name: build
+        run: python -m build
+
+      - run: twine check dist/*
+
+      - name: upload to pypi
+        run: twine upload dist/*
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.pypi_token }}
+
+      - name: publish docs
+        run: make publish-docs
+        env:
+          NETLIFY: ${{ secrets.netlify_token }}
