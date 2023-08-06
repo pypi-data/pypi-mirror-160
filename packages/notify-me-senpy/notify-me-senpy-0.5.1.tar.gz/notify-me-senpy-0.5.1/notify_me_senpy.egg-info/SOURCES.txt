@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+notify_me_senpy.egg-info/PKG-INFO
+notify_me_senpy.egg-info/SOURCES.txt
+notify_me_senpy.egg-info/dependency_links.txt
+notify_me_senpy.egg-info/entry_points.txt
+notify_me_senpy.egg-info/requires.txt
+notify_me_senpy.egg-info/top_level.txt
+senpy/__init__.py
+senpy/account_manager.py
+senpy/cli.py
+senpy/jobs.py
+senpy/notifications.py
+senpy/request_utils.py
+senpy/user_token.py

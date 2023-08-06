@@ -1,0 +1,4 @@
+colorama==0.4.4
+keyring==23.2.1
+requests==2.26.0
+inquirerpy==0.3.0
