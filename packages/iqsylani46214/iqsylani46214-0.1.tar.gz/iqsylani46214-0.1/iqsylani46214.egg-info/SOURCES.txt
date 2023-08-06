@@ -1,0 +1,7 @@
+license.txt
+setup.py
+iqsylani46214/init.py
+iqsylani46214.egg-info/PKG-INFO
+iqsylani46214.egg-info/SOURCES.txt
+iqsylani46214.egg-info/dependency_links.txt
+iqsylani46214.egg-info/top_level.txt
