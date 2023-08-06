@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dan123456789
+Version: 2.4.6
+Summary: Simple PDF generation for Python
+Home-page: https://pyfpdf.github.io/fpdf2/
+Download-URL: https://github.com/PyFPDF/fpdf2/tarball/2.4.6
+Author: Olivier PLATHEY ported by Max
+Author-email: maxpat78@yahoo.it
+License: LGPLv3+
+Project-URL: Documentation, https://pyfpdf.github.io/fpdf2/
+Project-URL: Code, https://github.com/TERMICA-DEVs/fpdf2
+Project-URL: Issue tracker, https://github.com/PyFPDF/fpdf2/issues
+Keywords: pdf,unicode,png,jpg,ttf,barcode
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Printing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+
+This is just a fork of a project, you can find the original at https://github.com/PyFPDF/fpdf2 or at https://pypi.org/project/fpdf2/
