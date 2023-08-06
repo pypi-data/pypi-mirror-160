@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: EnigmaOP
+Version: 0.0.1
+Summary: Trail encryption methodology
+Home-page: UNKNOWN
+Author: Ninad Hegde
+Author-email: ninadhegde@gmail.com
+License: MIT
+Keywords: EnigmaOP
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+License-File: LICENCE.txt
+
+Long description
+

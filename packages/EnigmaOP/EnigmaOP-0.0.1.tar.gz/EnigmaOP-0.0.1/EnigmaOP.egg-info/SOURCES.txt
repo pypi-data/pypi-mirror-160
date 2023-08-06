@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+EnigmaOP/__init__.py
+EnigmaOP.egg-info/PKG-INFO
+EnigmaOP.egg-info/SOURCES.txt
+EnigmaOP.egg-info/dependency_links.txt
+EnigmaOP.egg-info/top_level.txt
