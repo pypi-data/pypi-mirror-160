@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+understatscraper/__init__.py
+understatscraper.egg-info/PKG-INFO
+understatscraper.egg-info/SOURCES.txt
+understatscraper.egg-info/dependency_links.txt
+understatscraper.egg-info/requires.txt
+understatscraper.egg-info/top_level.txt
