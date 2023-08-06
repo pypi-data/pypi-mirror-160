@@ -1,0 +1,2 @@
+tensorflow<3,>=2
+sparsity_pattern<1,>=0.4.3
