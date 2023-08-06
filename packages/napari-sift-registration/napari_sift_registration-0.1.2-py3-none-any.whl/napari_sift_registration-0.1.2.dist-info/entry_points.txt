@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-sift-registration = napari_sift_registration:napari.yaml

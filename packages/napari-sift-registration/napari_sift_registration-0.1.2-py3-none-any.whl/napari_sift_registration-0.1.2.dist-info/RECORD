@@ -1,0 +1,9 @@
+napari_sift_registration/__init__.py,sha256=d43fgCarAwf9ODbD8aNYF4ICAUbVBS2bByp1Geh6w54,66
+napari_sift_registration/_widget.py,sha256=vwHhWOuLqUUeKWvBzHTbprE7b4rsBS59kH2NjcXtfaQ,7006
+napari_sift_registration/napari.yaml,sha256=KtNJJ-Yo1ioAZjlgisKe_FrIPZytRL7gIkxpo6WPVZ8,390
+napari_sift_registration-0.1.2.dist-info/LICENSE,sha256=1CHA7flR6X1OKln1DCR2a0s0OidKapVO8h_WF3xXJws,1494
+napari_sift_registration-0.1.2.dist-info/METADATA,sha256=jEkePaX9x1EyqCF85kzP7ETtA0OuBslypNq3uLKjw3s,7992
+napari_sift_registration-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_sift_registration-0.1.2.dist-info/entry_points.txt,sha256=AeUaPTsTuhHqEGttXGWoEs46UT9IGRNVNaxg0eZuCaE,82
+napari_sift_registration-0.1.2.dist-info/top_level.txt,sha256=HTsq-zS6lQANK0TTLtki8z26F0-AOSWl4j6ayun9cYY,25
+napari_sift_registration-0.1.2.dist-info/RECORD,,
