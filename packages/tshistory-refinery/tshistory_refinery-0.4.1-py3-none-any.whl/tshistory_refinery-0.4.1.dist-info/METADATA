@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: tshistory-refinery
+Version: 0.4.1
+Summary: UNKNOWN
+Author: Pythonian
+Author-email: aurelien.campeas@pythonian.fr, arnaud.campeas@pythonian.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: tshistory (>=0.15.0)
+Requires-Dist: tsview (>=0.14.0)
+Requires-Dist: tshistory-supervision (>=0.10.1)
+Requires-Dist: tshistory-formula (>=0.11.0)
+Requires-Dist: tshistory-editor (>=0.8.2)
+Requires-Dist: tshistory-xl (>=0.4.0)
+Requires-Dist: rework (>=0.15.0)
+Requires-Dist: rework-ui (>=0.13.0)
+Requires-Dist: inireader
+Requires-Dist: pytest-sa-pg
+Requires-Dist: webtest
+Requires-Dist: responses
+Requires-Dist: requests
+Requires-Dist: pml
+Requires-Dist: pygments
+Requires-Dist: croniter
+
+UNKNOWN
+
