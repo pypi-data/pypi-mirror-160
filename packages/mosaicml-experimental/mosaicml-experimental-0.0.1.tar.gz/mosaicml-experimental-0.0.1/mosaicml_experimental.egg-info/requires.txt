@@ -1,0 +1,10 @@
+mosaicml>=0.8.0
+pytest==7.1.0
+toml==0.10.2
+yapf==0.32.0
+isort==5.10.1
+ipython==7.32.0
+ipykernel==6.9.2
+jupyter==1.0.0
+yamllint==1.26.3
+docformatter==1.4
