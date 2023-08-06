@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+grouping_sizePkg/__init__.py
+grouping_sizePkg/grouping_sizePkg.py
+grouping_sizePkg.egg-info/PKG-INFO
+grouping_sizePkg.egg-info/SOURCES.txt
+grouping_sizePkg.egg-info/dependency_links.txt
+grouping_sizePkg.egg-info/top_level.txt
