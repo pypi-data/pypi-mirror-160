@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: microsoft-azure-sphere-deviceapi
+Version: 0.0.1
+Summary: A library for interacting with Azure Sphere using the inbuilt REST server.
+Home-page: https://github.com/Azure/azure-sphere-samples/Manufacturing/src/Python/
+Author: Microsoft Corporation
+Author-email: azsppgsup@microsoft.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/Azure/azure-sphere-samples/issues
+Project-URL: Source, https://github.com/Azure/azure-sphere-samples/Manufacturing/src/Python/
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Microsoft Azure Sphere Device REST APIs for Python
+
+Microsoft Azure Sphere Device REST APIs for Python enables users to interact with an Azure Sphere device using REST APIs.
