@@ -1,0 +1,1 @@
+{"条形码": "catalogNumber", "采集人": "recordedBy", "拉丁名": "scientificName", "行政区划": "higherGeography", "习性": "habit", "采集日期": "eventDate", "经纬度": "verbatimCoordinates", "('海拔', ('-',))": "('minimumElevationInMeters', 'maximumElevationInMeters')"}
