@@ -1,0 +1,15 @@
+stereotech_cloud_commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stereotech_cloud_commons/app.py,sha256=n_OVXoDSm6_9vmEDhREMrnjYCd7K11B1xcyTfuTXfKY,29403
+stereotech_cloud_commons/confighelper.py,sha256=PR7eXXD36ozBHnK9liyBHoLSmkWP9y3bK5XeRgCFyvQ,6534
+stereotech_cloud_commons/eventloop.py,sha256=r58y9sU2eDWW5QobhV--3vQSx6YxhWDBIB3kRQe0fvk,2781
+stereotech_cloud_commons/stereotech_cloud.py,sha256=pMgKUe_b5U9rkk750MD5ABxEBQo6oSw__hg3gUZISss,11372
+stereotech_cloud_commons/utils.py,sha256=q53Srzl2DVK4bChC64DeRqwKgUKLNmA_d59iLL7PhAg,6191
+stereotech_cloud_commons/websockets.py,sha256=weVzDbD9xFEXSpyC7A0fLfYS0p3lYlvYkDMkDVtWYdw,16483
+stereotech_cloud_commons/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stereotech_cloud_commons/components/authorization.py,sha256=AeKybL0ofutpvG0kWjkKlrtnZftDaagqz4uqKlO-CEc,11375
+stereotech_cloud_commons/components/mongo_database.py,sha256=yPBLstVJ8a0GonzuojaBQ-pU2149ETuwXs8QOHSJ8MI,4820
+stereotech_cloud_commons-1.0.8.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+stereotech_cloud_commons-1.0.8.dist-info/METADATA,sha256=XDEfuaOLLY84TAOq8B33l_yDXStl-uGoDL9stExySXg,41138
+stereotech_cloud_commons-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stereotech_cloud_commons-1.0.8.dist-info/top_level.txt,sha256=37UXhLsuNHtXMuCht8MWbEKhJULvYIOi4bjnH9ZyEPI,25
+stereotech_cloud_commons-1.0.8.dist-info/RECORD,,
