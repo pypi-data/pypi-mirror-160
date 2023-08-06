@@ -1,0 +1,6 @@
+saspy
+hvac
+sqlparse
+
+[:platform_system == "Windows"]
+pythonnet>=1.0
