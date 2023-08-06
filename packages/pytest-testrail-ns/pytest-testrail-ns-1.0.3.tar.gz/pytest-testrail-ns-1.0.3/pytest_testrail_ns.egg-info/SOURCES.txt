@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+pytest_testrail/__init__.py
+pytest_testrail/conftest.py
+pytest_testrail/plugin.py
+pytest_testrail/testrail_api.py
+pytest_testrail_ns.egg-info/PKG-INFO
+pytest_testrail_ns.egg-info/SOURCES.txt
+pytest_testrail_ns.egg-info/dependency_links.txt
+pytest_testrail_ns.egg-info/entry_points.txt
+pytest_testrail_ns.egg-info/requires.txt
+pytest_testrail_ns.egg-info/top_level.txt
