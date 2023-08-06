@@ -1,0 +1,8 @@
+django-json-response
+celery
+django-celery-results
+arrow
+python-dateutil
+pytz
+python-crontab
+paho-mqtt
