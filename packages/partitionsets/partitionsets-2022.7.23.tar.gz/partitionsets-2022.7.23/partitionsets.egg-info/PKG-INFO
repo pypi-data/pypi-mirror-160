@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: partitionsets
+Version: 2022.7.23
+Summary: Implementation of dict supporting context managed thread safe and mutable iterations through a lock.
+Home-page: https://git.sr.ht/~sthagen/partitionsets
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://github.com/sthagen/partitionsets/issues
+Project-URL: Documentation, https://codes.dilettant.life/docs/partitionsets
+Project-URL: Source Code, https://git.sr.ht/~sthagen/partitionsets
+Keywords: developer-tools,partitions,sets
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# partitionsets
+
+Consolidation of existing third party recipes for partitioning of sets and multisets/bags.
+
+[![license](https://img.shields.io/github/license/sthagen/partitionsets?style=flat)](https://github.com/sthagen/partitionsets/blob/default/LICENSE)
+
+[![version](https://img.shields.io/pypi/v/partitionsets.svg?style=flat)](https://pypi.python.org/pypi/partitionsets/)
+[![downloads](https://img.shields.io/pypi/dm/partitionsets.svg?style=flat)](https://pypi.python.org/pypi/partitionsets/)
+[![wheel](https://img.shields.io/pypi/wheel/partitionsets.svg?style=flat)](https://pypi.python.org/pypi/partitionsets/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/partitionsets.svg?style=flat)](https://pypi.python.org/pypi/partitionsets/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/partitionsets.svg?style=flat)](https://pypi.python.org/pypi/partitionsets/)
+
+## Documentation
+
+User and developer [documentation of partitionsets](https://codes.dilettant.life/docs/partitionsets).
+
+## Primary Source repository
+
+The primary source repository of [partitionsets is at sourcehut](https://git.sr.ht/~sthagen/partitionsets) 
+a collection of tools useful for software development.
+## Status
+
+Production/stable.
+
+**Note**: The default branch is `default`.
