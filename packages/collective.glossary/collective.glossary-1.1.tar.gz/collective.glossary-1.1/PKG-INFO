@@ -1,0 +1,204 @@
+Metadata-Version: 2.1
+Name: collective.glossary
+Version: 1.1
+Summary: Content types to define a glossary and its terms
+Home-page: https://github.com/collective/collective.glossary
+Author: Simples Consultoria
+Author-email: products@simplesconsultoria.com.br
+License: GPL version 2
+Project-URL: PyPI, https://pypi.python.org/pypi/collective.glossary
+Project-URL: Source, https://github.com/collective/collective.glossary
+Project-URL: Tracker, https://github.com/collective/collective.glossary/issues
+Description: .. image:: http://img.shields.io/pypi/v/collective.glossary.svg
+            :target: https://pypi.python.org/pypi/collective.glossary
+        
+        .. image:: https://github.com/collective/collective.glossary/actions/workflows/tests.yml/badge.svg
+            :alt: Github workflow status badge
+        
+        
+        ===================
+        collective.glossary
+        ===================
+        
+        Content types to define a glossary and its terms.
+        
+        
+        Screenshots
+        -----------
+        
+        .. figure:: https://raw.github.com/collective/collective.glossary/master/docs/glossary.png
+            :align: center
+            :height: 640px
+            :width: 768px
+        
+            Create a Glossary.
+        
+        
+        .. figure:: https://raw.github.com/collective/collective.glossary/master/docs/controlpanel.png
+            :align: center
+            :height: 400px
+            :width: 768px
+        
+            The tooltip can be restricted to content types and disabled in the control panel configlet.
+        
+        
+        .. figure:: https://raw.github.com/collective/collective.glossary/master/docs/usage.png
+            :align: center
+            :height: 640px
+            :width: 768px
+        
+            Tooltip
+        
+        
+        
+        Installation
+        ------------
+        
+        Install collective.glossary by adding it to your buildout::
+        
+            [buildout]
+        
+            ...
+        
+            eggs =
+                collective.glossary
+        
+        
+        and then running ``bin/buildout``
+        
+        
+        Translations
+        ------------
+        
+        This product has been translated into
+        
+        - german
+        
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/collective/collective.glossary/issues
+        - Source Code: https://github.com/collective/collective.glossary
+        
+        
+        Support
+        -------
+        
+        If you are having issues, please let us know: https://community.plone.org
+        
+        
+        License
+        -------
+        
+        The project is licensed under the GPLv2.
+        
+        
+        Supported versions
+        ------------------
+        
+        Python 3.7+
+        Plone 5.2, Plone 6
+        
+        
+        Contributors
+        ============
+        
+        - Héctor Velarde
+        - Rodrigo Ferreira de Souza
+        - Katja Süss, Rohberg, k.suess@rohberg.ch, @ksuess
+        
+        
+        Changelog
+        =========
+        
+        1.1 (2022-07-27)
+        ----------------
+        
+        - Support Plone 6
+          [ksuess]
+        - Support Plone 5.2 (Python 3.7+).
+          [ksuess]
+        - Switch to github workflow CI.
+          [ksuess]
+        - Test with tox.
+          [ksuess]
+        - Enhance layout of glossary and tooltip.
+          [ksuess]
+        
+        1.0b2
+        -----
+        
+        - Drop support for Plone 5.0.
+          [hvelarde]
+        
+        - language specific sorting of terms with the same later using zope.ucol
+          [ajung]
+        
+        1.0b1 (2016-12-19)
+        ------------------
+        
+        - Term template was refactored to avoid duplicated definitions (closes `#26`_)
+          [hvelarde]
+        
+        - Glossary terms now use ``tile`` scales (closes `#5`_).
+          [hvelarde]
+        
+        - Remove dependency on five.grok.
+          [hvelarde]
+        
+        - Fix ``ReferenceError`` on JavaScript code (Plone 5 does not include global variables anymore).
+          [hvelarde, rodfersou]
+        
+        - Remove dependency on Products.CMFQuickInstallerTool.
+          [hvelarde]
+        
+        - Change glossary to always call JSON view from the portal URL (closes `#22`).
+          [rodfersou]
+        
+        - A new rich text field was added to the Glossary content type.
+          [hvelarde]
+        
+        - Normalize glossary index (closes `#18`_).
+          [rodfersou]
+        
+        - Add option to select content types that will display glossary terms (closes `#14`_).
+          [rodfersou]
+        
+        - Apply Glossary just to #content-core. (closes `#12`_).
+          [rodfersou]
+        
+        - Review method `is_view_action` to work with Virtual Host configuration.
+          [rodfersou]
+        
+        - Terms should only be added inside a Glossary (closes `#8`_).
+          [hvelarde]
+        
+        
+        1.0a1 (2015-05-18)
+        ------------------
+        
+        - Initial release.
+        
+        .. _`#5`: https://github.com/collective/collective.cover/issues/5
+        .. _`#8`: https://github.com/collective/collective.cover/issues/8
+        .. _`#12`: https://github.com/collective/collective.cover/issues/12
+        .. _`#14`: https://github.com/collective/collective.cover/issues/14
+        .. _`#18`: https://github.com/collective/collective.cover/issues/18
+        .. _`#22`: https://github.com/collective/collective.cover/issues/22
+        .. _`#26`: https://github.com/collective/collective.cover/issues/26
+        
+Keywords: Python Plone CMS
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 5.2
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: >=3.7
+Provides-Extra: test
