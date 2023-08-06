@@ -1,0 +1,135 @@
+
+# SCF_FSM_PACKAGE
+
+A resuable django application that can handle transition and workflow's in your project .
+
+
+## Authors
+
+- [@anandrajB](https://github.com/anandrajB)
+- [@Mohamed-Sheik-Ali](https://github.com/Mohamed-Sheik-Ali)
+
+
+## Installation
+
+Install scf_fsm_package with pip
+
+```bash
+pip install django-venzo-scf==1.0.5
+```
+
+In your django application , browse to installed_apps section in settings.py 
+and add this ,
+
+```bash
+INSTALLED_APPS = [
+    'finflo'
+]
+```
+if you want party you can customize whatever you want add this finflo section in your settings.py 
+
+```bash
+FINFLO = {
+    'FROM_PARTY' : 'django_app.model_name', # example
+
+    'FROM_PARTY' : 'accounts.party',
+    'TO_PARTY' : 'accounts.party'
+}
+```
+
+or else
+
+```bash
+FINFLO = {
+    'FROM_PARTY' : None,
+    'TO_PARTY' : None
+}
+```
+
+now navigate to the middleware section and add the finflo middleware
+
+
+```
+MIDDLEWARE = [
+    'finflo.middleware.TransitionUserMiddleware',
+]
+```
+
+#### Additional Api (optional)
+
+In your application's urls.py , you can include finflo's api urls for browsable api's 
+
+** make sure that you have installed [DjangoRestFramework](https://www.django-rest-framework.org/#installation)
+
+
+Now add this peice of code in your urls.py
+
+```
+urlpatterns = [
+    path('', include('finflo.urls'))
+]
+```
+
+## Usage/Examples
+
+
+1. import your transition function from finflo.views 
+
+2. The transition function requires 4 positional arguments :
+
+3.
+    |  Arguments   | Data_Type  |
+    | ------------- | ------------- |
+    | type   | str  |
+    | action  | str  |
+    | stage  | int  |
+    | id (optional) | int  | 
+
+
+```python
+from finflo.views import finflo
+
+myhandler = finflo()
+
+# example function
+
+def index():
+    myhandler.transition(type = "PROGRAM",action = "submit" ,stage = 0)
+    return HttpResponse({"data"})
+
+```
+
+
+## Tech Stack
+
+    1. Python
+    2. Django==3.2.5
+    3. Django-rest-framework
+
+
+## API 
+
+#### Api urls 
+
+
+| Api URL's  | METHOD | QUERY_PARAMS |
+| ------------- | ------------- | ------------- |
+| *localhost/model/* | GET  | ?type=PROGRAM |
+| *localhost/*action*/* | GET | NONE |
+| *localhost/*action*/* | POST | NONE |
+| *localhost/*workflowitems*/* | GET | NONE |
+| *localhost/workevents/* | GET | NONE |
+
+
+
+
+## Support
+
+For support, email support@venzo.com .
+
+
+## Future
+    
+1. postgres support
+2. next_Avail_transitions
+
