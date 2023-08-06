@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+gogoanime/__init__.py
+gogoanime/downloaders.py
+gogoanime/main.py
+gogoanime/utils.py
+gogoanime_dl.egg-info/PKG-INFO
+gogoanime_dl.egg-info/SOURCES.txt
+gogoanime_dl.egg-info/dependency_links.txt
+gogoanime_dl.egg-info/not-zip-safe
+gogoanime_dl.egg-info/requires.txt
+gogoanime_dl.egg-info/top_level.txt
