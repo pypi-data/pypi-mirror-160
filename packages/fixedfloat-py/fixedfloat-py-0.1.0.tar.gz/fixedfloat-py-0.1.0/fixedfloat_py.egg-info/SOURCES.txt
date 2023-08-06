@@ -1,0 +1,7 @@
+README.md
+setup.py
+fixedfloat_py.egg-info/PKG-INFO
+fixedfloat_py.egg-info/SOURCES.txt
+fixedfloat_py.egg-info/dependency_links.txt
+fixedfloat_py.egg-info/requires.txt
+fixedfloat_py.egg-info/top_level.txt
