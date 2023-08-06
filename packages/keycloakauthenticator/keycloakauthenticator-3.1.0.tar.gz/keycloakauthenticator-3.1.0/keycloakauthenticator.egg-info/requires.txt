@@ -1,0 +1,3 @@
+jupyterhub
+oauthenticator==14.2.0
+PyJWT[crypto]>=2.0.0
