@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: xamino
+Version: 0.1.0
+Summary: A library to communicate with aminoapps api
+Home-page: https://github.com/forevercynical/xamino
+Author: forevercynical
+Author-email: me@cynical.gg
+License: MIT
+Keywords: aminoapps,amino,amino-bots,amino-bot,amino-bot-api,amino-bot-api-python,amino-bot-api-python3,amino-bot-api-python3-library
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: ujson
+Requires-Dist: typing
+Requires-Dist: colored
+Requires-Dist: setuptools
+
+# xamino
+
+**xamino** is a very simple aminoapps library.
+
+```python
+>>> import xamino
+>>> client = xamino.Client()
+>>> client.login(email=email, password=password)
+#NOTE: To access subclient
+subclient = subclient.SubClient(ndcId=ndcId, accountInfo=client.accountInfo)
+```
