@@ -1,0 +1,14 @@
+journal_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+journal_search/__main__.py,sha256=q0HHvOjY-C2_Dcdg9YCSxrbJfkpESIHIOYb0WLgxiAs,5101
+journal_search/utils.py,sha256=wfVMujkYqoENfTPBV6d2bxB8lu3Xc6QQ_uk5X78V13U,13971
+journal_search/assets/index.14cf70d2.css,sha256=FM9w0vx--jqsBns9Esfys_i3RToievy6m6kXICcHxqk,621896
+journal_search/assets/index.b31b0d13.js,sha256=gAgCttr_pTIt4OGf-1-LWVg4OxrbCr5K_RKU7nK7Ur4,3353899
+journal_search/assets/index.html,sha256=o33aRsqzPq66uSs6JsZGO_xLmXfa4AzxQlOQvhcLbLQ,456
+journal_search/assets/logo.svg,sha256=_vzKO80DlWo1BeUweuv4JHoAXqy83PSpfHvtAHetZKQ,2090
+journal_search/data/ccf2019.csv,sha256=SJSauB01bKc9NrhDUNiA1jCraF0gxwIaUjHhJaAgVWU,104212
+journal_search-1.0.0.dist-info/LICENSE,sha256=tmxzkrjE9TgjlqHue-g4mBi7Oud16zhTjMrcxwAgQ1k,1091
+journal_search-1.0.0.dist-info/METADATA,sha256=FoM5ROPMMyzsXtAPnB3xuphRAwuit4uc-YayL4LEFgY,2014
+journal_search-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+journal_search-1.0.0.dist-info/entry_points.txt,sha256=BRBi5OSLaWL_T2orFE78QBwC9Il7TP66rc9cvmoMS1g,64
+journal_search-1.0.0.dist-info/top_level.txt,sha256=zvTesG1X7LdPshM3cxbFLoHNi1N3tmbDZu11AT_gzCU,15
+journal_search-1.0.0.dist-info/RECORD,,
