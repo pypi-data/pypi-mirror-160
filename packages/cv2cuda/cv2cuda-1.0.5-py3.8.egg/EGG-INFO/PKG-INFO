@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cv2cuda
+Version: 1.0.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.0
+Provides-Extra: profile
+Provides-Extra: test
+
+UNKNOWN
+
