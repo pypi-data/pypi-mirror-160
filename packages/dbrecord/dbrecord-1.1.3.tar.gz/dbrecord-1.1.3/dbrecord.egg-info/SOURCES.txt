@@ -1,0 +1,14 @@
+README.md
+setup.py
+dbrecord/__init__.py
+dbrecord/interface.py
+dbrecord/pdict.py
+dbrecord/plist.py
+dbrecord/serilize_backend.py
+dbrecord/summary.py
+dbrecord/utils.py
+dbrecord.egg-info/PKG-INFO
+dbrecord.egg-info/SOURCES.txt
+dbrecord.egg-info/dependency_links.txt
+dbrecord.egg-info/requires.txt
+dbrecord.egg-info/top_level.txt
