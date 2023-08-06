@@ -1,0 +1,1 @@
+from .functions import isprime,ispair,isamstrong,factorial,tobinary,tohexadecimal
