@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+setup.py
+kucoin_cli.egg-info/PKG-INFO
+kucoin_cli.egg-info/SOURCES.txt
+kucoin_cli.egg-info/dependency_links.txt
+kucoin_cli.egg-info/requires.txt
+kucoin_cli.egg-info/top_level.txt
+kucoincli/__init__.py
+kucoincli/client.py
+kucoincli/pipe.py
+kucoincli/sockets/__init__.py
+kucoincli/sockets/manager.py
+kucoincli/sockets/subscribe.py
+kucoincli/utils/__init__.py
+kucoincli/utils/_helpers.py
+kucoincli/utils/_kucoinexceptions.py
