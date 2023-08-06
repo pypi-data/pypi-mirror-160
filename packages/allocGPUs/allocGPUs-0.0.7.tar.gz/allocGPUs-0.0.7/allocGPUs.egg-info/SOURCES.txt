@@ -1,0 +1,8 @@
+README.md
+allocGPUs.py
+setup.py
+allocGPUs.egg-info/PKG-INFO
+allocGPUs.egg-info/SOURCES.txt
+allocGPUs.egg-info/dependency_links.txt
+allocGPUs.egg-info/requires.txt
+allocGPUs.egg-info/top_level.txt
