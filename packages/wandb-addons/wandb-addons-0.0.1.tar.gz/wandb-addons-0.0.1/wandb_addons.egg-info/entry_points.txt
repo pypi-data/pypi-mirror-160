@@ -1,0 +1,2 @@
+[console_scripts]
+wandba = wandb_addons.cli.cli:cli

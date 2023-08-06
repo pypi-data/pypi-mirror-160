@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: wandb-addons
+Version: 0.0.1
+Summary: Additional toolbox for Weights & Biases
+Home-page: https://github.com/Janus-Shiau/wandb_addons
+Author: Jia-Yau Shiau
+Author-email: jiayau_shiau@htc.com
+License: Apache Software License (Apache-2.0)
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Weights and Biases Addons
+
+## What is it?
+
+Additional toolbox for Weights & Biases
+
+## Main Features
+
+- **wandb clean_local** TBA.
+
+## Where to get it
+
+wandb_addons can be installed from PyPI using `pip`:
+
+```bash
+pip install wandb_addons
+```
+
+## Interface
+
+TBA.
+
+
