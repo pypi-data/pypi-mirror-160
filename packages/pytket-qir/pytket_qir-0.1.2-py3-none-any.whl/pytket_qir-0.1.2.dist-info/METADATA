@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pytket-qir
+Version: 0.1.2
+Summary: Python module for interfacing QIR with the Quantinuum pytket library.
+Home-page: https://github.com/CQCL/pytket-qir
+Author: Roland Guichard
+Author-email: roland.guichard@cambridgequantum.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: keyring (>=23.6.0,<24.0.0)
+Requires-Dist: keyrings.alt (>=4.1.0,<5.0.0)
+Requires-Dist: nest-asyncio (>=1.5.5,<2.0.0)
+Requires-Dist: pyjwt (>=2.4,<3.0)
+Requires-Dist: pyqir (>=0.4.2a1,<0.5.0)
+Requires-Dist: pytket (>=1.3.0rc1,<2.0.0)
+Requires-Dist: requests (>=2.28.0,<3.0.0)
+Requires-Dist: websockets (>=10.3,<11.0)
+Project-URL: Repository, https://github.com/CQCL/pytket-qir
+Description-Content-Type: text/markdown
+
+# pytket-qir
+
+`pytket-qir` is a python package, aimed at interafacing QIR programs with `pytket`.
+
+The source code can be found in the corresponding GitHub repository.
+
+## Installation
+
+`pytket-qir` is tested against Python 3.8, 3.9 and 3.10.
+
+The main requirements are:
+
+- `pytket`
+- `pyqir`
+
+Standard local installation using `pip`:
+
+```sh
+pip install -U .
+```
+
+`pytket-qir` has been packaged using `poetry`:
+
+```sh
+poetry install
+```
+
+_N.B._: `pytket-qir` is tested against x86_64 platforms since `pyqir` is not available for arm64.
+

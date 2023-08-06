@@ -1,0 +1,3 @@
+[console_scripts]
+compile-bc-test-files=tests.qir_test_files.compile_bc_test_files:compile_to_bc
+
