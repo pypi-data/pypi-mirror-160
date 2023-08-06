@@ -1,0 +1,5 @@
+include modena/lib/modena/*
+include modena/lib/cmake/modena/*
+include modena/lib/pkgconfig/*
+include modena/include/modena/*
+include modena/bin/*

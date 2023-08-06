@@ -1,0 +1,13 @@
+blessings
+decorator
+mongoengine
+numpy
+Pillow
+pymongo
+rpy2
+scipy
+scour
+singledispatch
+six
+sqlalchemy
+fireworks
