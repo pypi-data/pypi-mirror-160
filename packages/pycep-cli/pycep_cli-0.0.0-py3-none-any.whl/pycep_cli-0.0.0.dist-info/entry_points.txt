@@ -1,0 +1,3 @@
+[console_scripts]
+pycep=pycep-cli:cli
+
