@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pycep-cli
+Version: 0.0.0
+Summary: Deploy Azure Resources with Python + Bicep
+License: GPL-3.0-only
+Author: mfeyx
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# pycep-cli
+
+This will be a python cli tool to deploy azure resources based on bicep files.
+
