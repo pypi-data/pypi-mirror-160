@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+bin/cherri
+bin/find_occupied_regions.py
+bin/find_trusted_RRI.py
+bin/generate_pos_neg_with_context.py
+bin/get_features.py
+cherri.egg-info/PKG-INFO
+cherri.egg-info/SOURCES.txt
+cherri.egg-info/dependency_links.txt
+cherri.egg-info/not-zip-safe
+cherri.egg-info/top_level.txt
+rrieval/__init__.py
+rrieval/lib.py
+rrieval/IntaRNA_param/IntaRNA_param.txt
