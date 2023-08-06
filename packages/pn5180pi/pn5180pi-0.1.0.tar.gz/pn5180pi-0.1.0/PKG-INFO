@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pn5180pi
+Version: 0.1.0
+Summary: PN5180 NFC Sensor Driver Written for Raspberry Pi
+License: MIT
+Author-email: Connor Luebbehusen <connorluebbehusen@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Description: # pn5180pi
+        
+        PN5180 NFC Sensor driver written for Raspberry Pi. Currently only supports the ISO 15693 protocol.
+

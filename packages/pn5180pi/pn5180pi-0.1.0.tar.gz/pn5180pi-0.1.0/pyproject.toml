@@ -1,0 +1,28 @@
+[project]
+name = "pn5180pi"
+version = "0.1.0"
+description = "PN5180 NFC Sensor Driver Written for Raspberry Pi"
+authors = [
+    { name = "Connor Luebbehusen", email = "connorluebbehusen@gmail.com" },
+]
+dependencies = [
+    "spidev==3.5",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=22.6.0",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
