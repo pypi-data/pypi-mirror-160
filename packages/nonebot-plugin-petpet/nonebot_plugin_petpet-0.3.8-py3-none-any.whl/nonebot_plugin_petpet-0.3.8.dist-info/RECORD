@@ -1,0 +1,11 @@
+nonebot_plugin_petpet/__init__.py,sha256=18Hkm_LhmfW10MleyW1yG6sYqSyxAPTebWGLIkKI-YY,7516
+nonebot_plugin_petpet/data_source.py,sha256=DDoIDaZq4R1V_YHoRknjPU3ramtg_f5o-lW5-vgjmPs,3581
+nonebot_plugin_petpet/depends.py,sha256=BtQjowHM5Q1d4pXoWoUSGYS_ycFkbRgAY1vB1tgOTrA,7226
+nonebot_plugin_petpet/download.py,sha256=E4AOfGjgpeYE8uS2WGmjv1HbcxEaWETlqA5_RvX4VEw,2457
+nonebot_plugin_petpet/functions.py,sha256=BfPelt7k24nAVR7S8iBJGf07ncFsvsAtobuASgGIr_A,44266
+nonebot_plugin_petpet/manager.py,sha256=dYVrSVDaywitEgVaqEbQoEfzoZfq6Nzuuzi7XYBlFFY,4236
+nonebot_plugin_petpet/utils.py,sha256=EgjUmvOmh8U-WkkCSJhl-FXZ_DrewdYfyRTkq2HTFjY,2537
+nonebot_plugin_petpet-0.3.8.dist-info/LICENSE,sha256=Y46u2BV5EbnQLp5EIx5YRLcHcCiB7sY06At5fiA6PiM,1063
+nonebot_plugin_petpet-0.3.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nonebot_plugin_petpet-0.3.8.dist-info/METADATA,sha256=-jUq-QYJzC2h9UVq511y8XciHWYLm511DtIL2p5Qbb8,10596
+nonebot_plugin_petpet-0.3.8.dist-info/RECORD,,
