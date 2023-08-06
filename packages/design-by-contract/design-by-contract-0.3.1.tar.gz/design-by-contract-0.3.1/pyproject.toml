@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "design-by-contract"
+version = "0.3.1"
+description = "Handy decorator to define contracts with dependency injection in Python 3.10 and above"
+authors = ["Stefan Ulbrich"]
+license = "MIT"
+repository = "https://github.com/StefanUlbrich/design-by-contract"
+readme = "Readme.md"
+
+classifiers = [
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Quality Assurance",
+    "Intended Audience :: Developers",
+    "Development Status :: 3 - Alpha"
+]
+
+include = ["license.txt"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+numpy = "^1.22.1"
+pandas = "^1.4.0"
+pylint = "^2.12.1,!=2.12.2"
+black = "^21.12b0"
+mypy = "^0.961"
+pytest = "^6.2.5"
+ipykernel = "^6.9.1"
+sphinx-book-theme = "^0.2.0"
+myst-parser = "^0.17.0"
+pre-commit = "^2.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+python_version = "3.10"
+warn_unused_configs = true
+namespace_packages = true
+mypy_path = "src"
+show_error_codes = true
+strict = true
+
+[tool.isort]
+# https://pycqa.github.io/isort/docs/configuration/black_compatibility.html
+profile = "black"
+
+[[tool.mypy.overrides]]
+module = "decorator.*"
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 120
+target_version = ["py310"]
+
+[tool.pylint.format]
+max-line-length=120
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+    "missing-module-docstring"
+]
+
+[tool.pylint.basic]
+good-names=['R','i','j','k','ex','Run','_']
