@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: IBTrading
+Version: 1.0.2
+Summary: MT5 automation
+Home-page: https://github.com/IB-Solution/IBTrading
+Author: Hamidou Alix
+Author-email: alix.hamidou@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+Requires-Dist: MetaTrader5 (~=5.0.37)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# IBTrading
+
+## MT5
+    https://www.metatrader5.com/
+
+    To test your strategy, use the demo account
+    You are fully responsible for the use of this module as well as financial losses related to it.
+
+## Strategy
+    Make a function with your strategy
+    The function has parameters :
+        ibTrading, 
+        signals, 
+        orders
+
+```python
+from IBTrading import *
+from datetime import datetime
+import time
+
+def Strategy(ibTrading: IBTrading, signals: dict, orders: dict) -> None:
+    """
+        Trading strategy
+        Params:
+            ibTrading: IBTrading = API Instance
+            signals: dict = Dictionary of signals
+            orders: dict = Dictionary of ordres
+    """
+    
+    # EUR USD #
+    signal = signals['EuroUsd_M1']
+    sma = signal.sma
+    lastClose = signal.ticksData[-1].close
+    direction = 'flat'
+    if lastClose > sma:
+        direction = 'buy'
+    elif lastClose < sma:
+        direction = 'sell'
+
+    if direction == 'buy':
+        if "EuroUsd" in orders.keys():
+            if orders['EuroUsd'].orderType == ORDER_SELL:
+                ibTrading.CloseOrder('EuroUsd')
+            else:
+                pass
+        else:
+            ibTrading.AddOrder(orderName='EuroUsd', symbol='EURUSD', volume=1.0, orderType=ORDER_BUY, deviation=20)
+    
+    elif direction == 'sell':
+        if "EuroUsd" in orders.keys():
+            if orders['EuroUsd'].orderType == ORDER_BUY:
+                ibTrading.CloseOrder('EuroUsd')
+            else:
+                pass
+        else:
+            ibTrading.AddOrder(orderName='EuroUsd', symbol='EURUSD', volume=1.0, orderType=ORDER_SELL, deviation=20)
+    ###########
+
+
+    print('time:', datetime.now())
+    print('lastClose:', lastClose)
+    print("lastClose time:", datetime.fromtimestamp(signal.ticksData[-1].time))
+    print('sma:', sma)
+    print('signal (direction):', direction)
+    print('\n')
+
+
+    return
+
+
+if __name__ == '__main__':
+    ibTrading = IBTrading(Strategy)
+    ibTrading.AddSignal(signalName="EuroUsd_M1", symbol="EURUSD", timeframe=TIMEFRAME_M1, SMAPeriod=10)
+    
+    while 1:
+        ibTrading.Run()
+        time.sleep(1)
+```
+
+## Run
+    Start MT5 and run your script
+    DON'T CLOSE IBTrading ORDERS WHILE SCRIPT IS RUNNING
+
+## Stop
+    Stop your script and on MT5 close all IBTrading orders
