@@ -1,0 +1,5 @@
+numpy
+h5py
+pyopencl
+napari
+opencv-contrib-python
