@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bentoncounty-gistools
+Version: 0.0.5
+Summary: Mapping tools for Benton County Community Development, Oregon
+Home-page: https://github.com/crumplecup/bentoncounty_gistools/
+Author: Erik Rose
+Author-email: erik.w.rose@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Benton County GIS Tools
+===
+
+Python tools for managing ArcGIS maps, used by the Community Development Department.
+
+.. note::
+
+   This project is under active development.
+
+
