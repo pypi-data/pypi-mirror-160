@@ -1,0 +1,11 @@
+itk/_BSplineGradientPython.so,sha256=pdRp8sMIZZCBrTtOJPDj9PMxZnPzoHrwGhQCpRnGzY8,5130816
+itk/BSplineGradientPython.py,sha256=UMhg3ntMEo66Ydw3WHXEXm9udrWXValjFdI6X0UkG8A,2463
+itk/itkBSplineGradientImageFilterPython.py,sha256=7QFukPB_Mc6Qg-LdaPLnE6_31VKIEug9RGlcegwf7IM,45438
+itk/Configuration/BSplineGradient_snake_case.py,sha256=D8T_7nBV9wQY2DYHon5os7TDwwttZRSc6DNxQvpvbog,60
+itk/Configuration/BSplineGradientConfig.py,sha256=nBEB7KjhyukXi2UTYKfb7d8fE34M6BEtL3h6y2Gt3vA,2448
+itk_bsplinegradient.libs/libtbb-e251c622.so.12.3,sha256=QW3Q2BukMwPKIl4Dlj9P2mOaQxfan6FTZFjeA8ICdhY,378360
+itk_bsplinegradient-0.2.7.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_bsplinegradient-0.2.7.dist-info/METADATA,sha256=YVfUNrX8p_fRJfstnKvOdd9dpfJ8Ee5CWVgGIhdsg-Y,1423
+itk_bsplinegradient-0.2.7.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_bsplinegradient-0.2.7.dist-info/WHEEL,sha256=VHkgONuAe6uG3_1GjBCvqmttgGut4UUdQuHT7jYxZck,106
+itk_bsplinegradient-0.2.7.dist-info/RECORD,,
