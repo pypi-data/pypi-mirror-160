@@ -1,0 +1,14 @@
+mariner_rrx/__init__.py,sha256=c1lzs31OLIRicZ5SX6ZzoNzMD8UPugtlnR5rwwNMx64,270
+mariner_rrx/build.py,sha256=-0MJjBuGXRNBE6E-YK72jNkhMkYwq5NxCBrQyDczZMk,733
+mariner_rrx/get.py,sha256=4lWok20NzvdNk3HMMm48bGiXyct2kJmA4YalpnBVaG4,393
+mariner_rrx/install.py,sha256=x7FRNpOZHGEsUVbGODr1oTBxyzvWylU3c3ILKuM8TOo,1614
+mariner_rrx/mar.py,sha256=e9Go9A6CT8fuxqXkj9Mq9txYLbjjvOtylduQna5lf8I,1606
+mariner_rrx/uninstall.py,sha256=GSj9sdhS6SzIVGrZswy338mAKUobMlsiPdVashU5YYc,525
+mariner_rrx/upgrade.py,sha256=jREgUfkQh6PlSJ85hx9DdCN99o5F-Ec-5BSTyCzfOMY,2086
+mariner_rrx-1.1.1.data/scripts/mar.py,sha256=e9Go9A6CT8fuxqXkj9Mq9txYLbjjvOtylduQna5lf8I,1606
+mariner_rrx-1.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+mariner_rrx-1.1.1.dist-info/METADATA,sha256=38BWyIO9I3Zq7XXZzI1eeij-KOC9aN3LQvKqsu-B6hg,210
+mariner_rrx-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mariner_rrx-1.1.1.dist-info/entry_points.txt,sha256=Z87QwkxSPHZcDK4mlndv_EiGtHtfAWaJvh0FUp-lHPk,45
+mariner_rrx-1.1.1.dist-info/top_level.txt,sha256=BsvtFIVzVtvtvPScEDVZJphQYQUm7Js4MUXXh_jdSa4,12
+mariner_rrx-1.1.1.dist-info/RECORD,,
