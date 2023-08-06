@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/spatialcdr.py
+src/spatialcdr.egg-info/PKG-INFO
+src/spatialcdr.egg-info/SOURCES.txt
+src/spatialcdr.egg-info/dependency_links.txt
+src/spatialcdr.egg-info/requires.txt
+src/spatialcdr.egg-info/top_level.txt
