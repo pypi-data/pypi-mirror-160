@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: zqpy
+Version: 1.1.5
+Summary: 使用老版本:pip install zqpy==0.1.48 
+ 使用新版本:pip install zqpy 
+ 新老版本区别在于：最前面位 0（老版本）1（新版本）
+Home-page: https://gitee.com/qingBB/zqpy
+Author: 周清
+Author-email: 1620829248@qq.com
+Maintainer: 周清
+Maintainer-email: 1620829248@qq.com
+License: MIT
+Description: 使用老版本:pip install zqpy==0.1.48 
+         使用新版本:pip install zqpy 
+         新老版本区别在于：最前面位 0（老版本）1（新版本）
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3
+Description-Content-Type: text/markdown
