@@ -1,0 +1,17 @@
+name: impact-effects
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+ - pip
+ - ipython
+ - jupyter
+ - numpy
+ - scipy
+ - scikit-learn
+ - pandas
+ - sphinx
+ - build
+ - twine
+ - pip:
+   - -r requirements.txt
