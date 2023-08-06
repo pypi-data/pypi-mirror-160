@@ -1,0 +1,7 @@
+cython
+scikit-learn>=1.0
+pandas
+scipy
+matplotlib
+pandas_streaming
+numpy>=1.16
