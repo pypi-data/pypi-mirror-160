@@ -1,0 +1,2 @@
+[console_scripts]
+rayasdk = rayasdk.__main__:main
