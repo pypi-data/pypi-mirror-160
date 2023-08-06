@@ -1,0 +1,2 @@
+recursive-include sysperf/templates *
+recursive-include sysperf/static *

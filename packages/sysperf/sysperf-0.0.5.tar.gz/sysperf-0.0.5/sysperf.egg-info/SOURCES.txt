@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+sysperf/__init__.py
+sysperf/perf.py
+sysperf.egg-info/PKG-INFO
+sysperf.egg-info/SOURCES.txt
+sysperf.egg-info/dependency_links.txt
+sysperf.egg-info/entry_points.txt
+sysperf.egg-info/not-zip-safe
+sysperf.egg-info/requires.txt
+sysperf.egg-info/top_level.txt
+sysperf/static/css/bootstrap.min.css
+sysperf/static/images/github.svg
+sysperf/static/js/angular.min.js
+sysperf/static/js/bootstrap.bundle.min.js
+sysperf/templates/home.html
