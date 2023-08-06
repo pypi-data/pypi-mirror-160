@@ -1,0 +1,22 @@
+PyYAML
+prefect>=2.0a13
+metricflow==0.110.0
+
+[dev]
+pytest
+black
+flake8
+mypy
+mkdocs
+mkdocs-material
+mkdocstrings[python]
+isort
+pre-commit
+pytest-asyncio
+mkdocs-gen-files
+interrogate
+coverage
+pyfakefs
+
+[dev:python_version < "3.8"]
+mock
