@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cexpay
+Version: 2.0.7
+Summary: A Python implementation of CEX Pay's APIs. See more https://developers.cexpay.io/.
+Home-page: https://github.com/cexiolabs/cexpay.client.python
+Author: Maksym Anurin
+Author-email: m.anurin@cexiolabs.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# CEX Pay's API Clients for Python
+
+## Quick Start
+```shell
+python3.10 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install --requirement requirements-dev.txt
+```
+
+## Run tests
+
+```shell
+python3.10 -m unittest -v
+```
+
+
