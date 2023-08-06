@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "dochooks"
+version = "0.3.0"
+description = ""
+authors = ["Nyakku Shigure <sigure.qaq@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typing-extensions = { version = "^4.3.0", python = "<3.11" }
+docutils = { version = "^0.19", optional = true }
+httpx = "^0.23.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+black = "^22.1"
+pytest-parallel = "^0.1.1"
+isort = "^5.10.1"
+tomli = { version = "^2.0.1", python = "<3.11" }
+pre-commit = "^2.20.0"
+types-docutils = "^0.19.0"
+httpx = { extras = ["socks"], version = "^0.23.0" }
+pyright = "^1.1.262"
+
+[tool.poetry.extras]
+rst-parser = ["docutils"]
+
+[tool.poetry.scripts]
+check-whitespace-between-cn-and-en-char = "dochooks.insert_whitespace_between_cn_and_en_char.check:main"
+insert-whitespace-between-cn-and-en-char = "dochooks.insert_whitespace_between_cn_and_en_char.format:main"
+api-doc-checker = "dochooks.api_doc_checker.check:main"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+add_imports = ["from __future__ import annotations"]
+skip = ["setup.py", ".venv"]
+
+[build-system]
+requires = ["poetry-core>=1.1.0b3"]
+build-backend = "poetry.core.masonry.api"
