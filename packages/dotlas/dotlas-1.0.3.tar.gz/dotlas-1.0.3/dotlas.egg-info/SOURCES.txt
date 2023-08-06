@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+dotlas/__init__.py
+dotlas/app.py
+dotlas.egg-info/PKG-INFO
+dotlas.egg-info/SOURCES.txt
+dotlas.egg-info/dependency_links.txt
+dotlas.egg-info/requires.txt
+dotlas.egg-info/top_level.txt
+dotlas/schemas/__init__.py
+dotlas/schemas/cities.py
+dotlas/schemas/competition.py
+dotlas/schemas/sociodemographics.py
