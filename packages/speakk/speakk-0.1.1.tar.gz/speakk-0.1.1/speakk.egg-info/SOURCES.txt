@@ -1,0 +1,9 @@
+README.md
+setup.py
+speakk/__init__.py
+speakk/speak.py
+speakk.egg-info/PKG-INFO
+speakk.egg-info/SOURCES.txt
+speakk.egg-info/dependency_links.txt
+speakk.egg-info/requires.txt
+speakk.egg-info/top_level.txt
