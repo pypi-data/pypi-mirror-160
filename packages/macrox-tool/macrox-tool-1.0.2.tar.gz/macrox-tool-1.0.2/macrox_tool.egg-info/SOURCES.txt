@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+macrox_tool.egg-info/PKG-INFO
+macrox_tool.egg-info/SOURCES.txt
+macrox_tool.egg-info/dependency_links.txt
+macrox_tool.egg-info/entry_points.txt
+macrox_tool.egg-info/requires.txt
+macrox_tool.egg-info/top_level.txt
+src/client.py
+src/globals.py
+src/interpreter.py
+src/parser.py
+src/tokenizer.py
