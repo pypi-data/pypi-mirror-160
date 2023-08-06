@@ -1,0 +1,3 @@
+[submodule "py_ead_validation/definitions"]
+	path = py_ead_validation/definitions
+	url = ../definitions.git
