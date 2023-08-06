@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "xarray-quantity"
+version = "0.1.5"
+description = "xarray extension which supports astropy quantities."
+license = "MIT"
+readme = "README.md"
+authors = ["KaoruNishikawa <k.nishikawa@a.phys.nagoya-u.ac.jp>"]
+homepage = "https://github.com/KaoruNishikawa/xarray-quantity"
+repository = "https://github.com/KaoruNishikawa/xarray-quantity"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+astropy = ">5.0.3"
+xarray = ">2022"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^22.4"
+flake8 = "^3.8"
+sphinx = "^3.3"
+pydata-sphinx-theme = "^0.4"
+m2r2 = "^0.2"
+ipykernel = "^5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
