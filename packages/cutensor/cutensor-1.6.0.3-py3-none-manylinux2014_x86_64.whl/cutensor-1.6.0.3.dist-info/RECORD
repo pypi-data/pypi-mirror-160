@@ -1,0 +1,14 @@
+cutensor/LICENSE,sha256=7mVMmmsz69Mi0yMAEIL1cMYGKmsWh4YnMKCTsfI2u1s,17789
+cutensor/include/cutensor.h,sha256=Fi0TK-V8ITbSFF8Ny8SEwVi1hXMaBbU3tRM5OHABhFo,55216
+cutensor/include/cutensorMg.h,sha256=RVJwj-jTt6Cq4L_Rw225I9y3HMyYfl6H5zMa3COxXYo,29485
+cutensor/include/cutensor/types.h,sha256=r9lQrq7F4kFGR56VAZ0Av470ApR4MQ93Y17iOZPczMQ,11977
+cutensor/lib/10.2/libcutensor.so.1,sha256=MObrc5QcibI2HneH4W1mJWdApxmsKF8UzYQqFtnrHjw,105679448
+cutensor/lib/10.2/libcutensorMg.so.1,sha256=nzL-qLhJ52y6YhLtcA3Fu6q-QAOcehuZF-YRK3ax1KY,3967832
+cutensor/lib/11/libcutensor.so.1,sha256=bUIlMu7RG4dLeby5rxIEsXZtgxXdUJg0twz61-fVpqw,167512120
+cutensor/lib/11/libcutensorMg.so.1,sha256=rypnkEt4MhImsRPX6oAYzlloQw0x5HO3cjLrkW_MPfQ,4184000
+cutensor/lib/11.0/libcutensor.so.1,sha256=WZ3C8capfMJBDftYZTpdSwtGvIEse-vHhFRF1H2k2ko,162150456
+cutensor/lib/11.0/libcutensorMg.so.1,sha256=PX1xjYPNOG00-ACzwPw-jtWhOnnBX0Xpl1A_BAFu1_4,3999680
+cutensor-1.6.0.3.dist-info/METADATA,sha256=SO84twEt7HSxD_bHJ_2cWR8xBfF1sAR-LDpRqqDiUvM,2042
+cutensor-1.6.0.3.dist-info/WHEEL,sha256=YFDvGUd4qgsZW2DR7HoTshh6r2NDinrixRAyA44xxkw,109
+cutensor-1.6.0.3.dist-info/top_level.txt,sha256=T2b8AsqjjAnjHSVQLjOfwvRxAuwvFzYos2RxmwsOzhY,9
+cutensor-1.6.0.3.dist-info/RECORD,,
