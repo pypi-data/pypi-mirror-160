@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+keyvault/__init__.py
+keyvault/auth.py
+keyvault/get_secrets.py
+keyvault/utils.py
+keyvault.egg-info/PKG-INFO
+keyvault.egg-info/SOURCES.txt
+keyvault.egg-info/dependency_links.txt
+keyvault.egg-info/requires.txt
+keyvault.egg-info/top_level.txt
