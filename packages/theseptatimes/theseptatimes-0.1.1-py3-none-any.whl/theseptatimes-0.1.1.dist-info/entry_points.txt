@@ -1,0 +1,3 @@
+[console_scripts]
+tst=TheSeptaTimes.cli:main
+
