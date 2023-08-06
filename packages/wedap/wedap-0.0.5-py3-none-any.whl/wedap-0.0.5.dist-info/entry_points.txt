@@ -1,0 +1,2 @@
+[console_scripts]
+wedap = wedap.__main__:main
