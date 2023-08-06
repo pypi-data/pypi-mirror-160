@@ -1,0 +1,3 @@
+[console_scripts]
+ego-cli=pyego.cli:execute
+
