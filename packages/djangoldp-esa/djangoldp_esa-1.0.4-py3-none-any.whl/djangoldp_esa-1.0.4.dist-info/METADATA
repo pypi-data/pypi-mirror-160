@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: djangoldp-esa
+Version: 1.0.4
+Summary: djangoldp package for ESA
+Home-page: https://git.startinblox.com/djangoldp-packages/djangoldp-esa
+Author: Startin'blox
+Author-email: jbaptiste@startinblox.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: djangoldp (~=2.1)
+
+UNKNOWN
+
