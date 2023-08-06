@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gophient
+Version: 1.0.0
+Summary: Python library for connection to Gopher servers
+License: MIT
+Author: Arisu W.
+Author-email: arisuchr@riseup.net
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
