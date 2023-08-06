@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+backoff-stubs/__init__.pyi
+backoff_stubs.egg-info/PKG-INFO
+backoff_stubs.egg-info/SOURCES.txt
+backoff_stubs.egg-info/dependency_links.txt
+backoff_stubs.egg-info/requires.txt
+backoff_stubs.egg-info/top_level.txt
