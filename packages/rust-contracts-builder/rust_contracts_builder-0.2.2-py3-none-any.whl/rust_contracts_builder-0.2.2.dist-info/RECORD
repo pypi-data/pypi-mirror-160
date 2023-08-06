@@ -1,0 +1,17 @@
+rust_contracts_builder/__init__.py,sha256=IIr90YRzEs5Ur8Tu82kjZnduqD8Z0O6lcGUFFhquxiY,7170
+rust_contracts_builder/__main__.py,sha256=7D9JOiZ-Qc15DI0cCLL4M0GkAuh3Ja2fQw2qp9qNrJU,40
+rust_contracts_builder/wasm_checker.py,sha256=uHlptkm2GyW6NWO40bxfCoW5G8SuZMS9AR5IdGYye7Q,7843
+rust_contracts_builder/templates/abigen/Cargo.toml,sha256=-ypO0VFv3qOjhtPTUenkuQuXFl7Z4mTvd59L65qF01k,288
+rust_contracts_builder/templates/abigen/main.rs,sha256=Kj5ZYmFhkq1ayGiKh8Pkl3XoAlEppyeuwpz1Cw9BH-8,205
+rust_contracts_builder/templates/init/.gitignore,sha256=qfOh2ItbMuGErVa6_yXwBHkBqjiOTA_bJcLrePIwqIc,285
+rust_contracts_builder/templates/init/_Cargo.toml,sha256=wZ6Ayc7g9ENSG_-PsPwq7LJmd2Psosi6Q0qW3fCemtU,337
+rust_contracts_builder/templates/init/build.sh,sha256=4wfbL9PwAQRCZUFKG7lhIwex4CDQfQx1JFQlN6oMx9Y,20
+rust_contracts_builder/templates/init/lib.rs,sha256=W5ModDvQwZZ6dcWpdbd-yJL1odilch3nOciLu3RDQb4,3235
+rust_contracts_builder/templates/init/test.py,sha256=r6MbZ646urOAgQxxwpSN-o2e0__waaUMPTuin_3BEH8,2118
+rust_contracts_builder/templates/init/test.sh,sha256=XaII_REUnVQR8ChienZjDZuc7PrNbut8nDh9xpUWTM0,48
+rust_contracts_builder-0.2.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rust_contracts_builder-0.2.2.dist-info/METADATA,sha256=0amAt9ZszGAFlKA32PKkrEsMiEdcu_UR1Bek-RmQ6Oc,530
+rust_contracts_builder-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rust_contracts_builder-0.2.2.dist-info/entry_points.txt,sha256=Ync_65fWfABMwUkUrS8GqJ8JdzHVxKYcDy0N1vYv18w,70
+rust_contracts_builder-0.2.2.dist-info/top_level.txt,sha256=U656-XZwjrVe3z7WjUI5-5QaXLJLf_XC2HVXa7uRmSg,23
+rust_contracts_builder-0.2.2.dist-info/RECORD,,
