@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: imdata
+Version: 0.0.4
+Summary: A easy class for save the data in an image
+Home-page: https://github.com/jeefies/imdata
+Author: Jeefy
+Author-email: Jeefy <jeefy163@163.com>
+Project-URL: Homepage, https://github.com/jeefies/imdata
+Project-URL: Bug Tracker, https://github.com/jeefies/imdata/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >3.4
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: imageio
+
+# ImData
+
+**Author: Jeef**  
+**Email: jeefy163@163.com**
+
+----------
+## Installation
+Use _git_ to clone it for the github.com.  
+See [Github](https://github.com/jeefies/imdata)  
+Or see [PyPI](https://pypi.org/project/imdata) to install  
+`pip install imdata`.  
+Notice that **All build files are under `dist`**
+
+-------------
+## Usage
+the main class is ImData.  
+_Dependeces: imageio_  
+_Advice: Use python that later than 3.5, no support for 2.7_
+
+Example usage see `test.py` for uses
