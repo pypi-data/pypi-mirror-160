@@ -1,0 +1,2 @@
+[console_scripts]
+biostats = biostats.__main__:main
