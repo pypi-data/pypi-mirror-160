@@ -1,0 +1,16 @@
+Django
+PuLP
+numpy
+scipy
+matplotlib
+networkx
+pytest
+python-memcached
+ase
+django-extensions
+lxml
+pexpect
+pyparsing
+PyYAML
+scikit-learn
+bokeh==0.12.15

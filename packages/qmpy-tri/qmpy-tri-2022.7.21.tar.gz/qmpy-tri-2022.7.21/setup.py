@@ -1,0 +1,36 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='qmpy-tri',
+    version='2022.7.21',
+    author='S. Kirklin',
+    maintainer_email='joseph.montoya@tri.global',
+    license='LICENSE.txt',
+    classifiers=["Programming Language :: Python :: 3.7"],
+    packages=find_packages(),
+    scripts=['bin/oqmd', 'bin/qmpy'],
+    url='http://pypi.python.org/pypi/qmpy-tri',
+    description='TRI-specific fork of qmpy',
+    include_package_data=True,
+    long_description=open('README.md').read(),
+    install_requires=[
+        "Django",
+        "PuLP",
+        "numpy",
+        "scipy",
+        "matplotlib",
+        "networkx",
+        "pytest",
+        "python-memcached",
+        "ase",
+        "django-extensions",
+        "lxml",
+        # "pyspglib==1.8.3.1",
+        # "PyCifRW>=4.3",
+        "pexpect",
+        "pyparsing",
+        "PyYAML",
+        "scikit-learn",
+        "bokeh==0.12.15"
+    ],
+)

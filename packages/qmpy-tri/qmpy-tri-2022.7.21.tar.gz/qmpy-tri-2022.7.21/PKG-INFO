@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: qmpy-tri
+Version: 2022.7.21
+Summary: TRI-specific fork of qmpy
+Home-page: http://pypi.python.org/pypi/qmpy-tri
+Author: S. Kirklin
+Maintainer-email: joseph.montoya@tri.global
+License: LICENSE.txt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE.txt
+
+## NOTICE:
+
+This is a hackish fork of [qmpy](https://github.com/wolverton-research-group/qmpy) intended to have minimal functionality for thermodynamic analysis and be python 3 compatible.  It is NOT supported.  Use at your own risk.
+
+qmpy
+====
+
+A toolkit for storing crystal structure data, automating calculations, handing computational resources and performing thermodynamic analysis.
+
+
