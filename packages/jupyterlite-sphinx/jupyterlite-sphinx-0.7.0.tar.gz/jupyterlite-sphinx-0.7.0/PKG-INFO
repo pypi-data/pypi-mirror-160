@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: jupyterlite-sphinx
+Version: 0.7.0
+Summary: Sphinx extension for deploying JupyterLite
+Author: JupyterLite Contributors
+Author-email: 
+License: BSD-3-Clause
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JupyterLite Sphinx
+
+A Sphinx extension that provides utilities for embedding [JupyterLite](https://jupyterlite.readthedocs.io) in your documentation.
+
+## Docs
+
+https://jupyterlite-sphinx.readthedocs.io
+
+## Example
+
+Practical examples are in the [ipycanvas](https://ipycanvas.readthedocs.io) and [ipyleaflet](https://ipyleaflet.readthedocs.io) documentation.
+
+## Installation:
+
+```bash
+pip install jupyterlite-sphinx
+```
