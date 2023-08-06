@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: OSM2LES
+Version: 0.0.5
+Summary: Transfer building footprint to 2D DEM for LES simulation
+Author: Jiachen Lu
+Author-email: jiachensc@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires: numpy
+Requires: matplotlib
+Requires: shapely
+Requires: pandas
+Requires: scipy
+Requires: osmnx
+Requires-Python: >=3.6
+
+UNKNOWN
+
