@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+aiouring/__init__.py
+aiouring.egg-info/PKG-INFO
+aiouring.egg-info/SOURCES.txt
+aiouring.egg-info/dependency_links.txt
+aiouring.egg-info/top_level.txt
+aiouring/_core/UringProactor.pyx
