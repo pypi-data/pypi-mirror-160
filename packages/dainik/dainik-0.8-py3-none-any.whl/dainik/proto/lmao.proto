@@ -1,0 +1,130 @@
+syntax = "proto3";
+
+// This is the service definition for the Konark server, this server will talk to the MongoDB in the backend,
+// has APIs for the agent-client to log data which is same has the transformers.TrainerCallback so we can provide
+// OOB support for hf.co systems and finally it also contains all the user-client side APIs for this.
+service LMAO {
+  // Setup informs the server about the things
+  rpc init_run(InitRunRequest) returns (Run) {};
+  rpc on_log(RunLog) returns (Acknowledge) {};
+  rpc on_save(FileList) returns (Acknowledge) {};
+  rpc on_train_end(Run) returns (Acknowledge) {};
+
+  // This is for the user-client that wants to get the data from the Konark
+  rpc list_projects(ListProjectsRequest) returns (ListProjectsResponse) {};
+  rpc list_runs(ListRunsRequest) returns (ListRunsResponse) {};
+  rpc get_run_log(Run) returns (RunLog) {};
+  rpc list_files(Run) returns (FileList) {};
+}
+
+// generic response to any message
+message Acknowledge {
+  bool success = 1;
+
+  // message can contain message or traceback if not success
+  string message = 2;
+}
+
+// This is the data that the user will be logging if this
+message Record {
+  // since it is not possible to have the map in the message, we need to have an enum for the target datatype
+  enum DataType {
+    FLOAT = 0;
+    INTEGER = 1;
+    STRING = 2;
+  }
+  string key = 1; // name of this data
+  DataType value_type = 2;
+  int64 step = 3; // also can be called "X-axis" or just x
+
+  // all the data is done in the
+  repeated float float_data = 100;
+  repeated int32 integer_data = 101;
+  repeated string string_data = 102;
+}
+
+// This is the aggregation of all the logs for this run
+message RunLog {
+  string run_id = 1;
+  repeated Record data = 2;
+}
+
+// all the NBX-Infra details for this specific run
+message AgentDetails {
+  enum NBX {
+    JOB = 0;
+    SERVING = 1;
+  }
+  NBX type = 6; // this is the type of the agent, JOB or SERVING
+
+  oneof id {
+    string nbx_job_id = 1; // NBX-Jobs ID
+    string nbx_serving_id = 3; // deployment id
+  }
+  oneof instance {
+    string nbx_run_id = 2; // JobRun
+    string nbx_model_id = 4; // model id
+  }
+  string workspace_id = 5;
+}
+
+message InitRunRequest {
+  AgentDetails agent_details = 1;
+  string project_id = 2;
+  int64 created_at = 3; // the unix timestamp when this run was created
+  string config = 4; // the jsonified singular config string
+}
+
+message File {
+  string name = 1; // the relative (to **job root**) filename of the File, final location is save_location/name
+  int64 created_at = 2; // when was this made
+  bool is_input = 3; // this was there when the run was created or this was created by the run as an output
+}
+
+message FileList {
+  string run_id = 1; // associated run
+  repeated File files = 2; // all the Files
+}
+
+// the Big Object
+message Run {
+  AgentDetails agent = 1; // the agent details
+  string run_id = 2; // the unique ID of this run from the MongoDB backend
+  int64 created_at = 3; // same as InitRunRequest.created_at
+  int64 ended_at = 4; // when was run declared dead, the actual kill can be well before that
+  bool completed = 5; // is this run complete
+  string save_location = 6; // this is the location where the Files from this run are stored
+  FileList file_list = 7; // all the Files from this run
+  string config = 8; // the jsonified config string
+
+  enum Status {
+    NOT_SET = 0; // When created and added to DB but no further action taken
+    RUNNING = 1; // When the first on_log has been called
+    COMPLETED = 2; // When the on_train_end has been called
+    FAILED = 3; // When the NBX-Job failed
+  }
+  Status status = 9; // the last known status of this run
+  int64 updated_at = 10; // the last time this run was updated
+}
+
+// Request Reponse kind of thing
+message ListProjectsRequest {
+  string workspace_id = 1; // the workspace this is part of
+  string project_id = 2; // the unique ID for this project
+  string project_name = 3; // the usermodifiable name of the project
+}
+
+message ListProjectsResponse {
+  repeated string projects = 1; // the list of projects in this workspace
+}
+
+message ListRunsRequest {
+  string workspace_id = 1; // the workspace this is part of
+  string project_id = 2; // the unique ID for this project
+  string project_name = 4; // the project_name for convinience
+  string run_id = 3; // the unique ID for this run
+}
+
+message ListRunsResponse {
+  repeated Run runs = 1; // the list of runs in this project
+}
