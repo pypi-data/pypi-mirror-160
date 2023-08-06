@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eqlink
+Version: 0.0.6
+Summary: 注册中心
+Home-page: https://gitee.com/jingenqiang/eqlink.git
+Author: eq
+Author-email: eq_enqiang@163.com
+License: GPL-2.0
+Keywords: eqlink,Registration Center,eqsmart
+Platform: any
+
+增加失效服务列表
+
