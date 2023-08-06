@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: small-tools-python
+Version: 0.2
+Summary: Repository composed by some small Python tools to validade strings, values and others so as to facilitate the coding process
+Home-page: https://github.com/ramos-rr/small_tools.git
+Author: Rafael Ramos da Silva
+Author-email: ramos-rr@outlook.com
+License: BSD
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# small_tools
+Repository composed by some small Python tools to validade strings, values and others so as to facilitate the coding process
+
+Leia-me, isto Ã© importante!
+
+
+1. SUPORTADA A VERSÃƒO 3 DE PYTHON<br>
+1.1. Instalado o Virtualenv<br><br>
+2. ATENTO AOS REQUIREMENTS:<br>
+2.1. para instalar atravÃ©s do terminal: "(.venv) pip install -r requirements-dev.txt"
+<br><br>
+3. DEFINIDO PEP-8 no flake8:<br>
+3.1. Criar arquivo ".flake8"<br>
+'''
+[flake8]<br>
+max-line-length=120<br>
+exclude=.venv<br>
+'''<br>
+3.2. Rodar o teste no terminal: ".venv) flake8"<br><br>
+
+4. ESTABELECIDO O SETUP.PY para o lanchamento da biblioteca prÃ³pria<br>
+4.1. Importado o cÃ³digo para o 'setup.py' de [renzon/tekton-micro](https://github.com/renzon/tekton-micro/blob/master/setup.py)<br>
+4.2. Criado o setup.py no PyCharm, dentro da pasta princial '/small_tools'<br>
+4.3. IMPORTANTE: Alteradas algumas configuraÃ§Ãµes dentr do SETUP.PY, como nome, e classificaÃ§Ã£o #Para ver classificaÃ§Ã£o:
+([Pypi-Classifiers](https://pypi.org/classifiers/))<br>
+4.4. IMPORTANTE 2: Alterado o cÃ³digo __init__ da pyThon Package "libipythonpro":<br>
+"""<br>
+__ version __ = '0.1'<br>
+"""<br>
+4.5. Para a realizaÃ§Ã£o do teste do setup.py, foi criado um VENV na pasta principal do PycharmProjects.<br>
+4.5.1. Utilize o comando "<.venv>pip install -e small_tools" que ele jÃ¡ vai localizar o setup.py<br>
+<br>
+5. FEITO O LANÃ‡AMENTO DO PRIMEIRO RELEASE NO GITHUB<br>
+5.1. No terminal, definda uma TAG para a Ãºltima atualizaÃ§Ã£o com " _(.venv) git tag 0.1_ "<br>
+5.2. Posteriormente, foi indicado a TAG para ser destacada no GITHUB com o cmdo " _(.venv) git pull --tags_ "<br>
+5.3. Feito teste de intalaÃ§Ã£o com o Package em VENV com o link fornecido pelo GITHUB: " _(.venv) pip install 
+@github_link_do_release.zip _"
+<br>
+<br>
+6. FEITA A CRIAÃ‡ÃƒO DO PACKAGE .DIST/libpythonpro-0.2.tar.gz E DISTRIBUIÃ‡ÃƒO NO PYPI:<br>
+6.1. Primeiramente, criou-se o "MANIFEST.in" para informar que devem ser copiados o README.md e o LICENCE:<br>
+>   MANIFEST.in <br>
+    include README.md<br>
+    include LICENCE<br>
+    6.2. No terminal, escrever o cÃ³digo para a criaÃ§Ã£o do package .DIST:" (.venv) python setup.py sdist "<br><br>
+    6.3 Ainda no terminal, fazer o upload do arquivo:" (.venv) twine upload dist/* "<br><br>
+    6.4 ApÃ³s a instalaÃ§Ã£o, colocar as credenciais do PYPI e verificar no site se tudo estÃ¡ funcionando
+
+<br>
+TOPICOS ABORDADOS:<br>
+1. GIT
+2. VIRTUALENV
+3. PIP
+4. Atento ao pull request
+5. Trabalhando com o ".gitignore"
+5.1. Adicionado "rascunho" no ".gitignore"
+6. Realizar alguns PULLREQUEST e testÃ¡-los
+7. Obter uma reprova no PULLREQUEST <br>
+7.1. cuidado com o comando no terminal 'git reset --hard HEAD^1', pode causar problemas<br>
+7.2. Por isso, o jeito mais adequado de se fazer Ã© atravÃ©s do ... <br>
+8. Realizado treinamento para a configuraÃ§Ã£o de setpu.py para instalaÃ§Ã£o de Packages e Libraries<br>
+9. Realizado o primeiro release no [ramos-rr/small_tools/releases](https://github.com/ramos-rr/small_tools/releases)<br>
