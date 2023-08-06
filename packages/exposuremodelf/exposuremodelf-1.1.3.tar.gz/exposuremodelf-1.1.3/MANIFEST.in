@@ -1,0 +1,3 @@
+include exposuremodelf/ratings.csv
+exclude Data/*.jpg
+include exposuremodelf/p_model.pth
