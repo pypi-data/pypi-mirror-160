@@ -1,0 +1,10 @@
+*.wav
+/.coverage
+*.pyc
+build/
+dist/
+ewave.egg-info/
+/MANIFEST
+
+.DS_Store
+venv/
