@@ -1,0 +1,15 @@
+.gitattributes
+.gitignore
+ABC_weighting.py
+ITU_R_468_weighting.py
+LICENSE.txt
+README.md
+README.rst
+abc_a.png
+abc_d.png
+setup.py
+sound_weighting_filters.egg-info/PKG-INFO
+sound_weighting_filters.egg-info/SOURCES.txt
+sound_weighting_filters.egg-info/dependency_links.txt
+sound_weighting_filters.egg-info/not-zip-safe
+sound_weighting_filters.egg-info/top_level.txt
