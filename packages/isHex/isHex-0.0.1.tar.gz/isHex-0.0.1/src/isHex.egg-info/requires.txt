@@ -1,0 +1,5 @@
+
+[dev]
+check-manifest>=0.48
+pytest>=3.7
+twine>=3.8.0
