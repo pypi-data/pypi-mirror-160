@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: road_collisions_ireland
+Version: 0.0.11
+Summary: Road collision data for Ireland
+Home-page: https://github.com/RobertLucey/road-collisions-ireland
+Author: Robert Lucey
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Road collision data for Ireland
