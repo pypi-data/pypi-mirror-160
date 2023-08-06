@@ -1,0 +1,8 @@
+astropy
+
+[docs]
+sphinx-astropy
+
+[test]
+pytest-astropy
+matplotlib
