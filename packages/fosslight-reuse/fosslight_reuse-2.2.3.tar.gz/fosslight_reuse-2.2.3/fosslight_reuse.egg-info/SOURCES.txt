@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fosslight_reuse.egg-info/PKG-INFO
+fosslight_reuse.egg-info/SOURCES.txt
+fosslight_reuse.egg-info/dependency_links.txt
+fosslight_reuse.egg-info/requires.txt
+fosslight_reuse.egg-info/top_level.txt
