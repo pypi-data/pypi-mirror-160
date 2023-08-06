@@ -1,0 +1,9 @@
+signify==0.4.0
+pefile==2021.9.3
+requests==2.27.1
+
+[:platform_system == "Linux"]
+python-magic==0.4.27
+
+[:platform_system == "Windows"]
+python-magic-bin==0.4.14
