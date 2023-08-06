@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ZeaGeneMap.egg-info/PKG-INFO
+ZeaGeneMap.egg-info/SOURCES.txt
+ZeaGeneMap.egg-info/dependency_links.txt
+ZeaGeneMap.egg-info/top_level.txt
+bin/GeneMap.py
