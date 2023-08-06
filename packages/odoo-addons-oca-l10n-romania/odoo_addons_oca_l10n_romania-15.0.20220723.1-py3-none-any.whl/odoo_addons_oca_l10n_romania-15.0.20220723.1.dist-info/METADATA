@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: odoo-addons-oca-l10n-romania
+Version: 15.0.20220723.1
+Summary: Meta package for oca-l10n-romania Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 15.0
+Requires-Dist: odoo-addon-l10n-ro-account-period-close (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-account-report-invoice (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-address-extended (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-city (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-config (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-fiscal-validation (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-partner-create-by-vat (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-partner-unique (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-stock (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-stock-account (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-stock-report (<15.1dev,>=15.0dev)
+Requires-Dist: odoo-addon-l10n-ro-vat-on-payment (<15.1dev,>=15.0dev)
+
+UNKNOWN
+
