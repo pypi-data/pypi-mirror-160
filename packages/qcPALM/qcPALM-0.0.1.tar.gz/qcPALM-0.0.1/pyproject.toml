@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qcPALM"
+version = "0.0.1"
+description = "Quantitative clustering of PALM data"
+readme = "README.md"
+authors = [{ name = "Shawn Yoshida", email = "shawnryoshida@gmail.com" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
