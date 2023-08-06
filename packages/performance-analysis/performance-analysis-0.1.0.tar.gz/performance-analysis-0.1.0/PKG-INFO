@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: performance-analysis
+Version: 0.1.0
+Summary: 
+Author: DarrenH8848
+Author-email: DarrenH8848@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: plotly (>=5.9.0,<6.0.0)
+Requires-Dist: scipy (>=1.8.1,<2.0.0); python_version >= "3.8" and python_version < "3.11"
