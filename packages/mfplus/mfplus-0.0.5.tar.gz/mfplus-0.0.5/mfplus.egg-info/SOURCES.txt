@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mfplus/__init__.py
+mfplus/mfpconvert.py
+mfplus/mfpreqs.py
+mfplus.egg-info/PKG-INFO
+mfplus.egg-info/SOURCES.txt
+mfplus.egg-info/dependency_links.txt
+mfplus.egg-info/top_level.txt
