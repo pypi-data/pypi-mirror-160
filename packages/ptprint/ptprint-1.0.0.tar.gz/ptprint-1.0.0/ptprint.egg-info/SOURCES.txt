@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.txt
+setup.py
+ptprint/__init__.py
+ptprint.egg-info/PKG-INFO
+ptprint.egg-info/SOURCES.txt
+ptprint.egg-info/dependency_links.txt
+ptprint.egg-info/top_level.txt
