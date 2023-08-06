@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gcnu-common
+Version: 0.0.7
+Summary: "Common functionality for GCNU libraries"
+Home-page: https://github.com/joacorapela/gcnu_common
+Author: Joaquin Rapela
+Author-email: j.rapela@ucl.ac.uk
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# Common functionality for GCNU libraries
+
+The functionality provided in this repository is used by libraries developed at the Gatsby Computational Neuroscience Unit. For example, this functionality is used in  the [Sparse Variational Gaussian Process Factor Analysis](https://github.com/joacorapela/svGPFA)) repository.
