@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dubhub
+Version: 0.1.5
+Summary: Dubhub CLI
+Home-page: https://dubhub.io
+License: BSD 2-Clause License
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+
+# cli
