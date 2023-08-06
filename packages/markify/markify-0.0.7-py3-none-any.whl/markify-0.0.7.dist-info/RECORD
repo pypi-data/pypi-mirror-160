@@ -1,0 +1,10 @@
+VERSION.py,sha256=WNI9ogZkvoafrSBC6mSUvZG_9BCM5EHNcPwYFL8ADRY,17
+main.py,sha256=vRXJmnwiamfgXsK9anTxEAmOh3wUYmxp9hikra-j4SM,3777
+main_funcs.py,sha256=3wIihiQaY35TSAW8vwRQPevBJV244ej9gcH65UWiZb8,16068
+markify.py,sha256=WK3mU9PyRnK3X9OQBC8k3tIIPNX33LXIq1HTPRU-bBE,4597
+util_funcs.py,sha256=cOPis2XqaWJYuexPxoLFUO7sGZRJsb4si7-iIQV3Z_A,3172
+markify-0.0.7.dist-info/METADATA,sha256=IY6uiM3ckxEctfjYnJkVGRhJYWQJVA-X7HOcapp1IgM,4145
+markify-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+markify-0.0.7.dist-info/entry_points.txt,sha256=kQS8t7wTwenQ6p0FBqe4pg1kBXLxmgIKRL_9G9QGw4Y,46
+markify-0.0.7.dist-info/top_level.txt,sha256=3j1lUjrhuSS9CIjE3njPImhd759EAyI9wB04lP067kc,38
+markify-0.0.7.dist-info/RECORD,,
