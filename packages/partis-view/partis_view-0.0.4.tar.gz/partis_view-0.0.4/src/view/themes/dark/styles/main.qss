@@ -1,0 +1,59 @@
+
+@import "base.qss";
+
+@import "config_tree.qss";
+
+
+ToolButton {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+ToolButton:hover {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}
+
+ToolButton:pressed {
+  background-color: #363636;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}
+
+Heading1 {
+  font: 16px;
+  font-weight: bold;
+}
+
+Heading2 {
+  font: 14px;
+  font-weight: bold;
+}
+
+Heading3 {
+  font: 12px;
+  font-weight: bold;
+}
+
+HLine {
+    border-width: 0.1ex;
+    padding: 0.1ex;
+    border-style: solid;
+    border-color: #131517;
+    background-color: #0a0b0b;
+    border-radius: 0.5ex;
+}
+
+Edit {
+  background-color: #1f1f1f;
+}
+
+CodeEdit {
+  alternate-background-color: #282c2f;
+}
+
+LineNumberArea {
+  color: #9b9fa2;
+  background-color: #282c2f;
+  alternate-background-color: #33393e;
+}
