@@ -1,0 +1,16 @@
+[package]
+name = "fifteen"
+version = "0.0.2"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "table_five"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.16.5", features = ["extension-module","abi3-py37"] }
+ogcat = {git = "https://github.com/RuneBlaze/ogcat"}
+ndarray = { version = "0.15.4", features = ["serde"] }
+halfbrown = "0.1.15"
+smallvec = "1.9.0"
