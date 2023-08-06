@@ -1,0 +1,10 @@
+README.md
+setup.py
+BitwiseExpressionSimplifier/__init__.py
+BitwiseExpressionSimplifier.egg-info/PKG-INFO
+BitwiseExpressionSimplifier.egg-info/SOURCES.txt
+BitwiseExpressionSimplifier.egg-info/dependency_links.txt
+BitwiseExpressionSimplifier.egg-info/top_level.txt
+BitwiseExpressionSimplifier/Bitwise/__init__.py
+BitwiseExpressionSimplifier/Number/__init__.py
+BitwiseExpressionSimplifier/util/__init__.py
