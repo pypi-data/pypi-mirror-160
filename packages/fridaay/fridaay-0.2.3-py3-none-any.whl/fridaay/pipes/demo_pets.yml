@@ -1,0 +1,28 @@
+fridaay:
+  version: 0.1
+  do: core.init
+  imports:
+   sql: dad_sql_pandas
+  set: # global constants
+    NAME: demo_pets
+    SAPIENT: Human
+
+test_data:
+  doc: Sample data for test purposes
+  do: sql.load
+  columns: ['Name','Age','Weight','Type','Timestamp']
+  data:
+  - ['Ernie', 54, 170.5, 'Human Tech Nerd', 1967-10-08]
+  - ['Qhuinn', 7, 36.3, 'English Cocker Spaniel', 2015-03-01]
+  - ['Frolic', 2, 76.2, 'Chocolate Labrador', 2020-06-25]
+
+demo_pets:
+  do: sql.select
+  from: $$ # previous frame
+  cols:
+    Name: .str Personal Name
+    Age: .int.year Age
+    Weight: .float.pound Current Weight
+  where_all:
+  - ["Name","!=",Ernie]
+  save: [table]
