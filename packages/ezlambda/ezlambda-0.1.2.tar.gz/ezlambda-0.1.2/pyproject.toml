@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezlambda"
+version = "0.1.2"
+description = "Easy and intuitive notation to replace simple lambda functions."
+readme = "README.md"
+authors = [{ name = "adesanjo"}]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["ez", "lambda", "easy", "easylambda", "function", "functional", "ezlambda"]
+dependencies = []
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = []
+
+[project.urls]
+Homepage = "https://github.com/adesanjo/ezlambda"
