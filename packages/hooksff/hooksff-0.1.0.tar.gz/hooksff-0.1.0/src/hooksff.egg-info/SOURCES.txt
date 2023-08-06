@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/hooksff/__init__.py
+src/hooksff/py.typed
+src/hooksff.egg-info/PKG-INFO
+src/hooksff.egg-info/SOURCES.txt
+src/hooksff.egg-info/dependency_links.txt
+src/hooksff.egg-info/not-zip-safe
+src/hooksff.egg-info/requires.txt
+src/hooksff.egg-info/top_level.txt
