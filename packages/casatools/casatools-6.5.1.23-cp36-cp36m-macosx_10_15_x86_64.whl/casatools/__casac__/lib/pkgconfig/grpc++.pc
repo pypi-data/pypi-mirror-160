@@ -1,0 +1,12 @@
+prefix=/Volumes/G-RAIDWithThunderbolt/bamboohome/xml-data/build-dir/CASA-C65RP1-O15/casa6/casatools/build/lib.macosx-10.15-x86_64-3.6/casatools/__casac__
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: gRPC++
+Description: C++ wrapper for gRPC
+Version: 1.8.7
+Cflags: -I${includedir} 
+Requires.private: grpc 
+Libs: -L${libdir} -lgrpc++
+Libs.private: 
