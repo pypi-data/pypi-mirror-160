@@ -1,0 +1,11 @@
+regli/__init__.py,sha256=knG8fv-7EuahN_tOVc83pPswil4D0bJBt-cwrRXj480,59
+regli/ezmcmc.py,sha256=MKuJyLkzxlLG08rvzakm91UVnplYPdZVP9wyzmDgsr8,5243
+regli/mcmc.py,sha256=OUAv0zK0wyVoJh7HiiZBNg7pEAXLmg7Ibadb4ubWazU,1019
+regli/regli.py,sha256=-MfbhIqUCX77Mg3-RU007t2794g2BisPGA5JcsYm9gQ,20206
+regli/regress.py,sha256=wDDEeRfn6XKmefzd84TKdhdRIbJAaRVTM8JTaGBETGs,1492
+regli/spin.py,sha256=xL8JFvFlfz0AMFfvhQ5PfzI4oKOm9kU-QsTfCXw3CqE,5312
+regli-2022.722.0.dist-info/LICENSE,sha256=i_qmf9oaOA28afIg9z5YYaJnaC16R65OT7qzu_fx2Oc,1065
+regli-2022.722.0.dist-info/METADATA,sha256=D9l3Br7XGHtkJKjAabFfCVqp6BGNbAWHDV-wI335gcc,3479
+regli-2022.722.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+regli-2022.722.0.dist-info/top_level.txt,sha256=6OXEU9V3OFtQHP84M1upCt2nwGVCP81bqUz_-8lpgt8,6
+regli-2022.722.0.dist-info/RECORD,,
