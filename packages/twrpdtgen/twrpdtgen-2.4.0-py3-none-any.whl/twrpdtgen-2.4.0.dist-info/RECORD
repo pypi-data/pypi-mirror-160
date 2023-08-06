@@ -1,0 +1,17 @@
+twrpdtgen/__init__.py,sha256=Hm5IU_bD1fN9wXvqmV-Pj3xxFp_nuMFQOf8nAZjpLjI,209
+twrpdtgen/__main__.py,sha256=VqbxaxEAgzvNfxED8aPu_TaMI35NDRwVoYNaMhqhK9o,185
+twrpdtgen/device_tree.py,sha256=qA6onsFHNXQRfbj0ZdcbGHKdQegQ9NoKrD04VlybUUk,6411
+twrpdtgen/main.py,sha256=39NVr16noSBsERDBOwaY0hzFuVEvBPTA0cgOkC4i380,1202
+twrpdtgen/templates/Android.mk.jinja2,sha256=wIRG1u18wBM4FHi5oUdnH8emgdQJaDi-WV_LiqJ6c1k,164
+twrpdtgen/templates/AndroidProducts.mk.jinja2,sha256=bBjMAg8VbaR8JIUhgVVPikhAlSgAL_UMM85Z50_iqIA,259
+twrpdtgen/templates/BoardConfig.mk.jinja2,sha256=M-T-QArOXLtl2uP8HMJRr5AUCfI251_Eza3tuWWbVDc,4871
+twrpdtgen/templates/LICENSE,sha256=qQvO6gPFOcrIdOehQqXNOQTtdrB7D7t4HAKrVofgY-M,187
+twrpdtgen/templates/commit_message.jinja2,sha256=AWn34GYH8JDF4d06dRaJBG0WpzYEwpTDoL_exhVc9II,242
+twrpdtgen/templates/device.mk.jinja2,sha256=ougNefzNrNGnZhfK0PMP32DpQdzJZRC5DAunXGUHvJ8,788
+twrpdtgen/templates/omni.mk.jinja2,sha256=gPHg0kRbCL3Nt-icTwitEOOJg2gY758yG_VRCCA80YM,993
+twrpdtgen/templates/vendorsetup.sh.jinja2,sha256=zlAXr3PBnXsSb6k8AxcOnC8FiOC9oWJ1sCY4NpW-V7E,189
+twrpdtgen/utils/device_info.py,sha256=5tgse9oTyeV_bb_hQlzEgFWurMFgs7Qa3E7x4gbw_6Q,2907
+twrpdtgen/utils/template.py,sha256=koGJQ2Y4UWLpt7sQhI7GagBfAEKgeyTHhjDa9J8tbWs,813
+twrpdtgen-2.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+twrpdtgen-2.4.0.dist-info/METADATA,sha256=clVEYE6uhgP4v27ZeNWPxE4UbWBxa830Jhs2JBomcqY,2298
+twrpdtgen-2.4.0.dist-info/RECORD,,
