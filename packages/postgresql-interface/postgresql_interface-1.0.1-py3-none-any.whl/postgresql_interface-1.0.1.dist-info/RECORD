@@ -1,0 +1,10 @@
+postgresql_interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+postgresql_interface/custom_errors.py,sha256=jLGufbRnF3LjevfXeyFSArMobEXT-OJwER69RcYxfU0,107
+postgresql_interface/postgresql_interface.py,sha256=dALC46X62QhwClyHqc1cNkm1htFwmbYeny6Ao_o3AN4,12541
+postgresql_interface/sql_injection_bodyguard.py,sha256=can8l9E7xK9K04j05YBh5tCd5UOkOhrkG85oFgU5De0,1489
+postgresql_interface/sql_writer.py,sha256=qFgXxbgDlYDnik5dnGw6GElnQCU73zru0XBvuPheDA0,9754
+postgresql_interface-1.0.1.dist-info/LICENSE.txt,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+postgresql_interface-1.0.1.dist-info/METADATA,sha256=921U23X7cN5FkjFDF2_O-wP7f3pkNATArpGcBhwx2MQ,2702
+postgresql_interface-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+postgresql_interface-1.0.1.dist-info/top_level.txt,sha256=LEmjEdTN9lRbQqkARREEApJrLClrst6b3Dc3ZwD18yo,21
+postgresql_interface-1.0.1.dist-info/RECORD,,
