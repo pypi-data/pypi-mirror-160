@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+korcen/__init__.py
+korcen/korcen.py
+korcen_test.egg-info/PKG-INFO
+korcen_test.egg-info/SOURCES.txt
+korcen_test.egg-info/dependency_links.txt
+korcen_test.egg-info/requires.txt
+korcen_test.egg-info/top_level.txt
