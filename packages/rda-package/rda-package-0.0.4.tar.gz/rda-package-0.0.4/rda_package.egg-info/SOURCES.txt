@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+rda_package/__init__.py
+rda_package/rda.py
+rda_package.egg-info/PKG-INFO
+rda_package.egg-info/SOURCES.txt
+rda_package.egg-info/dependency_links.txt
+rda_package.egg-info/requires.txt
+rda_package.egg-info/top_level.txt
