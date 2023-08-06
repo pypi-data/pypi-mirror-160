@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cashflower
+Version: 0.0.1
+Summary: Framework for actuarial cash flow models.
+Author: Zuzanna Chmielewska
+License-File: LICENSE
+Requires-Dist: numpy (>=1.23.0)
+Requires-Dist: pandas (>=1.4.3)
+
