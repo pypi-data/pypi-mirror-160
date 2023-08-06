@@ -1,0 +1,13 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+lazyemployee/__init__.py
+lazyemployee/mainfile.py
+lazyemployee/test_mainfile.py
+lazyemployee.egg-info/PKG-INFO
+lazyemployee.egg-info/SOURCES.txt
+lazyemployee.egg-info/dependency_links.txt
+lazyemployee.egg-info/requires.txt
+lazyemployee.egg-info/top_level.txt
