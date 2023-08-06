@@ -1,0 +1,3 @@
+VapourSynth>=57
+vs-rekt>=1.0.0
+vsutil==0.7.0
