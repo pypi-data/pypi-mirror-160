@@ -1,0 +1,11 @@
+requests
+pyyaml
+wandbox-api>=0.9.28
+jinja2<=3.0.2
+markupsafe==2.0.1
+kamidana
+
+[test]
+importlib-metadata<2,>=0.12
+tox
+pytest
