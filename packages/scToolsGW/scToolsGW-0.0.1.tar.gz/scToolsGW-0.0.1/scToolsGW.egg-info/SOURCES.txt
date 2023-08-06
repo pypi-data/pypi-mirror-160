@@ -1,0 +1,10 @@
+LICENSE
+setup.cfg
+setup.py
+scToolsGW/__init__.py
+scToolsGW/module1.py
+scToolsGW.egg-info/PKG-INFO
+scToolsGW.egg-info/SOURCES.txt
+scToolsGW.egg-info/dependency_links.txt
+scToolsGW.egg-info/not-zip-safe
+scToolsGW.egg-info/top_level.txt
