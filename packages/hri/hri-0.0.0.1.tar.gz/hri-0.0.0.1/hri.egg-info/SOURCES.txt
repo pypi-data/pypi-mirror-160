@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+hri/__init__.py
+hri/version.py
+hri.egg-info/PKG-INFO
+hri.egg-info/SOURCES.txt
+hri.egg-info/dependency_links.txt
+hri.egg-info/requires.txt
+hri.egg-info/top_level.txt
