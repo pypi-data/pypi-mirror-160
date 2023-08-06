@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+speakdis.egg-info/PKG-INFO
+speakdis.egg-info/SOURCES.txt
+speakdis.egg-info/dependency_links.txt
+speakdis.egg-info/requires.txt
+speakdis.egg-info/top_level.txt
+speaking/__init__.py
+speaking/speek.py
