@@ -1,0 +1,15 @@
+songbird_py-0.1.7.dist-info/METADATA,sha256=RXcLztJG5AW3UYQ5fpNDAPUU864W0ptnoY8F3aV_AEw,3742
+songbird_py-0.1.7.dist-info/WHEEL,sha256=frIhG7sd_mih_kp2h41yYjWuRBLLWqFy93f84w0NLbo,96
+songbird_py-0.1.7.dist-info/license_files/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+songbird/exceptions.py,sha256=uZYAG2oD4gU356qzjCEvz1c3ejkN8Wk4mke4BgU-ZHE,384
+songbird/helpers.py,sha256=pcnYxYH335kuEXc4zfTXE2z8kmsqiN2lnN2JJLXU9lY,503
+songbird/hikari.py,sha256=JOrY5CFuavKVe5XUwv4tYZ7Q4crrcAqe77BB58lOWUY,3557
+songbird/pincer.py,sha256=VMQe4vB5ejz0lI0TmDP7jZaVPpPApKNMV37TQe6jsyA,1989
+songbird/playlist.py,sha256=lJrKCAV8NsYq-koZwnxvHH1B9qwXR19lPl2qygKGwEI,1133
+songbird/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+songbird/queue.py,sha256=eK3aQa6IGHPelw4j4n0RKzHa_INlGYnie9uE9pbVRDM,5015
+songbird/songbird.pyi,sha256=mnCXyGEEi0fOho8_ON3D_6wfkNgtlqn4DRghVUpyias,9255
+songbird/voicebox_base.py,sha256=WyftEC6SPoTOpHl_uzABO3bIx9WkwKhnEAkLHr67hZI,1830
+songbird/__init__.py,sha256=kGYCJomxCicTcLNSQjh8Qy0qFClKzZlZ9GF6YbCGcWc,196
+songbird/songbird.cp39-win_amd64.pyd,sha256=HFK5EQA_9uGAf511Yk3-t1ALUE_qjiOzy6tDhhb476s,6717440
+songbird_py-0.1.7.dist-info/RECORD,,
