@@ -1,0 +1,8 @@
+jk_logging
+jk_prettyprintobj
+jk_prettyprintobj
+jk_simpleexec
+jk_typing
+jk_utils
+jk_version
+python-dateutil
