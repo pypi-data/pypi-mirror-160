@@ -1,0 +1,14 @@
+t1ha/__init__.py,sha256=z6gFxM7e9djMX6dG8hXCp26dtFt9S7GfJCxAYqQ3Cx4,144
+t1ha/backends/__init__.py,sha256=_QY6UHqagih0dtwL3rPO3YqE78C-HlxG0L9zoXeC4w4,493
+t1ha/backends/cffi/__init__.py,sha256=TLkZAdjed8raeo5jC46HYm3xrGqWIaqaXJ4aGCUi_po,1132
+t1ha/backends/cffi/_hash_cffi.pyd,sha256=98yiv1Jsek0HiUA2ANNUHEya04hL5fBuAyT4DSPqlto,27136
+t1ha/backends/cffi/build.py,sha256=wvuTKpd9lkuUGzoWigpugtuUdP27GPJcQi5uh45D3CM,1131
+t1ha/backends/cython/__init__.py,sha256=T-maVnJ4RCdeoZJDMka6Kxsh3uL-oy8IWd9gv_W0W3g,132
+t1ha/backends/cython/_hash_cy.c,sha256=HHel2X_3NDm8XWVx-YMYxwPFfWCjIUATn0VRTjc9ZZk,821068
+t1ha/backends/cython/_hash_cy.cp310-win_amd64.pyd,sha256=8QXXxvC8aI6DchQlx9yB1QCyZPlWpZIi_Z8lqsa-SDA,132608
+t1ha/backends/cython/_hash_cy.pyx,sha256=3FcftWUnzfMJ89wH5VH0GXR0c2gQlMwpDRiKn6txgRg,1293
+t1ha/backends/cython/t1ha.pxd,sha256=d5Z4Rrr6dasjIHrw1qzoCtpDRnPtWcS-8szNvWMQIUI,2088
+t1ha-0.1.0rc1.dist-info/METADATA,sha256=b4LNbbYan9N6QpTTWyK1bABnXs8W9LewDpiFPJ0knd0,1012
+t1ha-0.1.0rc1.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+t1ha-0.1.0rc1.dist-info/top_level.txt,sha256=PmTbY1-UxY-c-e6_VhEdd-7C-1Fbd7kxoEeuAlEdk2c,5
+t1ha-0.1.0rc1.dist-info/RECORD,,
