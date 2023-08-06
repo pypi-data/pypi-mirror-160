@@ -1,0 +1,3 @@
+mock # BSD
+pytest # MIT
+tomli # MIT
