@@ -1,0 +1,29 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "convertible"
+authors = [{name = "Anexen"}]
+readme = "README.md"
+version = "0.1.0"
+description = "Value-to-value conversion in Python"
+
+requires-python = ">=3.7"
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Source = "https://github.com/Anexen/convertible"
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79
+lines_after_imports = 2
