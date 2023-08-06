@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+levy_stable_pytorch.egg-info/PKG-INFO
+levy_stable_pytorch.egg-info/SOURCES.txt
+levy_stable_pytorch.egg-info/dependency_links.txt
+levy_stable_pytorch.egg-info/requires.txt
+levy_stable_pytorch.egg-info/top_level.txt
