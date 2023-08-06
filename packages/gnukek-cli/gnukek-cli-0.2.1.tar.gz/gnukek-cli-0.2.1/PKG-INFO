@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gnukek-cli
+Version: 0.2.1
+Summary: Kinetic Effective Key CLI
+Home-page: https://github.com/SweetBubaleXXX/KEK-cli
+Author: SweetBubaleXXX
+License: GNU General Public License v3.0
+Project-URL: Source, https://github.com/SweetBubaleXXX/KEK-cli
+Project-URL: Bug Tracker, https://github.com/SweetBubaleXXX/KEK-cli/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Security :: Cryptography
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: build
+License-File: LICENSE
+
+# KEK-cli
