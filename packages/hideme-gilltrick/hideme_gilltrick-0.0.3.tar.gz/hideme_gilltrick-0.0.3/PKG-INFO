@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hideme_gilltrick
+Version: 0.0.3
+Summary: Hide a file in another file
+Home-page: UNKNOWN
+Author: Gilltrick (Patrick Gillmann)
+Author-email: <mail@example.com>
+License: UNKNOWN
+Description: You can hide videos or images in other images or videos
+Keywords: python,hide,files,videos,images
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
