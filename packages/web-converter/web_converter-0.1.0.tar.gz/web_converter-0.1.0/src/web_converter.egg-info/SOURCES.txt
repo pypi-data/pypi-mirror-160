@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/web_converter.py
+src/web_converter.egg-info/PKG-INFO
+src/web_converter.egg-info/SOURCES.txt
+src/web_converter.egg-info/dependency_links.txt
+src/web_converter.egg-info/top_level.txt
