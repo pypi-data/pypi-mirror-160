@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+chkpy/__init__.py
+chkpy/__main__.py
+chkpy/art.py
+chkpy/directory.py
+chkpy/filetest.py
+chkpy/main.py
+chkpy/modes.py
+chkpy/test.py
+chkpy.egg-info/PKG-INFO
+chkpy.egg-info/SOURCES.txt
+chkpy.egg-info/dependency_links.txt
+chkpy.egg-info/entry_points.txt
+chkpy.egg-info/requires.txt
+chkpy.egg-info/top_level.txt

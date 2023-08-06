@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: chkpy
+Version: 1.0.2
+Summary: Wrapper for 3 python tools to aid in code development
+Home-page: https://github.com/nwc1020/ChkPy
+Author: Anthony Clark, Dylan Haus & Nick Cardin
+Author-email: <mail@unh.edu>
+License: GPLv3
+Keywords: python,wrapper,development
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+File: README.md
+
