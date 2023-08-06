@@ -1,0 +1,16 @@
+Makefile
+README.md
+pyproject.toml
+setup.cfg
+tox.ini
+src/Makefile_venv/LICENSE
+src/Makefile.venv.egg-info/PKG-INFO
+src/Makefile.venv.egg-info/SOURCES.txt
+src/Makefile.venv.egg-info/dependency_links.txt
+src/Makefile.venv.egg-info/entry_points.txt
+src/Makefile.venv.egg-info/not-zip-safe
+src/Makefile.venv.egg-info/top_level.txt
+src/Makefile_venv/Makefile.venv
+src/Makefile_venv/README.md
+src/Makefile_venv/__init__.py
+tests/test_installable.py
