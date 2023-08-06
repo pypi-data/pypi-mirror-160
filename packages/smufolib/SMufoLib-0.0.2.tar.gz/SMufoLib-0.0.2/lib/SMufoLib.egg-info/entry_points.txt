@@ -1,0 +1,7 @@
+[console_scripts]
+checkAnchors = bin.check_anchors:checkAnchors
+exportAnnotation = bin.export_annotation:exportAnnotation
+generateMetadata = bin.generate_metadata:generateMetadata
+importAnnotation = bin.import_annotation:importAnnotation
+notateDescriptions = bin.notate_descriptions:notateDescriptions
+notateSmuflNames = bin.notate_smufl_names:notateSmuflNames
