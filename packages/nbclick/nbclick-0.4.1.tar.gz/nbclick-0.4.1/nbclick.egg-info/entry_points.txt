@@ -1,0 +1,2 @@
+[console_scripts]
+nbclick = nbclick.__main__:main
