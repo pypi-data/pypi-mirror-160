@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+firstsdk/__init__.py
+firstsdk/main.py
+firstsdk/shipments.py
+firstsdk.egg-info/PKG-INFO
+firstsdk.egg-info/SOURCES.txt
+firstsdk.egg-info/dependency_links.txt
+firstsdk.egg-info/requires.txt
+firstsdk.egg-info/top_level.txt
