@@ -1,0 +1,8 @@
+mcpi_command_utils/__init__.py,sha256=yMLkB5sG7fsHU7m6DE46RjlEfWUgNv1BMSYIMiIrehU,80
+mcpi_command_utils/client.py,sha256=vCHrwwmKOfngMt7nZMq-TFfO4V10moyfCoJorkVuWX8,1383
+mcpi_command_utils/server.py,sha256=TTFg5-df7UbDIHX4rlmFKR4FfOsDKF56bugsCkCqC2c,1790
+mcpi_command_utils-1.0.dist-info/LICENSE,sha256=bafd9Az-pvVolhglsUR46HmHX2rQM_rVeImuW9UhA_Q,26527
+mcpi_command_utils-1.0.dist-info/METADATA,sha256=FMgjAD9O09-3jtKHah8qgkBHPbHaUKROQIFwT0gaWyo,727
+mcpi_command_utils-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mcpi_command_utils-1.0.dist-info/top_level.txt,sha256=G54gOSlAvyEKXupA9FkretboDkUJWfoEdD5dcxEdmuI,19
+mcpi_command_utils-1.0.dist-info/RECORD,,
