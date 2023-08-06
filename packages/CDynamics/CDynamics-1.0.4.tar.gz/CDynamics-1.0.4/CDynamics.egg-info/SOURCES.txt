@@ -1,0 +1,7 @@
+setup.py
+CDynamics/__init__.py
+CDynamics.egg-info/PKG-INFO
+CDynamics.egg-info/SOURCES.txt
+CDynamics.egg-info/dependency_links.txt
+CDynamics.egg-info/requires.txt
+CDynamics.egg-info/top_level.txt
