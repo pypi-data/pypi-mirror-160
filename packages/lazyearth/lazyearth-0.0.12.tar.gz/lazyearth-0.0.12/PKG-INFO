@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: lazyearth
+Version: 0.0.12
+Summary: Library OOP for workwith odc by Tun Kedsaro
+Home-page: https://github.com/Tun555/lazyearth
+Author: Tun Kedsaro
+Author-email: Tun.k@ku.th
+License: MIT
+Download-URL: https://github.com/Tun555/lazyearth/archive/refs/tags/v0.0.6.zip
+Keywords: OOP,ODC
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+License-File: LICENSE.txt
+
+(Lazyearth) Library OOP for workwith odc
+
+
+
+โปรแกรมแชทนี้เป็นโปรแกรมที่เขียนขึ้นมาโดยใช้ Python โดยการเขียนแบบ OOP สำหรับใช้งานในการสร้าง class ต่างๆ อย่างรวดเร็ว เพียงแค่มี Python อยู่ในคอมพิวเตอร์ก็สามารถใช้งานได้
+
+
+
+ปล. เวอร์ชั่นนี้ยังไม่สมบูรณ์ (เขียนแบบรีบๆ) เขียนเพื่อนำ concept OOP มาสร้าง library แล้วก็ upload ขึ้น Github กับ PyPI ต่อไป สำหรับนักพัฒนาสามารถนำ Source Code ไปพัฒนาต่อได้เต็มที่ ซึ่งก็คืออีกโปรเจคนึ่งนั้นแหละ เพราะว่า jupyter มันไม่สามารถ import def ได้เหมือนกับตัว คอมก็เลยใช้วิธีนี้เอา และก็ยังมีอีกหลาย library ที่เขียนดองเอาไว้
+
+
+
+Develop by : Tun Kedsaro 
+
+
+
+
