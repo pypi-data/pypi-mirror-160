@@ -1,0 +1,2 @@
+[datalad.extensions]
+ukbiobank = datalad_ukbiobank:command_suite

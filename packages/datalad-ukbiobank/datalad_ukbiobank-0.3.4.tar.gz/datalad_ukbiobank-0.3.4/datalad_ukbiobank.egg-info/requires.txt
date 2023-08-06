@@ -1,0 +1,6 @@
+datalad>=0.17.0
+
+[devel]
+pytest
+pytest-cov
+coverage
