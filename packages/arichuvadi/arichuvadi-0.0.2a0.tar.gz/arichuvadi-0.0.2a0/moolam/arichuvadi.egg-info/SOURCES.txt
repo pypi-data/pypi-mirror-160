@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.py
+moolam/arichuvadi/arichuvadi.py
+moolam/arichuvadi/orunguri-tha.py
+moolam/arichuvadi/valam.py
+moolam/arichuvadi.egg-info/PKG-INFO
+moolam/arichuvadi.egg-info/SOURCES.txt
+moolam/arichuvadi.egg-info/dependency_links.txt
+moolam/arichuvadi.egg-info/top_level.txt
+tharavu/adaiyalamitta-ari.txt
+tharavu/ari-uni.txt
+tharavu/ari.txt
