@@ -1,0 +1,13 @@
+.flake8
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+analysisflow/__init__.py
+analysisflow/__version__.py
+analysisflow.egg-info/PKG-INFO
+analysisflow.egg-info/SOURCES.txt
+analysisflow.egg-info/dependency_links.txt
+analysisflow.egg-info/not-zip-safe
+analysisflow.egg-info/top_level.txt
