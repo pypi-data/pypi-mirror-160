@@ -1,0 +1,1808 @@
+Metadata-Version: 2.1
+Name: nvitop
+Version: 0.7.1
+Summary: An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management.
+Author-email: Xuehai Pan <XuehaiPan@pku.edu.cn>
+License: GNU GENERAL PUBLIC LICENSE
+                               Version 3, 29 June 2007        
+         Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+         Everyone is permitted to copy and distribute verbatim copies
+         of this license document, but changing it is not allowed.        
+                                    Preamble        
+          The GNU General Public License is a free, copyleft license for
+        software and other kinds of works.        
+          The licenses for most software and other practical works are designed
+        to take away your freedom to share and change the works.  By contrast,
+        the GNU General Public License is intended to guarantee your freedom to
+        share and change all versions of a program--to make sure it remains free
+        software for all its users.  We, the Free Software Foundation, use the
+        GNU General Public License for most of our software; it applies also to
+        any other work released this way by its authors.  You can apply it to
+        your programs, too.        
+          When we speak of free software, we are referring to freedom, not
+        price.  Our General Public Licenses are designed to make sure that you
+        have the freedom to distribute copies of free software (and charge for
+        them if you wish), that you receive source code or can get it if you
+        want it, that you can change the software or use pieces of it in new
+        free programs, and that you know you can do these things.        
+          To protect your rights, we need to prevent others from denying you
+        these rights or asking you to surrender the rights.  Therefore, you have
+        certain responsibilities if you distribute copies of the software, or if
+        you modify it: responsibilities to respect the freedom of others.        
+          For example, if you distribute copies of such a program, whether
+        gratis or for a fee, you must pass on to the recipients the same
+        freedoms that you received.  You must make sure that they, too, receive
+        or can get the source code.  And you must show them these terms so they
+        know their rights.        
+          Developers that use the GNU GPL protect your rights with two steps:
+        (1) assert copyright on the software, and (2) offer you this License
+        giving you legal permission to copy, distribute and/or modify it.        
+          For the developers' and authors' protection, the GPL clearly explains
+        that there is no warranty for this free software.  For both users' and
+        authors' sake, the GPL requires that modified versions be marked as
+        changed, so that their problems will not be attributed erroneously to
+        authors of previous versions.        
+          Some devices are designed to deny users access to install or run
+        modified versions of the software inside them, although the manufacturer
+        can do so.  This is fundamentally incompatible with the aim of
+        protecting users' freedom to change the software.  The systematic
+        pattern of such abuse occurs in the area of products for individuals to
+        use, which is precisely where it is most unacceptable.  Therefore, we
+        have designed this version of the GPL to prohibit the practice for those
+        products.  If such problems arise substantially in other domains, we
+        stand ready to extend this provision to those domains in future versions
+        of the GPL, as needed to protect the freedom of users.        
+          Finally, every program is threatened constantly by software patents.
+        States should not allow patents to restrict development and use of
+        software on general-purpose computers, but in those that do, we wish to
+        avoid the special danger that patents applied to a free program could
+        make it effectively proprietary.  To prevent this, the GPL assures that
+        patents cannot be used to render the program non-free.        
+          The precise terms and conditions for copying, distribution and
+        modification follow.        
+                               TERMS AND CONDITIONS        
+          0. Definitions.        
+          "This License" refers to version 3 of the GNU General Public License.        
+          "Copyright" also means copyright-like laws that apply to other kinds of
+        works, such as semiconductor masks.        
+          "The Program" refers to any copyrightable work licensed under this
+        License.  Each licensee is addressed as "you".  "Licensees" and
+        "recipients" may be individuals or organizations.        
+          To "modify" a work means to copy from or adapt all or part of the work
+        in a fashion requiring copyright permission, other than the making of an
+        exact copy.  The resulting work is called a "modified version" of the
+        earlier work or a work "based on" the earlier work.        
+          A "covered work" means either the unmodified Program or a work based
+        on the Program.        
+          To "propagate" a work means to do anything with it that, without
+        permission, would make you directly or secondarily liable for
+        infringement under applicable copyright law, except executing it on a
+        computer or modifying a private copy.  Propagation includes copying,
+        distribution (with or without modification), making available to the
+        public, and in some countries other activities as well.        
+          To "convey" a work means any kind of propagation that enables other
+        parties to make or receive copies.  Mere interaction with a user through
+        a computer network, with no transfer of a copy, is not conveying.        
+          An interactive user interface displays "Appropriate Legal Notices"
+        to the extent that it includes a convenient and prominently visible
+        feature that (1) displays an appropriate copyright notice, and (2)
+        tells the user that there is no warranty for the work (except to the
+        extent that warranties are provided), that licensees may convey the
+        work under this License, and how to view a copy of this License.  If
+        the interface presents a list of user commands or options, such as a
+        menu, a prominent item in the list meets this criterion.        
+          1. Source Code.        
+          The "source code" for a work means the preferred form of the work
+        for making modifications to it.  "Object code" means any non-source
+        form of a work.        
+          A "Standard Interface" means an interface that either is an official
+        standard defined by a recognized standards body, or, in the case of
+        interfaces specified for a particular programming language, one that
+        is widely used among developers working in that language.        
+          The "System Libraries" of an executable work include anything, other
+        than the work as a whole, that (a) is included in the normal form of
+        packaging a Major Component, but which is not part of that Major
+        Component, and (b) serves only to enable use of the work with that
+        Major Component, or to implement a Standard Interface for which an
+        implementation is available to the public in source code form.  A
+        "Major Component", in this context, means a major essential component
+        (kernel, window system, and so on) of the specific operating system
+        (if any) on which the executable work runs, or a compiler used to
+        produce the work, or an object code interpreter used to run it.        
+          The "Corresponding Source" for a work in object code form means all
+        the source code needed to generate, install, and (for an executable
+        work) run the object code and to modify the work, including scripts to
+        control those activities.  However, it does not include the work's
+        System Libraries, or general-purpose tools or generally available free
+        programs which are used unmodified in performing those activities but
+        which are not part of the work.  For example, Corresponding Source
+        includes interface definition files associated with source files for
+        the work, and the source code for shared libraries and dynamically
+        linked subprograms that the work is specifically designed to require,
+        such as by intimate data communication or control flow between those
+        subprograms and other parts of the work.        
+          The Corresponding Source need not include anything that users
+        can regenerate automatically from other parts of the Corresponding
+        Source.        
+          The Corresponding Source for a work in source code form is that
+        same work.        
+          2. Basic Permissions.        
+          All rights granted under this License are granted for the term of
+        copyright on the Program, and are irrevocable provided the stated
+        conditions are met.  This License explicitly affirms your unlimited
+        permission to run the unmodified Program.  The output from running a
+        covered work is covered by this License only if the output, given its
+        content, constitutes a covered work.  This License acknowledges your
+        rights of fair use or other equivalent, as provided by copyright law.        
+          You may make, run and propagate covered works that you do not
+        convey, without conditions so long as your license otherwise remains
+        in force.  You may convey covered works to others for the sole purpose
+        of having them make modifications exclusively for you, or provide you
+        with facilities for running those works, provided that you comply with
+        the terms of this License in conveying all material for which you do
+        not control copyright.  Those thus making or running the covered works
+        for you must do so exclusively on your behalf, under your direction
+        and control, on terms that prohibit them from making any copies of
+        your copyrighted material outside their relationship with you.        
+          Conveying under any other circumstances is permitted solely under
+        the conditions stated below.  Sublicensing is not allowed; section 10
+        makes it unnecessary.        
+          3. Protecting Users' Legal Rights From Anti-Circumvention Law.        
+          No covered work shall be deemed part of an effective technological
+        measure under any applicable law fulfilling obligations under article
+        11 of the WIPO copyright treaty adopted on 20 December 1996, or
+        similar laws prohibiting or restricting circumvention of such
+        measures.        
+          When you convey a covered work, you waive any legal power to forbid
+        circumvention of technological measures to the extent such circumvention
+        is effected by exercising rights under this License with respect to
+        the covered work, and you disclaim any intention to limit operation or
+        modification of the work as a means of enforcing, against the work's
+        users, your or third parties' legal rights to forbid circumvention of
+        technological measures.        
+          4. Conveying Verbatim Copies.        
+          You may convey verbatim copies of the Program's source code as you
+        receive it, in any medium, provided that you conspicuously and
+        appropriately publish on each copy an appropriate copyright notice;
+        keep intact all notices stating that this License and any
+        non-permissive terms added in accord with section 7 apply to the code;
+        keep intact all notices of the absence of any warranty; and give all
+        recipients a copy of this License along with the Program.        
+          You may charge any price or no price for each copy that you convey,
+        and you may offer support or warranty protection for a fee.        
+          5. Conveying Modified Source Versions.        
+          You may convey a work based on the Program, or the modifications to
+        produce it from the Program, in the form of source code under the
+        terms of section 4, provided that you also meet all of these conditions:        
+            a) The work must carry prominent notices stating that you modified
+            it, and giving a relevant date.        
+            b) The work must carry prominent notices stating that it is
+            released under this License and any conditions added under section
+            7.  This requirement modifies the requirement in section 4 to
+            "keep intact all notices".        
+            c) You must license the entire work, as a whole, under this
+            License to anyone who comes into possession of a copy.  This
+            License will therefore apply, along with any applicable section 7
+            additional terms, to the whole of the work, and all its parts,
+            regardless of how they are packaged.  This License gives no
+            permission to license the work in any other way, but it does not
+            invalidate such permission if you have separately received it.        
+            d) If the work has interactive user interfaces, each must display
+            Appropriate Legal Notices; however, if the Program has interactive
+            interfaces that do not display Appropriate Legal Notices, your
+            work need not make them do so.        
+          A compilation of a covered work with other separate and independent
+        works, which are not by their nature extensions of the covered work,
+        and which are not combined with it such as to form a larger program,
+        in or on a volume of a storage or distribution medium, is called an
+        "aggregate" if the compilation and its resulting copyright are not
+        used to limit the access or legal rights of the compilation's users
+        beyond what the individual works permit.  Inclusion of a covered work
+        in an aggregate does not cause this License to apply to the other
+        parts of the aggregate.        
+          6. Conveying Non-Source Forms.        
+          You may convey a covered work in object code form under the terms
+        of sections 4 and 5, provided that you also convey the
+        machine-readable Corresponding Source under the terms of this License,
+        in one of these ways:        
+            a) Convey the object code in, or embodied in, a physical product
+            (including a physical distribution medium), accompanied by the
+            Corresponding Source fixed on a durable physical medium
+            customarily used for software interchange.        
+            b) Convey the object code in, or embodied in, a physical product
+            (including a physical distribution medium), accompanied by a
+            written offer, valid for at least three years and valid for as
+            long as you offer spare parts or customer support for that product
+            model, to give anyone who possesses the object code either (1) a
+            copy of the Corresponding Source for all the software in the
+            product that is covered by this License, on a durable physical
+            medium customarily used for software interchange, for a price no
+            more than your reasonable cost of physically performing this
+            conveying of source, or (2) access to copy the
+            Corresponding Source from a network server at no charge.        
+            c) Convey individual copies of the object code with a copy of the
+            written offer to provide the Corresponding Source.  This
+            alternative is allowed only occasionally and noncommercially, and
+            only if you received the object code with such an offer, in accord
+            with subsection 6b.        
+            d) Convey the object code by offering access from a designated
+            place (gratis or for a charge), and offer equivalent access to the
+            Corresponding Source in the same way through the same place at no
+            further charge.  You need not require recipients to copy the
+            Corresponding Source along with the object code.  If the place to
+            copy the object code is a network server, the Corresponding Source
+            may be on a different server (operated by you or a third party)
+            that supports equivalent copying facilities, provided you maintain
+            clear directions next to the object code saying where to find the
+            Corresponding Source.  Regardless of what server hosts the
+            Corresponding Source, you remain obligated to ensure that it is
+            available for as long as needed to satisfy these requirements.        
+            e) Convey the object code using peer-to-peer transmission, provided
+            you inform other peers where the object code and Corresponding
+            Source of the work are being offered to the general public at no
+            charge under subsection 6d.        
+          A separable portion of the object code, whose source code is excluded
+        from the Corresponding Source as a System Library, need not be
+        included in conveying the object code work.        
+          A "User Product" is either (1) a "consumer product", which means any
+        tangible personal property which is normally used for personal, family,
+        or household purposes, or (2) anything designed or sold for incorporation
+        into a dwelling.  In determining whether a product is a consumer product,
+        doubtful cases shall be resolved in favor of coverage.  For a particular
+        product received by a particular user, "normally used" refers to a
+        typical or common use of that class of product, regardless of the status
+        of the particular user or of the way in which the particular user
+        actually uses, or expects or is expected to use, the product.  A product
+        is a consumer product regardless of whether the product has substantial
+        commercial, industrial or non-consumer uses, unless such uses represent
+        the only significant mode of use of the product.        
+          "Installation Information" for a User Product means any methods,
+        procedures, authorization keys, or other information required to install
+        and execute modified versions of a covered work in that User Product from
+        a modified version of its Corresponding Source.  The information must
+        suffice to ensure that the continued functioning of the modified object
+        code is in no case prevented or interfered with solely because
+        modification has been made.        
+          If you convey an object code work under this section in, or with, or
+        specifically for use in, a User Product, and the conveying occurs as
+        part of a transaction in which the right of possession and use of the
+        User Product is transferred to the recipient in perpetuity or for a
+        fixed term (regardless of how the transaction is characterized), the
+        Corresponding Source conveyed under this section must be accompanied
+        by the Installation Information.  But this requirement does not apply
+        if neither you nor any third party retains the ability to install
+        modified object code on the User Product (for example, the work has
+        been installed in ROM).        
+          The requirement to provide Installation Information does not include a
+        requirement to continue to provide support service, warranty, or updates
+        for a work that has been modified or installed by the recipient, or for
+        the User Product in which it has been modified or installed.  Access to a
+        network may be denied when the modification itself materially and
+        adversely affects the operation of the network or violates the rules and
+        protocols for communication across the network.        
+          Corresponding Source conveyed, and Installation Information provided,
+        in accord with this section must be in a format that is publicly
+        documented (and with an implementation available to the public in
+        source code form), and must require no special password or key for
+        unpacking, reading or copying.        
+          7. Additional Terms.        
+          "Additional permissions" are terms that supplement the terms of this
+        License by making exceptions from one or more of its conditions.
+        Additional permissions that are applicable to the entire Program shall
+        be treated as though they were included in this License, to the extent
+        that they are valid under applicable law.  If additional permissions
+        apply only to part of the Program, that part may be used separately
+        under those permissions, but the entire Program remains governed by
+        this License without regard to the additional permissions.        
+          When you convey a copy of a covered work, you may at your option
+        remove any additional permissions from that copy, or from any part of
+        it.  (Additional permissions may be written to require their own
+        removal in certain cases when you modify the work.)  You may place
+        additional permissions on material, added by you to a covered work,
+        for which you have or can give appropriate copyright permission.        
+          Notwithstanding any other provision of this License, for material you
+        add to a covered work, you may (if authorized by the copyright holders of
+        that material) supplement the terms of this License with terms:        
+            a) Disclaiming warranty or limiting liability differently from the
+            terms of sections 15 and 16 of this License; or        
+            b) Requiring preservation of specified reasonable legal notices or
+            author attributions in that material or in the Appropriate Legal
+            Notices displayed by works containing it; or        
+            c) Prohibiting misrepresentation of the origin of that material, or
+            requiring that modified versions of such material be marked in
+            reasonable ways as different from the original version; or        
+            d) Limiting the use for publicity purposes of names of licensors or
+            authors of the material; or        
+            e) Declining to grant rights under trademark law for use of some
+            trade names, trademarks, or service marks; or        
+            f) Requiring indemnification of licensors and authors of that
+            material by anyone who conveys the material (or modified versions of
+            it) with contractual assumptions of liability to the recipient, for
+            any liability that these contractual assumptions directly impose on
+            those licensors and authors.        
+          All other non-permissive additional terms are considered "further
+        restrictions" within the meaning of section 10.  If the Program as you
+        received it, or any part of it, contains a notice stating that it is
+        governed by this License along with a term that is a further
+        restriction, you may remove that term.  If a license document contains
+        a further restriction but permits relicensing or conveying under this
+        License, you may add to a covered work material governed by the terms
+        of that license document, provided that the further restriction does
+        not survive such relicensing or conveying.        
+          If you add terms to a covered work in accord with this section, you
+        must place, in the relevant source files, a statement of the
+        additional terms that apply to those files, or a notice indicating
+        where to find the applicable terms.        
+          Additional terms, permissive or non-permissive, may be stated in the
+        form of a separately written license, or stated as exceptions;
+        the above requirements apply either way.        
+          8. Termination.        
+          You may not propagate or modify a covered work except as expressly
+        provided under this License.  Any attempt otherwise to propagate or
+        modify it is void, and will automatically terminate your rights under
+        this License (including any patent licenses granted under the third
+        paragraph of section 11).        
+          However, if you cease all violation of this License, then your
+        license from a particular copyright holder is reinstated (a)
+        provisionally, unless and until the copyright holder explicitly and
+        finally terminates your license, and (b) permanently, if the copyright
+        holder fails to notify you of the violation by some reasonable means
+        prior to 60 days after the cessation.        
+          Moreover, your license from a particular copyright holder is
+        reinstated permanently if the copyright holder notifies you of the
+        violation by some reasonable means, this is the first time you have
+        received notice of violation of this License (for any work) from that
+        copyright holder, and you cure the violation prior to 30 days after
+        your receipt of the notice.        
+          Termination of your rights under this section does not terminate the
+        licenses of parties who have received copies or rights from you under
+        this License.  If your rights have been terminated and not permanently
+        reinstated, you do not qualify to receive new licenses for the same
+        material under section 10.        
+          9. Acceptance Not Required for Having Copies.        
+          You are not required to accept this License in order to receive or
+        run a copy of the Program.  Ancillary propagation of a covered work
+        occurring solely as a consequence of using peer-to-peer transmission
+        to receive a copy likewise does not require acceptance.  However,
+        nothing other than this License grants you permission to propagate or
+        modify any covered work.  These actions infringe copyright if you do
+        not accept this License.  Therefore, by modifying or propagating a
+        covered work, you indicate your acceptance of this License to do so.        
+          10. Automatic Licensing of Downstream Recipients.        
+          Each time you convey a covered work, the recipient automatically
+        receives a license from the original licensors, to run, modify and
+        propagate that work, subject to this License.  You are not responsible
+        for enforcing compliance by third parties with this License.        
+          An "entity transaction" is a transaction transferring control of an
+        organization, or substantially all assets of one, or subdividing an
+        organization, or merging organizations.  If propagation of a covered
+        work results from an entity transaction, each party to that
+        transaction who receives a copy of the work also receives whatever
+        licenses to the work the party's predecessor in interest had or could
+        give under the previous paragraph, plus a right to possession of the
+        Corresponding Source of the work from the predecessor in interest, if
+        the predecessor has it or can get it with reasonable efforts.        
+          You may not impose any further restrictions on the exercise of the
+        rights granted or affirmed under this License.  For example, you may
+        not impose a license fee, royalty, or other charge for exercise of
+        rights granted under this License, and you may not initiate litigation
+        (including a cross-claim or counterclaim in a lawsuit) alleging that
+        any patent claim is infringed by making, using, selling, offering for
+        sale, or importing the Program or any portion of it.        
+          11. Patents.        
+          A "contributor" is a copyright holder who authorizes use under this
+        License of the Program or a work on which the Program is based.  The
+        work thus licensed is called the contributor's "contributor version".        
+          A contributor's "essential patent claims" are all patent claims
+        owned or controlled by the contributor, whether already acquired or
+        hereafter acquired, that would be infringed by some manner, permitted
+        by this License, of making, using, or selling its contributor version,
+        but do not include claims that would be infringed only as a
+        consequence of further modification of the contributor version.  For
+        purposes of this definition, "control" includes the right to grant
+        patent sublicenses in a manner consistent with the requirements of
+        this License.        
+          Each contributor grants you a non-exclusive, worldwide, royalty-free
+        patent license under the contributor's essential patent claims, to
+        make, use, sell, offer for sale, import and otherwise run, modify and
+        propagate the contents of its contributor version.        
+          In the following three paragraphs, a "patent license" is any express
+        agreement or commitment, however denominated, not to enforce a patent
+        (such as an express permission to practice a patent or covenant not to
+        sue for patent infringement).  To "grant" such a patent license to a
+        party means to make such an agreement or commitment not to enforce a
+        patent against the party.        
+          If you convey a covered work, knowingly relying on a patent license,
+        and the Corresponding Source of the work is not available for anyone
+        to copy, free of charge and under the terms of this License, through a
+        publicly available network server or other readily accessible means,
+        then you must either (1) cause the Corresponding Source to be so
+        available, or (2) arrange to deprive yourself of the benefit of the
+        patent license for this particular work, or (3) arrange, in a manner
+        consistent with the requirements of this License, to extend the patent
+        license to downstream recipients.  "Knowingly relying" means you have
+        actual knowledge that, but for the patent license, your conveying the
+        covered work in a country, or your recipient's use of the covered work
+        in a country, would infringe one or more identifiable patents in that
+        country that you have reason to believe are valid.        
+          If, pursuant to or in connection with a single transaction or
+        arrangement, you convey, or propagate by procuring conveyance of, a
+        covered work, and grant a patent license to some of the parties
+        receiving the covered work authorizing them to use, propagate, modify
+        or convey a specific copy of the covered work, then the patent license
+        you grant is automatically extended to all recipients of the covered
+        work and works based on it.        
+          A patent license is "discriminatory" if it does not include within
+        the scope of its coverage, prohibits the exercise of, or is
+        conditioned on the non-exercise of one or more of the rights that are
+        specifically granted under this License.  You may not convey a covered
+        work if you are a party to an arrangement with a third party that is
+        in the business of distributing software, under which you make payment
+        to the third party based on the extent of your activity of conveying
+        the work, and under which the third party grants, to any of the
+        parties who would receive the covered work from you, a discriminatory
+        patent license (a) in connection with copies of the covered work
+        conveyed by you (or copies made from those copies), or (b) primarily
+        for and in connection with specific products or compilations that
+        contain the covered work, unless you entered into that arrangement,
+        or that patent license was granted, prior to 28 March 2007.        
+          Nothing in this License shall be construed as excluding or limiting
+        any implied license or other defenses to infringement that may
+        otherwise be available to you under applicable patent law.        
+          12. No Surrender of Others' Freedom.        
+          If conditions are imposed on you (whether by court order, agreement or
+        otherwise) that contradict the conditions of this License, they do not
+        excuse you from the conditions of this License.  If you cannot convey a
+        covered work so as to satisfy simultaneously your obligations under this
+        License and any other pertinent obligations, then as a consequence you may
+        not convey it at all.  For example, if you agree to terms that obligate you
+        to collect a royalty for further conveying from those to whom you convey
+        the Program, the only way you could satisfy both those terms and this
+        License would be to refrain entirely from conveying the Program.        
+          13. Use with the GNU Affero General Public License.        
+          Notwithstanding any other provision of this License, you have
+        permission to link or combine any covered work with a work licensed
+        under version 3 of the GNU Affero General Public License into a single
+        combined work, and to convey the resulting work.  The terms of this
+        License will continue to apply to the part which is the covered work,
+        but the special requirements of the GNU Affero General Public License,
+        section 13, concerning interaction through a network will apply to the
+        combination as such.        
+          14. Revised Versions of this License.        
+          The Free Software Foundation may publish revised and/or new versions of
+        the GNU General Public License from time to time.  Such new versions will
+        be similar in spirit to the present version, but may differ in detail to
+        address new problems or concerns.        
+          Each version is given a distinguishing version number.  If the
+        Program specifies that a certain numbered version of the GNU General
+        Public License "or any later version" applies to it, you have the
+        option of following the terms and conditions either of that numbered
+        version or of any later version published by the Free Software
+        Foundation.  If the Program does not specify a version number of the
+        GNU General Public License, you may choose any version ever published
+        by the Free Software Foundation.        
+          If the Program specifies that a proxy can decide which future
+        versions of the GNU General Public License can be used, that proxy's
+        public statement of acceptance of a version permanently authorizes you
+        to choose that version for the Program.        
+          Later license versions may give you additional or different
+        permissions.  However, no additional obligations are imposed on any
+        author or copyright holder as a result of your choosing to follow a
+        later version.        
+          15. Disclaimer of Warranty.        
+          THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+        APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+        HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+        OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+        THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+        PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+        IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+        ALL NECESSARY SERVICING, REPAIR OR CORRECTION.        
+          16. Limitation of Liability.        
+          IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+        WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+        THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+        GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+        USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+        DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+        PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+        EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+        SUCH DAMAGES.        
+          17. Interpretation of Sections 15 and 16.        
+          If the disclaimer of warranty and limitation of liability provided
+        above cannot be given local legal effect according to their terms,
+        reviewing courts shall apply local law that most closely approximates
+        an absolute waiver of all civil liability in connection with the
+        Program, unless a warranty or assumption of liability accompanies a
+        copy of the Program in return for a fee.        
+                             END OF TERMS AND CONDITIONS        
+                    How to Apply These Terms to Your New Programs        
+          If you develop a new program, and you want it to be of the greatest
+        possible use to the public, the best way to achieve this is to make it
+        free software which everyone can redistribute and change under these terms.        
+          To do so, attach the following notices to the program.  It is safest
+        to attach them to the start of each source file to most effectively
+        state the exclusion of warranty; and each file should have at least
+        the "copyright" line and a pointer to where the full notice is found.        
+            <one line to give the program's name and a brief idea of what it does.>
+            Copyright (C) <year>  <name of author>        
+            This program is free software: you can redistribute it and/or modify
+            it under the terms of the GNU General Public License as published by
+            the Free Software Foundation, either version 3 of the License, or
+            (at your option) any later version.        
+            This program is distributed in the hope that it will be useful,
+            but WITHOUT ANY WARRANTY; without even the implied warranty of
+            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+            GNU General Public License for more details.        
+            You should have received a copy of the GNU General Public License
+            along with this program.  If not, see <https://www.gnu.org/licenses/>.        
+        Also add information on how to contact you by electronic and paper mail.        
+          If the program does terminal interaction, make it output a short
+        notice like this when it starts in an interactive mode:        
+            <program>  Copyright (C) <year>  <name of author>
+            This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+            This is free software, and you are welcome to redistribute it
+            under certain conditions; type `show c' for details.        
+        The hypothetical commands `show w' and `show c' should show the appropriate
+        parts of the General Public License.  Of course, your program's commands
+        might be different; for a GUI interface, you would use an "about box".        
+          You should also get your employer (if you work as a programmer) or school,
+        if any, to sign a "copyright disclaimer" for the program, if necessary.
+        For more information on this, and how to apply and follow the GNU GPL, see
+        <https://www.gnu.org/licenses/>.        
+          The GNU General Public License does not permit incorporating your program
+        into proprietary programs.  If your program is a subroutine library, you
+        may consider it more useful to permit linking proprietary applications with
+        the library.  If this is what you want to do, use the GNU Lesser General
+        Public License instead of this License.  But first, please read
+        <https://www.gnu.org/licenses/why-not-lgpl.html>.        
+Project-URL: Homepage, https://github.com/XuehaiPan/nvitop
+Project-URL: Repository, https://github.com/XuehaiPan/nvitop
+Project-URL: Documentation, https://nvitop.readthedocs.io
+Project-URL: Bug Report, https://github.com/XuehaiPan/nvitop/issues
+Keywords: nvidia,nvidia-smi,NVIDIA,NVML,CUDA,GPU,top,monitoring
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: GPU
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nvidia-ml-py (<11.500.00,>=11.450.51)
+Requires-Dist: psutil (>=5.6.6)
+Requires-Dist: cachetools (>=1.0.1)
+Requires-Dist: termcolor (>=1.0.0)
+Requires-Dist: colorama (>=0.4.0) ; platform_system == "Windows"
+Requires-Dist: windows-curses (>=2.2.0) ; platform_system == "Windows"
+Provides-Extra: cuda10
+Requires-Dist: nvidia-ml-py (==11.450.51) ; extra == 'cuda10'
+Provides-Extra: pynvml-11.450.129
+Requires-Dist: nvidia-ml-py (==11.450.129) ; extra == 'pynvml-11.450.129'
+Provides-Extra: pynvml-11.450.51
+Requires-Dist: nvidia-ml-py (==11.450.51) ; extra == 'pynvml-11.450.51'
+Provides-Extra: pynvml-11.460.79
+Requires-Dist: nvidia-ml-py (==11.460.79) ; extra == 'pynvml-11.460.79'
+Provides-Extra: pynvml-11.470.66
+Requires-Dist: nvidia-ml-py (==11.470.66) ; extra == 'pynvml-11.470.66'
+Provides-Extra: pynvml-11.495.46
+Requires-Dist: nvidia-ml-py (==11.495.46) ; extra == 'pynvml-11.495.46'
+
+# nvitop
+
+<!-- markdownlint-disable html -->
+
+![Python 3.5+](https://img.shields.io/badge/Python-3.5%2B-brightgreen.svg)
+[![PyPI](https://img.shields.io/pypi/v/nvitop?label=PyPI)](https://pypi.org/project/nvitop)
+![Status](https://img.shields.io/pypi/status/nvitop?label=Status)
+[![Documentation Status](https://readthedocs.org/projects/nvitop/badge/?version=latest)](https://nvitop.readthedocs.io/en/latest/?badge=latest)
+[![Downloads](https://static.pepy.tech/personalized-badge/nvitop?period=month&left_color=grey&right_color=blue&left_text=Downloads/month)](https://pepy.tech/project/nvitop)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/XuehaiPan/nvitop?label=Stars&logo=github&color=brightgreen)](https://github.com/XuehaiPan/nvitop/stargazers)
+[![License](https://img.shields.io/github/license/XuehaiPan/nvitop?label=License)](#license)
+[![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FXuehaiPan%2Fnvitop)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FXuehaiPan%2Fnvitop)
+
+An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management. The full API references host at <https://nvitop.readthedocs.io>.
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/171005261-1aad126e-dc27-4ed3-a89b-7f9c1c998bf7.png" alt="Monitor">
+  </br>
+  Monitor mode of <code>nvitop</code>.
+  </br>
+  (TERM: GNOME Terminal / OS: Ubuntu 16.04 LTS (over SSH) / Locale: <code>en_US.UTF-8</code>)
+</p>
+
+### Table of Contents  <!-- omit in toc --> <!-- markdownlint-disable heading-increment -->
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Device and Process Status](#device-and-process-status)
+  - [Resource Monitor](#resource-monitor)
+    - [For Docker Users](#for-docker-users)
+    - [For SSH Users](#for-ssh-users)
+    - [Command Line Options and Environment Variables](#command-line-options-and-environment-variables)
+    - [Keybindings for Monitor Mode](#keybindings-for-monitor-mode)
+  - [CUDA Visible Devices Selection Tool](#cuda-visible-devices-selection-tool)
+  - [Callback Functions for Machine Learning Frameworks](#callback-functions-for-machine-learning-frameworks)
+    - [Callback for TensorFlow (Keras)](#callback-for-tensorflow-keras)
+    - [Callback for PyTorch Lightning](#callback-for-pytorch-lightning)
+    - [TensorBoard Integration](#tensorboard-integration)
+  - [More than a Monitor](#more-than-a-monitor)
+    - [Quick Start](#quick-start)
+    - [Status Snapshot](#status-snapshot)
+    - [Resource Metric Collector](#resource-metric-collector)
+    - [Low-level APIs](#low-level-apis)
+      - [Device](#device)
+      - [Process](#process)
+      - [Host (inherited from psutil)](#host-inherited-from-psutil)
+- [Screenshots](#screenshots)
+- [License](#license)
+
+------
+
+This project is inspired by [nvidia-htop](https://github.com/peci1/nvidia-htop) and [nvtop](https://github.com/Syllo/nvtop) for monitoring, and [gpustat](https://github.com/wookayin/gpustat) for application integration.
+
+[nvidia-htop](https://github.com/peci1/nvidia-htop) is a tool for enriching the output of `nvidia-smi`. It uses regular expressions to read the output of `nvidia-smi` from a subprocess, which is inefficient. In the meanwhile, there is a powerful interactive GPU monitoring tool called [nvtop](https://github.com/Syllo/nvtop). But [nvtop](https://github.com/Syllo/nvtop) is written in *C*, which makes it lack of portability. And what is really inconvenient is that you should compile it yourself during the installation. Therefore, I made this repo. I got a lot help when reading the source code of [ranger](https://github.com/ranger/ranger), the console file manager. Some files in this repo are modified from [ranger](https://github.com/ranger/ranger) under the **GPLv3 License**.
+
+If this repo is useful to you, please star ⭐️ it to let more people know 🤗. [![GitHub Repo Stars](https://img.shields.io/github/stars/XuehaiPan/nvitop?label=Stars&logo=github&color=brightgreen)](https://github.com/XuehaiPan/nvitop)
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/117765245-3f16de80-b260-11eb-99c7-077cd5519074.png" alt="Comparison">
+  </br>
+  Compare to <code>nvidia-smi</code>.
+</p>
+
+------
+
+## Features
+
+- **Informative and fancy output**: show more information than `nvidia-smi` with colorized fancy box drawing.
+- **Monitor mode**: can run as a resource monitor, rather than print the results only once. (vs. [nvidia-htop](https://github.com/peci1/nvidia-htop), limited support with command `watch -c`)
+  - bar plots and history graphs
+  - process sorting
+  - process filtering
+  - send signals to processes with a keystroke
+  - tree-view screen for GPU processes and their parent processes
+  - environment variable screen
+  - help screen
+  - mouse support
+- **Interactive**: responsive for user input (from keyboard and/or mouse) in monitor mode. (vs. [gpustat](https://github.com/wookayin/gpustat) & [py3nvml](https://github.com/fbcotter/py3nvml))
+- **Efficient**:
+  - query device status using [*NVML Python bindings*](https://pypi.org/project/nvidia-ml-py) directly, instead of parsing the output of `nvidia-smi`. (vs. [nvidia-htop](https://github.com/peci1/nvidia-htop))
+  - cache results with `TTLCache` from [cachetools](https://github.com/tkem/cachetools). (vs. [gpustat](https://github.com/wookayin/gpustat))
+  - display information using the `curses` library rather than `print` with ANSI escape codes. (vs. [py3nvml](https://github.com/fbcotter/py3nvml))
+  - asynchronously gather information using multi-threading and correspond to user input much faster. (vs. [nvtop](https://github.com/Syllo/nvtop))
+- **Portable**: work on both Linux and Windows.
+  - get host process information using the cross-platform library [psutil](https://github.com/giampaolo/psutil) instead of calling `ps -p <pid>` in a subprocess. (vs. [nvidia-htop](https://github.com/peci1/nvidia-htop) & [py3nvml](https://github.com/fbcotter/py3nvml))
+  - written in pure Python, easy to install with `pip`. (vs. [nvtop](https://github.com/Syllo/nvtop))
+- **Integrable**: easy to integrate into other applications, more than monitoring. (vs. [nvidia-htop](https://github.com/peci1/nvidia-htop) & [nvtop](https://github.com/Syllo/nvtop))
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/129374533-fe06c01a-630d-4994-b54b-821cccd0d33c.png" alt="Windows">
+  </br>
+  <code>nvitop</code> supports Windows!
+  </br>
+  (SHELL: PowerShell / TERM: Windows Terminal / OS: Windows 10 / Locale: <code>en-US</code>)
+</p>
+
+------
+
+## Requirements
+
+- Python 3.5+ (with `pip>=10.0`)
+- NVIDIA Management Library (NVML)
+- nvidia-ml-py
+- psutil
+- cachetools
+- termcolor
+- curses<sup>[*](#curses)</sup> (with `libncursesw`)
+
+**NOTE:** The [NVIDIA Management Library (*NVML*)](https://developer.nvidia.com/nvidia-management-library-nvml) is a C-based programmatic interface for monitoring and managing various states. The runtime version of NVML library ships with the NVIDIA display driver (available at [Download Drivers | NVIDIA](https://www.nvidia.com/Download/index.aspx)), or can be downloaded as part of the NVIDIA CUDA Toolkit (available at [CUDA Toolkit | NVIDIA Developer](https://developer.nvidia.com/cuda-downloads)). The lists of OS platforms and NVIDIA-GPUs supported by the NVML library can be found in the [NVML API Reference](https://docs.nvidia.com/deploy/nvml-api/nvml-api-reference.html).
+
+This repository contains a Bash script to install/upgrade the NVIDIA drivers for Ubuntu Linux. For example:
+
+```bash
+git clone --depth=1 https://github.com/XuehaiPan/nvitop.git && cd nvitop
+
+bash install-nvidia-driver.sh --package=nvidia-driver-470  # install the R470 driver from ppa:graphics-drivers
+bash install-nvidia-driver.sh --latest                     # install the latest driver from ppa:graphics-drivers
+```
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/174480112-e9a35edc-8f42-438e-a103-1d0ce998b381.png" alt="install-nvidia-driver">
+  </br>
+  NVIDIA driver installer for Ubuntu Linux.
+</p>
+
+Run `bash install-nvidia-driver.sh --help` for more information.
+
+<a name="curses">*</a> The `curses` library is a built-in module of Python on Unix-like systems, and it is supported by a third-party package called `windows-curses` on Windows using PDCurses. Inconsistent behavior of `nvitop` may occur on different terminal emulators on Windows, such as missing mouse support.
+
+------
+
+## Installation
+
+Install from PyPI ([![PyPI](https://img.shields.io/pypi/v/nvitop?label=PyPI)](https://pypi.org/project/nvitop) / ![Status](https://img.shields.io/pypi/status/nvitop?label=Status)):
+
+```bash
+pip3 install --upgrade nvitop
+```
+
+Install the latest version from GitHub (![Commit Count](https://img.shields.io/github/commits-since/XuehaiPan/nvitop/v0.7.1)):
+
+```bash
+pip3 install git+https://github.com/XuehaiPan/nvitop.git#egg=nvitop
+```
+
+Or, clone this repo and install manually:
+
+```bash
+git clone --depth=1 https://github.com/XuehaiPan/nvitop.git
+cd nvitop
+pip3 install .
+```
+
+**NOTE:** If you encounter the *"nvitop: command not found"* error after installation, please check whether you have added the Python console script path (e.g., `"${HOME}/.local/bin"`) to your `PATH` environment variable. Alternatively, you can use `python3 -m nvitop`.
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/178963038-a5cd4eb5-02a8-4456-966f-d5ff04eb44d8.png" alt="MIG Device Support">
+  </br>
+  MIG Device Support
+  </br>
+</p>
+
+**IMPORTANT:** `pip` will install `nvidia-ml-py>=11.450.51,<=11.495.46` as a dependency for `nvitop`. Please verify whether the `nvidia-ml-py` package is compatible with your NVIDIA driver version. You can check the release history of `nvidia-ml-py` at [nvidia-ml-py's Release History](https://pypi.org/project/nvidia-ml-py/11.495.46/#history), and install the compatible version manually by:
+
+```bash
+pip3 install --no-dependencies 'nvidia-ml-py==xx.yyy.zzz'
+```
+
+Since `nvidia-ml-py>=11.450.129`, the definition of `nvmlProcessInfo_t` has introduced two new fields `gpuInstanceId` and `computeInstanceId` (`GI ID` and `CI ID` in newer `nvidia-smi`) which are incompatible with some old NVIDIA drivers. `nvitop` may not display the processes correctly due to this incompatibility.
+
+You can specified the version of `nvidia-ml-py` while installing `nvitop` as:
+
+```bash
+pip3 install 'nvitop[pynvml-11.450.51]'  # or 'nvitop[cuda10]'
+```
+
+------
+
+## Usage
+
+### Device and Process Status
+
+Query the device and process status. The output is similar to `nvidia-smi`, but has been enriched and colorized.
+
+```bash
+# Query status of all devices
+$ nvitop -1  # or use `python3 -m nvitop -1`
+
+# Specify query devices (by integer indices)
+$ nvitop -1 -o 0 1  # only show <GPU 0> and <GPU 1>
+
+# Only show devices in `CUDA_VISIBLE_DEVICES` (by integer indices or UUID strings)
+$ nvitop -1 -ov
+
+# Only show GPU processes with the compute context (type: 'C' or 'C+G')
+$ nvitop -1 -c
+```
+
+When the `-1` switch is on, the result will be displayed **ONLY ONCE** (same as the default behavior of `nvidia-smi`). This is much faster and has lower resource usage. You can omit the `-1` option by setting the environment variable `NVITOP_MONITOR_ALWAYS=false` to have this behavior by default. See [Command Line Options](#command-line-options-and-environment-variables) for more command options.
+
+### Resource Monitor
+
+Run as a resource monitor:
+
+```bash
+# Monitor mode (when the display mode is omitted, `NVITOP_MONITOR_MODE` will be used)
+$ nvitop  # or use `python3 -m nvitop`
+
+# Automatically configure the display mode according to the terminal size
+$ nvitop -m auto     # shortcut: `a` key
+
+# Arbitrarily display as `full` mode
+$ nvitop -m full     # shortcut: `f` key
+
+# Arbitrarily display as `compact` mode
+$ nvitop -m compact  # shortcut: `c` key
+
+# Specify query devices (by integer indices)
+$ nvitop -o 0 1  # only show <GPU 0> and <GPU 1>
+
+# Only show devices in `CUDA_VISIBLE_DEVICES` (by integer indices or UUID strings)
+$ nvitop -ov
+
+# Only show GPU processes with the compute context (type: 'C' or 'C+G')
+$ nvitop -c
+
+# Use ASCII characters only
+$ nvitop -U  # useful for terminals without Unicode support
+
+# For light terminals
+$ nvitop --light
+```
+
+You can configure the default monitor mode with the `NVITOP_MONITOR_MODE` environment variable (default `auto` if not set). See [Command Line Options and Environment Variables](#command-line-options-and-environment-variables) for more command options.
+
+Press <kbd>h</kbd> for help or <kbd>q</kbd> to return to the terminal. See [Keybindings for Monitor Mode](#keybindings-for-monitor-mode) for more shortcuts.
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/135861886-2c27c00e-ee9d-4c21-9918-5037afc2e177.png" alt="Help Screen">
+  </br>
+  <code>nvitop</code> comes with a help screen (shortcut: <kbd>h</kbd>).
+</p>
+
+In monitor mode, you can use <kbd>Ctrl-c</kbd> / <kbd>T</kbd> / <kbd>K</kbd> keys to interrupt / terminate / kill a process. And it's recommended to *terminate* or *kill* a process in the **tree-view screen** (shortcut: <kbd>t</kbd>). For normal users, `nvitop` will shallow other users' processes (in low-intensity colors). For **system administrators**, you can use `sudo nvitop` to terminate other users' processes.
+
+#### For Docker Users
+
+Build and run the Docker image using [nvidia-docker](https://github.com/NVIDIA/nvidia-docker):
+
+```bash
+git clone --depth=1 https://github.com/XuehaiPan/nvitop.git && cd nvitop  # clone this repo first
+docker build --tag nvitop:latest .  # build the Docker image
+docker run -it --rm --runtime=nvidia --gpus=all --pid=host nvitop:latest  # run the Docker container
+```
+
+The [`Dockerfile`](Dockerfile) has a optional build argument `basetag` (default: `418.87.01-ubuntu18.04`) for the tag of image [`nvidia/driver`](https://hub.docker.com/r/nvidia/driver/tags).
+
+**NOTE:** Don't forget to add the `--pid=host` option when running the container.
+
+#### For SSH Users
+
+Run `nvitop` directly on the SSH session instead of a login shell:
+
+```bash
+ssh user@host -t nvitop                 # installed by `sudo pip3 install ...`
+ssh user@host -t '~/.local/bin/nvitop'  # installed by `pip3 install --user ...`
+```
+
+**NOTE:** Users need to add the `-t` option to allocate a pseudo-terminal over the SSH session for monitor mode.
+
+#### Command Line Options and Environment Variables
+
+Type `nvitop --help` for more command options:
+
+```text
+usage: nvitop [--help] [--version] [--once] [--monitor [{auto,full,compact}]]
+              [--interval SEC] [--ascii] [--force-color] [--light]
+              [--gpu-util-thresh th1 th2] [--mem-util-thresh th1 th2]
+              [--only idx [idx ...]] [--only-visible] [--compute] [--graphics]
+              [--user [USERNAME ...]] [--pid PID [PID ...]]
+
+An interactive NVIDIA-GPU process viewer.
+
+optional arguments:
+  --help, -h            Show this help message and exit.
+  --version, -V         Show nvitop's version number and exit.
+  --once, -1            Report query data only once.
+  --monitor [{auto,full,compact}], -m [{auto,full,compact}]
+                        Run as a resource monitor. Continuously report query data and handle user inputs.
+                        If the argument is omitted, the value from `NVITOP_MONITOR_MODE` will be used.
+                        (default fallback mode: auto)
+  --interval SEC        Process status update interval in seconds. (default: 2)
+  --ascii, --no-unicode, -U
+                        Use ASCII characters only, which is useful for terminals without Unicode support.
+
+coloring:
+  --force-color         Force colorize even when `stdout` is not a TTY terminal.
+  --light               Tweak visual results for light theme terminals in monitor mode.
+                        Set variable `NVITOP_MONITOR_THEME="light"` on light terminals for convenience.
+  --gpu-util-thresh th1 th2
+                        Thresholds of GPU utilization to determine the load intensity.
+                        Coloring rules: light < th1 % <= moderate < th2 % <= heavy.
+                        ( 1 <= th1 < th2 <= 99, defaults: 10 75 )
+  --mem-util-thresh th1 th2
+                        Thresholds of GPU memory percent to determine the load intensity.
+                        Coloring rules: light < th1 % <= moderate < th2 % <= heavy.
+                        ( 1 <= th1 < th2 <= 99, defaults: 10 80 )
+
+device filtering:
+  --only idx [idx ...], -o idx [idx ...]
+                        Only show the specified devices, suppress option `--only-visible`.
+  --only-visible, -ov   Only show devices in the `CUDA_VISIBLE_DEVICES` environment variable.
+
+process filtering:
+  --compute, -c         Only show GPU processes with the compute context. (type: 'C' or 'C+G')
+  --graphics, -g        Only show GPU processes with the graphics context. (type: 'G' or 'C+G')
+  --user [USERNAME ...], -u [USERNAME ...]
+                        Only show processes of the given users (or `$USER` for no argument).
+  --pid PID [PID ...], -p PID [PID ...]
+                        Only show processes of the given PIDs.
+```
+
+`nvitop` can accept the following environment variables for monitor mode:
+
+| Name                                   | Description                      | Valid Values                                                | Fallback Value |
+| -------------------------------------- | -------------------------------- | ----------------------------------------------------------- | -------------- |
+| `NVITOP_MONITOR_ALWAYS`                | Always invoke the monitor mode   | `true` / `yes` / `on` / `1`<br>`false` / `no` / `off` / `0` | `true`         |
+| `NVITOP_MONITOR_MODE`                  | The default display mode         | `auto` / `full` / `compact`                                 | `auto`         |
+| `NVITOP_MONITOR_THEME`                 | The default color theme          | `dark` / `light`                                            | `dark`         |
+| `NVITOP_GPU_UTILIZATION_THRESHOLDS`    | Thresholds of GPU utilization    | `10,75` , `1,99`, ...                                       | `10,75`        |
+| `NVITOP_MEMORY_UTILIZATION_THRESHOLDS` | Thresholds of GPU memory percent | `10,80` , `1,99`, ...                                       | `10,80`        |
+
+For example:
+
+```bash
+# Replace the following export statements if you are not using Bash / Zsh
+export NVITOP_MONITOR_ALWAYS="true"
+export NVITOP_MONITOR_MODE="full"
+export NVITOP_MONITOR_THEME="light"
+
+# Full monitor mode with light terminal tweaks
+nvitop
+```
+
+For convenience, you can add these environment variables to your shell startup file, e.g.:
+
+```bash
+# For Bash
+echo 'export NVITOP_MONITOR_MODE="full"' >> ~/.bashrc
+
+# For Zsh
+echo 'export NVITOP_MONITOR_MODE="full"' >> ~/.zshrc
+
+# For Fish
+echo 'set -gx NVITOP_MONITOR_MODE "full"' >> ~/.config/fish/config.fish
+
+# For PowerShell
+'$Env:NVITOP_MONITOR_MODE = "full"' >> $PROFILE.CurrentUserAllHosts
+```
+
+#### Keybindings for Monitor Mode
+
+|                                                                        Key | Binding                                                                              |
+| -------------------------------------------------------------------------: | :----------------------------------------------------------------------------------- |
+|                                                                        `q` | Quit and return to the terminal.                                                     |
+|                                                                  `h` / `?` | Go to the help screen.                                                               |
+|                                                            `a` / `f` / `c` | Change the display mode to *auto* / *full* / *compact*.                              |
+|                                                     `r` / `<C-r>` / `<F5>` | Force refresh the window.                                                            |
+|                                                                            |                                                                                      |
+| `<Up>` / `<Down>`<br>`<A-k>` / `<A-j>`<br>`<Tab>` / `<S-Tab>`<br>`<Wheel>` | Select and highlight a process.                                                      |
+|                   `<Left>` / `<Right>`<br>`<A-h>` / `<A-l>`<br>`<S-Wheel>` | Scroll the host information of processes.                                            |
+|                                                                   `<Home>` | Select the first process.                                                            |
+|                                                                    `<End>` | Select the last process.                                                             |
+|                                                             `<C-a>`<br>`^` | Scroll left to the beginning of the process entry (i.e. beginning of line).          |
+|                                                             `<C-e>`<br>`$` | Scroll right to the end of the process entry (i.e. end of line).                     |
+|              `<PageUp>` / `<PageDown>`</br> `<A-K>` / `<A-J>`<br>`[` / `]` | scroll entire screen (for large amounts of processes).                               |
+|                                                                            |                                                                                      |
+|                                                                    `<Esc>` | Clear process selection.                                                             |
+|                                                             `<C-c>`<br>`I` | Send `signal.SIGINT` to the selected process (interrupt).                            |
+|                                                                        `T` | Send `signal.SIGTERM` to the selected process (terminate).                           |
+|                                                                        `K` | Send `signal.SIGKILL` to the selected process (kill).                                |
+|                                                                            |                                                                                      |
+|                                                                        `e` | Show process environment.                                                            |
+|                                                                        `t` | Toggle tree-view screen.                                                             |
+|                                                                            |                                                                                      |
+|                                                                  `,` / `.` | Select the sort column.                                                              |
+|                                                                        `/` | Reverse the sort order.                                                              |
+|                                                                `on` (`oN`) | Sort processes in the natural order, i.e., in ascending (descending) order of `GPU`. |
+|                                                                `ou` (`oU`) | Sort processes by `USER` in ascending (descending) order.                            |
+|                                                                `op` (`oP`) | Sort processes by `PID` in descending (ascending) order.                             |
+|                                                                `og` (`oG`) | Sort processes by `GPU-MEM` in descending (ascending) order.                         |
+|                                                                `os` (`oS`) | Sort processes by `%SM` in descending (ascending) order.                             |
+|                                                                `oc` (`oC`) | Sort processes by `%CPU` in descending (ascending) order.                            |
+|                                                                `om` (`oM`) | Sort processes by `%MEM` in descending (ascending) order.                            |
+|                                                                `ot` (`oT`) | Sort processes by `TIME` in descending (ascending) order.                            |
+
+**HINT:** It's recommended to terminate or kill a process in the tree-view screen (shortcut: <kbd>t</kbd>).
+
+------
+
+### CUDA Visible Devices Selection Tool
+
+Automatically select `CUDA_VISIBLE_DEVICES` from the given criteria. Example usage of the CLI tool:
+
+```console
+# All devices but sorted
+$ nvisel       # or use `python3 -m nvitop.select`
+6,5,4,3,2,1,0,7,8
+
+# A simple example to select 4 devices
+$ nvisel -n 4  # or use `python3 -m nvitop.select -n 4`
+6,5,4,3
+
+# Select available devices that satisfy the given constraints
+$ nvisel --min-count 2 --max-count 3 --min-free-memory 5GiB --max-gpu-utilization 60
+6,5,4
+
+# Set `CUDA_VISIBLE_DEVICES` environment variable using `nvisel`
+$ export CUDA_DEVICE_ORDER="PCI_BUS_ID" CUDA_VISIBLE_DEVICES="$(nvisel -c 1 -f 10GiB)"
+CUDA_VISIBLE_DEVICES="6,5,4,3,2,1,0"
+
+# Use UUID strings in `CUDA_VISIBLE_DEVICES` environment variable
+$ export CUDA_VISIBLE_DEVICES="$(nvisel -O uuid -c 2 -f 5000M)"
+CUDA_VISIBLE_DEVICES="GPU-849d5a8d-610e-eeea-1fd4-81ff44a23794,GPU-18ef14e9-dec6-1d7e-1284-3010c6ce98b1,GPU-96de99c9-d68f-84c8-424c-7c75e59cc0a0,GPU-2428d171-8684-5b64-830c-435cd972ec4a,GPU-6d2a57c9-7783-44bb-9f53-13f36282830a,GPU-f8e5a624-2c7e-417c-e647-b764d26d4733,GPU-f9ca790e-683e-3d56-00ba-8f654e977e02"
+
+# Pipe output to other shell utilities
+$ nvisel -0 -O uuid -c 2 -f 4GiB | xargs -0 -I {} nvidia-smi --id={} --query-gpu=index,memory.free --format=csv
+CUDA_VISIBLE_DEVICES="GPU-849d5a8d-610e-eeea-1fd4-81ff44a23794,GPU-18ef14e9-dec6-1d7e-1284-3010c6ce98b1,GPU-96de99c9-d68f-84c8-424c-7c75e59cc0a0,GPU-2428d171-8684-5b64-830c-435cd972ec4a,GPU-6d2a57c9-7783-44bb-9f53-13f36282830a,GPU-f8e5a624-2c7e-417c-e647-b764d26d4733,GPU-f9ca790e-683e-3d56-00ba-8f654e977e02"
+index, memory.free [MiB]
+6, 11018 MiB
+index, memory.free [MiB]
+5, 11018 MiB
+index, memory.free [MiB]
+4, 11018 MiB
+index, memory.free [MiB]
+3, 11018 MiB
+index, memory.free [MiB]
+2, 11018 MiB
+index, memory.free [MiB]
+1, 11018 MiB
+index, memory.free [MiB]
+0, 11018 MiB
+```
+
+You can also integrate `nvisel` into your training script like this:
+
+```python
+# Put this at the top of the Python script
+import os
+from nvitop import select_devices
+
+os.environ['CUDA_VISIBLE_DEVICES'] = ','.join(
+    select_devices(format='uuid', min_count=4, min_free_memory='8GiB')
+)
+```
+
+Type `nvisel --help` for more command options:
+
+```text
+usage: nvisel [--help] [--version] [--inherit] [--account-as-free [USERNAME ...]]
+              [--min-count N] [--max-count N] [--count N]
+              [--min-free-memory SIZE] [--min-total-memory SIZE]
+              [--max-gpu-utilization RATE] [--max-memory-utilization RATE]
+              [--tolerance TOL] [--format FORMAT] [--sep SEP | --newline | --null]
+
+CUDA visible devices selection tool.
+
+optional arguments:
+  --help, -h            Show this help message and exit.
+  --version, -V         Show nvisel's version number and exit.
+
+constraints:
+  --inherit             Inherit the current `CUDA_VISIBLE_DEVICES` environment variable.
+                        This means selecting a subset of the currently CUDA-visible devices.
+  --account-as-free [USERNAME ...]
+                        Account the used GPU memory of the given users as free memory.
+                        If this option is specified but without argument, `$USER` will be used.
+  --min-count N, -c N   Minimum number of devices to select. (default: 0)
+                        The tool will fail (exit non-zero) if the requested resource is not available.
+  --max-count N, -C N   Maximum number of devices to select. (default: all devices)
+  --count N, -n N       Overriding both `--min-count N` and `--max-count N`.
+  --min-free-memory SIZE, -f SIZE
+                        Minimum free memory of devices to select. (example value: 4GiB)
+                        If this constraint is given, check against all devices.
+  --min-total-memory SIZE, -t SIZE
+                        Minimum total memory of devices to select. (example value: 10GiB)
+                        If this constraint is given, check against all devices.
+  --max-gpu-utilization RATE, -G RATE
+                        Maximum GPU utilization rate of devices to select. (example value: 30)
+                        If this constraint is given, check against all devices.
+  --max-memory-utilization RATE, -M RATE
+                        Maximum memory bandwidth utilization rate of devices to select. (example value: 50)
+                        If this constraint is given, check against all devices.
+  --tolerance TOL, --tol TOL
+                        The constraints tolerance (in percentage). (default: 0, i.e., strict)
+                        This option can loose the constraints if the requested resource is not available.
+                        For example, set `--tolerance=20` will accept a device with only 4GiB of free
+                        memory when set `--min-free-memory=5GiB`.
+
+formatting:
+  --format FORMAT, -O FORMAT
+                        The output format of the selected device identifiers. (default: index)
+                        If any MIG device found, the output format will be fallback to `uuid`.
+  --sep SEP, --separator SEP, -s SEP
+                        Separator for the output. (default: ',')
+  --newline             Use newline character as separator for the output, equivalent to `--sep=$'\n'`.
+  --null, -0            Use null character ('\x00') as separator for the output. This option corresponds
+                        to the `-0` option of `xargs`.
+```
+
+------
+
+### Callback Functions for Machine Learning Frameworks
+
+`nvitop` provides two builtin callbacks for [TensorFlow (Keras)](https://www.tensorflow.org) and [PyTorch Lightning](https://pytorchlightning.ai).
+
+#### Callback for [TensorFlow (Keras)](https://www.tensorflow.org)
+
+```python
+from tensorflow.python.keras.utils.multi_gpu_utils import multi_gpu_model
+from tensorflow.python.keras.callbacks import TensorBoard
+from nvitop.callbacks.keras import GpuStatsLogger
+gpus = ['/gpu:0', '/gpu:1']  # or `gpus = [0, 1]` or `gpus = 2`
+model = Xception(weights=None, ..)
+model = multi_gpu_model(model, gpus)  # optional
+model.compile(..)
+tb_callback = TensorBoard(log_dir='./logs')  # or `keras.callbacks.CSVLogger`
+gpu_stats = GpuStatsLogger(gpus)
+model.fit(.., callbacks=[gpu_stats, tb_callback])
+```
+
+**NOTE:** Users should assign a `keras.callbacks.TensorBoard` callback or a `keras.callbacks.CSVLogger` callback to the model. And the `GpuStatsLogger` callback should be placed before the `keras.callbacks.TensorBoard` / `keras.callbacks.CSVLogger` callback.
+
+#### Callback for [PyTorch Lightning](https://pytorchlightning.ai)
+
+```python
+from pytorch_lightning import Trainer
+from nvitop.callbacks.pytorch_lightning import GpuStatsLogger
+gpu_stats = GpuStatsLogger()
+trainer = Trainer(gpus=[..], logger=True, callbacks=[gpu_stats])
+```
+
+**NOTE:** Users should assign a logger to the trainer.
+
+#### [TensorBoard](https://github.com/tensorflow/tensorboard) Integration
+
+Please refer to [Resource Metric Collector](#resource-metric-collector) for an example.
+
+------
+
+### More than a Monitor
+
+`nvitop` can be easily integrated into other applications. You can use `nvitop` to make your own monitoring tools. The full API references host at <https://nvitop.readthedocs.io>.
+
+#### Quick Start
+
+A minimal script to monitor the GPU devices based on APIs from `nvitop`:
+
+```python
+from nvitop import Device
+
+devices = Device.all()  # or `Device.cuda.all()` to use CUDA ordinal instead
+for device in devices:
+    processes = device.processes()  # type: Dict[int, GpuProcess]
+    sorted_pids = sorted(processes.keys())
+
+    print(device)
+    print(f'  - Fan speed:       {device.fan_speed()}%')
+    print(f'  - Temperature:     {device.temperature()}C')
+    print(f'  - GPU utilization: {device.gpu_utilization()}%')
+    print(f'  - Total memory:    {device.memory_total_human()}')
+    print(f'  - Used memory:     {device.memory_used_human()}')
+    print(f'  - Free memory:     {device.memory_free_human()}')
+    print(f'  - Processes ({len(processes)}): {sorted_pids}')
+    for pid in sorted_pids:
+        print(f'    - {processes[pid]}')
+    print('-' * 120)
+```
+
+Another more advanced approach with coloring:
+
+```python
+import time
+
+from nvitop import Device, GpuProcess, NA, colored
+
+print(colored(time.strftime('%a %b %d %H:%M:%S %Y'), color='red', attrs=('bold',)))
+
+devices = Device.cuda.all()  # or `Device.all()` to use NVML ordinal instead
+separator = False
+for device in devices:
+    processes = device.processes()  # type: Dict[int, GpuProcess]
+
+    print(colored(str(device), color='green', attrs=('bold',)))
+    print(colored('  - Fan speed:       ', color='blue', attrs=('bold',)) + f'{device.fan_speed()}%')
+    print(colored('  - Temperature:     ', color='blue', attrs=('bold',)) + f'{device.temperature()}C')
+    print(colored('  - GPU utilization: ', color='blue', attrs=('bold',)) + f'{device.gpu_utilization()}%')
+    print(colored('  - Total memory:    ', color='blue', attrs=('bold',)) + f'{device.memory_total_human()}')
+    print(colored('  - Used memory:     ', color='blue', attrs=('bold',)) + f'{device.memory_used_human()}')
+    print(colored('  - Free memory:     ', color='blue', attrs=('bold',)) + f'{device.memory_free_human()}')
+    if len(processes) > 0:
+        processes = GpuProcess.take_snapshots(processes.values(), failsafe=True)
+        processes.sort(key=lambda process: (process.username, process.pid))
+
+        print(colored(f'  - Processes ({len(processes)}):', color='blue', attrs=('bold',)))
+        fmt = '    {pid:<5}  {username:<8} {cpu:>5}  {host_memory:>8} {time:>8}  {gpu_memory:>8}  {sm:>3}  {command:<}'.format
+        print(colored(fmt(pid='PID', username='USERNAME',
+                          cpu='CPU%', host_memory='HOST-MEM', time='TIME',
+                          gpu_memory='GPU-MEM', sm='SM%',
+                          command='COMMAND'),
+                      attrs=('bold',)))
+        for snapshot in processes:
+            print(fmt(pid=snapshot.pid,
+                      username=snapshot.username[:7] + ('+' if len(snapshot.username) > 8 else snapshot.username[7:8]),
+                      cpu=snapshot.cpu_percent, host_memory=snapshot.host_memory_human,
+                      time=snapshot.running_time_human,
+                      gpu_memory=(snapshot.gpu_memory_human if snapshot.gpu_memory_human is not NA else 'WDDM:N/A'),
+                      sm=snapshot.gpu_sm_utilization,
+                      command=snapshot.command))
+    else:
+        print(colored('  - No Running Processes', attrs=('bold',)))
+
+    if separator:
+        print('-' * 120)
+    separator = True
+```
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/177041142-fe988d58-6a97-4559-84fd-b51204cf9231.png" alt="Demo">
+  </br>
+  An example monitoring script built with APIs from <code>nvitop</code>.
+</p>
+
+------
+
+#### Status Snapshot
+
+`nvitop` provides a helper function to retrieve the status of both GPU devices and GPU processes at once. You can type `help(nvitop.take_snapshots)` in Python REPL for detailed documentation.
+
+```python
+In [1]: from nvitop import take_snapshots, Device
+   ...: import os
+   ...: os.environ['CUDA_VISIBLE_DEVICES'] = '1,0'  # comma-separated integers or UUID strings
+
+In [2]: take_snapshots()  # equivalent to `take_snapshots(Device.all())`
+Out[2]:
+SnapshotResult(
+    devices=[
+        DeviceSnapshot(
+            real=Device(index=0, ...),
+            ...
+        ),
+        ...
+    ],
+    gpu_processes=[
+        GpuProcessSnapshot(
+            real=GpuProcess(pid=xxxxxx, device=Device(index=0, ...), ...),
+            ...
+        ),
+        ...
+    ]
+)
+
+In [3]: device_snapshots, gpu_process_snapshots = take_snapshots(Device.all())  # type: Tuple[List[DeviceSnapshot], List[GpuProcessSnapshot]]
+
+In [4]: take_snapshots(Device.cuda.all())  # use CUDA device enumeration
+Out[4]:
+SnapshotResult(
+    devices=[
+        CudaDeviceSnapshot(
+            real=CudaDevice(cuda_index=0, nvml_index=1, ...),
+            ...
+        ),
+        CudaDeviceSnapshot(
+            real=CudaDevice(cuda_index=1, nvml_index=0, ...),
+            ...
+        ),
+    ],
+    gpu_processes=[
+        GpuProcessSnapshot(
+            real=GpuProcess(pid=xxxxxx, device=CudaDevice(cuda_index=0, ...), ...),
+            ...
+        ),
+        ...
+    ]
+)
+
+In [5]: take_snapshots(Device.cuda(1))  # <CUDA 1> only
+Out[5]:
+SnapshotResult(
+    devices=[
+        CudaDeviceSnapshot(
+            real=CudaDevice(cuda_index=1, nvml_index=0, ...),
+            ...
+        )
+    ],
+    gpu_processes=[
+        GpuProcessSnapshot(
+            real=GpuProcess(pid=xxxxxx, device=CudaDevice(cuda_index=1, ...), ...),
+            ...
+        ),
+        ...
+    ]
+)
+```
+
+Please refer to section [Low-level APIs](#low-level-apis) for more information.
+
+------
+
+#### Resource Metric Collector
+
+`ResourceMetricCollector` is a class that collects resource metrics for host, GPUs and processes running on the GPUs. All metrics will be collected in an asynchronous manner. You can type `help(nvitop.ResourceMetricCollector)` in Python REPL for detailed documentation.
+
+```python
+In [1]: from nvitop import ResourceMetricCollector, Device
+   ...: import os
+   ...: os.environ['CUDA_VISIBLE_DEVICES'] = '3,2,1,0'  # comma-separated integers or UUID strings
+
+In [2]: collector = ResourceMetricCollector()                                   # log all devices and descendant processes of the current process on the GPUs
+In [3]: collector = ResourceMetricCollector(root_pids={1})                      # log all devices and all GPU processes
+In [4]: collector = ResourceMetricCollector(devices=Device(0), root_pids={1})   # log <GPU 0> and all GPU processes on <GPU 0>
+In [5]: collector = ResourceMetricCollector(devices=Device.cuda.all())          # use the CUDA ordinal
+
+In [6]: with collector(tag='<tag>'):
+   ...:     # Do something
+   ...:     collector.collect()  # -> Dict[str, float]
+# key -> '<tag>/<scope>/<metric (unit)>/<mean/min/max>'
+{
+    '<tag>/host/cpu_percent (%)/mean': 8.967849777683456,
+    '<tag>/host/cpu_percent (%)/min': 6.1,
+    '<tag>/host/cpu_percent (%)/max': 28.1,
+    ...,
+    '<tag>/host/memory_percent (%)/mean': 21.5,
+    '<tag>/host/swap_percent (%)/mean': 0.3,
+    '<tag>/host/memory_used (GiB)/mean': 91.0136418208109,
+    '<tag>/host/load_average (%) (1 min)/mean': 10.251427386878328,
+    '<tag>/host/load_average (%) (5 min)/mean': 10.072539414569503,
+    '<tag>/host/load_average (%) (15 min)/mean': 11.91126970422139,
+    ...,
+    '<tag>/cuda:0 (gpu:3)/memory_used (MiB)/mean': 3.875,
+    '<tag>/cuda:0 (gpu:3)/memory_free (MiB)/mean': 11015.562499999998,
+    '<tag>/cuda:0 (gpu:3)/memory_total (MiB)/mean': 11019.437500000002,
+    '<tag>/cuda:0 (gpu:3)/memory_percent (%)/mean': 0.0,
+    '<tag>/cuda:0 (gpu:3)/gpu_utilization (%)/mean': 0.0,
+    '<tag>/cuda:0 (gpu:3)/memory_utilization (%)/mean': 0.0,
+    '<tag>/cuda:0 (gpu:3)/fan_speed (%)/mean': 22.0,
+    '<tag>/cuda:0 (gpu:3)/temperature (C)/mean': 25.0,
+    '<tag>/cuda:0 (gpu:3)/power_usage (W)/mean': 19.11166264116916,
+    ...,
+    '<tag>/cuda:1 (gpu:2)/memory_used (MiB)/mean': 8878.875,
+    ...,
+    '<tag>/cuda:2 (gpu:1)/memory_used (MiB)/mean': 8182.875,
+    ...,
+    '<tag>/cuda:3 (gpu:0)/memory_used (MiB)/mean': 9286.875,
+    ...,
+    '<tag>/pid:12345/host/cpu_percent (%)/mean': 151.34342772112265,
+    '<tag>/pid:12345/host/host_memory (MiB)/mean': 44749.72373447514,
+    '<tag>/pid:12345/host/host_memory_percent (%)/mean': 8.675082352111717,
+    '<tag>/pid:12345/host/running_time (min)': 336.23803206741576,
+    '<tag>/pid:12345/cuda:1 (gpu:4)/gpu_memory (MiB)/mean': 8861.0,
+    '<tag>/pid:12345/cuda:1 (gpu:4)/gpu_memory_percent (%)/mean': 80.4,
+    '<tag>/pid:12345/cuda:1 (gpu:4)/gpu_memory_utilization (%)/mean': 6.711118172407917,
+    '<tag>/pid:12345/cuda:1 (gpu:4)/gpu_sm_utilization (%)/mean': 48.23283397736476,
+    ...,
+    '<tag>/duration (s)': 7.247399162035435,
+    '<tag>/timestamp': 1655909466.9981883
+}
+```
+
+The results can be easily logged into [TensorBoard](https://github.com/tensorflow/tensorboard) or to CSV file. For example:
+
+```python
+import os
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.utils.tensorboard import SummaryWriter
+
+from nvitop import CudaDevice, ResourceMetricCollector
+from nvitop.callbacks.tensorboard import add_scalar_dict
+
+# Build networks and prepare datasets
+...
+
+# Logger and status collector
+writer = SummaryWriter()
+collector = ResourceMetricCollector(devices=CudaDevice.all(),  # log all visible CUDA devices and use the CUDA ordinal
+                                    root_pids={os.getpid()},   # only log the descendant processes of the current process
+                                    interval=1.0)              # snapshot interval for background daemon thread
+
+# Start training
+global_step = 0
+for epoch in range(num_epoch):
+    with collector(tag='train'):
+        for batch in train_dataset:
+            with collector(tag='batch'):
+                metrics = train(net, batch)
+                global_step += 1
+                add_scalar_dict(writer, 'train', metrics, global_step=global_step)
+                add_scalar_dict(writer, 'resources',      # tag='resources/train/batch/...'
+                                collector.collect(),
+                                global_step=global_step)
+
+        add_scalar_dict(writer, 'resources',              # tag='resources/train/...'
+                        collector.collect(),
+                        global_step=epoch)
+
+    with collector(tag='validate'):
+        metrics = validate(net, validation_dataset)
+        add_scalar_dict(writer, 'validate', metrics, global_step=epoch)
+        add_scalar_dict(writer, 'resources',              # tag='resources/validate/...'
+                        collector.collect(),
+                        global_step=epoch)
+```
+
+Another example for logging to CSV file:
+
+```python
+import datetime
+import time
+
+import pandas as pd
+
+from nvitop import ResourceMetricCollector
+
+collector = ResourceMetricCollector(root_pids={1}, interval=2.0)  # log all devices and all GPU processes
+df = pd.DataFrame()
+
+with collector(tag='resources'):
+    for _ in range(60):
+        # Do something
+        time.sleep(60)
+
+        metrics = collector.collect()
+        df_metrics = pd.DataFrame.from_records(metrics, index=[len(df)])
+        df = pd.concat([df, df_metrics], ignore_index=True)
+        # Flush to CSV file ...
+
+df.insert(0, 'time', df['resources/timestamp'].map(datetime.datetime.fromtimestamp))
+df.to_csv('results.csv', index=False)
+```
+
+------
+
+#### Low-level APIs
+
+The full API references can be found at <https://nvitop.readthedocs.io>.
+
+##### Device
+
+```python
+In [1]: from nvitop import host, Device, PhysicalDevice, CudaDevice, HostProcess, GpuProcess, NA
+   ...: import os
+   ...: os.environ['CUDA_VISIBLE_DEVICES'] = '9,8,7,6'  # comma-separated integers or UUID strings
+
+In [2]: Device.driver_version()
+Out[2]: '430.64'
+
+In [3]: Device.cuda_version()  # the maximum CUDA version supported by the driver (can be different from the CUDA runtime version)
+Out[3]: '10.1'
+
+In [4]: Device.count()
+Out[4]: 10
+
+In [5]: CudaDevice.count()  # or `Device.cuda.count()`
+Out[5]: 4
+
+In [6]: all_devices      = Device.all()                 # all devices on board (physical device)
+   ...: nvidia0, nvidia1 = Device.from_indices([0, 1])  # from physical device indices
+   ...: all_devices
+Out[6]: [
+    PhysicalDevice(index=0, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    PhysicalDevice(index=1, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    PhysicalDevice(index=2, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    PhysicalDevice(index=3, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    PhysicalDevice(index=4, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    PhysicalDevice(index=5, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    PhysicalDevice(index=6, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    PhysicalDevice(index=7, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    PhysicalDevice(index=8, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    PhysicalDevice(index=9, name="GeForce RTX 2080 Ti", total_memory=11019MiB)
+]
+
+In [7]: # NOTE: The function results might be different between calls when the `CUDA_VISIBLE_DEVICES` environment variable has been modified
+   ...: cuda_visible_devices = Device.from_cuda_visible_devices()  # from the `CUDA_VISIBLE_DEVICES` environment variable
+   ...: cuda0, cuda1         = Device.from_cuda_indices([0, 1])    # from CUDA device indices (might be different from physical device indices if `CUDA_VISIBLE_DEVICES` is set)
+   ...: cuda_visible_devices = CudaDevice.all()                    # shortcut to `Device.from_cuda_visible_devices()`
+   ...: cuda_visible_devices = Device.cuda.all()                   # `Device.cuda` is aliased to `CudaDevice`
+   ...: cuda_visible_devices
+Out[7]: [
+    CudaDevice(cuda_index=0, nvml_index=9, name="NVIDIA GeForce RTX 2080 Ti", total_memory=11019MiB),
+    CudaDevice(cuda_index=1, nvml_index=8, name="NVIDIA GeForce RTX 2080 Ti", total_memory=11019MiB),
+    CudaDevice(cuda_index=2, nvml_index=7, name="NVIDIA GeForce RTX 2080 Ti", total_memory=11019MiB),
+    CudaDevice(cuda_index=3, nvml_index=6, name="NVIDIA GeForce RTX 2080 Ti", total_memory=11019MiB)
+]
+
+In [8]: nvidia0 = Device(0)  # from device index (or `Device(index=0)`)
+   ...: nvidia0
+Out[8]: PhysicalDevice(index=0, name="GeForce RTX 2080 Ti", total_memory=11019MiB)
+
+In [9]: nvidia1 = Device(uuid='GPU-01234567-89ab-cdef-0123-456789abcdef')  # from UUID string (or just`Device('GPU-xxxxxxxx-...')`)
+   ...: nvidia2 = Device(bus_id='00000000:06:00.0')                        # from PCI bus ID
+   ...: nvidia1
+Out[9]: PhysicalDevice(index=1, name="GeForce RTX 2080 Ti", total_memory=11019MiB)
+
+In [10]: cuda0 = CudaDevice(0)                        # from CUDA device index (equivalent to `CudaDevice(cuda_index=0)`)
+    ...: cuda1 = CudaDevice(nvml_index=8)             # from physical device index
+    ...: cuda3 = CudaDevice(uuid='GPU-xxxxxxxx-...')  # from UUID string
+    ...: cuda4 = Device.cuda(4)                       # `Device.cuda` is aliased to `CudaDevice`
+    ...: cuda0
+Out[10]:
+CudaDevice(cuda_index=0, nvml_index=9, name="NVIDIA GeForce RTX 2080 Ti", total_memory=11019MiB)
+
+In [11]: nvidia0.memory_used()  # in bytes
+Out[11]: 9293398016
+
+In [12]: nvidia0.memory_used_human()
+Out[12]: '8862MiB'
+
+In [13]: nvidia0.gpu_utilization()  # in percentage
+Out[13]: 5
+
+In [14]: nvidia0.processes()  # type: Dict[int, GpuProcess]
+Out[14]: {
+    52059: GpuProcess(pid=52059, gpu_memory=7885MiB, type=C, device=PhysicalDevice(index=0, name="GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=52059, name='ipython3', status='sleeping', started='14:31:22')),
+    53002: GpuProcess(pid=53002, gpu_memory=967MiB, type=C, device=PhysicalDevice(index=0, name="GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=53002, name='python', status='running', started='14:31:59'))
+}
+
+In [15]: nvidia1_snapshot = nvidia1.as_snapshot()
+    ...: nvidia1_snapshot
+Out[15]: PhysicalDeviceSnapshot(
+    real=PhysicalDevice(index=1, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    bus_id='00000000:05:00.0',
+    compute_mode='Default',
+    clock_infos=ClockInfos(graphics=1815, sm=1815, memory=6800, video=1680),  # in MHz
+    clock_speed_infos=ClockSpeedInfos(current=ClockInfos(graphics=1815, sm=1815, memory=6800, video=1680), max=ClockInfos(graphics=2100, sm=2100, memory=7000, video=1950)),  # in MHz
+    current_driver_model='N/A',
+    decoder_utilization=0,              # in percentage
+    display_active='Disabled',
+    display_mode='Disabled',
+    encoder_utilization=0,              # in percentage
+    fan_speed=22,                       # in percentage
+    gpu_utilization=17,                 # in percentage (NOTE: this is the utilization rate of SMs, i.e. GPU percent)
+    index=1,
+    max_clock_infos=ClockInfos(graphics=2100, sm=2100, memory=7000, video=1950),  # in MHz
+    memory_clock=6800,                  # in MHz
+    memory_free=10462232576,            # in bytes
+    memory_free_human='9977MiB',
+    memory_info=MemoryInfo(total=11554717696, free=10462232576, used=1092485120)  # in bytes
+    memory_percent=9.5,                 # in percentage (NOTE: this is the percentage of used GPU memory)
+    memory_total=11554717696,           # in bytes
+    memory_total_human='11019MiB',
+    memory_usage='1041MiB / 11019MiB',
+    memory_used=1092485120,             # in bytes
+    memory_used_human='1041MiB',
+    memory_utilization=7,               # in percentage (NOTE: this is the utilization rate of GPU memory bandwidth)
+    mig_mode='N/A',
+    name='GeForce RTX 2080 Ti',
+    performance_state='P2',
+    persistence_mode='Disabled',
+    power_limit=250000,                 # in milliwatts (mW)
+    power_status='66W / 250W',          # in watts (W)
+    power_usage=66051,                  # in milliwatts (mW)
+    sm_clock=1815,                      # in MHz
+    temperature=39,                     # in Celsius
+    total_volatile_uncorrected_ecc_errors='N/A',
+    utilization_rates=UtilizationRates(gpu=17, memory=7, encoder=0, decoder=0),  # in percentage
+    uuid='GPU-01234567-89ab-cdef-0123-456789abcdef'
+)
+
+In [16]: nvidia1_snapshot.memory_percent  # snapshot uses properties instead of function calls
+Out[16]: 9.5
+
+In [17]: nvidia1_snapshot['memory_info']  # snapshot also supports `__getitem__` by string
+Out[17]: MemoryInfo(total=11554717696, free=10462232576, used=1092485120)
+
+In [18]: nvidia1_snapshot.bar1_memory_info  # snapshot will automatically retrieve not presented attributes from `real`
+Out[18]: MemoryInfo(total=268435456, free=257622016, used=10813440)
+```
+
+**NOTE:** Some entry values may be `'N/A'` (type: `NaType`, subclass of `str`) when the corresponding resources are not applicable. You can use `entry != 'N/A'` conditions to avoid exceptions. It's safe to use `float(entry)` for numbers while `NaType` will be converted to `math.nan`. For example:
+
+```python
+memory_used: Union[int, NaType] = device.memory_used()            # memory usage in bytes or `'N/A'`
+memory_used_in_mib: float       = float(memory_used) / (1 << 20)  # memory usage in Mebibytes (MiB) or `math.nan`
+```
+
+It's safe to compare `NaType` with numbers, but `NaType` is always larger than any number:
+
+```python
+devices_by_used_memory = sorted(Device.all(), key=Device.memory_used, reverse=True)  # it's safe to compare `'N/A'` with numbers
+devices_by_free_memory = sorted(Device.all(), key=Device.memory_free, reverse=True)  # please add `memory_free != 'N/A'` checks if sort in descending order here
+```
+
+##### Process
+
+```python
+In [19]: processes = nvidia1.processes()  # type: Dict[int, GpuProcess]
+    ...: processes
+Out[19]: {
+    23266: GpuProcess(pid=23266, gpu_memory=1031MiB, type=C, device=Device(index=1, name="GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=23266, name='python3', status='running', started='2021-05-10 21:02:40'))
+}
+
+In [20]: process = processes[23266]
+    ...: process
+Out[20]: GpuProcess(pid=23266, gpu_memory=1031MiB, type=C, device=Device(index=1, name="GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=23266, name='python3', status='running', started='2021-05-10 21:02:40'))
+
+In [21]: process.status()  # GpuProcess will automatically inherit attributes from GpuProcess.host
+Out[21]: 'running'
+
+In [22]: process.cmdline()  # type: List[str]
+Out[22]: ['python3', 'rllib_train.py']
+
+In [23]: process.command()  # type: str
+Out[23]: 'python3 rllib_train.py'
+
+In [24]: process.cwd()  # GpuProcess will automatically inherit attributes from GpuProcess.host
+Out[24]: '/home/xxxxxx/Projects/xxxxxx'
+
+In [25]: process.gpu_memory_human()
+Out[25]: '1031MiB'
+
+In [26]: process.as_snapshot()
+Out[26]: GpuProcessSnapshot(
+    real=GpuProcess(pid=23266, gpu_memory=1031MiB, type=C, device=PhysicalDevice(index=1, name="GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=23266, name='python3', status='running', started='2021-05-10 21:02:40')),
+    cmdline=['python3', 'rllib_train.py'],
+    command='python3 rllib_train.py',
+    compute_instance_id='N/A',
+    cpu_percent=98.5,                       # in percentage
+    device=PhysicalDevice(index=1, name="GeForce RTX 2080 Ti", total_memory=11019MiB),
+    gpu_encoder_utilization=0,              # in percentage
+    gpu_decoder_utilization=0,              # in percentage
+    gpu_instance_id='N/A',
+    gpu_memory=1081081856,                  # in bytes
+    gpu_memory_human='1031MiB',
+    gpu_memory_percent=9.4,                 # in percentage (NOTE: this is the percentage of used GPU memory)
+    gpu_memory_utilization=5,               # in percentage (NOTE: this is the utilization rate of GPU memory bandwidth)
+    gpu_sm_utilization=0,                   # in percentage (NOTE: this is the utilization rate of SMs, i.e. GPU percent)
+    host=HostProcessSnapshot(
+        real=HostProcess(pid=23266, name='python3', status='running', started='2021-05-10 21:02:40'),
+        cmdline=['python3', 'rllib_train.py'],
+        command='python3 rllib_train.py',
+        cpu_percent=98.5,                   # in percentage
+        host_memory=9113627439,             # in bytes
+        host_memory_human='8691MiB',
+        is_running=True,
+        memory_percent=1.6849018430285683,  # in percentage
+        name='python3',
+        running_time=datetime.timedelta(days=1, seconds=80013, microseconds=470024),
+        running_time_human='46:13:33',
+        running_time_in_seconds=166413.470024,
+        status='running',
+        username='panxuehai'
+    ),
+    host_memory=9113627439,                 # in bytes
+    host_memory_human='8691MiB',
+    is_running=True,
+    memory_percent=1.6849018430285683,      # in percentage (NOTE: this is the percentage of used host memory)
+    name='python3',
+    pid=23266,
+    running_time=datetime.timedelta(days=1, seconds=80013, microseconds=470024),
+    running_time_human='46:13:33',
+    running_time_in_seconds=166413.470024,
+    status='running',
+    type='C',                               # 'C' for Compute / 'G' for Graphics / 'C+G' for Both
+    username='panxuehai'
+)
+
+In [27]: process.uids()  # GpuProcess will automatically inherit attributes from GpuProcess.host
+Out[27]: puids(real=1001, effective=1001, saved=1001)
+
+In [28]: process.kill()  # GpuProcess will automatically inherit attributes from GpuProcess.host
+
+In [29]: list(map(Device.processes, all_devices))  # all processes
+Out[29]: [
+    {
+        52059: GpuProcess(pid=52059, gpu_memory=7885MiB, type=C, device=PhysicalDevice(index=0, name="GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=52059, name='ipython3', status='sleeping', started='14:31:22')),
+        53002: GpuProcess(pid=53002, gpu_memory=967MiB, type=C, device=PhysicalDevice(index=0, name="GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=53002, name='python', status='running', started='14:31:59'))
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+        84748: GpuProcess(pid=84748, gpu_memory=8975MiB, type=C, device=PhysicalDevice(index=8, name="GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=84748, name='python', status='running', started='11:13:38'))
+    },
+    {
+        84748: GpuProcess(pid=84748, gpu_memory=8341MiB, type=C, device=PhysicalDevice(index=9, name="GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=84748, name='python', status='running', started='11:13:38'))
+    }
+]
+
+In [30]: this = HostProcess(os.getpid())
+    ...: this
+Out[30]: HostProcess(pid=35783, name='python', status='running', started='19:19:00')
+
+In [31]: this.cmdline()  # type: List[str]
+Out[31]: ['python', '-c', 'import IPython; IPython.terminal.ipapp.launch_new_instance()']
+
+In [32]: this.command()  # not simply `' '.join(cmdline)` but quotes are added
+Out[32]: 'python -c "import IPython; IPython.terminal.ipapp.launch_new_instance()"'
+
+In [33]: this.memory_info()
+Out[33]: pmem(rss=83988480, vms=343543808, shared=12079104, text=8192, lib=0, data=297435136, dirty=0)
+
+In [34]: import cupy as cp
+    ...: x = cp.zeros((10000, 1000))
+    ...: this = GpuProcess(os.getpid(), cuda0)  # construct from `GpuProcess(pid, device)` explicitly rather than calling `device.processes()`
+    ...: this
+Out[34]: GpuProcess(pid=35783, gpu_memory=N/A, type=N/A, device=CudaDevice(cuda_index=0, nvml_index=9, name="NVIDIA GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=35783, name='python', status='running', started='19:19:00'))
+
+In [35]: this.update_gpu_status()  # update used GPU memory from new driver queries
+Out[35]: 267386880
+
+In [36]: this
+Out[36]: GpuProcess(pid=35783, gpu_memory=255MiB, type=C, device=CudaDevice(cuda_index=0, nvml_index=9, name="NVIDIA GeForce RTX 2080 Ti", total_memory=11019MiB), host=HostProcess(pid=35783, name='python', status='running', started='19:19:00'))
+
+In [37]: id(this) == id(GpuProcess(os.getpid(), cuda0))  # IMPORTANT: the instance will be reused while the process is running
+Out[37]: True
+```
+
+##### Host (inherited from [psutil](https://github.com/giampaolo/psutil))
+
+```python
+In [38]: host.cpu_count()
+Out[38]: 88
+
+In [39]: host.cpu_percent()
+Out[39]: 18.5
+
+In [40]: host.cpu_times()
+Out[40]: scputimes(user=2346377.62, nice=53321.44, system=579177.52, idle=10323719.85, iowait=28750.22, irq=0.0, softirq=11566.87, steal=0.0, guest=0.0, guest_nice=0.0)
+
+In [41]: host.load_average()
+Out[41]: (14.88, 17.8, 19.91)
+
+In [42]: host.virtual_memory()
+Out[42]: svmem(total=270352478208, available=192275968000, percent=28.9, used=53350518784, free=88924037120, active=125081112576, inactive=44803993600, buffers=37006450688, cached=91071471616, shared=23820632064, slab=8200687616)
+
+In [43]: host.memory_percent()
+Out[43]: 28.9
+
+In [44]: host.swap_memory()
+Out[44]: sswap(total=65534947328, used=475136, free=65534472192, percent=0.0, sin=2404139008, sout=4259434496)
+
+In [45]: host.swap_percent()
+Out[45]: 0.0
+```
+
+------
+
+## Screenshots
+
+![Screen Recording](https://user-images.githubusercontent.com/16078332/113173772-508dc380-927c-11eb-84c5-b6f496e54c08.gif)
+
+Example output of `nvitop -1`:
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/117765250-41793880-b260-11eb-8a1b-9c32868a46d4.png" alt="Screenshot">
+</p>
+
+Example output of `nvitop`:
+
+<table>
+  <tr valign="center" align="center">
+    <td>Full</td>
+    <td>Compact</td>
+  </tr>
+  <tr valign="top" align="center">
+    <td><img src="https://user-images.githubusercontent.com/16078332/117765260-4342fc00-b260-11eb-9198-7bcfdd1db113.png" alt="Full"></td>
+    <td><img src="https://user-images.githubusercontent.com/16078332/117765274-476f1980-b260-11eb-9afd-877cca54e0bc.png" alt="Compact"></td>
+  </tr>
+</table>
+
+Tree-view screen (shortcut: <kbd>t</kbd>) for GPU processes and their ancestors:
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/123914889-7b3e0400-d9b2-11eb-9b71-a48971617c2a.png" alt="Tree-view">
+</p>
+
+**NOTE:** The process tree is built in backward (recursively back to the tree root). Only GPU processes along with their children and ancestors (parents and grandparents ...) will be shown. Not all running processes will be displayed.
+
+Environment variable screen (shortcut: <kbd>e</kbd>):
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/16078332/123914881-7a0cd700-d9b2-11eb-8da1-26f7a3a7c2b6.png" alt="Environment Screen">
+</p>
+
+------
+
+## License
+
+`nvitop` is released under the **GNU General Public License, version 3 (GPLv3)**.
+
+**NOTE:** Please feel free to use `nvitop` as a package or dependency for your own projects. However, if you want to add or modify some features of `nvitop`, or copy some source code of `nvitop` into your own code, the source code should also be released under the GPLv3 License (as `nvitop`  contains some modified source code from [ranger](https://github.com/ranger/ranger) under the GPLv3 License).
