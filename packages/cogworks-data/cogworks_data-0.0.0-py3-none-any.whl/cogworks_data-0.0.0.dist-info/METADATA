@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: cogworks-data
+Version: 0.0.0
+Summary: Simple functions for downloading and accessing data for CogWorks.
+Author: CogWorks Staff
+Author-email: rsoklaski@gmail.com
+License: MIT
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+Requires-Dist: pooch (>=1.6.0)
+Requires-Dist: typing-extensions (>=4.1.0)
+
+# cogworks_data
+Hosts data for cogworks
+
+
+## For Maintainers
+
+To perform an editable install, clone this repo, navigate to its top level (to the directory that contains `src/` and `setup.py`) and run
+
+```console
+$ pip install -e .
+```
+
+Now any edits you make to the source code will immediately be reflected in your install.
+
+
+MIT License
+
+Copyright (c) 2022 Massachusetts Institute of Technology
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
