@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+urpameasure/__about__.py
+urpameasure/__init__.py
+urpameasure/globals.py
+urpameasure/management_console.py
+urpameasure/py.typed
+urpameasure/sydesk.py
+urpameasure/urpameasure.py
+urpameasure/utils.py
+urpameasure.egg-info/PKG-INFO
+urpameasure.egg-info/SOURCES.txt
+urpameasure.egg-info/dependency_links.txt
+urpameasure.egg-info/not-zip-safe
+urpameasure.egg-info/top_level.txt
