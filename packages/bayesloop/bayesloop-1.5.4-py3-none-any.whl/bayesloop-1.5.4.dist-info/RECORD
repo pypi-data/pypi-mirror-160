@@ -1,0 +1,15 @@
+bayesloop/__init__.py,sha256=grYGPYRR0s8yW9yJo4qHlUigiDur-glf5bkLDqj09qU,549
+bayesloop/core.py,sha256=GkYJkNDoSx_rC7RB-dERFQQe9YI-Geut4fWOXV0rlr8,144163
+bayesloop/exceptions.py,sha256=RI0WSwI0kJUk92tUF5wpED2NDtmwjlCY-PeGRtKsFPQ,543
+bayesloop/fileIO.py,sha256=QFsXDDelDHbh17QA0eFsqU1qaSIw9HKlrBTTvveiff0,1017
+bayesloop/helper.py,sha256=1KaDiuw1GrCxWfvUGitE3YGUvAt0I9JahSO55mpqU3g,4626
+bayesloop/jeffreys.py,sha256=rNhmKrhoitD7lIFvT8Yowk1eSPHG7DvvnZap8llQcys,4245
+bayesloop/observationModels.py,sha256=4EwEF1bipyUD2PwcD_ncnfWGPmMcO1GwiFiNfiyFgV0,40704
+bayesloop/parser.py,sha256=hWVUjcyIgY2LLmol6IzsC95P8b0RY_wpDKbAlb2gF0Q,20379
+bayesloop/preprocessing.py,sha256=saxkDKiK55c3nzo3ho1I0t5EPkWKEJR12vdwm5nLebA,1057
+bayesloop/transitionModels.py,sha256=w7xoAn4jIU-sRl0dTIzxzsih4qZfLgpNNwJUClyFRPE,39816
+bayesloop-1.5.4.dist-info/LICENSE,sha256=G9eveq5IKXQMZMo7lHd7XszSjGe9ObE9hK9eJlwws1k,1100
+bayesloop-1.5.4.dist-info/METADATA,sha256=Y2S_clvfoA69xmR9OKcMUeCJ4FJHQ_4238YLf7ZSHBc,8511
+bayesloop-1.5.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bayesloop-1.5.4.dist-info/top_level.txt,sha256=ZY7BYA1Fd3j34GJXWv5PagM3bTeA-q4dlYv7hFVshg0,10
+bayesloop-1.5.4.dist-info/RECORD,,
