@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/asciicodex/__init__.py
+src/asciicodex/codex.py
+src/asciicodex.egg-info/PKG-INFO
+src/asciicodex.egg-info/SOURCES.txt
+src/asciicodex.egg-info/dependency_links.txt
+src/asciicodex.egg-info/top_level.txt
