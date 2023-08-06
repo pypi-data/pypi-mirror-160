@@ -1,0 +1,10 @@
+prefect_sqlalchemy/__init__.py,sha256=7ZNaUPPR_fE7MX5LU0WLeakvyWZBrrAO5VTaWp6Vis8,151
+prefect_sqlalchemy/_version.py,sha256=u_5P2GqeEl5ZquNGjO37KQSePDAdhIAjhdeguin4RZs,497
+prefect_sqlalchemy/credentials.py,sha256=iBSXmpjvzXvG0C2f4fyhJZQjrcCdByl4HcBMEfe8Czg,10607
+prefect_sqlalchemy/database.py,sha256=RleEplYf9A25KjeWtJw-VDaJ4FckYSCFkxCDXaSoOMI,4807
+prefect_sqlalchemy-0.1.1.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_sqlalchemy-0.1.1.dist-info/METADATA,sha256=msgb82fmm8m7_6CvS7pck-m8j7xteyz3NepyFgelvz4,3825
+prefect_sqlalchemy-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_sqlalchemy-0.1.1.dist-info/entry_points.txt,sha256=WgDYNArHnE7fF4AvD7FmF3-TvW75jb7V9lS9WSw5Fas,75
+prefect_sqlalchemy-0.1.1.dist-info/top_level.txt,sha256=JMG6tE7qqbHpCuRHSAa5juu0DBQMLKQ6cFwITkTKBjw,19
+prefect_sqlalchemy-0.1.1.dist-info/RECORD,,
