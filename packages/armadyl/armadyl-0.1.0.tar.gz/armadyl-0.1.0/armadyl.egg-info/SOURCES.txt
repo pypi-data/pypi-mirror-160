@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+armadyl/__init__.py
+armadyl/base.py
+armadyl/statuses.py
+armadyl/util.py
+armadyl/version.py
+armadyl.egg-info/PKG-INFO
+armadyl.egg-info/SOURCES.txt
+armadyl.egg-info/dependency_links.txt
+armadyl.egg-info/requires.txt
+armadyl.egg-info/top_level.txt
+armadyl.egg-info/zip-safe
