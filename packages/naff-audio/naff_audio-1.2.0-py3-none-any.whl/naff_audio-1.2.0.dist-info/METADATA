@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: naff-audio
+Version: 1.2.0
+Home-page: 
+Author: LordOfPolls
+Author-email: lordofpolls.dev@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Documentation
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: naff[voice]
+Requires-Dist: yt-dlp
+
+# A collection of useful audio scripts for [NAFF](https://github.com/NAFTeam/NAFF)
+
+```
+pip install naff_audio
+```
+
+## NAFF YTAudio
+
+A NAFF audio object for playing audio from YT_DLP.
+
+```py
+from naff_audio import YTAudio
+
+audio = await YTAudio.from_url("https://www.youtube.com/watch?v=ldyqHK0tbSc")
+await voice_state.play(audio)
+```
+
+## NAFF Queue
+A basic queue system.
+
+```py
+import os
+from naff_audio import NaffQueue
+from naff import AudioVolume
+
+vc = await channel.connect()
+queue = NaffQueue(vc)
+
+# enqueue all songs in a given folder
+path = r"some_dir_of_music/"
+for song in os.listdir(path):
+    queue.put(AudioVolume(f"{path}/{song}"))
+
+queue.start() 
+# start playing through the queue
+```
