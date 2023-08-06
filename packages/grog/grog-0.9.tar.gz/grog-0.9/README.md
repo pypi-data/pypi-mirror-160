@@ -1,0 +1,46 @@
+# GROG a GeneRic wOrkload Generator
+
+GROG is a generic workload generator (Cloud and HPC like) to create datasets of tasks for scheduling evaluation.
+
+This workload generator is based on a [dataset](https://research.google/tools/datasets/cluster-workload-traces/) from Google studied in [Modeling, classifying and generating large-scale Google-like workload](https://www.sciencedirect.com/science/article/abs/pii/S2210537917301634) published in the SUSCOM journal ([open access version](https://hal.archives-ouvertes.fr/hal-02640354/document))
+
+The current version only generate traces for the [BatSim](https://gitlab.inria.fr/batsim/batsim) simulator of DataCenters.
+
+## Installation
+
+    pip3 install grog
+
+## Usage
+
+    usage: grog [-h] [--seed SEED] [--offline] [--duration DURATION] [--density DENSITY] [--speed SPEED] output_file
+
+    positional arguments:
+      output_file          filename to store the workload
+
+    options:
+      -h, --help           show this help message and exit
+      --seed SEED          change seed, default: 42
+      --offline            to change from online to offline
+      --duration DURATION  duration in days, default: 3
+      --density DENSITY    hourly density, default:50
+      --speed SPEED        processor density in GHz, default = 1.4
+
+## Example
+
+    grog workload.json
+    grog --offline --seed 128 --duration 365 --density 5 long_workload.json
+
+## Citation
+
+Please cite ([bibtex version](https://hal.archives-ouvertes.fr/hal-02640354v1/bibtex)) the following if you use this tool
+
+    Georges da Costa, Léo Grange, Inès De Courchelle. Modeling, classifying and generating large-scale Google-like workload. Sustainable Computing : Informatics and Systems, Elsevier, 2018, 19, pp.305-314. ff10.1016/j.suscom.2017.12.004ff.
+    
+    
+# Misc
+
+ * This software is under the GPLv3.
+ * The current point of contact is Georges.Da-Costa@irit.fr
+ * The last version is available here : https://gitlab.irit.fr/sepia-pub/grog
+ * The current internal API migh evolve, but command line interface should be stable
+ * The time needed for generating dense and/or long duration traces might be long
