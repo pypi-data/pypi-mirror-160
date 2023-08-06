@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+src/statmaniac/__init__.py
+src/statmaniac/statmaniac.py
+src/statmaniac.egg-info/PKG-INFO
+src/statmaniac.egg-info/SOURCES.txt
+src/statmaniac.egg-info/dependency_links.txt
+src/statmaniac.egg-info/top_level.txt
