@@ -1,0 +1,18 @@
+impactEffects/__init__.py,sha256=PzxgilFkvZy8Gis5fs4v9oS1WtImmaMmdT0NfTXhwbQ,103
+impactEffects/core/__init__.py,sha256=y2Lr8w0dNxDBPSGHy7pFWdcZiRAPGbqOxklhXlP86a4,55
+impactEffects/core/config.py,sha256=fWBbkfjY_cgFmujQSl1-UE1ZmuUJCPzTG1E21gBc_Qo,502
+impactEffects/core/core_collins.py,sha256=bSHyJD5c7uS0bKi1p4biS0nGO6C35wB0H9EWwkzq74I,44372
+impactEffects/functions/ __init__.py,sha256=YLmAiM7G6qmlmui_gGzLSSwyHZBj1k0Dl8uZrywrZqU,47
+impactEffects/functions/function.py,sha256=P1s1A3fta1ZqIqUs9vbWUuGL4sUlr3OEx05EjThUH3g,16589
+impactEffects/instances/ImpactorClass.py,sha256=MhP8leb0r7XxyE7WH14I5qt6FzMqtVosXQUygSHX440,2767
+impactEffects/instances/Impactor_population.py,sha256=Gm7IaMraGCDbDaG7uXMYptrAu8n3wHXcAhNrxizGBw8,579
+impactEffects/instances/TargetClass.py,sha256=4ypCXzcRU1dCoDvtfF-95KaKImuYoau_kvRI2b0JDNQ,7656
+impactEffects/instances/__init__.py,sha256=9GmHWnVkDZozPNIKBCP9-N2oKAgUsw6wspI86hpF3rE,129
+impactEffects/utils/__init__.py,sha256=NIJD_pwR4gOxpR0UIY4sU58cVdLhLIMY8H2xPZQPZGo,59
+impactEffects/utils/impact.py,sha256=sqHlxDktzoARmYVAyTNm3agqO1WuLSViZTAYtbl296Q,9274
+impactEffects/utils/print.py,sha256=L-JEasDPmS15xdpUg1xULpFOwcOKcBQoFbB2G5eI_vI,14936
+ImpactEffect-0.0.3.dist-info/LICENSE,sha256=Ke6osA7hf4yiPt3Y4nRcHiA_mnCRwFRvuYXfrqFb1R8,1074
+ImpactEffect-0.0.3.dist-info/METADATA,sha256=0FJ8h6WycMD0cu38UiiZIkrO2o_gXTQfqiS8PYZaFs0,2363
+ImpactEffect-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ImpactEffect-0.0.3.dist-info/top_level.txt,sha256=uzHVED2UHAlOseeMH8QLf67N6MsqNW8LKDQ2vc2KNTg,14
+ImpactEffect-0.0.3.dist-info/RECORD,,
