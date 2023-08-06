@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Flask_BootstrapForms.egg-info/PKG-INFO
+src/Flask_BootstrapForms.egg-info/SOURCES.txt
+src/Flask_BootstrapForms.egg-info/dependency_links.txt
+src/Flask_BootstrapForms.egg-info/requires.txt
+src/Flask_BootstrapForms.egg-info/top_level.txt
+src/Flask_BootstrapForms.egg-info/zip-safe
+src/flask_bootstrapforms/__init__.py
+src/flask_bootstrapforms/app.py
