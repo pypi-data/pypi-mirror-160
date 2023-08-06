@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: statmaniac
+Version: 0.0.1
+Summary: A module which gives the stats of any random cricketer in form of pandas dataframe
+Author-email: Shreyansh Pathak <shreyanshpathak02@gmail.com>
+Project-URL: Homepage, https://github.com/shreyanshhub/cricketerstats
+Project-URL: Bug Tracker, https://github.com/shreyanshhub/cricketerstats/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
