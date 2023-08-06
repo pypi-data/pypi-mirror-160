@@ -1,0 +1,17 @@
+setuptools_scm
+outdated
+numpy<2.0,>=1.18.0
+pandas<2.0,>=1.1.0
+matplotlib<4.0,>=3.3.0
+seaborn<1.0,>=0.11.1
+pingouin<1.0,>=0.5.2
+
+[dev]
+wheel
+sphinx_rtd_theme
+flake8
+tox
+coverage
+Sphinx
+twine
+pytest<7.0,>=6.2.0
