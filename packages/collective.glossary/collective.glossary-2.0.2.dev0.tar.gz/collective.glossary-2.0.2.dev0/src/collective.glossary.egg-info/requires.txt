@@ -1,0 +1,13 @@
+setuptools
+z3c.jbot
+plone.api>=1.8.4
+plone.restapi
+plone.app.dexterity
+
+[test]
+plone.testing>=5.0.0
+plone.app.contenttypes
+plone.app.testing[robot]
+plone.app.robotframework
+robotframework-selenium2library
+robotframework-selenium2screenshots
