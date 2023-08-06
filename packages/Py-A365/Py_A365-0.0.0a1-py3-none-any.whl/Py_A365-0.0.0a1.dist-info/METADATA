@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Py-A365
+Version: 0.0.0a1
+Summary: Async library for the Microsoft Graph API
+Home-page: https://github.com/deadbeef-development/Py-A365
+Author: Deadbeef-Development
+Author-email: deadbeef.development@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (~=3.8)
+
