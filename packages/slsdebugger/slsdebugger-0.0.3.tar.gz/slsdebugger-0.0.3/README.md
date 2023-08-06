@@ -1,0 +1,99 @@
+# serverlessdebugger-agent-python
+
+[![Pyversions](https://img.shields.io/pypi/pyversions/slsdebugger.svg?style=flat)](https://pypi.org/project/slsdebugger/)
+[![PyPI](https://img.shields.io/pypi/v/slsdebugger.svg)](https://pypi.org/project/slsdebugger/)
+
+Debug your marvelous python lambda with serverless debugger by [Thundra](https://www.serverlessdebugger.com)!
+
+## Contents
+
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Getting Help](#getting-help)
+- [Opening Issues](#opening-issues)
+
+  
+## Installation
+
+- Login from [our website](https://app.serverlessdebugger.com/landing)
+
+- Get your authentication key.
+
+- Install our [Debugger for AWS Lambda](https://marketplace.visualstudio.com/items?itemName=thundra.thundra-debugger).
+
+- Write "Serverless Debugger" to Command Palette on VSCode and click "Edit Configuration" and paste your authentication key to **authToken**. 
+![Command Palette](./assets/serverless-debugger-palette.png)
+
+- Set **SLSDEBUGGER_AUTH_TOKEN** also by your authentication token to your lambda environment.
+
+- Follow one of the following two steps.
+### Using Serverless Debugger Lambda Layer
+
+- Add Serverless Debugger lambda layer!
+```
+arn:aws:lambda:${region}:269863060030:layer:slsdebugger-python:${latest-version} 
+```
+
+**NOTES**
+- Latest version of the Serverless Debugger Python Layer ![Serverless Debugger Python Layer](https://img.shields.io/endpoint.svg?url=https://slsdebugger-python-svd2fu4gtfa3.runkit.sh/)
+
+### Manually Wrapping
+
+- Run this command from your project directory:
+```bash
+pip install slsdebugger -t .
+```
+
+- Wrap your lambda function.
+```python
+import slsdebugger
+
+@slsdebugger.lambda_wrapper
+def handler(event, context):
+    print("Hello Serverless Debugger!")
+```
+
+
+## Configuration
+You can configure Serverless Debugger using **environment variables**.
+
+Check out the [configuration part](https://docs.serverlessdebugger.com/configuration/python) of our docs for more detailed information.
+
+#### 1. Environment variables
+
+- Only required environment variable is **SLSDEBUGGER_AUTH_TOKEN**. If it is empty, Serverless Debugger only calls your function without debugging.
+
+| Name                                                | Type   |          Default Value                |
+|:----------------------------------------------------|:------:|:-------------------------------------:|
+| SLSDEBUGGER_ENABLED                                 | bool   |              true                     |
+| SLSDEBUGGER_AUTH_TOKEN                              | string |                -                      |
+| SLSDEBUGGER_PORT                                    |  int   |              1111                     |
+| SLSDEBUGGER_LOGS_ENABLE                             |  bool  |              false                    |
+| SLSDEBUGGER_WAIT_MAX                                |  int   |              60000(ms)                |
+| SLSDEBUGGER_IO_WAIT                                 |  int   |              2000(ms)                 |
+| SLSDEBUGGER_BROKER_PORT                             |  bool  |              444                      |
+| SLSDEBUGGER_BROKER_HOST                             |  bool  | broker.service.serverlessdebugger.com |
+| SLSDEBUGGER_SESSION_NAME                            | string |              default                  |
+| SLSDEBUGGER_LAMBDA_HANDLER                          | string |                -                      |
+| SLSDEBUGGER_LAMBDA_WARMUP_WARMUPAWARE               |  bool  |              false                    |
+| SLSDEBUGGER_LAMBDA_TIMEOUT_MARGIN                   |  int   |                -                      |
+
+## Getting Help
+
+If you have any issue around using the library or the product, please don't hesitate to:
+
+* Use the [documentation](https://docs.serverlessdebugger.com).
+* Open an issue in GitHub.
+* Join our python slack channel.
+
+
+## Opening Issues
+
+For any problem you encounter while using Serverless Debugger Python, Please feel free to contact us via github issue or our python slack channel. 
+
+When opening a new issue, please provide as much information about the environment:
+* Library version, Python runtime version, dependencies, operation system with version etc.
+* Snippet of the usage.
+* A reproducible example can really help.
+
+The GitHub issues are intended for bug reports and feature requests.
