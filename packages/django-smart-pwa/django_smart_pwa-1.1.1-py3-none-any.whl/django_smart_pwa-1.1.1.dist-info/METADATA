@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: django-smart-pwa
+Version: 1.1.1
+Summary: django progressive web application
+Author: anujmehere
+Author-email: mehereanuj570@gmail.com
+Maintainer: anujmehere
+Maintainer-email: mehereanuj570@gmail.com
+License: MIT
+Keywords: django pwa
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+===================================================================================================================
+                               DJANGO PROGRESSIVE WEB APPLICATIONS
+===================================================================================================================
+
+  Django pwa can convert your project into a progressive web application within seconds. Just install the package 
+  add into INSTALLED_APPS and add urlpatterns and you are done.                                                    
+
+Quickstart
+===========
+
+1.Add pwa to your INSTALLED_APPS settings like this:
+
+INSTALLED_APPS = [
+
+    ......,
+    'pwa',   
+
+  ]
+
+
+
+2. Include the polls URLconf in your project urls.py like this
+
+urlpatterns = [
+
+    path('',include('pwa.urls')),
+
+  ]
+
+
+3. Place the static folder in your main project directory
+
