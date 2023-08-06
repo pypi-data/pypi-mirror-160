@@ -1,0 +1,9 @@
+[aiida.parsers]
+vasp_base_parser = aiida_catmat.parsers:VaspBaseParser
+
+[aiida.workflows]
+catmat.vasp_catmat = aiida_catmat.workchains:VaspCatMatWorkChain
+catmat.vasp_converge = aiida_catmat.workchains:VaspConvergeWorkChain
+catmat.vasp_multistage = aiida_catmat.workchains:VaspMultiStageWorkChain
+catmat.vasp_multistage_ddec = aiida_catmat.workchains:VaspMultiStageDdecWorkChain
+vasp.base = aiida_catmat.workchains:VaspBaseWorkChain

@@ -1,0 +1,54 @@
+{
+    "name": "aiida-catmat",
+    "author": "Pezhman Zarabadi-Poor",
+    "author_email": "pzarabadip@gmail.com",
+    "description": "Collection of AiiDA WorkChains Developed in Morgan Group",
+    "url": "https://github.com/pzarabadip/aiida-catmat",
+    "license": "MIT License",
+    "classifiers": [
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9"
+    ],
+    "version": "1.0.0b",
+    "setup_requires": ["reentry"],
+    "reentry_register": true,
+    "install_requires": [
+        "aiida-core[atomic_tools]==1.6.8",
+        "aiida-vasp@git+https://github.com/aiida-vasp/aiida-vasp.git@14771c14ac5ccb08ac521d5936eb0c4ec5b9337f",
+        "parsevasp@git+https://github.com/aiida-vasp/parsevasp.git@3c3d6900d5356de2644cbf0dcfe1028b79d16a98",
+        "aiida-ddec"
+    ],
+    "entry_points": {
+        "aiida.parsers": [
+            "vasp_base_parser = aiida_catmat.parsers:VaspBaseParser"
+        ],
+        "aiida.workflows": [
+            "vasp.base = aiida_catmat.workchains:VaspBaseWorkChain",
+            "catmat.vasp_multistage = aiida_catmat.workchains:VaspMultiStageWorkChain",
+            "catmat.vasp_converge = aiida_catmat.workchains:VaspConvergeWorkChain",
+            "catmat.vasp_catmat = aiida_catmat.workchains:VaspCatMatWorkChain",
+            "catmat.vasp_multistage_ddec = aiida_catmat.workchains:VaspMultiStageDdecWorkChain"
+        ]
+    },
+    "data_files": [
+        [".", ["setup.json"]]
+    ],
+    "extras_require": {
+        "testing": [
+            "pytest==4.4.1"
+        ],
+        "pre-commit": [
+            "pre-commit==2.0.1",
+            "yapf==0.28.0",
+            "prospector==1.2.0",
+            "pylint==2.4.4"
+        ],
+        "docs": [
+            "myst-nb~=0.10.1",
+            "sphinx",
+            "sphinxcontrib-contentui",
+            "sphinxcontrib-details-directive",
+            "sphinx-rtd-theme"
+        ]
+    }
+}
