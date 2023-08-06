@@ -1,0 +1,7 @@
+numpy
+scipy
+astropy
+radio_beam
+spectral_cube
+kapteyn
+astrodendro
