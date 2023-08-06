@@ -1,0 +1,16 @@
+LICENSE,sha256=5eHQU4pzMSeQ7kgSpiyksWOXoGge4zLGR_FJM2YExVg,1064
+firthlogist/.pytest_cache/.gitignore,sha256=Ptcxtl0GFQwTji2tsL4Gl1UIiKa0frjEXsya26i46b0,37
+firthlogist/.pytest_cache/CACHEDIR.TAG,sha256=N9yI75oKvt2-gQU6bdj9-xOvthMEXqHrSlyBWnSjveQ,191
+firthlogist/.pytest_cache/README.md,sha256=c_1vzN2ALEGaay2YPWwxc7fal1WKxLWJ7ewt_kQ9ua0,302
+firthlogist/.pytest_cache/v/cache/nodeids,sha256=fLscHBCljW4dfBoTXTGIpD7jIenD9BTLtxVQIZyhAnk,4378
+firthlogist/.pytest_cache/v/cache/stepwise,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+firthlogist/__init__.py,sha256=8zbORVnWQtoB-hM3vNkOVyY_fjqOskYhjRKUbUBdr_M,62
+firthlogist/firthlogist.py,sha256=5q_Ds713WBNNFZZX4bLKgEPmZ4ESjxrpRUQJhD3Lg1Y,12792
+firthlogist/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firthlogist/tests/diabetes.csv,sha256=2Ft1ZYyumi9DlVM4ud3Qp7oGXf1mMT0i9XD-M54sQdQ,23874
+firthlogist/tests/sex2.csv,sha256=w0Q2ODijfOmxuaqwrIYQjlXE2GMWKiI3usx9PeeJ-4U,3389
+firthlogist/tests/test_firthlogist.py,sha256=8L_5PStNJB8eFGZGbNRrULkz54kllHH5ouBU39TUOIA,1944
+firthlogist-0.2.0.dist-info/LICENSE,sha256=5eHQU4pzMSeQ7kgSpiyksWOXoGge4zLGR_FJM2YExVg,1064
+firthlogist-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+firthlogist-0.2.0.dist-info/METADATA,sha256=PJg6sLihHueXk83w9xXY-5XiB0kshgu6dyHFsbBjkqA,3591
+firthlogist-0.2.0.dist-info/RECORD,,
