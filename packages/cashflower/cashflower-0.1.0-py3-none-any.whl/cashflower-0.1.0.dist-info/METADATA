@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cashflower
+Version: 0.1.0
+Summary: Framework for actuarial cash flow models
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.23.0)
+Requires-Dist: pandas (>=1.4.3)
+
+UNKNOWN
+
+
