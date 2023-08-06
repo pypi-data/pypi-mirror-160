@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: blabber
+Version: 0.1.0
+Summary: Blabber generates conversation starters.
+Author-email: Ben Soyka <bensoyka@icloud.com>
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Changelog, https://github.com/bsoyka/blabber/releases
+Project-URL: Source, https://github.com/bsoyka/blabber
+
+# Blabber
+
+**Blabber** provides fun and free conversation starters for your Python program.
+
+```py
+>>> gen = blabber.StarterGenerator()
+>>> gen.starter()
+"What's the best class you've ever taken?"
+```
+
+[![Downloads](https://pepy.tech/badge/blabber)](https://pepy.tech/project/blabber)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/blabber.svg)](https://pypi.org/project/blabber)
+[![Version](https://img.shields.io/pypi/v/blabber?label=latest)](https://pypi.org/project/blabber)
+
+## Installation
+
+Blabber is available on PyPI:
+
+```console
+$ pip install blabber
+```
+
+Blabber officially supports Python 3.7+.
+
+## API Reference
+
+Documentation coming soon! For now, the starter at the top of this document is
+just about all Blabber has available.
+
+## License Summary
+
+*(This section is only a summary and is not legal advice. See
+[the `LICENSE` file](https://github.com/bsoyka/blabber/blob/master/LICENSE) for
+full license terms.)*
+
+Most of this project is licensed with the MIT License. As an exception, the text
+of the conversation starters themselves (all `.txt` files in
+[`/blabber/data`](https://github.com/bsoyka/blabber/tree/main/blabber/data)) are
+in the public domain.
+
