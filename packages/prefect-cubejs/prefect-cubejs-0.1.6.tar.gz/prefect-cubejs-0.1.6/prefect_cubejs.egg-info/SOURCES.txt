@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+prefect_cubejs/__init__.py
+prefect_cubejs/_version.py
+prefect_cubejs/exceptions.py
+prefect_cubejs/tasks.py
+prefect_cubejs/utils.py
+prefect_cubejs.egg-info/PKG-INFO
+prefect_cubejs.egg-info/SOURCES.txt
+prefect_cubejs.egg-info/dependency_links.txt
+prefect_cubejs.egg-info/requires.txt
+prefect_cubejs.egg-info/top_level.txt
