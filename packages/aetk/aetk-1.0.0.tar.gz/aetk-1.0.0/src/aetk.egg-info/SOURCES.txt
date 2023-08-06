@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/aetk.egg-info/PKG-INFO
+src/aetk.egg-info/SOURCES.txt
+src/aetk.egg-info/dependency_links.txt
+src/aetk.egg-info/requires.txt
+src/aetk.egg-info/top_level.txt
