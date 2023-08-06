@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: neon-sftp
+Version: 0.0.2a1
+Summary: SFTP Adapter for Neon Modules
+Home-page: https://github.com/NeonGeckoCom/neon-sftp
+Author: NeonGecko
+Author-email: developers@neon.ai
+License: NeonAI License v1.0
+Keywords: neon sftp
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: paramiko (~=2.9)
+
+# neon-sftp
+SFTP Adapter for Neon Modules
+
+
