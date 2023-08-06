@@ -1,0 +1,40 @@
+import random
+import time
+
+
+PASSWORD_CHARACTER_SET = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%&()*+,-.:;<=>?@[]^_`{|}~'
+
+
+def spinner(cycles: int = 10, *, frames_per_second: int = 10) -> None:
+    """Print a spinner."""
+    for i in range(0, cycles * 4):
+        time.sleep(1 / frames_per_second)
+        if i % 4 == 0:
+            print('\r|', end='')
+        elif i % 4 == 1:
+            print('\r/', end='')
+        elif i % 4 == 2:
+            print('\r-', end='')
+        else:
+            print('\r\\', end='')
+    print('\r|', end='')
+
+
+def assumption_make():
+    options = (
+        'we have a can opener',
+        'we are considering the survival of whales (https://www.chegg.com/homework-help/assume-considering-survival-whales-number-whales-falls-minim-chapter-11.1-problem-7p-solution-9781111795665-exc)',
+        'normal distribution',
+        'that I exist',
+        'air is diatomic',
+        'that assumptions are dangerous',
+        'coffee',
+        'that all assumptions are invalid',
+    )
+
+    print('I\'ve assumed {}.'.format(random.choice(options)))
+
+
+def password_create(*, length: int = 15, character_set: str = PASSWORD_CHARACTER_SET) -> str:
+    """Create a password of the given length using the given character_set."""
+    return ''.join(random.choices(character_set, k=length))
