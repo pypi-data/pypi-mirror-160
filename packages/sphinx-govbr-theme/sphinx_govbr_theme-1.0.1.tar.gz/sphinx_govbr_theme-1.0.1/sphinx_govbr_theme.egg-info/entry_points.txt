@@ -1,0 +1,3 @@
+[sphinx.html_themes]
+sphinx_govbr_theme = sphinx_govbr_theme
+
