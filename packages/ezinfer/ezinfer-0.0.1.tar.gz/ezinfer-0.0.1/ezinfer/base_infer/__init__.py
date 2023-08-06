@@ -1,0 +1,1 @@
+from .base_infer import BaseInfer

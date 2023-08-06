@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezinfer"
+version = "0.0.1"
+description = "EZInfer - An API Wrapper for Mainstream Python DL Backends."
+readme = "README.md"
+authors = [{ name = "Arian Tashakkor", email = "a77physics@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+keywords = ["deep learning", "onnx", "pytorch", "tensorflow", "mxnet"]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/ArianARIAPA/ez-infer"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "ezinfer"
+]
