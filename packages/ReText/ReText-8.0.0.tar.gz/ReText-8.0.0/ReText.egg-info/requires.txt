@@ -1,0 +1,12 @@
+docutils
+Markdown>=3.0
+Markups>=2.0
+Pygments
+chardet>=2.3
+PyQt6
+
+[spellcheck]
+pyenchant
+
+[webengine]
+PyQt6-WebEngine
