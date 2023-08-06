@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+plankton/plankton_spatial.egg-info/PKG-INFO
+plankton/plankton_spatial.egg-info/SOURCES.txt
+plankton/plankton_spatial.egg-info/dependency_links.txt
+plankton/plankton_spatial.egg-info/requires.txt
+plankton/plankton_spatial.egg-info/top_level.txt
