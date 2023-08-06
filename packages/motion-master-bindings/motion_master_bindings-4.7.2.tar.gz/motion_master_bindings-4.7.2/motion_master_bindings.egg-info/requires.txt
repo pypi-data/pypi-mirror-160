@@ -1,0 +1,3 @@
+rx
+motion-master-proto
+pyzmq<20.0
