@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "xcresult"
+version = "14.0.0.dev0"
+description = "An xcresult parser."
+
+license = "MIT"
+
+authors = [
+    "Dale Myers <dale@myers.io>"
+]
+
+readme = 'README.md'
+
+repository = "https://github.com/dalemyers/xcresult"
+homepage = "https://github.com/dalemyers/xcresult"
+
+keywords = ['xcresult', 'parser', 'xcode']
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries"
+]
+
+[tool.poetry.scripts]
+xcresult = 'xcresult:command_line.run'
+
+[tool.poetry.dependencies]
+python = "^3.7.2"
+
+[tool.poetry.dev-dependencies]
+black = "=22.6.0"
+mypy = "=0.971"
+pylint = "=2.14.5"
+pytest = "=7.1.2"
+pytest-cov = "=3.0.0"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
