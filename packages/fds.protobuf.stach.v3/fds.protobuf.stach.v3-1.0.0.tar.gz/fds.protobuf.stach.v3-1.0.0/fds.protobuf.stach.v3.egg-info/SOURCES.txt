@@ -1,0 +1,17 @@
+setup.py
+fds/__init__.py
+fds.protobuf.stach.v3.egg-info/PKG-INFO
+fds.protobuf.stach.v3.egg-info/SOURCES.txt
+fds.protobuf.stach.v3.egg-info/dependency_links.txt
+fds.protobuf.stach.v3.egg-info/not-zip-safe
+fds.protobuf.stach.v3.egg-info/requires.txt
+fds.protobuf.stach.v3.egg-info/top_level.txt
+fds/protobuf/__init__.py
+fds/protobuf/stach/__init__.py
+fds/protobuf/stach/v3/Column_pb2.py
+fds/protobuf/stach/v3/MetadataItem_pb2.py
+fds/protobuf/stach/v3/RowOrganizedTable_pb2.py
+fds/protobuf/stach/v3/TableView_pb2.py
+fds/protobuf/stach/v3/Table_pb2.py
+fds/protobuf/stach/v3/Views_pb2.py
+fds/protobuf/stach/v3/__init__.py
