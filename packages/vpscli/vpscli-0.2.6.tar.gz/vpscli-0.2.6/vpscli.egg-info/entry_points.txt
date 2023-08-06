@@ -1,0 +1,5 @@
+[console_scripts]
+nfipsearch = vps.netflix.find_good_ip:entry
+primeproduce = vps.primeproducer:entry
+vpsinit = vps.__init__:main
+vpsstatus = vps.vpsstatus:entrance
