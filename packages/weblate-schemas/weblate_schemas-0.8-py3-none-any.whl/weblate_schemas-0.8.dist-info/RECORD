@@ -1,0 +1,11 @@
+weblate_schemas/__init__.py,sha256=4r3sbqcex-jLZMVhYhG42pNJ0nmUFeOB1rif5KQTZpU,1615
+weblate_schemas/test_loader.py,sha256=v3ZbmILnJNR44LP-acKrS_UKVoxWRRzJiLugohh-HoM,1612
+weblate_schemas/test_valid.py,sha256=Ga3erCebLxeHubVfnz1tX50hZeJvSP3nwL7P0_liJ_U,4247
+weblate_schemas/schemas/weblate-backup.schema.json,sha256=f9GonMXLPB69F0NeUoln7C87gjc-vshdY7f5-Q8Tpds,5832
+weblate_schemas/schemas/weblate-memory.schema.json,sha256=bj5PLahxhxgZ4b8V3j4WrjVd5nnyyd1UyUM1I7zjuEg,2254
+weblate_schemas/schemas/weblate-userdata.schema.json,sha256=HrDQdAgnkLgS2BZy9BMyuPEUry-yeCCAbaDcGuatOwc,8277
+weblate_schemas-0.8.dist-info/LICENSE,sha256=p4e9AiQ25tuKTlTO8EQqTgkXfObUgXYD6y2n8cPnZJo,1077
+weblate_schemas-0.8.dist-info/METADATA,sha256=JvV__yA7gMIrvhKajSJVbfbbUXvAsJTEGD5bQQWClC4,2758
+weblate_schemas-0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+weblate_schemas-0.8.dist-info/top_level.txt,sha256=ODeWWba5cU1lrbN8rG9xjn-MEH0H1h17As3YtEANiDQ,16
+weblate_schemas-0.8.dist-info/RECORD,,
