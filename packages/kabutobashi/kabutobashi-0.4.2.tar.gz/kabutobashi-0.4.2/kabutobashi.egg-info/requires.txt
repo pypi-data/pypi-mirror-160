@@ -1,0 +1,10 @@
+pandas
+jpholiday
+lxml
+requests
+beautifulsoup4
+mplfinance
+matplotlib
+cerberus
+pydantic
+scipy
