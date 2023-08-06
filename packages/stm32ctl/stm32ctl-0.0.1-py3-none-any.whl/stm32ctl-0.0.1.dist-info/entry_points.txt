@@ -1,0 +1,2 @@
+[console_scripts]
+stm32ctl = stm32ctl.main:main

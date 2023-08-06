@@ -1,0 +1,12 @@
+stm32ctl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stm32ctl/__main__.py,sha256=F1kjitaJ8fzGuRBSxnyS5JmR0gTxK55TmyANhkgjbVY,122
+stm32ctl/args.py,sha256=-edAX08STuqgXsSLlYsGjFWIuWoK1m6lAfkhCaM07oY,9900
+stm32ctl/client.py,sha256=5qnCA7cAcztiVZHDZUWyFfh2nZ_YQWx5tG37wHZhpHo,4945
+stm32ctl/connection.py,sha256=RcEG71M07tnWYNsp6OnWNQEyOmjSo2N9K8Cidmtbink,7483
+stm32ctl/main.py,sha256=Y_Sq_Vp33cWFTKu9M3O5yKE0XPXHRDruPuY1IVM6tOk,4858
+stm32ctl-0.0.1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+stm32ctl-0.0.1.dist-info/METADATA,sha256=3E4kBn9UQjYi-_MVtYKuT29gEdo9XZVgdUooX4oKVIU,1339
+stm32ctl-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stm32ctl-0.0.1.dist-info/entry_points.txt,sha256=qmyCjETl4ef7DZzSPPG1XfRjeiSE2yWqbtIp1z6KhQY,48
+stm32ctl-0.0.1.dist-info/top_level.txt,sha256=SK7ivIqTJ0EXTKma1kS_qMjmXllD-18n4l_fewngaIs,9
+stm32ctl-0.0.1.dist-info/RECORD,,
