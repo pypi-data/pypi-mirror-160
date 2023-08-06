@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pytorm
+Version: 0.0.4
+Summary: Implementation of repository pattern over SQLAlchemy
+Home-page: https://github.com/flaiers/pytorm
+License: MIT
+Keywords: python,sqlalchemy,fastapi
+Author: Maxim Bigin
+Author-email: i@flaiers.me
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: SQLAlchemy (>=1.4.37,<2.0.0)
+Requires-Dist: fastapi (>=0.78.0,<0.79.0)
+Requires-Dist: multimethod (>=1.8,<2.0)
+Project-URL: Documentation, https://github.com/flaiers/pytorm
+Project-URL: Repository, https://github.com/flaiers/pytorm
+Description-Content-Type: text/markdown
+
+# PytORM
+
+[![Release](https://img.shields.io/github/release/flaiers/pytorm.svg)](https://github.com/flaiers/pytorm/releases/latest)
+[![Licence](https://img.shields.io/github/license/flaiers/pytorm)](https://github.com/flaiers/pytorm/blob/main/LICENSE)
+
+
+## Introduction
+
+Implementation of repository pattern over SQLAlchemy
+
+## Installation
+
+```shell
+poetry add pytorm
+```
+
+```shell
+pip install pytorm
+```
+
