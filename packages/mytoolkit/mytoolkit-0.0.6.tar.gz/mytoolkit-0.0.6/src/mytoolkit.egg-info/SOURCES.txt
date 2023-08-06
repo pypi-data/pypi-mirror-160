@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/mytoolkit/__int__.py
+src/mytoolkit/bjson.py
+src/mytoolkit/mjson.py
+src/mytoolkit.egg-info/PKG-INFO
+src/mytoolkit.egg-info/SOURCES.txt
+src/mytoolkit.egg-info/dependency_links.txt
+src/mytoolkit.egg-info/top_level.txt
