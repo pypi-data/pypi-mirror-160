@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: s2stools
+Version: 0.0.22
+Summary: python tools for handling s2s forecast data
+Home-page: UNKNOWN
+Author: Jonas Spaeth
+Author-email: jonas.spaeth@physik.uni-muenchen.de
+License: LICENSE.txt
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: ecmwf-api-client
+
+python tools for handling s2s forecast data.Including submodules: <download> for retreiving s2s forecasts, <clim> for deseasonalization, <events> for creating event composites, <plot> for matplotlib utilities, <process> for handling data structures, <utils> for further utilities and <tests>
+
+
