@@ -1,0 +1,3 @@
+[console_scripts]
+caj2pdf=caj2pdf.cli:main
+
