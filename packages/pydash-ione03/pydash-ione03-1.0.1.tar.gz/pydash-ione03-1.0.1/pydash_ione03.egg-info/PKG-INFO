@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pydash-ione03
+Version: 1.0.1
+Summary: A small clone of lodash
+Home-page: https://github.com/ione03/pydash
+Author-email: suratiwan03@gmail.com
+License: UNKNOWN
+Description: # Pydash
+        
+        A simple and stupid clone of [LoDash](https://npmjs.com/packages/lodash) in python.
+        
+        This was made for my blog post on [dev.to](https://dev.to/arnu515/create-a-pypi-pip-package-test-it-and-publish-it-using-github-actions-21k3) and is not a serious package, so don't expect updates.
+Keywords: lodash,string,manipulation
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
