@@ -1,0 +1,11 @@
+README.md
+setup.py
+doc_wizard/__main__.py
+doc_wizard/doc.py
+doc_wizard/gitlab_ci.py
+doc_wizard.egg-info/PKG-INFO
+doc_wizard.egg-info/SOURCES.txt
+doc_wizard.egg-info/dependency_links.txt
+doc_wizard.egg-info/entry_points.txt
+doc_wizard.egg-info/requires.txt
+doc_wizard.egg-info/top_level.txt
