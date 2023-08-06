@@ -1,0 +1,10 @@
+apache-airflow>=2.2.0
+apache-airflow-providers-amazon==4.0.0
+apache-airflow-providers-docker==3.0.0
+pydantic==1.9.1
+docker==5.0.3
+python-on-whales==0.47.0
+boto3
+dateparser
+tomli==2.0.1
+tomli-w==1.0.0
