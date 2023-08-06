@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+drw4e/__init__.py
+drw4e.egg-info/PKG-INFO
+drw4e.egg-info/SOURCES.txt
+drw4e.egg-info/dependency_links.txt
+drw4e.egg-info/requires.txt
+drw4e.egg-info/top_level.txt
