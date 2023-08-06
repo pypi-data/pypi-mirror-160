@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pipy-pre-release-example
+Version: 1.7.1rc3
+Summary: Software security, simplified.
+Home-page: https://github.com/SOOS-JAlvarez/pipy-pre-release-example
+Author: JoaquinAlvarez
+Author-email: jalvarez@soos.io
+Project-URL: Issues, https://github.com/SOOS-JAlvarez/pipy-pre-release-example/issues
+Project-URL: Source, https://github.com/SOOS-JAlvarez/pipy-pre-release-example
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <4,>=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: idna (==2.10)
+Requires-Dist: urllib3 (==1.26.5)
+Requires-Dist: charset-normalizer (==2.0.12)
+
+# pipy-pre-release-example
