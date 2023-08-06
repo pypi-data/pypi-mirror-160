@@ -1,0 +1,5 @@
+[console_scripts]
+newkey = unicorncommon.newkey:main
+pmonitor = unicorncommon.pmonitor.pmonitor:main
+pwrapper = unicorncommon.pmonitor.pwrapper:main
+
