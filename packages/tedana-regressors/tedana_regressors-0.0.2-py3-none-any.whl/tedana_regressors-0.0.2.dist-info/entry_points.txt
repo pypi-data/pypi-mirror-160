@@ -1,0 +1,3 @@
+[console_scripts]
+tedana_regressors = tedana_regressors.tedana_regressors:_main
+

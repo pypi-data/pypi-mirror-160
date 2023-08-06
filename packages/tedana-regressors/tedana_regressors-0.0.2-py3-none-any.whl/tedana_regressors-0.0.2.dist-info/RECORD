@@ -1,0 +1,10 @@
+tedana_regressors/__init__.py,sha256=Ewg0D0uqodws6_aH3t1iu7YXlqD87isHiUPrxBjxhzk,259
+tedana_regressors/_version.py,sha256=WVgC45yAvLT898dzob-zcEqUXV53u1rrf-eOyq95F_0,498
+tedana_regressors/tedana_regressors.py,sha256=y6HDp_JviLjONX1MARu1hGTjoDddWoBMDPAFqloOvaQ,2967
+tedana_regressors/utils.py,sha256=CAKgpRZSKn9sD9SD5wwJ2hh3o7YdKECVoqg-Xha-qfU,143
+tedana_regressors-0.0.2.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+tedana_regressors-0.0.2.dist-info/METADATA,sha256=HJ5OtajvJGP_T229jh6HrfZwJ9HSNbPrPTeGweHgoKg,2066
+tedana_regressors-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tedana_regressors-0.0.2.dist-info/entry_points.txt,sha256=AzmA9gARPp4FXZoxmwGuE727Zt5znoq2nDbKy-EX1EM,81
+tedana_regressors-0.0.2.dist-info/top_level.txt,sha256=Lq8Rjd63xpLYK63LtntgwlS35cpo4ut9lVKetfbNsGs,18
+tedana_regressors-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: tedana-regressors
+Version: 0.0.2
+Summary: "A simple Python package to generate regressors based on the tedana classification"
+Home-page: https://github.com/SPiN-Lab/tedana_regressors
+Author: "Eneko Uruñuela"
+Author-email: "e.urunuela@bcbl.eu"
+Maintainer: "Eneko Uruñuela"
+Maintainer-email: "e.urunuela@bcbl.eu"
+License: LGPL 2.1
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: sphinx (>=1.5.3) ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Requires-Dist: codecov ; extra == 'all'
+Requires-Dist: coverage (<5.0) ; extra == 'all'
+Requires-Dist: flake8 (>=3.7) ; extra == 'all'
+Requires-Dist: flake8-black ; extra == 'all'
+Requires-Dist: flake8-isort ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: versioneer ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx (>=1.5.3) ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: tests
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: coverage (<5.0) ; extra == 'tests'
+Requires-Dist: flake8 (>=3.7) ; extra == 'tests'
+Requires-Dist: flake8-black ; extra == 'tests'
+Requires-Dist: flake8-isort ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+
+"A simple Python program that converts components accepted, rejected and ignored by tedana into 1D matrices that can be used with AFNI's 3dDeconvolve."
+
