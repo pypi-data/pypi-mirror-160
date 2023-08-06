@@ -1,0 +1,43 @@
+name: avidaq
+display_name: napari avidaq
+contributions:
+  commands:
+    - id: avidaq.get_reader
+      python_name: avidaq._reader:napari_get_reader
+      title: Open data with napari avidaq
+    - id: avidaq.write_multiple
+      python_name: avidaq._writer:write_multiple
+      title: Save multi-layer data with napari avidaq
+    - id: avidaq.write_single_image
+      python_name: avidaq._writer:write_single_image
+      title: Save image data with napari avidaq
+    - id: avidaq.make_sample_data
+      python_name: avidaq._sample_data:make_sample_data
+      title: Load sample data from napari avidaq
+    - id: avidaq.make_qwidget
+      python_name: avidaq._widget:ExampleQWidget
+      title: Make example QWidget
+    - id: avidaq.make_func_widget
+      python_name: avidaq._widget:example_function_widget
+      title: Make example function widget
+  readers:
+    - command: avidaq.get_reader
+      accepts_directories: false
+      filename_patterns: ['*.npy']
+  writers:
+    - command: avidaq.write_multiple
+      layer_types: ['image*','labels*']
+      filename_extensions: []
+    - command: avidaq.write_single_image
+      layer_types: ['image']
+      filename_extensions: ['.npy']
+  sample_data:
+    - command: avidaq.make_sample_data
+      display_name: napari avidaq
+      key: unique_id.1
+  widgets:
+    - command: avidaq.make_qwidget
+      display_name: Main AVIDAQ widget
+    - command: avidaq.make_func_widget
+      autogenerate: true
+      display_name: Example Function Widget
