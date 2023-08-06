@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pytor
+Version: 0.1.8
+Summary: Manage Tor hidden services keys
+Home-page: http://github.com/cmehay/pytor
+License: WTFPL
+Author: Christophe Mehay
+Author-email: cmehay@nospam.student.42.fr
+Requires-Python: >=3.6.12,<3.10
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fire (>=0.3.1)
+Requires-Dist: pycryptodome (>=3.9.4)
+Requires-Dist: pyyaml (>=5.3.1)
+Project-URL: Repository, https://pypi.org/project/pytor/
