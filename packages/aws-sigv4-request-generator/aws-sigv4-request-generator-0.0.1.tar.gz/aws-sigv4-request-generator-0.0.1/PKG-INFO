@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aws-sigv4-request-generator
+Version: 0.0.1
+Summary: AWS Signature Version 4 signing process (Python)
+Home-page: https://github.com/ionesu/aws_sigv4_request_generator
+Author: Ivan Sushkov
+Author-email: ivan.sushkov91@gmail.com
+License: UNKNOWN
+Description: This package allows you to add the authorization headers to your request required by Amazon's signature version 4.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+README.md
+setup.py
+aws_sigv4_request_generator/__init__.py
+aws_sigv4_request_generator/aws_sigv4.py
+aws_sigv4_request_generator.egg-info/PKG-INFO
+aws_sigv4_request_generator.egg-info/SOURCES.txt
+aws_sigv4_request_generator.egg-info/dependency_links.txt
+aws_sigv4_request_generator.egg-info/top_level.txt
+aws_sigv4_request_generator/test/__init__.py
+aws_sigv4_request_generator/test/test_main.py
