@@ -1,0 +1,13 @@
+.flake8
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+vectorflow/__init__.py
+vectorflow/__version__.py
+vectorflow.egg-info/PKG-INFO
+vectorflow.egg-info/SOURCES.txt
+vectorflow.egg-info/dependency_links.txt
+vectorflow.egg-info/not-zip-safe
+vectorflow.egg-info/top_level.txt
