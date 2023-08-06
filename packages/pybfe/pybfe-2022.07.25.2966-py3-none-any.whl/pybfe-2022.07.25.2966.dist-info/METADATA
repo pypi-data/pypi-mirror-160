@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pybfe
+Version: 2022.07.25.2966
+License: Proprietary, included with Pybatfish Enterprise at pybfe/LICENSE
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Requires-Dist: cryptography<4
+Requires-Dist: grpcio>=1.43,<1.44
+Requires-Dist: pandas<1.2
+Requires-Dist: protobuf>=3.19,<3.20
+Requires-Dist: pybatfish>=2022.02.18.1216
+Requires-Dist: pytz
+Requires-Dist: requests<3
+Provides-Extra: capirca
+Requires-Dist: pybatfish[capirca]>=2021.7.9.974; extra == 'capirca'
+
+
+Pybatfish Enterprise
+--------------------
+
+Pybatfish Enterprise is a Python client for `Batfish Enterprise <https://www.intentionet.com/product/batfish-enterprise/>`_.
+
+For the Python client for open-source Batfish, see `Pybatfish <https://github.com/batfish/pybatfish>`_.
+
+Prerequisites
+-------------
+Pybatfish Enterprise requires a `Batfish Enterprise <https://www.intentionet.com/product/batfish-enterprise/>`_ backend to work.
+
+Installing Pybatfish Enterprise
+-------------------------------
+
+We highly recommend that you install Pybatfish Enterprise in a Python 3 virtual environment. Details on how to set one up can be found `here <https://docs.python.org/3/library/venv.html>`_.
+
+Once your virtual environment is setup and activated, run:
+
+::
+
+   python3 -m pip install pybfe
+
+
+Using Pybatfish Enterprise
+--------------------------
+
+Documentation on using Pybatfish Enterprise is bundled with the Batfish Enterprise service. Go to https://<BFE-HOST>/docs/pybfe.html, where <BFE-HOST> is the hostname or IP address where the Batfish Enterprise is hosted.
