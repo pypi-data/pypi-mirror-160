@@ -1,0 +1,4 @@
+youtube-dl>=2021.5.16
+pafy~=0.5.5
+youtube-searcher
+neon-utils<2.0.0,>=0.5.7
