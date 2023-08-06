@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: bq-meta
+Version: 0.1.0
+Summary: BigQuery metadata viewer
+Home-page: https://github.com/martintupy/bq-meta
+Author: Martin Tupy
+Author-email: id@martintupy.com
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: pyyaml
+Requires-Dist: rich
+
+# BigQuery Metadata viewer
+
+> "Designed for superusers who value their time"
+
+- quick search through available projects, dataset, tables
+- view table metadata and schema
+- open in browser
+
+## Requirements
+
+- python >= 3.6
+
+- fzf - https://github.com/junegunn/fzf (required)
+
+```bash
+brew install fzf
+```
+
+## Installation
+
+- Using [pypi](https://pypi.org/project/bq-meta/)
+
+```bash
+pip install bq-meta
+```
+
+- Initialize
+
+```bash
+bq-meta --init
+```
+
+## Examples
+
+```bash
+Usage: bq-meta [OPTIONS] [SQL]
+
+  BiqQuery query.
+
+Options:
+  -f, --file FILENAME  File containing SQL
+  -y, --yes            Automatic yes to prompt
+  -h, --history        Search local history
+  -d, --delete         Delete job from history (local & cloud)
+  -i, --info           Show gcloud configuration
+  --clear              Clear local history
+  --sync               Sync history from cloud
+  --init               Initialize bq-meta environment
+  --version            Show the version and exit.
+  --help               Show this message and exit.
+```
