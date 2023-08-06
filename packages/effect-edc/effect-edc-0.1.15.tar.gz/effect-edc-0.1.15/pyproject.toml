@@ -1,0 +1,104 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "_version.py"
+
+[tool.black]
+line-length = 95
+target-version = ["py39"]
+extend-exclude = '''^(.*\/)*\b(migrations)\b($|\/.*$)'''
+
+[tool.isort]
+profile = "black"
+py_version = "39"
+skip = [".tox", ".eggs", "migrations"]
+
+[tool.coverage.run]
+parallel = false
+branch = true
+source = ["effect_edc"]
+
+[tool.coverage.paths]
+source = ["effect_edc"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+omit = ["requirements.txt"]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist =
+    py{39,310}-dj{32,40}-edc{prod},
+    py{39,310}-dj{32,40}-edc{dev},
+#    FIXME: Disable testing djdev env until failing testrunner issue resolved
+#    py{39,310}-dj{32,40,dev}-edc{dev},
+    lint
+
+isolated_build = true
+
+[gh-actions]
+python =
+    3.9: py39, lint
+    3.10: py310
+
+[gh-actions:env]
+DJANGO =
+    3.2: dj32, lint
+    4.0: dj40
+    dev: djdev
+EDC_CODEBASE =
+    Prod: edcprod, lint
+    Dev: edcdev
+
+[testenv]
+# Temporary workaround to avoid: "pip subprocess to install build dependencies did not run successfully."
+# when pip installing (effect-form-validators, or others) in Python 3.9 environment.
+#
+# This workaround uses workaround 1. below, fixing issues occuring both when
+# running tox locally, or via CI (GitHub actions).
+#
+# The 3 available workarounds seem to be:
+#   1. Override Setuptools' own copy of distutils, see:
+#       - Setuptools issue: https://github.com/pypa/setuptools/issues/2965
+#       - Setuptools docs on use of (and overriding) local, vendored copy of distutils: https://setuptools.pypa.io/en/latest/deprecated/distutils-legacy.html
+#       - Example of this fix in the wild: https://github.com/astronomer/astro-sdk/pull/571
+#   2. Avoid pip v22.2, e.g. downgrading to pip 22.1.2, see:
+#       - Discussion on issue being introduced in pip 22.2: https://github.com/pypa/pip/issues/11294
+#       - PR with possible fix: https://github.com/pypa/pip/pull/11298
+#       - Example of this fix in the wild: https://github.com/paavopere/palabras/pull/4/commits/8aec95f99e6cf233b6e125502791f27a6af146f3
+#   3. Use Python 3.10 (or greater), see:
+#       - Why it's not an issue on >=3.10: https://github.com/pypa/pip/issues/11294#issuecomment-1193137150
+#
+# Also note: distutils is due to be deprecated in Python 3.12
+#
+setenv =
+    SETUPTOOLS_USE_DISTUTILS = stdlib
+
+deps =
+    -r https://raw.githubusercontent.com/clinicedc/edc/develop/requirements.tests/tox.txt
+    -r https://raw.githubusercontent.com/clinicedc/edc/develop/requirements.tests/test_utils.txt
+    -r https://raw.githubusercontent.com/clinicedc/edc/develop/requirements.tests/third_party_dev.txt
+    dj32: Django>=3.2,<3.3
+    dj40: Django>=4.0,<4.1
+    djdev: https://github.com/django/django/tarball/main
+
+commands =
+    pip install -U pip
+    pip --version
+    edcdev: pip install -U -r https://raw.githubusercontent.com/clinicedc/edc/develop/requirements.tests/edc.txt
+    edcdev: pip install -U git+https://github.com/effect-trial/effect-form-validators.git@develop
+    pip freeze
+    coverage run runtests.py
+    coverage report
+
+[testenv:lint]
+deps = -r https://raw.githubusercontent.com/clinicedc/edc/develop/requirements.tests/lint.txt
+commands =
+    isort --profile=black --check --diff .
+    black --check --diff .
+    flake8 .
+"""
