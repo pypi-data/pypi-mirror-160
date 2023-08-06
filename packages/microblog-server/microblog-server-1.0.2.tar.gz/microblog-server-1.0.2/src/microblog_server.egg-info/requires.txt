@@ -1,0 +1,5 @@
+GitPython
+markdown
+pymdown-extensions
+python-telegram-bot<21.0,>=20.0a2
+PyYAML
