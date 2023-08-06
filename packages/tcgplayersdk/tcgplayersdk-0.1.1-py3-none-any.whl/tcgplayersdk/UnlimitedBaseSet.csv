@@ -1,0 +1,228 @@
+number,name,skuid,price,url
+1,Alakazam,2999638,17.99,https://www.tcgplayer.com/product/42346/pokemon-base-set-alakazam
+2,Blastoise,2999643,58.86,https://www.tcgplayer.com/product/42360/pokemon-base-set-blastoise
+3,Chansey,2999648,8.99,https://www.tcgplayer.com/product/42371/pokemon-base-set-chansey
+4,Charizard,2999653,206.62,https://www.tcgplayer.com/product/42382/pokemon-base-set-charizard
+5,Clefairy,2999658,9.4,https://www.tcgplayer.com/product/42393/pokemon-base-set-clefairy
+6,Gyarados,2999663,8.98,https://www.tcgplayer.com/product/42404/pokemon-base-set-gyarados
+7,Hitmonchan,2999668,5.92,https://www.tcgplayer.com/product/42415/pokemon-base-set-hitmonchan
+9,Magneton,2999678,7.0,https://www.tcgplayer.com/product/42433/pokemon-base-set-magneton
+10,Mewtwo,2999683,12.98,https://www.tcgplayer.com/product/42347/pokemon-base-set-mewtwo
+11,Nidoking,2999688,9.74,https://www.tcgplayer.com/product/42351/pokemon-base-set-nidoking
+12,Ninetales,2999693,7.09,https://www.tcgplayer.com/product/42352/pokemon-base-set-ninetales
+13,Poliwrath,2999698,7.55,https://www.tcgplayer.com/product/42353/pokemon-base-set-poliwrath
+14,Raichu,2999704,12.99,https://www.tcgplayer.com/product/42354/pokemon-base-set-raichu
+15,Venusaur,2999709,41.0,https://www.tcgplayer.com/product/42355/pokemon-base-set-venusaur
+16,Zapdos,2999714,10.98,https://www.tcgplayer.com/product/42356/pokemon-base-set-zapdos
+17,Beedrill,449181,1.64,https://www.tcgplayer.com/product/42357/pokemon-base-set-beedrill
+18,Dragonair,450753,4.64,https://www.tcgplayer.com/product/42358/pokemon-base-set-dragonair
+19,Dugtrio,448163,1.99,https://www.tcgplayer.com/product/42359/pokemon-base-set-dugtrio
+20,Electabuzz,451321,2.99,https://www.tcgplayer.com/product/42361/pokemon-base-set-electabuzz
+21,Electrode,447673,2.74,https://www.tcgplayer.com/product/42362/pokemon-base-set-electrode
+22,Pidgeotto,450303,3.78,https://www.tcgplayer.com/product/42363/pokemon-base-set-pidgeotto
+23,Arcanine,450818,1.39,https://www.tcgplayer.com/product/42364/pokemon-base-set-arcanine
+24,Charmeleon,448363,1.14,https://www.tcgplayer.com/product/42365/pokemon-base-set-charmeleon
+25,Dewgong,449901,1.38,https://www.tcgplayer.com/product/42366/pokemon-base-set-dewgong
+26,Dratini,451440,1.17,https://www.tcgplayer.com/product/42367/pokemon-base-set-dratini
+27,Farfetch'd,448851,1.19,https://www.tcgplayer.com/product/42368/pokemon-base-set-farfetchd
+28,Growlithe,449831,1.07,https://www.tcgplayer.com/product/42369/pokemon-base-set-growlithe
+29,Haunter,451408,1.18,https://www.tcgplayer.com/product/42370/pokemon-base-set-haunter
+30,Ivysaur,450360,1.89,https://www.tcgplayer.com/product/42372/pokemon-base-set-ivysaur
+31,Jynx,447657,1.18,https://www.tcgplayer.com/product/42373/pokemon-base-set-jynx
+32,Kadabra,449224,1.28,https://www.tcgplayer.com/product/42374/pokemon-base-set-kadabra
+33,Kakuna,449762,1.24,https://www.tcgplayer.com/product/42375/pokemon-base-set-kakuna
+34,Machoke,448247,1.14,https://www.tcgplayer.com/product/42376/pokemon-base-set-machoke
+35,Magikarp,448635,1.14,https://www.tcgplayer.com/product/42377/pokemon-base-set-magikarp
+36,Magmar,451196,1.28,https://www.tcgplayer.com/product/42378/pokemon-base-set-magmar
+37,Nidorino,447529,1.28,https://www.tcgplayer.com/product/42379/pokemon-base-set-nidorino
+38,Poliwhirl,449106,1.06,https://www.tcgplayer.com/product/42380/pokemon-base-set-poliwhirl
+39,Porygon,450739,1.25,https://www.tcgplayer.com/product/42381/pokemon-base-set-porygon
+40,Raticate,449713,1.52,https://www.tcgplayer.com/product/42383/pokemon-base-set-raticate
+41,Seel,451268,1.23,https://www.tcgplayer.com/product/42384/pokemon-base-set-seel
+42,Wartortle,447919,1.49,https://www.tcgplayer.com/product/42385/pokemon-base-set-wartortle
+43,Abra,450538,1.08,https://www.tcgplayer.com/product/42386/pokemon-base-set-abra
+44,Bulbasaur,451074,1.09,https://www.tcgplayer.com/product/42387/pokemon-base-set-bulbasaur
+45,Caterpie,449410,1.08,https://www.tcgplayer.com/product/42388/pokemon-base-set-caterpie
+46,Charmander,449916,1.24,https://www.tcgplayer.com/product/42389/pokemon-base-set-charmander
+47,Diglett,451461,1.05,https://www.tcgplayer.com/product/42390/pokemon-base-set-diglett
+48,Doduo,448835,1.18,https://www.tcgplayer.com/product/42391/pokemon-base-set-doduo
+49,Drowzee,450409,1.12,https://www.tcgplayer.com/product/42392/pokemon-base-set-drowzee
+50,Gastly,449541,1.11,https://www.tcgplayer.com/product/42394/pokemon-base-set-gastly
+51,Koffing,450111,1.12,https://www.tcgplayer.com/product/42395/pokemon-base-set-koffing
+52,Machop,448555,1.08,https://www.tcgplayer.com/product/42396/pokemon-base-set-machop
+53,Magnemite,448961,1.08,https://www.tcgplayer.com/product/42397/pokemon-base-set-magnemite
+54,Metapod,451572,1.09,https://www.tcgplayer.com/product/42398/pokemon-base-set-metapod
+55,Nidoran M,447998,1.05,https://www.tcgplayer.com/product/42399/pokemon-base-set-nidoran-m
+56,Onix,449542,1.08,https://www.tcgplayer.com/product/42400/pokemon-base-set-onix
+57,Pidgey,451216,1.19,https://www.tcgplayer.com/product/42401/pokemon-base-set-pidgey
+58,Pikachu,447569,1.5,https://www.tcgplayer.com/product/42402/pokemon-base-set-pikachu
+59,Poliwag,450127,1.09,https://www.tcgplayer.com/product/42403/pokemon-base-set-poliwag
+60,Ponyta,448127,1.14,https://www.tcgplayer.com/product/42405/pokemon-base-set-ponyta
+61,Rattata,449665,1.09,https://www.tcgplayer.com/product/42406/pokemon-base-set-rattata
+62,Sandshrew,451287,1.09,https://www.tcgplayer.com/product/42407/pokemon-base-set-sandshrew
+63,Squirtle,448708,1.69,https://www.tcgplayer.com/product/42408/pokemon-base-set-squirtle
+64,Starmie,450271,1.09,https://www.tcgplayer.com/product/42409/pokemon-base-set-starmie
+65,Staryu,450784,1.07,https://www.tcgplayer.com/product/42410/pokemon-base-set-staryu
+66,Tangela,448909,1.08,https://www.tcgplayer.com/product/42411/pokemon-base-set-tangela
+67,Voltorb,450457,1.24,https://www.tcgplayer.com/product/42412/pokemon-base-set-voltorb
+68,Vulpix,447825,1.09,https://www.tcgplayer.com/product/42413/pokemon-base-set-vulpix
+69,Weedle,449395,1.08,https://www.tcgplayer.com/product/42414/pokemon-base-set-weedle
+70,Clefairy Doll,448347,2.69,https://www.tcgplayer.com/product/42416/pokemon-base-set-clefairy-doll
+71,Computer Search,448796,3.73,https://www.tcgplayer.com/product/42417/pokemon-base-set-computer-search
+72,Devolution Spray,451362,1.98,https://www.tcgplayer.com/product/42418/pokemon-base-set-devolution-spray
+73,Imposter Professor Oak,1199586,2.39,https://www.tcgplayer.com/product/86271/pokemon-base-set-imposter-professor-oak
+74,Item Finder,449334,5.05,https://www.tcgplayer.com/product/42420/pokemon-base-set-item-finder
+75,Lass,450768,1.79,https://www.tcgplayer.com/product/42421/pokemon-base-set-lass
+76,Pokemon Breeder,448279,3.99,https://www.tcgplayer.com/product/42422/pokemon-base-set-pokemon-breeder
+77,Pokemon Trader,3007853,2.39,https://www.tcgplayer.com/product/108648/pokemon-base-set-pokemon-trader
+78,Scoop Up,449816,3.94,https://www.tcgplayer.com/product/42423/pokemon-base-set-scoop-up
+79,Super Energy Removal,451363,2.19,https://www.tcgplayer.com/product/42424/pokemon-base-set-super-energy-removal
+80,Defender,450179,1.24,https://www.tcgplayer.com/product/42426/pokemon-base-set-defender
+81,Energy Retrieval,450648,1.04,https://www.tcgplayer.com/product/42427/pokemon-base-set-energy-retrieval
+82,Full Heal,449126,1.23,https://www.tcgplayer.com/product/42428/pokemon-base-set-full-heal
+83,Maintenance,449683,1.39,https://www.tcgplayer.com/product/42429/pokemon-base-set-maintenance
+84,PlusPower,451232,1.09,https://www.tcgplayer.com/product/42430/pokemon-base-set-pluspower
+85,Pokemon Center,3007843,1.29,https://www.tcgplayer.com/product/108646/pokemon-base-set-pokemon-center
+86,Pokemon Flute,3007848,1.34,https://www.tcgplayer.com/product/108647/pokemon-base-set-pokemon-flute
+87,Pokedex,3007838,1.09,https://www.tcgplayer.com/product/108645/pokemon-base-set-pokedex
+88,Professor Oak,448689,1.28,https://www.tcgplayer.com/product/42431/pokemon-base-set-professor-oak
+89,Revive,450254,1.39,https://www.tcgplayer.com/product/42432/pokemon-base-set-revive
+90,Super Potion,448928,1.04,https://www.tcgplayer.com/product/42434/pokemon-base-set-super-potion
+91,Bill,450472,1.02,https://www.tcgplayer.com/product/42435/pokemon-base-set-bill
+92,Energy Removal,447877,1.09,https://www.tcgplayer.com/product/42436/pokemon-base-set-energy-removal
+93,Gust of Wind,449380,1.04,https://www.tcgplayer.com/product/42437/pokemon-base-set-gust-of-wind
+94,Potion,449917,1.04,https://www.tcgplayer.com/product/42438/pokemon-base-set-potion
+95,Switch,448364,1.04,https://www.tcgplayer.com/product/42439/pokemon-base-set-switch
+96,Double Colorless Energy,448864,2.41,https://www.tcgplayer.com/product/42440/pokemon-base-set-double-colorless-energy
+97,Fighting Energy,451639,1.04,https://www.tcgplayer.com/product/42441/pokemon-base-set-fighting-energy
+98,Fire Energy,447999,1.08,https://www.tcgplayer.com/product/42442/pokemon-base-set-fire-energy
+99,Grass Energy,449576,1.06,https://www.tcgplayer.com/product/42443/pokemon-base-set-grass-energy
+100,Lightning Energy,449054,1.09,https://www.tcgplayer.com/product/42348/pokemon-base-set-lightning-energy
+101,Psychic Energy,450537,1.07,https://www.tcgplayer.com/product/42349/pokemon-base-set-psychic-energy
+102,Water Energy,447933,1.13,https://www.tcgplayer.com/product/42350/pokemon-base-set-water-energy
+1,Aerodactyl (1),2995191,10.98,https://www.tcgplayer.com/product/44418/pokemon-fossil-aerodactyl-1
+2,Articuno (2),2995201,18.99,https://www.tcgplayer.com/product/106518/pokemon-fossil-articuno-2
+3,Ditto (3),2995211,11.29,https://www.tcgplayer.com/product/106519/pokemon-fossil-ditto-3
+4,Dragonite (4),2995221,33.99,https://www.tcgplayer.com/product/106520/pokemon-fossil-dragonite-4
+5,Gengar (5),2995231,20.99,https://www.tcgplayer.com/product/106521/pokemon-fossil-gengar-5
+6,Haunter (6),2995241,10.24,https://www.tcgplayer.com/product/106522/pokemon-fossil-haunter-6
+7,Hitmonlee (7),2995251,11.99,https://www.tcgplayer.com/product/106523/pokemon-fossil-hitmonlee-7
+8,Hypno (8),2995261,10.11,https://www.tcgplayer.com/product/106524/pokemon-fossil-hypno-8
+9,Kabutops (9),2995271,11.98,https://www.tcgplayer.com/product/106525/pokemon-fossil-kabutops-9
+10,Lapras (10),2995281,5.34,https://www.tcgplayer.com/product/44419/pokemon-fossil-lapras-10
+11,Magneton (11),2995291,5.99,https://www.tcgplayer.com/product/44420/pokemon-fossil-magneton-11
+12,Moltres (12),2995301,21.99,https://www.tcgplayer.com/product/44421/pokemon-fossil-moltres-12
+13,Muk (13),2995311,2.98,https://www.tcgplayer.com/product/44422/pokemon-fossil-muk-13
+14,Raichu (14),2995321,10.33,https://www.tcgplayer.com/product/44423/pokemon-fossil-raichu-14
+15,Zapdos (15),2995331,7.99,https://www.tcgplayer.com/product/44424/pokemon-fossil-zapdos-15
+16,Aerodactyl (16),2995341,1.97,https://www.tcgplayer.com/product/106526/pokemon-fossil-aerodactyl-16
+17,Articuno (17),450783,3.96,https://www.tcgplayer.com/product/44425/pokemon-fossil-articuno-17
+18,Ditto (18),448941,2.74,https://www.tcgplayer.com/product/44426/pokemon-fossil-ditto-18
+19,Dragonite (19),450482,5.99,https://www.tcgplayer.com/product/44427/pokemon-fossil-dragonite-19
+20,Gengar (20),450991,4.98,https://www.tcgplayer.com/product/44428/pokemon-fossil-gengar-20
+21,Haunter (21),449389,2.09,https://www.tcgplayer.com/product/44429/pokemon-fossil-haunter-21
+22,Hitmonlee (22),449931,2.24,https://www.tcgplayer.com/product/44430/pokemon-fossil-hitmonlee-22
+23,Hypno (23),448378,2.08,https://www.tcgplayer.com/product/44431/pokemon-fossil-hypno-23
+24,Kabutops (24),448878,1.99,https://www.tcgplayer.com/product/44432/pokemon-fossil-kabutops-24
+25,Lapras (25),2995391,2.24,https://www.tcgplayer.com/product/106527/pokemon-fossil-lapras-25
+26,Magneton (26),2995401,1.69,https://www.tcgplayer.com/product/106528/pokemon-fossil-magneton-26
+27,Moltres (27),2995411,2.98,https://www.tcgplayer.com/product/106529/pokemon-fossil-moltres-27
+28,Muk (28),2995421,1.49,https://www.tcgplayer.com/product/106530/pokemon-fossil-muk-28
+29,Raichu (29),2995436,1.98,https://www.tcgplayer.com/product/106531/pokemon-fossil-raichu-29
+30,Zapdos (30),2995446,2.73,https://www.tcgplayer.com/product/106532/pokemon-fossil-zapdos-30
+31,Arbok,450358,1.17,https://www.tcgplayer.com/product/44433/pokemon-fossil-arbok
+32,Cloyster,447753,1.15,https://www.tcgplayer.com/product/44434/pokemon-fossil-cloyster
+33,Gastly,449332,1.17,https://www.tcgplayer.com/product/44435/pokemon-fossil-gastly
+34,Golbat,450899,1.13,https://www.tcgplayer.com/product/44436/pokemon-fossil-golbat
+35,Golduck,448306,1.14,https://www.tcgplayer.com/product/44437/pokemon-fossil-golduck
+36,Golem,448817,1.08,https://www.tcgplayer.com/product/44438/pokemon-fossil-golem
+37,Graveler,451387,1.18,https://www.tcgplayer.com/product/44439/pokemon-fossil-graveler
+38,Kingler,447754,1.14,https://www.tcgplayer.com/product/44440/pokemon-fossil-kingler
+39,Magmar,449127,1.09,https://www.tcgplayer.com/product/44441/pokemon-fossil-magmar
+40,Omastar,450697,1.19,https://www.tcgplayer.com/product/44442/pokemon-fossil-omastar
+41,Sandslash,448112,1.11,https://www.tcgplayer.com/product/44443/pokemon-fossil-sandslash
+42,Seadra,449647,1.14,https://www.tcgplayer.com/product/44444/pokemon-fossil-seadra
+43,Slowbro,451264,1.39,https://www.tcgplayer.com/product/44445/pokemon-fossil-slowbro
+44,Tentacruel,447620,1.13,https://www.tcgplayer.com/product/44446/pokemon-fossil-tentacruel
+45,Weezing,450251,1.17,https://www.tcgplayer.com/product/44447/pokemon-fossil-weezing
+46,Ekans,450762,1.09,https://www.tcgplayer.com/product/44448/pokemon-fossil-ekans
+47,Geodude,448958,1.03,https://www.tcgplayer.com/product/44449/pokemon-fossil-geodude
+48,Grimer,450497,1.08,https://www.tcgplayer.com/product/44450/pokemon-fossil-grimer
+49,Horsea,451000,1.07,https://www.tcgplayer.com/product/44451/pokemon-fossil-horsea
+50,Kabuto,449432,1.07,https://www.tcgplayer.com/product/44452/pokemon-fossil-kabuto
+51,Krabby,449914,1.07,https://www.tcgplayer.com/product/44453/pokemon-fossil-krabby
+52,Omanyte,448321,1.04,https://www.tcgplayer.com/product/44454/pokemon-fossil-omanyte
+53,Psyduck,448889,1.09,https://www.tcgplayer.com/product/44455/pokemon-fossil-psyduck
+54,Shellder,450436,1.12,https://www.tcgplayer.com/product/44456/pokemon-fossil-shellder
+55,Slowpoke,447994,1.08,https://www.tcgplayer.com/product/44457/pokemon-fossil-slowpoke
+56,Tentacool,449572,1.088,https://www.tcgplayer.com/product/44458/pokemon-fossil-tentacool
+57,Zubat,451148,1.08,https://www.tcgplayer.com/product/44459/pokemon-fossil-zubat
+58,Mr. Fuji,448444,1.11,https://www.tcgplayer.com/product/44460/pokemon-fossil-mr-fuji
+59,Energy Search,449078,1.07,https://www.tcgplayer.com/product/44461/pokemon-fossil-energy-search
+60,Gambler,451666,1.03,https://www.tcgplayer.com/product/44462/pokemon-fossil-gambler
+61,Recycle,447995,1.02,https://www.tcgplayer.com/product/44463/pokemon-fossil-recycle
+62,Mysterious Fossil,450615,1.04,https://www.tcgplayer.com/product/44464/pokemon-fossil-mysterious-fossil
+1,Clefable (1),2998122,8.98,https://www.tcgplayer.com/product/45120/pokemon-jungle-clefable-1
+2,Electrode (2),2998157,6.99,https://www.tcgplayer.com/product/45128/pokemon-jungle-electrode-2
+3,Flareon (3),2998192,25.47,https://www.tcgplayer.com/product/45129/pokemon-jungle-flareon-3
+4,Jolteon (4),2998227,23.98,https://www.tcgplayer.com/product/45130/pokemon-jungle-jolteon-4
+5,Kangaskhan (5),2998247,4.43,https://www.tcgplayer.com/product/45131/pokemon-jungle-kangaskhan-5
+6,Mr. Mime (6),2998287,12.99,https://www.tcgplayer.com/product/45132/pokemon-jungle-mr-mime-6
+7,Nidoqueen (7),2998307,11.49,https://www.tcgplayer.com/product/45133/pokemon-jungle-nidoqueen-7
+8,Pidgeot (8),2998357,11.99,https://www.tcgplayer.com/product/45134/pokemon-jungle-pidgeot-8
+9,Pinsir (9),2998392,12.28,https://www.tcgplayer.com/product/45135/pokemon-jungle-pinsir-9
+10,Scyther (10),2998432,15.97,https://www.tcgplayer.com/product/45121/pokemon-jungle-scyther-10
+11,Snorlax (11),2998457,20.98,https://www.tcgplayer.com/product/45122/pokemon-jungle-snorlax-11
+12,Vaporeon (12),2998487,7.97,https://www.tcgplayer.com/product/45123/pokemon-jungle-vaporeon-12
+13,Venomoth (13),2998507,7.9,https://www.tcgplayer.com/product/45124/pokemon-jungle-venomoth-13
+14,Victreebel (14),2998542,12.23,https://www.tcgplayer.com/product/45125/pokemon-jungle-victreebel-14
+15,Vileplume (15),2998562,9.99,https://www.tcgplayer.com/product/45126/pokemon-jungle-vileplume-15
+16,Wigglytuff (16),2998587,11.49,https://www.tcgplayer.com/product/45127/pokemon-jungle-wigglytuff-16
+17,Clefable (17),2998132,2.5,https://www.tcgplayer.com/product/106979/pokemon-jungle-clefable-17
+18,Electrode (18),2998167,2.34,https://www.tcgplayer.com/product/106980/pokemon-jungle-electrode-18
+19,Flareon (19),2998202,5.19,https://www.tcgplayer.com/product/106981/pokemon-jungle-flareon-19
+20,Jolteon (20),2998237,5.55,https://www.tcgplayer.com/product/106982/pokemon-jungle-jolteon-20
+21,Kangaskhan (21),2998257,2.25,https://www.tcgplayer.com/product/106983/pokemon-jungle-kangaskhan-21
+22,Mr. Mime (22),2998297,2.99,https://www.tcgplayer.com/product/106984/pokemon-jungle-mr-mime-22
+23,Nidoqueen (23),2998317,3.75,https://www.tcgplayer.com/product/106985/pokemon-jungle-nidoqueen-23
+24,Pidgeot (24),2998367,2.25,https://www.tcgplayer.com/product/106986/pokemon-jungle-pidgeot-24
+25,Pinsir (25),2998402,2.43,https://www.tcgplayer.com/product/106987/pokemon-jungle-pinsir-25
+26,Scyther (26),2998442,6.14,https://www.tcgplayer.com/product/106988/pokemon-jungle-scyther-26
+27,Snorlax (27),2998467,4.14,https://www.tcgplayer.com/product/106989/pokemon-jungle-snorlax-27
+28,Vaporeon (28),2998497,2.98,https://www.tcgplayer.com/product/106990/pokemon-jungle-vaporeon-28
+29,Venomoth (29),2998517,1.74,https://www.tcgplayer.com/product/106991/pokemon-jungle-venomoth-29
+30,Victreebel (30),2998552,2.43,https://www.tcgplayer.com/product/106992/pokemon-jungle-victreebel-30
+31,Vileplume (31),2998572,2.52,https://www.tcgplayer.com/product/106993/pokemon-jungle-vileplume-31
+32,Wigglytuff (32),2998597,3.25,https://www.tcgplayer.com/product/106994/pokemon-jungle-wigglytuff-32
+33,Butterfree,449211,1.19,https://www.tcgplayer.com/product/45136/pokemon-jungle-butterfree
+34,Dodrio,449994,1.23,https://www.tcgplayer.com/product/45137/pokemon-jungle-dodrio
+35,Exeggutor,451529,1.18,https://www.tcgplayer.com/product/45138/pokemon-jungle-exeggutor
+36,Fearow,448901,1.12,https://www.tcgplayer.com/product/45139/pokemon-jungle-fearow
+37,Gloom,450478,1.14,https://www.tcgplayer.com/product/45140/pokemon-jungle-gloom
+38,Lickitung,447816,1.14,https://www.tcgplayer.com/product/45141/pokemon-jungle-lickitung
+39,Marowak,449358,1.15,https://www.tcgplayer.com/product/45142/pokemon-jungle-marowak
+40,Nidorina,449924,1.15,https://www.tcgplayer.com/product/45143/pokemon-jungle-nidorina
+41,Parasect,448371,1.22,https://www.tcgplayer.com/product/45144/pokemon-jungle-parasect
+42,Persian,449035,1.15,https://www.tcgplayer.com/product/45145/pokemon-jungle-persian
+43,Primeape,451645,1.14,https://www.tcgplayer.com/product/45146/pokemon-jungle-primeape
+44,Rapidash,447950,1.27,https://www.tcgplayer.com/product/45147/pokemon-jungle-rapidash
+45,Rhydon,449489,1.04,https://www.tcgplayer.com/product/45148/pokemon-jungle-rhydon
+46,Seaking,451155,1.2,https://www.tcgplayer.com/product/45149/pokemon-jungle-seaking
+47,Tauros,448560,1.19,https://www.tcgplayer.com/product/45150/pokemon-jungle-tauros
+48,Weepinbell,450070,1.12,https://www.tcgplayer.com/product/45151/pokemon-jungle-weepinbell
+49,Bellsprout,451646,1.04,https://www.tcgplayer.com/product/45152/pokemon-jungle-bellsprout
+50,Cubone,448075,1.09,https://www.tcgplayer.com/product/45153/pokemon-jungle-cubone
+51,Eevee,449613,1.08,https://www.tcgplayer.com/product/45154/pokemon-jungle-eevee
+52,Exeggcute,451222,1.04,https://www.tcgplayer.com/product/45155/pokemon-jungle-exeggcute
+53,Goldeen,448641,1.08,https://www.tcgplayer.com/product/45156/pokemon-jungle-goldeen
+54,Jigglypuff,450205,1.07,https://www.tcgplayer.com/product/45157/pokemon-jungle-jigglypuff
+55,Mankey,450728,1.09,https://www.tcgplayer.com/product/45158/pokemon-jungle-mankey
+56,Meowth,448981,1.02,https://www.tcgplayer.com/product/45159/pokemon-jungle-meowth
+57,Nidoran F,450529,1.09,https://www.tcgplayer.com/product/45160/pokemon-jungle-nidoran-f
+58,Oddish,447893,1.09,https://www.tcgplayer.com/product/45161/pokemon-jungle-oddish
+59,Paras,449466,1.07,https://www.tcgplayer.com/product/45162/pokemon-jungle-paras
+60,Pikachu,449947,1.02,https://www.tcgplayer.com/product/45163/pokemon-jungle-pikachu
+61,Rhyhorn,448426,1.04,https://www.tcgplayer.com/product/45164/pokemon-jungle-rhyhorn
+62,Spearow,448858,1.09,https://www.tcgplayer.com/product/45165/pokemon-jungle-spearow
+63,Venonat,451428,1.08,https://www.tcgplayer.com/product/45166/pokemon-jungle-venonat
+64,Poke Ball,447830,1.08,https://www.tcgplayer.com/product/45167/pokemon-jungle-poke-ball
