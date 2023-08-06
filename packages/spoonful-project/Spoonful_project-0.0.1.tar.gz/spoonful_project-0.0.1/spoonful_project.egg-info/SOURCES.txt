@@ -1,0 +1,9 @@
+README.md
+setup.py
+spoonful/__init__.py
+spoonful/spoonful.py
+spoonful_project.egg-info/PKG-INFO
+spoonful_project.egg-info/SOURCES.txt
+spoonful_project.egg-info/dependency_links.txt
+spoonful_project.egg-info/requires.txt
+spoonful_project.egg-info/top_level.txt
