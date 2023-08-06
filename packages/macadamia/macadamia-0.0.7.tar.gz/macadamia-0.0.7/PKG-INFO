@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: macadamia
+Version: 0.0.7
+Summary: A parser for Google Analytics Cookies
+Home-page: https://github.com/realgeeks/macadamia
+Author: Kevin McCarthy
+Author-email: me@kevinmccarthy.org
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: MIT License
