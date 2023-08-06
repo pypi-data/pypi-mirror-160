@@ -1,0 +1,10 @@
+web3
+py-solc-x
+eth_tester
+python-dotenv
+graphviz
+pytrends
+seaborn
+pandas
+cryptocompare
+uniswap-python==0.5.5
