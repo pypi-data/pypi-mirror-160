@@ -1,0 +1,357 @@
+#pragma once
+
+#include "pdu/io.h"
+#include "pdu/query.h"
+
+#include <boost/variant.hpp>
+#include <gsl/gsl-lite.hpp>
+
+#include <stack>
+#include <tuple>
+#include <type_traits>
+
+enum class Operation : uint8_t { Unary_Minus, Add, Subtract, Divide, Multiply };
+
+inline void execute(Operation op, std::stack<double>& stack);
+
+class IRateIterator;
+class ResamplingIterator;
+
+class RateExpression;
+class ResampleExpression;
+
+using ExpressionVariant = boost::variant<Operation,
+                                         CrossIndexSeries,
+                                         RateExpression,
+                                         ResampleExpression,
+                                         double>;
+
+class ExpressionIterator : public iterator_facade<ExpressionIterator, Sample> {
+public:
+    ExpressionIterator(std::vector<ExpressionVariant> ops);
+
+    void increment();
+    const Sample& dereference() const {
+        return currentResult;
+    }
+
+    bool is_end() const {
+        return finished;
+    }
+
+private:
+    // Simple reference type stored in variant, "pointing to"
+    // an iterator in a vector for the given expression. Keeps the variant type
+    // small.
+    // Using a ptr would be simpler, but would need fixing up if the expression
+    // iterator is copied.
+    template <class ExprType>
+    struct Ref {
+        size_t value;
+        operator size_t() {
+            return value;
+        }
+    };
+
+    template <class IterType>
+    using IteratorValues = std::vector<std::pair<IterType, double>>;
+
+    struct SubIteratorStore {
+        template <class IterType>
+        auto& get(Ref<IterType> ref) {
+            return get<IterType>()[size_t(ref)];
+        }
+        template <class IterType>
+        auto& get(size_t index) {
+            return get<IterType>()[index];
+        }
+        template <class IterType>
+        auto& get() {
+            if constexpr (std::is_same_v<IterType, CrossIndexSampleIterator>) {
+                return series;
+            } else if constexpr (std::is_same_v<IterType, IRateIterator>) {
+                return rate;
+            } else if constexpr (std::is_same_v<IterType, ResamplingIterator>) {
+                return resample;
+            }
+        }
+        IteratorValues<CrossIndexSampleIterator> series;
+        IteratorValues<IRateIterator> rate;
+        IteratorValues<ResamplingIterator> resample;
+    } subiterators;
+
+    void add(Operation op);
+    void add(const CrossIndexSeries& cis);
+    void add(const RateExpression& subexpr);
+    void add(const ResampleExpression& subexpr);
+    void add(double constant);
+
+    void evaluate();
+
+    void evaluate_single(Operation op);
+
+    template <class IterType>
+    void evaluate_single(Ref<IterType> op) {
+        stack.push(subiterators.get(op).second);
+    }
+
+    void evaluate_single(double op);
+    std::vector<boost::variant<Operation,
+                               Ref<CrossIndexSampleIterator>,
+                               Ref<IRateIterator>,
+                               Ref<ResamplingIterator>,
+                               double>>
+            operations;
+
+    std::stack<double> stack;
+    Sample currentResult;
+    int64_t lastTimestamp = 0;
+    bool finished = false;
+};
+
+/**
+ * Calculate per-second instant rate of increase (approximately PromQL irate)
+ */
+class IRateIterator : public iterator_facade<IRateIterator, Sample> {
+public:
+    /**
+     * Construct an iterator computing the instantaneous rate of change
+     * in an underlying expression.
+     *
+     * if @p monotonic, discard any samples which would expose a negative
+     * rate of change. Useful when computing the rate of a counter - a negative
+     * rate usually indicates the counter has reset. A very large negative
+     * rate in that situation is usually not useful.
+     * @param expr
+     * @param monotonic should the itr drop any negative values
+     */
+    IRateIterator(ExpressionIterator itr, bool monotonic = false);
+
+    void increment();
+    const Sample& dereference() const {
+        return currentResult;
+    }
+
+    bool is_end() const {
+        return itr == end(itr);
+    }
+
+private:
+    ExpressionIterator itr;
+    Sample prevSample;
+    Sample currentResult;
+    bool monotonic;
+};
+
+class ResamplingIterator : public iterator_facade<ResamplingIterator, Sample> {
+public:
+    ResamplingIterator(ExpressionIterator itr,
+                       std::chrono::milliseconds interval);
+
+    void increment();
+    const Sample& dereference() const {
+        return computedSample;
+    }
+
+    bool is_end() const {
+        return itr == end(itr);
+    }
+
+private:
+    ExpressionIterator itr;
+    Sample prevSample;
+    Sample nextSample;
+    Sample computedSample;
+    uint64_t interval;
+    int64_t nextTimestamp = std::numeric_limits<int64_t>::max();
+};
+
+/**
+ * A series which has been generated by applying operations to one
+ * or more actual Prometheus time series.
+ *
+ * Used to support basic maths (+ - / *) operations on time series.
+ *
+ * Expressions which can be evaluated at one instant in time are stored
+ * as a flat series of instructions, operating on an std::stack.
+ *
+ * e.g., The expression:
+ *
+ *   (A * B) - (-C + D/2)
+ *
+ *  Expressed as a tree:
+ *
+ *   Subtract                 (A * B) - (-C + D/2)
+ *        Multiply            (A * B)
+ *            Series A
+ *            Series B
+ *        Add                 (-C + D/2)
+ *            Unary_Minus     -C
+ *                Series C
+ *            Divide          D/2
+ *                Series D
+ *                Constant 2
+ *
+ * Is re-represented as a flat series of instructions:
+ *
+ *   * Push Series A
+ *   * Push Series B
+ *   * Multiply
+ *   * Push Series C
+ *   * Unary_Minus
+ *   * Push Series D
+ *   * Push Constant 2
+ *   * Divide
+ *   * Add
+ *   * Subtract
+ *
+ * Operations pop one or two arguments from the std::stack, and push back the
+ * result.
+ *
+ * Compared to a naive recursive evaluation of the tree, this avoids the risk
+ * of stack exhaustion from deep expressions e.g., sum of N series
+ *
+ *  (A + (B + (C + ... )))
+ *
+ */
+class Expression {
+public:
+    Expression(CrossIndexSeries cis);
+
+    Expression(RateExpression rateExpression);
+    Expression(ResampleExpression resampleExpression);
+
+    Expression(double constantValue);
+
+    Expression resample(std::chrono::milliseconds interval) const;
+
+    auto begin() const {
+        return ExpressionIterator(operations);
+    }
+
+    EndSentinel end() const {
+        return {};
+    }
+
+    Expression unary_minus() const;
+
+    Expression operator-=(const Expression& other);
+    Expression operator+=(const Expression& other);
+    Expression operator/=(const Expression& other);
+    Expression operator*=(const Expression& other);
+
+    void copy_operations_from(const Expression& other);
+
+    static Expression sum(std::vector<Expression> expressions);
+
+private:
+    Expression() = default;
+    std::vector<ExpressionVariant> operations;
+};
+
+/**
+ * Encapsulates a sub-expression to which a `rate` operation should be applied.
+ *
+ * A rate expression cannot be evaluated based on samples at a single instant in
+ * time; the preceding value(s) must be known.
+ *
+ * Rather than complicating Expression with the ability to retain earlier
+ * samples, keep rate expressions as a sub object.
+ *
+ * This _does_ lead to recursion, but it is rare (and likely not meaningful) to
+ * nest rate expressions too deeply e.g.,
+ *
+ *   rate(position) -> velocity
+ *   rate(velocity) -> acceleration
+ *   ...            -> jerk
+ *   ...            -> snap
+ *   ...            -> crackle
+ *   ...            -> pop
+ *   ...            -> ???
+ *
+ *  as such, evaluating the sub expression recursively is considered acceptable
+ *
+ *   A + rate(B+C)
+ *
+ *    ->
+ *
+ * -- Top level---
+ *   Add
+ *       A
+ *       Rate (B+C)
+ *
+ * -- Sub Expression ---
+ *
+ *  Add
+ *      B
+ *      C
+ *
+ *  ->
+ *
+ * -- Top level---
+ *   * Push Series A
+ *   * Evaluate rate(SubExpr)
+ *   * Add
+ *
+ * -- Sub Expression ---
+ *   * Push Series B
+ *   * Push Series C
+ *   * Add
+ *
+ * So for the _first_ sample of the top level expression, the sub expression
+ * will have been evaluated twice to determine the rate, then once more for each
+ * subsequent sample.
+ *
+ *  rate(SE)_t0 -> SE_t1 - SE_t0
+ *  rate(SE)_t0 -> SE_t1 - SE_t0
+ *
+ */
+class RateExpression {
+public:
+    /**
+     * Create an expression representing the instantaneous rate of change
+     * in an underlying expression.
+     *
+     * When used on counters, it is useful to exclude any negative rate of
+     * change - this usually indicates a counter has reset.
+     * @param expr
+     * @param monotonic should the rate expression drop any negative values?
+     */
+    RateExpression(Expression expr, bool monotonic = false)
+        : expr(std::move(expr)), monotonic(monotonic) {
+    }
+
+    Expression expr;
+    bool monotonic;
+};
+
+/**
+ * Encapsulates a sub-expression which should be resampled at a fixed interval.
+ *
+ * Where the new sample would fall between two existing samples, linear
+ * interpolation is applied.
+ *
+ * Separating this from Expression comes with similar benefits and caveats to
+ * RateExpression.
+ *
+ */
+class ResampleExpression {
+public:
+    ResampleExpression(Expression expr, std::chrono::milliseconds interval)
+        : expr(std::move(expr)), interval(interval) {
+    }
+
+    Expression expr;
+    std::chrono::milliseconds interval;
+};
+
+Expression operator-(const Expression&);
+Expression operator+(const Expression&);
+
+Expression operator-(Expression, const Expression&);
+Expression operator+(Expression, const Expression&);
+Expression operator/(Expression, const Expression&);
+Expression operator*(Expression, const Expression&);
+
+Expression irate(const Expression& expr, bool monotonic = false);
+Expression resample(const Expression& expr, std::chrono::milliseconds interval);
