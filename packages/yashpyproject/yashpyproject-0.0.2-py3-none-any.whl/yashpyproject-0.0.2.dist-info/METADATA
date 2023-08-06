@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yashpyproject
+Version: 0.0.2
+Summary: This package is for basic calculus and basic 2-D and 3-D mensuration
+Author: Yashraj Baila
+Author-email: yashrajbaila@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: sympy
+
