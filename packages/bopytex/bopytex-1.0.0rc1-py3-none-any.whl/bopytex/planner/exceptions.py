@@ -1,0 +1,2 @@
+class PlannerMissingOption(Exception):
+    pass
