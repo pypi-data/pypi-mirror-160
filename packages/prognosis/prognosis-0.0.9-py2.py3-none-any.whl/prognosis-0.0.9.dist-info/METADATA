@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: prognosis
+Version: 0.0.9
+Summary: A Python client for econdb.com/api/
+Home-page: https://github.com/econdb/prognosis
+Download-URL: https://github.com/econdb/prognosis/tarball/0.0.9
+Author: Oriol Andres
+Author-email: admin@econdb.com
+License: MIT License
+Keywords: data,economics,finance,api
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Office/Business :: Financial :: Spreadsheet
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests
+Provides-Extra: pandas
+Requires-Dist: pandas ; extra == 'pandas'
+
+Prognosis
+=========
+
+| This Python module provides a python wrapper around the API of Econdb.com.
+
+
+You can also find `Econdb on Github
+<https://github.com/econdb/prognosis/>`_
+
+
+Usage example
+-------------
+
+
+
+.. code:: python
+
+	from prognosis import Country
+	germany = Country('DE')
+
+	### National Accounts
+	nac = germany.national_accounts()
+
+	### Consumer and producer prices
+	prices = germany.prices()
+
+	### Government accounts
+	gov = germany.government_accounts()
