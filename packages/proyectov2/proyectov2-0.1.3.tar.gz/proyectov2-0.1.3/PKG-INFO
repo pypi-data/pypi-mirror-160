@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: proyectov2
+Version: 0.1.3
+Summary: 
+Keywords: avance,proyecto
+Author: Paul Orellana
+Author-email: paorellana6@utpl.edu.ec
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Description-Content-Type: text/markdown
+
+## Avance de proyecto de control remoto de dispositivo.
