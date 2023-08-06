@@ -1,0 +1,9 @@
+aws_solutions_constructs/aws_kinesis_firehose_s3/__init__.py,sha256=--9okUaRMKqRUjtclnCr53dXl42bfLv7cksbrpkN_tE,17012
+aws_solutions_constructs/aws_kinesis_firehose_s3/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/aws_kinesis_firehose_s3/_jsii/__init__.py,sha256=R--1ifecTKjLnXt7Z8xJ26nlR2OCFVlZEZk2JiZpBoo,461
+aws_solutions_constructs/aws_kinesis_firehose_s3/_jsii/aws-kinesisfirehose-s3@2.12.0.jsii.tgz,sha256=fxiTepdiyOG5g6BXLxu3OJSMA8sQispzOgZlX1FHt_s,142286
+aws_solutions_constructs.aws_kinesis_firehose_s3-2.12.0.dist-info/LICENSE,sha256=wnT4A3LZDAEpNzcPDh8VCH0i4wjvmLJ86l3A0tCINmw,10279
+aws_solutions_constructs.aws_kinesis_firehose_s3-2.12.0.dist-info/METADATA,sha256=ZWmFLLUzDZbTq1HWAiUiDzy9Yj4w1Mhh_aRWob8c5Fg,6939
+aws_solutions_constructs.aws_kinesis_firehose_s3-2.12.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_solutions_constructs.aws_kinesis_firehose_s3-2.12.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.aws_kinesis_firehose_s3-2.12.0.dist-info/RECORD,,
