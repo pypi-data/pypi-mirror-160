@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+prefect_email/__init__.py
+prefect_email/_version.py
+prefect_email/credentials.py
+prefect_email/message.py
+prefect_email.egg-info/PKG-INFO
+prefect_email.egg-info/SOURCES.txt
+prefect_email.egg-info/dependency_links.txt
+prefect_email.egg-info/entry_points.txt
+prefect_email.egg-info/requires.txt
+prefect_email.egg-info/top_level.txt
