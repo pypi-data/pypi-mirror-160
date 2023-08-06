@@ -1,0 +1,9 @@
+pip
+packaging
+pandas
+seaborn
+fastparquet
+matplotlib
+rpy2
+
+[dev]
