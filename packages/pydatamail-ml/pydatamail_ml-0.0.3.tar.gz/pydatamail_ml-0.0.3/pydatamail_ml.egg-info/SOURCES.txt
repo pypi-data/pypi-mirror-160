@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+pydatamail_ml/__init__.py
+pydatamail_ml/_version.py
+pydatamail_ml/machinelearning.py
+pydatamail_ml/textprocessing.py
+pydatamail_ml.egg-info/PKG-INFO
+pydatamail_ml.egg-info/SOURCES.txt
+pydatamail_ml.egg-info/dependency_links.txt
+pydatamail_ml.egg-info/requires.txt
+pydatamail_ml.egg-info/top_level.txt
