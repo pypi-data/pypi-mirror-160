@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: dainik
+Version: 0.5
+Summary: Client library for working with nimblebox LMAO
+Home-page: https://github.com/NimbleBoxAI/nbox
+License: MIT
+Author: yashbonde
+Author-email: bonde.yash97@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: nbox (>=0.9.14rc28,<0.10.0)
+Project-URL: Documentation, https://nimbleboxai.github.io/nbox/
+Project-URL: Repository, https://github.com/NimbleBoxAI/nbox
+Description-Content-Type: text/markdown
+
+# nimblebox-lmao
+
+Logging, Monitoring, Alerting &amp; Observability
+
+## Usage
+
+For protobuf generation:
+- `sh gen.sh` will generate all the required files, but will also (⚠️) overwrite your `lmao_server.py` file.
+- `sh update_proto.sh` to only update the proto message definitions
+
+For running the server:
+- `python3 -m uvicorn:server app` to run the server, it will connect to the backend on it's own
+
+For running the clients:
+- `python3 -m clients.new` will do a complete run which includes `init`, `on_log`, `on_save` and `on_train_end` APIs
+- `python3 -m clients.stat --help` will tell more about getting the data from the DB
+- `python3 -m clients.logs --help` will tell more about getting the logs from the DB
+
+## Dev
+
+```
+git clone ...
+cd nimblebox-lmao/
+git submodule init
+git submodule update --remote
+```
+
