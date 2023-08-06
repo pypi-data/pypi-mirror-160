@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/terminy/__init__.py
+src/terminy.egg-info/PKG-INFO
+src/terminy.egg-info/SOURCES.txt
+src/terminy.egg-info/dependency_links.txt
+src/terminy.egg-info/top_level.txt

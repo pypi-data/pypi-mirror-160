@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: terminy
+Version: 0.0.1
+Summary: Utility for Python scripts to receive parameters via terminal like a breeze.
+Home-page: https://github.com/samuelcorradi/terminy
+Author: Samuel Corradi
+Author-email: samuelcorradi@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Terminy
+
+Utility for Python scripts to receive parameters via terminal like a breeze.
