@@ -1,0 +1,10 @@
+Screenshot/Screenshot.py,sha256=TDORGdPmoG1xuXLk4-kpU-FHwk0bPVWqOOmmJ2MPYhc,9815
+Screenshot/__init__.py,sha256=sOztFxV1qHsmUbjkREM5Dqm_HLauYm-V__KRtyA9p-A,26
+test/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+test/test_IEdriver.py,sha256=zR5tE8uSg8wJR3PFX9le0v28a559UAHWiu1CiBsgCQI,987
+test/test_chrome_driver.py,sha256=RKW4fBXSir792pS-VyDb8ZtU50q5Iq_ITXstx3LazXA,2086
+Selenium_Screenshot-2.0.0.dist-info/LICENSE,sha256=JewLIJPSJClNMeBYLW_VS1XaR-HIYuiIFp0FsUxV1gI,1088
+Selenium_Screenshot-2.0.0.dist-info/METADATA,sha256=ItFVai8MpM-DcLy5dqnE8_6sETVUCbI3crsTMxb4pPI,3571
+Selenium_Screenshot-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Selenium_Screenshot-2.0.0.dist-info/top_level.txt,sha256=NCRn-0OIami3AppIokPE4RsfkEJ5xK9e6XgQhY4cyT0,16
+Selenium_Screenshot-2.0.0.dist-info/RECORD,,
