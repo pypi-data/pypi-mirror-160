@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/denied/__init__.py
+src/django_denied.egg-info/PKG-INFO
+src/django_denied.egg-info/SOURCES.txt
+src/django_denied.egg-info/dependency_links.txt
+src/django_denied.egg-info/top_level.txt
