@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+requests_ip_rotator/__init__.py
+requests_ip_rotator/ip_rotator.py
+requests_ip_rotator.egg-info/PKG-INFO
+requests_ip_rotator.egg-info/SOURCES.txt
+requests_ip_rotator.egg-info/dependency_links.txt
+requests_ip_rotator.egg-info/requires.txt
+requests_ip_rotator.egg-info/top_level.txt
