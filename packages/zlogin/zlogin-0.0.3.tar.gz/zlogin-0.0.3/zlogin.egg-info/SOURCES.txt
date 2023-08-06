@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+zlogin/__init__.py
+zlogin/zlogin.py
+zlogin.egg-info/PKG-INFO
+zlogin.egg-info/SOURCES.txt
+zlogin.egg-info/dependency_links.txt
+zlogin.egg-info/requires.txt
+zlogin.egg-info/top_level.txt
