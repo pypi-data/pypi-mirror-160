@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-20 10:45+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
+">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: wcd_jwt/apps.py:12
+msgctxt "wcd_jwt"
+msgid "JWT authentication"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/apps.py:11
+msgctxt "wcd_jwt"
+msgid "JWT Token registry"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:21
+msgctxt "wcd_jwt"
+msgid "ID"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:26
+msgctxt "wcd_jwt"
+msgid "Created at"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:30
+msgctxt "wcd_jwt"
+msgid "Updated at"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:73 wcd_jwt/contrib/registry/models.py:81
+msgctxt "wcd_jwt"
+msgid "Token"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:74
+msgctxt "wcd_jwt"
+msgid "Tokens"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:77
+msgctxt "wcd_jwt"
+msgid "JTI"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:86
+msgctxt "wcd_jwt"
+msgid "Parent token"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:90
+msgctxt "wcd_jwt"
+msgid "Expired at"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:98
+msgctxt "wcd_jwt"
+msgid "User token connection"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:99
+msgctxt "wcd_jwt"
+msgid "User token connections"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:107
+msgctxt "wcd_jwt"
+msgid "Connected user"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/models.py:112
+msgctxt "wcd_jwt"
+msgid "Connected token"
+msgstr ""
+
+#: wcd_jwt/contrib/registry/serializers.py:19
+#: wcd_jwt/contrib/registry/serializers.py:48
+#: wcd_jwt/contrib/registry/services/token_manager.py:27
+msgctxt "wcd_jwt"
+msgid "Token is not longer valid."
+msgstr ""
+
+#: wcd_jwt/services/token_resolver.py:42
+msgctxt "wcd_jwt"
+msgid "Given token not valid for any token type"
+msgstr ""
