@@ -1,0 +1,11 @@
+aws_codebuild/__init__.py,sha256=6WEMlHSSQy2jfCBHh2FXZiOjqHiatI3MhdaNPTPz3Zw,259
+aws_codebuild/_version.py,sha256=cW-ZWkvI8hd2WB45U48UUY3NqYDy4rPf0etHg29ZU5s,93
+aws_codebuild/boto_ses.py,sha256=xERZPSy6ZAo_Os06rvHae1KKykAb54kvPXBzSI1KBEA,116
+aws_codebuild/compat.py,sha256=Yr84uTEnT8JsFEgB73_Xz9aaroFLLLLyD27tL5d9DaA,311
+aws_codebuild/notification.py,sha256=2Tf4HC8OTXEW767R93zq6B0ckMzI0u5s4lyZEv1GY3Y,6070
+aws_codebuild-0.0.1.dist-info/AUTHORS.rst,sha256=ROrEuLM7jAJnyn4FKyYG8vfwtw5hcpdBOwWnnBRzWTM,509
+aws_codebuild-0.0.1.dist-info/LICENSE.txt,sha256=GUEqHQ0yXroHjqVyU8U3EzcE7rCNeut2duU0k_T_knA,1123
+aws_codebuild-0.0.1.dist-info/METADATA,sha256=rqePgPGX51tcVbFRL9f2_u_ZYVZSRHzIManKWP5typE,4155
+aws_codebuild-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aws_codebuild-0.0.1.dist-info/top_level.txt,sha256=OsLN42J8vXWq04RM-VZkG2005a0FIv4Fwi8Wmv14jwQ,14
+aws_codebuild-0.0.1.dist-info/RECORD,,
