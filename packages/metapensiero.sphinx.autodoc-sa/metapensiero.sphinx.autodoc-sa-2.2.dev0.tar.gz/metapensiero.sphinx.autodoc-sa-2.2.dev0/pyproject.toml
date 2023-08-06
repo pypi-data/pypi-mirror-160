@@ -1,0 +1,59 @@
+[project]
+name = "metapensiero.sphinx.autodoc_sa"
+version = "2.2.dev0"
+description = "Autodoc extension to pretty print canned SA queries"
+readme = "README.rst"
+authors = [
+    { name = "Lele Gaifax", email = "lele@metapensiero.it" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Topic :: Database",
+    "Topic :: Utilities",
+    "Framework :: Sphinx :: Extension",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "sphinx >=4",
+    "sqlalchemy",
+]
+
+[project.license]
+text = "GPL-3.0-or-later"
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "bump2version",
+    "pglast",
+    "pytest",
+    "twine",
+]
+
+[project.urls]
+Source = "https://gitlab.com/metapensiero/metapensiero.sphinx.autodoc_sa"
+Changelog = "https://gitlab.com/metapensiero/metapensiero.sphinx.autodoc_sa/-/blob/master/CHANGES.rst"
+
+[build-system]
+requires = [
+    "pdm-pep517",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.build]
+package-dir = "src"
+includes = [
+    "src/metapensiero",
+]
+source-includes = [
+    "flake.*",
+    "*.rst",
+    "Justfile",
+    "tests/",
+]
