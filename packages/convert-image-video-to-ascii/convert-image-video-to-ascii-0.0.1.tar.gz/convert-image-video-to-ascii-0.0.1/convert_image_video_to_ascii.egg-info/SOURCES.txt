@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+convert_image_video_to_ascii.egg-info/PKG-INFO
+convert_image_video_to_ascii.egg-info/SOURCES.txt
+convert_image_video_to_ascii.egg-info/dependency_links.txt
+convert_image_video_to_ascii.egg-info/entry_points.txt
+convert_image_video_to_ascii.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/images/__init__.py
+src/images/convert_image_to_ascii.py
+src/videos/__init__.py
+src/videos/convert_video_to_ascii.py
