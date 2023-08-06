@@ -1,0 +1,16 @@
+Yowaimo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Yowaimo/Parsers/GogoParser.py,sha256=7cioEmKhekr4Zo6EgFTF8xWAqZxGDYStPr1Ywscdkak,8344
+Yowaimo/Parsers/HanimeParser.py,sha256=B3wqc4jhYX61JT9nN3d5CcHUpIOiczA9hpvqtN5Zw2U,1333
+Yowaimo/Parsers/KdramaParser.py,sha256=ek9QpgNCh5mL7YATsKd4ihGZ2qrTfaKEoZj_SzS4KoY,6019
+Yowaimo/Parsers/Manhwa18Parser.py,sha256=YRqU2ZHV2D3I1Xenb3y0FEJOv78XJI-qtCdjA9jGzhE,1677
+Yowaimo/Parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Yowaimo/Parsers/constants.py,sha256=kAs8i5voMczCb049lv-dASwutcmcalwc6oUyXzbPGdY,2050
+Yowaimo/myCrypto/BaseCrypto.py,sha256=PdpWB4KeeLwbC5t3a7brg14YcFyQbMhvF_NHx8wYsnc,989
+Yowaimo/myCrypto/GogoCrypto.py,sha256=FGto9FkxuBcEdaYynhLSZkMKvZB9xp5FX2L4F4O6Qqo,509
+Yowaimo/myCrypto/KdramaCrypto.py,sha256=9t01lUhrXuk0fK4PLAB04F6DVOKh9kQVNPafNW5LWrg,152
+Yowaimo/myCrypto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+YowaiMo-0.0.1.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+YowaiMo-0.0.1.dist-info/METADATA,sha256=fPPhKgjDABxnzcFdD5T5_jr3Te7FzJX0KSxmSbvqRlQ,537
+YowaiMo-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+YowaiMo-0.0.1.dist-info/top_level.txt,sha256=oLvi2a62ynIXr9my-ZxMfHuw9yJMqrxqnMV4sht2pP4,8
+YowaiMo-0.0.1.dist-info/RECORD,,
