@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+exposuremodelf/__init__.py
+exposuremodelf/model.py
+exposuremodelf/p_model.pth
+exposuremodelf/ratings.csv
+exposuremodelf.egg-info/PKG-INFO
+exposuremodelf.egg-info/SOURCES.txt
+exposuremodelf.egg-info/dependency_links.txt
+exposuremodelf.egg-info/top_level.txt
