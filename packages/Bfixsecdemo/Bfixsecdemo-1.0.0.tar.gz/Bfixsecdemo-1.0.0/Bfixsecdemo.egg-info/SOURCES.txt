@@ -1,0 +1,8 @@
+Alexsecdemoraw.py
+setup.py
+Bfixsecdemo.egg-info/PKG-INFO
+Bfixsecdemo.egg-info/SOURCES.txt
+Bfixsecdemo.egg-info/dependency_links.txt
+Bfixsecdemo.egg-info/top_level.txt
+mymod1/__init__.py
+mymod1/testmymod1.py
