@@ -1,0 +1,8 @@
+setup.py
+python executable/__init__.py
+python executable/randomquote.py
+python_executable.egg-info/PKG-INFO
+python_executable.egg-info/SOURCES.txt
+python_executable.egg-info/dependency_links.txt
+python_executable.egg-info/requires.txt
+python_executable.egg-info/top_level.txt
