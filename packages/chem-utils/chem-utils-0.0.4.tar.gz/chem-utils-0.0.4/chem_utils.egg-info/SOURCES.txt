@@ -1,0 +1,8 @@
+README.md
+setup.py
+chem_utils/__init__.py
+chem_utils.egg-info/PKG-INFO
+chem_utils.egg-info/SOURCES.txt
+chem_utils.egg-info/dependency_links.txt
+chem_utils.egg-info/requires.txt
+chem_utils.egg-info/top_level.txt
