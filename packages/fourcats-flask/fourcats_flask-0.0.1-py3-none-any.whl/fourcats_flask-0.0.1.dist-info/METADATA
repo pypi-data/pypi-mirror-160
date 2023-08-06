@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fourcats-flask
+Version: 0.0.1
+Summary: A flask encapsulated based on personal habits for fast use.
+Home-page: https://github.com/FourCats-Py/FourCats-Flask
+Author: ShiWeiDong
+Author-email: shiweidong1993@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/FourCats-Py/FourCats-Flask/archive/0.0.1.tar.gz
+Keywords: fourcats,flask
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask-restx (>=0.5.1)
+Requires-Dist: loguru (>=0.6.0)
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: Flask-HTTPAuth (>=4.7.0)
+Requires-Dist: mergedict (>=1.0.0)
+Requires-Dist: urllib3 (>=1.26.10)
+Requires-Dist: Flask-SQLAlchemy (>=2.5.1)
+Requires-Dist: Flask-Cors (>=3.0.10)
+Requires-Dist: PyJWT (>=2.4.0)
+
+# FourCats-Flask
+A flask encapsulated based on personal habits for fast use.
+
+
