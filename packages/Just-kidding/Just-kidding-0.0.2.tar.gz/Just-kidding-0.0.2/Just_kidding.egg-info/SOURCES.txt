@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+Joker/__init__.py
+Just_kidding.egg-info/PKG-INFO
+Just_kidding.egg-info/SOURCES.txt
+Just_kidding.egg-info/dependency_links.txt
+Just_kidding.egg-info/requires.txt
+Just_kidding.egg-info/top_level.txt
