@@ -1,0 +1,14 @@
+setup.py
+uselesscapitalquiz/Capital_Quiz.py
+uselesscapitalquiz/__init__.py
+uselesscapitalquiz/all_mode.py
+uselesscapitalquiz/easy_mode.py
+uselesscapitalquiz/hard_mode.py
+uselesscapitalquiz/lists.py
+uselesscapitalquiz/moderate_mode.py
+uselesscapitalquiz/new.py
+uselesscapitalquiz/test.py
+uselesscapitalquiz.egg-info/PKG-INFO
+uselesscapitalquiz.egg-info/SOURCES.txt
+uselesscapitalquiz.egg-info/dependency_links.txt
+uselesscapitalquiz.egg-info/top_level.txt
