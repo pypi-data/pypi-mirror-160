@@ -1,0 +1,49 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.nitpick]
+style = [
+  "styles/nitpick-style.toml"
+]
+
+
+[tool.poetry]
+name = "pynaptan"
+description = "Python package for naptan"
+version = "0.1.0"
+license = "MIT"
+
+authors = ["Ciaran McCormick <ciaranmccormick@gmail.com>"]
+
+readme = "README.md"
+
+repository = "https://github.com/ciaranmccormick/pynaptan"
+
+keywords = []
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.23.0"
+pydantic = "^1.9.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+doc8 = "^0.11"
+flake8-pytest-style = "^1.6"
+ipdb = "^0.13.9"
+ipython = "^8.4.0"
+mypy = "^0.971"
+nitpick = "^0.32"
+pytest = "^7.1"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.12"
+safety = "^2.1"
+wemake-python-styleguide = "^0.16"
