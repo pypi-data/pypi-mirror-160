@@ -1,0 +1,13 @@
+pystow
+typing_extensions
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-autodoc-typehints
+sphinx_automodapi
+
+[tests]
+pytest
+coverage
+unittest_templates
