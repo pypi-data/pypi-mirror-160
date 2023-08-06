@@ -1,0 +1,9 @@
+py2sterimol/__init__.py,sha256=173XG7SDiQMtaGLQSnxod44L9J0KhR-lsz37wNf3gJg,63
+py2sterimol/py2sterimol.py,sha256=a_kFQ9W5ITFGOrEoiJSqkpOrvvOrksU6tM_8s52RPI4,34
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_py2sterimol.py,sha256=_xISTv-bFE5V-7Z_8pZxJA-auTRuUiWHCJPFzNlZNJM,413
+py2sterimol-0.0.0.dist-info/LICENSE,sha256=2GkXm8XeHBZ7Fn2o8ir_C5bxUB3MzzbBnlh-_DSh4IM,1091
+py2sterimol-0.0.0.dist-info/METADATA,sha256=yQDu5rx-JvO3XEZ34jcejTqYC2qIMHdIJ1lsle4zdCw,1575
+py2sterimol-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+py2sterimol-0.0.0.dist-info/top_level.txt,sha256=Sq-TQVyVTtbhXqFoUtZAlzG7XP00A4Ah3yb8GB1obTs,17
+py2sterimol-0.0.0.dist-info/RECORD,,
