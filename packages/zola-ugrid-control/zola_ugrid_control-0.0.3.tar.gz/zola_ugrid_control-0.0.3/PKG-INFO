@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zola_ugrid_control
+Version: 0.0.3
+Summary: Basic control library
+Home-page: UNKNOWN
+Author-email: Francisco.ulloa@zolaelectric.com
+License: MIT
+Keywords: ugrid control library
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.TXT
+
+UNKNOWN
+

@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.TXT
+MANIFEST.in
+README.txt
+setup.py
+ugrid_control/__init__.py
+zola_ugrid_control.egg-info/PKG-INFO
+zola_ugrid_control.egg-info/SOURCES.txt
+zola_ugrid_control.egg-info/dependency_links.txt
+zola_ugrid_control.egg-info/requires.txt
+zola_ugrid_control.egg-info/top_level.txt
