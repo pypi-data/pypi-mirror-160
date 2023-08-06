@@ -1,0 +1,2 @@
+[console_scripts]
+confmg = confmg.__main__:main

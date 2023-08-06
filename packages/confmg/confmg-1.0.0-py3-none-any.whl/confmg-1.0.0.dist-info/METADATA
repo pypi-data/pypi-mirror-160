@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: confmg
+Version: 1.0.0
+Summary: A simple config manager.
+Author-email: Pablo Navarro <pablonavarrogillissen@gmail.com>
+Project-URL: Homepage, https://github.com/pablo-ng/confmg
+Project-URL: Bug Tracker, https://github.com/pablo-ng/confmg/issues
+Keywords: config,manager
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML (>=6.0)
+
+# confmg
