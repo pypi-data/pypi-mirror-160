@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Py_SPW.egg-info/PKG-INFO
+Py_SPW.egg-info/SOURCES.txt
+Py_SPW.egg-info/dependency_links.txt
+Py_SPW.egg-info/top_level.txt
+pyspw/Parameters.py
+pyspw/Skin.py
+pyspw/User.py
+pyspw/__init__.py
+pyspw/api.py
+pyspw/errors.py
