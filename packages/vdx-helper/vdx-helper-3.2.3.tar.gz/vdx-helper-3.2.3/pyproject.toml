@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "vdx-helper"
+version = "3.2.3"
+description = "Python client library to connect to the VDX Core API"
+authors = ["Joana Teixeira <joana.teixeira@vizidox.com>", "Tiago Santos <tiago.santos@vizidox.com>",
+           "Rita Mariquitos <rita.mariquitos@morphotech.co.uk>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://vizidox.com"
+repository = "https://github.com/Morphotech/vdx-helper-python"
+documentation = "https://helper.vizidox.com/"
+classifiers = ["License :: OSI Approved :: MIT License",
+               "Programming Language :: Python :: 3",
+               "Topic :: Software Development :: Libraries :: Python Modules"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests="^2.27"
+nndict="1.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "5.4.3"
+coverage = "^5.0"
+pytest-cov = "^2.10.1"
+testcontainers = "^3.5"
+mypy="0.910"
+sphinx="4.3.0"
+sphinx-rtd-theme="1.0.0"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
