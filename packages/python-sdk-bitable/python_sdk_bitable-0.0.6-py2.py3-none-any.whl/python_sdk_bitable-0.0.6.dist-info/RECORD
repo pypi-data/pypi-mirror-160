@@ -1,0 +1,11 @@
+bitable/__init__.py,sha256=GQIW10UIzSUeRddSD4YknG64anxNmSTAvI1Khzl1K-4,71
+bitable/__version__.py,sha256=wMpOKI8HLYrmuXG6FICo7RpbyAakQIVJLkj7O-Nm_jg,352
+bitable/auth.py,sha256=V3K0AFqyxq7FW6VaDpptG2pg9lRhmOidXCsK3crKZQI,1358
+bitable/bitable.py,sha256=CtxDF1Y0y7kZVH0WC132DZYygExWEpNognNb_aR2ZBw,14983
+bitable/contact.py,sha256=IDHMRpeePIVHDXdooMnKFvIqOROOOVXcAM7BOUu-xHg,8106
+bitable/params.py,sha256=um108LsIxz86GDfsJCOE72B3wP35ivp3mnGn09CdrWw,10342
+python_sdk_bitable-0.0.6.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+python_sdk_bitable-0.0.6.dist-info/METADATA,sha256=y_ChXId2ydh701-4kMLggJBs1e9PB2qYuBatiLhCGVk,1566
+python_sdk_bitable-0.0.6.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+python_sdk_bitable-0.0.6.dist-info/top_level.txt,sha256=88P8sLij3vNgTJgniKNzOxh9LPEgRBConmDMv-UMIjw,8
+python_sdk_bitable-0.0.6.dist-info/RECORD,,
