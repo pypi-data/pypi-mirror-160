@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: real-deepfakes-detect
+Version: 0.0.2
+Summary: Realword DeepFakes Detection
+Home-page: https://github.com/ThreeCatsLoveFish/RDD
+License: MIT Licence
+License-File: LICENSE
+Requires-Dist: pytorchvideo (==0.1.5)
+Requires-Dist: decord (==0.6.0)
+Requires-Dist: omegaconf (==2.2.2)
+Requires-Dist: torch (==1.8.1)
+Requires-Dist: torchvision (==0.9.1)
+Requires-Dist: opencv-python (==4.5.5.64)
+Requires-Dist: scikit-learn (==1.0.2)
+Requires-Dist: easydict
+Requires-Dist: einops
+Requires-Dist: requests
+Requires-Dist: thop
+Requires-Dist: seaborn
+Requires-Dist: pandas
+
+Realword DeepFakes Detection
