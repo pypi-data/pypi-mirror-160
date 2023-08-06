@@ -1,0 +1,14 @@
+id: zoxide
+name: zoxide
+description: A smarter cd command. Supports all major shells.
+homepage: https://github.com/ajeetdsouza/zoxide
+labels:
+  - cli
+  - utils
+formulas:
+  # bash: curl -sS https://webinstall.dev/zoxide | bash
+  apt: zoxide
+  brew: zoxide
+  cargo: zoxide --locked
+  dnf: zoxide
+  scoop: zoxide

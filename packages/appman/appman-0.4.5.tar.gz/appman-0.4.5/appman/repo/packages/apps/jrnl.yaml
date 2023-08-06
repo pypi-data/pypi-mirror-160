@@ -1,0 +1,7 @@
+id: jrnl
+name: jrnl
+labels:
+  - cli
+formulas:
+  brew: jrnl
+  pip: jrnl

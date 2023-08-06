@@ -1,0 +1,9 @@
+id: tmux
+name: tmux
+labels:
+  - cli
+formulas:
+  apt: tmux
+  brew: tmux
+  dnf: tmux
+  pacman: tmux

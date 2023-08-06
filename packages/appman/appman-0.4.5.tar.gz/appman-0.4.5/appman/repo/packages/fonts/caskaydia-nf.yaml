@@ -1,0 +1,9 @@
+id: caskaydia-nf
+name: CaskaydiaCove Nerd Font
+labels: []
+formulas:
+  brew: font-caskaydia-cove-nerd-font
+  scoop: CascadiaCode-NF
+  font-local-share:
+    source: https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip
+    fid: Caskaydia Cove

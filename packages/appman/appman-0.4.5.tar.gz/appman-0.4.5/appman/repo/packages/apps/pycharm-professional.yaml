@@ -1,0 +1,14 @@
+id: pycharm-community
+name: PyCharm Community Edition
+labels:
+  - gui
+  - dev-tools
+  - editor
+formulas:
+  brew: --cask pycharm-ce
+  choco: PyCharm-community
+  snap: pycharm-community --classic
+  winget: JetBrains.PyCharm.Community
+  tar-cp-package:
+    source: https://download.jetbrains.com/python/pycharm-community-2021.3.2.tar.gz
+    destination: /opt

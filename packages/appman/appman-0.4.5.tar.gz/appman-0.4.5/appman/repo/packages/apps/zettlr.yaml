@@ -1,0 +1,11 @@
+id: zettlr
+name: zettlr
+description: A Markdown Editor for the 21st century.
+homepage: https://github.com/Zettlr/Zettlr
+labels:
+  - gui
+  - notes
+  - editor
+formulas:
+  brew: --cask Zettlr
+  winget: Zettlr.Zettlr

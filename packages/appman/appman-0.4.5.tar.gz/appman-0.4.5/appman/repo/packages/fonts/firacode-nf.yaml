@@ -1,0 +1,9 @@
+id: firacode-nf
+name: FiraCode Nerd Font
+labels: []
+formulas:
+  brew: font-fira-code-nerd-font
+  scoop: FiraCode-NF
+  font-local-share:
+    source: https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+    fid: Fira Code

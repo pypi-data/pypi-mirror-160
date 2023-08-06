@@ -1,0 +1,7 @@
+id: proton-vpn
+name: Proton VPN
+labels:
+  - gui
+  - security
+formulas:
+  winget: ProtonTechnologies.ProtonVPN

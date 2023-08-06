@@ -1,0 +1,8 @@
+id: mas
+name: mas
+description: Mac App Store command line interface
+labels:
+  - cli
+  - package-manager
+formulas:
+  brew: mas

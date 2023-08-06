@@ -1,0 +1,10 @@
+id: meld
+name: meld
+description: Meld is a visual diff and merge tool targeted at developers
+homepage: https://gitlab.gnome.org/GNOME/meld
+labels:
+  - gui
+  - utils
+formulas:
+  brew: meld
+  dnf: meld

@@ -1,0 +1,12 @@
+id: peco
+name: peco
+description: Simplistic interactive filtering tool
+homepage: https://github.com/peco/peco
+labels:
+  - cli
+  - utils
+formulas:
+  apt: peco
+  brew: peco
+  choco: peco
+  pacman: peco

@@ -1,0 +1,10 @@
+id: choose
+name: choose
+description: A human-friendly and fast alternative to cut and (sometimes) awk
+homepage: https://github.com/theryangeary/choose
+labels:
+  - cli
+  - utils
+formulas:
+  cargo: choose
+  brew: choose-rust

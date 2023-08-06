@@ -1,0 +1,15 @@
+id: fd
+name: fd
+description: A simple, fast and user-friendly alternative to 'find'
+homepage: https://github.com/sharkdp/fd
+labels:
+  - cli
+  - utils
+formulas:
+  apt: fd-find
+  brew: fd
+  cargo: fd-find
+  choco: fd
+  dnf: fd-find
+  pacman: fd
+  scoop: fd

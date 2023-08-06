@@ -1,0 +1,13 @@
+id: innernet
+name: Innernet
+description: A private network system that uses WireGuard under the hood
+labels:
+  - network
+  - security
+formulas:
+  pacman: innernet
+  apt-deb-package:
+    name: innernet
+    source: https://github.com/tonarino/innernet/releases/download/v1.4.1/innernet_1.4.1_amd64.deb
+requires:
+  - wireguard

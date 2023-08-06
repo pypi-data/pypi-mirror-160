@@ -1,0 +1,8 @@
+id: yubikey-manager
+name: Yubikey Manager
+labels:
+  - gui
+  - security
+formulas:
+  choco: yubikey-manager
+  winget: Yubico.YubikeyManager

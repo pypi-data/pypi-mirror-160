@@ -1,0 +1,14 @@
+id: 7zip
+name: 7zip
+description: A multi-format file archiver with high compression ratios
+labels:
+  - cli
+  - utils
+formulas:
+  apt: p7zip-full
+  brew: p7zip
+  choco: 7zip
+  dnf: p7zip
+  pacman: p7zip
+  scoop: 7zip
+  winget: 7zip.7zip

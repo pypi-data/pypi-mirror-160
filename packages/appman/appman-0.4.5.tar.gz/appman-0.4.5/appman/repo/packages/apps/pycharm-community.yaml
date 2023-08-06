@@ -1,0 +1,14 @@
+id: pycharm-professional
+name: PyCharm Professional Edition
+labels:
+  - gui
+  - dev-tools
+  - editor
+formulas:
+  brew: --cask pycharm
+  choco: PyCharm-professional
+  snap: pycharm-professional --classic
+  winget: JetBrains.PyCharm.Professional
+  tar-cp-package:
+    source: https://download.jetbrains.com/python/pycharm-professional-2021.3.2.tar.gz
+    destination: /opt

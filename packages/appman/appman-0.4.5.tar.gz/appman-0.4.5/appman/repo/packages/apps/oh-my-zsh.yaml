@@ -1,0 +1,11 @@
+id: oh-my-zsh
+name: oh-my-zsh
+labels:
+  - cli
+custom-formulas:
+  - os: unix-like
+    commands:
+      install: sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+      uninstall: uninstall_oh_my_zsh
+    requires:
+      - curl

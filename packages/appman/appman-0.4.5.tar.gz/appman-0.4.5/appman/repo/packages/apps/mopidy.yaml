@@ -1,0 +1,10 @@
+id: mopidy
+name: mopidy
+labels:
+  - cli
+  - music
+formulas:
+  apt: mopidy
+  brew: mopidy
+  dnf: mopidy
+  pacman: mopidy

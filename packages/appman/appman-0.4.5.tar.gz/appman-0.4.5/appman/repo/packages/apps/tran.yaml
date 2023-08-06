@@ -1,0 +1,11 @@
+id: tran
+name: tran
+description: 🖥 Securely transfer and send anything between computers with TUI.
+homepage: https://github.com/abdfnx/tran
+labels:
+  - cli
+formulas:
+  brew: abdfnx/tap/tran
+  # shell: curl -fsSL https://cutt.ly/tran-cli | bash
+  # powershell: iwr -useb https://cutt.ly/tran-win | iex
+  # gh:: gh extension install abdfnx/gh-tran

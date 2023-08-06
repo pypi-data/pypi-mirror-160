@@ -1,0 +1,14 @@
+id: imagemagick
+name: imagemagick
+description: Create, edit, compose, and convert 200+ of bitmap images formats
+labels:
+  - cli
+  - utils
+formulas:
+  apt: imagemagick
+  brew: imagemagick
+  choco: imagemagick
+  dnf: imagemagick
+  pacman: imagemagick
+  scoop: imagemagick
+  winget: ImageMagick.ImageMagick

@@ -1,0 +1,11 @@
+id: wireshark
+name: Wireshark
+labels:
+  - gui
+  - network
+  - utils
+formulas:
+  apt: wireshark
+  choco: wireshark
+  dnf: wireshark
+  winget: WiresharkFoundation.Wireshark

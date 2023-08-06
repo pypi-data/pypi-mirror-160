@@ -1,0 +1,12 @@
+id: gping
+name: gping
+description: Ping, but with a graph
+homepage: https://github.com/orf/gping
+labels:
+  - cli
+  - utils
+formulas:
+  brew: gping
+  choco: gping
+  pacman: gping
+  scoop: gping

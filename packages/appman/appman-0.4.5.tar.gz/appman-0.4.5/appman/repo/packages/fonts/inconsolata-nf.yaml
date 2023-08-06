@@ -1,0 +1,9 @@
+id: inconsolata-nf
+name: Inconsolata Nerd Font
+labels: []
+formulas:
+  brew: font-inconsolata-nerd-font
+  scoop: Inconsolata-NF
+  font-local-share:
+    source: https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Inconsolata.zip
+    fid: Inconsolata

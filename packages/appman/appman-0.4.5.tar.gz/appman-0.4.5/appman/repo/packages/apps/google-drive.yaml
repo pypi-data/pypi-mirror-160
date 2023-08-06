@@ -1,0 +1,8 @@
+id: google-drive
+name: Google Drive
+labels:
+  - gui
+  - cloud
+formulas:
+  choco: googledrive
+  winget: Google.Drive

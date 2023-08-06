@@ -1,0 +1,7 @@
+os: darwin
+commands:
+  install: mas install $pmid
+  update-all: mas upgrade
+  installed: mas list | grep $pmid
+requires:
+  - mas

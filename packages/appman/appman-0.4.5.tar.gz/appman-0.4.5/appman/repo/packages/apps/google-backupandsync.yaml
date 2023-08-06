@@ -1,0 +1,7 @@
+id: google-backupandsync
+name: Google Backup and Sync
+labels:
+  - gui
+  - cloud
+formulas:
+  winget: Google.BackupAndSync

@@ -1,0 +1,12 @@
+id: shellcheck
+name: shellcheck
+description: Static analysis tool for shell scripts
+labels:
+  - cli
+  - dev-tools
+formulas:
+  apt: shellcheck
+  brew: shellcheck
+  dnf: shellcheck
+  pacman: shellcheck
+  scoop: shellcheck

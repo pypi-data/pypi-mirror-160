@@ -1,0 +1,10 @@
+id: which
+name: which
+description: Command line tool and library for transferring data with URLs
+labels:
+  - cli
+  - utils
+formulas:
+  brew: gnu-which
+  dnf: which
+  pacman: which

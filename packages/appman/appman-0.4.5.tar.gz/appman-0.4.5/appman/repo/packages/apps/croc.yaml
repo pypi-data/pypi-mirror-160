@@ -1,0 +1,14 @@
+id: croc
+name: croc
+description: Easily and securely send things from one computer to another 🐊 📦
+homepage: https://github.com/schollz/croc
+labels:
+  - cli
+formulas:
+  brew: croc
+  choco: croc
+  dnf: croc
+  go: github.com/schollz/croc/v9
+  pacman: croc
+  scoop: croc
+  # bash: curl https://getcroc.schollz.com | bash

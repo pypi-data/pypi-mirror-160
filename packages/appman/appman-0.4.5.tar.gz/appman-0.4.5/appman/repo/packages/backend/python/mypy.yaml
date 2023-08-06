@@ -1,0 +1,5 @@
+id: mypy
+name: mypy
+labels: []
+formulas:
+  pip: mypy
