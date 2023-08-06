@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: cloudshell-iac-terraform
+Version: 1.2.1
+Summary: Allow execution of Terraform modules from CloudShell
+Home-page: UNKNOWN
+Author: QualiLabs
+Author-email: support@qualisystems.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: sandbox cloud IaC cloudshell terraform
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
