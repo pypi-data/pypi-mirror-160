@@ -1,0 +1,2 @@
+tornado==6.1.0
+libnacl==1.7.2
