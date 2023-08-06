@@ -1,0 +1,16 @@
+[project]
+name = "rtea"
+repository = "https://github.com/zkonge/rtea"
+
+[build-system]
+build-backend = "maturin"
+requires = ["maturin>=0.13,<0.14"]
+
+[tool.maturin]
+sdist-include = ["Cargo.lock"]
+strip = true
+
+[tool.black]
+line-length = 120
+target-version = ["py37", "py38", "py39"]
+include = '\.pyi?$'
