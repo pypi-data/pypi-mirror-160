@@ -1,0 +1,6 @@
+__pycache__/
+*.egg-info/
+.vim/
+build/
+dist/
+transfer/_version.py
