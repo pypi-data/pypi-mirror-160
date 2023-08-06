@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: easy-py-selenium
+Version: 0.1.0
+Summary: A tool that makes working with selenium easier.
+Home-page: https://github.com/SelmiAbderrahim/easy-selenium
+Author: Selmi Abderrahim
+Author-email: contact@selmi.tech
+License: MIT
+Project-URL: Bug Tracker, https://github.com/SelmiAbderrahim/easy-selenium/issues
+Keywords: python automation tools with selenium
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: lucd (==0.1.7)
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: black (==22.6.0)
+Requires-Dist: python-decouple (==3.6)
+Requires-Dist: loguru (==0.6.0)
+
+<div align="center">
+<img src="easy_selenium/screenshots/easy.png" width="200">
+<p>A list of functionalities that makes working with Selenium much easier.</p>
+</div>
+
+
+## Requirements
+
+- Chrome or Firefox
+- Python 3.7+
+
+## TOC
+
+- [Undetectable Chrome Driver](easy_selenium/docs/chrome.md)
+
+- [Chrome Debugger Address 'Remote'](easy_selenium/docs/remote.md)
+
+- [Use The Geckodriver (FireFox)](easy_selenium/docs/firefox.md)
+
+- [Authentication](easy_selenium/docs/authentication.md)
+
+- [Cookies](easy_selenium/docs/cookies.md)
+
+- [Common Utility functions](easy_selenium/docs/common.md)
+
+- [Logging](easy_selenium/docs/logging.md)
+
+- [Testing](easy_selenium/docs/testing.md)
+
+---
+
+Was it <u>useful</u> ?
+
+then ⭐it.
+
+Thanks.
+
+
