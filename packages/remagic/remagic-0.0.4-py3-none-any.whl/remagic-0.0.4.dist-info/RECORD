@@ -1,0 +1,11 @@
+remagic/__init__.py,sha256=QyeW7KpBEtuvmZxJiUIqZyTF_fbavYozuB8e1nRme54,834
+remagic/main.py,sha256=t5QFe2B6u0UrIjvcNc3urGMlMvpdpmG9ZefNeG3DCS4,436
+remagic/main.pyi,sha256=3pqIErGjMN8knT6xUyw1_OMXRqEae8-z6GR9yCDw24A,499
+remagic/pattern.py,sha256=SRsKhQKuOP1rOSw76-2Q_nWZFNHdgT_oaXSboZzSxV0,5801
+remagic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remagic/utils.py,sha256=nIcQNIsLxK_qdb3lnGbdeHdIsIHFhAEK6KjxvLXZhHU,411
+remagic-0.0.4.dist-info/LICENSE,sha256=YxHDH6kampsJ2kADel33OXyfAUF8RXw71CZFPzvMPao,1086
+remagic-0.0.4.dist-info/METADATA,sha256=xdztCx4RY8xVIimc3x_5y278k1Pn4nkecX-SXS3rX2Q,1446
+remagic-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+remagic-0.0.4.dist-info/top_level.txt,sha256=uA5iVLsaK8CKZoeKQWtmBMJ-R59rJkamhyUslDUImQQ,8
+remagic-0.0.4.dist-info/RECORD,,
