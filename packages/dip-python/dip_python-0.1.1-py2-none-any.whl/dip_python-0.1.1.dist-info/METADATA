@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dip-python
+Version: 0.1.1
+Summary: Digital Image Processing in Python
+Home-page: https://github.com/R1nY1x1/dippy
+Author: RinYixi
+Author-email: hayashi0241@gmail.com
+License: MIT
+Keywords: dippy
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# dippy
+
+Dippy is DIP(Digital Image Processing) in Python3.
+
+This library depends on Numpy only.
+
+
+## Installation
+
+```
+$ pip install dippy
+```
+
+
