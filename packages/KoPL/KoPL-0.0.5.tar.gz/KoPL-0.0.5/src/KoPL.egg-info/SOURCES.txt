@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/KoPL.egg-info/PKG-INFO
+src/KoPL.egg-info/SOURCES.txt
+src/KoPL.egg-info/dependency_links.txt
+src/KoPL.egg-info/top_level.txt
+src/kopl/__init__.py
+src/kopl/data.py
+src/kopl/kopl.py
+src/kopl/util.py
+src/kopl/test/__init__.py
+src/kopl/test/test_example.py
