@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rctogether
+Version: 0.3.3
+Summary: 
+Author: Adam Kelly
+Author-email: adam@cthulahoops.org
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: websockets (>=10.2,<11.0)
