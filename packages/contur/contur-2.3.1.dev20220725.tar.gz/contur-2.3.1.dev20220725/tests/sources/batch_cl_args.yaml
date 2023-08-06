@@ -1,0 +1,6 @@
+batch_default:
+  command: contur-batch
+  switches: [s]
+  options: {runinfo: tmp_batch/, template: sources/herwig.in, param_file: sources/param_file.dat, outputdir: tmp_batch/scan}
+
+

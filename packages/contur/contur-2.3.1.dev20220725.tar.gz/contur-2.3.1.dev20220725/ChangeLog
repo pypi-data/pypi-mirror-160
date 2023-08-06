@@ -1,0 +1,34 @@
+2020-07-04 Jon Butterworth <j.butterworth@cern.ch>
+	Big gap there, sorry. Making 1.2.3 for Rivet 3.1.2. 
+	Somenew routines, lots of additional plotting options, a
+	bug fix on correlation treatment. See 
+	https://gitlab.com/hepcedar/contur/-/tags
+	for more history.
+
+2020-02-14  Jon Butterworth <j.butterworth@cern.ch>
+	* Created new  release-1-1-x, contur-1.1.0 tag. See
+	release notes. https://gitlab.com/hepcedar/contur/-/tags/contur-1.1.0
+
+2020-02-02  Jon Butterworth <j.butterworth@cern.ch>
+	* CMS_2013_I1273574. Moved to match HEPDATA
+	(and renamed to match as well, now CMS_2014_I1273574)
+	Also removed zero/zero bins in yoda file histo d02,d03,d04.
+	
+2020-02-01  Jon Butterworth <j.butterworth@cern.ch>
+	* Fix to CMS_2017_I1598460. Now matches HEPDATA.
+	Previous version had very small uncertainties.
+	Also fixed some formatting in the plot file.
+	
+2020-01-31  Jon Butterworth <j.butterworth@cern.ch>
+	* Edit the CMS_2013_I1224539_ZJET and CMS_2013_I1273574 ref data
+	to remove zero/unmeasured bins. Also for CMS_2013_I1224539_ZJET,
+	remove the 150 GeV max on plots in the .plot file, 
+	so all bins are plotted, and *MODIFY DATA POINT* in histogram
+	d32, which seems to have a ridiculously small error. Multiplied
+	it by 1000, which makes it more similar to its surroundings.
+
+2020-01-15  Jon Butterworth <j.butterworth@cern.ch>
+
+        * Add modified versions of  (missing dR cut in CMS_2017_I1499471 
+	Zbb) and CMS_2016_I1487288.cc (warning because it is scaled). Fix 
+	normalisation in the DB for CMS_2017_I1499471.

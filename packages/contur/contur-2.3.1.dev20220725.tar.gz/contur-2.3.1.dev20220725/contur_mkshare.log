@@ -1,0 +1,7 @@
+root - INFO - Contur version 2.3.x
+root - INFO - See https://hepcedar.gitlab.io/contur-webpage/
+root - INFO - Making shared area in /Users/aromawhite/contur_users
+root - INFO - Rivet integrated lumi will be overwritten with 2.3 for CMS_2021_I1847230:MODE=QCD13TeV.
+root - INFO - Rivet integrated lumi will be overwritten with 19.8 for CMS_2021_I1847230:MODE=QCD8TeV.
+root - INFO - Rivet integrated lumi will be overwritten with 19.8 for CMS_2021_I1847230:MODE=ZJet.
+root - INFO - Analysis and environment files written to /Users/aromawhite/contur_users

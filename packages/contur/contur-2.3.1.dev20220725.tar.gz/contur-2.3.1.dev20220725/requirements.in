@@ -1,0 +1,11 @@
+numpy>=1.20.3,<=1.21.4
+scipy>=1.6.3
+pandas>=1.2.4
+configobj>=5.0.6
+matplotlib>=3.4.2
+tqdm
+pytest>=6.2.4
+pyyaml
+pyslha
+scikit-learn
+click

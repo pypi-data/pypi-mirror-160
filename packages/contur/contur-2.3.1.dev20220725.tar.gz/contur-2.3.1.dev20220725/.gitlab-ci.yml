@@ -1,0 +1,38 @@
+image: hepstore/rivet@sha256:7a7f58dbbee94ec414773523de41d754302580b679b876f417218e75b93c84bb
+
+before_script:
+ - for i in /etc/profile.d/*; do source $i; done
+ - apt-get update -y && apt-get install -y sqlite3
+ - apt install -y cm-super
+ - python -m pip install -r requirements.txt
+ - cd dist/
+ - pip install contur-2.3.x-py3-none-any.whl
+ - cd ..
+ - source /usr/local/bin/conturenv.sh
+ - cd $CONTUR_DATA_PATH
+ - make
+ - cd /builds/hepcedar/contur
+
+stages:
+ - Test
+ - Doc
+
+pytest:
+  stage: Test
+  script:
+  - cd tests
+  - pytest -v
+
+
+pages:
+  stage: Doc
+  script:
+  - python -m pip install sphinx sphinxcontrib-apidoc sphinx-argparse sphinx_rtd_theme
+  - mkdir public
+  - cd doc && make html
+  - cp -rf _build/html/* ../public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - main

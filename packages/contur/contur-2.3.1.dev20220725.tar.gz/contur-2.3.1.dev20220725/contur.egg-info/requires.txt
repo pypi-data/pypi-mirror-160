@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+configobj
+matplotlib
+tqdm
+pytest
+pyyaml
+pyslha
+click
+scikit-learn
