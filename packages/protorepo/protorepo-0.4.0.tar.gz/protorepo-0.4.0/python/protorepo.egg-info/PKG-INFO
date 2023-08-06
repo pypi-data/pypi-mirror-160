@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: protorepo
+Version: 0.4.0
+Summary: Antiplagiarism protorepo
+Home-page: https://github.com/no-plagiarism/protorepo
+Author: Danylo Halaiko
+Author-email: d9nich@pm.me
+Project-URL: Bug Tracker, https://github.com/no-plagiarism/protorepo/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Protorepo
+For python support in PyCharm [read here](https://youtrack.jetbrains.com/issue/PY-27111/Please-add-protobuf-autocompletion-support)
+
+Solution:
+- [Mypy](https://github.com/dropbox/mypy-protobuf)
+- [Typeshed](https://github.com/python/typeshed)

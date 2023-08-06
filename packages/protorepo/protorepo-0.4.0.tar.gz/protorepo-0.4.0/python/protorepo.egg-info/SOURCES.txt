@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+python/protorepo/__init__.py
+python/protorepo/messages_pb2.py
+python/protorepo/messages_pb2.pyi
+python/protorepo.egg-info/PKG-INFO
+python/protorepo.egg-info/SOURCES.txt
+python/protorepo.egg-info/dependency_links.txt
+python/protorepo.egg-info/requires.txt
+python/protorepo.egg-info/top_level.txt
