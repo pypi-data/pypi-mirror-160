@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: geniusmlapi
+Version: 0.0.1
+Summary: Pacote PyPI para Genius
+Home-page: https://github.com/fagnercandido/GeniusMLAPI
+Author: Fagner Candido
+Author-email: fsouzacandido@gmail.com
+License: MIT License
+Description: # GeniusMLAPI
+        PyPI package to use Genius.
+        ## Getting Started
+        #### Dependencies
+        You need Python 3.7 or later to use **pacotepypi**. You can find it at [python.org](https://www.python.org/).
+        You also need setuptools, wheel and twine packages, which is available from [PyPI](https://pypi.org). If you have pip, just run:
+        ```
+        pip install setuptools
+        pip install wheel
+        pip install twine
+        ```
+        #### Installation
+        Clone this repo to your local machine using:
+        ```
+        git clone https://github.com/fagnercandido/GeniusMLAPI
+        ```
+        ## Features
+        - File structure for PyPI packages
+        - Setup with package informations
+        - License example
+Keywords: Pacote
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

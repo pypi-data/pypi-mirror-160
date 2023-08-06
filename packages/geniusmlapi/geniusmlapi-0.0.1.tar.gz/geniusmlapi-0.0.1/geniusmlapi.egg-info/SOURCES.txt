@@ -1,0 +1,8 @@
+README.md
+setup.py
+geniusmlapi/modulo.py
+geniusmlapi.egg-info/PKG-INFO
+geniusmlapi.egg-info/SOURCES.txt
+geniusmlapi.egg-info/dependency_links.txt
+geniusmlapi.egg-info/requires.txt
+geniusmlapi.egg-info/top_level.txt
