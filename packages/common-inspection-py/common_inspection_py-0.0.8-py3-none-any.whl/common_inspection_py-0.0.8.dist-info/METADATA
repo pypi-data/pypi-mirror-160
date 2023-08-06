@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: common-inspection-py
+Version: 0.0.8
+Summary: The description of the package
+Home-page: http://www.example.com/
+Author: X.X
+Author-email: xx@example.com
+License: LICENSE
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (~=1.24.22)
+Requires-Dist: PyYAML
+Requires-Dist: pandas (~=1.4.3)
+Requires-Dist: numpy
+Requires-Dist: pydantic (~=1.9.1)
+
+test
