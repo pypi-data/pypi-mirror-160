@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+main.py
+requirements.txt
+setup.py
+lazy_multiply/__init__.py
+lazy_multiply/lazymultiply.py
+lazyearth.egg-info/PKG-INFO
+lazyearth.egg-info/SOURCES.txt
+lazyearth.egg-info/dependency_links.txt
+lazyearth.egg-info/top_level.txt
+tests/__init__.py
+tests/lazymultiply_test.py
