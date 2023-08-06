@@ -1,0 +1,4 @@
+requests>=2.13.0
+mtranslate
+neon-utils<2.0.0,>=1.0.0a16
+neon-api-proxy>=0.3.2a1,~=0.3
