@@ -1,0 +1,4 @@
+[console_scripts]
+notifier = powerful_pipes_notifier.__main__:main
+ptee = powerful_pipes_notifier.__main__:main
+
