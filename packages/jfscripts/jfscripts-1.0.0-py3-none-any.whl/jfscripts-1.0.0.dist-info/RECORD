@@ -1,0 +1,16 @@
+jfscripts/__init__.py,sha256=TCMju8-bG5k6i0x1OGOShqWHiAqKDu35KYHP8maP_8Q,81
+jfscripts/dns_ipv6_prefix.py,sha256=5acri2e5ZTanaO2wLpTod0_kNt4r-ubEiDzcF_rEFIU,1339
+jfscripts/extract_pdftext.py,sha256=qYhU0AdEe7uvZlL3uOi167nr2trXblFA2FsI8lKUKlw,2946
+jfscripts/find_dupes_by_size.py,sha256=l3BP1KziQm19mqVi2rWdQpJgd3yFXlgT0uleMkE7odc,1637
+jfscripts/image_into_pdf.py,sha256=40DJxgyrulInyAtpX1-INIRXEH3IH_qs2siA7OHGXYY,10423
+jfscripts/list_files.py,sha256=RsQXKQbVmCDPX84HmO5OjbkWmVWhVDHL80LsOfNXL3Y,4778
+jfscripts/mac_to_eui64.py,sha256=hv0ITqVXlCNF942eyhs3Yg0CO2m37Kd4yQxt_afmnAI,1581
+jfscripts/py.typed,sha256=fTZxIEqDNB02iQ4gJI00cUs5AkemOkUF555psIWfiGA,94
+jfscripts/utils.py,sha256=dwc49Oe7zjCEb_aXQK9I9jjtYDo0D8p1zO9Lz6p7mdU,6052
+jfscripts/work_in_progress/csv_to_yaml.py,sha256=3AiAMRA2m0TmMq1igCqpq1aQI_8iTnRDKdIdyRZxRhE,811
+jfscripts/work_in_progress/find_dupes_by_fuzzy.py,sha256=dJhf904_qNZR0Q1u3uub4tJgtCR2slImNLjGPbQULbQ,538
+jfscripts-1.0.0.dist-info/entry_points.txt,sha256=TlDMkAlRkrrmrdpNLLs3uuc4aXTiPXSxkmu7khnwnEg,351
+jfscripts-1.0.0.dist-info/LICENSE,sha256=vssIk6nYg9klvRoIYvtXJ9MzE67i6MEXvHkg6yzkuTM,1072
+jfscripts-1.0.0.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+jfscripts-1.0.0.dist-info/METADATA,sha256=P8fw0z6C8lvzk7r2i7MBHgNuEptaftb_Jmcm1ROp2sM,4431
+jfscripts-1.0.0.dist-info/RECORD,,
