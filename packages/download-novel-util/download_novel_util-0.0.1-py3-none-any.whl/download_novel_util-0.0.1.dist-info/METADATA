@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: download-novel-util
+Version: 0.0.1
+Summary: Download novels from 笔趣阁.
+Home-page: https://github.com/kenblikylee/imgkernel
+Author: Saint Eric GE
+Author-email: cxjxxfx2010@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# download-util
+Util for download novel from website
