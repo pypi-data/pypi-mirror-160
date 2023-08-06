@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fastapi-stack-utils
+Version: 0.2.0
+Summary: Utils to extend the FastAPI with logging and exception handlers
+License: MIT
+Author: Jonas Krüger Svensson
+Author-email: jonas-ks@hotmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: asgi-correlation-id (>=3.0.0,<4.0.0)
+Requires-Dist: fastapi (>0.68.0)
