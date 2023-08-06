@@ -1,0 +1,16 @@
+zul.cp38-win_amd64.pyd,sha256=Ls51ZwszsmlPX_DnztowLGHQewKIoVBnveeOXMOk1UA,535040
+zulDataFiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zulDataFiles/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zulDataFiles/models/viking_room.obj,sha256=CvJ82ZzkP0jInZxzz_R8vfw9KcN1Sym9DM_n4_596Gk,479536
+zulDataFiles/shaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zulDataFiles/shaders/frag-model.spv,sha256=c3avtCplA7oU432XTURg0pX4zhKKtzCWDXZr1Nzg2l8,728
+zulDataFiles/shaders/frag-tri.spv,sha256=q_E-NmvZaXs_DqFd9FfJ4g8Ax1IE89GEioBu2Klhmgc,572
+zulDataFiles/shaders/vert-model.spv,sha256=tDa46gwHoxFIS3kgHbZNAc4E41bwM3-pR6nN6snkjzU,1840
+zulDataFiles/shaders/vert-tri.spv,sha256=5oanOHW8hbM_EJsL2_C7DUqEtDOS3sVOafp5k1cPvR0,1080
+zulDataFiles/textures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zulDataFiles/textures/viking_room.png,sha256=-stpOFjK_LcLfu0mTjQQfwa78_QYBee4CE5bQr2RSmY,962052
+zul-0.0.8.12.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+zul-0.0.8.12.dist-info/METADATA,sha256=8bhtOHYsfxijkTDogEftDHvRYSN7g1wcrU4zQVbZQ8I,1781
+zul-0.0.8.12.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+zul-0.0.8.12.dist-info/top_level.txt,sha256=A4LgSe2_r6TCJGvfHxfu45FDv3RjU7puVwyJgu8Xhuo,17
+zul-0.0.8.12.dist-info/RECORD,,
