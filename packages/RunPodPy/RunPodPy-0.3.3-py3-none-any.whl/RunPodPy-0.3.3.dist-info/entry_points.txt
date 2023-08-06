@@ -1,0 +1,2 @@
+[console_scripts]
+runpodpy = runpodpy.__main__:main
