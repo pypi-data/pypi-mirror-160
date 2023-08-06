@@ -1,0 +1,2 @@
+[console_scripts]
+gua = platinum2.console:script_gua
