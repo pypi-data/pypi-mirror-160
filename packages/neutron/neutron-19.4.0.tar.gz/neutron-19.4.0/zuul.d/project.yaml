@@ -1,0 +1,49 @@
+# NOTE: In doc/source/contributor/testing/ci_scenario_jobs.rst file there is
+# document with summary of all tempest, neutron-tempest-plugin and grenade jobs
+# summary.
+# Please update this document always when any changes to jobs are made.
+- project:
+    templates:
+      - neutron-tempest-plugin-jobs-xena
+      - openstack-cover-jobs
+      - openstack-python3-xena-jobs
+      - openstack-python3-xena-jobs-arm64
+      - publish-openstack-docs-pti
+      - periodic-stable-jobs
+      - check-requirements
+      - release-notes-jobs-python3
+      - neutron-experimental-jobs
+      - neutron-periodic-jobs
+      - neutron-tox-override-jobs
+    check:
+      jobs:
+        - neutron-functional-with-uwsgi
+        - neutron-fullstack-with-uwsgi
+        - neutron-ovs-rally-task
+        - neutron-ovs-grenade-multinode
+        - neutron-ovs-grenade-dvr-multinode:
+            # TODO(slaweq): make that job voting when bug
+            # https://bugs.launchpad.net/neutron/+bug/1920778
+            # will be fixed
+            voting: false
+        - neutron-ovs-tempest-multinode-full
+        - neutron-ovs-tempest-dvr-ha-multinode-full
+        - neutron-ovn-tempest-ipv6-only
+        # TODO(slaweq): add this job again to the check queue when it will be
+        # working fine on python 3
+        #- networking-midonet-tempest-aio-ml2-centos-7:
+        #    voting: false
+        - neutron-ovn-rally-task:
+            voting: false
+    gate:
+      jobs:
+        - neutron-functional-with-uwsgi
+        - neutron-fullstack-with-uwsgi
+        - neutron-ovs-tempest-multinode-full
+        - neutron-ovs-grenade-multinode
+        # TODO(slaweq): make that job gating when bug
+        # https://bugs.launchpad.net/neutron/+bug/1920778
+        # will be fixed
+        # - neutron-ovs-grenade-dvr-multinode
+        - neutron-ovn-tempest-ipv6-only
+        #- neutron-ovn-rally-task
