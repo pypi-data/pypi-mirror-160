@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+tinq/__init__.py
+tinq/customerportal.py
+tinq/kaportalext.py
+tinq/playground.py
+tinq/projects.py
+tinq/settings.py
+tinq.egg-info/PKG-INFO
+tinq.egg-info/SOURCES.txt
+tinq.egg-info/dependency_links.txt
+tinq.egg-info/requires.txt
+tinq.egg-info/top_level.txt
