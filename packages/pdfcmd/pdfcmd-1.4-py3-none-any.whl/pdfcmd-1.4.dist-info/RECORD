@@ -1,0 +1,13 @@
+pdfcmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdfcmd/__main__.py,sha256=TxFuZVh91CJkuhzneca0tlUH0vVqLI3i8TFLUWh4T3Q,66
+pdfcmd/pdfcmd.py,sha256=cAqL0MSOeWEnWA0212P3dlVYxPPfuUTCe76WG4Lhfzc,1606
+pdfcmd/commands/cat.py,sha256=ws-5Ap-vc8qX7VnVRJWCWeMItM3xDzBvguoHnDHfYrQ,3055
+pdfcmd/commands/help.py,sha256=pdV7SR1JmUW7llQAkgZyAijVkGp8cZABafwKZPOnOUk,113
+pdfcmd/commands/info.py,sha256=C0aEH772jhxeKLrPEFFpuYmhFGpOUt-bxDl45ncDrys,508
+pdfcmd/commands/pages.py,sha256=t2gWXDXv99XnWStE4_g-VA_yKy5K_bu83xMHceRg3wY,2644
+pdfcmd-1.4.data/data/share/pdfcmd/README.md,sha256=O1pXmHmgraff1D_cDaF86-dtovB-zgWxf3AGOmmdM5o,5160
+pdfcmd-1.4.dist-info/METADATA,sha256=JxV9OoyxDfVMURnMMCacvTg_VQ0KzyLrmpEVu77IyTQ,5568
+pdfcmd-1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pdfcmd-1.4.dist-info/entry_points.txt,sha256=N8hPFfO0K2RzroOGsL8NXn6ZI06Bq_0-ckPcpC-yLJI,46
+pdfcmd-1.4.dist-info/top_level.txt,sha256=dM6EiMZynks1NhQdUNbgEQbNRnmlHNhfKy_GucktocY,23
+pdfcmd-1.4.dist-info/RECORD,,
