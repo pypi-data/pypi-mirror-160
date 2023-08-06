@@ -1,0 +1,11 @@
+dotlas/__init__.py,sha256=ZUbC-VM6hQYix3p52ETvNsY4jy7HmzqefI8E9dRtpmQ,27
+dotlas/app.py,sha256=oAGtY90nkwbh7_PQN82WoMWp2uXgdxLsl6f21JlMPx8,22416
+dotlas/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotlas/schemas/cities.py,sha256=AdFHTqHR4ScjfCNuEAkh-ViPHMC2BvA88_8bUfZ8lIU,1135
+dotlas/schemas/competition.py,sha256=LrprUONb931uvONdaddCV3KrSIu4-sS7Bo_EUFA86dU,6492
+dotlas/schemas/sociodemographics.py,sha256=byGEzMlPmyYsEjuHiUAdTFuX_sjIan7qpyccH4zZM4E,5435
+dotlas-1.0.3.dist-info/LICENSE,sha256=JkN2Pn9BEcZHukTdBXU9a0cBSf8AD1Ty8KkY0iVdzn0,1063
+dotlas-1.0.3.dist-info/METADATA,sha256=anSCGKx8Un_gy1JkpHVaksk1yvQO-Y3OWDom9Az_r6Q,3289
+dotlas-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dotlas-1.0.3.dist-info/top_level.txt,sha256=FqCTNhVWfvRK8-m4lDI3Q96KfyPgo8pa4wyzr9SLBnQ,7
+dotlas-1.0.3.dist-info/RECORD,,
