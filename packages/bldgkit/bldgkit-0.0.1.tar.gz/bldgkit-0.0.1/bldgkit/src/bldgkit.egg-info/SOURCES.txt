@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bldgkit/src/bldgkit.egg-info/PKG-INFO
+bldgkit/src/bldgkit.egg-info/SOURCES.txt
+bldgkit/src/bldgkit.egg-info/dependency_links.txt
+bldgkit/src/bldgkit.egg-info/top_level.txt
+bldgkit/src/bldgkit.py
+bldgkit/src/bldgkit.egg-info/SOURCES.txt
