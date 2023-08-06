@@ -1,0 +1,13 @@
+DeepFilterLib-0.2.5.dist-info/DELVEWHEEL,sha256=mxAj7WM6yApkjzuvzimbAl6n4g1cnKef-QgwIq1iQ-U,180
+DeepFilterLib-0.2.5.dist-info/METADATA,sha256=tQotMvNV_9pceg6np16yI_XSsfgIDE4q2r-eO23ddXE,325
+DeepFilterLib-0.2.5.dist-info/RECORD,,
+DeepFilterLib-0.2.5.dist-info/WHEEL,sha256=SzHRy-ek1PzEVGXxDrgcdvqLi8RJXupktXoeEuauL9g,95
+DeepFilterLib-0.2.5.dist-info/license_files/LICENSE,sha256=NBndc-fEJ-Sb3_2fHnKXQ48HqmWuG2WuFn1kRb-o-kE,507
+DeepFilterLib-0.2.5.dist-info/license_files/LICENSE-APACHE,sha256=LXHSRyrmRG6YbMmtPsYYK5GGjGOXNPg4qh0DiIg471Y,11038
+DeepFilterLib-0.2.5.dist-info/license_files/LICENSE-MIT,sha256=04SCSRZj7lxVu5_Up6GT8WUhV7qFpL5dTopQZJssvD0,1102
+DeepFilterLib.libs/.load-order-DeepFilterLib-0.2.5,sha256=GwVJ2jCxsqwecQgx9mscm_YjL_eH67lvAYmugWx3szk,18
+DeepFilterLib.libs/vcruntime140.dll,sha256=nStA8DlcxdG01eoXuElwwplx1EjDcQRnbbV3WG1K0bE,98224
+libdf/libdf.cp39-win_amd64.pyd,sha256=J5wO3yTyQW2B7T4qekdNe0X5P0Tmz1dWM-o8FPUeF8s,1099776
+libdf/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libdf/__init__.py,sha256=Xd6xHQj-YQ4tUG7gwC32pEwgO-_aUFVaOmEHLQngz4w,1631
+libdf/__init__.pyi,sha256=ko2GmrX3bZp1QHXDFRhYWPsZkakzqN8cft-2slfJTHk,2118
