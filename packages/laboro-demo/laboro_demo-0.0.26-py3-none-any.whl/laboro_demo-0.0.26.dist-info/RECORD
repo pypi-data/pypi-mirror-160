@@ -1,0 +1,11 @@
+laboro_demo/__init__.py,sha256=HPrynhUOuDOS9zmBQDq1GULwPNJ95rduuJzl0euhElM,3348
+laboro_demo/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+laboro_demo/schema/specification.yml,sha256=LQHExjwBpyT0hePHjqiUkHCM7n3dT0PpkNEDg9xksPg,2020
+laboro_demo/submodule/__init__.py,sha256=xSRM4wQ33ouvoXRksjAgXZ6YtqomUamXEtHcuKF9JRQ,1537
+laboro_demo/submodule/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+laboro_demo/submodule/schema/specification.yml,sha256=Db09GKFruDO_Vt9P84kXzWSofJCOE3N-1GGUdQdk_eM,376
+laboro_demo-0.0.26.dist-info/LICENSE,sha256=CRBSVjTLB1adnMgaggRh-laeeZUikP1-o_R3JdVNBEo,1125
+laboro_demo-0.0.26.dist-info/METADATA,sha256=voBJicRKRTl9ZvfhQgUySibNvs9QwZ1p7RctqUpdwa0,1797
+laboro_demo-0.0.26.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+laboro_demo-0.0.26.dist-info/top_level.txt,sha256=_9xziT3ZfzilvMKwNpD4VBfeyn0Z8N84cttBo2AfgFQ,12
+laboro_demo-0.0.26.dist-info/RECORD,,
