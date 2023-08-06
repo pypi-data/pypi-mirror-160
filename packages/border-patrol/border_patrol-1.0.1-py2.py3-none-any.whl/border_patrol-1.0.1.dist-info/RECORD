@@ -1,0 +1,13 @@
+border_patrol/__init__.py,sha256=3ktFgmYrxq6CIgrKPAOTDfcMAgdhRHorKVF7_mRwSe8,7152
+border_patrol/with_log_debug.py,sha256=eAbRgOAcZCMPp-uVFhwxMYOAmWutfAVenhB2yQSYGmM,186
+border_patrol/with_log_error.py,sha256=d-w7UAb3baWFjH1c-Mo-jfqsMJku9HjgPTv6jOUX4O0,186
+border_patrol/with_log_info.py,sha256=GUChychC0nmA4gLQzhxQJofzGTsoVzP7-ybMMb3dxmQ,184
+border_patrol/with_log_warning.py,sha256=m_xui1VXVicbrcjVSlvup2CX6DMiWI5vkkovjFlNKxo,190
+border_patrol/with_print_stderr.py,sha256=Jas0FIjnXJ9Ppyo1Wy2N5C6LTwrHDo3C91R9S0LZTcI,210
+border_patrol/with_print_stdout.py,sha256=M5mbvZXU1wtw64LU0RvYkW-wg0SzxpdJyov6Be22cmE,158
+border_patrol-1.0.1.dist-info/AUTHORS.rst,sha256=HqF5QBv4I7DQ8xcRLr7XXeQ7h2wxlG2SeXKL1l8rKE0,119
+border_patrol-1.0.1.dist-info/LICENSE.txt,sha256=Wdg4lZqfMFh5nu-JRES79xgTOF4PEXBFWuaDBNj4ToQ,1082
+border_patrol-1.0.1.dist-info/METADATA,sha256=ufPoZAeUii6CKX_BXUb-CZB_sNZmjX-pjZnUyB7lu5o,6202
+border_patrol-1.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+border_patrol-1.0.1.dist-info/top_level.txt,sha256=iT4Nrwu3OBu-fyImpbkV_xLxah-vj6Dhy8uji0o954Q,14
+border_patrol-1.0.1.dist-info/RECORD,,
