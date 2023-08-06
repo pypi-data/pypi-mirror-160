@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+petsafe_scoopfree/__init__.py
+petsafe_scoopfree/__main__.py
+petsafe_scoopfree/client.py
+petsafe_scoopfree/devices.py
+petsafe_scoopfree.egg-info/PKG-INFO
+petsafe_scoopfree.egg-info/SOURCES.txt
+petsafe_scoopfree.egg-info/dependency_links.txt
+petsafe_scoopfree.egg-info/requires.txt
+petsafe_scoopfree.egg-info/top_level.txt
