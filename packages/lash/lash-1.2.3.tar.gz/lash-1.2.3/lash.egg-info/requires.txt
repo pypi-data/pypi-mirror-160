@@ -1,0 +1,12 @@
+click~=8.0.1
+pynput~=1.7.3
+keyboard~=0.13.5
+schedule~=1.1.0
+setuptools~=56.0.0
+pyaes~=1.6.1
+requests~=2.26.0
+bs4~=0.0.1
+pillow~=8.4.0
+matplotlib~=3.5.1
+numpy~=1.22.0
+tqdm~=4.62.3
