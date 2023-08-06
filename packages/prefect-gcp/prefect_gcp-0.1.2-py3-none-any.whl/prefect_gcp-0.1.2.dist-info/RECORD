@@ -1,0 +1,11 @@
+prefect_gcp/__init__.py,sha256=cNJb-3_NMIgyU_EG0m9LPwHzsH0WWvh6M6slUs9Fn2M,121
+prefect_gcp/_version.py,sha256=ljFWmj2NRHmsIGZk-fWAuXL_pTKN4ryOq3feDkeDOp0,497
+prefect_gcp/bigquery.py,sha256=inlFjZWYryNxSf7uv749rGeFu7GyGhcTmEe2R3kyeZY,18066
+prefect_gcp/cloud_storage.py,sha256=Q12S2GvATxWy0XTuoF-ndwClB1bipMcVCBtEd_RBi6k,14508
+prefect_gcp/credentials.py,sha256=4KmUlO_33poyaook8-zeRAdSH6dIotsLOfaWSE9_Fy8,10672
+prefect_gcp/secret_manager.py,sha256=pHDJFWr3II-ptF7N-JYrMs2ml2m_h_UiwNOX5GXtGK8,8773
+prefect_gcp-0.1.2.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_gcp-0.1.2.dist-info/METADATA,sha256=REktpvXr1qCz8MBPYjgzZMMHWfZ-RtpE9rHg4CIHP48,4208
+prefect_gcp-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_gcp-0.1.2.dist-info/top_level.txt,sha256=Pp8q5ST6Rah0wusdJWwAbFsOWo18Y6nXNsw6CSoWUUc,12
+prefect_gcp-0.1.2.dist-info/RECORD,,
