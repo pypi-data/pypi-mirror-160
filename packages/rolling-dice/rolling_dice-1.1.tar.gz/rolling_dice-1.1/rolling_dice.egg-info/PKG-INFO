@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rolling-dice
+Version: 1.1
+Summary: Is a pretty simple library for rolling dice
+Home-page: https://github.com/M9SCO/diceroll
+Author: Chernov M_9SCO Grigorii
+Author-email: chr.grigorii@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
