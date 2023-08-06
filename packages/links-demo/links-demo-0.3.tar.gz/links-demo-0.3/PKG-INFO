@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: links-demo
+Version: 0.3
+Summary: Sample package for testing PyPI links.
+Author-email: Patrick Arminio <patrick.arminio@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Changelog, https://example.com/
+Project-URL: Discord, https://discord.gg/example
+Project-URL: Documentation, https://example.com/
+Project-URL: Download, https://example.com/
+Project-URL: Gitter, https://gitter.im/example
+Project-URL: Homepage, https://example.com/
+Project-URL: Reddit, https://www.reddit.com/r/example
+Project-URL: Slack, https://something.slack.com/example
+Project-URL: Source, https://github.com/patrick91/links-demo
+Project-URL: Sponsor, https://example.com/
+Project-URL: Twitter, https://twitter.com/example
+
+# PyPI demo package for testing links
+

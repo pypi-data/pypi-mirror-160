@@ -1,0 +1,27 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+
+[project]
+authors = [{name = "Patrick Arminio", email = "patrick.arminio@gmail.com"}]
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+license = {file = "LICENSE"}
+name = "links-demo"
+readme = "README.md"
+
+[project.urls]
+Changelog = "https://example.com/"
+Discord = "https://discord.gg/example"
+Documentation = "https://example.com/"
+Download = "https://example.com/"
+Gitter = "https://gitter.im/example"
+Homepage = "https://example.com/"
+Reddit = "https://www.reddit.com/r/example"
+Slack = "https://something.slack.com/example"
+Source = "https://github.com/patrick91/links-demo"
+Sponsor = "https://example.com/"
+Twitter = "https://twitter.com/example"
+
+[tool.flit.module]
+name = "links_demo"
