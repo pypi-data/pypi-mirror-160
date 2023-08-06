@@ -1,0 +1,8 @@
+ldmat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ldmat/__main__.py,sha256=LZ9ABNc3_vulnarDVSD6PKOFBIy_1BZK1N9oo1Lg-Pk,5340
+ldmat/h5.py,sha256=xOXIETT-0ET1DvoqNa3GyaWcLPgchOZF58zxCGRT1GE,12593
+ldmat/run.sh,sha256=xa5Qd6HZNNQxR6KxmKGCV65YzLEFIErMOB2kMQ4ycBE,834
+ldmat-0.0.3.dist-info/METADATA,sha256=AGSLwwWD07D7M4QfqOD1hgPcam-OhI5boqlIQ0-A6Ug,1864
+ldmat-0.0.3.dist-info/WHEEL,sha256=liJPdWJO-LaTaS3jCRTQCzug2NduIeDTswBay6mhVX8,86
+ldmat-0.0.3.dist-info/licenses/LICENSE,sha256=uyNfFjruHHoQE-gTjTRU1yJhC2iQuPMS9tKE77p2M14,1060
+ldmat-0.0.3.dist-info/RECORD,,
