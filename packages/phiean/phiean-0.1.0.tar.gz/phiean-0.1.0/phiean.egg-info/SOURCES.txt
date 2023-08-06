@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+phiean.egg-info/PKG-INFO
+phiean.egg-info/SOURCES.txt
+phiean.egg-info/dependency_links.txt
+phiean.egg-info/top_level.txt
