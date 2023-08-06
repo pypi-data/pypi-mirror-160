@@ -1,0 +1,10 @@
+requests
+pyyaml
+python-dateutil
+schema
+solrq
+validators
+boto3
+
+[:platform_system == "Darwin"]
+keyring
