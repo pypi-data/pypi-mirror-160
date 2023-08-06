@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+version
+mlops_sm/__init__.py
+mlops_sm/actions.py
+mlops_sm/helpers.py
+mlops_sm.egg-info/PKG-INFO
+mlops_sm.egg-info/SOURCES.txt
+mlops_sm.egg-info/dependency_links.txt
+mlops_sm.egg-info/requires.txt
+mlops_sm.egg-info/top_level.txt
