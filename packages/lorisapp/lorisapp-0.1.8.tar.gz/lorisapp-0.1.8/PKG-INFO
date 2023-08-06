@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lorisapp
+Version: 0.1.8
+Summary: Loris
+Home-page: UNKNOWN
+Author: Matthias Christenson
+Author-email: gucky@gucky.eu
+License: UNKNOWN
+Keywords: database application
+Platform: UNKNOWN
+License-File: LICENSE
+
+Data management and analysis application for DataJoint
+
