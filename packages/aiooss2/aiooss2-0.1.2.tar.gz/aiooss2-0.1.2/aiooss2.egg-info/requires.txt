@@ -1,0 +1,8 @@
+aiohttp>=3.7.4
+oss2>=2.14.0
+
+[tests]
+pytest==7.1.2
+pylint==2.14.5
+pylint-pytest==1.1.2
+mypy==0.971
