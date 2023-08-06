@@ -1,0 +1,3 @@
+[console_scripts]
+simsusy=simsusy.simsusy:simsusy_main
+
