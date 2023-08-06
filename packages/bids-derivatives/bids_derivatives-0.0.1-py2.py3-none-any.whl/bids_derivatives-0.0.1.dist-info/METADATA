@@ -1,0 +1,195 @@
+Metadata-Version: 2.1
+Name: bids-derivatives
+Version: 0.0.1
+Summary: Python package for querying BIDS Apps` processed derivatives.
+Home-page: https://github.com/GalBenZvi/bids-derivatives
+Author: Gal Ben-Zvi
+Author-email: benzvigal@gmail.com
+License: Apache-2.0
+Project-URL: Source, https://github.com/GalBenZvi/bids-derivatives
+Project-URL: Bug Reports, https://github.com/GalBenZvi/bids-derivatives/issues/
+Keywords: mri,preprocessing,neuroscience,BIDS
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: parse (~=1.19)
+Provides-Extra: all
+Requires-Dist: black (~=22.3) ; extra == 'all'
+Requires-Dist: doc8 (~=0.10) ; extra == 'all'
+Requires-Dist: flake8 (~=4.0) ; extra == 'all'
+Requires-Dist: ipython ; extra == 'all'
+Requires-Dist: isort (~=5.10) ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: pre-commit-hooks ; extra == 'all'
+Requires-Dist: sphinx (~=4.5) ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme (~=1.0) ; extra == 'all'
+Requires-Dist: coverage[toml] (>=6.2) ; extra == 'all'
+Requires-Dist: pytest (~=7.1) ; extra == 'all'
+Requires-Dist: tox (~=3.24) ; extra == 'all'
+Requires-Dist: build ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black (~=22.3) ; extra == 'dev'
+Requires-Dist: doc8 (~=0.10) ; extra == 'dev'
+Requires-Dist: flake8 (~=4.0) ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: isort (~=5.10) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pre-commit-hooks ; extra == 'dev'
+Requires-Dist: sphinx (~=4.5) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (~=1.0) ; extra == 'dev'
+Requires-Dist: coverage[toml] (>=6.2) ; extra == 'dev'
+Requires-Dist: pytest (~=7.1) ; extra == 'dev'
+Requires-Dist: tox (~=3.24) ; extra == 'dev'
+Provides-Extra: dist
+Requires-Dist: build ; extra == 'dist'
+Requires-Dist: twine ; extra == 'dist'
+Provides-Extra: docs
+Requires-Dist: sphinx (~=4.5) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (~=1.0) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: coverage[toml] (>=6.2) ; extra == 'test'
+Requires-Dist: pytest (~=7.1) ; extra == 'test'
+Requires-Dist: tox (~=3.24) ; extra == 'test'
+
+========
+Overview
+========
+
+.. start-badges
+
+.. list-table::
+    :stub-columns: 1
+
+    * - Documentation
+      - |docs|
+    * - Code
+      - | |made-with-python| |code-style| |imports|
+        | |pre-commit|
+    * - Tests
+      - | |github-actions| |requires|
+        | |codecov| |code-quality| |python-quality|
+    * - Packaging
+      - | |version| |wheel| |supported-versions| |supported-implementations|
+        | |commits-since|
+
+.. |docs| image:: https://readthedocs.org/projects/bids_derivatives/badge/?style=flat
+    :target: https://bids_derivatives.readthedocs.io/
+    :alt: Documentation Status
+
+.. |made-with-python| image:: https://img.shields.io/badge/Made%20with%20Python-v3.9-blue.svg?style=flat
+    :target: https://www.python.org/
+    :alt: Made with Python
+
+.. |code-style| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+    :alt: Code style
+
+.. |imports| image:: https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336
+    :target: https://pycqa.github.io/isort/
+    :alt: Imports
+
+.. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+    :target: https://pre-commit.com/
+    :alt: Pre-commit
+
+.. |code-quality| image:: https://app.codacy.com/project/badge/Grade/660ff8ebe55d4ecbaa043bc5216a1d30
+    :target: https://lgtm.com/projects/g/GalBenZvi/bids-derivatives/context:python
+    :alt: Code quality: Python
+
+.. |python-quality| image:: https://img.shields.io/lgtm/grade/python/g/GalBenZvi/bids-derivatives.svg
+    :target: https://www.codacy.com/gh/GalBenZvi/bids-derivatives/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GalBenZvi/bids-derivatives&amp;utm_campaign=Badge_Grade
+    :alt: Code quality
+
+.. |github-actions| image:: https://github.com/GalBenZvi/bids-derivatives/actions/workflows/github-workflow.yml/badge.svg
+    :alt: GitHub Actions Build Status
+    :target: https://github.com/GalBenZvi/bids-derivatives/actions
+
+.. |requires| image:: https://requires.io/github/GalBenZvi/bids-derivatives/requirements.svg?branch=main
+    :alt: Requirements Status
+    :target: https://requires.io/github/GalBenZvi/bids-derivatives/requirements/?branch=main
+
+.. |codecov| image:: https://codecov.io/gh/GalBenZvi/bids-derivatives/branch/main/graphs/badge.svg?branch=main
+    :alt: Coverage Status
+    :target: https://codecov.io/github/GalBenZvi/bids-derivatives
+
+.. |version| image:: https://badge.fury.io/py/bids-derivatives.svg
+    :alt: PyPI Package latest release
+    :target: https://pypi.org/project/bids-derivatives
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/bids-derivatives.svg
+    :alt: PyPI Wheel
+    :target: https://pypi.org/project/bids-derivatives
+
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/bids_derivatives.svg
+    :alt: Supported versions
+    :target: https://pypi.org/project/bids_derivatives
+
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/bids_derivatives.svg
+    :alt: Supported implementations
+    :target: https://pypi.org/project/bids_derivatives
+
+.. |commits-since| image:: https://img.shields.io/github/commits-since/GalBenZvi/bids_derivatives/v0.0.0.svg
+    :alt: Commits since latest release
+    :target: https://github.com/GalBenZvi/bids_derivatives/compare/v0.0.0...main
+
+
+
+.. end-badges
+
+Python package for querying BIDS Apps` processed derivatives.
+
+* Free software: Apache Software License 2.0
+
+Installation
+============
+
+::
+
+    pip install bids_derivatives
+
+You can also install the in-development version with::
+
+    pip install https://github.com/GalBenZvi/bids_derivatives/archive/main.zip
+
+
+Documentation
+=============
+
+
+https://bids_derivatives.readthedocs.io/
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
