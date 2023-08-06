@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mkdocs-placeholder-plugin
+Version: 0.0.1
+Summary: Add dynamic placeholders to your mkdocs page
+Home-page: https://github.com/six-two/mkdocs-placeholder-plugin
+Author: six-two
+Author-email: pip@six-two.dev
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MkDocs Placeholder Plugin
+
+TODO
+
+## TODOs
+
+- What about the search entries? Can I hook into them for the normal MkDocs and the MkDocs for material plugins?
