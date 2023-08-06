@@ -1,0 +1,2190 @@
+{
+    "schema": {
+        "labels": {
+            "year": {
+                "type": "int",
+                "validators": {
+                    "choice": {
+                        "choices": [
+                            2013,
+                            2014,
+                            2015,
+                            2016,
+                            2017,
+                            2018,
+                            2019,
+                            2020,
+                            2021,
+                            2022,
+                            2023,
+                            2024,
+                            2025,
+                            2026,
+                            2027,
+                            2028,
+                            2029,
+                            2030,
+                            2031
+                        ]
+                    }
+                }
+            }
+        },
+        "additional_members": {
+            "section_1": {"type": "str"},
+            "section_2": {"type": "str"}
+          }
+    },
+    "CIT_rate": {
+        "title": "Top statutory corporate income tax rate",
+        "description": "Top statutory corporate income tax rate",
+        "section_1": "Business-entity level taxes",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.35
+            },
+            {
+                "year": 2014,
+                "value": 0.35
+            },
+            {
+                "year": 2015,
+                "value": 0.35
+            },
+            {
+                "year": 2016,
+                "value": 0.35
+            },
+            {
+                "year": 2017,
+                "value": 0.35
+            },
+            {
+                "year": 2018,
+                "value": 0.21
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "pt_entity_tax_ind": {
+        "title": "Pass-through businss entity-level tax indicator",
+        "description": "Indicator variable indicating whether or not there is an entity-level tax on pass-through businesses. This tax is levied on entity-level profits.  Owners also pay individual income taxes on the distributions.",
+        "section_1": "Business-entity level taxes",
+        "notes": "Note that is this indicator is True, then the METR calculation for pass-through businesses will represent the effects of the entity-level tax and not the indvidiual-level tax.  This is becaue the METR represents the effective tax rate from the first layer of taxation.  The statutory rate on pass-through entities is set with the pt_entity_tax_rate parameter.",
+        "type": "bool",
+        "value": [
+            {
+                "year": 2013,
+                "value": false
+            }
+        ],
+        "validators": {}
+    },
+    "pt_entity_tax_rate": {
+        "title": "Statutory income tax rate on pass-through business income levied at the entity level",
+        "description": "Statutory income tax rate on pass-through business income levied at the entity level.",
+        "section_1": "Business-entity level taxes",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "BonusDeprec_3yr": {
+        "title": "Bonus depreciation rate on 3-year class property",
+        "description": "Bonus depreciation rate on 3-year class property.",
+        "section_1": "Depreciation",
+        "section_2": "Bonus Depreciation",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.5
+            },
+            {
+                "year": 2014,
+                "value": 0.5
+            },
+            {
+                "year": 2015,
+                "value": 0.5
+            },
+            {
+                "year": 2016,
+                "value": 0.5
+            },
+            {
+                "year": 2017,
+                "value": 0.5
+            },
+            {
+                "year": 2018,
+                "value": 1.0
+            },
+            {
+                "year": 2019,
+                "value": 1.0
+            },
+            {
+                "year": 2020,
+                "value": 1.0
+            },
+            {
+                "year": 2021,
+                "value": 1.0
+            },
+            {
+                "year": 2022,
+                "value": 1.0
+            },
+            {
+                "year": 2023,
+                "value": 0.8
+            },
+            {
+                "year": 2024,
+                "value": 0.6
+            },
+            {
+                "year": 2025,
+                "value": 0.4
+            },
+            {
+                "year": 2026,
+                "value": 0.2
+            },
+            {
+                "year": 2027,
+                "value": 0.0
+            },
+            {
+                "year": 2028,
+                "value": 0.0
+            },
+            {
+                "year": 2029,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "BonusDeprec_5yr": {
+        "title": "Bonus depreciation rate on 5-year class property",
+        "description": "Bonus depreciation rate on 5-year class property.",
+        "section_1": "Depreciation",
+        "section_2": "Bonus Depreciation",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.5
+            },
+            {
+                "year": 2014,
+                "value": 0.5
+            },
+            {
+                "year": 2015,
+                "value": 0.5
+            },
+            {
+                "year": 2016,
+                "value": 0.5
+            },
+            {
+                "year": 2017,
+                "value": 0.5
+            },
+            {
+                "year": 2018,
+                "value": 1.0
+            },
+            {
+                "year": 2019,
+                "value": 1.0
+            },
+            {
+                "year": 2020,
+                "value": 1.0
+            },
+            {
+                "year": 2021,
+                "value": 1.0
+            },
+            {
+                "year": 2022,
+                "value": 1.0
+            },
+            {
+                "year": 2023,
+                "value": 0.8
+            },
+            {
+                "year": 2024,
+                "value": 0.6
+            },
+            {
+                "year": 2025,
+                "value": 0.4
+            },
+            {
+                "year": 2026,
+                "value": 0.2
+            },
+            {
+                "year": 2027,
+                "value": 0.0
+            },
+            {
+                "year": 2028,
+                "value": 0.0
+            },
+            {
+                "year": 2029,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "BonusDeprec_7yr": {
+        "title": "Bonus depreciation rate on 7-year class property",
+        "description": "Bonus depreciation rate on 7-year class property.",
+        "section_1": "Depreciation",
+        "section_2": "Bonus Depreciation",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.5
+            },
+            {
+                "year": 2014,
+                "value": 0.5
+            },
+            {
+                "year": 2015,
+                "value": 0.5
+            },
+            {
+                "year": 2016,
+                "value": 0.5
+            },
+            {
+                "year": 2017,
+                "value": 0.5
+            },
+            {
+                "year": 2018,
+                "value": 1.0
+            },
+            {
+                "year": 2019,
+                "value": 1.0
+            },
+            {
+                "year": 2020,
+                "value": 1.0
+            },
+            {
+                "year": 2021,
+                "value": 1.0
+            },
+            {
+                "year": 2022,
+                "value": 1.0
+            },
+            {
+                "year": 2023,
+                "value": 0.8
+            },
+            {
+                "year": 2024,
+                "value": 0.6
+            },
+            {
+                "year": 2025,
+                "value": 0.4
+            },
+            {
+                "year": 2026,
+                "value": 0.2
+            },
+            {
+                "year": 2027,
+                "value": 0.0
+            },
+            {
+                "year": 2028,
+                "value": 0.0
+            },
+            {
+                "year": 2029,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "BonusDeprec_10yr": {
+        "title": "Bonus depreciation rate on 10-year class property",
+        "description": "Bonus depreciation rate on 10-year class property.",
+        "section_1": "Depreciation",
+        "section_2": "Bonus Depreciation",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.5
+            },
+            {
+                "year": 2014,
+                "value": 0.5
+            },
+            {
+                "year": 2015,
+                "value": 0.5
+            },
+            {
+                "year": 2016,
+                "value": 0.5
+            },
+            {
+                "year": 2017,
+                "value": 0.5
+            },
+            {
+                "year": 2018,
+                "value": 1.0
+            },
+            {
+                "year": 2019,
+                "value": 1.0
+            },
+            {
+                "year": 2020,
+                "value": 1.0
+            },
+            {
+                "year": 2021,
+                "value": 1.0
+            },
+            {
+                "year": 2022,
+                "value": 1.0
+            },
+            {
+                "year": 2023,
+                "value": 0.8
+            },
+            {
+                "year": 2024,
+                "value": 0.6
+            },
+            {
+                "year": 2025,
+                "value": 0.4
+            },
+            {
+                "year": 2026,
+                "value": 0.2
+            },
+            {
+                "year": 2027,
+                "value": 0.0
+            },
+            {
+                "year": 2028,
+                "value": 0.0
+            },
+            {
+                "year": 2029,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "BonusDeprec_15yr": {
+        "title": "Bonus depreciation rate on 15-year class property",
+        "description": "Bonus depreciation rate on 15-year class property.",
+        "section_1": "Depreciation",
+        "section_2": "Bonus Depreciation",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.5
+            },
+            {
+                "year": 2014,
+                "value": 0.5
+            },
+            {
+                "year": 2015,
+                "value": 0.5
+            },
+            {
+                "year": 2016,
+                "value": 0.5
+            },
+            {
+                "year": 2017,
+                "value": 0.5
+            },
+            {
+                "year": 2018,
+                "value": 1.0
+            },
+            {
+                "year": 2019,
+                "value": 1.0
+            },
+            {
+                "year": 2020,
+                "value": 1.0
+            },
+            {
+                "year": 2021,
+                "value": 1.0
+            },
+            {
+                "year": 2022,
+                "value": 1.0
+            },
+            {
+                "year": 2023,
+                "value": 0.8
+            },
+            {
+                "year": 2024,
+                "value": 0.6
+            },
+            {
+                "year": 2025,
+                "value": 0.4
+            },
+            {
+                "year": 2026,
+                "value": 0.2
+            },
+            {
+                "year": 2027,
+                "value": 0.0
+            },
+            {
+                "year": 2028,
+                "value": 0.0
+            },
+            {
+                "year": 2029,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "BonusDeprec_20yr": {
+        "title": "Bonus depreciation rate on 20-year class property",
+        "description": "Bonus depreciation rate on 20-year class property.",
+        "section_1": "Depreciation",
+        "section_2": "Bonus Depreciation",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.5
+            },
+            {
+                "year": 2014,
+                "value": 0.5
+            },
+            {
+                "year": 2015,
+                "value": 0.5
+            },
+            {
+                "year": 2016,
+                "value": 0.5
+            },
+            {
+                "year": 2017,
+                "value": 0.5
+            },
+            {
+                "year": 2018,
+                "value": 1.0
+            },
+            {
+                "year": 2019,
+                "value": 1.0
+            },
+            {
+                "year": 2020,
+                "value": 1.0
+            },
+            {
+                "year": 2021,
+                "value": 1.0
+            },
+            {
+                "year": 2022,
+                "value": 1.0
+            },
+            {
+                "year": 2023,
+                "value": 0.8
+            },
+            {
+                "year": 2024,
+                "value": 0.6
+            },
+            {
+                "year": 2025,
+                "value": 0.4
+            },
+            {
+                "year": 2026,
+                "value": 0.2
+            },
+            {
+                "year": 2027,
+                "value": 0.0
+            },
+            {
+                "year": 2028,
+                "value": 0.0
+            },
+            {
+                "year": 2029,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "BonusDeprec_25yr": {
+        "title": "Bonus depreciation rate on 25-year class property",
+        "description": "Bonus depreciation rate on 25-year class property.",
+        "section_1": "Depreciation",
+        "section_2": "Bonus Depreciation",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "BonusDeprec_27_5yr": {
+        "title": "Bonus depreciation rate on 27.5-year class property",
+        "description": "Bonus depreciation rate on 27.5-year class property.",
+        "section_1": "Depreciation",
+        "section_2": "Bonus Depreciation",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "BonusDeprec_39yr": {
+        "title": "Bonus depreciation rate on 39-year class property",
+        "description": "Bonus depreciation rate on 39-year class property.",
+        "section_1": "Depreciation",
+        "section_2": "Bonus Depreciation",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "land_expensing": {
+        "title": "Expensing rate on land.",
+        "description": "Expensing rate on land.",
+        "section_1": "Depreciation",
+        "section_2": "Expensing Land and Inventories",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "ace_c": {
+        "title": "Allowance for corporate equity.",
+        "description": "Allowance for corporate equity (fraction of equity deductible)",
+        "section_1": "Deductions and Limitations on Financing",
+        "notes": "This parameter gives the allowance for corporate equity (ACE). Under an ACE system, companies can deduct a notional interest on their equity.  The default rate used in Cost-of-Capital-Calculator is the nominal interest rate on corporate debt.  Moving this parameter up from zero allows the corporate to have partial to full deductibility of the notional interest on equity.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "ace_pt": {
+        "title": "Allowance for non-corporate equity",
+        "description": "Allowance for non-corporate equity (fraction of equity deductible).",
+        "section_1": "Deductions and Limitations on Financing",
+        "notes": "This parameter gives the allowance for non-corporate equity (ACE). Only relevant if there is an entity-level tax on pass-through businesses (pt_entity_tax_ind=True).  Under an ACE system, companies can deduct a notional interest on their equity.  The default rate used in Cost-of-Capital-Calculator is the nominal interest rate on corporate debt.  Moving this parameter up from zero allows the corporate to have partial to full deductibility of the notional interest on equity.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "ace_int_rate": {
+        "title": "Notional interest rate on the allowance for corporate equity",
+        "description": "Notional interest rate on the allowance for corporate equity.",
+        "section_1": "Deductions and Limitations on Financing",
+        "notes": "The default rate used in Cost-of-Capital-Calculator is the nominal interest rate on corporate debt.  Moving this parameter up from zero allows the corporate to have partial to full deductibility of the notional interest on equity.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.068
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "interest_deduct_haircut_c": {
+        "title": "Haircut on interest deductibility for corporate entities",
+        "description": "Haircut on interest deductibility (fraction of interest not deductible) for C corporations.  Default of 0% because current law says limit is 30% of adjusted taxable income and the default assumption is that this is not binding for the marginal investment.",
+        "section_1": "Deductions and Limitations on Financing",
+        "notes": "This parameter gives the fraction of interest payments that are not allowable as deductions against income for C corporations.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "interest_deduct_haircut_pt": {
+        "title": "Haircut on interest deductibility for pass-through entities",
+        "description": "Haircut on interest deductibility (fraction of interest not deductible) for pass-through entities.",
+        "section_1": "Deductions and Limitations on Financing",
+        "notes": "This parameter gives the fraction of interest payments that are not allowable as deductions against income for pass-through entities.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "inv_tax_credit": {
+        "title": "Investment tax credit",
+        "description": "Investment tax credit rate.",
+        "section_1": "Investment Tax Credits and Property Tax",
+        "notes": "The investment tax credit rate gives the rate at which the cost of new investments are credited against the firm's tax liability.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "property_tax": {
+        "title": "Property tax rate",
+        "description": "Property tax rate.",
+        "section_1": "Investment Tax Credits and Property Tax",
+        "notes": "Tax rate on business property.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "phi": {
+        "title": "Fraction of inventories that are accounted for using LIFO",
+        "description": "Fraction of inventories that are accounted for using LIFO.",
+        "section_1": "Accounting and Financial Policy",
+        "notes": "Fraction of inventories that are accounted for using LIFO.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.5
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "inventory_expensing": {
+        "title": "Indicator for whether inventories are immediately expensed",
+        "description": "Indicator for whether inventories are immediately expensed.",
+        "section_1": "Depreciation",
+        "section_2": "Expensing Land and Inventories",
+        "notes": "Indicator for whether inventories are immediately expensed.",
+        "type": "bool",
+        "value": [
+            {
+                "year": 2013,
+                "value": false
+            }
+        ],
+        "validators": {}
+    },
+    "tau_pt": {
+        "title": "Effective marginal tax rate on business income to pass-through business owners",
+        "description": "Effective marginal tax rate on business income to pass-through business owners.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Marginal Tax Rates",
+        "notes": "Effective marginal tax rate on business income to pass-through business owners.  Computed from Tax-Calculator vX.X.X using the 2009 PUF.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.2548341698618564
+            },
+            {
+            "year": 2014 ,
+            "value": 0.22443877657035863
+            },
+            {
+            "year": 2015 ,
+            "value": 0.21585629998085976
+            },
+            {
+            "year": 2016 ,
+            "value": 0.21510236982553124
+            },
+            {
+            "year": 2017 ,
+            "value": 0.21031694131511047
+            },
+            {
+            "year": 2018 ,
+            "value": 0.20225723381414754
+            },
+            {
+            "year": 2019 ,
+            "value": 0.20163824770814537
+            },
+            {
+            "year": 2020 ,
+            "value": 0.20626637662319683
+            },
+            {
+            "year": 2021 ,
+            "value": 0.21827060301254372
+            },
+            {
+            "year": 2022 ,
+            "value": 0.20291414570263092
+            },
+            {
+            "year": 2023 ,
+            "value": 0.20403930424502312
+            },
+            {
+            "year": 2024 ,
+            "value": 0.2044725726393892
+            },
+            {
+            "year": 2025 ,
+            "value": 0.20553341972624828
+            },
+            {
+            "year": 2026 ,
+            "value": 0.2582660875330368
+            },
+            {
+            "year": 2027 ,
+            "value": 0.2582328882839886
+            },
+            {
+            "year": 2028 ,
+            "value": 0.2577027714758126
+            },
+            {
+            "year": 2029 ,
+            "value": 0.2573614072649535
+            },
+            {
+            "year": 2030 ,
+            "value": 0.2567124949453626
+            },
+            {
+            "year": 2031 ,
+            "value": 0.2563593996910866
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "tau_div": {
+        "title": "Effective marginal tax rate on dividends",
+        "description": "Effective marginal tax rate on dividends.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Marginal Tax Rates",
+        "notes": "Effective marginal tax rate on dividends.  Computed from Tax-Calculator vX.X.X using the 2009 PUF.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.1826392977480127
+            },
+            {
+            "year": 2014 ,
+            "value": 0.17334370264652058
+            },
+            {
+            "year": 2015 ,
+            "value": 0.15673619523625357
+            },
+            {
+            "year": 2016 ,
+            "value": 0.15510108559559418
+            },
+            {
+            "year": 2017 ,
+            "value": 0.15702169590996728
+            },
+            {
+            "year": 2018 ,
+            "value": 0.1714235620124941
+            },
+            {
+            "year": 2019 ,
+            "value": 0.17108145620195211
+            },
+            {
+            "year": 2020 ,
+            "value": 0.1779528528546677
+            },
+            {
+            "year": 2021 ,
+            "value": 0.18164157074481785
+            },
+            {
+            "year": 2022 ,
+            "value": 0.1717947938791924
+            },
+            {
+            "year": 2023 ,
+            "value": 0.17212268280238407
+            },
+            {
+            "year": 2024 ,
+            "value": 0.17291357878433733
+            },
+            {
+            "year": 2025 ,
+            "value": 0.17321833066290412
+            },
+            {
+            "year": 2026 ,
+            "value": 0.18006230112710928
+            },
+            {
+            "year": 2027 ,
+            "value": 0.18078768908322565
+            },
+            {
+            "year": 2028 ,
+            "value": 0.1797062487776469
+            },
+            {
+            "year": 2029 ,
+            "value": 0.18037434007781822
+            },
+            {
+            "year": 2030 ,
+            "value": 0.18088008705472802
+            },
+            {
+            "year": 2031 ,
+            "value": 0.18130683794800126
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "tau_int": {
+        "title": "Effective marginal tax rate on interest income",
+        "description": "Effective marginal tax rate on interest income.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Marginal Tax Rates",
+        "notes": "Effective marginal tax rate on interest income.  Computed from Tax-Calculator vX.X.X using the 2009 PUF.",
+        "type": "float",
+        "value": [
+            {
+            "year": 2013,
+            "value": 0.34774779605673567
+            },
+            {
+            "year": 2014 ,
+            "value": 0.32261240138937347
+            },
+            {
+            "year": 2015 ,
+            "value": 0.3076480743971044
+            },
+            {
+            "year": 2016 ,
+            "value": 0.308920694349591
+            },
+            {
+            "year": 2017 ,
+            "value": 0.3085545900050935
+            },
+            {
+            "year": 2018 ,
+            "value": 0.3110433595987392
+            },
+            {
+            "year": 2019 ,
+            "value": 0.3114375127142657
+            },
+            {
+            "year": 2020 ,
+            "value": 0.3163831028807114
+            },
+            {
+            "year": 2021 ,
+            "value": 0.31991781370521194
+            },
+            {
+            "year": 2022 ,
+            "value": 0.31126241200353805
+            },
+            {
+            "year": 2023 ,
+            "value": 0.31190281685886717
+            },
+            {
+            "year": 2024 ,
+            "value": 0.31307773235603226
+            },
+            {
+            "year": 2025 ,
+            "value": 0.31364795525256933
+            },
+            {
+            "year": 2026 ,
+            "value": 0.34241105113813397
+            },
+            {
+            "year": 2027 ,
+            "value": 0.34346679458820084
+            },
+            {
+            "year": 2028 ,
+            "value": 0.34170345299163096
+            },
+            {
+            "year": 2029 ,
+            "value": 0.34175539737254584
+            },
+            {
+            "year": 2030 ,
+            "value": 0.3418804462927451
+            },
+            {
+            "year": 2031 ,
+            "value": 0.342131410155675
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "tau_scg": {
+        "title": "Effective marginal tax rate on short-term capital gains",
+        "description": "Effective marginal tax rate on short-term capital gains.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Marginal Tax Rates",
+        "notes": "Effective marginal tax rate on short-term capital gains.  Computed from Tax-Calculator vX.X.X using the 2009 PUF.",
+        "type": "float",
+        "value": [
+            {
+            "year": 2013,
+            "value": 0.31175417200609673
+            },
+            {
+            "year": 2014 ,
+            "value": 0.3078058696150367
+            },
+            {
+            "year": 2015 ,
+            "value": 0.2997903527512899
+            },
+            {
+            "year": 2016 ,
+            "value": 0.294989814341256
+            },
+            {
+            "year": 2017 ,
+            "value": 0.30343867413634407
+            },
+            {
+            "year": 2018 ,
+            "value": 0.2780535917176987
+            },
+            {
+            "year": 2019 ,
+            "value": 0.2794899790338262
+            },
+            {
+            "year": 2020 ,
+            "value": 0.2850461228713547
+            },
+            {
+            "year": 2021 ,
+            "value": 0.2922664352482566
+            },
+            {
+            "year": 2022 ,
+            "value": 0.2836037018017113
+            },
+            {
+            "year": 2023 ,
+            "value": 0.2805700041592783
+            },
+            {
+            "year": 2024 ,
+            "value": 0.28033580320505885
+            },
+            {
+            "year": 2025 ,
+            "value": 0.2801626546045623
+            },
+            {
+            "year": 2026 ,
+            "value": 0.3202494344736067
+            },
+            {
+            "year": 2027 ,
+            "value": 0.32036002883743764
+            },
+            {
+            "year": 2028 ,
+            "value": 0.3193758233511256
+            },
+            {
+            "year": 2029 ,
+            "value": 0.32045657829558155
+            },
+            {
+            "year": 2030 ,
+            "value": 0.3209612053109908
+            },
+            {
+            "year": 2031 ,
+            "value": 0.3220847782359248
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "tau_lcg": {
+        "title": "Effective marginal tax rate on long-term capital gains",
+        "description": "Effective marginal tax rate on long-term capital gains.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Marginal Tax Rates",
+        "notes": "Effective marginal tax rate on long-term capital gains.  Computed from Tax-Calculator vX.X.X using the 2009 PUF.",
+        "type": "float",
+        "value": [
+            {
+            "year": 2013,
+            "value": 0.18167106746264436
+            },
+            {
+            "year": 2014 ,
+            "value": 0.18094601189535214
+            },
+            {
+            "year": 2015 ,
+            "value": 0.17581414561648379
+            },
+            {
+            "year": 2016 ,
+            "value": 0.1724938478803715
+            },
+            {
+            "year": 2017 ,
+            "value": 0.18021518416538818
+            },
+            {
+            "year": 2018 ,
+            "value": 0.1781651985605761
+            },
+            {
+            "year": 2019 ,
+            "value": 0.1795517723015569
+            },
+            {
+            "year": 2020 ,
+            "value": 0.1845279357979046
+            },
+            {
+            "year": 2021 ,
+            "value": 0.19143873144863438
+            },
+            {
+            "year": 2022 ,
+            "value": 0.1834688232059681
+            },
+            {
+            "year": 2023 ,
+            "value": 0.1807099252574523
+            },
+            {
+            "year": 2024 ,
+            "value": 0.18059907080141954
+            },
+            {
+            "year": 2025 ,
+            "value": 0.18010248231677373
+            },
+            {
+            "year": 2026 ,
+            "value": 0.1898910050929022
+            },
+            {
+            "year": 2027 ,
+            "value": 0.19011396963490554
+            },
+            {
+            "year": 2028 ,
+            "value": 0.19012221407552482
+            },
+            {
+            "year": 2029 ,
+            "value": 0.19069310439431517
+            },
+            {
+            "year": 2030 ,
+            "value": 0.19109693189364516
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "tau_xcg": {
+        "title": "Marginal tax rate on capital gains held until death",
+        "description": "Marginal tax rate on capital gains held until death.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Marginal Tax Rates",
+        "notes": "Marginal tax rate on capital gains held until death.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "tau_td": {
+        "title": "Effective marginal tax rate on assets held in tax-deferred accounts",
+        "description": "Effective marginal tax rate on assets held in tax-deferred accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Marginal Tax Rates",
+        "notes": "Effective marginal tax rate on assets held in tax-deferred accounts.  Default value from CBO (2014)",
+        "type": "float",
+        "value": [
+            {
+            "year": 2013,
+            "value": 0.2241245206327006
+            },
+            {
+            "year": 2014 ,
+            "value": 0.22379482226677774
+            },
+            {
+            "year": 2015 ,
+            "value": 0.22327600342220255
+            },
+            {
+            "year": 2016 ,
+            "value": 0.22350881061076866
+            },
+            {
+            "year": 2017 ,
+            "value": 0.22471543746063888
+            },
+            {
+            "year": 2018 ,
+            "value": 0.20029271467362
+            },
+            {
+            "year": 2019 ,
+            "value": 0.2014431040312909
+            },
+            {
+            "year": 2020 ,
+            "value": 0.2127443574847081
+            },
+            {
+            "year": 2021 ,
+            "value": 0.21615703125568042
+            },
+            {
+            "year": 2022 ,
+            "value": 0.20469421436932186
+            },
+            {
+            "year": 2023 ,
+            "value": 0.20586846048051385
+            },
+            {
+            "year": 2024 ,
+            "value": 0.2071398110104838
+            },
+            {
+            "year": 2025 ,
+            "value": 0.20800606777363373
+            },
+            {
+            "year": 2026 ,
+            "value": 0.2427017812004605
+            },
+            {
+            "year": 2027 ,
+            "value": 0.2438490968295212
+            },
+            {
+            "year": 2028 ,
+            "value": 0.24444510495668342
+            },
+            {
+            "year": 2029 ,
+            "value": 0.24570167674973403
+            },
+            {
+            "year": 2030 ,
+            "value": 0.24652610264884317
+            },
+            {
+            "year": 2031 ,
+            "value": 0.24738788665475567
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "tau_h": {
+        "title": "Effective marginal tax rate on owner occupied housing deductions",
+        "description": "Effective marginal tax rate on owner occupied housing deductions.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Marginal Tax Rates",
+        "notes": "Effective marginal tax rate on owner occupied housing deductions.  Computed from Tax-Calculator vX.X.X using the 2009 PUF.",
+        "type": "float",
+        "value": [
+            {
+            "year": 2013,
+            "value": 0.14304639378703857
+            },
+            {
+            "year": 2014 ,
+            "value": 0.14256595777742778
+            },
+            {
+            "year": 2015 ,
+            "value": 0.14280394980540778
+            },
+            {
+            "year": 2016 ,
+            "value": 0.1438994632053754
+            },
+            {
+            "year": 2017 ,
+            "value": 0.14710045681402537
+            },
+            {
+            "year": 2018 ,
+            "value": 0.03790912133195912
+            },
+            {
+            "year": 2019 ,
+            "value": 0.03840947222469753
+            },
+            {
+            "year": 2020 ,
+            "value": 0.038696139492912424
+            },
+            {
+            "year": 2021 ,
+            "value": 0.03972710623981246
+            },
+            {
+            "year": 2022 ,
+            "value": 0.038774680034426634
+            },
+            {
+            "year": 2023 ,
+            "value": 0.039224008942388984
+            },
+            {
+            "year": 2024 ,
+            "value": 0.03924761992294682
+            },
+            {
+            "year": 2025 ,
+            "value": 0.03932547420367089
+            },
+            {
+            "year": 2026 ,
+            "value": 0.15494891463350874
+            },
+            {
+            "year": 2027 ,
+            "value": 0.15572184940441916
+            },
+            {
+            "year": 2028 ,
+            "value": 0.15615195122243605
+            },
+            {
+            "year": 2029 ,
+            "value": 0.15655930817688535
+            },
+            {
+            "year": 2030 ,
+            "value": 0.1571174720837687
+            },
+            {
+            "year": 2031 ,
+            "value": 0.15772112542305236
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "tau_w": {
+        "title": "Effective marginal tax rate on wealth",
+        "description": "Effective marginal tax rate on wealth.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Marginal Tax Rates",
+        "notes": "Effective marginal tax rate on wealth.  Computed as a weighted average across the population.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.0
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "inflation_rate": {
+        "title": "Inflation rate",
+        "description": "Inflation rate.",
+        "section_1": "Economic Assumptions",
+        "notes": "The default inflation rate is determined by the forecast of the Congressional Budget Office (CBO) for the PCE price index.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.012
+            },
+            {
+                "year": 2014,
+                "value": 0.013
+            },
+            {
+                "year": 2015,
+                "value": 0.011
+            },
+            {
+                "year": 2016,
+                "value": 0.008
+            },
+            {
+                "year": 2017,
+                "value": 0.017
+            },
+            {
+                "year": 2018,
+                "value": 0.021
+            },
+            {
+                "year": 2019,
+                "value": 0.016
+            },
+            {
+                "year": 2020,
+                "value": 0.021
+            },
+            {
+                "year": 2021,
+                "value": 0.021
+            },
+            {
+                "year": 2022,
+                "value": 0.021
+            },
+            {
+                "year": 2023,
+                "value": 0.02
+            },
+            {
+                "year": 2024,
+                "value": 0.02
+            },
+            {
+                "year": 2025,
+                "value": 0.02
+            },
+            {
+                "year": 2026,
+                "value": 0.02
+            },
+            {
+                "year": 2027,
+                "value": 0.02
+            },
+            {
+                "year": 2028,
+                "value": 0.02
+            },
+            {
+                "year": 2029,
+                "value": 0.02
+            }
+
+        ],
+        "validators": {
+            "range": {
+                "min": -0.1,
+                "max": 0.2
+            }
+        }
+    },
+    "nominal_interest_rate": {
+        "title": "Nominal interest rate paid on business debt",
+        "description": "Nominal interest rate paid on business debt.",
+        "section_1": "Economic Assumptions",
+        "notes": "The default nominal interest rate is taken as the yeild on BBB corporate bonds.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.068
+            },
+            {
+                "year": 2014,
+                "value": 0.068
+            },
+            {
+                "year": 2015,
+                "value": 0.068
+            },
+            {
+                "year": 2016,
+                "value": 0.068
+            },
+            {
+                "year": 2017,
+                "value": 0.068
+            },
+            {
+                "year": 2018,
+                "value": 0.068
+            },
+            {
+                "year": 2019,
+                "value": 0.068
+            },
+            {
+                "year": 2020,
+                "value": 0.068
+            }
+
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 0.2
+            }
+        }
+    },
+    "E_c": {
+        "title": "Expected, after-tax return on corporate equity",
+        "description": "Expected, after-tax return on corporate equity.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Expected, after-tax return on corporate equity.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.058
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 0.2
+            }
+        }
+    },
+    "f_c": {
+        "title": "Fraction of corporate investment financed by debt",
+        "description": "Fraction of corporate investment financed by debt.",
+        "section_1": "Accounting and Financial Policy",
+        "notes": "Fraction of corporate investment financed by debt.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.32
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "f_pt": {
+        "title": "Fraction of non-corporate investment financed by debt",
+        "description": "Fraction of non-corporate investment financed by debt.",
+        "section_1": "Accounting and Financial Policy",
+        "notes": "Fraction of non-corporate investment financed by debt.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.29
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "omega_scg": {
+        "title": "Fraction of capital gains that are taxed at short-term rate",
+        "description": "Fraction of capital gains that are taxed at short-term rate.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of capital gains that are taxed at short-term rate.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.035
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "omega_lcg": {
+        "title": "Fraction of capital gains that are taxed at long-term rate",
+        "description": "Fraction of capital gains that are taxed at long-term rate.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of capital gains that are taxed at long-term rate.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.496
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "omega_xcg": {
+        "title": "Fraction of capital gains that are held until death",
+        "description": "Fraction of capital gains that are held until death",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of capital gains that are held until death.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.469
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_c_e_ft": {
+        "title": "Fraction of corporate equity held in fully-taxable accounts",
+        "description": "Fraction of corporate equity held in fully-taxable accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of corporate equity held in fully-taxable accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.572
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_c_e_td": {
+        "title": "Fraction of corporate equity held in tax-deferred accounts",
+        "description": "Fraction of corporate equity held in tax-deferred accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of corporate equity held in tax-deferred accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.039
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_c_e_nt": {
+        "title": "Fraction of corporate equity held in non-taxable accounts",
+        "description": "Fraction of corporate equity held in non-taxable accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of corporate equity held in non-taxable accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.389
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_c_d_ft": {
+        "title": "Fraction of corporate debt held in fully-taxable accounts",
+        "description": "Fraction of corporate debt held in fully-taxable accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of corporate debt held in fully-taxable accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.523
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_c_d_td": {
+        "title": "Fraction of corporate debt held in tax-deferred accounts",
+        "description": "Fraction of corporate debt held in tax-deferred accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of corporate debt held in tax-deferred accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.149
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_c_d_nt": {
+        "title": "Fraction of corporate debt held in non-taxable accounts",
+        "description": "Fraction of corporate debt held in non-taxable accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of corporate debt held in non-taxable accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.328
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_pt_d_ft": {
+        "title": "Fraction of non-corporate debt held in fully-taxable accounts",
+        "description": "Fraction of non-corporate debt held in fully-taxable accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of non-corporate debt held in fully-taxable accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.763
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_pt_d_td": {
+        "title": "Fraction of non-corporate debt held in tax-deferred accounts",
+        "description": "Fraction of non-corporate debt held in tax-deferred accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of non-corporate debt held in tax-deferred accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.101
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_pt_d_nt": {
+        "title": "Fraction of non-corporate debt held in non-taxable accounts",
+        "description": "Fraction of non-corporate debt held in non-taxable accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of non-corporate debt held in non-taxable accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.136
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_h_d_ft": {
+        "title": "Fraction of homeowner equity held in fully-taxable accounts",
+        "description": "Fraction of homeowner equity held in fully-taxable accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of homeowner equity held in fully-taxable accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.779
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_h_d_td": {
+        "title": "Fraction of homeowner equity held in tax-deferred accounts",
+        "description": "Fraction of homeowner equity held in tax-deferred accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of homeowner equity held in tax-deferred accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.037
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "alpha_h_d_nt": {
+        "title": "Fraction of homeowner equity held in non-taxable accounts",
+        "description": "Fraction of homeowner equity held in non-taxable accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of homeowner equity held in non-taxable accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.183
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "Y_td": {
+        "title": "Number of years assets are held in tax-deferred accounts",
+        "description": "Number of years assets are held in tax-deferred accounts.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Number of years assets are held in tax-deferred accounts.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 8
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 100.0
+            }
+        }
+    },
+    "Y_scg": {
+        "title": "Number of years assets held before short-term capital gains are realized",
+        "description": "Number of years assets held before short-term capital gains are realized.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Number of years assets held before short-term capital gains are realized.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.3333
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 100.0
+            }
+        }
+    },
+    "Y_lcg": {
+        "title": "Number of years assets held before long-term capital gains are realized",
+        "description": "Number of years assets held before long-term capital gains are realized.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Number of years assets held before long-term capital gains are realized.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 8
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 100.0
+            }
+        }
+    },
+    "Y_xcg": {
+        "title": "Number of years assets held before death",
+        "description": "Number of years assets held before death.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Number of years assets held before death.  Default value set to be the same as long-term capital gains realizations.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 8
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 100.0
+            }
+        }
+    },
+    "Y_v": {
+        "title": "Number of years inventories are held",
+        "description": "Number of years inventories are held.",
+        "section_1": "Accounting and Financial Policy",
+        "notes": "Number of years inventories are held.  Default value taken from CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.3333
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 100.0
+            }
+        }
+    },
+    "gamma": {
+        "title": "Fraction of debt owned through whole life-insurance policies",
+        "description": "Fraction of debt owned through whole life-insurance policies.",
+        "section_1": "Individual Level Taxes",
+        "section_2": "Household Savings Behavior",
+        "notes": "Fraction of debt owned through whole life-insurance policies.  Default value from CBO's Computing Effective Tax Rates on Capital Income (2007)",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.3
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "m": {
+        "title": "Share of equity return retained by the firm and reinvested",
+        "description": "The share of the real equity return retained by the firm and reinvested",
+        "section_1": "Accounting and Financial Policy",
+        "notes": "The share of the real equity return retained by the firm and reinvested.  Default value taken from 1 - dividend payout rate reported in CBO (2014): https://www.cbo.gov/sites/default/files/113th-congress-2013-2014/reports/49817-taxingcapitalincome0.pdf",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.56
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "profit_rate": {
+        "title": "Profit rate used when computing EATR",
+        "description": "Profit rate used when computing EATR.",
+        "section_1": "Accounting and Financial Policy",
+        "notes": "Profit rate used when computing EATR.",
+        "type": "float",
+        "value": [
+            {
+                "year": 2013,
+                "value": 0.2
+            }
+        ],
+        "validators": {
+            "range": {
+                "min": 0.0,
+                "max": 1.0
+            }
+        }
+    },
+    "new_view": {
+        "title": "Whether or not use the new view of dividend taxation",
+        "description": "Whether or not use the new view of dividend taxation.",
+        "section_1": "Accounting and Financial Policy",
+        "notes": "Under the new view of dividend taxation, dividend taxes do not influence investment decisions.  Under the old view, they do.",
+        "type": "bool",
+        "value": [
+            {
+                "year": 2013,
+                "value": false
+            }
+        ],
+        "validators": {}
+    }
+}
