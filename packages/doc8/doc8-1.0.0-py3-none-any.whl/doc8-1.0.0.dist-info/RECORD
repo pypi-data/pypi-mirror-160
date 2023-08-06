@@ -1,0 +1,16 @@
+doc8/__init__.py,sha256=yXJhu64sSjugDeWwYDlajM2AvbDwfx2mcwBQov-H_dA,31
+doc8/__main__.py,sha256=ZP63alb2vVGlZHiWMZgMOiBkzQQsjElkg0p25rO7Rvk,641
+doc8/checks.py,sha256=YHCEZ6X7l7ZBKAqX0XC9BxQd1eliDo_Oxi5dXVRhSUE,11244
+doc8/main.py,sha256=YvazNujBkk_uOdeMNV8y93HXL4H5iD56wg0OspSH_IA,17142
+doc8/parser.py,sha256=4IAmQJGbNBcnWbos0teVMGRHtZTLdSjTQ7YyOxQGTxU,4545
+doc8/utils.py,sha256=C_H3MSLhTIGeZdc3Q4x7pwXho-AweBKIwnyqGmYKXOI,2512
+doc8/version.py,sha256=YvaNTFzPD8gjwMkt_0m-dk81RuCeumOlZoc4SgYCLWM,928
+doc8/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doc8/tests/test_checks.py,sha256=nkVK7S6kFvje3Q4Ce1U7P1P4IQ0Kbk3pQf0d75Bujpc,6658
+doc8/tests/test_main.py,sha256=Of6zRB4mrJM5Q1AGXBofOvmzlLv9eyBBU0l9hO7wDsk,16017
+doc8-1.0.0.dist-info/LICENSE,sha256=qK0xscP0DcpahBGTUbj6jdyGjt13-tio6_bY8tFvpK4,11324
+doc8-1.0.0.dist-info/METADATA,sha256=jsaE81uOb2R9Lb2E-g4tZA0xQzNkRAXSKA1wlXnYP9A,7806
+doc8-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+doc8-1.0.0.dist-info/entry_points.txt,sha256=MNf5vJHYrmn1Q_Vnikpgl8x1K4Z0Lrn10WUd346AaLA,40
+doc8-1.0.0.dist-info/top_level.txt,sha256=7MFJeW_3ati66iIFFMSX-DRw0LgHy4Sp-hP4vWmUYPE,5
+doc8-1.0.0.dist-info/RECORD,,
