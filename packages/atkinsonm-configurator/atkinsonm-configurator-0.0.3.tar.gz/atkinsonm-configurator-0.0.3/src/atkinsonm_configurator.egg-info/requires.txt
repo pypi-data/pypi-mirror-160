@@ -1,0 +1,7 @@
+click
+dataclasses-json
+paramiko
+pkginfo
+pyyaml
+requests-toolbelt
+twine
