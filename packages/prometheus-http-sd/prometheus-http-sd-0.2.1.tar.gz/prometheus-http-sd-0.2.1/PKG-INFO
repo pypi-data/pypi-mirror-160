@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: prometheus-http-sd
+Version: 0.2.1
+Summary: Prometheus HTTP SD framework.
+Author: laixintao
+Author-email: laixintaoo@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (>=2.1.3,<3.0.0)
+Requires-Dist: prometheus-client (>=0.14.1,<0.15.0)
+Requires-Dist: waitress (>=2.1.2,<3.0.0)
