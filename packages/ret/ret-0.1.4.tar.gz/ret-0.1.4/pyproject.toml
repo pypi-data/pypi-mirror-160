@@ -1,0 +1,61 @@
+[tool.poetry]
+name = "ret"
+version = "0.1.4"
+description = "A pure-python command-line regular expression tool for stream filtering, extracting, and parsing."
+authors = ["Bryan Hu <bryan.hu.2020@gmail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.rst"
+keywords = ["regex", "cli", "tool", "grep"]
+classifiers = [
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",  # Optional support
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Development Status :: 4 - Beta",
+    "Natural Language :: English",
+    "Environment :: Console",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+packages = [{include = "ret"}]
+homepage = "https://github.com/ThatXliner/ret/"
+
+[tool.poetry.urls]
+"Source Code" = "https://github.com/ThatXliner/ret"
+"Bug Tracker" = "https://github.com/ThatXliner/ret/issues"
+"Say Thanks! "= "https://saythanks.io/to/bryan.hu.2020@gmail.com"
+
+[tool.poetry.scripts]
+ret = "ret.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.extras]
+regex = ["regex"]
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+mypy = "*"
+pylint = "^2.6.0"
+isort = "^5.6.4"
+black = "^20.8b1"
+flake8 = "^3.8.4"
+bandit = "^1.6.2"
+Pygments = "^2.7.2"
+docutils = "^0.16"
+pytest-cov = "^2.11.1"
+
+[pycodestyle]
+max_line_length = 90
+ignore = "E4"
+[tool.autopep8]
+max_line_length = 90
+ignore = "E4"
+[tool.isort]
+profile = "black"
+line_length = 90
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
