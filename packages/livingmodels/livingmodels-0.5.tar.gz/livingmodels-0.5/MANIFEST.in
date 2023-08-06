@@ -1,0 +1,5 @@
+prune app, tests
+graft app/models
+graft livingmodels
+prune app/models/__pycache__
+global-exclude *.md
