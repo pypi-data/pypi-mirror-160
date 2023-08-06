@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+mplfinance
+backtrader
+sqlalchemy
+diskcache
+requests
+rich
+scipy
+bs4
