@@ -1,0 +1,2 @@
+[console_scripts]
+housing = housing.main:run

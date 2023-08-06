@@ -1,0 +1,16 @@
+housing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+housing/housing.cfg,sha256=5xmZOnd1KgKJvft7dgH8K9IkU6dD-tD3UxOdSwQ9wb0,84
+housing/ingest_data.py,sha256=8sA8vDX4m9SgtIJ282nLa77E-cfZ80rRhadOeBxqe-o,10006
+housing/main.py,sha256=Y7I9m1f5LhGZnhgn4E0aMfWQw-anPWt9-VtlBqjl6Ss,2091
+housing/mlflow_utils.py,sha256=fpoijVuOL_WfsgVyTpxLrRHxqUqFxF45KVlAxX6zELo,793
+housing/score.py,sha256=m-3xEJdu2HvIGo7QIlxdJ90w8CEE-CHMGFM_jteOFHs,5230
+housing/setup_logger.py,sha256=mD029MY1DSHe_zeoamh8F10s01_p0ez2fNrtT02DywE,1498
+housing/sklearn_utils.py,sha256=QgEU-dWiLBrij3sfngqPZaxgciXZTefyGrqysksY3x4,3210
+housing/train.py,sha256=KTH1IHQX2OjSpwcSZanNJPZCPM_yjupaggLtK33RLMI,10161
+housing/transformers.py,sha256=PtjI_SjggnZ6hs2gPARLdXnbuFSZOdxX87xMZsE0qmk,2333
+housing_prediction-0.4.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+housing_prediction-0.4.dist-info/METADATA,sha256=gqRpKTknb9FhvtCTir8cuIpIXA2mWgP3Ar0p7dJAGVY,3679
+housing_prediction-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+housing_prediction-0.4.dist-info/entry_points.txt,sha256=Mph54Zqojb7Ox5PPr7w3xuYsjPp6g2dtDih_Vkrxf3U,45
+housing_prediction-0.4.dist-info/top_level.txt,sha256=PQMOw-pCpGEPyKBJ8jSSAOyF7-q2rqppMXEoxxVWS7o,8
+housing_prediction-0.4.dist-info/RECORD,,
