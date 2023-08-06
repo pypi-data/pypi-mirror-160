@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: predictionrevisited
+Version: 1.0.0
+Summary: Prediction Revisited module for observation-based prediction
+Home-page: https://www.predictionrevisited.com
+Author: Megan Czasonis and David Turkington
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+Prediction Revisited
+====================
+
+Version 1.0.0
+
+This python module implements the core statistical concepts from the book
+"Prediction Revisited: The Importance of Observation" by Megan Czasonis, Mark
+Kritzman and David Turkington. In short, these methods form predictions by
+interpreting data as 'experiences' rather than variables, which builds from a
+rigorous base of information theory and facilitates intuitive interpretation
+of predictions as averages of prior outcomes. This procedure works on the
+principle of relevance, which is determined using the Mahalanobis distance. 
+
+The baseline predictions from a relevance-weighted average match those of 
+ordinary least squares linear regression. However, this view allows us to gain
+additional insight from the importance of each observation, and it allows us
+to extend linear regression to Partial Sample Regression, which relies on a 
+subset of the most relevant data and is therefore locally conditional to the 
+circumstances of every prediction. 
+
+Relevance-weighted prediction also allows us to evaluate the fit of every
+individual prediction, which is distinct from the R-squared of a model. In 
+fact, for a full-sample regression the R-squared is equal to the information-
+weighted average fit of every prediction trial. We also define a measure of
+precision and asymmetry, as well as co-occurrence which is a single-
+observation component of correlation. 
+
+"Prediction Revisited" also uses pairwise comparisons between observations to
+elucidate new intuition. While theoretically elegant, pairwise comparisons
+are often computationally inefficient, so this code module offers the 
+flexibility to perform most computations more efficiently with shortcut=True.
+
+Most of the module is built on top of numpy for matrix manipulation, but we
+also include ancillary features and a demo that ingests Pandas DataFrames. Note
+that for clarity, we keep results as 2-dimensional arrays in most cases.
+
+For more information, see: www.predictionrevisited.com
+
+Dependencies
+------------
+numpy (for all matrix calculations)
+pandas (for ancillary features involving data formatted in DataFrames)
+
+License
+-------
+MIT (see LICENSE.md)
+
+"""

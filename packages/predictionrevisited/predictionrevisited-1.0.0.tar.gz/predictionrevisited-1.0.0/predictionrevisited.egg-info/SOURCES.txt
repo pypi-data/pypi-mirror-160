@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+predictionrevisited.py
+setup.py
+predictionrevisited.egg-info/PKG-INFO
+predictionrevisited.egg-info/SOURCES.txt
+predictionrevisited.egg-info/dependency_links.txt
+predictionrevisited.egg-info/requires.txt
+predictionrevisited.egg-info/top_level.txt
