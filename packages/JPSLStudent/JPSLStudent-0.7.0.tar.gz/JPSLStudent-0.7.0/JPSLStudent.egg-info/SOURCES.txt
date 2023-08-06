@@ -1,0 +1,7 @@
+README.md
+setup.py
+JPSLStudent.egg-info/PKG-INFO
+JPSLStudent.egg-info/SOURCES.txt
+JPSLStudent.egg-info/dependency_links.txt
+JPSLStudent.egg-info/requires.txt
+JPSLStudent.egg-info/top_level.txt
