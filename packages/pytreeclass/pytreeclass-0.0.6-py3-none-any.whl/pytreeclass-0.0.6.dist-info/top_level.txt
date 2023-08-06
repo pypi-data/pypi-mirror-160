@@ -1,0 +1,4 @@
+assets
+pytreeclass
+requirements
+tests
