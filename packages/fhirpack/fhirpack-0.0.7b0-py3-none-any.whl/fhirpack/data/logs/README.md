@@ -1,0 +1,1 @@
+The file `fhirpack.log` contains all logs related to the execution and usage of FHIRPACK during development. The file is located in the current working directory.
