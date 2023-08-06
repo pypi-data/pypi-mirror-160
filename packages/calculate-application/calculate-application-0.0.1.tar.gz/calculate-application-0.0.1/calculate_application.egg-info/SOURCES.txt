@@ -1,0 +1,9 @@
+MANIFEST.in
+calculate/__init__.py
+calculate/calc.py
+calculate/unit_test.py
+calculate_application.egg-info/PKG-INFO
+calculate_application.egg-info/SOURCES.txt
+calculate_application.egg-info/dependency_links.txt
+calculate_application.egg-info/requires.txt
+calculate_application.egg-info/top_level.txt
