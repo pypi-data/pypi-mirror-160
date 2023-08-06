@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "equinix",
+  "server": "https://github.com/cuemby/pulumi-equinix/releases/downloads/v${VERSION}"
+}
