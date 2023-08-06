@@ -1,0 +1,13 @@
+spigetpy/__init__.py,sha256=5BuOgxwDifjqHOTPKDDDSv3BlMnKQ4WMRZDSqLiJIxA,1573
+spigetpy/authors.py,sha256=xk1_lC4QDP0TwIh9qkxldywYl-zEISl416OmnKenvrA,2651
+spigetpy/categories.py,sha256=a25XtJejXl-ZMNxEMSBz2BsB8q1hIDFBUKQB5AgzOQ8,1417
+spigetpy/resources.py,sha256=t0nq-pCff0o0_czGScSgkor3IbNIAGuemAWm380Wzn8,7338
+spigetpy/search.py,sha256=40d1L8h33pXitnGOeBE3pvtgqOx0S8G7O0u55_P8J1M,1294
+spigetpy/status.py,sha256=KimD1Roba9Zk_Gj-FeVkCXMgQHkDG5AqmRNO3DnUGu8,145
+spigetpy/utils.py,sha256=x2zLZ27mCHSkzl5hDIKV3VLCrfrJWqZhZYw3AamIqDs,1621
+spigetpy/webhook.py,sha256=zERedhTdNvhV1-qtd9SQCr4XT9w3YpufcSIV-hWWJ64,651
+spigetpy-0.0.1.dist-info/LICENSE.md,sha256=EYrCFQqUfdP_2uE2XfWLJlrOqa38rOuBuSPYs3YZsQQ,1073
+spigetpy-0.0.1.dist-info/METADATA,sha256=I4uBY2l80a1B-xhqGnEq6yZf5R1_LCCbsp4zVvj6U2I,630
+spigetpy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spigetpy-0.0.1.dist-info/top_level.txt,sha256=z9EUZfJ26aYIkYOiLg0P-4mK0n-4YdwWE9OY5sNTxWY,9
+spigetpy-0.0.1.dist-info/RECORD,,
