@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+src/opencmiss/__init__.py
+src/opencmiss.merger.egg-info/PKG-INFO
+src/opencmiss.merger.egg-info/SOURCES.txt
+src/opencmiss.merger.egg-info/dependency_links.txt
+src/opencmiss.merger.egg-info/not-zip-safe
+src/opencmiss.merger.egg-info/requires.txt
+src/opencmiss.merger.egg-info/top_level.txt
+src/opencmiss/merger/__init__.py
+src/opencmiss/merger/errors.py
+src/opencmiss/merger/points.py
