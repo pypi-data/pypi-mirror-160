@@ -1,0 +1,9 @@
+mymod1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mymod1/testmymod1.py,sha256=GM_PEwemFftfZeilzLesFxrCalM5IZK9zu5KYIu2n1I,58
+mymod2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mymod2/mymod2.py,sha256=s5X4WA63eEUmTHmBEPlGt7Px0ceow3zIFHrsmN6aD6E,50
+zzzsecdemo/zzzsecdemo1.py,sha256=B__K-n4_rJCm4aHKFIkBRg5zlay9dx2LTyvmdUOhosU,60
+Alexsecdemo-1.2.11.dist-info/METADATA,sha256=dLoAy1usEIcSLsbn3I6gfkDofOHMnSihFlvy7sWwnIo,174
+Alexsecdemo-1.2.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Alexsecdemo-1.2.11.dist-info/top_level.txt,sha256=6AFIR0RRUW0LM34ifJyEDX_6XoYsjh0OJFf09_9CaEc,25
+Alexsecdemo-1.2.11.dist-info/RECORD,,
