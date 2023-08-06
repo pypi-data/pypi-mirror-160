@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-support_helper.neongeckocom=skill_support_helper:SupportSkill
+
