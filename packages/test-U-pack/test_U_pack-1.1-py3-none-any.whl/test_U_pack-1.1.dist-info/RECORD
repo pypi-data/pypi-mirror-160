@@ -1,0 +1,12 @@
+package_demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_demo/class1.py,sha256=Liz-osNSJ44r1Vk1WVL-KSpO41h3NmPx9SQNGUvAxJ0,306
+package_demo/class1_func.py,sha256=brdpAwx8FWtYWXQL3_E68noM7S43comhiygObrM7Azc,300
+package_demo/func1.py,sha256=qIECJORnO0ZvyIxXRXl0Str2sc-VofwtWcXvo0fpc5o,145
+test_U_pack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_U_pack/class1.py,sha256=Liz-osNSJ44r1Vk1WVL-KSpO41h3NmPx9SQNGUvAxJ0,306
+test_U_pack/class1_func.py,sha256=brdpAwx8FWtYWXQL3_E68noM7S43comhiygObrM7Azc,300
+test_U_pack/func1.py,sha256=qIECJORnO0ZvyIxXRXl0Str2sc-VofwtWcXvo0fpc5o,145
+test_U_pack-1.1.dist-info/METADATA,sha256=N3tsEJTYDeFFdZRnAFF1p4Q34mLloBvuzAB_XROEusE,175
+test_U_pack-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+test_U_pack-1.1.dist-info/top_level.txt,sha256=99ZKdpth0OHaP_Nsbm_HC8XbJH3aFFZ-KWLscUwDuCA,12
+test_U_pack-1.1.dist-info/RECORD,,
