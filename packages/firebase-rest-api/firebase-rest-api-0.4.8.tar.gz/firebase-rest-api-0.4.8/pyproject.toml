@@ -1,0 +1,58 @@
+[build-system]
+requires = ['flit_core >=3.2,<4']
+build-backend = 'flit_core.buildapi'
+
+[project]
+name = "firebase-rest-api"
+version = "0.4.8"
+readme = "README.md"
+description = "A simple python wrapper for Google's Firebase REST API's."
+requires-python = ">=3.6"
+keywords = [
+  "firebase",
+  "firebase-auth",
+  "firebase-database",
+  "firebase-realtime-database",
+  "firebase-storage",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+  "gcloud>=0.18.3",
+  "oauth2client>=4.1.3",
+  "python_jwt>=3.3.2",
+  "requests>=2.27.1",
+  "six>=1.16.0"
+]
+
+  [[project.authors]]
+  name = "Asif Arman Rahman"
+  email = "AsifArmanRahman@gmail.com"
+
+  [project.optional-dependencies]
+  docs = [
+    "Sphinx>=5.0.2",
+    "sphinx-rtd-theme>=1.0.0",
+    "sphinx_design>=0.2.0",
+    "toml>=0.10.2"
+  ]
+
+  [project.urls]
+  Source = "https://github.com/AsifArmanRahman/firebase-rest-api"
+  Documentation = "https://firebase-rest-api.readthedocs.io/"
+
+[tool.flit.module]
+name = "firebase"
