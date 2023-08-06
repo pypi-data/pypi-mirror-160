@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: collections-undo
+Version: 0.0.1
+Summary: General undo/redo framework for Python
+Home-page: UNKNOWN
+Author: Hanjin Liu
+Author-email: liuhanjin-sc@g.ecc.u-tokyo.ac.jp
+License: MIT
+Download-URL: https://github.com/hanjinliu/collections-undo
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typing-extensions
+
+# collections-undo
+
+General undo/redo implementation in Python.
+
+The purpose of this package is to make implementation of undo/redo easier and safer.
+
+### Installation
+
+```
+pip install -U collections-undo
+```
+
+
