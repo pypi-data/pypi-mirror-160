@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+sparkai/__init__.py
+sparkai.egg-info/PKG-INFO
+sparkai.egg-info/SOURCES.txt
+sparkai.egg-info/dependency_links.txt
+sparkai.egg-info/top_level.txt
+test/__init__.py
+test/test.py

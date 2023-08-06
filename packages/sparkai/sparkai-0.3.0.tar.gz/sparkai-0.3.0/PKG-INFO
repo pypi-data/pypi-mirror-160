@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: sparkai
+Version: 0.3.0
+Summary: SparkAI official Python client library
+Home-page: https://github.com/sparkai-corp/sparkai-python-client
+Author: SparkAI
+Author-email: support@spark.ai
+Project-URL: Bug Tracker, https://github.com/sparkai-corp/sparkai-python-client/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sparkai-python-client
+
+The official [SparkAI](https://www.spark.ai) Python client
+
+## Installation
+
+$ pip install --upgrade sparkai
+
+## Usage
+
+```
+import sparkai.SparkAIClient
+client = SparkAIClient('PROVIDED_API_KEY')
+url = https://picsum.photos/200/300
+instructions = 'Annotate any object in the photo'
+token = client.create_engagement_from_image_url(url, instructions=instructions)
+```
+
+### Validating webhook signature
+
+```
+client.validate_webhook_secret(request_secret_header, request_body, self_secret)
+```
+
+- `request_secret_header`: the whole header Spark-Signature sent with the webhook request
+- `request_body`: the whole JSON object body sent witth the webhook request
+- `self_secret`: customer's webhook token
+
+Returns True if the signature is valid
