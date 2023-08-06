@@ -1,0 +1,10 @@
+telelib/__init__.py,sha256=-HiMKy8JA77K_6-H7rN-HeyUREu5ae5XL7Iu0GaG328,11558
+telelib/telegram.py,sha256=MK-m0xlGoq8zOgaLmcZ12MYfZGrOJ76QsKWVTJjeed8,247445
+telelib/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telelib/tools/code_generator.py,sha256=Bg1oPmwG8U-Yjv96uhuIQb0o-Xrz_TMSSJvzCNhFScI,9612
+telelib/tools/scraper.py,sha256=1EfTIN72gtPaTBBkhYpiUnnzS_mxB4L5IofHTsfTul8,13220
+telelib-6.0.2.dist-info/LICENSE,sha256=kMGIHoGu88psvYDd1-c1LFW_iNfH_NNO8WmqqQE4VJY,1212
+telelib-6.0.2.dist-info/METADATA,sha256=Fby-Geob_Jn3iQXUbEdh6I3ttJKHKUv8E7YlhWauzQA,748
+telelib-6.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+telelib-6.0.2.dist-info/top_level.txt,sha256=_G9lf0IR1Fz9eVz0FBvQa4Ejp7XTrGgODIKI_U02Fqc,8
+telelib-6.0.2.dist-info/RECORD,,
