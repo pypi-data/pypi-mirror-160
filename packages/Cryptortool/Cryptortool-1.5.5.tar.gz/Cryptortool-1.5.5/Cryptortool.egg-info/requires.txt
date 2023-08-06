@@ -1,0 +1,4 @@
+requests
+pyAesCrypt
+stegano
+argparse
