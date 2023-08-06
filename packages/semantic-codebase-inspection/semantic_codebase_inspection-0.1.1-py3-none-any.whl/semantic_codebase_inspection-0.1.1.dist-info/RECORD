@@ -1,0 +1,6 @@
+semantic_codebase_inspection/__init__.py,sha256=kQABpiq1FsaDKZUhhLFmhpjifEPOZTqkyjm4roDzsQo,128
+semantic_codebase_inspection/nlp_wrapper.py,sha256=ZxbKNJ55r-999PXmavdXeG4M4M29iB_jFmmoAwa6DAg,318
+semantic_codebase_inspection/semantic_codebase_inspection.py,sha256=q96XZom_roFS7sFrAeMIwQYJfa0MRPOSW5ehLNPxjrc,4558
+semantic_codebase_inspection-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+semantic_codebase_inspection-0.1.1.dist-info/METADATA,sha256=zto8TM6JjJjL5gxHNFGzfYllJ7dQAZMNsWr37Juaa3E,1974
+semantic_codebase_inspection-0.1.1.dist-info/RECORD,,
