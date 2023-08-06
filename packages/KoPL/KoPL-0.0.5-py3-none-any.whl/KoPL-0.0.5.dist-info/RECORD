@@ -1,0 +1,10 @@
+kopl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kopl/data.py,sha256=o2-5h0e2BmveTBBIujQLbewwoBTOBK5L_T1iC7ye2hs,10353
+kopl/kopl.py,sha256=lRQbxon9BgIzAT2k_WA-RetiTE1CzMirbiDzpiH1Rs4,21946
+kopl/util.py,sha256=iNJRShdoUSKuAXhoRlYol1LQvzrIuGw6j84MPjBpPmw,3906
+kopl/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kopl/test/test_example.py,sha256=gLPx0VjtIQ6uadLwBQGjPZf27Tt46BVfa1IRdr26e0w,15955
+KoPL-0.0.5.dist-info/METADATA,sha256=GaT_MV38cFyFHZbmU9H-OWv3jNZ4bJvR308bo45aPj4,588
+KoPL-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+KoPL-0.0.5.dist-info/top_level.txt,sha256=6CKO3Zv03Ae1HXrb12wCECcaH8UhPy1C78jxrCC09gg,5
+KoPL-0.0.5.dist-info/RECORD,,
