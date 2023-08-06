@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: housing-prediction
+Version: 0.4
+Summary: A package to train machine learning models on housing dataset
+Home-page: https://github.com/rishitoshsingh-ta/mle-training
+Author: Rishitosh Kumar Singh
+Author-email: Rishitosh Kumar Singh <rishitosh.sing@tigeranalytics.com>
+Project-URL: Homepage, https://github.com/rishitoshsingh-ta/mle-training
+Project-URL: Bug Tracker, https://github.com/rishitoshsingh-ta/mle-training/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Median housing value prediction
+
+The housing data can be downloaded from https://raw.githubusercontent.com/ageron/handson-ml/master/. The script has codes to download the data. We have modelled the median house value on given housing data. 
+
+The following techniques have been used: 
+
+ - Linear regression
+ - Decision Tree
+ - Random Forest
+
+## Steps performed
+ - We prepare and clean the data. We check and impute for missing values.
+ - Features are generated and the variables are checked for correlation.
+ - Multiple sampling techinuqies are evaluated. The data set is split into train and test.
+ - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
+
+## Setup for development
+### Create conda environment
+```console
+foo@bar:~$ conda env create -f deploy/conda/linux_cpu_py39.yml 
+foo@bar:~$ conda activate mle-dev 
+```
+
+### Perform test
+Tox have been configured with pytest to automate testing in virtualenv. 
+```console
+foo@bar:~$ tox 
+```
+Test a specific test file:
+```console
+foo@bar:~$ tox -- -k <file_name>
+```
+
+## Usage
+### Install package
+#### Option 1. From github:
+```console
+foo@bar:~$ git clone https://github.com/rishitoshsingh-ta/mle-training.git
+foo@bar:~$ cd mle-training
+foo@bar:~$ pip install .
+```
+#### Option 2. From PyPi
+
+```console
+foo@bar:~$ pip install housing-prediction
+```
+
+#### Test installation:
+To test whether the package is successfully installed or not, start python session, and try to import housing. If it's imported successfully, then installation is complete
+
+```console
+foo@bar:~$ python
+>>> import housing
+```
+
+
+It will install all the dependencies and the housing package
+
+### Run mlflow server
+    As mlflow tracking is used in this project, first mlflow server needs to be started. In he command below, \<directory> can be file:///home/user/artifacts , where you want to store mlruns data
+
+```console
+foo@bar:~$ mlflow server \
+      --backend-store-uri sqlite:///mlflow.db \
+      --default-artifact-root <dricetory> \
+      --host 0.0.0.0 \
+      --port 8889 
+```
+
+### Run scripts
+
+There are two ways to run the scripts, as single command line tool and as python scripts.
+
+* As command line tool
+    ```console
+    foo@bar:~$ housing
+    ```
+
+* As python scripts 
+
+```console
+foo@bar:~$ python -m housing.ingest_data
+foo@bar:~$ python -m housing.train
+foo@bar:~$ python -m housing.score
+```
+
+You can also access pass arguments, to find all available arguments:
+```console
+foo@bar:~$ housing --help
+foo@bar:~$ python -m housing.ingest_data --help
+foo@bar:~$ python -m housing.train
+foo@bar:~$ python -m housing.score
+```
+
+
+### Default arguments
+The defaults argument values are located in a **`.cfg`** file located in:
+**`/path/to/env/lib/python3.9/site-packages/housing-prediction/housing.cfg`**. The defaults can be changes as per user preferences.
