@@ -1,0 +1,6 @@
+black; python_version > '3.5'
+twine
+pytest
+pytest-cov
+codecov
+democritus-python-data @ git+https://github.com/democritus-project/democritus-python-data.git#egg=democritus-python-data
