@@ -1,0 +1,276 @@
+class: Ftp
+methods:
+  - name: get_file
+    args:
+      - name: remote_file
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: local_dir
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: create_dirs
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: True
+  - name: put_file
+    args:
+      - name: local_file
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: remote_dir
+        required: False
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+        default: /
+      - name: create_dirs
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: True
+  - name: delete_remote_file
+    args:
+      - name: remote_file
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: True
+  - name: delete_local_file
+    args:
+      - name: local_file
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: True
+  - name: delete_remote_dir
+    args:
+      - name: remote_dir
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: recursive
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: True
+  - name: delete_local_dir
+    args:
+      - name: local_dir
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: recursive
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: True
+  - name: list_remote_dir
+    args:
+      - name: remote_dir
+        required: False
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+        default: /
+      - name: file_type
+        required: False
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+        default: f
+      - name: pattern
+        required: False
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+        default: ".*"
+  - name: list_local_dir
+    args:
+      - name: local_dir
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: file_type
+        required: False
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+        default: f
+      - name: pattern
+        required: False
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+        default: ".*"
+  - name: local_mirror
+    args:
+      - name: remote_dir
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: local_dir
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: True
+  - name: remote_mirror
+    args:
+      - name: local_dir
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: remote_dir
+        required: True
+        type: str
+        implied: []
+        excluded: []
+        secret: False
+      - name: exit_on_error
+        required: False
+        type: bool
+        implied: []
+        excluded: []
+        secret: False
+        default: True
+args:
+  - name: username
+    required: False
+    type: str
+    implied: []
+    excluded: []
+    secret: True
+    default: "anonymous"
+  - name: password
+    required: False
+    type: str
+    implied: []
+    excluded: []
+    secret: True
+    default: "anonymous"
+  - name: host
+    required: True
+    type: str
+    implied: []
+    excluded: []
+    secret: False
+  - name: port
+    required: False
+    type: int
+    implied: []
+    excluded: []
+    secret: False
+    default: 21
+  - name: tls
+    required: False
+    type: bool
+    implied: []
+    excluded: []
+    secret: False
+    default: True
+  - name: explicit
+    required: False
+    type: bool
+    implied: []
+    excluded: []
+    secret: False
+    default: True
+  - name: ssl_verify
+    required: False
+    type: bool
+    implied: []
+    excluded: []
+    secret: False
+    default: True
+  - name: ssl_version
+    required: False
+    type: str
+    implied: []
+    excluded: []
+    secret: False
+    default: null
