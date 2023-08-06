@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dainik"
+version = "0.5c1"
+description = "Client library for working with nimblebox LMAO"
+authors = ["yashbonde <bonde.yash97@gmail.com>"]
+homepage = "https://github.com/NimbleBoxAI/nbox"
+repository = "https://github.com/NimbleBoxAI/nbox"
+documentation = "https://nimbleboxai.github.io/nbox/"
+readme = "README_dainik.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nbox = "^0.9.14rc28"
+Jinja2 = "3.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
