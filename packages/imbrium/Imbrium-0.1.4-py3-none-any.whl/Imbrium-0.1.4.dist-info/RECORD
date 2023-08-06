@@ -1,0 +1,16 @@
+imbrium/__init__.py,sha256=RkAvnDoc7RKn5vPzTJ6Z3qrI5hUyvxwbtUl3wMB0UUg,124
+imbrium/architectures/__init__.py,sha256=M505qjMlmoSjlGfNNI-83F40mXuBWhNDKs4Wd3HCiFY,44
+imbrium/architectures/models.py,sha256=ZWnmbAVEi4Qo7V-Xt-GHvTYFq4eF8pOTQi5XqWqu1mY,28530
+imbrium/blueprints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imbrium/blueprints/abstract_multivariate.py,sha256=EEVdrdSddOfjI_8afdseqZkeXrSfVwuymxtqHGZQzi8,2303
+imbrium/blueprints/abstract_univariate.py,sha256=UZ5mU1GRRSM7P09ksOy12Yca3r41S3FatYTctqAZM7M,2027
+imbrium/predictors/__init__.py,sha256=zqk-OOHxc3hBkiKqYKrwIYYGtZ89ji9LFtCYiESrGpc,272
+imbrium/predictors/multivarhybrid.py,sha256=XPqAQKDLcff8vD7ylFjsRDxwmc7tKwGNEdBakXNQl9E,24161
+imbrium/predictors/multivarstandard.py,sha256=5iT8Z698zNqrgDk9hAOXGA2l8AJbEoWhl50uAy_L3wA,31160
+imbrium/predictors/univarhybrid.py,sha256=FvBO60GyiHR7JAg-rGBnd4h-4qe6nn9thbyplecnjjY,21532
+imbrium/predictors/univarstandard.py,sha256=azUqqS-W8_w11_ViBEPwC3-c7Mf-vLQe-ofPZrrf_mU,28850
+Imbrium-0.1.4.dist-info/LICENSE,sha256=NWqLw05UfuEaCZOs4RBew76jXHtAsjqhucX_SVSm8o8,1096
+Imbrium-0.1.4.dist-info/METADATA,sha256=8vjy3itXQGHvv2YdBTx_L0PI2tmC_ATOY7tdXAaBSBg,26317
+Imbrium-0.1.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+Imbrium-0.1.4.dist-info/top_level.txt,sha256=0Zah_gULj1rc9LtNgVCZaw1lu66rMZ2thlf7pc5Npqs,8
+Imbrium-0.1.4.dist-info/RECORD,,
