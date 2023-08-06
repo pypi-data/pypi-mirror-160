@@ -1,0 +1,13 @@
+README.md
+setup.py
+nbnorm/__init__.py
+nbnorm/nbnorm.py
+nbnorm/version.py
+nbnorm/xpath.py
+nbnorm.egg-info/PKG-INFO
+nbnorm.egg-info/SOURCES.txt
+nbnorm.egg-info/dependency_links.txt
+nbnorm.egg-info/entry_points.txt
+nbnorm.egg-info/not-zip-safe
+nbnorm.egg-info/requires.txt
+nbnorm.egg-info/top_level.txt

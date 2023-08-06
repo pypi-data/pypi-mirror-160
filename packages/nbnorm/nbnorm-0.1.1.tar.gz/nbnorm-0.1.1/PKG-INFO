@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nbnorm
+Version: 0.1.1
+Summary: convenience tool to do mass notebook normalization
+Author: Thierry Parmentelat
+Author-email: thierry.parmentelat@inria.fr
+License: UNKNOWN
+Project-URL: source, https://github.com/flotpython/nbnorm
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# nbnorm
+
+a convenience tool to do mass notebook normalization
+
+initially developped for https://github.com/flotpython/course,
+and initially located in https://github.com/flotpython/tools,
+but substantially modified later on.
+
+
