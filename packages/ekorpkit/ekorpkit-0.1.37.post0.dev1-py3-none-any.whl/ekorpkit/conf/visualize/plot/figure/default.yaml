@@ -1,0 +1,11 @@
+figsize: (10, 5)
+tight_layout: true
+fontsize: 10
+super:
+  xlabel:
+    t:
+  ylabel:
+    t:
+  title:
+    t:
+rcParams:
