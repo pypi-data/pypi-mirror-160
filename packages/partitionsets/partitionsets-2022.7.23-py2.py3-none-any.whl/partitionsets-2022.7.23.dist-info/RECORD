@@ -1,0 +1,15 @@
+partitionsets/__init__.py,sha256=3pWJLoQhIlOW34bsWXINhHm6Q_KUq3Su8UvOF2LAriE,26
+partitionsets/__main__.py,sha256=0655PrCda3MLyE8gUAJpocG5-ZnvpAMwQAINTZpa65c,395
+partitionsets/cli.py,sha256=tyoBNpywfl_1b7i89tDKCAjjbe2_OzKeYuSPpaaH6Is,7165
+partitionsets/ordered_set.py,sha256=9z5KI3iC5MeJrJy3mMaCkos737I6EBU71-5I1Y6k21Q,1258
+partitionsets/partition.py,sha256=I8Ju5LCKaMDHanDM3VmgbEQ45_GD85znFcCfm3uST8g,4297
+test/__init__.py,sha256=cr5ndc-DX09ICrY-63xcVD11f5aX7I-Q7X40M8aflRc,130
+test/test_ordered_set.py,sha256=nj5IfWVMqYISeOh_IudrJ7XTEqZbM7H4B7bSP-W0AAM,1559
+test/test_partition.py,sha256=f_77mdkXZPD6KgSj_VH9oWlkLkAQJ193i6dbzeiex1k,1844
+test/test_partitionsets.py,sha256=TiPsVeqGgdbHXXM64dAkRB90RMn_krbVxgrxlQz0ryI,1420
+partitionsets-2022.7.23.dist-info/LICENSE,sha256=Ar15Fgn4XTWED15v9kUzG33zhmgg4M4CZVHla2wFpWo,1074
+partitionsets-2022.7.23.dist-info/METADATA,sha256=H9nLjioJzwnr0-T1s5mLIxyTuhhJiXsUJzneI0ONT60,2308
+partitionsets-2022.7.23.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+partitionsets-2022.7.23.dist-info/entry_points.txt,sha256=4CXvXWZC3mIFDII1pBYyVjyzDj2bGHcLt9MYO9fTMEY,57
+partitionsets-2022.7.23.dist-info/top_level.txt,sha256=d2oRsKH0UcQJnnVPQD_C1e4_bvvU83ktuYfEDZHmsfw,19
+partitionsets-2022.7.23.dist-info/RECORD,,
