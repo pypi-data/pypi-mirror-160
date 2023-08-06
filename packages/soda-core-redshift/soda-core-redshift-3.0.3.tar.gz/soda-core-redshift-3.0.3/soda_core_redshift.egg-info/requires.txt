@@ -1,0 +1,2 @@
+soda-core==3.0.3
+boto3
