@@ -1,0 +1,8 @@
+aws_ami_delete/__init__.py,sha256=YOrAe_QfLu85EAL5Rz0xPCRrE8MRjtRtOXt7qIIcTs4,24
+aws_ami_delete/__main__.py,sha256=RmI1nwKi3BVks2911CZ51uvX3c9mNd7f8YDBJIrYH2c,1763
+aws_ami_delete-0.0.3.dist-info/LICENSE,sha256=xIpLLPudiqdeOC_4hWBGHglz51Bo3hOQzPOWlaWPNKI,1074
+aws_ami_delete-0.0.3.dist-info/METADATA,sha256=KOn5huyGuzLRlVVI8hW1F7XGkHCRE2zfxGTFd5Dj0nc,1563
+aws_ami_delete-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_ami_delete-0.0.3.dist-info/entry_points.txt,sha256=6Hwn0pPL7IyFObxO6jIU62B84KW-0koIXwj0ekdpECA,64
+aws_ami_delete-0.0.3.dist-info/top_level.txt,sha256=tlQXq58S433wrufVWmgtZ4gFRISqM5qoN_9_1uL-Lx4,15
+aws_ami_delete-0.0.3.dist-info/RECORD,,
