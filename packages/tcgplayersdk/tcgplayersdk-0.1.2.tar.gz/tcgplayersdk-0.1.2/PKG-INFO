@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tcgplayersdk
+Version: 0.1.2
+Summary: A sorta-typed SDK that barely works with Dataclasses and TCGPlayer's API all at once.
+Author: CptSpaceToaster
+Author-email: cptspacetoaster@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: marshmallow (>=3.17.0,<4.0.0)
+Requires-Dist: marshmallow_dataclass (>=8.5.8,<9.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: stringcase (>=1.2.0,<2.0.0)
