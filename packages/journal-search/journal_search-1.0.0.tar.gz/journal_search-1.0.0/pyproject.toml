@@ -1,0 +1,37 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "journal_search"
+version = "1.0.0"
+description = "A tool for query journal/conference level information"
+readme = "README.md"
+authors = [{ name = "Kevin2li", email = "kevin2li@qq.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["toolkit", "pdf", "ppt",]
+dependencies = [
+  'flask[async]',
+  'flask-cors',
+  'pandas',
+  'icecream',
+  'parsel',
+  'loguru',
+  'playwright',
+  'tenacity',
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/kevin2li/journal_search"
+
+[project.scripts]
+journal_search = "journal_search.__main__:main"

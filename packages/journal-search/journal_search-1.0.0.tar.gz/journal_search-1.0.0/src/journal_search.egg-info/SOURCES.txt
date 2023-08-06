@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+src/journal_search/__init__.py
+src/journal_search/__main__.py
+src/journal_search/utils.py
+src/journal_search.egg-info/PKG-INFO
+src/journal_search.egg-info/SOURCES.txt
+src/journal_search.egg-info/dependency_links.txt
+src/journal_search.egg-info/entry_points.txt
+src/journal_search.egg-info/requires.txt
+src/journal_search.egg-info/top_level.txt
+src/journal_search/assets/index.14cf70d2.css
+src/journal_search/assets/index.b31b0d13.js
+src/journal_search/assets/index.html
+src/journal_search/assets/logo.svg
+src/journal_search/data/ccf2019.csv

@@ -1,0 +1,2 @@
+include src/journal_search/data/*
+include src/journal_search/assets/*

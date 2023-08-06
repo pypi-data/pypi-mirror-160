@@ -1,0 +1,12 @@
+flask[async]
+flask-cors
+pandas
+icecream
+parsel
+loguru
+playwright
+tenacity
+
+[dev]
+pip-tools
+pytest

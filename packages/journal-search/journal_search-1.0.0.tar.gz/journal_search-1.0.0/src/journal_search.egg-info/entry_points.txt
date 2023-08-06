@@ -1,0 +1,2 @@
+[console_scripts]
+journal_search = journal_search.__main__:main
