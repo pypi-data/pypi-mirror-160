@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ostappdf/__init__.py
+ostappdf/pdf2image.py
+ostappdf/pdf2text.py
+ostappdf.egg-info/PKG-INFO
+ostappdf.egg-info/SOURCES.txt
+ostappdf.egg-info/dependency_links.txt
+ostappdf.egg-info/top_level.txt
