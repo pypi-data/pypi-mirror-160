@@ -1,0 +1,14 @@
+storagy/__init__.py,sha256=iBnkxx_jf2t0u_Lts3sUsW1VbNREsNG5jTXBEcZm68g,3118
+storagy/filter.py,sha256=nyo_v0ZMrNr4z7JPV4xgfV0Y4w3GMLExq9OqyFOS6G8,2132
+storagy/utils.py,sha256=tnjOCV_QfOxczlzY7qZBf8sOCbnmpSrAqBbGFc261Pw,1085
+storagy/conn/__init__.py,sha256=cmpXYwpfyB_A6PbAyBrvl2G1rSNfnfWJ6jqAyxOfxsU,573
+storagy/conn/csv.py,sha256=hd816vGJQex3GC7vRq0Q0qXduxJSFLOA0fE-2iqp2NM,8607
+storagy/conn/directory.py,sha256=K5Ld25X2Hh6gnqNc8rXWsOVpaBIicwQ4bMfDsdOC2OI,815
+storagy/conn/excel.py,sha256=C-ilzDl09d-20hNky6Y9rIcTOkaB0VvYRxFlEyF8G8s,11305
+storagy/conn/flatfile.py,sha256=6FVgBID_a-Jb1pGCXweIYmcl1QoEUXWTLbFKRqqxm5o,6123
+storagy/conn/sqlserver.py,sha256=3HOIcl9AjXMTO1a1gW0W3yr-Wb1k3gPyiT-VPSQxBXU,5395
+storagy-1.0.0.dev1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+storagy-1.0.0.dev1.dist-info/METADATA,sha256=h2N7AuveX-jtKbxI5THwETHzNLsSkrDZYns61EWVEP0,545
+storagy-1.0.0.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+storagy-1.0.0.dev1.dist-info/top_level.txt,sha256=5aSt-zNB46FG8FGq9OdPpYV41N9vaQQ1p0gBQwfxSBg,8
+storagy-1.0.0.dev1.dist-info/RECORD,,
