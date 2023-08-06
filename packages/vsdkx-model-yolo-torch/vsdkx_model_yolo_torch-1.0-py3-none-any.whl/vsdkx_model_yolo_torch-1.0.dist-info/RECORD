@@ -1,0 +1,11 @@
+vsdkx_model_yolo_torch-1.0-py3.10-nspkg.pth,sha256=82oCth1L33H5B_93uuSk9s9uKVRGQd9Ag1dHryzqqjs,1682
+vsdkx/model/yolo_torch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdkx/model/yolo_torch/driver.py,sha256=DftgXIhNWHZo81fZbt6qRw5FWHgOfstKoO9nitGHuA0,2551
+vsdkx/model/yolo_torch/settings.py,sha256=4mksW8zQPr5KiMNXfE80f6Meh4KQujML6rGVNSXHJlI,81
+vsdkx_model_yolo_torch-1.0.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+vsdkx_model_yolo_torch-1.0.dist-info/METADATA,sha256=_N5FKUiutznPzdxgYSv7NHsSRxum5LjLJfjITwHZM2E,508
+vsdkx_model_yolo_torch-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vsdkx_model_yolo_torch-1.0.dist-info/dependency_links.txt,sha256=UtPkY_5-NDqIv7W4lfQFRks0EtFz-hCa0Mxu0QF4cHA,58
+vsdkx_model_yolo_torch-1.0.dist-info/namespace_packages.txt,sha256=TmvRGevXtOEFx9lkQ_Oj9VdwtLObK0rZqRD3D6GijTk,18
+vsdkx_model_yolo_torch-1.0.dist-info/top_level.txt,sha256=3YZfwQkNtlLPo0IgWV1mp6zYg8v8RW5_5G7hYeRGK9s,6
+vsdkx_model_yolo_torch-1.0.dist-info/RECORD,,
