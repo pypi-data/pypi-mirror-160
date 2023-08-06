@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nexis-uni-parser
+Version: 0.1.0
+Summary: 
+Author: Garrett Shipley
+Author-email: garrett.shipley7+github@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Unidecode (>=1.3.4,<2.0.0)
+Requires-Dist: pandoc (>=2.2,<3.0)
