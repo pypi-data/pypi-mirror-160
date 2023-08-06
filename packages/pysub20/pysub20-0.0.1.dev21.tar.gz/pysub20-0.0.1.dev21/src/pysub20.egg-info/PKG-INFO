@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pysub20
+Version: 0.0.1.dev23
+Summary: Python wrapper around XDIMAX SUB-20 library
+Home-page: https://github.com/paulgr2008/pysub20
+Author: Paul Grebeniuk
+Author-email: paul@coolautomation.com
+Maintainer: Paul Grebeniuk
+Maintainer-email: paul@coolautomation.com
+Project-URL: Source, https://github.com/paulgr2008/pysub20
+Project-URL: Documentation, http://www.xdimax.com/sub20/sub20.html
+Keywords: utility
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Communications
+Requires-Python: >=3.6.*
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Python wrapper around XDIMAX SUB-20 library
