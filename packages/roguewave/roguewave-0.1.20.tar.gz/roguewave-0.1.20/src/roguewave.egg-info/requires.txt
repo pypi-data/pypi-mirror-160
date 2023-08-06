@@ -1,0 +1,8 @@
+pysofar>=0.1.11
+numpy
+netCDF4
+pandas
+qpsolvers
+scipy
+numba
+msgpack
