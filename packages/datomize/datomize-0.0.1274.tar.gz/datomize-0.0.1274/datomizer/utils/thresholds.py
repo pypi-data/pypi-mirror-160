@@ -1,0 +1,5 @@
+# Data Size Limits
+MAX_COLUMN_COUNT = 1000
+MIN_ROW_COUNT = 50
+MAX_FILE_SIZE_IN_MB = 20
+MB = 2 ** 20
