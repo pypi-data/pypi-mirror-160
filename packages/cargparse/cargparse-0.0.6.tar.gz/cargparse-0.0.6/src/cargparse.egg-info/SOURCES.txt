@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/cargparse/__init__.py
+src/cargparse/json.py
+src/cargparse/namespace.py
+src/cargparse/yaml.py
+src/cargparse.egg-info/PKG-INFO
+src/cargparse.egg-info/SOURCES.txt
+src/cargparse.egg-info/dependency_links.txt
+src/cargparse.egg-info/requires.txt
+src/cargparse.egg-info/top_level.txt
