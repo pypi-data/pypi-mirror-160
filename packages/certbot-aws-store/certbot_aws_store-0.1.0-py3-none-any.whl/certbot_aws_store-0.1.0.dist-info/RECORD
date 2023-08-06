@@ -1,0 +1,13 @@
+certbot_aws_store/__init__.py,sha256=capBVfM43fGv3PkYA7ApwHN6dwti0QCtLHHJtiuoooY,86
+certbot_aws_store/acme_config.py,sha256=8P6QeaU_EYJLvj7sgwae7c70CznKeLYy-ssNFJmyoRA,1176
+certbot_aws_store/acme_store.py,sha256=dIIE54kkThYOJOa2yWLpoEmwa8HRi8nosPZ6IcPr4_c,13306
+certbot_aws_store/backends.py,sha256=XZYHotbg7G_r3hMj1YETibaEdJS0GanlQLqJ18RHGL4,6322
+certbot_aws_store/certificate.py,sha256=tMSCs2dBYOid0zBZ_GSGWnNV3l3vZIx5YDFvycog5TI,12560
+certbot_aws_store/cli.py,sha256=iX6BC5826K8bow0tgzx-o1zWY1NSZnO-68NFDM6jXL8,3724
+certbot_aws_store/registry.py,sha256=_K1EPlS6gTiQ-61IkHC-gQUUb8WNifpC22gvkAzmqm8,1429
+certbot_aws_store/utils.py,sha256=LVKTQOdLlooK3qtsl3NlxOUDIgZ8kuQIwIOBrpr83-g,249
+certbot_aws_store-0.1.0.dist-info/entry_points.txt,sha256=7CKqXU6Smg6pieyfrZJw1CZoFcZ3WCuF5lUTblDgiks,74
+certbot_aws_store-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+certbot_aws_store-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+certbot_aws_store-0.1.0.dist-info/METADATA,sha256=DnTNq_lkr7SbSmne-w3HIREYkd_5qH4amZqEbSis5RU,1137
+certbot_aws_store-0.1.0.dist-info/RECORD,,
