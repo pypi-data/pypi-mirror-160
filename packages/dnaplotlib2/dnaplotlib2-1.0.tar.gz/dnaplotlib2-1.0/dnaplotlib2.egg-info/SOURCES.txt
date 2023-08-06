@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+apps/library_plot.py
+apps/quick.py
+dnaplotlib/__init__.py
+dnaplotlib/dnaplotlib.py
+dnaplotlib/sbol/__init__.py
+dnaplotlib/sbol/sbolplotlib.py
+dnaplotlib2.egg-info/PKG-INFO
+dnaplotlib2.egg-info/SOURCES.txt
+dnaplotlib2.egg-info/dependency_links.txt
+dnaplotlib2.egg-info/top_level.txt
