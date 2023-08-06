@@ -1,0 +1,8 @@
+connector_definition_runner/__init__.py,sha256=82Cmssg3B7GyDXjAutLQSmNqX5a6yweWnPs9mMIprTA,50
+connector_definition_runner/__version__.py,sha256=IHT4mKrIr8eV-C3HtmIVD85iGVH25n2ohoff31kaJ1A,93
+connector_definition_runner/authenticate.py,sha256=0YnTTS2mvvZ7wthWYOpXuMihxRp81PximKIgKvR5f6o,1099
+connector_definition_runner/runner.py,sha256=4p_vVZHh67QuZNj5CF8tv8KLa-b0XAyw_VU9Ls10d7c,4025
+connector_def_runner-1.0.5.dist-info/LICENSE,sha256=lYx4bqugcJQ5WT18X0KzBNqjc2b67GWGoElmZe1A2hM,1065
+connector_def_runner-1.0.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+connector_def_runner-1.0.5.dist-info/METADATA,sha256=0fEeokL_LGe-jWEcnQ2LdNMsy5FN2QheWQ45j8SN71k,910
+connector_def_runner-1.0.5.dist-info/RECORD,,
