@@ -1,0 +1,9 @@
+torch>=1.10
+hadamard-transform==0.1.*
+
+[preprocess]
+sympy==1.10.*
+tqdm==4.*
+
+[test]
+pytest
