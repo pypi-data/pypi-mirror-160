@@ -1,0 +1,4 @@
+jupyterlab-blockly<0.2,>=0.1.0a5
+
+[env]
+pyniryo
