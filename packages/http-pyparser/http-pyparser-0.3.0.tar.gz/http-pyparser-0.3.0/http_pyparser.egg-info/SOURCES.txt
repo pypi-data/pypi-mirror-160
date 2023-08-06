@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+http_pyparser/__init__.py
+http_pyparser/exceptions.py
+http_pyparser/parser.py
+http_pyparser.egg-info/PKG-INFO
+http_pyparser.egg-info/SOURCES.txt
+http_pyparser.egg-info/dependency_links.txt
+http_pyparser.egg-info/top_level.txt
