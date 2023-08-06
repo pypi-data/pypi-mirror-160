@@ -1,0 +1,11 @@
+nbdev_intro/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+nbdev_intro/_nbdev.py,sha256=vMufZlsxxGWjog1RlbFaS2sTkj4oFPcSfyPqte8Xopg,332
+nbdev_intro/advantages.py,sha256=5tMcMjJGlodn8ZHGLrQQOJ9IdaBAX-Isu0e9ARKCoXA,117
+nbdev_intro/core.py,sha256=6jZJ2YaH67dAf7EdxSkZH_IS5vTeQ2sTUnV1FUS7shQ,111
+nbdev_intro/disadvantages.py,sha256=oMZKpqJAy0frSF0Ze4uTVYO4s4feX6c5yn6WGCiKJAk,166
+nbdev_intro/nbdev.py,sha256=T7pJXawHo4-Q6EHQBAiVHC_6NiAW7TxvezMn-TkkSD8,112
+nbdev_intro-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nbdev_intro-0.0.1.dist-info/METADATA,sha256=3b3LFgcndn02v--_gT_-HXynx1QDFK-Id1XHsCu87GI,1223
+nbdev_intro-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nbdev_intro-0.0.1.dist-info/top_level.txt,sha256=TJSV9B91dID4y8-UyXhkEBYJA85IZJyzPFuvwHQyT9w,12
+nbdev_intro-0.0.1.dist-info/RECORD,,
