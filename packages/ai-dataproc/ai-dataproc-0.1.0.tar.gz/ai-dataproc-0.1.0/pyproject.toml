@@ -1,0 +1,120 @@
+[tool.poetry]
+name = "ai-dataproc"
+version = "0.1.0"
+description = ""
+authors = ["nuxion <nuxion@gmail.com>"]
+packages = [
+   { include = "dataproc"},
+]
+
+#[tool.poetry.scripts]
+#dataproc = "cli:cli"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pytz = "^2021.1"
+langdetect = "^1.0.9"
+iso3166 = "^2.0.2"
+Unidecode = "^1.3.2"
+pandas = "^1.3.3"
+arrow = "^1.2.0"
+cloudpickle = "^2.0.0"
+dateparser = "^1.1.0"
+python-Levenshtein = "^0.12.2"
+cytoolz = "^0.11.0"
+# words
+emoji = {version="^1.5.0", optional=true}
+gensim = {version="^4.1.2", optional=true}
+nltk = {version="^3.6.4", optional=true}
+scikit-learn = {version="^1.0", optional=true}
+spacy = {version="^3.1.3", optional=true}
+pytextrank = {version="^3.2.1", optional=true}
+scikit-network = {version="^0.24.0", optional=true}
+langcodes = {extras = ["data"], version = "^3.2.1", optional=true}
+transformers = {extras = ["torch"], version = "^4.13.0"}
+tokenizers = {version="^0.10.3", optional=true}
+sentencepiece ={version= "^0.1.96", optional=true}
+sentence-transformers = {version="^2.1.0", optional=true}
+annoy = {version="^1.17.0", optional=true}
+# crawl
+pyarrow = {version="^5.0.0", optional=true}
+beautifulsoup4 = { version="^4.10.0", optional=true}
+lxml = {version="^4.6.3", optional=true}
+ujson = {version="^4.2.0", optional=true}
+extruct = {version="^0.13.0", optional=true}
+feedparser = {version="^6.0.8", optional=true}
+reppy = {version="^0.4.14", optional=true}
+newspaper3k = {version="^0.2.8", optional=true}
+# social
+tweepy = {version="^4.0.0", optional=true}
+pytrends = {version="^4.7.3", optional=true}
+pymediawiki = {version="^0.7.1", optional=true}
+# hashes
+xxhash = "^2.0.2"
+cityhash = "^0.2.3"
+
+# deprecated: 
+# pyemd = "^0.5.1"
+# zarr = "^2.10.3"
+
+[tool.poetry.extras]
+words = [
+	"emoji",
+	"gensim",
+	"nltk",
+	"scikit-learn",
+	"spacy",
+	"pytextrank",
+	"scikit-network",
+	"langcodes",
+	"transformers",
+	"tokenizers",
+	"sentencepiece",
+	"sentence-transformers",
+	"annoy",
+	
+
+]
+crawl = [
+	"pyarrow",
+	"beautifulsoup4",
+	"lxml",
+	"ujson",
+	"extruct",
+	"feedparser",
+	"reppy",
+	"newspaper3k",
+]
+
+social = [
+	"tweepy",
+	"pytrends",
+	"pymediawiki"
+]
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.26.0"
+pylint = "^2.10.2"
+isort = "^5.9.3"
+autopep8 = "^1.5.7"
+tqdm = "^4.62.3"
+types-requests = "^2.25.9"
+types-redis = "^3.5.11"
+nest-asyncio = "^1.5.1"
+fabric = "^2.6.0"
+openpyxl = "^3.0.9"
+types-ujson = "^4.2.0"
+types-dateparser = "^1.0.8"
+types-pytz = "^2021.3.1"
+memory-profiler = "^0.60.0"
+pytest-asyncio = "^0.16.0"
+filprofiler = "^2021.12.2"
+factory-boy = "^3.2.1"
+redislite = "^6.0.674960"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.jupytext]
+formats = "ipynb,py"
