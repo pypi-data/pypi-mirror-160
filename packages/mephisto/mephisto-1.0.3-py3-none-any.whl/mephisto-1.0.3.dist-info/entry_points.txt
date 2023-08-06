@@ -1,0 +1,3 @@
+[console_scripts]
+mephisto=mephisto.client.cli:cli
+
