@@ -1,0 +1,3 @@
+[console_scripts]
+webserver=proyectov2.main:main
+
