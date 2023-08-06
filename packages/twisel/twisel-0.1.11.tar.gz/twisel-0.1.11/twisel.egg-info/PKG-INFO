@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: twisel
+Version: 0.1.11
+Summary: Library for scraping twitter with selenium
+Home-page: UNKNOWN
+Author: rafiksept
+License: MIT
+Description: # twisel
+        library python for scraping twitter without API
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
