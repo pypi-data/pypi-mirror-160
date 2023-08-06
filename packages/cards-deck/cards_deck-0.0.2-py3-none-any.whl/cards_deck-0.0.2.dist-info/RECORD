@@ -1,0 +1,10 @@
+cards_deck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cards_deck/_modidx.py,sha256=zPe3PP2GexRV5GI0mBV9Q0dWjVSvPTBwgRV254RwQfY,2783
+cards_deck/card.py,sha256=5yzZjtf1PCUCZm5JFYK4x7Kd_DmbrW0ca3ZImtxCdjA,812
+cards_deck/deck.py,sha256=_xxsE3qJ0FDvzh8nSqqPcAGtMoRAwVc2zFjofk3oAsM,2483
+cards_deck-0.0.2.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+cards_deck-0.0.2.dist-info/METADATA,sha256=bzfmH-BKbDDV2gdgSC2OFdAT-yC5NasR6SHf3D_jqBo,2313
+cards_deck-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cards_deck-0.0.2.dist-info/entry_points.txt,sha256=K7Gc8pNUr8uLyoaUy6rtgi4arvLBczb_Ondp6ZelnVk,58
+cards_deck-0.0.2.dist-info/top_level.txt,sha256=UBMXCc7BVkKVPE-RYj9CFNj1uFCaVOs-u574COEPlT4,11
+cards_deck-0.0.2.dist-info/RECORD,,
