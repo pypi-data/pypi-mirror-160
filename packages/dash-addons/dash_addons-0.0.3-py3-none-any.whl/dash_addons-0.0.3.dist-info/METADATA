@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dash-addons
+Version: 0.0.3
+Summary: Additional toolbox for Plotly Dash
+Home-page: https://github.com/Janus-Shiau/dash_addons
+Author: Jia-Yau Shiau
+Author-email: jiayau.shiau@gmail.com
+License: Apache Software License (Apache-2.0)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dash
+Requires-Dist: numpy
+Requires-Dist: Pillow
+
+# Dash Addons
+
+## What is it?
+
+An addictional toolbox for Ployly Dash.
+
+## Main Features
+
+- **img_converter** for showing img on dash.
+
+## Where to get it
+
+Example-Package can be installed from PyPI using `pip`:
+
+```bash
+pip install dash-addons
+```
+
+## Interface
+
+TBA.
