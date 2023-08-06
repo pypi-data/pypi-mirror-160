@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/napari_sift_registration/__init__.py
+src/napari_sift_registration/_widget.py
+src/napari_sift_registration/napari.yaml
+src/napari_sift_registration.egg-info/PKG-INFO
+src/napari_sift_registration.egg-info/SOURCES.txt
+src/napari_sift_registration.egg-info/dependency_links.txt
+src/napari_sift_registration.egg-info/entry_points.txt
+src/napari_sift_registration.egg-info/requires.txt
+src/napari_sift_registration.egg-info/top_level.txt
