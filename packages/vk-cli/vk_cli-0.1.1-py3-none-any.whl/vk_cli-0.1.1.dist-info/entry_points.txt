@@ -1,0 +1,3 @@
+[console_scripts]
+vk=vk_cli.main:command
+

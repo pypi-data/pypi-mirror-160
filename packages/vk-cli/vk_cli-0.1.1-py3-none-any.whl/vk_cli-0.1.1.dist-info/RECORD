@@ -1,0 +1,10 @@
+vk_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vk_cli/main.py,sha256=spFb2voh31FdiWVAAkKlQ0tTk3kB7qC4WsuKD_fuZkQ,4104
+vk_cli/profile.py,sha256=ozxv0UZldMQX3lzVFgGrQTMJPA3doMvNFOQllvXjU3E,931
+vk_cli/shell.py,sha256=ei6Sic_p_a5KzRXn6P5XF7CZvGLi944ZJYQxdCBBSLo,1491
+vk_cli/text.py,sha256=GtT2wZyOZqP-I7ZdK7FowbRNTfIBFDBLHxfD9mdb_ms,285
+vk_cli/vk.py,sha256=W1TFxACQOxowkaQnq52V-4fL6nygrB7Cf4pluOBS1FA,948
+vk_cli-0.1.1.dist-info/entry_points.txt,sha256=YU7Nb7VLqtQQnUq--LcWMym3236SnuhL3X_KON-WtO0,42
+vk_cli-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+vk_cli-0.1.1.dist-info/METADATA,sha256=sHlbvmmAhbfvLnX7lld8DZLr_EvcuoPGsyjXXlNOMk4,1325
+vk_cli-0.1.1.dist-info/RECORD,,
