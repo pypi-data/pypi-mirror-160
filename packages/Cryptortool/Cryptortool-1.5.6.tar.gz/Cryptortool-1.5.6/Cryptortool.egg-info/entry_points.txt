@@ -1,0 +1,5 @@
+[console_scripts]
+chash = cryptortool.hash:main
+cryptor = cryptortool.cli:main
+cryptortool = cryptortool.cli:main
+hash = cryptortool.hash:main
