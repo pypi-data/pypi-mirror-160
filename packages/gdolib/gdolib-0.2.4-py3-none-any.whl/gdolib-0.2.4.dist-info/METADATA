@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: gdolib
+Version: 0.2.4
+Summary: • Script Very Nice To Helping Programmer .
+Home-page: 
+Author: GDO Tools
+Author-email: GDOTools@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+<h1 align="center">gdolib</h1>
+<p align="center">It's a Usefull Project for Developers ... It checkers Emails Found Or Not Found</p>
+
+<p align="center"> • Devlopered The Lib BY GDØ • </p>
+
+
+## Installation :
+```
+pip install gdolib
+```
+```
+import os 
+os.system('pip install gdolib')
+
+```
+## • Follow me in Telegram .
+
+<br>• @GDOTools .
+<br>• @GDO_0 .
