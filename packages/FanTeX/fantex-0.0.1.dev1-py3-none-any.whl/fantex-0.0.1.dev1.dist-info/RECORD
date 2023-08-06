@@ -1,0 +1,13 @@
+fantex/FanTeX.pdf,sha256=3tdCEguebh4nsdYgPXP0QkSg635KqWsQAg6HrbruqIU,292453
+fantex/FanTeX.tex,sha256=wDzDjyuvPXT4oIUW9Tv4A2IAozKam7-HuUN07ckPvyQ,6243
+fantex/__init__.py,sha256=3FkHlMUV5qOV5fW0a04dD0RCdyDKjEOMEX2sHND_Un8,252
+fantex/editor.py,sha256=JjBnWICJNeFIfpUpVfBnW2zRsiCBEXEwdrJk6wIRtxo,1713
+fantex/fsviewer.py,sha256=k5ScgEKy56z2y8zQ6fGyDPpWg8ZCib_FZGpShjSQKf0,830
+fantex/gen_FanTeX_pdf.py,sha256=8QhelR2TgIbk2Ds-QVytu6r6fHq_7oFCWW-Orqssd9E,4269
+fantex/main.py,sha256=7VvOFVAc2iMJxlc-QfzQHdgbdN0It029kQ9CmoeCtqU,1243
+fantex/mainwindow.py,sha256=IrPLWvpokqMEONM987gtnRw38711ig10XkC_Lr_PIBM,3499
+fantex/pdfviewer.py,sha256=3qmfwutfC2pF2O2Ociic1Ifojlr2xfPHTxJbKpUxi-U,8358
+fantex-0.0.1.dev1.dist-info/METADATA,sha256=hs14shcwSeJWb4I0CdKLGyR-oCpXi_WRXBM0oKBtCnU,2056
+fantex-0.0.1.dev1.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+fantex-0.0.1.dev1.dist-info/licenses/LICENSE,sha256=vw5kuOPu0Ruli0phgbx9fADOEC10IlsHlHcEUuGPJJ8,1088
+fantex-0.0.1.dev1.dist-info/RECORD,,
