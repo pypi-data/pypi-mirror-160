@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyfocusr
+Version: 0.0.2
+Summary: Feature Oriented Correspondence Using Spectral Regularization
+Author-email: Anthony Gatti <anthony.a.gatti@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/gattia/pyfocusr/
+Project-URL: Documentation, https://anthonygattiphd.com/pyfocusr/
+Keywords: python,graph,laplacian,spectral coordinates,point cloud,registration,mesh,surface
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
