@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: uzcloud-billing
+Version: 0.1.2
+Summary: Uzcloud Billing
+Home-page: https://arabboy3332@bitbucket.org/arabboy3332/uzcloud_billing.git
+Author: Arabboy Mamadaliev
+Author-email: mr.arabboy@gmail.com
+License: MIT
+Keywords: uzcloud,billing
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+====================
+Uzcloud Billing
+====================
+
+Uzcloud Billing is a Django app to provide account with Uzcloud Billing account number. 
+
+
+Quick start
+-----------
+
+1. Add "uzcloud_billing" to your INSTALLED_APPS ::
+
+    INSTALLED_APPS = [
+        ...
+        'uzcloud_billing',
+    ]
+
+2. Include the uzcloud_billing urls in your project urls.py like this::
+
+    path('api/billing', include('uzcloud_billing.urls')),
+
+3. Add Following credentials to settings.py:
+    | UZCLOUD_AUTH_URL = ""
+    | UZCLOUD_BILLING_BASE_URL = ""
+    | UZCLOUD_BILLING_CLIENT_ID = ""
+    | UZCLOUD_BILLING_CLIENT_SECRET = ""
+
+    | BILLING_SERVICE_WEBHOOK_USERNAME = ""
+    | BILLING_SERVICE_WEBHOOK_PASSWORD = ""
+    | BILLING_SERVICE_IDENT_RESPONSE_SERIALIZER = ""(default value is "billing.api.serializers.IdentResponseSerializer")
+
+4. Run ``python manage.py migrate`` to create the uzcloud_billing models.
