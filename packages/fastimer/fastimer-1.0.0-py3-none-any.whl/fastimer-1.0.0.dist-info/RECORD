@@ -1,0 +1,11 @@
+fastimer/__init__.py,sha256=RQU1s9GDEU9yTIF-YUt3XkNuBBv0IITle2qrXk0KMHA,26
+fastimer/__main__.py,sha256=CB0bu7nv1jtlQd2q89ST52EP2lUpAJJu3jYpu_o33oo,92
+fastimer/fast.py,sha256=B-Y6Qh1iVZyLLZl_IeOOEgflygaScY-tRj1lyzPlwno,1278
+fastimer/menu.py,sha256=sBr0-8LcquliPHwq0ydhWAFUcgQ4VJtXnEZ9no1Sx8s,3519
+fastimer/version.py,sha256=iJdeZpxtYORXN1FLjM1xFnz8Vrl2_t5-8cImwMKWnqA,49
+fastimer-1.0.0.dist-info/LICENSE,sha256=-8Yae9THPrAgiSZIVg_eESEZ218PJpOxynNnIq83DAQ,1095
+fastimer-1.0.0.dist-info/METADATA,sha256=bd28h1RMmEi4_moklYNZo_mplkxc2Vrak_LuoIbdUSk,2480
+fastimer-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastimer-1.0.0.dist-info/entry_points.txt,sha256=AdoyJGmpcxm26gAv3oXTvAm_pAJRBPzR0L0KWvot7gY,53
+fastimer-1.0.0.dist-info/top_level.txt,sha256=slRxYgTRDj1dVVEaZ_y7wSW8Ejys74zL2fiyLZa2kaY,9
+fastimer-1.0.0.dist-info/RECORD,,
