@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/pybiosci/__init__.py
+src/pybiosci/diversity_indicies.py
+src/pybiosci.egg-info/PKG-INFO
+src/pybiosci.egg-info/SOURCES.txt
+src/pybiosci.egg-info/dependency_links.txt
+src/pybiosci.egg-info/requires.txt
+src/pybiosci.egg-info/top_level.txt
+src/pybiosci/_diversity_indices_helper/__init__.py
+src/pybiosci/_diversity_indices_helper/aindex.py
+src/pybiosci/_diversity_indices_helper/bindex.py
