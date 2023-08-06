@@ -1,0 +1,11 @@
+LICENSE,sha256=BVdF7b_MNGDw2wFsWQchCMg0pvovFlvO5YyOm_4efDQ,1087
+geowrangler/__init__.py,sha256=tuAewmj63xcTakfwjmc5K40DQa61HAULtqre4UXQ3PM,27
+geowrangler/_nbdev.py,sha256=q5BVZbTMMgiIkJq-Va0aSCMrON2WCg7HD4pN0viWoig,2521
+geowrangler/aggregate.py,sha256=uQ-PPpHqKc9CBF_wMV0qBxFgJ258tNf331SjQILVJ-Y,2099
+geowrangler/grids.py,sha256=-0kcRF0irz-Dm09OE0XUSWq5OhQms_j8NJqtUD1bB-A,8391
+geowrangler/validation.py,sha256=9TeGePU3U9PXZy2QlMpJlB3a1jPP6FBaECS8Rl0vZeE,9322
+geowrangler/vector_zonal_stats.py,sha256=PBfYT4zYhpQhlLHsHnCBYPqgXybbcdulKWW65cNm2-0,12573
+geowrangler-0.1.0.dev2.dist-info/LICENSE,sha256=BVdF7b_MNGDw2wFsWQchCMg0pvovFlvO5YyOm_4efDQ,1087
+geowrangler-0.1.0.dev2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+geowrangler-0.1.0.dev2.dist-info/METADATA,sha256=tXj7vOAlEnS9qmC0p-18oeifYt29ClRuK1t66_GySkc,4748
+geowrangler-0.1.0.dev2.dist-info/RECORD,,
