@@ -1,0 +1,207 @@
+{% extends 'yangsuite/base-cui.html' %}
+{% load staticfiles %}
+{% block javascript %}
+<script src="{% static 'ysrestconf/js/restconf.js' %}"></script>
+<script src="{% static 'ysfilemanager/js/yangsets.js' %}"></script>
+<script src="{% static 'ysyangtree/js/yangtree.js' %}"></script>
+<script src="{% static 'ysyangtree/js/chosen/chosen.jquery.js' %}"></script>
+<script src="{% static 'ysnetconf/js/netconf.js' %}"></script>
+
+<!-- angular -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular-sanitize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular-route.min.js"></script>
+<!-- <script src="{% static 'ysrestconf/js/angular/angular.min.js' %}"></script>
+<script src="{% static 'ysrestconf/js/angular/angular-sanitize.min.js' %}"></script>
+<script src="{% static 'ysrestconf/js/angular/angular-route.min.js' %}"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.8.2/js-yaml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.min.js"></script>
+
+<!-- angular-swagger-ui -->
+<script src="{% static 'ysrestconf/js/swagger-ui.min.js' %}"></script>
+<script src="{% static 'ysrestconf/js/swagger-client.js' %}"></script>
+<script src="{% static 'ysrestconf/js/modules/swagger-external-references.min.js' %}"></script>
+<script src="{% static 'ysrestconf/js/modules/swagger1-to-swagger2-converter.min.js' %}"></script>
+<script src="{% static 'ysrestconf/js/modules/swagger-xml-formatter.min.js' %}"></script>
+<script src="{% static 'ysrestconf/js/modules/swagger-yaml-parser.min.js' %}"></script>
+<script src="{% static 'ysrestconf/js/modules/swagger-markdown.min.js' %}"></script>
+<script src="{% static 'ysrestconf/js/modules/swagger-auth-ui-bootstrap-modal.min.js' %}"></script>
+<script src="{% static 'ysrestconf/js/i18n/fr.min.js' %}"></script>
+
+<script src="{% static 'ysrestconf/js/AngularRestconf.js' %}"></script>
+
+<script defer src="{% static 'yangsuite/js/fontawesome-all.js' %}"></script>
+{% endblock javascript %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'ysyangtree/css/chosen/chosen.css' %}"/>
+<link rel="stylesheet" href="{% static 'ysyangtree/css/yangtree.css' %}"/>
+<link rel="stylesheet" href="{% static 'ysrestconf/css/swagger-ui.min.css' %}">
+
+<style type="text/css">
+/* Patch a conflict between bootstrap and jquery. */
+.ui-dialog-content {
+    -webkit-box-sizing: unset;
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+}
+.ys-css-model {
+    cursor: pointer;
+    border: 1px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+</style>
+{% endblock css %}
+{% block body %}
+<div class="container-fluid" ng-app="AngularRestconf" ng-controller="MainCtrl">
+  {% csrf_token %}
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <div class="form-group__text select">
+          <label for="ytool-yangset">Select a YANG set:</label>
+          <select id="ytool-yangset" ng-model="yangset"></select>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+        <div class="form-group__text select">
+          <label for="ytool-devices">Select a RESTCONF Device:</label>
+          <select id="ytool-devices">
+            <option value="none">Device</option>
+            {% for device in devices %}
+            <option value="{{ device.key }}" title="{{ device.description }}">{{ device.name }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <form id="ys-module-selection" class="ys-module-toggle">
+        <div class="form-group">
+          <div class="form-group__text select">
+            <label for="ytool-models">YANG module(s):</label>
+            <select id="ytool-models" multiple ng-model="models"
+                    data-placeholder="Type here to filter available modules">
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-auto">
+      <input ng-click="ClearSwagger()" type="submit" form="ys-module-selection"
+             class="btn btn--primary btn--small ys-module-toggle"
+             value="Load module(s)">
+      <button id="ys-clear-apis" ng-show="show_clear_button" ng-click="ClearSwagger()"/>
+    </div>
+  </div>
+  <div class="row">
+    <div id="ysyangtree-legend" hidden></div>
+  </div>
+  <div class="row" id="ys-gen" class="ys-module-toggle">
+    <button id="ys-gen-btn" ng-click="LoadSchema()" class="btn btn--small btn--primary ys-module-toggle">
+      Generate APIs</button>
+    <div ng-show="show_more_button">
+      <button id="ys-more-apis" ng-click="ShowMoreAPIs()" class="btn btn--small">More APIs</button>
+    </div>  
+  </div>
+  <div class="row">
+    <div class="col" style="height: 100%; overflow: auto">
+      <div ng-show="show_swagger_ui">
+        <div swagger-ui input-type=json input="swagObj" api-explorer="true"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="col-6" style="height: 100%; overflow: auto">
+      <div id="tree" ng-model="tree"></div>
+    </div>
+  </div>
+</div>
+<div id="ys-warn-dialog"></div>
+{% endblock body %}
+{% block script %}
+<script>
+  window.onload = function() {
+  
+  
+}
+$(function() {
+
+    /*
+     * Configure the restconf module to override its defaults as needed.
+     */
+    restconf.config.progressbar = 'div#progress-bar';
+
+    $("#ytool-models").chosen({width: "50%"});
+    $(".ys-module-toggle").hide();
+    $("#ys-search-toggle").hide();
+
+    yangsets.config.yangsetsSelect = 'select#ytool-yangset';
+
+    yangtree.config.exploreStateURI = "/restconf/getrcyang/";
+    yangtree.config.exploreStateTitle = 'RESTCONF';
+    yangtree.config.initialModuleSelection = "{{ modulenames }}".split(',');
+
+    yangsets.getYangSets("{{ yangset }}");
+
+    var swagObj = {};
+    var swagOverFlow = {};
+
+    $("#ytool-yangset").change(function(e) {
+        $.jstree.destroy($("#tree"));
+        swagObj = {};
+
+        $("#ytool-models").empty();
+
+        if ($("#ytool-yangset").val() == "") {
+            $(".ys-module-toggle").hide();
+            return;
+        }
+
+        yangtree.getModels($("#ytool-yangset").val(), $("#ytool-models"))
+            .done(function() {
+                //yangtree.pushExploreState($("#ytool-yangset").val(),
+                //                          $("#ytool-models").val());
+                $("#ytool-models").trigger("chosen:updated");
+                $(".ys-module-toggle").show();
+                /*
+                 * If we preselected a module(s) through
+                 * yangtree.config.initialModuleSelection,
+                 * load the module(s) now.
+                 */
+                if ($("#ytool-models").val()) {
+                    $("#ys-module-selection").trigger("submit");
+                }
+            });
+    });
+
+    $("#ys-module-selection").submit(function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var names = $("#ytool-models").val();
+        swagObj = {};
+
+        if (names) {
+            yangtree.makeJSTree(names, $("#ytool-yangset").val());
+            //$("#ys-search-toggle").show();
+            $("#ys-gen").show();
+        } else {
+            $.jstree.destroy($("#tree"));
+        }
+        $("#tree").on("changed.jstree", yangtree.getNodeRFCData);
+        //yangtree.pushExploreState($("#ytool-yangset").val(), names);
+    });
+
+    $("#ys-more-apis").click(function(e) {
+        $("#ys-gen-btn").click();
+    });
+
+});
+</script>
+{% endblock script %}

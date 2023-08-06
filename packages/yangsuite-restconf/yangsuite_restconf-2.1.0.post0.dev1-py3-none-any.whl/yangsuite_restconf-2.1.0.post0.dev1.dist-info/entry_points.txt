@@ -1,0 +1,6 @@
+[yangsuite.apps]
+restconf = ysrestconf.apps:YSrestconfConfig
+
+[ysdevices.plugins]
+restconf = ysrestconf.device_plugin:RestconfPlugin
+
