@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dia-aiml
+Version: 1.0.12
+Summary: A Python toolkit for the analysis of machine data
+Home-page: https://github.com/EliLillyCo/MQIT_DIA_AIML_Toolkit
+Author: Francesco Gabbanini, Manjunath Bagewadi, Henson Tauro
+Author-email: fgabbanini@yahoo.it
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# MQIT_DIA_AIML_Toolkit
+
+A Python toolkit for the analysis of manufacturing data.
+Developed and maintained by MQ-IDS Data Integration and Analytics.
+
+
