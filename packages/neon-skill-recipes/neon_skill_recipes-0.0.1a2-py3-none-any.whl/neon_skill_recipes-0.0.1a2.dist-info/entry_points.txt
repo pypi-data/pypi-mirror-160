@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-recipes.neongeckocom=skill_recipes:RecipeSkill
+
