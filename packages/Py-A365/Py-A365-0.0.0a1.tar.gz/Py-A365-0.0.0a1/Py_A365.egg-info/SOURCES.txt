@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+A365/__init__.py
+Py_A365.egg-info/PKG-INFO
+Py_A365.egg-info/SOURCES.txt
+Py_A365.egg-info/dependency_links.txt
+Py_A365.egg-info/requires.txt
+Py_A365.egg-info/top_level.txt
