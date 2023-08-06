@@ -1,0 +1,13 @@
+odoo/addons/l10n_es_vat_book_extra_data/README.rst,sha256=bPi9NLRBKXJlYjgMwUkCDEZf2S0DfPOsJZgMEHHvDug,3071
+odoo/addons/l10n_es_vat_book_extra_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/l10n_es_vat_book_extra_data/__manifest__.py,sha256=KXGPpeXcc5kAcYEQfR4ut2ORnpqxSuDeE4bq5Dog3yw,669
+odoo/addons/l10n_es_vat_book_extra_data/data/aeat_vat_book_map_data.xml,sha256=asAmf658lZXgK3Ftu8Hzci0DcGYULVV2YFVw9TzGtdU,486
+odoo/addons/l10n_es_vat_book_extra_data/i18n/l10n_es_vat_book_extra_data.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/l10n_es_vat_book_extra_data/readme/CONTRIBUTORS.rst,sha256=mUjDV5-rkJlcj9erAC8zbNOrh9uON6vCfGvGRX9TciE,81
+odoo/addons/l10n_es_vat_book_extra_data/readme/DESCRIPTION.rst,sha256=ehCNfcZu5hw0ByuB8WV22QVesFRf114XUTWDS1CG-3U,154
+odoo/addons/l10n_es_vat_book_extra_data/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/l10n_es_vat_book_extra_data/static/description/index.html,sha256=CnIK_6Ye29L7w9QwcKYz-AEhgsL9KTcx-7aVOJJ-H_0,12195
+odoo12_addon_l10n_es_vat_book_extra_data-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=ITHboABLOEXACVrGV5_lBv9exAmnvaF3KlCgd_cPUvc,3763
+odoo12_addon_l10n_es_vat_book_extra_data-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_l10n_es_vat_book_extra_data-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_l10n_es_vat_book_extra_data-12.0.1.0.0.99.dev3.dist-info/RECORD,,
