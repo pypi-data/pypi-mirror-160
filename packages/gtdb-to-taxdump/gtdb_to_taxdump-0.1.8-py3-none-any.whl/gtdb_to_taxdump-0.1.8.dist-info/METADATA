@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gtdb-to-taxdump
+Version: 0.1.8
+Summary: GTDB database utility scripts
+Home-page: https://github.com/nick-youngblut/gtdb_to_taxdump
+Author: Nick Youngblut
+Author-email: nyoungb2@gmail.com
+License: MIT license
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: networkx
+Requires-Dist: tqdm
+
+GTDB database utility scripts
+ See README for more information.
+
