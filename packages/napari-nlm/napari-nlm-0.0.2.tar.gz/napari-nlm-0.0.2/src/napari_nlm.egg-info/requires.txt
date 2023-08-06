@@ -1,0 +1,14 @@
+numpy
+magicgui
+qtpy
+pyopencl==2022.1.5
+gputools
+scikit-image
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
