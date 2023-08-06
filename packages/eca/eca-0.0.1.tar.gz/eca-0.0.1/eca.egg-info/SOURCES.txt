@@ -1,0 +1,6 @@
+setup.py
+eca.egg-info/PKG-INFO
+eca.egg-info/SOURCES.txt
+eca.egg-info/dependency_links.txt
+eca.egg-info/requires.txt
+eca.egg-info/top_level.txt
