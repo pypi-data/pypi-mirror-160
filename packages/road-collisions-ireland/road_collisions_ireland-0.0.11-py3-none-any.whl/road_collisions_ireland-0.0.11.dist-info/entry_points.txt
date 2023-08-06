@@ -1,0 +1,3 @@
+[console_scripts]
+load_road_collisions_ireland = road_collisions_ireland.bin.load:main
+raw_cleaner = road_collisions_ireland.bin.raw_cleaner:main
