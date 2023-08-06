@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: memusage
+Version: 0.0.1
+Summary: memory tracker displayer
+Home-page: UNKNOWN
+Author: Ivan Gonzalez Schulten
+Author-email: iagonzalez7@uc.cl
+License: MIT
+Keywords: memory
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a very simple module to catch and monitor the usage of your memory for each line.
+
+Change Log
+==========
+
+0.0.1 (25/07/2022)
+------------------
+-First Release
+
