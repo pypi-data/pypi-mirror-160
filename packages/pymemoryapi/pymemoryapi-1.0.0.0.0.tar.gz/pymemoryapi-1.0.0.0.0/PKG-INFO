@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pymemoryapi
+Version: 1.0.0.0.0
+Summary: Simple memory library
+License: Reflect Solutions
+Author: Xenely14
+Author-email: a.maryatkin14@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
