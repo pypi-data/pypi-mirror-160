@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: samutils-pkg-Samm-G
+Version: 0.0.1
+Summary: A small package for perceptron
+Home-page: https://github.com/Samm-G/samutils-pkg
+Author: Samm-G
+Author-email: gsamarth97@gmail.com
+Project-URL: Bug Tracker, https://github.com/Samm-G/samutils-pkg/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.21.4)
+Requires-Dist: pandas (==1.3.4)
+Requires-Dist: joblib (==1.1.0)
+
+# Samutils python package
+
+## How to use this package
+```python
+from samutils.perceptron import Perceptron
+model = Perceptron(eta=0.3, epochs=10)
+```
+
+## Setup : 
+### Create your own env:
+```
+conda create --prefix "./conda_env" python==3.8 -y
+
+conda activate "./conda_env"
+
+pip cache purge
+
+pip install -r requirements.txt
+```
+
+### Recreate your own Git:
+```
+rm -rf .git
+
+git init
+
+git add .
+
+git commit -m "First Commit"
+
+git branch -M main
+
+git remote add origin <Your New Repository>
+
+git push -u origin main
+
+```
+
+## Upload to PyPI:
+```
+Get LICENSE from Github > Add File > Create New File > Type "LICENSE" and click on "Choose A Template"
+
+Local:
+    git pull origin main
+
+Go to PyPI.com > Account Settings > Add API Token
+Give Token name
+    Scope: (Entire Account)
+Go to Github Repo > Settings > Secrets
+    Add a Secret:
+        Name: PYPI_API_TOKEN
+        Value: (Copied from Pypi)
+
+Trigger the Actions Pipeline to Push to PyPI:
+    git push origin main
+```
+
+## References - 
+
+* [Official python docs for PYPI](https://packaging.python.org/tutorials/packaging-projects/)
+
+* [Github action file for PYPI](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
