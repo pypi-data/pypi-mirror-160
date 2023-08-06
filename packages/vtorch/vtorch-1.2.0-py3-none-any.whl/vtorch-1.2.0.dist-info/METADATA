@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: vtorch
+Version: 1.2.0
+Summary: NLP research library, built on PyTorch.
+Home-page: UNKNOWN
+Author: Paul Khudan, Ilya Strelnikov, Vitalii Koren, Vitalii Radchenko
+Author-email: ds@youscan.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: attrs (~=20.3.0)
+Requires-Dist: clearml (==0.17.4)
+Requires-Dist: fastprogress (==0.1.18)
+Requires-Dist: jsonpickle (==1.5.1)
+Requires-Dist: numpy (==1.18.5)
+Requires-Dist: optuna (==2.10.0)
+Requires-Dist: pandas (~=1.1.5)
+Requires-Dist: pickle5 (~=0.0.11)
+Requires-Dist: Pillow (~=8.2.0)
+Requires-Dist: plotly (==5.3.1)
+Requires-Dist: psutil (~=5.8.0)
+Requires-Dist: pytest (~=6.2.2)
+Requires-Dist: requests (~=2.25.1)
+Requires-Dist: setuptools (~=53.0.0)
+Requires-Dist: six (~=1.15.0)
+Requires-Dist: tokenizers (==0.11.*)
+Requires-Dist: torch (~=1.9.0)
+Requires-Dist: tqdm (==4.46.1)
+Requires-Dist: transformers (==4.17.*)
+Requires-Dist: urllib3 (~=1.26.4)
+
+UNKNOWN
+
