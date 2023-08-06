@@ -1,0 +1,6 @@
+setup.py
+GPBOx.egg-info/PKG-INFO
+GPBOx.egg-info/SOURCES.txt
+GPBOx.egg-info/dependency_links.txt
+GPBOx.egg-info/top_level.txt
+gpbox/__init__.py
