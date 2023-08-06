@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+omarbasiccalculator/__init__.py
+omarbasiccalculator/add.py
+omarbasiccalculator/divide.py
+omarbasiccalculator/multiply.py
+omarbasiccalculator/subtract.py
+omarbasiccalculator.egg-info/PKG-INFO
+omarbasiccalculator.egg-info/SOURCES.txt
+omarbasiccalculator.egg-info/dependency_links.txt
+omarbasiccalculator.egg-info/top_level.txt
