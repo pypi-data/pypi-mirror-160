@@ -1,0 +1,4 @@
+console
+months
+pymongo
+pymongo[srv]
