@@ -1,0 +1,10 @@
+c1algo2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+c1algo2/data.py,sha256=Q2cdGA8NYYF3prG1aAsn6CqhIO8J19220T0UhIaZeEE,9420
+c1algo2/evaluator.py,sha256=LQQcFrFAVoFunytzAV_Fe34yc63h6r6rh5Saf1CS6Ws,1451
+c1algo2/forecaster.py,sha256=Y5qbOK6JlfP4O0IfwJ8q0mV9O6mNADuzpyKy7nKGw74,7308
+tools/GraphingTools/correlation.py,sha256=_P8g5k3N78j03wsNojS10BYwfDPhKx1cyMEC8xdFc7s,5876
+tools/GraphingTools/graph.py,sha256=3d0rG6LUDAcqiWV0aQFiarZlWbrFGtRuL7aOOqjPhP0,4200
+c1algo2-1.0.0.dist-info/METADATA,sha256=cbDEzrfp3LxVr_9D8ux9_ffORq9iUVNOSedAgzQumMc,1093
+c1algo2-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+c1algo2-1.0.0.dist-info/top_level.txt,sha256=G7IhwyQ2BIcDqlVdSUyFSjmW0Ow1Nmp5KuJcMhchn-w,14
+c1algo2-1.0.0.dist-info/RECORD,,
