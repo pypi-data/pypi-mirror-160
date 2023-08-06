@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "numpy", "toml"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hdcms"
+version = "0.0.6"
+description = "This package wraps the C functions in hdcms"
+authors = [
+    {name="Jason Eveleth", email="hdcms@jasoneveleth.com"},
+    {name="Arun Moorthy"},
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file="LICENSE" }
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

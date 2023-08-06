@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: hdcms
+Version: 0.0.6
+Summary: This package wraps the C functions in hdcms
+Author: Arun Moorthy
+Author-email: Jason Eveleth <hdcms@jasoneveleth.com>
+License: NIST-developed software is provided by NIST as a public service. You may use,
+        copy, and distribute copies of the software in any medium, provided that you
+        keep intact this entire notice. You may improve, modify, and create derivative
+        works of the software or any portion of the software, and you may copy and
+        distribute such modifications or works. Modified works should carry a notice
+        stating that you changed the software and should note the date and nature of
+        any such change. Please explicitly acknowledge the National Institute of
+        Standards and Technology as the source of the software. 
+        
+        NIST-developed software is expressly provided "AS IS." NIST MAKES NO WARRANTY
+        OF ANY KIND, EXPRESS, IMPLIED, IN FACT, OR ARISING BY OPERATION OF LAW,
+        INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS
+        FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND DATA ACCURACY. NIST NEITHER
+        REPRESENTS NOR WARRANTS THAT THE OPERATION OF THE SOFTWARE WILL BE
+        UNINTERRUPTED OR ERROR-FREE, OR THAT ANY DEFECTS WILL BE CORRECTED. NIST DOES
+        NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING THE USE OF THE SOFTWARE OR
+        THE RESULTS THEREOF, INCLUDING BUT NOT LIMITED TO THE CORRECTNESS, ACCURACY,
+        RELIABILITY, OR USEFULNESS OF THE SOFTWARE.
+        
+        You are solely responsible for determining the appropriateness of using and
+        distributing the software and you assume all risks associated with its use,
+        including but not limited to the risks and costs of program errors, compliance
+        with applicable laws, damage to or loss of data, programs or equipment, and the
+        unavailability or interruption of operation. This software is not intended to
+        be used in any situation where a failure could cause risk of injury or damage
+        to property. The software developed by NIST employees is not subject to
+        copyright protection within the United States.
+        
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hdcms
+
+In the future: rewrite it to use `scikit-build`: [link](https://scikit-build.readthedocs.io/en/latest/usage.html)
+
+This is a wrapper for the `hdcms` C source. It has a similar
+interface.
+
+# Examples
+
+```python
+import hdcms
+c9 = hdcms.filenames_to_stats_1d("data/CM1_9_1.txt,data/CM1_9_2.txt,data/CM1_9_3.txt")
+c10 = hdcms.filenames_to_stats_1d("data/CM1_10_1.txt,data/CM1_10_2.txt,data/CM1_10_3.txt")
+c3 = hdcms.filenames_to_stats_1d("data/CM1_3_1.txt,data/CM1_3_2.txt,data/CM1_3_3.txt")
+print(hdcms.compare_compound_1d(c10, c8), "\n")
+print(hdcms.compare_all_1d([c10,c8,c9]))
+```
+
+You can also use the 2d functions by changing the `_1d` suffix to
+`_2d`.
+
+
+# Extending
+
+If you extend this code, think carefully about who has owner ship
+over the data in a vector/matrix and the numpy reference count. The only way
+this would be tricky is if a matrix struct exists in two functions, and you
+can't tell one of the function's matrix that it doesn't own the data anymore,
+and you give the data to a NUMPY function and it get garbage
+collected and frees its data (now the matrix struct thinks it has
+valid data when it doesn't). I'm pretty sure I don't make this
+mistake, but it would be easy to make in the future. The fix is
+just to copy the data (which will make it slightly inefficient,
+but that's okay).
+
+# References
+
+[check pointer types](https://stackoverflow.com/questions/7774524/segfault-when-trying-to-write-to-a-numpy-array-created-within-a-c-extension)
+[example](https://stackoverflow.com/questions/16585083/returning-numpy-array-from-a-c-extension)
+
+## Official documentation
+
+https://docs.python.org/3/c-api/arg.html#other-objects
+https://docs.python.org/3/extending/extending.html#building-arbitrary-values
+https://numpy.org/doc/stable/user/c-info.how-to-extend.html
+https://numpy.org/doc/stable/reference/c-api/array.html#c.PyArray_SimpleNew
+https://numpy.org/doc/stable/reference/c-api/dtype.html
+
+# Changelog
+
+0.0.6 Ignore headers in data files
