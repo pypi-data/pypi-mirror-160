@@ -1,0 +1,72 @@
+Proyecto Final de Python 
+Segundo Bimestre 
+
+## Objetivos de aprendizaje
+- Aplicar de modulos y paquetes 
+- Aplicación de funciones utilizando las diferentes normativas 
+- 
+
+## Herramientas
+- git
+- github
+- python
+- poetry
+- numpy
+
+
+## Organización de carpetas
+> TODO: Actualizar, revisar uso de comando [tree](https://stackoverflow.com/questions/23989232/is-there-a-way-to-represent-a-directory-tree-in-a-github-readme-md) y [documento](https://github.com/kriasoft/Folder-Structure-Conventions/blob/master/README.md) de referencia
+
+
+
+```
+poetry-demo
+├── pyproject.toml              
+├── README.md                   # Documentación del proyecto 
+├── pyproject.toml
+├── propuesta.txt
+├── poetry.lock       
+├── __init__.py  
+├── main.py  
+├── LosaUnideireccional
+│   └── __init__.py
+│   └── armaduralongitudinal.py
+│   └── controlDeflexión.py
+│   └── determinación_de_Cargas.py
+│   └── determinaciónMomentos_Ultimos.py
+└── img
+```
+> TODO: Actualizar la lista de archivos.
+
+## Descripción
+> Diseño de Losa alivianada 
+
+Este Programa nos permite calcular la carga que soportara la losa que esta pensada para diseñarse
+Es un losa de funciones basicas que se la utiliza para viviendas o escaleras, de construcción alivianada ya sea en su eje x o en su eje y 
+
+### Fuente de datos
+> TODO: Detallar la fuente de datos sólo en el caso que su aplicación utilice datos externos. Agregar URLs.
+
+Se indica las normativas estandarizadas para la construcción en el ecuador 
+
+> TODO: Actualizar captura y enlace  a video en youtube
+<div align="center">
+<a href="https://www.habitatyvivienda.gob.ec/documentos-normativos-nec-norma-ecuatoriana-de-la-construccion/" target="_blank">
+<img src="./img/FormulaNormativa.png" >
+</a>
+<p>Normativas NEC</p>
+</div>
+
+<br/><br/>
+
+## Versiones y evoluciones del producto
+> TODO: Completar
+
+Versión 0.1.2 Julio 2022
+
+- Cálculo  de diseño de losa 
+- Cálculo de momento flector negativo 
+- Cálculo de momento flector positivo 
+- Correlación de grafica de pandeo para analisis 
+ 
+- ....  
