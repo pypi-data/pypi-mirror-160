@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+easy_translation/__init__.py
+easy_translation/et
+easy_translation/glossary.py
+easy_translation/translation.py
+easy_translation/util.py
+easy_translation.egg-info/PKG-INFO
+easy_translation.egg-info/SOURCES.txt
+easy_translation.egg-info/dependency_links.txt
+easy_translation.egg-info/requires.txt
+easy_translation.egg-info/top_level.txt
