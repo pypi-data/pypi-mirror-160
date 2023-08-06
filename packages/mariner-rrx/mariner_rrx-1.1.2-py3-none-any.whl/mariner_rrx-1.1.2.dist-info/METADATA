@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mariner-rrx
+Version: 1.1.2
+Summary: A package manager for RingRobotX
+Author: WaterFlames
+Platform: any
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: docopt (>=0.6.2)
+
