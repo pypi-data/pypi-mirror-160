@@ -1,0 +1,3 @@
+[console_scripts]
+conc-nouns=conc_nouns.__main__:app
+
