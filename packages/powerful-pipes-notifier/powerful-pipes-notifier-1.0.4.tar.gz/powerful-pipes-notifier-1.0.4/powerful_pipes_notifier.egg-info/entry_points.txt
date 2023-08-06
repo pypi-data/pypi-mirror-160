@@ -1,0 +1,3 @@
+[console_scripts]
+notifier = powerful_pipes_notifier.__main__:main
+

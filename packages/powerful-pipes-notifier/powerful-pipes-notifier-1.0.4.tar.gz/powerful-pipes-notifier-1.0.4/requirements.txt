@@ -1,0 +1,7 @@
+orjson
+aiohttp
+jsonpath-ng
+powerful-pipes
+
+# Asyncio MongoDB
+motor

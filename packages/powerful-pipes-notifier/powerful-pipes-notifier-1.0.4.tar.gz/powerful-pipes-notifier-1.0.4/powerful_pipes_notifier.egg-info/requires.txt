@@ -1,0 +1,5 @@
+orjson
+aiohttp
+jsonpath-ng
+powerful-pipes
+motor
