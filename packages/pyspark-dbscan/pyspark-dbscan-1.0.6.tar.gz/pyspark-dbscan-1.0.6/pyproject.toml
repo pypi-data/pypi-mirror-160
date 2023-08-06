@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyspark-dbscan"
+version = "1.0.6"
+description = "An \"Efficient\" Implementation of DBSCAN on PySpark"
+readme = "README.md"
+dependencies = [
+  "numpy>=1.19.0",
+  "pyspark>=3.1.0",
+  "scipy>=1.5.4",
+  "sklearn==0.0",
+  "scikit-learn==0.24.2",
+  "graphframes==0.6"
+]
+requires-python = ">=3.6"
