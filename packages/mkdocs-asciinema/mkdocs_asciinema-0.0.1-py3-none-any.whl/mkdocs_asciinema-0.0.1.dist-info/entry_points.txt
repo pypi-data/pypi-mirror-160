@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+mkdocs-asciinema=mkdocs_asciinema.plugin:MkdocsAsciinemaPlugin
+
