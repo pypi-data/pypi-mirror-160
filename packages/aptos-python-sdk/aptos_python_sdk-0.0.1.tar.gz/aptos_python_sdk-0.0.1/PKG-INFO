@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aptos-python-sdk
+Version: 0.0.1
+Summary: Aptos python SDK
+Project-URL: Homepage, https://github.com/Research/aptos-python-sdk
+Project-URL: Bug Tracker, https://github.com/Research/aptos-python-sdk/issues
+Author-email: Hellman Team <mingmingtang@aliyun.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Aptos Python SDK (coming soon)
