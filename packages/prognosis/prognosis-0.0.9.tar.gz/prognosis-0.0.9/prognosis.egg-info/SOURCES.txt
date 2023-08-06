@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+prognosis/__init__.py
+prognosis/country.py
+prognosis/country_group.py
+prognosis/helper.py
+prognosis/widget.py
+prognosis.egg-info/PKG-INFO
+prognosis.egg-info/SOURCES.txt
+prognosis.egg-info/dependency_links.txt
+prognosis.egg-info/requires.txt
+prognosis.egg-info/top_level.txt
+prognosis/com/__init__.py
+prognosis/com/country.py
+prognosis/com/topics.py
