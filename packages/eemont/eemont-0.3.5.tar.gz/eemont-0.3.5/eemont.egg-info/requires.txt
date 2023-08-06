@@ -1,0 +1,8 @@
+beautifulsoup4
+earthengine-api
+ee_extra>=0.0.14
+numpy
+pandas
+python-box>=6.0.0
+geopy
+requests
