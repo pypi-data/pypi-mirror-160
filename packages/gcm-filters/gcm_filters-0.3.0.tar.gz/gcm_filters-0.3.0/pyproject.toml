@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "setuptools_scm[toml]>=3.4"]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+known_third_party = ["numpy", "pytest", "pytest_lazyfixture", "scipy", "setuptools", "xarray", "zarr"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-v"
+testpaths = [
+    "tests",
+]

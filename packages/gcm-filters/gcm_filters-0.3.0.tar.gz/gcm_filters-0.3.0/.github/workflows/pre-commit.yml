@@ -1,0 +1,21 @@
+name: pre-commit
+
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+    branches:
+      - "*"
+  schedule:
+    - cron: "0 13 * * 1"
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.5
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - uses: pre-commit/action@v2.0.0
