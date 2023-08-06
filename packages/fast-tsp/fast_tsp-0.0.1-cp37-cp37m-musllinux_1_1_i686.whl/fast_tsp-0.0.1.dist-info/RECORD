@@ -1,0 +1,9 @@
+fast_tsp.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+fast_tsp.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+fast_tsp/_core.cpython-37m-i386-linux-gnu.so,sha256=cBFl8Y5b4NwcCG8vJeFeMh4spvWN4mzZFy9D_N_RGA8,157760
+fast_tsp/__init__.py,sha256=QZmCyNv-tUU05ViEAUNZxgS8mVwDAGBErPAICnRzySo,51
+fast_tsp-0.0.1.dist-info/LICENSE,sha256=scCcOsHL6-Kng4LXnubdTgeyVBVxZhjCsJRGnFWj1DA,2168
+fast_tsp-0.0.1.dist-info/METADATA,sha256=H9NJvAIoT2e5sCZtH5HUmJQNC-0yPMlvnSVejeyhhDA,2040
+fast_tsp-0.0.1.dist-info/top_level.txt,sha256=kNP_MBQW0k8Oa_i64XRsmZAnjtnxUZgAP079__eKQBc,9
+fast_tsp-0.0.1.dist-info/WHEEL,sha256=m1D9134Jswf6rNX-KZCuAkdCLTGrfr23nc8K-voBNjE,104
+fast_tsp-0.0.1.dist-info/RECORD,,
