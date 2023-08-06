@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "add_and_multiple"
+version = "0.0.1"
+authors = [
+    { name="Ismael", email="kofiismael80@gmail.com" },
+]
+description = "A small example package to do add and multiple of a number that we given in beginning"
+classifiers = [
+   "Programming Language :: Python :: 3",
+   "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages]
+find = {}

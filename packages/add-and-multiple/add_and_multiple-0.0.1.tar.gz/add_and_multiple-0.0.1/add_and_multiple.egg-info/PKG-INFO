@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: add-and-multiple
+Version: 0.0.1
+Summary: A small example package to do add and multiple of a number that we given in beginning
+Author-email: Ismael <kofiismael80@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
