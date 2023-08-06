@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: o2sclpy
+Version: 0.927
+Summary: Python extensions for O2scl
+Home-page: https://neutronstars.utk.edu/code/o2sclpy
+Author: Andrew W. Steiner
+Author-email: awsteiner@mykolab.com
+License: GPLv3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: matplotlib (>=3.1)
+Requires-Dist: requests
+
+# o2sclpy
+Python extensions for O2scl
+
+Documentation is available at https://neutronstars.utk.edu/code/o2sclpy .
