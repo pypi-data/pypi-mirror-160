@@ -1,0 +1,14 @@
+transfer/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+transfer/__main__.py,sha256=EkXR7nS0Gfj8po-XX5H4lViIuFhVQJQcsqMieYaH3OE,79
+transfer/_version.py,sha256=miSsqPy2PFJ18TW9kocQJLcv4HFpkfQhcTzgAO-GTVE,22
+transfer/command_line.py,sha256=OGX5H4yCJMKb9RrmdooZhs857KfzZzaWisznitnPYrc,137
+transfer/core.py,sha256=8i07g3qrBn9L68wLApnxnic6i8pMeoLEn4R5mc_tqag,1784
+transfer/parser.py,sha256=KURGjJBvoMhsKXyfIJFtiISPzRxSNFdfj7M6yY4iUL4,1355
+transfer/utils.py,sha256=Y4i5DzqrRpXSB15JmG26GdPj76scuGVNxq1WcHvadgw,1307
+transfer/version.py,sha256=euCQVAl5-iQ81rpOLCkmTX-ljfTsF_lc3H2bcDvVoE4,175
+file_transfer_tools-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+file_transfer_tools-0.0.2.dist-info/METADATA,sha256=PU-nL3NPlYnr0y6GgepYkSMnkbHRJFZCq_7GGDU3Wgs,1168
+file_transfer_tools-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+file_transfer_tools-0.0.2.dist-info/entry_points.txt,sha256=zvdmQzhJmUjsFutI3Z5hceld0B-63W-KjvRfVeLzOeY,56
+file_transfer_tools-0.0.2.dist-info/top_level.txt,sha256=cEy_ai6LXWAkD6XCnJIYZxFTxXZtx3nhtA52OhlAWqI,9
+file_transfer_tools-0.0.2.dist-info/RECORD,,
