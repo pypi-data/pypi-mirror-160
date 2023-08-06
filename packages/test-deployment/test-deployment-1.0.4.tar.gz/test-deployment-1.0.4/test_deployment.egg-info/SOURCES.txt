@@ -1,0 +1,7 @@
+main.py
+pyproject.toml
+setup.cfg
+test_deployment.egg-info/PKG-INFO
+test_deployment.egg-info/SOURCES.txt
+test_deployment.egg-info/dependency_links.txt
+test_deployment.egg-info/top_level.txt
