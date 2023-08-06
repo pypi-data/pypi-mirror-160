@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pipebook
+Version: 0.1.0
+Summary: Next-generation notebook for resilient, production-ready data pipelines
+Author: Ernest Prabhakar
+Author-email: ernest.prabhakar@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fridaay (>=0.2.3,<0.3.0)
+Requires-Dist: toga (==0.3.0.dev34)

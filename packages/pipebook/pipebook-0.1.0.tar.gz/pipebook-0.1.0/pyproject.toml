@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pipebook"
+version = "0.1.0"
+description = "Next-generation notebook for resilient, production-ready data pipelines"
+authors = ["Ernest Prabhakar <ernest.prabhakar@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+toga = "0.3.0.dev34"
+fridaay = "^0.2.3"
+
+[tool.poetry.dev-dependencies]
+ymm = "^0.6.1"
+pytest = "^7.1.2"
+pydantic = "^1.9.1"
+pytest-watch = "^4.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
