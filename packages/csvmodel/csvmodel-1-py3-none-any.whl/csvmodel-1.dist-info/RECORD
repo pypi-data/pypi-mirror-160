@@ -1,0 +1,12 @@
+csvmodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvmodel/config.py,sha256=GuMF_Y8XAPd8hzK5gmbr80PsGBu96dHfog7xnYmYfP0,1165
+csvmodel/csvfile.py,sha256=AirQo6z3tKf9SB8teglkZTwJ_1gOOP6654-BzUkEApY,388
+csvmodel/errors.py,sha256=jiIVwPd_zM1x-kjRUT_1yiMsX-on8gBrsSnHk0iwyX0,242
+csvmodel/main.py,sha256=T5TQY5Fjg9jUXALx7nBVYm-zLZrGHOruthIYhMqUFZ8,1752
+csvmodel/types.py,sha256=AeE7qKbNNG_UIW84rhhWxKC-_HBiEY_UX6DHW1kKZ4U,1012
+csvmodel/validator.py,sha256=NiECxemfe65vtnD1LtBuGlgULfnap6M7A4ef_lc_pfA,6146
+csvmodel-1.dist-info/METADATA,sha256=0G5D9nQgIXO9-kqdlQq7OQDJW3dkt4Gn3SL-ylsm6z4,5907
+csvmodel-1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+csvmodel-1.dist-info/entry_points.txt,sha256=Pd5Hm1NpeUG7vuw2xZz23f3VcegpXTHyzKchtOnHgAk,48
+csvmodel-1.dist-info/top_level.txt,sha256=_UXGGpyPD3TeUQE2wM5POIQ7PvBvyXp7WURhaYI5CNA,9
+csvmodel-1.dist-info/RECORD,,
