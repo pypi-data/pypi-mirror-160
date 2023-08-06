@@ -1,0 +1,10 @@
+icat/__init__.py,sha256=TFed5-g0x0kbZ5Esiy0TmqGxZlOgY939irF05CEbyog,136
+icat/_version.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+icat/models.py,sha256=BD23QJlyeNmZya4uW1w3VIZTHRTTP05LI7bWdCAZQhg,24916
+icat/simulate.py,sha256=ZlPRC9Yqp7RFY_HHaaihuLGqtxePzEpWTTPtf5Yt1OE,37140
+icat/utils.py,sha256=GFRjeWzEIXrlNvPsP5jvmd6_YoEzYUFaLV4Hchto4l4,13891
+icat_sc-0.1.4.dist-info/LICENSE,sha256=CunV9Bo-ebfUDbvH7ydKShxbxZM9xkC0WOK9tmChWkU,1514
+icat_sc-0.1.4.dist-info/METADATA,sha256=ywMMw5cVOI7RNL5n5rqr06oRzZH4B9BnWRU8ymTZuhg,2786
+icat_sc-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+icat_sc-0.1.4.dist-info/top_level.txt,sha256=4ry8J0LQzJsrjJaJiPAeJoqXoHg8vCmzFXDvUQHel6Y,5
+icat_sc-0.1.4.dist-info/RECORD,,
