@@ -1,0 +1,14 @@
+
+[coveralls]
+coveralls~=3.3.1
+
+[lint]
+pylint~=2.14.0
+
+[publish]
+build~=0.8
+twine~=4.0
+
+[test]
+pytest~=7.0
+pytest-cov~=3.0

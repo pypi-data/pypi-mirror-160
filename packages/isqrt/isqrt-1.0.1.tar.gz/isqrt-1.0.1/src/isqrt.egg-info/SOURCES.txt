@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/isqrt/__init__.py
+src/isqrt/isqrt.py
+src/isqrt.egg-info/PKG-INFO
+src/isqrt.egg-info/SOURCES.txt
+src/isqrt.egg-info/dependency_links.txt
+src/isqrt.egg-info/requires.txt
+src/isqrt.egg-info/top_level.txt
