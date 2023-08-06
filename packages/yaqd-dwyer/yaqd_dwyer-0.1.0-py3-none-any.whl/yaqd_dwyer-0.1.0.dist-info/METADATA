@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: yaqd-dwyer
+Version: 0.1.0
+Summary: yaq daemons for Dwyer instruments & controllers
+Home-page: https://yaq.fyi
+Author: yaq developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: minimalmodbus
+Requires-Dist: pyserial
+Requires-Dist: yaqd-core>=2020.06.3
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Project-URL: Issues, https://gitlab.com/yaq/yaqd-dwyer/issues
+Project-URL: Source, https://gitlab.com/yaq/yaqd-dwyer
+Provides-Extra: dev
+
+# yaqd-dwyer
+
+[![PyPI](https://img.shields.io/pypi/v/yaqd-dwyer)](https://pypi.org/project/yaqd-dwyer)
+[![Conda](https://img.shields.io/conda/vn/conda-forge/yaqd-dwyer)](https://anaconda.org/conda-forge/yaqd-dwyer)
+[![yaq](https://img.shields.io/badge/framework-yaq-orange)](https://yaq.fyi/)
+[![black](https://img.shields.io/badge/code--style-black-black)](https://black.readthedocs.io/)
+[![ver](https://img.shields.io/badge/calver-YYYY.M.MICRO-blue)](https://calver.org/)
+[![log](https://img.shields.io/badge/change-log-informational)](https://gitlab.com/yaq/yaqd-dwyer/-/blob/main/CHANGELOG.md)
+
+yaq daemons for Dwyer instruments & controllers
+
+This package contains the following daemon(s):
+
+- https://yaq.fyi/daemons/dwyer-16b
+- https://yaq.fyi/daemons/dwyer-16c
+
+Package maintainer(s):
+
+- [Blaise Thompson](https://github.com/untzag)
+
