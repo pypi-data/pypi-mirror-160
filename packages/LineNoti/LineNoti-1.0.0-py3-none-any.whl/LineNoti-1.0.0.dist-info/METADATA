@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: LineNoti
+Version: 1.0.0
+Summary: LINE Notifier
+Home-page: https://github.com/DonggeunKwon/line-noti
+Author: Donggeun Kwon
+Author-email: donggeun.kwon@gmail.com
+Keywords: LINE,notify,message
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# LINE Notifier
+
+![PyPI](https://img.shields.io/pypi/v/LineNoti)
+[![Downloads](https://pepy.tech/badge/linenoti)](https://pypi.org/project/linenoti)
+
+Get notifications from LINE Notify's official account after connecting with your preferred web services. This package helps you use LINE notifier more easily. You must have a LINE account.
+
+
+
+## Install
+Easy to install from PyPI.
+```bash
+$ pip install LineNoti
+```
+
+## Get started
+Before use the package, get a __token__ from [https://notify-bot.line.me/](https://notify-bot.line.me/).
+
+```python
+import LineNoti as ln
+
+sender = ln.notifier(token=__YOUR_TOKEN_VALUE__)
+sender.notify("Hello world!")
+
+# check your LINE app!
+```
+
+In version 1.1.0, we add a decorator "deco"!
+Use the decorator as:
+```python
+@ln.deco
+def test(msg):
+    print(msg)
+    return msg
+
+test("Hello world!")
+# check your LINE app!
+```
+
+If you want to custom messages, than: 
+```python
+sender.set_msg(START_NOTIFICATION_MSG, END_NOTIFICATION_MSG)
+```
