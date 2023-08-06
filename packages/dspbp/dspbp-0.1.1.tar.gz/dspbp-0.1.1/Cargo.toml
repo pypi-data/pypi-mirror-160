@@ -1,0 +1,30 @@
+[package]
+name = "dspbp"
+version = "0.1.1"
+edition = "2021"
+
+[dependencies]
+clap = { version = "*", features = ["derive"] }
+flate2 = "*"
+base64 = "*"
+anyhow = "*"
+thiserror = "*"
+lazy_static = "*"
+serde = { version = "*", features = ["derive"], optional = true}
+binrw = "*"
+num_enum = "*"
+serde_json = {version = "*", optional = true }
+strum = { version = "*", features = ["derive"] }
+urlencoding = "*"
+log = "*"
+simple_logger = "*"
+pyo3 = { version = "*", optional = true, features = ["extension-module"] }
+
+[features]
+default = ["dump"]
+dump = ["serde", "serde_json"]
+python = ["pyo3"]
+
+[lib]
+name = "dspbp"
+crate-type = ["cdylib", "lib"]
