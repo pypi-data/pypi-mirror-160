@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+example_pkg_sq/__init__.py
+example_pkg_sq.egg-info/PKG-INFO
+example_pkg_sq.egg-info/SOURCES.txt
+example_pkg_sq.egg-info/dependency_links.txt
+example_pkg_sq.egg-info/top_level.txt
