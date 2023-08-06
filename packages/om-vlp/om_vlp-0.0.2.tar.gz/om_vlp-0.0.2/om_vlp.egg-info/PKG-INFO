@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: om-vlp
+Version: 0.0.2
+Summary: VLP models
+Home-page: https://www.soco.ai
+Author: kyusonglee
+License: UNKNOWN
+Description: # om-vlp
+        
+        ## How to install
+        ```
+        pip install om-vlp
+        ```
+        
+        ## Download model
+        ```
+        Wukong ViT-L: https://drive.google.com/file/d/1NHRR_zFD-iJ_OQEmxJq054cobgTkjraC/view?usp=sharing
+        Wukong Vit-B: https://drive.google.com/file/d/1eM7IggHjMJqguPiGRUyIFP-fFhPl5sJz/view?usp=sharing
+        ```
+        
+        ## Examples
+        ```
+        from om_vlp.engine import Wukong
+        X = Wukong(config="om_vlp/configs/wukong_vit_b/wukong_vit_b.py",checkpoint="vit_b.pth")
+        t = X.texts(["a","b","c"])
+        i = X.images(["/mnt/soco1/img/ILSVRC/Data/CLS-LOC/val/n01631663/ILSVRC2012_val_00027028.JPEG"])
+        print (X.sims(i,t))
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
