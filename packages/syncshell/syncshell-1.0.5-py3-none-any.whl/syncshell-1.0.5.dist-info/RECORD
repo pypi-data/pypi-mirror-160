@@ -1,0 +1,11 @@
+syncshell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syncshell/__main__.py,sha256=yNSo-jWd_P-HpCb_odUQlmZefFMJhZ58RkZyv6-0b5w,158
+syncshell/cli.py,sha256=DGbBKPv78qX8tKS2tWz9neOylwv76gklc4YM38YGAp0,6625
+syncshell/config.py,sha256=guKy8q5WT63ni6M5v-AmDYq_f_-aV2CVAJQNlhvY72M,2606
+syncshell/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syncshell/utils/constants.py,sha256=QApSo5XzG1niyV5GJ6eBZ6buMrb5eW_RINB8HVreI-U,964
+syncshell/utils/spinner.py,sha256=hNFjUuktIJ7Z3RKk_DnATmbVhPl_yLh6XrPhBYiXBYQ,567
+syncshell-1.0.5.dist-info/LICENSE.txt,sha256=5Hz0-jXYBpho-st-OPBH8THOr0PAslpp1AgLGnezYAU,1072
+syncshell-1.0.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+syncshell-1.0.5.dist-info/METADATA,sha256=DGQAYY6v3frqbICo4Byc6BiOrTV7t1A4h_ok6xYLTvA,4891
+syncshell-1.0.5.dist-info/RECORD,,
