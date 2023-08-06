@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>special.spec_indices &mdash; special  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html">
+            <img src="../../_static/Special_logo.jpeg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../features.html">What makes it <cite>special</cite>?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../trimmed_readme.html">TL;DR setup guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../trimmed_readme.html#installation-and-dependencies">Installation and dependencies</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorial</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html"><em>special</em> tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#1.-Loading-the-data">1. Loading the data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#2.-Spectral-correlation-matrix">2. Spectral correlation matrix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#3.-Preliminary-spectral-analysis">3. Preliminary spectral analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#4.-MCMC-sampler-examples">4. MCMC sampler examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#5.-Comparison-of-results">5. Comparison of results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#6.-Nested-sampler-examples">6. Nested sampler examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#7.-Best-fit-template-spectrum">7. Best-fit template spectrum</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">Contributions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html#questions-and-suggestions">Questions and suggestions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html#acknowledgements">Acknowledgements</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Package content</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../special.html">special package</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">special</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+      <li>special.spec_indices</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for special.spec_indices</h1><div class="highlight"><pre>
+<span></span><span class="ch">#! /usr/bin/env python</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Module with utilities to estimate the spectral type and gravity of an object </span>
+<span class="sd">based on spectral indices.</span>
+
+<span class="sd">.. [GOR03]</span>
+<span class="sd">   | Gorlova et al. 2003</span>
+<span class="sd">   | **Gravity Indicators in the Near-Infrared Spectra of Brown Dwarfs**</span>
+<span class="sd">   | *The Astrophysical Journal, Volume 593, Issue 1, pp. 1074-1092*</span>
+<span class="sd">   | `https://arxiv.org/abs/astro-ph/0305147</span>
+<span class="sd">     &lt;https://arxiv.org/abs/astro-ph/0305147&gt;`_</span>
+<span class="sd">     </span>
+<span class="sd">.. [SLE04]</span>
+<span class="sd">   | Slesnick et al. 2004</span>
+<span class="sd">   | **The Spectroscopically Determined Substellar Mass Function of the Orion </span>
+<span class="sd">     Nebula Cluster**</span>
+<span class="sd">   | *The Astrophysical Journal, Volume 610, Issue 1, pp. 1045-1063*</span>
+<span class="sd">   | `https://arxiv.org/abs/astro-ph/0404292</span>
+<span class="sd">     &lt;https://arxiv.org/abs/astro-ph/0404292&gt;`_</span>
+<span class="sd">          </span>
+<span class="sd">.. [ALL07]</span>
+<span class="sd">   | Allers et al. 2007</span>
+<span class="sd">   | **Characterizing Young Brown Dwarfs Using Low-Resolution Near-Infrared </span>
+<span class="sd">     Spectra**</span>
+<span class="sd">   | *The Astrophysical Journal, Volume 657, Issue 1, pp. 511-520*</span>
+<span class="sd">   | `https://arxiv.org/abs/astro-ph/0611408</span>
+<span class="sd">     &lt;https://arxiv.org/abs/astro-ph/0611408&gt;`_          </span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s1">&#39;V. Christiaens&#39;</span>
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;spectral_idx&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;sp_idx_to_spt&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;sp_idx_to_gravity&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;digit_to_spt&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;spt_to_digit&#39;</span><span class="p">]</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">.utils_spec</span> <span class="kn">import</span> <span class="n">find_nearest</span>
+
+<div class="viewcode-block" id="spectral_idx"><a class="viewcode-back" href="../../special.html#special.spec_indices.spectral_idx">[docs]</a><span class="k">def</span> <span class="nf">spectral_idx</span><span class="p">(</span><span class="n">lbda</span><span class="p">,</span> <span class="n">spec</span><span class="p">,</span> <span class="n">band</span><span class="o">=</span><span class="s1">&#39;H2O-1.5&#39;</span><span class="p">,</span> <span class="n">spec_err</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Computes a spectral index. Implemented so far:</span>
+<span class="sd">        - the Na 1.1 mu index [ALL07]_</span>
+<span class="sd">        - the H2O 1.3 mu index [GOR03]_</span>
+<span class="sd">        - the H2O 1.5 mu index [ALL07]_</span>
+<span class="sd">        - the H2O 2 index [SLE04]_</span>
+<span class="sd">        - the CO 2.3 index [GOR03]_.</span>
+<span class="sd">        </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    lbda : numpy ndarray</span>
+<span class="sd">        1d numpy array containing the wavelengths of the spectrum in microns.</span>
+<span class="sd">    spec : numpy ndarray</span>
+<span class="sd">        1d numpy array containing the measured flux (arbitrary units accepted).</span>
+<span class="sd">    band: str, optional {&#39;H2O-1.5&#39;, &#39;H2O-1.3&#39;, &#39;H2O-2&#39;, &#39;Na-1.1&#39;, &#39;CO-2.3&#39;}</span>
+<span class="sd">        Name of the band where the spectral index is defined (spectral feature </span>
+<span class="sd">        + wavelength in mu)</span>
+<span class="sd">    spec_err: numpy ndarray, optional</span>
+<span class="sd">        1d numpy array containing the uncertainties on the measured flux </span>
+<span class="sd">        (arbitrary units accepted). If provided the uncertainty on the spectral</span>
+<span class="sd">        index will also be returned.</span>
+<span class="sd">    verbose: bool, optional</span>
+<span class="sd">        Whther to print more information.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    index : float</span>
+<span class="sd">        Value of the spectral index</span>
+<span class="sd">    index_err: float</span>
+<span class="sd">       [if spec_err is provided] Uncertainty on the spectral index.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="k">if</span> <span class="n">band</span> <span class="o">==</span> <span class="s1">&#39;Na-1.1&#39;</span><span class="p">:</span>
+        <span class="n">lbda_num0</span> <span class="o">=</span> <span class="mf">1.15</span>
+        <span class="n">lbda_num1</span> <span class="o">=</span> <span class="mf">1.16</span>
+        <span class="n">lbda_den0</span> <span class="o">=</span> <span class="mf">1.134</span>
+        <span class="n">lbda_den1</span> <span class="o">=</span> <span class="mf">1.144</span>
+    <span class="k">elif</span> <span class="n">band</span> <span class="o">==</span> <span class="s1">&#39;H2O-1.3&#39;</span><span class="p">:</span>
+        <span class="n">lbda_num0</span> <span class="o">=</span> <span class="mf">1.334</span>
+        <span class="n">lbda_num1</span> <span class="o">=</span> <span class="mf">1.338</span>
+        <span class="n">lbda_den0</span> <span class="o">=</span> <span class="mf">1.32</span>
+        <span class="n">lbda_den1</span> <span class="o">=</span> <span class="mf">1.324</span>    
+    <span class="k">elif</span> <span class="n">band</span> <span class="o">==</span> <span class="s1">&#39;H2O-1.5&#39;</span><span class="p">:</span>
+        <span class="n">lbda_num0</span> <span class="o">=</span> <span class="mf">1.55</span>
+        <span class="n">lbda_num1</span> <span class="o">=</span> <span class="mf">1.56</span>
+        <span class="n">lbda_den0</span> <span class="o">=</span> <span class="mf">1.492</span>
+        <span class="n">lbda_den1</span> <span class="o">=</span> <span class="mf">1.502</span>
+    <span class="k">elif</span> <span class="n">band</span> <span class="o">==</span> <span class="s1">&#39;H2O-2&#39;</span><span class="p">:</span>
+        <span class="n">lbda_num0</span> <span class="o">=</span> <span class="mf">2.035</span>
+        <span class="n">lbda_num1</span> <span class="o">=</span> <span class="mf">2.045</span>
+        <span class="n">lbda_den0</span> <span class="o">=</span> <span class="mf">2.145</span>
+        <span class="n">lbda_den1</span> <span class="o">=</span> <span class="mf">2.155</span>
+    <span class="k">elif</span> <span class="n">band</span> <span class="o">==</span> <span class="s1">&#39;CO-2.3&#39;</span><span class="p">:</span>
+        <span class="n">lbda_num0</span> <span class="o">=</span> <span class="mf">2.296</span>
+        <span class="n">lbda_num1</span> <span class="o">=</span> <span class="mf">2.298</span>
+        <span class="n">lbda_den0</span> <span class="o">=</span> <span class="mf">2.286</span>
+        <span class="n">lbda_den1</span> <span class="o">=</span> <span class="mf">2.288</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Band not recognised&quot;</span><span class="p">)</span>
+        
+    <span class="n">idx_num0</span> <span class="o">=</span> <span class="n">find_nearest</span><span class="p">(</span><span class="n">lbda</span><span class="p">,</span> <span class="n">lbda_num0</span><span class="p">)</span>
+    <span class="n">idx_num1</span> <span class="o">=</span> <span class="n">find_nearest</span><span class="p">(</span><span class="n">lbda</span><span class="p">,</span> <span class="n">lbda_num1</span><span class="p">)</span>
+    <span class="c1"># set floor/ceil constraints if the indices are the same</span>
+    <span class="k">if</span> <span class="n">idx_num0</span> <span class="o">==</span> <span class="n">idx_num1</span><span class="p">:</span>
+        <span class="n">idx_num0</span> <span class="o">=</span> <span class="n">find_nearest</span><span class="p">(</span><span class="n">lbda</span><span class="p">,</span> <span class="n">lbda_num0</span><span class="p">,</span> <span class="n">constraint</span><span class="o">=</span><span class="s1">&#39;floor&#39;</span><span class="p">)</span>
+        <span class="n">idx_num1</span> <span class="o">=</span> <span class="n">find_nearest</span><span class="p">(</span><span class="n">lbda</span><span class="p">,</span> <span class="n">lbda_num0</span><span class="p">,</span> <span class="n">constraint</span><span class="o">=</span><span class="s1">&#39;ceil&#39;</span><span class="p">)</span>
+    <span class="n">idx_den0</span> <span class="o">=</span> <span class="n">find_nearest</span><span class="p">(</span><span class="n">lbda</span><span class="p">,</span> <span class="n">lbda_den0</span><span class="p">)</span>
+    <span class="n">idx_den1</span> <span class="o">=</span> <span class="n">find_nearest</span><span class="p">(</span><span class="n">lbda</span><span class="p">,</span> <span class="n">lbda_den1</span><span class="p">)</span>
+    <span class="c1"># set floor/ceil constraints if the indices are the same</span>
+    <span class="k">if</span> <span class="n">idx_den0</span> <span class="o">==</span> <span class="n">idx_den1</span><span class="p">:</span>
+        <span class="n">idx_den0</span> <span class="o">=</span> <span class="n">find_nearest</span><span class="p">(</span><span class="n">lbda</span><span class="p">,</span> <span class="n">lbda_den0</span><span class="p">,</span> <span class="n">constraint</span><span class="o">=</span><span class="s1">&#39;floor&#39;</span><span class="p">)</span>
+        <span class="n">idx_den1</span> <span class="o">=</span> <span class="n">find_nearest</span><span class="p">(</span><span class="n">lbda</span><span class="p">,</span> <span class="n">lbda_den1</span><span class="p">,</span> <span class="n">constraint</span><span class="o">=</span><span class="s1">&#39;ceil&#39;</span><span class="p">)</span>
+        
+    <span class="n">raise_flag</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="c1"># Check if enough spectral resolution</span>
+    <span class="n">err_msg</span> <span class="o">=</span> <span class="s2">&quot;Indices overlap for num and den: not enough spectral resolution&quot;</span>
+    <span class="k">if</span> <span class="n">idx_den0</span> <span class="o">==</span> <span class="n">idx_num1</span><span class="p">:</span>
+        <span class="n">raise_flag</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">lbda</span><span class="p">[</span><span class="n">idx_den0</span><span class="p">]</span><span class="o">-</span><span class="n">lbda_den0</span><span class="p">)</span><span class="o">&lt;</span><span class="nb">abs</span><span class="p">(</span><span class="n">lbda</span><span class="p">[</span><span class="n">idx_num1</span><span class="p">]</span><span class="o">-</span><span class="n">lbda_num1</span><span class="p">):</span>
+            <span class="n">idx_num1</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">idx_num0</span> <span class="o">==</span> <span class="n">idx_num1</span><span class="o">+</span><span class="mi">1</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">err_msg</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">idx_den0</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">idx_den0</span> <span class="o">==</span> <span class="n">idx_den1</span><span class="o">+</span><span class="mi">1</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">err_msg</span><span class="p">)</span>  
+    <span class="k">if</span> <span class="n">idx_den1</span> <span class="o">==</span> <span class="n">idx_num0</span><span class="p">:</span>
+        <span class="n">raise_flag</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">lbda</span><span class="p">[</span><span class="n">idx_den1</span><span class="p">]</span><span class="o">-</span><span class="n">lbda_den1</span><span class="p">)</span><span class="o">&lt;</span><span class="nb">abs</span><span class="p">(</span><span class="n">lbda</span><span class="p">[</span><span class="n">idx_num0</span><span class="p">]</span><span class="o">-</span><span class="n">lbda_num0</span><span class="p">):</span>
+            <span class="n">idx_num0</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">idx_num0</span> <span class="o">==</span> <span class="n">idx_num1</span><span class="o">+</span><span class="mi">1</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">err_msg</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">idx_den1</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">idx_den0</span> <span class="o">==</span> <span class="n">idx_den1</span><span class="o">+</span><span class="mi">1</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">err_msg</span><span class="p">)</span>
+        
+    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">raise_flag</span><span class="p">:</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;*WARNING*: spectral resolution is barely sufficient for &quot;</span>
+            <span class="n">msg</span> <span class="o">+=</span> <span class="s2">&quot;non-overlapping indices - results to be taken with caution!&quot;</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;Closest (non-overlapping) wavelengths to </span><span class="si">{:.3f}</span><span class="s2">, </span><span class="si">{:.3f}</span><span class="s2">, </span><span class="si">{:.3f}</span><span class="s2"> and&quot;</span>
+        <span class="n">msg</span><span class="o">+=</span> <span class="s2">&quot; </span><span class="si">{:.3f}</span><span class="s2"> mu correspond to </span><span class="si">{:.3f}</span><span class="s2">, </span><span class="si">{:.3f}</span><span class="s2">, </span><span class="si">{:.3f}</span><span class="s2"> and </span><span class="si">{:.3f}</span><span class="s2"> mu resp.&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">lbda_num0</span><span class="p">,</span> <span class="n">lbda_num1</span><span class="p">,</span> <span class="n">lbda_den0</span><span class="p">,</span> <span class="n">lbda_den1</span><span class="p">,</span> 
+                         <span class="n">lbda</span><span class="p">[</span><span class="n">idx_num0</span><span class="p">],</span> <span class="n">lbda</span><span class="p">[</span><span class="n">idx_num1</span><span class="p">],</span> <span class="n">lbda</span><span class="p">[</span><span class="n">idx_den0</span><span class="p">],</span>
+                         <span class="n">lbda</span><span class="p">[</span><span class="n">idx_den1</span><span class="p">]))</span>
+    
+    <span class="n">num</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">spec</span><span class="p">[</span><span class="n">idx_num0</span><span class="p">:</span><span class="n">idx_num1</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">den</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">spec</span><span class="p">[</span><span class="n">idx_den0</span><span class="p">:</span><span class="n">idx_den1</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">index</span> <span class="o">=</span> <span class="n">num</span><span class="o">/</span><span class="n">den</span>
+    
+    <span class="k">if</span> <span class="n">spec_err</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">index</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">num_err</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">spec_err</span><span class="p">[</span><span class="n">idx_num0</span><span class="p">:</span><span class="n">idx_num1</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="p">((</span><span class="n">idx_num1</span><span class="o">+</span><span class="mi">1</span><span class="o">-</span><span class="n">idx_num0</span><span class="p">)</span><span class="o">*</span><span class="n">den</span><span class="p">),</span><span class="mi">2</span><span class="p">))</span>
+        <span class="n">den_err</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">spec_err</span><span class="p">[</span><span class="n">idx_num0</span><span class="p">:</span><span class="n">idx_num1</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="n">idx_den1</span><span class="o">+</span><span class="mi">1</span><span class="o">-</span><span class="n">idx_den0</span><span class="p">)</span><span class="o">*</span><span class="n">num</span><span class="o">/</span><span class="p">(</span><span class="n">den</span><span class="o">**</span><span class="mi">2</span><span class="p">),</span><span class="mi">2</span><span class="p">))</span>
+        <span class="n">index_err</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">num_err</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">den_err</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">index</span><span class="p">,</span> <span class="n">index_err</span></div>
+
+
+<div class="viewcode-block" id="sp_idx_to_spt"><a class="viewcode-back" href="../../special.html#special.spec_indices.sp_idx_to_spt">[docs]</a><span class="k">def</span> <span class="nf">sp_idx_to_spt</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;H2O-1.5&#39;</span><span class="p">,</span> <span class="n">idx_err</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">young</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Estimates a spectral type from a spectral index. Implemented so far:</span>
+<span class="sd">        - the H2O 1.3 mu index [GOR03]_</span>
+<span class="sd">        - the H2O 1.5 mu index [ALL07]_</span>
+<span class="sd">        - the H2O-2 index [SLE04]_</span>
+<span class="sd">        </span>
+<span class="sd">    Note on scale of SpT: 0 = M0, 10 = L0.</span>
+<span class="sd">        </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    idx : float</span>
+<span class="sd">        Value of spectral index</span>
+<span class="sd">    name: str, optional {&#39;H2O-1.3&#39;, &#39;H2O-1.5, &#39;H2O-2&#39;}</span>
+<span class="sd">        The name of the spectral index.</span>
+<span class="sd">    idx_err: float, optional</span>
+<span class="sd">        Uncertainty on the spectral index value</span>
+<span class="sd">    young: bool, opt</span>
+<span class="sd">        Whether the object is likely young (only used for &#39;H2O-1.3&#39; index, which</span>
+<span class="sd">        is gravity dependent)</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    spt : float</span>
+<span class="sd">        Value of the spectral type</span>
+<span class="sd">    spt_err: float</span>
+<span class="sd">       [if idx_err is provided] Uncertainty on the spectral type.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="k">if</span> <span class="n">name</span> <span class="o">==</span> <span class="s1">&#39;H2O-1.3&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">young</span><span class="p">:</span>
+            <span class="n">a</span> <span class="o">=</span> <span class="mf">10.99</span>
+            <span class="n">da</span> <span class="o">=</span> <span class="mf">6.06</span>
+            <span class="n">b</span> <span class="o">=</span> <span class="mf">17.45</span>
+            <span class="n">db</span> <span class="o">=</span> <span class="mf">7.68</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">a</span> <span class="o">=</span> <span class="mf">21.23</span>
+            <span class="n">da</span> <span class="o">=</span> <span class="mf">7.82</span>
+            <span class="n">b</span> <span class="o">=</span> <span class="mf">29.11</span>
+            <span class="n">db</span> <span class="o">=</span> <span class="mf">9.56</span>
+        
+        <span class="n">spt</span> <span class="o">=</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="o">*</span><span class="n">idx</span>
+        <span class="n">tot_err</span> <span class="o">=</span> <span class="n">da</span><span class="o">**</span><span class="mi">2</span> <span class="c1"># err related to a</span>
+        <span class="n">tot_err</span> <span class="o">+=</span> <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">db</span><span class="o">*</span><span class="n">idx</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># err related to b</span>
+        <span class="k">if</span> <span class="n">idx_err</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">tot_err</span> <span class="o">+=</span> <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">idx_err</span><span class="o">*</span><span class="n">b</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="n">spt_err</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">tot_err</span><span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">name</span> <span class="o">==</span> <span class="s1">&#39;H2O-1.5&#39;</span><span class="p">:</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="mf">0.75</span>
+        <span class="n">da</span> <span class="o">=</span> <span class="mf">0.03</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="mf">0.044</span>
+        <span class="n">db</span> <span class="o">=</span> <span class="mf">0.004</span>
+        
+        <span class="n">spt</span> <span class="o">=</span> <span class="p">(</span><span class="n">idx</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="n">b</span>
+        <span class="n">tot_err</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">da</span><span class="o">/</span><span class="n">b</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># err related to a</span>
+        <span class="n">tot_err</span> <span class="o">+=</span> <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">db</span><span class="o">*</span><span class="p">(</span><span class="n">idx</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="n">b</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># err related to b</span>
+        <span class="k">if</span> <span class="n">idx_err</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">tot_err</span> <span class="o">+=</span> <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">idx_err</span><span class="o">/</span><span class="n">b</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="n">spt_err</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">tot_err</span><span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">name</span> <span class="o">==</span> <span class="s1">&#39;H2O-2&#39;</span><span class="p">:</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="mf">34.13</span>
+        <span class="n">da</span> <span class="o">=</span> <span class="mf">1.19</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="mf">27.10</span>
+        <span class="n">db</span> <span class="o">=</span> <span class="mf">1.20</span>
+        <span class="n">spt</span> <span class="o">=</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="o">*</span><span class="n">idx</span>
+        <span class="n">tot_err</span> <span class="o">=</span> <span class="n">da</span><span class="o">**</span><span class="mi">2</span> <span class="c1"># err related to a</span>
+        <span class="n">tot_err</span> <span class="o">+=</span> <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">db</span><span class="o">*</span><span class="n">idx</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># err related to b</span>
+        <span class="k">if</span> <span class="n">idx_err</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">tot_err</span> <span class="o">+=</span> <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">idx_err</span><span class="o">*</span><span class="n">b</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="n">spt_err</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">tot_err</span><span class="p">)</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;not implemented for this line&quot;</span><span class="p">)</span>
+
+    
+    <span class="k">return</span> <span class="n">spt</span><span class="p">,</span> <span class="n">spt_err</span></div>
+
+
+<div class="viewcode-block" id="sp_idx_to_gravity"><a class="viewcode-back" href="../../special.html#special.spec_indices.sp_idx_to_gravity">[docs]</a><span class="k">def</span> <span class="nf">sp_idx_to_gravity</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Na-1.1&#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Provides a qualitative estimate of the gravity/youth based on a </span>
+<span class="sd">    gravity-sensitive spectral index. Implemented so far:</span>
+<span class="sd">    </span>
+<span class="sd">    - the Na-1.1 index [ALL07]_</span>
+<span class="sd">    - the CO-2.3 index [GOR03]_</span>
+<span class="sd">        </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    idx : float</span>
+<span class="sd">        Value of spectral index</span>
+<span class="sd">    name: str, optional {&#39;Na-1.1&#39;, &#39;CO-2.3&#39;}</span>
+<span class="sd">        The name of the spectral index.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="k">if</span> <span class="n">name</span> <span class="o">==</span> <span class="s1">&#39;Na-1.1&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">idx</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">1.4</span><span class="p">:</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;The object&#39;s gravity is consistent with being very young &quot;</span>
+            <span class="n">msg</span><span class="o">+=</span> <span class="s2">&quot;(Na index less than 1.4; Allers et al. 2007))&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">msg</span><span class="o">=</span> <span class="s2">&quot;The Na index does not suggest a very low gravity (i.e. it is&quot;</span>
+            <span class="n">msg</span><span class="o">+=</span> <span class="s2">&quot; unlikely to be very young; Allers et al. 2007))&quot;</span>
+    <span class="k">elif</span> <span class="n">name</span> <span class="o">==</span> <span class="s1">&#39;CO-2.3&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">idx</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">0.81</span><span class="p">:</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;The CO-2.3 index is consistent with either a red giant or &quot;</span>
+            <span class="n">msg</span> <span class="o">+=</span> <span class="s2">&quot; a field L-dwarf with log(g) &gt; 4.5 (CO-2.3 index less than&quot;</span>
+            <span class="n">msg</span> <span class="o">+=</span> <span class="s2">&quot; 0.88; Gorlova et al. 2003)&quot;</span>
+        <span class="k">elif</span> <span class="n">idx</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">0.88</span><span class="p">:</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;The object&#39;s gravity is likely higher than 4.5, with a SpT &quot;</span>
+            <span class="n">msg</span> <span class="o">+=</span> <span class="s2">&quot;earlier than L0 (CO-2.3 index less than 0.88; Gorlova et &quot;</span>
+            <span class="n">msg</span> <span class="o">+=</span> <span class="s2">&quot;al. 2003)&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">msg</span><span class="o">=</span> <span class="s2">&quot;The object is likely young, with a log(g) lower than 4.5 &quot;</span>
+            <span class="n">msg</span><span class="o">+=</span> <span class="s2">&quot;(CO-2.3 index larger than 0.88; Gorlova et al. 2003)&quot;</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="spt_to_digit"><a class="viewcode-back" href="../../special.html#special.spec_indices.spt_to_digit">[docs]</a><span class="k">def</span> <span class="nf">spt_to_digit</span><span class="p">(</span><span class="n">spt</span><span class="p">,</span> <span class="n">convention</span><span class="o">=</span><span class="s1">&#39;splat&#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Converts a string representing spectral type into an integer index.</span>
+<span class="sd">    </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    spt : str</span>
+<span class="sd">        String representing the spectral index</span>
+<span class="sd">    convention: str, optional {&#39;splat&#39;, &#39;Allers+07&#39;}</span>
+<span class="sd">        Which convention to use to convert digit into spectral type.</span>
+<span class="sd">        Convention from splat: K0 = 0, M0=10, L0=20, T0=30, Y9 = 49</span>
+<span class="sd">        Convention from [ALL07]_: M0 = 0, L0 = 10, ...</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    idx : float or int</span>
+<span class="sd">        Index value of the spectral type</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">spt_str</span> <span class="o">=</span> <span class="n">spt</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">sub</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">if</span> <span class="n">convention</span> <span class="o">==</span> <span class="s1">&#39;Allers+07&#39;</span><span class="p">:</span>
+        <span class="n">sub</span><span class="o">=</span><span class="mi">10</span>
+        
+    <span class="k">if</span> <span class="s1">&#39;K&#39;</span> <span class="ow">in</span> <span class="n">spt_str</span><span class="p">:</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="mi">0</span><span class="o">-</span><span class="n">sub</span>
+        <span class="n">loc</span> <span class="o">=</span> <span class="n">spt_str</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;K&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">convention</span> <span class="o">==</span> <span class="s1">&#39;Allers+07&#39;</span><span class="p">:</span>
+            <span class="n">msg</span><span class="o">=</span><span class="s2">&quot;WARNING: Allers+07 convention doesn&#39;t handle SpT earlier than M&quot;</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>        
+    <span class="k">elif</span> <span class="s1">&#39;M&#39;</span> <span class="ow">in</span> <span class="n">spt_str</span><span class="p">:</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="mi">10</span><span class="o">-</span><span class="n">sub</span>
+        <span class="n">loc</span> <span class="o">=</span> <span class="n">spt_str</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;M&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="s1">&#39;L&#39;</span> <span class="ow">in</span> <span class="n">spt_str</span><span class="p">:</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="mi">20</span><span class="o">-</span><span class="n">sub</span>
+        <span class="n">loc</span> <span class="o">=</span> <span class="n">spt_str</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;L&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="s1">&#39;T&#39;</span> <span class="ow">in</span> <span class="n">spt_str</span><span class="p">:</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="mi">30</span><span class="o">-</span><span class="n">sub</span>
+        <span class="n">loc</span> <span class="o">=</span> <span class="n">spt_str</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;T&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="s1">&#39;Y&#39;</span> <span class="ow">in</span> <span class="n">spt_str</span><span class="p">:</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="mi">40</span><span class="o">-</span><span class="n">sub</span>
+        <span class="n">loc</span> <span class="o">=</span> <span class="n">spt_str</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;Y&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;WARNING: Spectral type not between K0 and Y9. Idx set to NaN.&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">spt</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">spt</span><span class="p">[</span><span class="n">loc</span><span class="o">+</span><span class="mi">1</span><span class="p">:])</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">spt</span><span class="p">[</span><span class="n">loc</span><span class="o">+</span><span class="mi">2</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;.&quot;</span><span class="p">:</span>
+                <span class="n">idx</span><span class="o">+=</span><span class="nb">float</span><span class="p">(</span><span class="n">spt</span><span class="p">[</span><span class="n">loc</span><span class="o">+</span><span class="mi">1</span><span class="p">:</span><span class="n">loc</span><span class="o">+</span><span class="mi">4</span><span class="p">])</span>
+        <span class="k">elif</span> <span class="n">spt</span><span class="p">[</span><span class="n">loc</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">isdigit</span><span class="p">():</span>
+            <span class="n">idx</span><span class="o">+=</span><span class="nb">float</span><span class="p">(</span><span class="n">spt</span><span class="p">[</span><span class="n">loc</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">idx</span><span class="o">+=</span><span class="mi">5</span> <span class="c1"># in case just &quot;M&quot; or &quot;L&quot; is given, let&#39;s assume it&#39;s M5 or L5</span>
+    
+    <span class="k">return</span> <span class="n">idx</span></div>
+
+    
+<div class="viewcode-block" id="digit_to_spt"><a class="viewcode-back" href="../../special.html#special.spec_indices.digit_to_spt">[docs]</a><span class="k">def</span> <span class="nf">digit_to_spt</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="n">convention</span><span class="o">=</span><span class="s1">&#39;splat&#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Converts an integer index into spectral type.</span>
+
+<span class="sd">    </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    idx : float or int</span>
+<span class="sd">        Index value of the spectral type </span>
+<span class="sd">    convention: str, optional {&#39;splat&#39;, &#39;Allers+07&#39;}</span>
+<span class="sd">        Which convention to use to convert digit into spectral type.</span>
+<span class="sd">        Convention from splat: K0 = 0, M0=10, L0=20, T0=30, Y9 = 49</span>
+<span class="sd">        Convention from Allers+07: M0 = 0, L0 = 10, ...</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    spt : str</span>
+<span class="sd">        String representing the spectral index</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="k">if</span> <span class="n">convention</span> <span class="o">==</span> <span class="s1">&#39;splat&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">idx</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+            <span class="n">spt</span> <span class="o">=</span> <span class="s1">&#39;K&#39;</span>
+        <span class="k">elif</span> <span class="n">idx</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">:</span>
+            <span class="n">spt</span> <span class="o">=</span> <span class="s1">&#39;M&#39;</span>
+        <span class="k">elif</span> <span class="n">idx</span> <span class="o">&lt;</span> <span class="mi">30</span><span class="p">:</span>
+            <span class="n">spt</span> <span class="o">=</span> <span class="s1">&#39;L&#39;</span>
+        <span class="k">elif</span> <span class="n">idx</span> <span class="o">&lt;</span> <span class="mi">40</span><span class="p">:</span>
+            <span class="n">spt</span> <span class="o">=</span> <span class="s1">&#39;T&#39;</span>
+        <span class="k">elif</span> <span class="n">idx</span> <span class="o">&lt;</span> <span class="mi">50</span><span class="p">:</span>
+            <span class="n">spt</span> <span class="o">=</span> <span class="s1">&#39;Y&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Index not between 0 (K0) and 49 (Y9)&quot;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">convention</span> <span class="o">==</span> <span class="s1">&#39;Allers07&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">idx</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+            <span class="n">spt</span> <span class="o">=</span> <span class="s1">&#39;M&#39;</span>
+        <span class="k">elif</span> <span class="n">idx</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">:</span>
+            <span class="n">spt</span> <span class="o">=</span> <span class="s1">&#39;L&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Index not between 0 (M0) and 20 (L9)&quot;</span><span class="p">)</span>
+        
+    <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">idx</span><span class="o">%</span><span class="mi">10</span><span class="p">)</span><span class="o">%</span><span class="mi">1</span><span class="p">:</span>
+       <span class="n">spt</span><span class="o">+=</span><span class="s2">&quot;</span><span class="si">{:.0f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">idx</span><span class="o">%</span><span class="mi">10</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">spt</span><span class="o">+=</span><span class="s2">&quot;</span><span class="si">{:.1f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">idx</span><span class="o">%</span><span class="mi">10</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">spt</span></div>
+    
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2019-2022, Valentin Christiaens.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

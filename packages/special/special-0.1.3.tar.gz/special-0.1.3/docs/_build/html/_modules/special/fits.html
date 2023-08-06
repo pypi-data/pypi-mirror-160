@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>special.fits &mdash; special  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html">
+            <img src="../../_static/Special_logo.jpeg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../features.html">What makes it <cite>special</cite>?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../trimmed_readme.html">TL;DR setup guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../trimmed_readme.html#installation-and-dependencies">Installation and dependencies</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorial</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html"><em>special</em> tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#1.-Loading-the-data">1. Loading the data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#2.-Spectral-correlation-matrix">2. Spectral correlation matrix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#3.-Preliminary-spectral-analysis">3. Preliminary spectral analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#4.-MCMC-sampler-examples">4. MCMC sampler examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#5.-Comparison-of-results">5. Comparison of results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#6.-Nested-sampler-examples">6. Nested sampler examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/walkthrough.html#7.-Best-fit-template-spectrum">7. Best-fit template spectrum</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">Contributions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html#questions-and-suggestions">Questions and suggestions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html#acknowledgements">Acknowledgements</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Package content</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../special.html">special package</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">special</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+      <li>special.fits</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for special.fits</h1><div class="highlight"><pre>
+<span></span><span class="ch">#! /usr/bin/env python</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Module with various fits handling functions (same as in ``VIP``)</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s1">&#39;Carlos Alberto Gomez Gonzalez&#39;</span>
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;open_fits&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;info_fits&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;write_fits&#39;</span><span class="p">]</span>
+
+
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">astropy.io</span> <span class="kn">import</span> <span class="n">fits</span> <span class="k">as</span> <span class="n">ap_fits</span>
+
+
+<div class="viewcode-block" id="open_fits"><a class="viewcode-back" href="../../special.html#special.fits.open_fits">[docs]</a><span class="k">def</span> <span class="nf">open_fits</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">ignore_missing_end</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+              <span class="n">precision</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">,</span> <span class="n">return_memmap</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+              <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Load a fits file into a memory as numpy array.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    fitsfilename : string or pathlib.Path</span>
+<span class="sd">        Name of the fits file or ``pathlib.Path`` object</span>
+<span class="sd">    n : int, optional</span>
+<span class="sd">        It chooses which HDU to open. Default is the first one.</span>
+<span class="sd">    header : bool, optional</span>
+<span class="sd">        Whether to return the header along with the data or not.</span>
+<span class="sd">    precision : numpy dtype, optional</span>
+<span class="sd">        Float precision, by default np.float32 or single precision float.</span>
+<span class="sd">    ignore_missing_end : bool optional</span>
+<span class="sd">        Allows to open fits files with a header missing END card.</span>
+<span class="sd">    return_memmap : bool, optional</span>
+<span class="sd">        If True, the function returns the handle to the FITS file opened by</span>
+<span class="sd">        mmap. With the hdulist, array data of each HDU to be accessed with mmap,</span>
+<span class="sd">        rather than being read into memory all at once. This is particularly</span>
+<span class="sd">        useful for working with very large arrays that cannot fit entirely into</span>
+<span class="sd">        physical memory.</span>
+<span class="sd">    verbose : bool, optional</span>
+<span class="sd">        If True prints message of completion.</span>
+<span class="sd">    **kwargs: optional</span>
+<span class="sd">        Optional arguments to the astropy.io.fits.open() function. E.g. </span>
+<span class="sd">        &quot;output_verify&quot; can be set to ignore, in case of non-standard header.</span>
+<span class="sd">        </span>
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    hdulist : hdulist</span>
+<span class="sd">        [memmap=True] FITS file ``n`` hdulist.</span>
+<span class="sd">    data : numpy ndarray</span>
+<span class="sd">        [memmap=False] Array containing the frames of the fits-cube.</span>
+<span class="sd">    header : dict</span>
+<span class="sd">        [memmap=False, header=True] Dictionary containing the fits header.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">fitsfilename</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">):</span>
+        <span class="n">fitsfilename</span> <span class="o">+=</span> <span class="s1">&#39;.fits&#39;</span>
+
+    <span class="n">hdulist</span> <span class="o">=</span> <span class="n">ap_fits</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">,</span> <span class="n">ignore_missing_end</span><span class="o">=</span><span class="n">ignore_missing_end</span><span class="p">,</span>
+                           <span class="n">memmap</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">return_memmap</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">hdulist</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">hdulist</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">.</span><span class="n">data</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">precision</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">header</span><span class="p">:</span>
+            <span class="n">header</span> <span class="o">=</span> <span class="n">hdulist</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">header</span>
+            <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Fits HDU-</span><span class="si">{}</span><span class="s2"> data and header successfully loaded. &quot;</span>
+                      <span class="s2">&quot;Data shape: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
+            <span class="k">return</span> <span class="n">data</span><span class="p">,</span> <span class="n">header</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Fits HDU-</span><span class="si">{}</span><span class="s2"> data successfully loaded. &quot;</span>
+                      <span class="s2">&quot;Data shape: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
+            <span class="k">return</span> <span class="n">data</span></div>
+
+
+<div class="viewcode-block" id="info_fits"><a class="viewcode-back" href="../../special.html#special.fits.info_fits">[docs]</a><span class="k">def</span> <span class="nf">info_fits</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Print the information about a fits file.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    fitsfilename : str</span>
+<span class="sd">        Path to the fits file.</span>
+<span class="sd">    **kwargs: optional</span>
+<span class="sd">        Optional arguments to the astropy.io.fits.open() function. E.g. </span>
+<span class="sd">        &quot;output_verify&quot; can be set to ignore, in case of non-standard header.</span>
+<span class="sd">        </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="n">ap_fits</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">,</span> <span class="n">memmap</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="k">as</span> <span class="n">hdulist</span><span class="p">:</span>
+        <span class="n">hdulist</span><span class="o">.</span><span class="n">info</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="write_fits"><a class="viewcode-back" href="../../special.html#special.fits.write_fits">[docs]</a><span class="k">def</span> <span class="nf">write_fits</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">,</span> <span class="n">array</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">output_verify</span><span class="o">=</span><span class="s1">&#39;exception&#39;</span><span class="p">,</span>
+               <span class="n">precision</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Write array and header into FITS file.</span>
+
+<span class="sd">    If there is a previous file with the same filename then it&#39;s replaced.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    fitsfilename : string</span>
+<span class="sd">        Full path of the fits file to be written.</span>
+<span class="sd">    array : numpy ndarray</span>
+<span class="sd">        Array to be written into a fits file.</span>
+<span class="sd">    header : numpy ndarray, optional</span>
+<span class="sd">        Array with header.</span>
+<span class="sd">    output_verify : str, optional</span>
+<span class="sd">        {&quot;fix&quot;, &quot;silentfix&quot;, &quot;ignore&quot;, &quot;warn&quot;, &quot;exception&quot;} </span>
+<span class="sd">        Verification options:</span>
+<span class="sd">        https://docs.astropy.org/en/stable/io/fits/api/verification.html</span>
+<span class="sd">    precision : numpy dtype, optional</span>
+<span class="sd">        Float precision, by default np.float32 or single precision float.</span>
+<span class="sd">    verbose : bool, optional</span>
+<span class="sd">        If True prints message.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">array</span> <span class="o">=</span> <span class="n">array</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">precision</span><span class="p">,</span> <span class="n">copy</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">fitsfilename</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.fits&#39;</span><span class="p">):</span>
+        <span class="n">fitsfilename</span> <span class="o">+=</span> <span class="s1">&#39;.fits&#39;</span>
+
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">):</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">)</span>
+        <span class="n">ap_fits</span><span class="o">.</span><span class="n">writeto</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">,</span> <span class="n">array</span><span class="p">,</span> <span class="n">header</span><span class="p">,</span> <span class="n">output_verify</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Fits file successfully overwritten&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">ap_fits</span><span class="o">.</span><span class="n">writeto</span><span class="p">(</span><span class="n">fitsfilename</span><span class="p">,</span> <span class="n">array</span><span class="p">,</span> <span class="n">header</span><span class="p">,</span> <span class="n">output_verify</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Fits file successfully saved&quot;</span><span class="p">)</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2019-2022, Valentin Christiaens.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
