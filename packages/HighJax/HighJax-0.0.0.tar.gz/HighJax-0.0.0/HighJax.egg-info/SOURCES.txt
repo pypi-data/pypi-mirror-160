@@ -1,0 +1,6 @@
+setup.py
+HighJax.egg-info/PKG-INFO
+HighJax.egg-info/SOURCES.txt
+HighJax.egg-info/dependency_links.txt
+HighJax.egg-info/top_level.txt
+highjax/__init__.py
