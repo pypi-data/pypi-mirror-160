@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+tox.ini
+fpvs/__init__.py
+fpvs/__version__.py
+fpvs/scmversion.py
+fpvs.egg-info/PKG-INFO
+fpvs.egg-info/SOURCES.txt
+fpvs.egg-info/dependency_links.txt
+fpvs.egg-info/entry_points.txt
+fpvs.egg-info/requires.txt
+fpvs.egg-info/top_level.txt
+fpvs/scripts/__init__.py
+fpvs/scripts/scan.py

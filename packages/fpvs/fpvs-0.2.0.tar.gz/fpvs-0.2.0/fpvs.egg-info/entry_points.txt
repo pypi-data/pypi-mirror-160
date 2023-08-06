@@ -1,0 +1,3 @@
+[console_scripts]
+fpvs-scan = fpvs.scripts.scan:main
+
