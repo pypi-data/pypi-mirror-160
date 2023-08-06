@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cartesianPlane/__init__.py
+src/cartesianPlane/__main__.py
+src/cartesianPlane/colors.py
+src/cartesian_plane.egg-info/PKG-INFO
+src/cartesian_plane.egg-info/SOURCES.txt
+src/cartesian_plane.egg-info/dependency_links.txt
+src/cartesian_plane.egg-info/requires.txt
+src/cartesian_plane.egg-info/top_level.txt
