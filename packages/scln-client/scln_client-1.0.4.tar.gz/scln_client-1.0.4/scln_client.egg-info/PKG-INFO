@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: scln-client
+Version: 1.0.4
+Summary: Python Client for the SOAR Communication Library
+Home-page: https://gitlab.com/nsf-noirlab/soar/py-scln-client
+Author: Diego Gomez, Simon Torres
+Author-email: diego.gomez@noirlab.edu, simon.torres@noirlab.edu
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# SOAR Communication Library New Client
+
+Procedures for SOAR TCS and some other instruments communications.
+
+This library implements a TCP/IP socket following the SOAR standard messaging protocol, this is 4 bytes to define the message length followed by the message itself using a big-endian and ASCII coding.
+
+The command protocol is client/server with immediate response. A response should never take longer than 1500 mS.
+
+### Install package
+
+```bash
+pip install scln-client
+```
+
+## Getting started
+
+The package contains two classes SclnClient and SclnClientError
+
+### SclnClient
+
+It should be used to instantiate the scln client, it uses the following parameters:
+
+- host: The hostname or IP address of the server (required)
+- port: The port to connect (required)
+- timeout: The time to wait for a response from the server before giving up
+- max_tx_retries: The number of times to try sending a command before giving up, default to 12 (optional)
+- max_rx_retries: The number of times to try to reconnect while receiving a message before giving up, defaults to 3 (optional)
+- max_reconnect_attempts: The number of times it will try to reconnect to the socket, if set to -1 it will try forever
+- max_reconnect_on_message: The number of times it will try to reconnect to the socket if disconnect in middle of a message
+- on_change: a function that will be called when the connection status changes
+- connect_on_create: The flag to decide if connect on instantiation
+
+### SclnClientError
+
+All raised errors in SclnClient object will be of type SclnClientError, then it should be imported to handle this exception type.
+
+## Importing the package
+
+Example code
+
+```python
+from scln_client import SclnClient, SclnClientError
+
+scln = SclnClient("111.111.111.111", 1111)
+resp = scln.send_command("SOME COMMAND")
+print(resp)
+```
+
+

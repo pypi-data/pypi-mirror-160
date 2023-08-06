@@ -1,0 +1,10 @@
+name: scln_client
+dependencies:
+  - setuptools~=61.2.0
+  - setuptools_scm
+  - pip
+  - pip:
+      - coveralls
+      - sphinx_rtd_theme
+      - sphinx
+      - tox

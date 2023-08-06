@@ -1,0 +1,2 @@
+[console_scripts]
+scln_terminal = scln_client.scln_client:run_client_terminal
