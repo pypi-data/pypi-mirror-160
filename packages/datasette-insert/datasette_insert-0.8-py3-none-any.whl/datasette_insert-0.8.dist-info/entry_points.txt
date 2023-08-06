@@ -1,0 +1,2 @@
+[datasette]
+insert = datasette_insert
