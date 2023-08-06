@@ -1,0 +1,15 @@
+README.md
+setup.py
+pulumi_metabase/__init__.py
+pulumi_metabase/_inputs.py
+pulumi_metabase/_utilities.py
+pulumi_metabase/metabase.py
+pulumi_metabase/provider.py
+pulumi_metabase/pulumi-plugin.json
+pulumi_metabase/py.typed
+pulumi_metabase.egg-info/PKG-INFO
+pulumi_metabase.egg-info/SOURCES.txt
+pulumi_metabase.egg-info/dependency_links.txt
+pulumi_metabase.egg-info/not-zip-safe
+pulumi_metabase.egg-info/requires.txt
+pulumi_metabase.egg-info/top_level.txt
