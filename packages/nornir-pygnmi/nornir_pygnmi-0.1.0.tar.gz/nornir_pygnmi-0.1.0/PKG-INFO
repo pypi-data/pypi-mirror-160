@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: nornir_pygnmi
+Version: 0.1.0
+Summary: pyGNMI plugin for Nornir.
+Home-page: https://github.com/akarneliuk/nornir_pygnmi
+Author: Anton Karneliuk
+Author-email: anton@karneliuk.com
+License: bsd-3-clause
+Download-URL: https://github.com/akarneliuk/nornir_pygnmi/archive/v0.1.0.tar.gz
+Description: ========================
+        pyGNMI plugin for Nornir
+        ========================
+        This repository contains GNMI plugin for Nornir leveraging pyGNMI library
+        
+        =====
+        Usage
+        =====
+        Sample code example:
+        
+        .. code-block:: python3
+        
+          # Modules
+          from nornir.init_nornir import InitNornir
+          from nornir_utils.plugins.functions import print_result
+          from nornir_pygnmi.tasks import gnmi_capabilities
+        
+          # Statics
+          NORNIR_CONFIG = "./config.yaml"
+        
+          # Body
+          if __name__ == "__main__":
+              # Initialise Nornir
+              nrn = InitNornir(config_file=NORNIR_CONFIG)
+        
+              # Run task
+              result1 = nrn.run(task=gnmi_capabilities)
+              print_result(result1)
+        
+        Installation
+        ------------
+        
+        .. code-block:: bash
+        
+          pip install nornir_pygnm
+        
+        
+Keywords: gnmi,automation,grpc,network,pygnmi
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Networking
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
