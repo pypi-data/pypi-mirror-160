@@ -1,0 +1,11 @@
+[tool.black]
+line_length = 79
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 79
+
+[[tool.mypy.overrides]]
+module = "pathspec"
+ignore_missing_imports = true
