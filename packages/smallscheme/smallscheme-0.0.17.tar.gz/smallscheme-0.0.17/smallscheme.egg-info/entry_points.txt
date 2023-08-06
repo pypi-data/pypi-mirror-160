@@ -1,0 +1,2 @@
+[console_scripts]
+smallscheme = smallscheme.main:main
