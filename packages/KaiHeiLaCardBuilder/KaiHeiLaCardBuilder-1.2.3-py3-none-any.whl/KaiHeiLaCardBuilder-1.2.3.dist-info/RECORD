@@ -1,0 +1,11 @@
+khl_card/__init__.py,sha256=QbppfORhrghHHibdn4VBNRY3AnY2lYvcPJzM6ObE_W4,117
+khl_card/accessory.py,sha256=5ulK--IOmQJ24BU9jElfg0icXyahv1iLKh8S9Ebg3Sw,3713
+khl_card/card.py,sha256=mk0IHFpUjsQjVAGv3r92icmaw1oGg06QdbN-dLELa70,3016
+khl_card/color.py,sha256=Dp26r07w0CpTQ6xFHWH_yWhv_hpz8tUY91IeyUerHEw,794
+khl_card/modules.py,sha256=9_hFcAlPjvNmhPShe9IlTw-_gPv_jxg2ldKD-khmsjE,9555
+khl_card/types.py,sha256=n7j7hYT4EoObNtoJM0XB6GPO9DUb5VK2fqTSgT8nsmc,1033
+KaiHeiLaCardBuilder-1.2.3.dist-info/LICENSE,sha256=ZTq9oV3FS2KKhtenqrG1cd5YZcP5uLPLCYxVprTzQD4,1068
+KaiHeiLaCardBuilder-1.2.3.dist-info/METADATA,sha256=hgrCbVWrC-DjTxWPDZzTXzBowRaaHVk-NoI8O6xFk3E,3835
+KaiHeiLaCardBuilder-1.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+KaiHeiLaCardBuilder-1.2.3.dist-info/top_level.txt,sha256=vJx4UXirIiiT3qsT3RKMYSVgyf0n2U_q1iplXWFKlAw,9
+KaiHeiLaCardBuilder-1.2.3.dist-info/RECORD,,
