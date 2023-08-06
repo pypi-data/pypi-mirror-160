@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: automl-helpers
+Version: 0.0.2
+Summary: A small package to help with modeling pipelines
+Home-page: https://github.com/markovian99/automl-helpers
+Author: Example Author
+Author-email: author@example.com
+Project-URL: Bug Tracker, https://github.com/markovian99/automl-helpers/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# automl-helpers
+automl-helpers is a Python module for machine learning built on top of scikit-learn, numpy, pandas, and tf/keras designed to train various modeling pipelines to see what algorithms and pre-processing approaches work well for a given data set. The pipelines can either be saved for prediction purposes or just used as baselines for further refinement. 
+
+### User installation
+If you already have a working installation of scikit-learn, numpy and tf/keras, the easiest way to install automl-helpers is using pip:
+
+pip install automl-helpers 
+
+
