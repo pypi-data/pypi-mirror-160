@@ -1,0 +1,2 @@
+[console_scripts]
+rlock = framework.main:main
