@@ -1,0 +1,12 @@
+apksearch/__init__.py,sha256=jgNjoRGGlYoguD8AFHYHdJBDcCXAMy3g5J0RC1simR0,371
+apksearch/entities.py,sha256=POOxxy5QVSauja_flUyv-FR4qVTTUAHvE7w0FWdRGt4,1875
+apksearch/parsing.py,sha256=l7CScpNYndxMIWmVD5nJ4TiQmnOTnbO_3ruZZAYeXnY,5936
+apksearch/search.py,sha256=vMrSQDbB12VYvijyD_NNDE3d5vyZSNme8RlIC0UFwjs,7212
+tests/__init__.py,sha256=U_KC2E3KEsuSD1rLwHtwQNXV72dzY1zxdUpL3ABVWV4,229
+tests/test_parsing.py,sha256=v4UGL46zWC0qVE3VdXg2hITmGDho3BmwKAuF7_XHcpA,6864
+tests/test_search.py,sha256=2W2i7AKsIFfVrVrFjRekgAM4bCNL2mfYHc2lHNqwkDY,5266
+APKMirror_Search-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+APKMirror_Search-1.0.0.dist-info/METADATA,sha256=yn4yhZIEXPnSV552JTa_i_qB_gdU-w21Rq3C0Xt5Igs,300
+APKMirror_Search-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+APKMirror_Search-1.0.0.dist-info/top_level.txt,sha256=Yo5QiffjvBGKN_ml1jbPoTld-bApg-Wp0KfHeiei43g,16
+APKMirror_Search-1.0.0.dist-info/RECORD,,
