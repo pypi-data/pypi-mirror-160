@@ -1,0 +1,13 @@
+[ibis.backends]
+clickhouse=ibis.backends.clickhouse
+dask=ibis.backends.dask
+datafusion=ibis.backends.datafusion
+duckdb=ibis.backends.duckdb
+impala=ibis.backends.impala
+mysql=ibis.backends.mysql
+pandas=ibis.backends.pandas
+postgres=ibis.backends.postgres
+pyspark=ibis.backends.pyspark
+spark=ibis.backends.pyspark
+sqlite=ibis.backends.sqlite
+
