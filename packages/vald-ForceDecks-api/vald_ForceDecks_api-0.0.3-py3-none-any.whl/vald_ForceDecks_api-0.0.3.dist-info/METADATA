@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: vald-ForceDecks-api
+Version: 0.0.3
+Summary: Python module to interact with VALD ForceDecks API.
+Author: Régis Tremblay Lefrançois
+Requires: requests
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# py-vald-fdapi
+from Vald_ForceDecks_API import ValdForceDecksAPI
