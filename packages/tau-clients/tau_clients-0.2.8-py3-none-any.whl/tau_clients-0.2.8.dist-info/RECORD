@@ -1,0 +1,14 @@
+tau_clients/__init__.py,sha256=ryOxEsdqxSdz6eIT7DLq3TocCYpm584RyfrtMsgYmnE,10820
+tau_clients/decoders.py,sha256=wNsbxt_1fZecVt3Ax5XGZU-_XA0NbevAIH3OHHy_DGw,11069
+tau_clients/exceptions.py,sha256=EzPzifZzV0w8nOZD2EpxHNWffkkymR0o1ESvXV9WoSA,1213
+tau_clients/parsers.py,sha256=K8BCJa6GqV-sXm2L5hDDNdStQRkmBYdkt9AmwRlTEjo,7477
+tau_clients/nsx_defender/__init__.py,sha256=Ucf-iMdeZCPPkPO8NFu__5TLhUMe493j_ZtTuY4sGoY,57768
+tau_clients-0.2.8.data/scripts/download_artifacts.py,sha256=MNi7xEumfgXW1J0zcUY1PiHJ5NIzJPsogxr0aWuJtNI,6841
+tau_clients-0.2.8.data/scripts/download_event_pcaps.py,sha256=hEXJa1stMpSZT_M-AfFLdrkSn-9pIjWcpeoQlNAV0So,3929
+tau_clients-0.2.8.data/scripts/submit_samples.py,sha256=_e4I1B2BZUD873nD_fgkCHiYj2z2OvU3X1_FA97AneQ,5060
+tau_clients-0.2.8.dist-info/LICENSE,sha256=Ob_skt9Wu28FiklMEIU1tYBXrCvfxNdKbRia6sfrmys,1499
+tau_clients-0.2.8.dist-info/METADATA,sha256=Y8wjiJfa1VIdeSYrBAcqtOWv28Hx1_CDGAJ4NRNSpYM,4037
+tau_clients-0.2.8.dist-info/NOTICE,sha256=XtbI39ngHQ1dw9LW2KRzCiEpbHPpW-71VuH0jPxRCgc,446
+tau_clients-0.2.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tau_clients-0.2.8.dist-info/top_level.txt,sha256=hBM_ZszFTHBjuZZuCZyxWif7ZrRzC2SwPQfNC-Ldvuc,12
+tau_clients-0.2.8.dist-info/RECORD,,
