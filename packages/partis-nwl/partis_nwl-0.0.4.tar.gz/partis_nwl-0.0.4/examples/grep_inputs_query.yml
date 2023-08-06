@@ -1,0 +1,4 @@
+type: inputs
+pattern: 'tools,'
+files:
+  - $nwl:workdir/tmp/data_example?var=data.outputs.res_file

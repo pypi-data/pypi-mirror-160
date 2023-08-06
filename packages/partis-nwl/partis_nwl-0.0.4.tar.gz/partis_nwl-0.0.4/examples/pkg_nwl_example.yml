@@ -1,0 +1,14 @@
+nwl: 1
+type: tool_pkg
+info:
+  name: nwl_example
+  label: NWL Example Tool Package
+  author:
+    name: Nanohmics Inc.
+    email: software.support@nanohmics.com
+
+tools:
+  - data_example.yml
+  - module_example.yml
+  - grep.yml
+  - generic.yml

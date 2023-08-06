@@ -1,0 +1,68 @@
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+nwl: 1
+type: tool
+info:
+  label : MPI Usage Example
+  doc : Example tool using MPI multi-process execution
+  version: [0,1]
+  author:
+    name: Nanohmics, Inc.
+    email: software.support@nanohmics.com
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+resources:
+  multi_process: true
+  multi_node: true
+  python:
+    dependencies:
+      - mpi4py
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+inputs:
+  numbers:
+    type: list
+    item:
+      type: int
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+outputs :
+  # capture of cmd stdout
+  stdout_output:
+    type: file
+    label: Standard output
+    doc: The standard output printed by the tool
+    value: $expr:py _.data.commands.run_program.stdout.path
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+commands:
+
+  #-----------------------------------------------------------------------------
+  make_script:
+    type: file
+    path: run.py
+    contents: |-
+      import sys
+      from mpi4py import MPI
+      from partis.nwl.utils import load_results
+
+      comm = MPI.COMM_WORLD
+      rank = comm.Get_rank()
+      _ = load_results()
+
+      numbers = _.data.inputs.numbers
+      num = numbers[ comm.rank % len(numbers) ]
+
+      for i in range(comm.size):
+        comm.barrier()
+        if comm.rank == i:
+          print(f"rank {rank}: number = {num}")
+          sys.stdout.flush
+
+  #-----------------------------------------------------------------------------
+  run_program:
+    type: process
+    args:
+      # NOTE: if mpi is not available/set, then this will be an empty list
+      - $expr:py _.runtime.mpiexec
+      - python
+      - run.py

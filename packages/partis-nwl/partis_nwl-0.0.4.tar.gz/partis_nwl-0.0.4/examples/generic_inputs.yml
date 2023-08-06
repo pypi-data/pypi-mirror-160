@@ -1,0 +1,8 @@
+out_file_name: out.txt
+a: false
+enable_it: true
+this_is_it:
+  x: 3
+  y: 0.1
+coord_sys: xyz
+list_input: []
