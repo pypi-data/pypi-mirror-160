@@ -1,0 +1,10 @@
+parsita/__init__.py,sha256=5GoqyZvdxH01Y7MEgbiAkkl2LY5IEX_CpIROvMIimCA,403
+parsita/metaclasses.py,sha256=_QQSr9pS7xfQP6fXEchM9kSgyMpAiiGbv6U1WP0qP88,5422
+parsita/options.py,sha256=W6wrlBYK2wiTAn6msWuoxrvITj3XL0p9w6SQnUlEbUk,1234
+parsita/parsers.py,sha256=_XpMQ3TNpSrQ9f2aSpIZ86neurPnTZCr_ZtIVzPBu-A,37469
+parsita/state.py,sha256=4So9CDH2TgjIErivnK1opc8OAqz3z8y3rIJndHoP3E4,12297
+parsita/util.py,sha256=acJZIiuwPTpAsaBuABxCv_MFF0ABnHXnuNLKUAAvrWA,1689
+parsita-1.7.1.dist-info/LICENSE,sha256=xsrxLaL8ZsfAQ_2jWbDkKMnXfV2xwq7wJNPn_9onNns,1062
+parsita-1.7.1.dist-info/WHEEL,sha256=KXNDfOTTCr-VyxnCJDozfJ6nmi3hNN9RABDaCXBsNak,85
+parsita-1.7.1.dist-info/METADATA,sha256=fSLFPFKelQmG8FoCYPdSVTjoodu630AX7m7CpI3iVx8,3606
+parsita-1.7.1.dist-info/RECORD,,
