@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+example_package_faiz_11/__init__.py
+example_package_faiz_11/example.py
+example_package_faiz_11.egg-info/PKG-INFO
+example_package_faiz_11.egg-info/SOURCES.txt
+example_package_faiz_11.egg-info/dependency_links.txt
+example_package_faiz_11.egg-info/top_level.txt
