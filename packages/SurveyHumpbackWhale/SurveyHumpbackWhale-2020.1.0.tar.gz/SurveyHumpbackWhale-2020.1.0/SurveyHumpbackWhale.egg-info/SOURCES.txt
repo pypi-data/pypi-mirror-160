@@ -1,0 +1,6 @@
+SurveyHumpbackWhale.py
+setup.py
+SurveyHumpbackWhale.egg-info/PKG-INFO
+SurveyHumpbackWhale.egg-info/SOURCES.txt
+SurveyHumpbackWhale.egg-info/dependency_links.txt
+SurveyHumpbackWhale.egg-info/top_level.txt
