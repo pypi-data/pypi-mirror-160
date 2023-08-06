@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pizza-logger-manager-g
+Version: 1.0.0
+Summary: python simple logger manager
+Home-page: https://github.com/rhgkstjf/logger-manager
+Author: rhgkstjf
+Author-email: rhgkstjf@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fluent-logger
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+# logger-manager
+
+
+package build
+
+* python setup.py sdist bdist_wheel
+* python -m twine upload dist/*
+
+reference
+* https://wikidocs.net/78954
+
