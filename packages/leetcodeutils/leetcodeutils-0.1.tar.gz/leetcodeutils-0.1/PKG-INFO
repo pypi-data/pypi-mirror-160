@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: leetcodeutils
+Version: 0.1
+Summary: some useful utilities for coding with Leetcode
+Home-page: https://github.com/mqfs/leetcodeutils
+Author: Gancheng Yuan
+Author-email: scottyuan@outlook.com
+License: MIT
+Download-URL: https://github.com/mqfs/leetcodeutils/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: leetcode,debug
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
