@@ -1,0 +1,6 @@
+GitPython
+beautifulsoup4
+coloredlogs
+requests
+semver
+termcolor
