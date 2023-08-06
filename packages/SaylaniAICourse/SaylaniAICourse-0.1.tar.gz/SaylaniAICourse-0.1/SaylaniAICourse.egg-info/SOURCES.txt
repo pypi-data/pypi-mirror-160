@@ -1,0 +1,6 @@
+setup.py
+SaylaniAICourse/init.py
+SaylaniAICourse.egg-info/PKG-INFO
+SaylaniAICourse.egg-info/SOURCES.txt
+SaylaniAICourse.egg-info/dependency_links.txt
+SaylaniAICourse.egg-info/top_level.txt
