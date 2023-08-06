@@ -1,0 +1,5 @@
+boto3~=1.24.22
+PyYAML
+pandas~=1.4.3
+numpy
+pydantic~=1.9.1

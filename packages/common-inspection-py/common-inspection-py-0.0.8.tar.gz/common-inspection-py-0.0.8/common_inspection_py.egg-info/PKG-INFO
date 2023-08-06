@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: common-inspection-py
+Version: 0.0.8
+Summary: The description of the package
+Home-page: http://www.example.com/
+Author: X.X
+Author-email: xx@example.com
+License: LICENSE
+Description-Content-Type: text/markdown
+
+test
