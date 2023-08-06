@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+drawio_file=mkdocs_drawio_file.plugin:drawio_file_plugin
+
