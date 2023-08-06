@@ -1,0 +1,7 @@
+setup.py
+ytquery/__init__.py
+ytquery.egg-info/PKG-INFO
+ytquery.egg-info/SOURCES.txt
+ytquery.egg-info/dependency_links.txt
+ytquery.egg-info/requires.txt
+ytquery.egg-info/top_level.txt
