@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fhir.bser
+Version: 0.1.0
+Summary: Model classes for BSeR IG FHIR Resources
+Home-page: https://github.com/BSeR-PoC/fhir.bser
+Author: Andrew Stevens
+Author-email: andrew.stevens@gtri.gatech.edu
+Project-URL: Bug Tracker, https://github.com/BSeR-PoC/fhir.bser/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Requires-Dist: fhir.uscore (>=0.1.2)
+
