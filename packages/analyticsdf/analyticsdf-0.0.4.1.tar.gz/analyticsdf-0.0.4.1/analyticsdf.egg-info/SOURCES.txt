@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+analyticsdf.egg-info/PKG-INFO
+analyticsdf.egg-info/SOURCES.txt
+analyticsdf.egg-info/dependency_links.txt
+analyticsdf.egg-info/not-zip-safe
+analyticsdf.egg-info/requires.txt
+analyticsdf.egg-info/top_level.txt
