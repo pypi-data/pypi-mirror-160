@@ -1,0 +1,3 @@
+fluent-logger
+requests
+urllib3

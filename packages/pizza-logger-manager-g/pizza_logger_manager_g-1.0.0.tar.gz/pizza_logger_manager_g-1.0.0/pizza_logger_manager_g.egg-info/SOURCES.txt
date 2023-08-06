@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+logger_manager/LoggerManager.py
+logger_manager/__init__.py
+pizza_logger_manager_g.egg-info/PKG-INFO
+pizza_logger_manager_g.egg-info/SOURCES.txt
+pizza_logger_manager_g.egg-info/dependency_links.txt
+pizza_logger_manager_g.egg-info/requires.txt
+pizza_logger_manager_g.egg-info/top_level.txt
