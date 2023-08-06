@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: leeway
+Version: 2022.7.23
+Summary: Bread and butter box pushing bread slices under butter knives. Hints from previous runs are taken.
+Home-page: https://github.com/sthagen/leeway
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://todo.sr.ht/~sthagen/leeway
+Project-URL: Documentation, https://sthagen.github.io/leeway
+Project-URL: Source Code, https://github.com/sthagen/leeway
+Keywords: developer-tools,devops
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer (>=0.6.1)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# leeway
+
+Bread and butter box pushing bread slices under butter knives. Hints from previous runs are taken.
+
+<!-- TODO: Third party dependencies are documented in the folder [docs/third-party](docs/third-party/README.md). -->
+
+[License: MIT](https://github.com/sthagen/leeway/blob/default/LICENSE)
+
+[![version](https://img.shields.io/pypi/v/leeway.svg?style=flat)](https://pypi.python.org/pypi/leeway/)
+[![downloads](https://pepy.tech/badge/leeway/month)](https://pepy.tech/project/leeway)
+[![wheel](https://img.shields.io/pypi/wheel/leeway.svg?style=flat)](https://pypi.python.org/pypi/leeway/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/leeway.svg?style=flat)](https://pypi.python.org/pypi/leeway/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/leeway.svg?style=flat)](https://pypi.python.org/pypi/leeway/)
+
+## Documentation
+
+User and developer [documentation of leeway](https://codes.dilettant.life/docs/leeway).
+
+## Bug Tracker
+
+Feature requests and bug reports are bested entered in the [todos of leeway](https://todo.sr.ht/~sthagen/leeway).
+
+## Primary Source repository
+
+The primary source repository of [leeway is at sourcehut](https://git.sr.ht/~sthagen/leeway)
+a collection of tools useful for software development.
+
+
+## Status
+
+Experimental.
+
+**Note**: The default branch is `default`.
