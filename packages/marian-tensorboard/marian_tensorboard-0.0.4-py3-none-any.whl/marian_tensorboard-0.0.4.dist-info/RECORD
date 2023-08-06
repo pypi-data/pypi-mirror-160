@@ -1,0 +1,10 @@
+marian_tensorboard/__init__.py,sha256=x2tFjl0XMF6UI_OP2WTA0Lsh_veI-Gjqog_-3ZWny98,115
+marian_tensorboard/__main__.py,sha256=9_F9ESVJvE6EhTIimMNtveepet7fUMJIvHZsxB-Xqgs,124
+marian_tensorboard/marian_tensorboard.py,sha256=STyU-KtuQXqgnejYtLWWa2JmdxytCoA6UqZRAPhQYro,13437
+marian_tensorboard/version.py,sha256=pawRy9JnCfZyCDjsAs8O-p0YHInEh9eDW-750GZhFhY,70
+marian_tensorboard-0.0.4.dist-info/LICENSE.md,sha256=K8Y_WeVqIm_eWsjdWTjSZv18E0pRLkZN264-EQcn1ss,1085
+marian_tensorboard-0.0.4.dist-info/METADATA,sha256=rcujPWP34Ri7YkUOrd3BoABDYdeMaMYl-dKjbEUXQZY,2234
+marian_tensorboard-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+marian_tensorboard-0.0.4.dist-info/entry_points.txt,sha256=brb_XakQ05mOb3NkaSGJ5NaKOuWrZJJeqwZFN6Dwvi8,63
+marian_tensorboard-0.0.4.dist-info/top_level.txt,sha256=552TmdTf2YLNko-2DEpkrOhgvjXmguMoHqO9EtkkxUI,19
+marian_tensorboard-0.0.4.dist-info/RECORD,,
