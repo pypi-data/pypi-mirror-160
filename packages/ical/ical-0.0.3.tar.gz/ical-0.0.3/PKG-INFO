@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ical
+Version: 0.0.3
+Summary: Python iCalendar implementation (rfc 2445)
+Home-page: https://github.com/allenporter/ical
+Author: Allen Porter
+Author-email: allen.porter@gmail.com
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ical
+
+iCalendar rfc 2445 implementation. This is currently a simplified version of ics-py.
