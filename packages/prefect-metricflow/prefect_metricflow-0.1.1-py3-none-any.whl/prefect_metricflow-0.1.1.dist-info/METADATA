@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: prefect-metricflow
+Version: 0.1.1
+Summary: Collection of tasks to interact with MetricFlow
+Home-page: https://github.com/AlessandroLollo/prefect-metricflow
+Author: Alessandro Lollo
+Author-email: alessandro.lollo@gmail.com
+License: Apache License 2.0
+Keywords: prefect
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML
+Requires-Dist: prefect (>=2.0a13)
+Requires-Dist: metricflow (==0.110.0)
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: mkdocs ; extra == 'dev'
+Requires-Dist: mkdocs-material ; extra == 'dev'
+Requires-Dist: mkdocstrings[python] ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: mkdocs-gen-files ; extra == 'dev'
+Requires-Dist: interrogate ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pyfakefs ; extra == 'dev'
+Requires-Dist: mock ; (python_version < "3.8") and extra == 'dev'
+
+# prefect-metricflow
+
+## Welcome!
+
+Collection of tasks to interact with MetricFlow
+
+## Getting Started
+
+### Python setup
+
+Requires an installation of Python 3.7+.
+
+We recommend using a Python virtual environment manager such as pipenv, conda or virtualenv.
+
+These tasks are designed to work with Prefect 2.0. For more information about how to use Prefect, please refer to the [Prefect documentation](https://orion-docs.prefect.io/).
+
+### Installation
+
+Install `prefect-metricflow` with `pip`:
+
+```bash
+pip install prefect-metricflow
+```
+
+### Write and run a flow
+
+```python
+from prefect import flow
+from prefect_metricflow.tasks import (
+    materialize
+)
+
+
+@flow
+def create_materialization_with_metricflow():
+    return materialize(
+        materialization_name="my_materialization",
+        config={
+            "dwh_dialect": "redshift",
+            "dwh_host": "host",
+            "dwh_port": 5439,
+            "dwh_user": "dw_user",
+            "dwh_password": "dw_pwd",
+            "dwh_database": "dw_db",
+            "dwh_schema": "dw_schema",
+            "model_path": "path/to/models",
+        }
+    )
+
+create_materialization_with_metricflow()
+
+
+@flow
+def drop_materialization_with_metricflow():
+    return drop_materialization(
+        materialization_name="my_materialization",
+        config={
+            "dwh_dialect": "redshift",
+            "dwh_host": "host",
+            "dwh_port": 5439,
+            "dwh_user": "dw_user",
+            "dwh_password": "dw_pwd",
+            "dwh_database": "dw_db",
+            "dwh_schema": "dw_schema",
+            "model_path": "path/to/models",
+        }
+    )
+
+drop_materialization_with_metricflow()
+```
+
+## Resources
+
+If you encounter any bugs while using `prefect-metricflow`, feel free to open an issue in the [prefect-metricflow](https://github.com/AlessandroLollo/prefect-metricflow) repository.
+
+If you have any questions or issues while using `prefect-metricflow`, you can find help in either the [Prefect Discourse forum](https://discourse.prefect.io/) or the [Prefect Slack community](https://prefect.io/slack).
+
+## Development
+
+If you'd like to install a version of `prefect-metricflow` for development, clone the repository and perform an editable install with `pip`:
+
+```bash
+git clone https://github.com/AlessandroLollo/prefect-metricflow.git
+
+cd prefect-metricflow/
+
+pip install -e ".[dev]"
+
+# Install linting pre-commit hooks
+pre-commit install
+```
