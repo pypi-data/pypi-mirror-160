@@ -1,0 +1,7 @@
+README.md
+setup.py
+forex/usdkrw.py
+forex/usdkrw.egg-info/PKG-INFO
+forex/usdkrw.egg-info/SOURCES.txt
+forex/usdkrw.egg-info/dependency_links.txt
+forex/usdkrw.egg-info/top_level.txt
