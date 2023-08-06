@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+src/galactus.egg-info/PKG-INFO
+src/galactus.egg-info/SOURCES.txt
+src/galactus.egg-info/dependency_links.txt
+src/galactus.egg-info/requires.txt
+src/galactus.egg-info/top_level.txt
+src/galactus_osigwela/__init__.py
+src/galactus_osigwela/astro_al.py
+src/galactus_osigwela/galactus_v0.1.py
