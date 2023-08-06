@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-cldomain
+Version: 0.15
+Summary: Sphinx domain for Common Lisp
+Home-page: UNKNOWN
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: Sphinx
+Requires-Dist: types-docutils
+
+CLDomain
+========
+
+CLDomain is a Common Lisp domain for `Sphinx Documentation Generator`_.
+Sphinx is a mulit-language documentation tool.  This project extends
+it's functionality to cover Common Lisp. The aim is to support
+documentation with the same ease as sphinx would a Python project.
+
+Currently the project supports inspection based documentation of
+symbols.
+
+`Documentation`_
+
+CLDomain is licensed under the `GPLv3`_. Please report any bugs in the
+GitHub `Bug Tracker`_.
+
+An example of the generated documentation is the `cl-git`_ project.
+
+.. _Documentation: https://russell.github.io/sphinxcontrib-cldomain/
+.. _rendered example: http://cl-git.russellsim.org/#CL-GIT:ENSURE-GIT-REPOSITORY-EXIST
+.. _cl-git: http://cl-git.russellsim.org/
+.. _Sphinx Documentation Generator: http://sphinx.pocoo.org/
+.. _Bug Tracker: https://github.com/russell/sphinxcontrib-cldomain/issues
+.. _GPLv3: https://www.gnu.org/licenses/gpl-3.0-standalone.html
+
+

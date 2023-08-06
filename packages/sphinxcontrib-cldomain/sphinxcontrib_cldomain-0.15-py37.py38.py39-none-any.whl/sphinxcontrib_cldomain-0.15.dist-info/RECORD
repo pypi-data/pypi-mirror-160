@@ -1,0 +1,16 @@
+sphinxcontrib/cldomain/__init__.py,sha256=0-sR605cjBCo7cKh4DzkbQlfhmnClQnYCUR2ITi90Ig,2285
+sphinxcontrib/cldomain/cldomain.lisp,sha256=B7WXEOJ5n1XI2Qpfi5ABUeipkiPf0CiISWt7_f9AgUo,15363
+sphinxcontrib/cldomain/cldomain.py,sha256=iN0TpGfia3iYN5tY1djKg9bb88do6U2cdbmaQccYT1A,38164
+sphinxcontrib/cldomain/cldomain.ros,sha256=WvswVrswmN3AZe-5orcCD9_iYVjnuFRctiMZMUoGl38,2286
+sphinxcontrib/cldomain/package.lisp,sha256=P2-BtMm004AQIob9ooBgKJRGIHm6IfaHNqQLbA1Gl2A,1189
+sphinxcontrib/cldomain/sphinxcontrib.cldomain.asd,sha256=WMBt44Ubc9uv-Kj6guDKXoLwVTOM2FXiFhB7kahmXUg,1764
+sphinxcontrib/cldomain/test.lisp,sha256=weGVUK9HJ9xXQFBLKHW-7T4TS24BDSge1FuwNHO7gMA,2679
+sphinxcontrib/cldomain/version.lisp-expr,sha256=pWnAuRMeJ8Om0qYfdOMdK0qyl1SR9aOQoPPSsR26ziM,7
+sphinxcontrib/hyperspec/__init__.py,sha256=2u_KlY_-Qfe2i9ElXc-GvuyfI95R5iwraZqOMeG6jVo,967
+sphinxcontrib/hyperspec/hyperspec.py,sha256=GD-pD6BCmXRHexX3bMvlH06suWpl0_-xJ3bhXuzMObE,57236
+sphinxcontrib_cldomain-0.15.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+sphinxcontrib_cldomain-0.15.dist-info/METADATA,sha256=1rNgO0R3MWCVCNk2i-hWRO33yhUgrPANJgidPIvVIxI,1797
+sphinxcontrib_cldomain-0.15.dist-info/WHEEL,sha256=X8coPUKfIuc_xVtHq-Ht8zpOsLopxUMTmDrWvTMPJTU,131
+sphinxcontrib_cldomain-0.15.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sphinxcontrib_cldomain-0.15.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_cldomain-0.15.dist-info/RECORD,,
