@@ -1,0 +1,3 @@
+requests>=2.22.0
+pymorphy2>=0.9.1
+libzim>=1.1.1
