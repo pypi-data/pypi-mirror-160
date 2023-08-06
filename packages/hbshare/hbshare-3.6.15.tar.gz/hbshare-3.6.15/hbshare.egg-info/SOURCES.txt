@@ -1,0 +1,5 @@
+hbshare.egg-info/PKG-INFO
+hbshare.egg-info/SOURCES.txt
+hbshare.egg-info/dependency_links.txt
+hbshare.egg-info/requires.txt
+hbshare.egg-info/top_level.txt
