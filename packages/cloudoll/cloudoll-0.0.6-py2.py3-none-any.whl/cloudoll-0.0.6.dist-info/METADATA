@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cloudoll
+Version: 0.0.6
+Summary: 辅助快速创建可分布的微服务。
+Home-page: https://gitee.com/chuchur/cloudoll-py
+Author: chuchur
+Author-email: chuchur@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiomysql
+
+
+# cloudoll 的 python 版本
+
+辅助快速创建可分布的微服务。
+
+
+
