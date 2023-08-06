@@ -1,0 +1,17 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.cfg
+guess_testing/__init__.py
+guess_testing/__main__.py
+guess_testing/_base_generator.py
+guess_testing/cli.py
+guess_testing/generators.py
+guess_testing/guess.py
+guess_testing/tracing.py
+guess_testing/typing_generators_factory.py
+guess_testing.egg-info/PKG-INFO
+guess_testing.egg-info/SOURCES.txt
+guess_testing.egg-info/dependency_links.txt
+guess_testing.egg-info/entry_points.txt
+guess_testing.egg-info/top_level.txt
