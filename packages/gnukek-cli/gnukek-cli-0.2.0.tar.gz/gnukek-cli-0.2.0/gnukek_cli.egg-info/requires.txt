@@ -1,0 +1,9 @@
+gnukek==1.0.0b3
+
+[build]
+build
+twine
+
+[dev]
+mypy
+pycodestyle
