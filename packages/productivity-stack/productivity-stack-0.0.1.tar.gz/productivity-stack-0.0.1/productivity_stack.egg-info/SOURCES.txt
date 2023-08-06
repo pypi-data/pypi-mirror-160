@@ -1,0 +1,17 @@
+.gitignore
+AUTHORS.md
+CHANGELOG.md
+CONTRIBUTING.rst
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tox.ini
+.github/workflows/release.yml
+productivity_stack.egg-info/PKG-INFO
+productivity_stack.egg-info/SOURCES.txt
+productivity_stack.egg-info/dependency_links.txt
+productivity_stack.egg-info/not-zip-safe
+productivity_stack.egg-info/requires.txt
+productivity_stack.egg-info/top_level.txt
