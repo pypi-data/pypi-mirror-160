@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "dirac_webapp_packaging~=1.0",
+    "WebAppDIRAC ~=4.3.0a0"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 120
+target-version = ['py39']

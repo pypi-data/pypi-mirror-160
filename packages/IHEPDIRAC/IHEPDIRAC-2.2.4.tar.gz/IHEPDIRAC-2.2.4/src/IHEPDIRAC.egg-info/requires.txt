@@ -1,0 +1,14 @@
+DIRAC
+
+[server]
+DIRAC[server]~=7.3.0
+WebAppDIRAC~=4.3.0
+DIRACWebAppResources~=1.0
+psutil
+stomp.py
+suds-jurko
+
+[testing]
+mock
+Pillow
+pytest
