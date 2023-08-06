@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+python/ivisit/__init__.py
+python/ivisit/defdb.py
+python/ivisit/defdialogs.py
+python/ivisit/help.py
+python/ivisit/matplotlib.py
+python/ivisit/parser.py
+python/ivisit/simulation.py
+python/ivisit/widgetdefcollection.py
+python/ivisit/widgets.py
+python/ivisit.egg-info/PKG-INFO
+python/ivisit.egg-info/SOURCES.txt
+python/ivisit.egg-info/dependency_links.txt
+python/ivisit.egg-info/top_level.txt
