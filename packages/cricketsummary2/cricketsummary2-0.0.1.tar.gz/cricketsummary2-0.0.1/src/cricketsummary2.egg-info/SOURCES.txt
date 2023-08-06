@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+src/cricketsummary2/__init__.py
+src/cricketsummary2/cricketsummary2.py
+src/cricketsummary2.egg-info/PKG-INFO
+src/cricketsummary2.egg-info/SOURCES.txt
+src/cricketsummary2.egg-info/dependency_links.txt
+src/cricketsummary2.egg-info/top_level.txt
