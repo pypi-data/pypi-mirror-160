@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "psi-score"
+version = "0.2.0"
+description = "Metric of user influence in Online Social Networks"
+authors = ["Nouamane Arhachoui <nouamane.arhachoui@lip6.fr>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/NouamaneA/psi-score"
+repository = "https://github.com/NouamaneA/psi-score"
+keywords = ["graph algorithms", "network science", "markov chain", "social networks", "pagerank"]
+include = [
+    "AUTHORS.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "tests"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+numpy = "^1.23.1"
+scipy = "^1.8.1"
+progressbar2 = "^4.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
