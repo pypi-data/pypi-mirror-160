@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+dpyecm/__init__.py
+dpyecm.egg-info/PKG-INFO
+dpyecm.egg-info/SOURCES.txt
+dpyecm.egg-info/dependency_links.txt
+dpyecm.egg-info/top_level.txt
