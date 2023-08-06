@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+zrcalc/__init__.py
+zrcalc.egg-info/PKG-INFO
+zrcalc.egg-info/SOURCES.txt
+zrcalc.egg-info/dependency_links.txt
+zrcalc.egg-info/top_level.txt

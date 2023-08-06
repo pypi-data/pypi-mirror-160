@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: zrcalc
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Zr0Gaem
+Author-email: gaemzr@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+zrcalc is a simple calculator.Let's say you want to add the numbers.Then do it like this: zrcalc.add(1, 1)
+i used 1, 1 but you can use every number if you want.
+
+Change Log
+==========
+
+0.0.1 (7/27/2022)
+-----------------
+
+- First Release
+
