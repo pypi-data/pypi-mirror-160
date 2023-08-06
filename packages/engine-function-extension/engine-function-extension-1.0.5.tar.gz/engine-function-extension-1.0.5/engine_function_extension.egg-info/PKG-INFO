@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: engine-function-extension
+Version: 1.0.5
+Summary: Python Worker Extension
+Home-page: https://github.com/jarvinia
+Author: Jun Tu
+Author-email: jun@openlearning.com
+License: MIT
+Description: # Python worker extension for running OL engine function
+        
+        More details about the Python worker extension: [azure function doc](https://docs.microsoft.com/en-au/azure/azure-functions/functions-reference-python?tabs=asgi%2Cazurecli-linux%2Capplication-level#python-worker-extensions)
+        
+        ## Using this extension
+        This extension process that runs in Azure Functions lets us do some setup in our [engine function app](https://github.com/OpenLearningNet/OpenLearningEngine):
+        
+        - `django.setup()`
+        - copy hosts alias to the function running vm
+        
+        To use this extension, you only need to `from engine_function_extension import AppExtension` to your function script file, see [this example](https://github.com/OpenLearningNet/OpenLearningEngine/blob/master/AZ_TaskHandler/main.py).
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
