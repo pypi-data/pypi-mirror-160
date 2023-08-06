@@ -1,0 +1,20 @@
+validate:
+  tags: [py3]
+  script:
+      - python setup.py develop
+      - python -m spacy download en
+      - gramex license accept
+      - nosetests -sv --with-coverage --cover-package=nlg
+
+
+deploy:
+  stage: deploy
+  script: deploy
+  only: [dev]
+  tags: [py3]
+  variables:
+    SERVER: ubuntu@uat.gramener.com       # Deploy to uat.gramener.com/app-name/
+    URL: nlg-tmplgen
+    SETUP: sh setup.sh
+    VERSION: py3v1
+    PORT: 8040
