@@ -1,0 +1,3 @@
+[console_scripts]
+kitty-conf-extract-theme=color_scheme_utils.kitty_conf_extract_theme:main
+
