@@ -1,0 +1,3 @@
+[console_scripts]
+zeldarose-tokenizer = zeldarose.train_tokenizer:main
+zeldarose-transformer = zeldarose.train_transformer:main
