@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: neon-utterance-translator-plugin
+Version: 0.1.1a0
+Summary: A utterance parser/classifier/transformer plugin for ovos/neon/mycroft
+Home-page: https://github.com/NeonGeckoCom/neon_utterance_translator_plugin
+Author: Neongecko
+Author-email: developers@neon.ai
+License: bsd3
+Keywords: mycroft plugin utterance parser/classifier/transformer
+Platform: UNKNOWN
+
+UNKNOWN
+
+
