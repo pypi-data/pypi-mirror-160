@@ -1,0 +1,3 @@
+[console_scripts]
+davincirun = davincirunsdk.davincirun:main
+
