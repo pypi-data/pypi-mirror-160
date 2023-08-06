@@ -1,0 +1,12 @@
+asgi_aws/__init__.py,sha256=_Jqw4aMlSQXaMgSu9TsoFV0VqDNwgynKC8PlqXZEkOA,251
+asgi_aws/app.py,sha256=LlPXz5lsl9xraL_pbYhaqJ2Z-Vq7igFcZ8PPuSILMyo,990
+asgi_aws/asgi.py,sha256=JyxfpzSDecvf2ZnyxUCSEqfLD0nLt6FDdxmWtl0B8To,2354
+asgi_aws/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asgi_aws/type.py,sha256=AbhR8RHsSb6taH2ayUMyfG4kbpriuRjusBHLZSWadpw,245
+asgi_aws/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asgi_aws/services/aws.py,sha256=PKqtRUvdgQAjA3yIIo44baZA2LOgHMGCw0y67hcHnC0,3348
+asgi_aws/services/http.py,sha256=1_LcKhTDiFCeYHcPqK31JpzemP9epeKwmSZmkzwzRjk,1570
+asgi_aws-1.0.0.dist-info/LICENSE,sha256=VO5dwbZJpTzdaMj7h6f5DAXrPYfzt0CGk5pEN9Y-vvo,1070
+asgi_aws-1.0.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+asgi_aws-1.0.0.dist-info/METADATA,sha256=nzsdMN55lCknB_6e5wRqTrSfk_1AJFN0ZVM1PckKB9Q,4084
+asgi_aws-1.0.0.dist-info/RECORD,,
