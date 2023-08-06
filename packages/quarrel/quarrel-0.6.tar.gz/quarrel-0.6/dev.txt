@@ -1,0 +1,8 @@
+pytest
+pytest-pspec
+flake8
+coverage
+bumpversion
+twine
+ipython
+

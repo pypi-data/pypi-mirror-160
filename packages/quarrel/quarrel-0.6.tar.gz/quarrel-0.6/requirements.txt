@@ -1,0 +1,4 @@
+concentric[oracle] ~= 0.10
+jinja2
+-r dev.txt
+-r pandas.txt

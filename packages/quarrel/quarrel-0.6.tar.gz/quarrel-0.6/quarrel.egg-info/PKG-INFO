@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: quarrel
+Version: 0.6
+Summary: quarrel makes it easy to query legacy rdbmses
+Home-page: https://bitbucket.org/dbuy/quarrel
+Author: Preetam Shingavi
+Author-email: p.shingavi@yahoo.com
+License: BSD
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: pandas
+Provides-Extra: dev
+Provides-Extra: all
+
+# querulous_quarrel
+
+Named for a lovely groups of sparrows that happened to be flying by.  A library
+that makes writing and executing queries a little easier for data scientists.
+
+`quarrel` uses `concentric` and `waddle` and is proudly sponsored by the m&a
+team at cscgh.
+
+## installation
+
+```
+cd /path/to/repo
+pip install quarrel
+```
+
+## quick start
+
+1. create a config file
+
+        oracle:
+          host: oracle.example.com
+          user: scott
+          password: tiger
+          sid: xe
+
+2. initialize concentric with the config file from (1) 
+
+        from concentric.managers import setup_concentric
+
+        setup_concentric('/path/to/oracle.yml')
+
+3. (optional) initialize the sql template directories 
+
+        from quarrel.settings import setup_quarrel
+        setup_quarrel('/path/to/jinja2/sql/templates', '/path/to/jinja2/sql/queries') 
+
+5. query the database
+
+        from quarrel.raw import query
+        results = query('oracle', 'select sysdate from dual')
+
+## raw results -- get raw results from the dbapi connection 
+
+`quarrel.raw` allows you to get the tuples as they were returned by the 
+underlying dbapi connection.  the header will be the cursor.description
+returned from the query, and the results will be the list of tuples returned
+by the query.  
+
+    > from quarrel.raw import query
+    > header, results = query('oracle', 'select sysdate d from dual')
+    > print(header[0][0])
+    D
+    > print(results)
+    [(datetime.datetime(2022, 6, 26, 15, 10, 59),)]
+
+## cooked results -- get results as a list of dicts
+
+`quarrel.cooked` allows you to get a `list` of `dict`s which is slightly easier to 
+understand and work with but can be substantially slower as python will
+construct a dict per row that is returned.  Each key of the `dict` will be
+the __lower-cased column name__ specified in the query.  
+
+    > from quarrel.cooked import query
+    > results = query('oracle', 'select sysdate d from dual')
+    > print(results)
+    [{'d': datetime.datetime(2022, 6, 26, 15, 14, 12)}]
+
+## sqlalchemy results
+
+`quarrel.sqlalchemy` allows you to get a `list` of `dict`s as well.  However,
+it uses sqlalchemy under the hood.  This can be useful when you need sql alchemy's
+connection pooling features.
+
+    > from quarrel.sqlalchemy import query
+    > results = query('oracle', 'select sysdate d from dual')
+    > print(results)
+    [{'d': datetime.datetime(2022, 6, 26, 15, 14, 12)}]
+
+
+## pandas results
+
+`quarrel.pandas` allows you to get a dataframe using either the dbapi 
+connection or a sqlalchemy connection.
+
+    > from quarrel.pandas import query
+    > results = query('oracle', 'select sysdate d from dual')
+    > print(results)
+                        d
+    0 2022-06-26 15:20:34
+
+    > from quarrel.pandas import query_alchemy
+    > results = query_alchemy('oracle', 'select sysdate d from dual')
+    > print(results)
+                        d
+    0 2022-06-26 15:20:34
+
+In order to use pandas, make sure you install `pandas` support using
+the `pandas` extra
+
+    pip install quarrel[pandas]
+
