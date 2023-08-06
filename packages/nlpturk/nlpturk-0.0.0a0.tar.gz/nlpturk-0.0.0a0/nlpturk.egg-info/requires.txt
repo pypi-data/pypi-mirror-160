@@ -1,0 +1,8 @@
+scikit-learn
+
+[build]
+build
+twine
+
+[dev]
+pytest

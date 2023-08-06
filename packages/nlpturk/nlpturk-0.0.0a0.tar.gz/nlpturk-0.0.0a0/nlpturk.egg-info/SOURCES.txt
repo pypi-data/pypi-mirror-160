@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+nlpturk/__init__.py
+nlpturk.egg-info/PKG-INFO
+nlpturk.egg-info/SOURCES.txt
+nlpturk.egg-info/dependency_links.txt
+nlpturk.egg-info/entry_points.txt
+nlpturk.egg-info/requires.txt
+nlpturk.egg-info/top_level.txt
