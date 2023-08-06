@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: napalm-oneaccess-oneos
+Version: 0.1.0
+Summary: NAPALM driver for OneAccess devices over Telnet or SSH
+Home-page: https://github.com/napalm-automation/napalm-oneaccess_oneos
+Author: Robin Guillat
+Author-email: robin@guillat.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
