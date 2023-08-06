@@ -1,0 +1,9 @@
+gitinfo/__init__.py,sha256=qKrs1q6Dcz2UK8ntWhHq54A-AlTpjlFLgFVLVm428Nk,42
+gitinfo/gitinfo.py,sha256=hfz4y3tGJbbI4CottbdShNTPtxfis44Ffr2IIOh1Wdg,3238
+gitinfo/helpers.py,sha256=jNG8hNj8TtLT8ONn67OnIHUwmRzAFit9Rn3_WrKoKUI,1483
+gitinfo/pack_reader.py,sha256=33vpVHG3u6IWkkRI1N7oTnfUoInJB8y7KR03yBVGnRs,5211
+python_git_info-0.8.0.dist-info/LICENSE,sha256=YzRByPzfdKIUz8NOpzeK5WEDUbwFsJulebqmHxK73w8,1089
+python_git_info-0.8.0.dist-info/METADATA,sha256=5uigKBHt3AoVY9KGqyKGKLA3GgyIfRP7wcY3nxt6QOY,6781
+python_git_info-0.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_git_info-0.8.0.dist-info/top_level.txt,sha256=1sEliotRQ603Zsh8LKgSQ85gRbP6QZ28_kg_i2Ls2zk,8
+python_git_info-0.8.0.dist-info/RECORD,,
