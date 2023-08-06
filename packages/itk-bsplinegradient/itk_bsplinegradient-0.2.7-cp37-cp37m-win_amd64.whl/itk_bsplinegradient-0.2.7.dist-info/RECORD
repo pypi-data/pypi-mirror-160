@@ -1,0 +1,16 @@
+itk/BSplineGradientPython.py,sha256=sLqLFLGmWnrR27eGQc8nr3VnwmlE1hjRNlFMe2vw6Dg,2541
+itk/_BSplineGradientPython.pyd,sha256=G-4WIKfhfxeZHW7tS-g6KOU3U4nPOegNMLx5D8310O4,1117184
+itk/__init_bsplinegradient__.py,sha256=3Shc_pfjNOoXLSguCLl3Jghhyx1BKlQ5VQVpX8xAjl0,1536
+itk/itkBSplineGradientImageFilterPython.py,sha256=Xo3JeeXj5RXvBP6goD7n-yOIbDolk6rHslsOg80S2To,46387
+itk/Configuration/BSplineGradientConfig.py,sha256=FOwlATq30f6NyelVd8wCn7Lx04lCBxahlZ0MsaQydcQ,2466
+itk/Configuration/BSplineGradient_snake_case.py,sha256=acIjWANn4Rycy89B2RdSXzKMbNJrm6ubrMUnRR1vIXc,61
+itk_bsplinegradient.libs/.load-order-itk_bsplinegradient-0.2.7,sha256=dqJ8frvbj6y9-J5sC1v-87tVGLD_hrXI3sO3OEdMzIw,45
+itk_bsplinegradient.libs/msvcp140.dll,sha256=-yRh0b_Ft3GdLOwC_Yl50VmgT3NSprCUEGnqGsdxg8U,567184
+itk_bsplinegradient.libs/tbb12.dll,sha256=wchVP2aPkoeHCwEB6CdvfpvOWUU3DoS-f-fd-mk1pnY,308736
+itk_bsplinegradient.libs/vcruntime140_1.dll,sha256=QPfsuZkRM90PwyWptUdsxOPbdFk7IecteCfrw82zI6c,38288
+itk_bsplinegradient-0.2.7.dist-info/DELVEWHEEL,sha256=PoUKsOGHP37P79kgTcCg6AEWy2ssReLGZpxuvZSyy54,264
+itk_bsplinegradient-0.2.7.dist-info/LICENSE,sha256=6N4ac5NFfpyIdot45rp5BiL777BAzkgZTCyw8bbU6f8,11562
+itk_bsplinegradient-0.2.7.dist-info/METADATA,sha256=YVfUNrX8p_fRJfstnKvOdd9dpfJ8Ee5CWVgGIhdsg-Y,1423
+itk_bsplinegradient-0.2.7.dist-info/WHEEL,sha256=VYuz31TwFWvsGkQ3GYabj1fuzNZHQvYwwxdEj0uaSrE,94
+itk_bsplinegradient-0.2.7.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_bsplinegradient-0.2.7.dist-info/RECORD,,
