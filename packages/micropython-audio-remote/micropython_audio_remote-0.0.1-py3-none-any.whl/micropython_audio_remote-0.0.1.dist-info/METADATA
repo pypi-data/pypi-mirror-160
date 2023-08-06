@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: micropython-audio-remote
+Version: 0.0.1
+Summary: WiFi Audio Remote with MicroPython
+Author: macmoritz
+Project-URL: Homepage, https://github.com/macmoritz/audio-remote
+Project-URL: Bug Tracker, https://github.com/macmoritz/audio-remote/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# audio-remote
+WiFi Audio Remote with MicroPython

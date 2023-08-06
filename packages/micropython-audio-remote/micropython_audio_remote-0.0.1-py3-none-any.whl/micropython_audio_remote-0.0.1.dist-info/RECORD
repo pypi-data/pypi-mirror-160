@@ -1,0 +1,8 @@
+lib/neopixel.py,sha256=z_ki9hkOwReM5RpGf51zxJKMwRW3lWG0kQ1eQMK2tS4,7953
+lib/ring.py,sha256=6T0vB62Ml2I96oq_geGOezgStcPGCJtDmAZmgwoeVng,980
+lib/sonos.py,sha256=FPrkjHxJv5NfCwp_h_NIe01wcEoS3O8TWgTHG33OvQg,5384
+micropython_audio_remote-0.0.1.dist-info/LICENSE,sha256=nzC-0XIYnAA_lR2Ou_Y_f8x6eKB8p008uIc64kCaxHI,1024
+micropython_audio_remote-0.0.1.dist-info/METADATA,sha256=Z8SOUKbzi5BErCHbeIgzPXv-aXp5fVXd7t6uucA5P7Q,383
+micropython_audio_remote-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+micropython_audio_remote-0.0.1.dist-info/top_level.txt,sha256=oyXcrLgLICoBS0ILk_wZBhkAAY-M4hbQoMsA1hDsf5c,4
+micropython_audio_remote-0.0.1.dist-info/RECORD,,
