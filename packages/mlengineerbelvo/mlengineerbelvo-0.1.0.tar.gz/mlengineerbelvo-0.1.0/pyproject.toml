@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "mlengineerbelvo"
+version = "0.1.0"
+description = "ML engineer Test Case - Belvo"
+authors = ["Miguel Arquez Abdala"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+pandas = "^1.4.3"
+mlflow = "^1.27.0"
+scikit-learn = "^1.1.1"
+numpy = "^1.23.1"
+xgboost = "^1.6.1"
+python-json-config = "^1.2.3"
+feast = "^0.22.1"
+boto3 = "^1.24.36"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+flake8 = "^4.0.1"
+black = "^22.6.0"
+jupyterlab = "^3.4.4"
+kaggle = "^1.5.12"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

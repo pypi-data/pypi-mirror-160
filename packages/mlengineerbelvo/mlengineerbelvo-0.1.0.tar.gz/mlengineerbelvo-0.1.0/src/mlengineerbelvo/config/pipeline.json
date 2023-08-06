@@ -1,0 +1,7 @@
+{
+    "DROP_COLS": [
+        "id"
+    ],
+    "DUMMY_COLS": [],
+    "MERGE_COLS": []
+}
