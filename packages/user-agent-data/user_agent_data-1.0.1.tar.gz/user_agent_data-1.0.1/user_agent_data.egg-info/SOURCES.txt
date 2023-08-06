@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+data/random_ua.json
+user_agent_data.egg-info/PKG-INFO
+user_agent_data.egg-info/SOURCES.txt
+user_agent_data.egg-info/dependency_links.txt
+user_agent_data.egg-info/requires.txt
+user_agent_data.egg-info/top_level.txt
