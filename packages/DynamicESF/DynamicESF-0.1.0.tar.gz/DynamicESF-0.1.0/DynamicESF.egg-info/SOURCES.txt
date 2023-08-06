@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+DynamicESF/DynamicLinearModel.py
+DynamicESF/HedonicModels.py
+DynamicESF/MoranI.py
+DynamicESF/__init__.py
+DynamicESF.egg-info/PKG-INFO
+DynamicESF.egg-info/SOURCES.txt
+DynamicESF.egg-info/dependency_links.txt
+DynamicESF.egg-info/requires.txt
+DynamicESF.egg-info/top_level.txt
