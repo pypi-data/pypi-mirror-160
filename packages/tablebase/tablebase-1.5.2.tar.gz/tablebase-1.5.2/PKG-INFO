@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: tablebase
+Version: 1.5.2
+Summary: A lightweight tool to make tables easily in python.
+Home-page: UNKNOWN
+Author: Maximilian Lange
+Author-email: maxhlange@gmail.com
+License: UNKNOWN
+Description: For documentation go to 
+         https://dev.centillionware.com/tablebase
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
