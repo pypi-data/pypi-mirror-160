@@ -1,0 +1,11 @@
+tg4perfetto/__init__.py,sha256=3K_9qLloIJ6ovMRQ48kUiyxTE_MLTvGOiqVNbswbabg,120
+tg4perfetto/_core.py,sha256=sRJknGx9KLZ2EP3Nht65OAXydBCIfJWem6svvTmgXbc,11410
+tg4perfetto/_profile.py,sha256=kNu5dWHtBkfllryxuElCSRRbfyr_BDQLkRHLxpGg4kM,7505
+tg4perfetto/_tgen.py,sha256=FkSmAPVXxmMPkOvIunmZ-3U24yWVFABj_detN8HR9jE,3823
+tg4perfetto/example.py,sha256=D7bZKLhe2O2_s2_rc-6PI9x7UGkyDxq0oIrMqJzVc-k,2506
+tg4perfetto/example_profile.py,sha256=ZM-RbMPwxX9L4c2EijhOVZdGRki_DBLdKCM7eetliW4,3008
+tg4perfetto/perfetto_trace_pb2.py,sha256=55CPC9GGBfGGB7qTmb2Hsso0ykaMS7AGveh6X6SkFW0,2572471
+tg4perfetto-0.0.4.dist-info/METADATA,sha256=qdSQry34iIF802wdyXfWf0P6WBKLagEJq-oCuPYFg60,19262
+tg4perfetto-0.0.4.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+tg4perfetto-0.0.4.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tg4perfetto-0.0.4.dist-info/RECORD,,

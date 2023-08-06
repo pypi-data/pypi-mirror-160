@@ -1,0 +1,388 @@
+Metadata-Version: 2.1
+Name: tg4perfetto
+Version: 0.0.4
+Summary: A python project 
+Project-URL: Homepage, https://github.com/ihavnoid/tg4perfetto
+Project-URL: Bug Tracker, https://github.com/ihavnoid/tg4perfetto/issues
+Author-email: Junhee Yoo <ihavnoid@yahoo.com>
+License:                                  Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright [yyyy] [name of copyright owner]
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# tg4perfetto
+Simple python library for generating your own perfetto traces for your application.
+
+
+## Python application tracing
+Example code (see tg4perfetto/example_profile.py for the code)
+
+    import tg4perfetto
+    import threading
+    
+    # A "stat" counter.  This can be used to log integers or floating-point stats.
+    count_stats = tg4perfetto.count("num_active_threads")
+    
+    # Normally, tracks are assigned to its thread's default track.  This creates a custom track
+    custom_track = tg4perfetto.track("TOP_TRACK")
+    
+    # Log the event on a thread-default track.  trace_func_args logs the arguments put on the
+    # function, so be careful
+    @tg4perfetto.trace_func_args
+    def merge(x, x1, x2):
+        # ... (omitted)
+    
+    def merge_sort_wrapper(x, flow_id):
+        # Instant events
+        tg4perfetto.instant("START_THREAD", incoming_flow_ids = [flow_id[0]])
+        custom_track.instant("START_THREAD", incoming_flow_ids = [flow_id[1]])
+    
+        return merge_sort(x)
+    
+    def merge_sort_threaded(x):
+        # Instant event.  Has two "flow ID" which can be used for connecting two events.
+        flow_ids = tg4perfetto.instant("INVOKE_THREAD", num_outgoing_flow_ids = 2)
+    
+        t = threading.Thread(target=merge_sort_wrapper, args=(x,flow_ids))
+        t.start()
+        return (x, t)
+    
+    
+    # Log the event on a thread-default track.  Unlike trace_func_args, trace_func
+    # only logs the call in/out events.
+    @tg4perfetto.trace_func
+    def merge_sort(x):
+        l = len(x)
+    
+        if l < 4096: return sorted(x)
+    
+        if l < 40000:
+            x1 = merge_sort(x[:int(l/2)])
+            x2 = merge_sort(x[int(l/2):])
+        else:
+            # Using count_stats to increment and decrement
+            count_stats.increment(1)
+            x1, t1 = merge_sort_threaded(x[:int(l/2)])
+            count_stats.increment(1)
+            x2, t2 = merge_sort_threaded(x[int(l/2):])
+            t1.join()
+            count_stats.increment(-1)
+            t2.join()
+            count_stats.increment(-1)
+        
+        return merge(x, x1, x2)
+    
+    # Log the event on the given specific track.
+    @tg4perfetto.trace_func(custom_track)
+    def validate(xarray):
+        # ... (omitted)
+    
+    if __name__ == "__main__":
+        # Start logging.  Logging stops when this goes out of scope.
+        with tg4perfetto.open("tg4p.perfetto-trace"):
+    
+            # Use a custom track.
+            # to put into the default track. just use tg4perfetto.trace(...) instead.
+            with custom_track.trace('SORT').get_outgoing_flow_ids(1) as out_flow_id:
+                xarray = [ (17 * x + 8) % 100 for x in range(100000) ]
+                xarray = merge_sort(xarray)
+    
+                # Create one flow ID from the current track.  We can create flow IDs before closing the track.
+                p = out_flow_id[0]
+    
+            # Set the incoming flow ID (optional, set only if there are any).
+            with custom_track.trace('VALIDATE').set_incoming_flow_ids([p]):
+                tg4perfetto.instant("CHECKING", {"final_result": xarray})
+                validate(xarray)
+                print("Done")
+
+This will generate a trace file named "tg4p.perfetto-trace" which can be read from perfetto.
+
+## Custom packet generation
+Example code (see tg4perfetto/example.py for the code)
+
+    # Packets can be created out-of-order.  This is because perfetto is designed to process out-of-order traces
+    # and reads all packets at once, rearranges them, and then visualizes it at once.
+    tgen = TraceGenerator(sys.argv[1])
+    pid = tgen.create_group("aaa", "example_track")
+    pid.open(100, "SOME_TRACK")
+    # "Flow" packet.  this will create an arrow from here to "open" event down there (400ns)
+    pid.close(250, [4])
+
+    # Global counter track
+    tid = tgen.create_counter_track("bbb")
+    tid.count(0, 3)
+    tid.count(200, 5)
+    tid.count(400, 7)
+    tid.count(700, 2)
+
+    # Counter track within the "aaa" group"
+    tid = pid.create_counter_track("bbb")
+    tid.count(0, 2)
+    tid.count(200, 4)
+    tid.count(400, 5)
+    tid.count(700, 1)
+
+    tid = pid.create_track("ddd")
+    tid.open(100, "WXX")
+    # another "flow" packet.
+    tid.close(300, [3])
+
+    tgen.flush()
+
+    pid = tgen.create_group("vvv")
+    tid = pid.create_counter_track("bbb2")
+    tid.count(0, 2)
+    tid.count(300, 400)
+    tid.count(400, 500)
+    tid.count(700, 1000)
+
+    tid = pid.create_track("ddd2")
+    tid2 = pid.create_track("ddd3")
+
+    tid2.instant(200, "WXYZ")
+    tid.open(222, "XXX")
+    tid2.open(300, "WXX3", {"aaa":"bbb", "ccc":"ddd"})
+    tid2.instant(300, "ABCDE", {"aaa": "bbb", "ccc": "xxx"})
+    tid.close(333)
+    # receives an arrow from the packet above.  this can be either from an instant event or a normal event.
+    tid2.open(400, "WXX4", {"aaa":"bbb", "ccc":"ddd"}, [3, 4])
+    tid2.instant(400, "ABCDE")
+
+    # Some annotation on instant event
+    tid2.instant(600, "ADE", {"aaa": "abc", "ccc": "xxx", "eee" : {"aaa": "abc", "ccc": "ddd"}})
+    tid2.close(670, [2])
+
+    # very complex annotations!
+    tid2.instant(700, "ADE2", {
+        "aaa": "abc",
+        "ccc": [1, 2, 3, 4, "a", "b", {"abcdef" : "fdsa", "ggg": True}],
+        "eee" : {
+            "aaa": "abc",
+            "ccc": True,
+            "eee": {
+                "fff": "ggg",
+                "hhh": 0x1234567
+            }
+        },
+        "jjj": "kkk"
+    }, [2])
+    tid2.close(900, [1])
+    tid.open(900, "WXX2", {"aaa":"bbb", "ccc":"ddd"}, [1])
+    tid.close(1000)
+
+    pid4 = tgen.create_group("abc.2")
+    tid4 = pid4.create_group("XX")
+    t1 = tid4.create_track()
+    t2 = tid4.create_track()
+    t1.open(100, "X")
+    t2.open(300, "Y")
+    t1.close(500)
+    t2.close(600)
+
+
+Example output:
+
+![Example screenshot](screenshot.png)
