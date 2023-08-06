@@ -1,0 +1,8 @@
+README.md
+setup.py
+libname/__init__.py
+libname/linkslotgacor.py
+link_slot_gacor.egg-info/PKG-INFO
+link_slot_gacor.egg-info/SOURCES.txt
+link_slot_gacor.egg-info/dependency_links.txt
+link_slot_gacor.egg-info/top_level.txt
