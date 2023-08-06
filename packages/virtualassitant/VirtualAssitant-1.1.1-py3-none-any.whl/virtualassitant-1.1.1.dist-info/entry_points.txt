@@ -1,0 +1,3 @@
+[console_scripts]
+asistente=src.VirtualAssitant.create_event:create_event
+
