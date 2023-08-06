@@ -1,0 +1,277 @@
+Metadata-Version: 2.1
+Name: moto-ext
+Version: 3.1.13
+Summary: A library that allows your python tests to easily mock out the boto library
+Home-page: https://github.com/spulec/moto
+Author: Steve Pulec
+Author-email: spulec@gmail.com
+License: Apache
+Project-URL: Documentation, http://docs.getmoto.org/en/latest/
+Project-URL: Issue tracker, https://github.com/spulec/moto/issues
+Project-URL: Changelog, https://github.com/spulec/moto/blob/master/CHANGELOG.md
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (>=1.9.201)
+Requires-Dist: botocore (>=1.12.201)
+Requires-Dist: cryptography (>=3.3.1)
+Requires-Dist: requests (>=2.5)
+Requires-Dist: xmltodict
+Requires-Dist: werkzeug (<2.2.0,>=0.5)
+Requires-Dist: pytz
+Requires-Dist: python-dateutil (<3.0.0,>=2.1)
+Requires-Dist: responses (>=0.9.0)
+Requires-Dist: MarkupSafe (!=2.0.0a1)
+Requires-Dist: Jinja2 (>=2.10.1)
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: acm
+Provides-Extra: all
+Requires-Dist: PyYAML (>=5.1) ; extra == 'all'
+Requires-Dist: python-jose[cryptography] (<4.0.0,>=3.1.0) ; extra == 'all'
+Requires-Dist: ecdsa (!=0.15) ; extra == 'all'
+Requires-Dist: docker (>=2.5.1) ; extra == 'all'
+Requires-Dist: graphql-core ; extra == 'all'
+Requires-Dist: jsondiff (>=1.1.2) ; extra == 'all'
+Requires-Dist: aws-xray-sdk (!=0.96,>=0.93) ; extra == 'all'
+Requires-Dist: idna (<4,>=2.5) ; extra == 'all'
+Requires-Dist: sshpubkeys (>=3.1.0) ; extra == 'all'
+Requires-Dist: pyparsing (>=3.0.7) ; extra == 'all'
+Requires-Dist: openapi-spec-validator (>=0.2.8) ; extra == 'all'
+Requires-Dist: setuptools ; extra == 'all'
+Provides-Extra: apigateway
+Requires-Dist: PyYAML (>=5.1) ; extra == 'apigateway'
+Requires-Dist: python-jose[cryptography] (<4.0.0,>=3.1.0) ; extra == 'apigateway'
+Requires-Dist: ecdsa (!=0.15) ; extra == 'apigateway'
+Requires-Dist: openapi-spec-validator (>=0.2.8) ; extra == 'apigateway'
+Provides-Extra: apigatewayv2
+Requires-Dist: PyYAML (>=5.1) ; extra == 'apigatewayv2'
+Provides-Extra: applicationautoscaling
+Provides-Extra: appsync
+Requires-Dist: graphql-core ; extra == 'appsync'
+Provides-Extra: athena
+Provides-Extra: autoscaling
+Provides-Extra: awslambda
+Requires-Dist: docker (>=2.5.1) ; extra == 'awslambda'
+Provides-Extra: batch
+Requires-Dist: docker (>=2.5.1) ; extra == 'batch'
+Provides-Extra: batch_simple
+Provides-Extra: budgets
+Provides-Extra: cloudformation
+Requires-Dist: PyYAML (>=5.1) ; extra == 'cloudformation'
+Requires-Dist: python-jose[cryptography] (<4.0.0,>=3.1.0) ; extra == 'cloudformation'
+Requires-Dist: ecdsa (!=0.15) ; extra == 'cloudformation'
+Requires-Dist: docker (>=2.5.1) ; extra == 'cloudformation'
+Requires-Dist: graphql-core ; extra == 'cloudformation'
+Requires-Dist: jsondiff (>=1.1.2) ; extra == 'cloudformation'
+Requires-Dist: aws-xray-sdk (!=0.96,>=0.93) ; extra == 'cloudformation'
+Requires-Dist: idna (<4,>=2.5) ; extra == 'cloudformation'
+Requires-Dist: sshpubkeys (>=3.1.0) ; extra == 'cloudformation'
+Requires-Dist: pyparsing (>=3.0.7) ; extra == 'cloudformation'
+Requires-Dist: openapi-spec-validator (>=0.2.8) ; extra == 'cloudformation'
+Requires-Dist: setuptools ; extra == 'cloudformation'
+Provides-Extra: cloudfront
+Provides-Extra: cloudtrail
+Provides-Extra: cloudwatch
+Provides-Extra: codecommit
+Provides-Extra: codepipeline
+Provides-Extra: cognitoidentity
+Provides-Extra: cognitoidp
+Requires-Dist: python-jose[cryptography] (<4.0.0,>=3.1.0) ; extra == 'cognitoidp'
+Requires-Dist: ecdsa (!=0.15) ; extra == 'cognitoidp'
+Provides-Extra: config
+Provides-Extra: databrew
+Provides-Extra: datapipeline
+Provides-Extra: datasync
+Provides-Extra: dax
+Provides-Extra: dms
+Provides-Extra: ds
+Requires-Dist: sshpubkeys (>=3.1.0) ; extra == 'ds'
+Provides-Extra: dynamodb
+Requires-Dist: docker (>=2.5.1) ; extra == 'dynamodb'
+Provides-Extra: dynamodb2
+Requires-Dist: docker (>=2.5.1) ; extra == 'dynamodb2'
+Provides-Extra: dynamodbstreams
+Requires-Dist: docker (>=2.5.1) ; extra == 'dynamodbstreams'
+Provides-Extra: ebs
+Requires-Dist: sshpubkeys (>=3.1.0) ; extra == 'ebs'
+Provides-Extra: ec2
+Requires-Dist: sshpubkeys (>=3.1.0) ; extra == 'ec2'
+Provides-Extra: ec2instanceconnect
+Provides-Extra: ecr
+Provides-Extra: ecs
+Provides-Extra: efs
+Requires-Dist: sshpubkeys (>=3.1.0) ; extra == 'efs'
+Provides-Extra: eks
+Provides-Extra: elasticache
+Provides-Extra: elasticbeanstalk
+Provides-Extra: elastictranscoder
+Provides-Extra: elb
+Provides-Extra: elbv2
+Provides-Extra: emr
+Provides-Extra: emrcontainers
+Provides-Extra: es
+Provides-Extra: events
+Provides-Extra: firehose
+Provides-Extra: forecast
+Provides-Extra: glacier
+Provides-Extra: glue
+Requires-Dist: pyparsing (>=3.0.7) ; extra == 'glue'
+Provides-Extra: guardduty
+Provides-Extra: iam
+Provides-Extra: iot
+Provides-Extra: iotdata
+Requires-Dist: jsondiff (>=1.1.2) ; extra == 'iotdata'
+Provides-Extra: kinesis
+Provides-Extra: kinesisvideo
+Provides-Extra: kinesisvideoarchivedmedia
+Provides-Extra: kms
+Provides-Extra: lambda
+Provides-Extra: logs
+Provides-Extra: managedblockchain
+Provides-Extra: mediaconnect
+Provides-Extra: medialive
+Provides-Extra: mediapackage
+Provides-Extra: mediastore
+Provides-Extra: mediastoredata
+Provides-Extra: mq
+Provides-Extra: opsworks
+Provides-Extra: organizations
+Provides-Extra: pinpoint
+Provides-Extra: polly
+Provides-Extra: quicksight
+Provides-Extra: ram
+Provides-Extra: rds
+Provides-Extra: rds2
+Provides-Extra: redshift
+Provides-Extra: redshiftdata
+Provides-Extra: rekognition
+Provides-Extra: resourcegroups
+Provides-Extra: resourcegroupstaggingapi
+Provides-Extra: route53
+Provides-Extra: route53resolver
+Requires-Dist: sshpubkeys (>=3.1.0) ; extra == 'route53resolver'
+Provides-Extra: s3
+Requires-Dist: PyYAML (>=5.1) ; extra == 's3'
+Provides-Extra: s3control
+Provides-Extra: sagemaker
+Provides-Extra: sdb
+Provides-Extra: secretsmanager
+Provides-Extra: server
+Requires-Dist: PyYAML (>=5.1) ; extra == 'server'
+Requires-Dist: python-jose[cryptography] (<4.0.0,>=3.1.0) ; extra == 'server'
+Requires-Dist: ecdsa (!=0.15) ; extra == 'server'
+Requires-Dist: docker (>=2.5.1) ; extra == 'server'
+Requires-Dist: graphql-core ; extra == 'server'
+Requires-Dist: jsondiff (>=1.1.2) ; extra == 'server'
+Requires-Dist: aws-xray-sdk (!=0.96,>=0.93) ; extra == 'server'
+Requires-Dist: idna (<4,>=2.5) ; extra == 'server'
+Requires-Dist: sshpubkeys (>=3.1.0) ; extra == 'server'
+Requires-Dist: pyparsing (>=3.0.7) ; extra == 'server'
+Requires-Dist: openapi-spec-validator (>=0.2.8) ; extra == 'server'
+Requires-Dist: setuptools ; extra == 'server'
+Requires-Dist: flask ; extra == 'server'
+Requires-Dist: flask-cors ; extra == 'server'
+Provides-Extra: servicediscovery
+Provides-Extra: ses
+Provides-Extra: sns
+Provides-Extra: sqs
+Provides-Extra: ssm
+Requires-Dist: PyYAML (>=5.1) ; extra == 'ssm'
+Requires-Dist: dataclasses ; (python_version < "3.7") and extra == 'ssm'
+Provides-Extra: ssoadmin
+Provides-Extra: stepfunctions
+Provides-Extra: sts
+Provides-Extra: support
+Provides-Extra: swf
+Provides-Extra: textract
+Provides-Extra: timestreamwrite
+Provides-Extra: transcribe
+Provides-Extra: wafv2
+Provides-Extra: xray
+Requires-Dist: aws-xray-sdk (!=0.96,>=0.93) ; extra == 'xray'
+Requires-Dist: setuptools ; extra == 'xray'
+Provides-Extra: xray_client
+
+# Moto - Mock AWS Services
+
+Fork of [`moto`](https://github.com/spulec/moto) with changes and adaptations for [LocalStack](https://github.com/localstack/localstack).
+
+Please refer to the upstream repo for more details.
+
+## Releasing
+
+This fork is maintained as a separate pypi package, [moto-ext](https://pypi.org/project/moto-ext). To release a new version, follow these steps:
+
+```
+# make sure to have git remotes defined for both repos: 
+$ git remote -v
+localstack	git@github.com:localstack/moto.git (fetch)
+localstack	git@github.com:localstack/moto.git (push)
+upstream	git@github.com:spulec/moto.git (fetch)
+upstream	git@github.com:spulec/moto.git (push)
+
+# fetch fresh upstream "master" branch
+$ git fetch upstream master
+
+# branch "localstack" is the default branch of this repo
+$ git checkout localstack
+$ git rebase upstream/master  # resolve merge conflicts, if any...
+# (force-)push latest changes to the remote repo
+$ git push -f localstack localstack
+
+# update __version__, then publish to pypi
+$ vi moto/__init__.py
+...
+$ rm -rf dist/ build/
+$ make publish
+...
+```
+
+## Internal Release Notes
+
+In this section we can keep track of notes and pointers, mostly for internal coordination of moto-ext releases for LocalStack.
+
+* **Note 2022-06-22**: We are currently blocked to perform a full upgrade to latest upstream `master` (due to conflicting changes with multi-account support), hence the following commits (contributed by LS team, in reverse chronological order) from upstream `master` have been cherry-picked and added to the `localstack` branch (and moto-ext release):
+```
+036cc6879e81341a16c3574faf7b64e4e14e29be
+765805159440148d553501e748afd57a25102e4b
+6d68a5176bfb6efec6ba1c6b6f4db45973a35191
+cb2ea1adf911356be44b8d6343ba4f679760ac8b
+e99e8a883c1000079509e92eb0bfd4969fb84486
+c2b1950698d7c231b17ea2ae9d7bd0afc2169b99
+48186924ae2dbee165b2d02ea0978b3cfeea59b1
+b66e04ffd52b4cfdd95d22cd7253bc78dd70f595
+631e887b5ee154de6711db8f30522de3d51c4356
+1698c52740c6429c1acfdf3f040a817afc2ff73f
+67cda6d7d6f42118ccd7e2170e7ff0a1f92fa6a6
+b96eafb3c3e4c2e40c4ca62a3b555a51296cc6e3
+34a98d2c205ed311a867083b3ee17c18fb8ebb48
+68b93c3b86b0280eb387f4cb7ba47edd575c3375
+```
+The corresponding commit hashes on the `localstack` branch are as follows:
+```
+26d9dd0cb52f11e9805581a4b6794fb6fefde31d
+6f7ae25b7f4b5b76e405ca72ae10c97e23a8d723
+d88d983dbbfb38f2139e31fe4d7ff27cb9f9b7b5
+28ba9e5c923423a95e2172a08d0de876d65e9321
+46a35a23a682c8d3fe74166e92a650288a861e67
+e7338e048b4970632fdd4c0352ce4c258be7c270
+ea755bebb9bb4c9075640880bc38fd5c959bb757
+2d5d2140e06ddf237128ba4fd63afd18d64f1ee0
+38405ebba75ba296423cf164c593d52c09904764
+c37378c8c2dd469385c701f539611df0d2b0a9df
+185169bf29bff7b17ec32a3864b65785bcd80355
+8702038953a9025b5535115e422e40da7326451f
+8b328272ed8038e3e335526dd061e91f031db2a2
+```
+Next time we rebase onto latest upstream `master`, we can likely get those commits removed from the `localstack` branch again!
+
+
