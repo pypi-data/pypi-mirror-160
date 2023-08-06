@@ -1,0 +1,11 @@
+sql/__init__.py,sha256=fR-Z1rbruN3sarcn5KUbZd1xYdGA5taeeJCEy1ISShA,43
+sql/column_guesser.py,sha256=U-bsjl72mTfiNHkN9yESrBhLIZ-we7MGpyrSiVo0Cp4,2874
+sql/connection.py,sha256=maJcxQBQvowR312nqWKJ_lwJy2wem1uxr8m90j3tbY0,4013
+sql/magic.py,sha256=1eftG5nHyeMCoBNP13SG3_lB8u2WNe9JFH8Hyw0kRmM,10907
+sql/parse.py,sha256=cwLb8X-vsSHZcnO_bbRAvqUgEoKpuD_D_jt35a2nNLQ,2709
+sql/run.py,sha256=hYEPnPaieKbT_x2MXB55xsoH__0-a3AYFyBgfgwe_TE,13140
+jupysql-0.4.2.dist-info/LICENSE,sha256=KQyHYjQnG_7bt_7C8liIGidAA3G3KaO5fiTfVVUrK9o,1102
+jupysql-0.4.2.dist-info/METADATA,sha256=-zZCoIu9JIzLw3IQUmkI53KoN2JT5kK2uOspMDpHPEE,14495
+jupysql-0.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jupysql-0.4.2.dist-info/top_level.txt,sha256=hwJHmWfbRP5a_XNfqgHwi2zrjAAzAJk24QZoTocslow,4
+jupysql-0.4.2.dist-info/RECORD,,
