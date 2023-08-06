@@ -1,0 +1,10 @@
+dippy/__init__.py,sha256=m738V5BWY5rwjEF53D_JirDIsENw0sm6BVYEhxa6fJo,181
+dippy/algorithms/convert.py,sha256=qHU0TOfzwqSE7V57Oqb-kYgprOYrTlE0Vd7LoaoCAbg,1762
+dippy/algorithms/dithering.py,sha256=Uhsy5zItHtnZzbA64cXWn8wSNxmGIziQS8QLii-QyLM,9945
+dippy/algorithms/kmeans.py,sha256=svTXBXnUZwW3EtF35ZRdDHPQ7DBLiMgPSibS10omBv8,624
+dippy/utils/convert.py,sha256=K-ae4zNAnhumsCay9nWKyhOGFSGp7NBhR3xMhk_Iaus,779
+dippy/utils/io.py,sha256=LTDT3cTU67veIsQM6CGzj6f3FDEs7c6vCws3ay8KOWE,9351
+dip_python-0.1.3.dist-info/METADATA,sha256=pWH6S-96o2nEri6N3lmyqzM7X1Rx6FTFUMoJAIpE6a8,573
+dip_python-0.1.3.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+dip_python-0.1.3.dist-info/top_level.txt,sha256=o8l9PmhB-VTmdj9jJkypkmveqop_yecYiPwmzVvdw04,35
+dip_python-0.1.3.dist-info/RECORD,,
