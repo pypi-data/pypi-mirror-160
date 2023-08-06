@@ -1,0 +1,26 @@
+[project]
+name = "cbl_tools"
+dynamic = ['version']
+authors = [
+  { name="Alexander Voß", email="info@codebasedlearning.dev" },
+]
+description = "A small example package"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/code_based_learning/python/cbl_tools"
+"Bug Tracker" = "https://gitlab.com/code_based_learning/python/cbl_tools/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "./src/cbl_tools/version.py"
