@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "ancv"
+version = "0.6.0"
+description = "Render 'JSON Resume' sources to ANSI-enriched output for terminal clients (cURL, wget, ...) to consume."
+authors = ["Alex Povel <python@alexpovel.de>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://ancv.io"
+repository = "https://github.com/alexpovel/ancv/"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Framework :: AnyIO",
+    "Framework :: AsyncIO",
+    "Framework :: Pytest",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Natural Language :: English",
+    "Natural Language :: German",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Office/Business",
+    "Topic :: System :: Shells",
+    "Topic :: Terminals",
+    "Topic :: Terminals :: Terminal Emulators/X Terminals",
+    "Topic :: Text Processing",
+    "Topic :: Text Processing :: Markup",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+# https://stackoverflow.com/a/69608708/11477374:
+python = "^3.10"
+gidgethub = "^5.1.0"
+aiohttp = {extras = ["speedups"], version = "^3.8.1"}
+pydantic = {extras = ["email"], version = "^1.9.1"}
+structlog = "^21.5.0"
+cachetools = "^5.2.0"
+humanize = "^4.1.0"
+rich = "^12.4.4"
+typer = "^0.6.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.3.0"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+datamodel-code-generator = {extras = ["http"], version = "^0.13.0"}
+mypy = "^0.960"
+types-cachetools = "^5.0.1"
+pydeps = "^1.10.18"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.datamodel-codegen]
+target-python-version = "3.10"
+
+[tool.isort]
+# https://pycqa.github.io/isort/docs/configuration/black_compatibility.html
+profile = "black"
+
+[tool.mypy]
+mypy_path = "stubs/"
+show_error_codes = true
+strict = true
+namespace_packages = true
+disallow_any_unimported = true
+disallow_any_explicit = true
+disallow_any_generics = true
+disallow_subclassing_any = true
