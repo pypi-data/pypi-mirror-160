@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unique_characters_TurchinskiyD/__init__.py
+unique_characters_TurchinskiyD/unique_char.py
+unique_characters_TurchinskiyD.egg-info/PKG-INFO
+unique_characters_TurchinskiyD.egg-info/SOURCES.txt
+unique_characters_TurchinskiyD.egg-info/dependency_links.txt
+unique_characters_TurchinskiyD.egg-info/requires.txt
+unique_characters_TurchinskiyD.egg-info/top_level.txt
