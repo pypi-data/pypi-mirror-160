@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+user_agent_th/__init__.py
+user_agent_th/user_agent_th.py
+user_agent_th.egg-info/PKG-INFO
+user_agent_th.egg-info/SOURCES.txt
+user_agent_th.egg-info/dependency_links.txt
+user_agent_th.egg-info/top_level.txt
