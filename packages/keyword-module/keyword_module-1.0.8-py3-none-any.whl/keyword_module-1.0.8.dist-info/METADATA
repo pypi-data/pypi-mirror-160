@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: keyword-module
+Version: 1.0.8
+Summary: keyword_module
+Home-page: UNKNOWN
+Author: birdcrane
+Author-email: hsblhs2808@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sentence-transformers
+Requires-Dist: numpy
+Requires-Dist: sklearn
+Requires-Dist: konlpy
+
+UNKNOWN
+
