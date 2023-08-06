@@ -1,0 +1,8 @@
+aiohttp
+
+[contrib]
+flake8
+flake8-bugbear
+
+[contrib:implementation_name == "cpython"]
+black
