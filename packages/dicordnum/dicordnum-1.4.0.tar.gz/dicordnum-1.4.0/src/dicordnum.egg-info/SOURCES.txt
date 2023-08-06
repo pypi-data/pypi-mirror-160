@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/dicordnum/__init__.py
+src/dicordnum.egg-info/PKG-INFO
+src/dicordnum.egg-info/SOURCES.txt
+src/dicordnum.egg-info/dependency_links.txt
+src/dicordnum.egg-info/top_level.txt
