@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+sync_batchnorm/__init__.py
+sync_batchnorm/batchnorm.py
+sync_batchnorm/batchnorm_reimpl.py
+sync_batchnorm/comm.py
+sync_batchnorm/replicate.py
+sync_batchnorm/unittest.py
+sync_batchnorm.egg-info/PKG-INFO
+sync_batchnorm.egg-info/SOURCES.txt
+sync_batchnorm.egg-info/dependency_links.txt
+sync_batchnorm.egg-info/top_level.txt
