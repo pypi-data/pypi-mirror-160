@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: defergo
+Version: 0.0.3
+Summary: go defer in py
+Home-page: https://github.com/aadog/defer-py
+Author: aadog
+Author-email: 97077088@qq.com
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
