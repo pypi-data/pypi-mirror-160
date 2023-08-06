@@ -1,0 +1,3 @@
+[console_scripts]
+pyamlside2_yaml = pyamlside2.load_yaml:entry_point
+
