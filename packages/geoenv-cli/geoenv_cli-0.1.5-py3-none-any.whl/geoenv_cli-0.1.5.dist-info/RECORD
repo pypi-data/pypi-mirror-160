@@ -1,0 +1,13 @@
+geoenv/__init__.py,sha256=Nmswip0IUvJenHIhdfSyTYurDcwWTvOQ8mPDREtwE1o,21
+geoenv/commands/__init__.py,sha256=O-FGAnlevVk2aVC-1GvGcPCa4sRDMCxFr3e1tjBYRjQ,158
+geoenv/commands/bash.py,sha256=a7hD6WaFZhHkJEA-zYFQaDJczjcl1OkFuki1zE1L0TA,234
+geoenv/commands/core.py,sha256=gKGP5CRc5VzjICBbY6jo6wRCtlGHs--VhAXkiXqTw88,3377
+geoenv/commands/jupyter_lab.py,sha256=ZCeegJ46twNibil7dqZoWLTVK38KUdUTvFaOtMJgpJM,919
+geoenv/commands/postgres.py,sha256=vymkCVTUWkAh_zYs4lYLAe-o-NUclcMiHTzRnzjrgiY,3365
+geoenv/commands/update.py,sha256=qzuiWg4yubZEBbZKP7OJ198OojeSmbMrOxQmYToAKgo,279
+geoenv/geoenv.py,sha256=lBsuFvG7_lIdRnBjdu8AD-xE5hNOIAh2Y6XqA8rCRco,235
+geoenv_cli-0.1.5.dist-info/entry_points.txt,sha256=MikocfUFbbuoph6dAT0aKQnULjeu5IchqE9kXUe1OZQ,45
+geoenv_cli-0.1.5.dist-info/LICENSE,sha256=0L8sQPj4tTuVINgE5SxvpEf6UkCSussaWTn9emw8Mbg,1057
+geoenv_cli-0.1.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+geoenv_cli-0.1.5.dist-info/METADATA,sha256=_Zwpr0W5Y4koOvR5EUYqLzuvGLLhV_4v-kwNY9n8sPs,2009
+geoenv_cli-0.1.5.dist-info/RECORD,,
