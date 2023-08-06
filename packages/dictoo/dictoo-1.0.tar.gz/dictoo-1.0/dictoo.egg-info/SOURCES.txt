@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+dictoo/__init__.py
+dictoo/dicty.py
+dictoo/op.py
+dictoo.egg-info/PKG-INFO
+dictoo.egg-info/SOURCES.txt
+dictoo.egg-info/dependency_links.txt
+dictoo.egg-info/top_level.txt
+test/test_dicty.py
