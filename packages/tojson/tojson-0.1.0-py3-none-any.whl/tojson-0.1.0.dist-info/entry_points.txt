@@ -1,0 +1,5 @@
+[console_scripts]
+csv2json=tojson:csv2json.main
+csvtojson=tojson:csv2json.main
+tojson=tojson:csv2json.main
+
