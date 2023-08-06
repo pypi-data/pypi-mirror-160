@@ -1,0 +1,17 @@
+awsimple/__init__.py,sha256=wfT9UCJJNnrBN8OPtjwO4KwxGPmAnSe-t6Ly1VZUZ90,743
+awsimple/__version__.py,sha256=IBlXCkn7VqpO7KnmKAKsPBrm3wpFYhnlw91YjRz6fI0,323
+awsimple/aws.py,sha256=UZ2mrCfatJnwDcDXVOOVR2FUSG_-ycOS3soD8sCdO1Y,5814
+awsimple/cache.py,sha256=G3_yO3CnHLD3iam0S35DA0JlItfh0IgCj77LpoA7VJM,7141
+awsimple/dynamodb.py,sha256=3FhbA3TwFeYN_ZH_KCvSXs-txMLj7d0fytf5RmyVBrE,30586
+awsimple/dynamodb_miv.py,sha256=kK16Xy1AP0qzhDJiFzx504E7YXZHwpbusiuklbEgHQo,4340
+awsimple/mock.py,sha256=32CNU656uC3PBhjCJ4R-WBTtHbSl6VNVkpN8G8XDvsQ,199
+awsimple/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsimple/s3.py,sha256=HkUIlEtKEE9w03a2UYPEVEy9xmkVZd0EMZMoDcnSHGA,22222
+awsimple/sns.py,sha256=LjKj-UxPdfRDQfN10jU_ULjnlEqLmHcuqfRIKX9lkZo,3266
+awsimple/sqs.py,sha256=-1P0_pnqXitCTljkhoSps7mKHUj8xet-aiMNjCecruE,12975
+awsimple-1.3.0.dist-info/LICENSE,sha256=d956YAgtDaxgxQmccyUk__EfhORZyBjvmJ8pq6zYTxk,1093
+awsimple-1.3.0.dist-info/LICENSE.txt,sha256=d956YAgtDaxgxQmccyUk__EfhORZyBjvmJ8pq6zYTxk,1093
+awsimple-1.3.0.dist-info/METADATA,sha256=Jy-r4g9csdJlIKfrcGsaTnrEg-sMB-x5ISHMtzacvKI,4635
+awsimple-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+awsimple-1.3.0.dist-info/top_level.txt,sha256=mwqCoH_8vAaK6iYioiRbasXmVCQM7AK3grNWOKp2VHE,9
+awsimple-1.3.0.dist-info/RECORD,,
