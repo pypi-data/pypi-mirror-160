@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "porto"
+version = "0.1.0"
+description = "Porto provides a unified and simple interface to various online stamp services."
+authors = ["Jonathan Weth <dev@jonathanweth.de>"]
+maintainers = ["Jonathan Weth <dev@jonathanweth.de>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://edugit.org/hansegucker/porto"
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "License :: OSI Approved :: MIT License",
+  "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+inema = "^0.8.6"
+py-moneyed = "^2.0"
+pycountry = "^22.3.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.6.0"
+isort = "^5.10.1"
+tox = "^3.25.1"
+flake8 = "^4.0.1"
+flake8-simplify = "^0.19.2"
+flake8-print = "^5.0.0"
+flake8-rst-docstrings = "^0.2.7"
+flake8-pep585 = "^0.1.5"
+flake8-pep604 = "^1.1.0"
+flake8-annotations = "^2.9.0"
+flake8-black = "^0.3.3"
+mypy = "^0.971"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: porto
+Version: 0.1.0
+Summary: Porto provides a unified and simple interface to various online stamp services.
+Home-page: https://edugit.org/hansegucker/porto
+License: MIT
+Author: Jonathan Weth
+Author-email: dev@jonathanweth.de
+Maintainer: Jonathan Weth
+Maintainer-email: dev@jonathanweth.de
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: inema (>=0.8.6,<0.9.0)
+Requires-Dist: py-moneyed (>=2.0,<3.0)
+Requires-Dist: pycountry (>=22.3.5,<23.0.0)
+Project-URL: Repository, https://edugit.org/hansegucker/porto
+Description-Content-Type: text/x-rst
+
+Porto
+=====
+
+Porto provides an unified and simplified access to various online stamp services. Currently supported are the following services:
+
+* Deutsche Post: Internetmarke (Germany)
+
+Installation
+------------
+
+The simplest way to install Porto is using pip:
+
+..
+
+  pip install porto
+
+Additionally, you can checkout the source code:
+
+..
+
+  git clone https://edugit.org/hansegucker/porto
+
+License
+-------
+
+Copyright 2022 Jonathan Weth <dev@jonathanweth.de>
+
+Licensed under the MIT License (see LICENSE for more information).
+
