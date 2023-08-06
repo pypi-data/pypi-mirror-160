@@ -1,0 +1,51 @@
+opensesame-toolbox (2.8-1) bullseye; urgency=medium
+
+  * Update icon
+
+ -- Bob Rosbag <debian@bobrosbag.nl>  Wed, 27 Jul 2022 21:03:40 +0200
+
+opensesame-toolbox (2.7-1) stretch; urgency=medium
+
+  * Fixed experiment manager ui.
+
+ -- Bob Rosbag <debian@bobrosbag.nl>  Mon, 27 Nov 2017 10:14:15 +0200
+
+opensesame-toolbox (2.6-1) stretch; urgency=medium
+
+  * Replaced resource function in io_tools.
+  * setup.py is working.
+
+ -- Bob Rosbag <debian@bobrosbag.nl>  Thu, 26 Nov 2017 00:14:15 +0200
+
+opensesame-toolbox (2.3-1) jessie; urgency=medium
+
+  * Updated example questionnaires to new api style.
+
+ -- Bob Rosbag <debian@bobrosbag.nl>  Thu, 31 Mar 2016 10:44:15 +0200
+
+opensesame-toolbox (2.2-1) jessie; urgency=medium
+
+  * Accept .osexp files.
+  * Updated questionnaire scripts to new api style.
+  * Enhanced variable handling in data cleaning.
+  * Added succes box at questionnaire processor.
+
+ -- Bob Rosbag <debian@bobrosbag.nl>  Thu, 31 Mar 2016 02:22:56 +0200
+
+opensesame-toolbox (2.1-1) jessie; urgency=medium
+
+  * Small GUI improvements.
+
+ -- Bob Rosbag <debian@bobrosbag.nl>  Sun, 27 Mar 2016 03:03:06 +0200
+
+opensesame-toolbox (2.0-1) jessie; urgency=medium
+
+  * Major GUI changes.
+
+ -- Bob Rosbag <debian@bobrosbag.nl>  Sat, 26 Mar 2016 02:09:13 +0100
+
+opensesame-toolbox (1.9.2-1) jessie; urgency=low
+
+  * Initial release.
+
+ -- Bob Rosbag <debian@bobrosbag.nl>  Sat, 14 May 2015 04:00:57 +0200
