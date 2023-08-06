@@ -1,0 +1,7 @@
+frozendict
+polib
+pyhamcrest
+
+[test]
+WebTest
+pytest
