@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/formatfinder/__init__.py
+src/formatfinder/core.py
+src/formatfinder/dicts.py
+src/formatfinder.egg-info/PKG-INFO
+src/formatfinder.egg-info/SOURCES.txt
+src/formatfinder.egg-info/dependency_links.txt
+src/formatfinder.egg-info/top_level.txt
