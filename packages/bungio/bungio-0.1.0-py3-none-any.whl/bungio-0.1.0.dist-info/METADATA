@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: bungio
+Version: 0.1.0
+Summary: A destiny 2 / bungie api wrapper
+Home-page: https://github.com/Kigstn/BungIO
+License: MIT
+Keywords: asyncio,destiny,destiny 2,bungie,api
+Author: Daniel J
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: all
+Provides-Extra: cache
+Provides-Extra: docs
+Provides-Extra: speedups
+Provides-Extra: test
+Requires-Dist: Brotli (>=1.0.9,<2.0.0); extra == "speedups" or extra == "all"
+Requires-Dist: SQLAlchemy[aiosqlite] (>=1.4.36,<2.0.0)
+Requires-Dist: aiodns (>=3.0.0,<4.0.0); extra == "speedups" or extra == "all"
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: aiohttp-client-cache (>=0.7.0,<0.8.0); extra == "cache" or extra == "all"
+Requires-Dist: attrs (>=21.4.0,<22.0.0)
+Requires-Dist: cchardet (>=2.1.7,<3.0.0); extra == "speedups" or extra == "all"
+Requires-Dist: mkdocs-autorefs (>=0.4.1,<0.5.0); extra == "docs" or extra == "all"
+Requires-Dist: mkdocs-awesome-pages-plugin (>=2.7.0,<3.0.0); extra == "docs" or extra == "all"
+Requires-Dist: mkdocs-material (>=8.2.15,<9.0.0); extra == "docs" or extra == "all"
+Requires-Dist: mkdocstrings[python] (>=0.18.1,<0.19.0); extra == "docs" or extra == "all"
+Requires-Dist: orjson (>=3.6.8,<4.0.0); extra == "speedups" or extra == "all"
+Requires-Dist: pytest (>=7.1.2,<8.0.0); extra == "test" or extra == "all"
+Requires-Dist: pytest-asyncio (>=0.18.3,<0.19.0); extra == "test" or extra == "all"
+Project-URL: Repository, https://github.com/Kigstn/BungIO
+Description-Content-Type: text/markdown
+
+[![](https://img.shields.io/pypi/v/bungio?label=Version&logo=pypi)](https://pypi.org/project/bungio/)
+[![](https://img.shields.io/pypi/dm/bungio?label=Downloads&logo=pypi)](https://pypi.org/project/bungio/)
+[![](https://img.shields.io/readthedocs/bungio?label=Docs&logo=readthedocs)](https://bungio.readthedocs.io/en/latest/)
+![](https://img.shields.io/badge/Python-3.10+-1081c1?logo=python)
+[![](https://img.shields.io/github/workflow/status/Kigstn/BungIO/Black%20Formatting/master?label=Black%20Formatting&logo=github)](https://github.com/Kigstn/BungIO/actions/workflows/black.yml)
+[![](https://img.shields.io/github/workflow/status/Kigstn/BungIO/Flake8%20Styling/master?label=Flake%20Styling&logo=github)](https://github.com/Kigstn/BungIO/actions/workflows/flake.yml)
+
+
+<h1 align="center">
+    <p>
+        <img src="https://raw.githubusercontent.com/Kigstn/BungIO/master/docs/src/images/favicon.png" alt="BungIO Logo">
+    </p>
+    BungIO
+</h1>
+
+---
+
+BungIO is a modern and pythonic wrapper for Bungies Destiny 2 API.
+
+- [X] Python 3.10+
+- [X] Asynchronous
+- [X] 100% typed and raw api coverage
+- [X] Ratelimit compliant
+- [X] Manifest support
+- [X] OAuth2 support
+- [X] Easily used in combination with other libraries like FastApi
+
+Click [here](https://bungio.readthedocs.io/en/latest/installation) to get started or visit
+the [guides](https://bungio.readthedocs.io/en/latest/Guides/basic)
+or [api reference](https://bungio.readthedocs.io/en/latest/API%20Reference/client/).
+
+
+## Basic Example
+
+```py
+import asyncio
+import os
+
+from bungio import Client
+from bungio.models import BungieMembershipType, DestinyActivityModeType, DestinyUser
+
+
+# create the client obj with our bungie authentication
+client = Client(
+    bungie_client_id=os.getenv("bungie_client_id"),
+    bungie_client_secret=os.getenv("bungie_client_secret"),
+    bungie_token=os.getenv("bungie_token"),
+)
+
+async def main():
+    # create a user obj using a known bungie id
+    user = DestinyUser(membership_id=4611686018467765462, membership_type=BungieMembershipType.TIGER_STEAM)
+
+    # iterate thought the raids that user has played
+    async for activity in user.yield_activity_history(mode=DestinyActivityModeType.RAID):
+
+        # print the date of the activity
+        print(activity.period)
+
+# bungio is by nature asynchronous, it can only be run in an asynchronous context
+asyncio.run(main())
+```
+
