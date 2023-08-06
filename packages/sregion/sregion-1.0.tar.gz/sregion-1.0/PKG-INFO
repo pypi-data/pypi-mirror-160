@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sregion
+Version: 1.0
+Summary: Parsing of IVOA S_REGION strings
+Home-page: https://github.com/gbrammer/sregion/
+Author: Gabriel Brammer
+Author-email: gbrammer@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
