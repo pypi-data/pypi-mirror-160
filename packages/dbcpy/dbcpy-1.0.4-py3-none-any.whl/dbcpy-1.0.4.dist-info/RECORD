@@ -1,0 +1,17 @@
+dbcpy/__init__.py,sha256=aWdeYV8FgWWkXxfm0SRkBfamNbT5KYvkWp1rcy5CeHo,82
+dbcpy/bytes_util.py,sha256=Bn0pj_CcCGrpR9WUi5I9qZpEhwG2GZ_ugfMUZXoGDIQ,593
+dbcpy/dbc_file.py,sha256=Pymx5r6W12G2tB8W1TG2jW6PiLqlg9RBjXHnqeSy5F8,2059
+dbcpy/dbc_header.py,sha256=yQMkF_rbWAUSjk71tTEm8rVpjewWtHIoL3jV14IkIWY,1223
+dbcpy/loc.py,sha256=kEPGS1i5gCZ4ENN2s31jmEmCEFw_QWtXxRo4ZOMK6mo,494
+dbcpy/records/__init__.py,sha256=Zz9wyL-8ZYh2o-QRRNYOEHI22txwmb835KgdXmPuaGc,137
+dbcpy/records/char_title_record.py,sha256=fp3c7n_R8A8EM8HNCmttrl__3VxRaFmfEbJpzBQMHe8,337
+dbcpy/records/game_tip_record.py,sha256=cXH-Usl_R1210jQ5Y9YPZViVjXhLbcTWN5BxGI0jXsY,253
+dbcpy/records/item_record.py,sha256=i4NpYjr7Zx9Y4tybNkntnvgRe4DLaj7iSVLOIUWFI7w,348
+dbcpy/records/record_iterator.py,sha256=O4JOtG7yvgCB27ByaQ5JCLVngPtVQxzmEMPkLeouYWc,2519
+dbcpy/records/record_reader.py,sha256=zFQl9zW6ojsMrshk3xO2V7Op6FcwFTlGXb6oWu635Nc,905
+dbcpy/records/spell_record.py,sha256=irXLCNMcQ9S_RulcBNIXuxrlCSSyJVO1mOL7gmPNGR0,5318
+dbcpy-1.0.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+dbcpy-1.0.4.dist-info/METADATA,sha256=Fj8YXsuqqKXyUULQLShfmm5MKfHxibieel_ckCh6yek,5552
+dbcpy-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dbcpy-1.0.4.dist-info/top_level.txt,sha256=B5wFEv8TxbTYUPGgAGrwGWHiCvcCwOjP7OdwRQZwIVY,6
+dbcpy-1.0.4.dist-info/RECORD,,
