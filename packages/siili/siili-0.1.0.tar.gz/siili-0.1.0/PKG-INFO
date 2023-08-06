@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: siili
+Version: 0.1.0
+Summary: Amazon S3 uploading for mortals
+Author: hiAndrewQuinn
+Author-email: 53230903+hiAndrewQuinn@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: boto3 (>=1.24.34,<2.0.0)
+Requires-Dist: colorlog (>=6.6.0,<7.0.0)
+Requires-Dist: environs (>=9.5.0,<10.0.0)
+Requires-Dist: mypy (>=0.971,<0.972)
+Requires-Dist: yaspin (>=2.1.0,<3.0.0)
