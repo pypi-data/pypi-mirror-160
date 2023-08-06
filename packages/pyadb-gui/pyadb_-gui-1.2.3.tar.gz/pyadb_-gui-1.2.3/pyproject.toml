@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyadb_-gui"
+version = "1.2.3"
+description = "Operate Android devices with a GUI tool producted by Python."
+authors = ["xq <xq_work@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4.0"
+rich = "^12.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+pyadb = "pyadb_gui.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
