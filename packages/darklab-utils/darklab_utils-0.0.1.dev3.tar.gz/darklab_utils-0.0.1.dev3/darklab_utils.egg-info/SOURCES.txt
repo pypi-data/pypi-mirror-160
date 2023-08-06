@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+darklab_utils/__init__.py
+darklab_utils.egg-info/PKG-INFO
+darklab_utils.egg-info/SOURCES.txt
+darklab_utils.egg-info/dependency_links.txt
+darklab_utils.egg-info/top_level.txt
