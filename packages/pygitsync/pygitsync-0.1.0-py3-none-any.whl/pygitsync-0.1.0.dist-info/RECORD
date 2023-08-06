@@ -1,0 +1,11 @@
+pygitsync/VERSION,sha256=atlhOkVXmNbZLl9fOQq0uqcFlryGntaxf1zdKyhjXwY,5
+pygitsync/__init__.py,sha256=hnBDA4mtDM4l6MZkPW2TderJbIXMb5w2ocUx9aQr3rs,154
+pygitsync/_configuration.py,sha256=Vmv_EIuwMipSUnJjroxisUTbUiZZiGXutJC1pIKWdig,2003
+pygitsync/_default_values.py,sha256=o0fZ9U_jKUf1i9kBmSlEur_Afym221JM0ry8eNWHX3Q,267
+pygitsync/_repo.py,sha256=kvmSEGpRpHK-dkgu_9oYtXOcFxEgPE_xtxgBEYU0YXo,3195
+pygitsync/_url.py,sha256=egh951nQj99Lyihdo4ICngYi_vpd3HLDKh4Md11jraY,1381
+pygitsync/_version.py,sha256=rrfAQ15O4myv3iatpjh__jLsfidefLX23ctAM2TKfvQ,946
+pygitsync/entrypoint.py,sha256=b6QRu3d3OwfObnrTM45CIfp7Suy7hjua6dQh8at4OmE,4451
+pygitsync-0.1.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+pygitsync-0.1.0.dist-info/METADATA,sha256=BnRpOyqoqjSu4AD-XxEAOAVC-dVEaMXIQk74c2-AWO8,1519
+pygitsync-0.1.0.dist-info/RECORD,,
