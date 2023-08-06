@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+certbot_dns_yandexcloud/__init__.py
+certbot_dns_yandexcloud/certbot_dns_yandexcloud.py
+certbot_dns_yandexcloud.egg-info/PKG-INFO
+certbot_dns_yandexcloud.egg-info/SOURCES.txt
+certbot_dns_yandexcloud.egg-info/dependency_links.txt
+certbot_dns_yandexcloud.egg-info/entry_points.txt
+certbot_dns_yandexcloud.egg-info/requires.txt
+certbot_dns_yandexcloud.egg-info/top_level.txt

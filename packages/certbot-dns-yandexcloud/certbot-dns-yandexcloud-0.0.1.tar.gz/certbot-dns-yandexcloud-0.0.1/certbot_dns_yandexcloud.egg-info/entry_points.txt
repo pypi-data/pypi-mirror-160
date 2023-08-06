@@ -1,0 +1,2 @@
+[certbot.plugins]
+dns-yandexcloud = certbot_dns_yandexcloud.certbot_dns_yandexcloud:Authenticator
