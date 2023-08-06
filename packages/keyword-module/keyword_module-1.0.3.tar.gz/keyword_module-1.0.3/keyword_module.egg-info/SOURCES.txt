@@ -1,0 +1,7 @@
+README.txt
+setup.py
+text2keyword.py
+keyword_module.egg-info/PKG-INFO
+keyword_module.egg-info/SOURCES.txt
+keyword_module.egg-info/dependency_links.txt
+keyword_module.egg-info/top_level.txt
