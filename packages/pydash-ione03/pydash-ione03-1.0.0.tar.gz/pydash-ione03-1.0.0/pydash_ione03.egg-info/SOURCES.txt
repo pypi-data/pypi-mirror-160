@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pydash/__init__.py
+pydash_ione03.egg-info/PKG-INFO
+pydash_ione03.egg-info/SOURCES.txt
+pydash_ione03.egg-info/dependency_links.txt
+pydash_ione03.egg-info/top_level.txt
+tests/__init__.py
+tests/test_string.py
