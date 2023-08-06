@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: loggingclient
+Version: 0.0.1
+Summary: A library to log to console and other platforms.
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Requires-Dist: pylogctx (==1.12)
+
+UNKNOWN
+
