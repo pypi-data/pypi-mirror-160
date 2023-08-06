@@ -1,0 +1,119 @@
+{% extends "base.jinja" %}
+{% block main %}
+<form action="." method="POST" style="width:100%">
+	<input type="hidden" class="csrf-token" name="csrf_token" value="{{ csrf_token() }}"/>
+	<h1>Source wallet</h1>
+	<div class="row center">
+		<select name="source_wallet" style="max-width: 200px;">
+			{% for wallet in wallets %}
+			<option value="{{wallet.alias}}">{{ wallet.name }}</option>
+			{% endfor %}
+		</select>
+	</div>
+	<h1><br>Funding {{ addresses | length }} addresses</h1>
+	<div class="row" style="padding: 0 50px; align-items: center;">
+		<label style="width: 350px">The same amount for all addresses:</label><input type="number" id="sameamount" class="inline" style="width: 200px; margin:0; margin-right: 15px;" value="0">
+		{% if not is_liquid %}
+			<select class="inline" name="sameunit" id="sameunit" style="max-width: 80px; min-width: 80px;">
+				<option value="sat" selected>sat</option>
+				<option value="btc">BTC</option>
+			</select>
+		{% endif %}
+	</div>
+	{% if is_liquid %}
+		<div class="row" style="padding: 10px 50px 0 50px; align-items: center;">
+			<label style="width: 350px">The same asset for all addresses:</label>
+			<select class="inline" name="sameasset" id="sameasset" style="max-width: 200px;">
+				{% for asset in assets %}
+				<option value="{{asset}}">{{ asset | assetlabel }}</option>
+				<option value="{{asset}}-sat">{{ asset | assetlabel }}-sat</option>
+				{% endfor %}
+			</select>
+		</div>
+	{% endif %}
+	<br><br>
+	<div class="table-container" style="padding: 0 50px 50px 50px; width: 100%; max-height: 500px; overflow-y: scroll;">
+		<table>
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Address</th>
+				<th>Label</th>
+				<th>Amount</th>
+				{% if is_liquid %}
+					<th>Asset</th>
+				{% else %}
+					<th>Unit</th>
+				{% endif %}
+			</tr>
+		</thead>
+		<tbody>
+		{% for addr in addresses %}
+			<tr>
+				<td>{{ loop.index }}</td>
+				<td>{{ addr["address"] }}<input type="hidden" value="{{addr["address"]}}" name="addresses[]"></td>
+				<td><input type="text" name="labels[]" value="{{ addr["label"] }}"></td>
+				<td><input type="number" class="exfund_amount" name="amounts[]" step="any" style="width: 200px" value="{{ addr["amount"] }}"></td>
+				{% if is_liquid %}
+					<td><select class="inline exfund_asset" name="assets[]" style="max-width: 200px;">
+						{% for asset in assets %}
+						<option value="{{asset}}">{{ asset | assetlabel }}</option>
+						<option value="{{asset}}-sat">{{ asset | assetlabel }}-sat</option>
+						{% endfor %}
+					</select></td>
+				{% else %}
+					<td><select class="inline exfund_unit" name="units[]" style="max-width: 80px; min-width: 80px;">
+						<option value="sat" selected>sat</option>
+						<option value="btc">BTC</option>
+					</select></td>
+				{% endif %}
+			</tr>
+		{% endfor %}
+		</tbody>
+		</table>
+	</div>
+	<br><br>
+	<div class="center row">
+		{% include "exfund/components/fee-selection.html" %}
+		<fee-selection id="fee-selection-component"></fee-selection>
+	</div>
+	<div class="row center" style="padding: 20px 50px">
+		<button type="submit" class="btn inline" name="action" value="createpsbt" style="max-width: 200px; padding: 15px 0;">Continue</button>
+	</div>
+</form>
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript">
+	let events = ["change", "keyup"]; // add click?
+	let sameamount = document.getElementById("sameamount");
+	let amounts = Array.from(document.querySelectorAll(".exfund_amount"));
+	events.forEach(event_type =>{
+		sameamount.addEventListener(event_type, (e) => {
+			amounts.forEach(el => {
+				el.value = sameamount.value;
+			});
+		});
+	});
+{% if is_liquid %}
+	let sameasset = document.getElementById("sameasset");
+	let assets = Array.from(document.querySelectorAll(".exfund_asset"));
+	events.forEach(event_type =>{
+		sameasset.addEventListener(event_type, (e) => {
+			assets.forEach(el => {
+				el.value = sameasset.value;
+			});
+		});
+	});
+{% else %}
+	let sameunit = document.getElementById("sameunit");
+	let units = Array.from(document.querySelectorAll(".exfund_unit"));
+	events.forEach(event_type =>{
+		sameunit.addEventListener(event_type, (e) => {
+			units.forEach(el => {
+				el.value = sameunit.value;
+			});
+		});
+	});
+{% endif %}
+</script>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "base.jinja" %}
+{% block main %}
+
+{% include "includes/file-uploader.html" %}
+{% include "includes/dnd-textarea.html" %}
+
+<div class="card" style="width: 800px">
+<form action="." method="POST" role="form">
+    <input type="hidden" class="csrf-token" name="csrf_token" value="{{ csrf_token() }}"/>
+    <h1>Exfund extension</h1>
+    <p class="note">
+        This extension helps with funding multiple addresses in a single transaction.<br>
+        Select or drag-and-drop a CSV file containing addresess and click "Parse" to go to preview.<br><br>
+        Valid CSV file can contain any number of columns, but one of them must be with addresses.<br>
+        Amount column is optional, but if exists it should have amount in satoshi.<br><br>
+        Recognized column names (case-insensitive, optional): <code>Address</code>, <code>Amount</code>, <code>Label</code>{% if specter.is_liquid %}, <code>Asset</code> (as hex assetid).{% endif %}
+    </p>
+    <h2>Destinations</h2>
+    <div class="row">
+        <dnd-textarea name="rawcsv" id="rawcsv" placeholder="You can paste a list of addresses here or drag & drop a csv file." value="{{rawcsv}}"></dnd-textarea>
+    </div>
+    <div class="row center">
+        <file-uploader id="addr-uploader" image_src="{{ url_for('static', filename='img/file.svg') }}" button_width="300px">
+            <span slot="description">Choose a CSV file</span>
+            <tool-tip slot="tool-tip"> 
+                <h4 slot="title">Using a file</h4>
+                <span slot="paragraph">We will try to find valid addresses and amounts in the CSV file</span>
+            </tool-tip>
+        </file-uploader>
+    </div>
+    <div class="row">
+        <button type="submit" class="btn" name="action" value="parse" style="margin: 8px; padding: 15px 0;">Parse destinations</button>
+    </div>
+    <br><br>
+    <h2 class="center">Settings</h2>
+    <label><input type="checkbox" class="inline" name="show_menu" id="show_menu" {{'checked' if show_menu else ''}}> Show menu on sidebar</label>
+    <br><br>
+    <div class="row">
+        <button type="submit" class="btn" name="action" value="settings" style="margin: 8px; padding: 15px 0;">Save settings</button>
+    </div>
+</form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+    let textarea = document.getElementById("rawcsv");
+    document.addEventListener('file-upload', e => {
+        let result = e.detail.result;
+        textarea.value = result;
+    });
+</script>
+{% endblock %}
