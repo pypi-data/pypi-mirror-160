@@ -1,0 +1,6 @@
+tensors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensors/indexed.py,sha256=brXgrcWZnYNeSccezYi_QznDZwPzajnMprjwNH4R80c,4004
+tensor_algebra_dont_use-0.0.1.dist-info/METADATA,sha256=ApyTWU7TKTnkwMXY7JZiDUC-dCPlgMo34dfcQ6itILc,245
+tensor_algebra_dont_use-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tensor_algebra_dont_use-0.0.1.dist-info/top_level.txt,sha256=WOIVBJXDhqPjdxfOBNGiIGEfffiAnRQdRVq1NyEMN0U,8
+tensor_algebra_dont_use-0.0.1.dist-info/RECORD,,

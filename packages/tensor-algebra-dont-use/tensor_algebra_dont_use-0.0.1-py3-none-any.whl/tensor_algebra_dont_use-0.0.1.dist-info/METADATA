@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tensor-algebra-dont-use
+Version: 0.0.1
+Summary: bla
+Home-page: UNKNOWN
+Author: Dojo_team_1
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: sympy (>=1.8)
+Requires-Dist: numpy (>=1.17.0)
+
+bla bla
+
+
