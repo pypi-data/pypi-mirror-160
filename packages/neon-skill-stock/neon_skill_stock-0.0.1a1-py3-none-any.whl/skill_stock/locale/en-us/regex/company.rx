@@ -1,0 +1,2 @@
+(price of|price for) (?P<Company>.*)
+is (?P<Company>.*) trading at
