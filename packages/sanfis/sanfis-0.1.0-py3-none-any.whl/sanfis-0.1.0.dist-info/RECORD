@@ -1,0 +1,12 @@
+sanfis/__init__.py,sha256=81pjd8wFEW20mK_OcRTWx5vHmzBRbUwoZIwcRx3lS1o,26
+sanfis/helpers.py,sha256=kZH1rAT-fg7w2OXGpIKkJHqRz9M58sNLN7JXf5KKTD0,12571
+sanfis/plottingtools.py,sha256=uGNxV7in5TMTzXw7lN8ud3qbwibxO931ppcs286briA,2058
+sanfis/sanfis.py,sha256=Fdv_ZF4DVnTp4Qz0-Q5jFM38uLSJJh-9uGvcSrxWciw,29076
+sanfis/datagenerators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sanfis/datagenerators/anfis_generator.py,sha256=7IucsI-v-iqHm4bP1kXdV7-RHF6Y3PAst4uUejvi4qg,3135
+sanfis/datagenerators/sanfis_generator.py,sha256=W-LHlEXOEm2ifnZylhRj2Qm4MloiUDHwOASOA6dPKRw,26918
+sanfis-0.1.0.dist-info/LICENSE,sha256=GROhKX_YXGwp1uan5Dx_2g3M1Ee08iT3OaBqF5vQekg,1074
+sanfis-0.1.0.dist-info/METADATA,sha256=AF5wuXbjtHs88ejcg3vjetNkdopC4fAVBOnSSzeY4Wg,11133
+sanfis-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sanfis-0.1.0.dist-info/top_level.txt,sha256=9TvjsZ6W-OlZF9hbTHr9pomACSreiSkseQSguLsqqnU,29
+sanfis-0.1.0.dist-info/RECORD,,
