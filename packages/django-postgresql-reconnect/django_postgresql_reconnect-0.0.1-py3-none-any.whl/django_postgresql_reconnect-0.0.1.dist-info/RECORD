@@ -1,0 +1,6 @@
+django_postgresql_reconnect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_postgresql_reconnect/backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_postgresql_reconnect/backend/base.py,sha256=axKiVXWlc884JYk0prOPRV7WPZs8-Hn6jVox5VczWvk,930
+django_postgresql_reconnect-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_postgresql_reconnect-0.0.1.dist-info/METADATA,sha256=K79EKLA2VPynxCEME6HbDaAVVvwpC78PiTxWZ9DvhQY,781
+django_postgresql_reconnect-0.0.1.dist-info/RECORD,,
