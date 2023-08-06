@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "name": "Python Spiders",
+      "description": "Spiders that crawl data with Python frameworks",
+      "spiders": [
+        {
+          "path": "python/basic"
+        },
+        {
+          "path": "python/selenium_36kr",
+          "schedules": [
+            {
+              "name": "36kr Daily",
+              "description": "Crawl news articles on 36kr everyday 2 AM",
+              "cron": "0 2 * * *",
+              "enabled": true,
+              "mode": "random"
+            }
+          ]
+        },
+        {
+          "path": "python/scrapy_baidu",
+          "schedules": [
+            {
+              "name": "Baidu Hourly",
+              "description": "Crawl Baidu search results for keyword 'crawlab' every hour",
+              "cron": "0 * * * *",
+              "enabled": false,
+              "mode": "all-nodes"
+            }
+          ]
+        },
+        {
+          "path": "python/scrapy_quotes",
+          "schedules": [
+            {
+              "name": "Quotes Bi-Hourly",
+              "description": "Crawl quotes.toscrape.com every 2 hours",
+              "cron": "0 */2 * * *",
+              "enabled": true,
+              "mode": "random"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Golang Spiders",
+      "description": "Spiders that crawl data with Golang frameworks",
+      "spiders": [
+        {
+          "path": "golang/basic"
+        },
+        {
+          "path": "golang/colly_scrapy_docs"
+        },
+        {
+          "path": "golang/rod_github"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "username": "marvin",
+      "password": "123456789",
+      "role": "admin",
+      "email": "marvin@crawlab.cn"
+    },
+    {
+      "username": "alpha",
+      "password": "123456789",
+      "role": "normal",
+      "email": "alpha@crawlab.cn"
+    },
+    {
+      "username": "beta",
+      "password": "123456789",
+      "role": "normal",
+      "email": "beta@crawlab.cn"
+    }
+  ],
+  "tokens": [
+    {
+      "name": "3rd Party API Token"
+    },
+    {
+      "name": "System Integration API Token"
+    }
+  ]
+}
