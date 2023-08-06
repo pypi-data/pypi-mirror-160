@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/graphcolorflow.egg-info/PKG-INFO
+src/graphcolorflow.egg-info/SOURCES.txt
+src/graphcolorflow.egg-info/dependency_links.txt
+src/graphcolorflow.egg-info/top_level.txt
