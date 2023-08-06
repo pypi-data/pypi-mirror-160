@@ -1,0 +1,4 @@
+redis~=4.2
+
+[fakeredis]
+fakeredis[lua]>=1.7.1
