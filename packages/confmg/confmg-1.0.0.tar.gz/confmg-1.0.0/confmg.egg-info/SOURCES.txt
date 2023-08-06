@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+confmg/__init__.py
+confmg/__main__.py
+confmg.egg-info/PKG-INFO
+confmg.egg-info/SOURCES.txt
+confmg.egg-info/dependency_links.txt
+confmg.egg-info/entry_points.txt
+confmg.egg-info/requires.txt
+confmg.egg-info/top_level.txt
