@@ -1,0 +1,22 @@
+version: 2
+
+formats: []
+
+python:
+  install:
+    - requirements: docs/requirements.txt
+    - requirements: requirements.txt
+    - method: setuptools
+      path: .
+  system_packages: true
+
+build:
+  os: ubuntu-20.04
+  tools:
+    python: "3.9"
+    rust: "1.61"
+  apt_packages:
+    - libopus-dev
+
+sphinx:
+   configuration: docs/conf.py

@@ -1,0 +1,4 @@
+furo
+sphinx-design
+setuptools-rust
+Pygments
