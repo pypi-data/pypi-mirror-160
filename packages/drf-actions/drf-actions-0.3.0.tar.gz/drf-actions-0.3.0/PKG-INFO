@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: drf-actions
+Version: 0.3.0
+Summary: Create event log with help triggers and send notify after create event
+Home-page: https://github.com/speechki-book/drf-actions
+License: MIT
+Keywords: django,restframework,drf,events,log
+Author: Pavel Maltsev
+Author-email: pavel@speechki.org
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.2.14)
+Requires-Dist: django-filter (>=22.1)
+Requires-Dist: django-model-utils (>=4.1.1)
+Requires-Dist: djangorestframework (>=3.12.2)
+Description-Content-Type: text/markdown
+
+# drf-actions
+
+Create event log with help triggers and send notify after create event
+
