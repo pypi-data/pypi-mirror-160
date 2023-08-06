@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+analyticsdf/__init__.py
+analyticsdf/analyticsdataframe.py
+analyticsdf.egg-info/PKG-INFO
+analyticsdf.egg-info/SOURCES.txt
+analyticsdf.egg-info/dependency_links.txt
+analyticsdf.egg-info/not-zip-safe
+analyticsdf.egg-info/requires.txt
+analyticsdf.egg-info/top_level.txt
