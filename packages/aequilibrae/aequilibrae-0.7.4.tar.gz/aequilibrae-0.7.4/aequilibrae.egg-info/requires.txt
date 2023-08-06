@@ -1,0 +1,7 @@
+numpy
+pyaml
+pandas
+requests
+shapely
+scipy
+pyarrow
