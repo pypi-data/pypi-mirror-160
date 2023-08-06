@@ -1,0 +1,3 @@
+[console_scripts]
+git-archive-deep=git_archive_deep.__main__:main
+
