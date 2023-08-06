@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+v20 = "*"
+pyyaml = "*"
+influxdb = "*"
+influxdb-client = "*"
+python-json-logger = "*"
+iso8601 = "*"
+rfc3339 = "*"
+redis = "*"
+
+[dev-packages]
+autopep8 = "*"
+pylint = "*"
+build = "*"
+pycodestyle = "*"
+twine = "*"

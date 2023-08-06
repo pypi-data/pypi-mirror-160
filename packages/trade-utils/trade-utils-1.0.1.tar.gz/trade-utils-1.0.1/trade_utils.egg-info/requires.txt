@@ -1,0 +1,8 @@
+v20
+pyyaml
+influxdb
+influxdb-client
+python-json-logger
+iso8601
+rfc3339
+redis
