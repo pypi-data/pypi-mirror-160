@@ -1,0 +1,3 @@
+[console_scripts]
+nexis-uni-parser=nexis_uni_parser.__main__:main
+
