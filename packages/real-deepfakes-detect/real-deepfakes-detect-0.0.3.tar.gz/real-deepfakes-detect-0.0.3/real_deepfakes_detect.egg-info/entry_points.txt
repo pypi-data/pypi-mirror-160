@@ -1,0 +1,2 @@
+[console_scripts]
+deepfakes_detect = inference:main
