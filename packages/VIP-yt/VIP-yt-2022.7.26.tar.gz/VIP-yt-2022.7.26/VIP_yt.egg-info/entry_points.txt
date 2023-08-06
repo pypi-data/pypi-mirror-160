@@ -1,0 +1,3 @@
+[console_scripts]
+VIP-yt = VIP_yt:main
+

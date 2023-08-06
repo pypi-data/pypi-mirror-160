@@ -1,0 +1,5 @@
+
+{{commands}}
+
+
+complete --command VIP-yt --arguments ":ytfavorites :ytrecommended :ytsubscriptions :ytwatchlater :ythistory"
