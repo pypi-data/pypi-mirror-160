@@ -1,0 +1,8 @@
+heartcv/__init__.py,sha256=V70_Im7t-Q07Lyu2scBhLeFWtuvJEZZGFE6rFsnwgDs,48
+heartcv/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+heartcv/heartcv.py,sha256=8EPok5xcYNmSCJOmCTVj6_F6m8bkpq9WAAG2MoMZiFY,16251
+heartcv/data/sample.avi,sha256=RMzs3zQmOtfg0crm-vvkFVnleIp6Z8f7GB9GbTI657M,11869126
+heartcv-0.2.0.post1.dist-info/METADATA,sha256=v4xQCThKw21ngYojUy3AGzFCirFITX-IPmZfhXQ-o7w,1836
+heartcv-0.2.0.post1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+heartcv-0.2.0.post1.dist-info/top_level.txt,sha256=rDR1VZoVs20H3Yvy84CBR_Yjm-7RwUb7ic9oOkMguQI,8
+heartcv-0.2.0.post1.dist-info/RECORD,,
