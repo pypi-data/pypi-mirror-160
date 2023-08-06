@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+superfunny/__init__.py
+superfunny/command_line.py
+superfunny.egg-info/PKG-INFO
+superfunny.egg-info/SOURCES.txt
+superfunny.egg-info/dependency_links.txt
+superfunny.egg-info/entry_points.txt
+superfunny.egg-info/not-zip-safe
+superfunny.egg-info/requires.txt
+superfunny.egg-info/top_level.txt

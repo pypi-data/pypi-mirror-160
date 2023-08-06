@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: superfunny
+Version: 0.2
+Summary: The funniest joke in the world
+Home-page: http://github.com/melaniecheah/test_repo
+Author: Melanie Cheah
+Author-email: melaniecheah@example.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Introduction
+
+This is a playground to test import package <b>funniest</b>.
+
+
