@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: ibis-framework
+Version: 3.1.0
+Summary: Productivity-centric Python Big Data Framework
+Home-page: https://ibis-project.org
+License: Apache-2.0
+Author: Ibis Contributors
+Maintainer: Ibis Contributors
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: all
+Provides-Extra: clickhouse
+Provides-Extra: dask
+Provides-Extra: datafusion
+Provides-Extra: duckdb
+Provides-Extra: geospatial
+Provides-Extra: impala
+Provides-Extra: mysql
+Provides-Extra: pandas
+Provides-Extra: postgres
+Provides-Extra: pyspark
+Provides-Extra: sqlite
+Provides-Extra: visualization
+Requires-Dist: GeoAlchemy2 (>=0.6.3,<0.13); extra == "all" or extra == "geospatial"
+Requires-Dist: Shapely (>=1.6,<1.8.3); extra == "all" or extra == "geospatial"
+Requires-Dist: atpublic (>=2.3,<4)
+Requires-Dist: clickhouse-cityhash (>=1.0.2,<2); extra == "all" or extra == "clickhouse"
+Requires-Dist: clickhouse-driver[numpy] (>=0.1,<0.3); extra == "all" or extra == "clickhouse"
+Requires-Dist: dask[array,dataframe] (>=2021.10.0); extra == "all" or extra == "dask"
+Requires-Dist: datafusion (>=0.4,<0.7); extra == "all" or extra == "datafusion"
+Requires-Dist: duckdb (>=0.3.2,<0.5.0); extra == "all" or extra == "duckdb"
+Requires-Dist: duckdb-engine (>=0.1.8,<0.3.0); extra == "all" or extra == "duckdb"
+Requires-Dist: fsspec (>=2022.1.0); extra == "all" or extra == "impala"
+Requires-Dist: geopandas (>=0.6,<0.12); extra == "all" or extra == "geospatial"
+Requires-Dist: graphviz (>=0.16,<0.21); extra == "all" or extra == "visualization"
+Requires-Dist: impyla[kerberos] (>=0.17,<0.19); extra == "all" or extra == "impala"
+Requires-Dist: lz4 (>=3.1.10,<5); extra == "all" or extra == "clickhouse"
+Requires-Dist: multipledispatch (>=0.6,<0.7)
+Requires-Dist: numpy (>=1,<2)
+Requires-Dist: packaging (>=21.3,<22)
+Requires-Dist: pandas (>=1.2.5,<2)
+Requires-Dist: parsy (>=1.3.0,<2)
+Requires-Dist: psycopg2 (>=2.8.4,<3); extra == "all" or extra == "postgres"
+Requires-Dist: pyarrow (>=1,<9); extra == "all" or extra == "dask" or extra == "pyspark"
+Requires-Dist: pydantic (>=1.9.0,<2)
+Requires-Dist: pymysql (>=1,<2); extra == "all" or extra == "mysql"
+Requires-Dist: pyspark (>=3,<4); extra == "all" or extra == "pyspark"
+Requires-Dist: regex (>=2021.7.6)
+Requires-Dist: requests (>=2,<3); extra == "all" or extra == "impala"
+Requires-Dist: sqlalchemy (>=1.4,<2.0); extra == "all" or extra == "duckdb" or extra == "mysql" or extra == "postgres" or extra == "sqlite"
+Requires-Dist: tabulate (>=0.8.9,<1)
+Requires-Dist: toolz (>=0.11,<0.13)
+Project-URL: Documentation, https://ibis-project.org
+Project-URL: Repository, https://github.com/ibis-project/ibis
+Description-Content-Type: text/markdown
+
+# Ibis: Expressive analytics in Python at any scale
+
+|        Service | Status                                                                                                                                                                                                |
+| -------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  Documentation | [![Documentation Status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)                                                                                 |
+| Conda packages | [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ibis-framework/badges/version.svg)](https://anaconda.org/conda-forge/ibis-framework)                                                       |
+|           PyPI | [![PyPI](https://img.shields.io/pypi/v/ibis-framework.svg)](https://pypi.org/project/ibis-framework)                                                                                                  |
+|        Ibis CI | [![Build status](https://github.com/ibis-project/ibis/actions/workflows/ibis-main.yml/badge.svg)](https://github.com/ibis-project/ibis/actions/workflows/ibis-main.yml?query=branch%3Amaster)         |
+|     Backend CI | [![Build status](https://github.com/ibis-project/ibis/actions/workflows/ibis-backends.yml/badge.svg)](https://github.com/ibis-project/ibis/actions/workflows/ibis-backends.yml?query=branch%3Amaster) |
+|       Coverage | [![Codecov branch](https://img.shields.io/codecov/c/github/ibis-project/ibis/master.svg)](https://codecov.io/gh/ibis-project/ibis)                                                                    |
+
+Ibis is a Python library to help you write expressive analytics at any scale,
+small to large. Its goal is to simplify analytical workflows and make you more
+productive.
+
+Install Ibis from PyPI with:
+
+```sh
+pip install ibis-framework
+```
+
+or from conda-forge with
+
+```sh
+conda install ibis-framework -c conda-forge
+```
+
+Ibis provides tools for interacting with the following systems:
+
+- [Apache Impala](https://ibis-project.org/docs/latest/backends/Impala/)
+- [Google BigQuery](https://github.com/ibis-project/ibis-bigquery)
+- [ClickHouse](https://ibis-project.org/docs/latest/backends/ClickHouse/)
+- [Dask](https://ibis-project.org/docs/latest/backends/Dask/)
+- [DuckDB](https://ibis-project.org/docs/latest/backends/DuckDB/)
+- [MySQL](https://ibis-project.org/docs/latest/backends/MySQL/)
+- [Pandas](https://ibis-project.org/docs/latest/backends/Pandas/)
+- [PostgreSQL](https://ibis-project.org/docs/latest/backends/PostgreSQL/)
+- [PySpark](https://ibis-project.org/docs/latest/backends/PySpark/)
+- [SQLite](https://ibis-project.org/docs/latest/backends/SQLite/)
+
+Learn more about using the library at https://ibis-project.org.
+
