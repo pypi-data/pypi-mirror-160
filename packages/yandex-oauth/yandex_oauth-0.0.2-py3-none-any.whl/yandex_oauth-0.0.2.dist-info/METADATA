@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: yandex-oauth
+Version: 0.0.2
+Summary: yandex_oauth - Yandex OAuth Lib
+Download-URL: https://github.com/imercury13/yandex_oauth
+Author: Igor Kuptsov
+Author-email: ya360@uh.net.ru
+Maintainer: Igor Kuptsov
+Maintainer-email: ya360@uh.net.ru
+License: GPL-3.0
+Project-URL: Bug Tracker, https://github.com/imercury13/yandex_oauth/issues
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: System Administrators
+License-File: LICENSE
+Requires-Dist: requests
+
+# yandex_oauth
+Yandex OAuth Lib
