@@ -1,0 +1,12 @@
+graphql_client/__init__.py,sha256=GtGbd-EeLWfLOJfw2H8YT-3EYhDZPLFwYFxKInxrcuo,201
+graphql_client/errors.py,sha256=DydgjjRkwbQfXZ3BnAQ_GylFt9-WhEBhRnGxlawuQnE,285
+graphql_client/request.py,sha256=uG5nYxDeWgW3fQ2gHaW6d-scHV64dorpX1SBBZZw6j0,1506
+graphql_client/typedefs.py,sha256=lxcNxG86568OQKy7JSAyrrETSZ4G1ld-Cp_DAePys94,62
+graphql_client/utils.py,sha256=zp5RzeD94AMBpgKgtbVLleXvkHdx9viol2h3RKcgG14,675
+graphql_client/client/__init__.py,sha256=ZmfInVChnKFSO_QLOSyVWxNQpOQXdq98m4IVW7-DGRw,39
+graphql_client/client/base.py,sha256=Dax1MN9jjtTXfTbjO6g7MC4G5gnfH8q717MHslarViY,1687
+graphql_client/client/sync_client.py,sha256=lUAR9X5gTzl1GYv0L70JXcSTm-6Ses-wydyWta5AW-E,1391
+graphql_requests-0.1.0.dist-info/LICENSE,sha256=sNGohdMGHOo1L1mUmCLKMbpYPYSJEvHH2SnA_tz7mSs,1074
+graphql_requests-0.1.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+graphql_requests-0.1.0.dist-info/METADATA,sha256=mOGKeZRvXNS4J85g00v2zI7QeyBGv3keXcUx0ezu_gg,1561
+graphql_requests-0.1.0.dist-info/RECORD,,
