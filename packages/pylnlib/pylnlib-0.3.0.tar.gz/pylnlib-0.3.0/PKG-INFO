@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pylnlib
+Version: 0.3.0
+Summary: A library to monitor LocoNet message on a serial interface
+Home-page: https://varkenvarken.github.io/pylnlib/
+Author: varkenvarken
+Author-email: test@example.com
+License: GPLv3
+Description: ![Test](https://github.com/varkenvarken/pylnlib/actions/workflows/test.yml/badge.svg)
+        ![CodeQL](https://github.com/varkenvarken/pylnlib/actions/workflows/codeql-analysis.yml/badge.svg)
+        ![Black](https://github.com/varkenvarken/pylnlib/actions/workflows/black.yml/badge.svg)
+        ![Versions](https://img.shields.io/pypi/v/pylnlib)
+        ![Python versions](https://img.shields.io/pypi/pyversions/pylnlib)
+        
+        # pylnlib
+        A python library to monitor LocoNet traffic on a usb/serial bus.
+        
+        Documentation (a work in progress) can be found on [https://varkenvarken.github.io/pylnlib/](https://varkenvarken.github.io/pylnlib/)
+        
+        # installation
+        
+        just the library:
+        
+        ```bash
+        pip install pylnlib
+        ```
+        
+        with the experimental webserver (this will also pull all dependencies, like fastapi, uvicorn, etc):
+        
+        ```bash
+        pip install pylnlib[webserver]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: FastAPI
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: webserver
