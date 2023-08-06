@@ -1,0 +1,12 @@
+pycof/__init__.py,sha256=myjcO3a0MXPtHZHR-PptkFCl8eLXZU__x9AtV0Dd9l8,178
+pycof/data.py,sha256=ovS58nw-UUEupIInZKQtE8ggMow0Hf0h5eFw43_pHWo,12851
+pycof/format.py,sha256=5SOteB3PX67BV5vMNXQQqZv9MSePVCPjIcAojitR03U,30137
+pycof/init_template.py,sha256=nZMgQ1UI4MyaMUMDswwKWAasuNzCXnuPKw_-4hT20Gs,182
+pycof/misc.py,sha256=eEHX3qIN5oAHuAQ_xk0v08w0Wod74PetzwDA3jxNqFc,11184
+pycof/sql.py,sha256=7JA-krWG7LDEdwzPuom2EJcahEgCEJQM-ec2nD6LIcc,10248
+pycof/sqlhelper.py,sha256=Xwig_NCyLyd4vaYtSINUwioN4UHSaXMkl3YCI0Vo5rI,14186
+pycof-1.4.2.dist-info/LICENSE,sha256=2kqr7o_GQV6E3hoLZM1D9P-7GdOGH6PJICiC64MEsfY,1071
+pycof-1.4.2.dist-info/METADATA,sha256=FXKEMxWPEq0CfTCTxrEC1MKeCAJCkoI1BvJikQuT18o,5081
+pycof-1.4.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pycof-1.4.2.dist-info/top_level.txt,sha256=0VQwc__JecbAF4xj3L6bZuvCUt8TzKYkGFKYLFTdDCU,6
+pycof-1.4.2.dist-info/RECORD,,
