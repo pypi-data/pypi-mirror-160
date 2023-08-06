@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: SparkStream
+Version: 1.0.7
+Summary: A simple spark streaming handler.
+Home-page: https://github.com/HassanRady/SparkStream
+Author: Hassan Rady
+Author-email: hassan.khaled.rady@gmail.com
+License: MIT license
+Keywords: Tweets
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: Sphinx
+Requires-Dist: coverage
+Requires-Dist: awscli
+Requires-Dist: flake8
+Requires-Dist: pathlib2
+Requires-Dist: PyArrow
+Requires-Dist: nltk
+Requires-Dist: pandas
+Requires-Dist: pyspark (==3.2.0)
+Requires-Dist: joblib
+Requires-Dist: findspark
+
