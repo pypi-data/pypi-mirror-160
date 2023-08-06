@@ -1,0 +1,3 @@
+[console_scripts]
+gitignoregh=gitignoregh.cli:main
+
