@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Cryptortool
+Version: 1.5.6
+Summary: Encrypt text or file
+Home-page: https://github.com/varvaruk-v/Crypt-file
+Author: Viktor Varvaruk
+Author-email: 
+License: MIT
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pyAesCrypt
+Requires-Dist: stegano
+Requires-Dist: argparse
+
+Encrypt text or file
