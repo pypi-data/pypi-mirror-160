@@ -1,0 +1,11 @@
+graft fmipp/lib
+graft fmipp/licences
+graft fmipp/export/bin
+graft source
+
+prune test
+prune source/fmipp/doc
+prune source/fmipp/scripts
+prune source/fmipp/test
+
+include description.txt
