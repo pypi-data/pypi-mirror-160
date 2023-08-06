@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: GLManager
+Version: 1.1.3
+Home-page: https://github.com/DuTra01/GLManager.git
+Author: Glemison C. DuTra
+Author-email: glemyson20@gmail.com
+License: MIT
+Platform: linux
+Description-Content-Type: text/markdown
+Requires-Dist: sqlalchemy
+Requires-Dist: pytest
+Requires-Dist: distro
+Requires-Dist: pytelegrambotapi (==4.6.0)
+Requires-Dist: python-daemon
+
+# GLManager
+
+## Modo de instalacao manual
+
+* Instalando GIT 
+
+```
+sudo apt-get update && sudo apt-get install git -y
+```
+
+* Instalando script
+```
+git clone https://github.com/DuTra01/GLManager.git
+cd GLManager
+pip3 install -r requirements.txt
+```
+
+* Execute o script
+```
+python3 -m app
+```
+
+## Modo de instalacao automatizada
+
+* Instalando python3, pip3 e git
+```
+sudo apt-get update && sudo apt-get install git python3 python3-pip -y
+``` 
+
+* Instalando script
+```
+pip3 install git+https://github.com/DuTra01/GLManager.git
+```
+#### Ou
+```
+git clone https://github.com/DuTra01/GLManager.git
+cd GLManager
+python3 setup.py install
+```
+
+## Atualize o script
+```
+pip3 install --upgrade git+https://github.com/DuTra01/GLManager.git
+```
+#### Ou
+```
+cd ~/
+rm -rf GLManager
+git clone git+https://github.com/DuTra01/GLManager.git
+cd GLManager
+python3 setup.py install
+```
+
+* Comando de execucao
+```
+vps
+```
