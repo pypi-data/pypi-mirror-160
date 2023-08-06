@@ -1,0 +1,8 @@
+setup.py
+Motor_imagery_ge/__init__.py
+Motor_imagery_ge/evaluate.py
+Motor_imagery_ge/main.py
+Motor_imagery_ge.egg-info/PKG-INFO
+Motor_imagery_ge.egg-info/SOURCES.txt
+Motor_imagery_ge.egg-info/dependency_links.txt
+Motor_imagery_ge.egg-info/top_level.txt
