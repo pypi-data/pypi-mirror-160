@@ -1,0 +1,5 @@
+setup.py
+ubo.egg-info/PKG-INFO
+ubo.egg-info/SOURCES.txt
+ubo.egg-info/dependency_links.txt
+ubo.egg-info/top_level.txt
