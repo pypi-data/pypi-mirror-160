@@ -1,0 +1,2 @@
+[console_scripts]
+nif-dumper = nif_dumper.dumper:main

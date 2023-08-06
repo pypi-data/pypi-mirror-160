@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/nif_dumper/__init__.py
+src/nif_dumper/dumper.py
+src/nif_dumper.egg-info/PKG-INFO
+src/nif_dumper.egg-info/SOURCES.txt
+src/nif_dumper.egg-info/dependency_links.txt
+src/nif_dumper.egg-info/entry_points.txt
+src/nif_dumper.egg-info/requires.txt
+src/nif_dumper.egg-info/top_level.txt
