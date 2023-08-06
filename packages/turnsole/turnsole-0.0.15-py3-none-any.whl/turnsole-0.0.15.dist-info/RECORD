@@ -1,0 +1,17 @@
+turnsole/__init__.py,sha256=haOIopOWA4QbLUwCQSew6CzJr_NsgxE7gnKjtuUN3Lc,275
+turnsole/convenience.py,sha256=4MT1ratikdMA16FEL1OYy1F26-tGIt8Ae1WfwlYeadM,1384
+turnsole/encodings.py,sha256=yIsBVii_b2KOXriLR_a_0SvdIWDGyWp4WRIYjgQx6mk,3212
+turnsole/model.py,sha256=ZU30oFeFEsdeK67CIk-uWtbPY4m3ZWsiX9tUeSIspXM,5606
+turnsole/paths.py,sha256=Ss-TdIEyXChShtzX7rnSh22eSmc4DZAKkoFEF2lAVT4,1465
+turnsole/pdf_tools.py,sha256=x6Ya6YfavxxKJTbg9BrSjxQYP5D_3gVkWgWQ9S10GSA,2288
+turnsole/pdf_toos.py,sha256=zX2wCLMAXPJHgIdCbNH78mc1xbmhADNm4S2ZWKd4z0A,2979
+turnsole/face_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turnsole/face_utils/agedetector.py,sha256=jk3GGP8phI57FuelEljdax6t5ZcOEh8GORGgaHDC3WY,1872
+turnsole/face_utils/facedetector.py,sha256=oxpd5KMm_iD8JuHOs5HUlxxRLVfLSXvQg7rFmxyMjxQ,11009
+turnsole/nets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turnsole/nets/efficientnet.py,sha256=NhqxneRfizd12umgIck11KSrjsNl-EEhcICsTqdORcw,24248
+turnsole-0.0.15.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+turnsole-0.0.15.dist-info/METADATA,sha256=AdtLQ8BkSOJq-SNSv2jb4kmO9UvAI0QPO_bIr2QPMTs,704
+turnsole-0.0.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+turnsole-0.0.15.dist-info/top_level.txt,sha256=4MLbSi6lUbPZsThRXt-EYlEEZplxBVJTsF_NN_OgdLE,9
+turnsole-0.0.15.dist-info/RECORD,,
