@@ -1,0 +1,3 @@
+[console_scripts]
+playwithmpv = playwithmpv.server:main
+

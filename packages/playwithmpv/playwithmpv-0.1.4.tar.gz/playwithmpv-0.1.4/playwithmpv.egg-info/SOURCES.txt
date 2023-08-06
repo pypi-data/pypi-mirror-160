@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+playwithmpv/__init__.py
+playwithmpv/__main__.py
+playwithmpv/__version__.py
+playwithmpv/server.py
+playwithmpv.egg-info/PKG-INFO
+playwithmpv.egg-info/SOURCES.txt
+playwithmpv.egg-info/dependency_links.txt
+playwithmpv.egg-info/entry_points.txt
+playwithmpv.egg-info/requires.txt
+playwithmpv.egg-info/top_level.txt
