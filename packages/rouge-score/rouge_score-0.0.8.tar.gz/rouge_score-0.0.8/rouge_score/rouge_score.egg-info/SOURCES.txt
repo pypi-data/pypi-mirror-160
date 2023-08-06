@@ -1,0 +1,7 @@
+README.md
+setup.py
+rouge_score/rouge_score.egg-info/PKG-INFO
+rouge_score/rouge_score.egg-info/SOURCES.txt
+rouge_score/rouge_score.egg-info/dependency_links.txt
+rouge_score/rouge_score.egg-info/requires.txt
+rouge_score/rouge_score.egg-info/top_level.txt
