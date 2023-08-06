@@ -1,0 +1,6 @@
+[console_scripts]
+cq2vasp = AtomicAI.tools.cq2vasp:cq2vasp
+plt_md_stats = AtomicAI.tools.plt_md_stats:plt_md_stats
+rdf = AtomicAI.tools.rdf:RDF
+vasp2cif = AtomicAI.tools.vasp2cif:vasp2cif
+vasp2cq = AtomicAI.tools.vasp2cq:vasp2cq
