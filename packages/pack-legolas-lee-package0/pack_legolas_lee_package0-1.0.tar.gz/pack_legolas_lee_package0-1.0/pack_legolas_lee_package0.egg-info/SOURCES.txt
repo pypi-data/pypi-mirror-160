@@ -1,0 +1,7 @@
+setup.py
+pack_legolas_lee_package0/__init__.py
+pack_legolas_lee_package0/my_funcs.py
+pack_legolas_lee_package0.egg-info/PKG-INFO
+pack_legolas_lee_package0.egg-info/SOURCES.txt
+pack_legolas_lee_package0.egg-info/dependency_links.txt
+pack_legolas_lee_package0.egg-info/top_level.txt
