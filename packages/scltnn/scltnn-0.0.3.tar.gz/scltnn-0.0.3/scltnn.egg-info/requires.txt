@@ -1,0 +1,4 @@
+scanpy==1.9.1
+scglue
+keras==2.8.0
+distfit
