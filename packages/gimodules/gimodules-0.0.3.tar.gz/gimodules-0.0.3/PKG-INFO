@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gimodules
+Version: 0.0.3
+Summary: Python package to deliver a Gantner cloud interface
+Author: gimodules devs
+Author-email: 
+Keywords: python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# gimodules-python
+
+## Information on how to distribute this package can be found here
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+
+## tests
+
+run tests locally:
+
+$ `pipenv run test -v` 
+
+or 
+
+$ `pytest`
