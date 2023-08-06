@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: certbot-aws-store
+Version: 0.1.0
+Summary: Generate Let's Encrypt certificates and store into AWS
+Keywords: compose-x,aws,certbot,ACME
+Author: John Preston
+Author-email: john@ews-network.net
+Maintainer: John Preston
+Maintainer-email: john@ews-network.net
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Requires-Dist: certbot (>=1.29.0,<2.0.0)
+Requires-Dist: certbot-route53 (>=0.2.0,<0.3.0)
+Requires-Dist: compose-x-common (>=1.0.4,<2.0.0)
+Requires-Dist: pyOpenSSL (>=22.0.0,<23.0.0)
+Requires-Dist: pynamodb (>=5.2.1,<6.0.0)
