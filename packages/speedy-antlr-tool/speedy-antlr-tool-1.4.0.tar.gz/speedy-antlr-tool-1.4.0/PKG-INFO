@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: speedy-antlr-tool
+Version: 1.4.0
+Summary: Generate an accelerator extension that makes your Antlr parser in Python super-fast!
+Home-page: https://github.com/amykyta3/speedy-antlr-tool
+Author: Alex Mykyta
+Author-email: amykyta3@github.com
+License: UNKNOWN
+Project-URL: Documentation, http://speedy-antlr-tool.readthedocs.io
+Project-URL: Source, https://github.com/amykyta3/speedy-antlr-tool
+Project-URL: Tracker, https://github.com/amykyta3/speedy-antlr-tool/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Software Development :: Code Generators
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Documentation Status](https://readthedocs.org/projects/speedy-antlr-tool/badge/?version=latest)](http://speedy-antlr-tool.readthedocs.io)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/speedy-antlr-tool.svg)](https://pypi.org/project/speedy-antlr-tool)
+
+# Speedy Antlr Tool
+
+Running an Antlr parser in Python is slow.
+
+This tool generates a Python extension that runs your parser using Antlr's C++
+target, and then translates the parsed tree back into Python.
+
+See the [Speedy Antlr Tool Documentation](http://speedy-antlr-tool.readthedocs.io) for more details
+
+
