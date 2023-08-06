@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: aio-crystal-pay
+Version: 1.0.1
+Author: alteralt
+Project-URL: Source, https://github.com/alteralt/aio_crystal_pay
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (>=3.6.0)
+
+# aio_crystal_pay
+
+[![Build Status](https://travis-ci.com/alteralt/aio_crystal_pay.svg?branch=master)](https://travis-ci.com/alteralt/aio_crystal_pay)
+
+Установка 
+```sh
+pip install aio_crystal_pay
+```
