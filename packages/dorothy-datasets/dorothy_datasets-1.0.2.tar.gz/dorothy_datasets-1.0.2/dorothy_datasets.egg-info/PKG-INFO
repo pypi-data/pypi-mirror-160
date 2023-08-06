@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dorothy-datasets
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/bric-tb-softwares/dorothy_datasets
+Author: João Victor da Fonseca Pinto
+Author-email: jodafons@lps.ufrj.br,jodafons@cern.ch
+License: GPL-3.0
+Keywords: framework,threading,shared resources,flexibility,python,online
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
