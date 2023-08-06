@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+easyx/__init__.py
+easyx/easyX.py
+easyx.egg-info/PKG-INFO
+easyx.egg-info/SOURCES.txt
+easyx.egg-info/dependency_links.txt
+easyx.egg-info/requires.txt
+easyx.egg-info/top_level.txt
