@@ -1,0 +1,5 @@
+napari>=0.4.15
+napari-plugin-engine>=0.1.4
+scikit-image>=0.19
+empanada-dl>=0.1.5
+imagecodecs
