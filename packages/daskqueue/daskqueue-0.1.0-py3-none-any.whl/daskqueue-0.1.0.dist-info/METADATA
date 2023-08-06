@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: daskqueue
+Version: 0.1.0
+Summary: daskqueue distributed queue package
+Author: Amine Dirhoussi
+License: MIT
+Keywords: Distributed Task Queue
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: dask (>=2022.7.1)
+Requires-Dist: distributed (>=2022.7.1)
+
+daskqueue distributed queue package
