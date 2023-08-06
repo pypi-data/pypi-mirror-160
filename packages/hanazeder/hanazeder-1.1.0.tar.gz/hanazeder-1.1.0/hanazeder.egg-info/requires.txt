@@ -1,0 +1,9 @@
+crccheck
+pyserial
+
+[dev]
+pytest
+bumpver
+build
+twine
+pytest-mock
