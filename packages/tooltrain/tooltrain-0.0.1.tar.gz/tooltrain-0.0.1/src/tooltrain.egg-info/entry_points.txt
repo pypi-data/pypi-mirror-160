@@ -1,0 +1,2 @@
+[console_scripts]
+tooltrain = tooltrain.__main__:main

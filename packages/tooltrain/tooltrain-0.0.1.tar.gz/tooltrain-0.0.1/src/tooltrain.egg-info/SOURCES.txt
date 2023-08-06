@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/tooltrain.egg-info/PKG-INFO
+src/tooltrain.egg-info/SOURCES.txt
+src/tooltrain.egg-info/dependency_links.txt
+src/tooltrain.egg-info/entry_points.txt
+src/tooltrain.egg-info/requires.txt
+src/tooltrain.egg-info/top_level.txt
