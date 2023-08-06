@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: firebase-rest-api
+Version: 0.4.7
+Summary: A simple python wrapper for Google's Firebase REST API's.
+Keywords: firebase,firebase-auth,firebase-database,firebase-realtime-database,firebase-storage
+Author-email: Asif Arman Rahman <AsifArmanRahman@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: gcloud>=0.18.3
+Requires-Dist: oauth2client>=4.1.3
+Requires-Dist: python_jwt>=3.3.2
+Requires-Dist: requests>=2.27.1
+Requires-Dist: six>=1.16.0
+Requires-Dist: Sphinx>=5.0.2 ; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=1.0.0 ; extra == "docs"
+Requires-Dist: sphinx_design>=0.2.0 ; extra == "docs"
+Requires-Dist: toml>=0.10.2 ; extra == "docs"
+Project-URL: Documentation, https://firebase-rest-api.readthedocs.io/
+Project-URL: Source, https://github.com/AsifArmanRahman/firebase-rest-api
+Provides-Extra: docs
+
+# Firebase REST API
+
+[![build](https://github.com/AsifArmanRahman/firebase-rest-api/actions/workflows/build.yml/badge.svg)](https://github.com/AsifArmanRahman/firebase-rest-api/actions/workflows/build.yml)
+[![tests](https://github.com/AsifArmanRahman/firebase-rest-api/actions/workflows/tests.yml/badge.svg)](https://github.com/AsifArmanRahman/firebase-rest-api/actions/workflows/tests.yml)
+[![Documentation Status](https://readthedocs.org/projects/firebase-rest-api/badge/?version=latest)](https://firebase-rest-api.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/AsifArmanRahman/firebase-rest-api/branch/main/graph/badge.svg?token=N7TE1WVZ7W)](https://codecov.io/gh/AsifArmanRahman/firebase-rest-api)
+
+
+A simple python wrapper for [Google's Firebase REST API's](https://firebase.google.com).
+
+## Installation
+
+```python
+pip install firebase-rest-api
+```
+
+
+## Quick Start
+
+In order to use this library, you first need to go through the following steps:
+
+1. Select or create a Firebase project from [Firebase](https://console.firebase.google.com) Console.
+
+2. Register an Web App.
+
+
+### Example Usage
+
+```python
+# Import Firebase REST API library
+import firebase
+
+# Firebase configuration
+config = {
+   "apiKey": "apiKey",
+   "authDomain": "projectId.firebaseapp.com",
+   "databaseURL": "https://databaseName.firebaseio.com",
+   "projectId": "projectId",
+   "storageBucket": "projectId.appspot.com",
+   "messagingSenderId": "messagingSenderId",
+   "appId": "appId"
+}
+
+# Instantiates a Firebase app
+app = firebase.initialize_app(config)
+
+
+# Firebase Authentication
+auth = app.auth()
+
+# Create new user and sign in
+auth.create_user_with_email_and_password(email, password)
+user = auth.sign_in_with_email_and_password(email, password)
+
+
+# Firebase Realtime Database
+db = app.database()
+
+# Data to save in database
+data = {
+   "name": "Robert Downey Jr.",
+   "email": user.get('email')
+}
+
+# Store data to Firebase Database
+db.child("users").push(data, user.get('idToken'))
+
+
+# Firebase Storage
+storage = app.storage()
+
+# File to store in storage
+file_path = 'static/img/example.png'
+
+# Store file to Firebase Storage
+storage.child(user.get('email')).child('uploaded-picture.png').put(file_path, user.get('idToken'))
+```
+
