@@ -1,0 +1,4 @@
+[console_scripts]
+pixie16-binary-browser = pixie16.cli.binary_browser:main
+pixie16-coincidence = pixie16.cli.coincidence:main
+pixie16-parameter-scan = pixie16.cli.parameter_scan:main
