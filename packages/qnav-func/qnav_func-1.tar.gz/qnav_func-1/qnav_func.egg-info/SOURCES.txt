@@ -1,0 +1,6 @@
+LICENSE
+pyproject.toml
+qnav_func.egg-info/PKG-INFO
+qnav_func.egg-info/SOURCES.txt
+qnav_func.egg-info/dependency_links.txt
+qnav_func.egg-info/top_level.txt

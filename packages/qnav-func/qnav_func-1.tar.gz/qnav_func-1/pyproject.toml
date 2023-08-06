@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "python-util"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qnav_func"
+version = "1"
+authors = [
+  { name="Wuse Tech Author", email="wusetech001@gmail.com" },
+]
+description = "A python package for quick access/navigating most of the used fuctions."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+#none
