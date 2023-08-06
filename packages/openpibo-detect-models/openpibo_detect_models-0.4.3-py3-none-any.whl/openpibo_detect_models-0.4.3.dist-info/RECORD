@@ -1,0 +1,8 @@
+openpibo_detect_models/__init__.py,sha256=Ml8hTNkIQ48prZSkj0DoAHpeAaLn3F2bXurJiejSc34,151
+openpibo_detect_models/models/frozen_inference_graph.pb,sha256=Ko2KidaVhC5g2MbRRBgRAFVVY-Iazy-h6PVh_sXDxq0,69688296
+openpibo_detect_models/models/movenet_lightning.tflite,sha256=D6wiJhEtA3GQPKhuOFPOwk72A6Cy-W9YmxgPDr3RNas,4758512
+openpibo_detect_models/models/ssd_mobilenet_v2_coco_2018_03_29.pbtxt,sha256=r3LamYhmKJxHAhyk30R5UVZKeH8Ah0tZYyU3VGuR_FQ,109740
+openpibo_detect_models-0.4.3.dist-info/METADATA,sha256=afpxTQ7Acy4eTdKOxlE0qPpxavdwd9a2a3GY4JQuW_U,782
+openpibo_detect_models-0.4.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+openpibo_detect_models-0.4.3.dist-info/top_level.txt,sha256=ZzhIDt1HzNJxq-eyffYHkf6Jk1EnOB5LD5gX2FDFBB4,23
+openpibo_detect_models-0.4.3.dist-info/RECORD,,
