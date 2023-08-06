@@ -1,0 +1,9 @@
+pyfastaq>=3.17.0
+pyyaml
+numpy
+tqdm
+pandas
+gumpy>=1.0.2
+requests
+pytest
+pytest-cov
