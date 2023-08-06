@@ -1,0 +1,2 @@
+[console_scripts]
+gs-meta = gs_meta.cli:cli
