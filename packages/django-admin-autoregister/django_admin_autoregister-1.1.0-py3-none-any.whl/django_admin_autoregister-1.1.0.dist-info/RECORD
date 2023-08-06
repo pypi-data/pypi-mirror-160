@@ -1,0 +1,10 @@
+admin_autoregister/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+admin_autoregister/admin.py,sha256=oPu0JwkCaGdD2Ks8HPTKy3ALO9sKWucmCK6p9tA48MY,1992
+admin_autoregister/apps.py,sha256=zhpsZ7-xafA44_nU-vSNEV6YKY38euMamibd4SACS_4,110
+admin_autoregister/mixins.py,sha256=51jaGK2ZnYwhMlpv2P43NNoqaCgqbBSqYSMngc2sahY,2152
+admin_autoregister/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_autoregister-1.1.0.dist-info/LICENSE,sha256=yZT4Yoz03O3pDNkuAkZJHL57oSQ_shM1kfaTgVRaGrs,1069
+django_admin_autoregister-1.1.0.dist-info/METADATA,sha256=p8CLIhRQ_6OACgYOgI5T9_MSIPx4PZk-7xSr3Wccpnw,3557
+django_admin_autoregister-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_admin_autoregister-1.1.0.dist-info/top_level.txt,sha256=-Ym9j7GlguS--pnjWUUqA0hLADcA1nm0Iejc3sm1ISU,19
+django_admin_autoregister-1.1.0.dist-info/RECORD,,
