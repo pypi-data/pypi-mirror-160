@@ -1,0 +1,87 @@
+[project]
+name = "cerbos"
+description = "SDK for working with Cerbos: an open core, language-agnostic, scalable authorization solution"
+readme = "README.md"
+authors = [
+    { name = "Cerbos Developers", email = "sdk+python@cerbos.dev" },
+]
+license-expression = "Apache-2.0"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "dataclasses-json>=0.5.7",
+    "requests-toolbelt>=0.9.1",
+    "testcontainers>=3.5.3",
+    "httpx[http2]>=0.22.0",
+    "anyio>=3.6.1",
+]
+requires-python = ">=3.8"
+dynamic = []
+version = "0.4.0"
+
+[project.urls]
+Homepage = "https://cerbos.dev"
+
+[project.optional-dependencies]
+
+[tool.pdm.version]
+use_scm = true
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "black>=22.3.0",
+    "isort>=5.10.1",
+]
+test = [
+    "pytest>=7.1.1",
+]
+tools = [
+    "unasync>=0.5.0",
+    "setuptools>=63.2.0",
+]
+
+[tool.pdm.scripts.pre_build]
+cmd = "python utils/gen_unasync.py"
+
+[tool.pdm.scripts.pre_test]
+cmd = "python utils/gen_unasync.py"
+
+[tool.pyprojectx]
+pdm = "pdm"
+black = "black"
+isort = "isort"
+twine = "twine"
+
+[tool.pyprojectx.aliases]
+generate = "pdm run python utils/gen_unasync.py"
+install = "pdm install"
+run = "pdm run"
+outdated = "pdm update --outdated"
+pytest = "pdm run pytest tests"
+test = "pw@generate && pw@pytest"
+isort = "isort cerbos tests"
+black = "black cerbos tests"
+format = "pw@isort && pw@black"
+test_upload = "twine upload -r testpypi dist/*"
+
+[tool.pyright]
+extraPaths = [
+    "__pypackages__/3.10/lib/",
+]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
