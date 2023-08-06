@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ponytail/__init__.py
+src/ponytail.egg-info/PKG-INFO
+src/ponytail.egg-info/SOURCES.txt
+src/ponytail.egg-info/dependency_links.txt
+src/ponytail.egg-info/top_level.txt
