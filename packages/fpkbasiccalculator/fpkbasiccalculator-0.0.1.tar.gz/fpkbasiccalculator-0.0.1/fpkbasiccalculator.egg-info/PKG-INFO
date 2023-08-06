@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: fpkbasiccalculator
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Md Faisal Alam
+Author-email: faisalgbox@gmail.com
+License: MIT
+Description: This is vary basic calculator package which is takes two numbers and calculate with add, substract, multiply or divide them.
+        
+        Change Log
+        ===========
+        
+        version 0.0.1 (24-07-2022)
+        --------------------------
+        - First Release
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
