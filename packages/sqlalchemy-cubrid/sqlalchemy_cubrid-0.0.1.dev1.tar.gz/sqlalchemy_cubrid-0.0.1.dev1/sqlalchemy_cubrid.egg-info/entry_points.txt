@@ -1,0 +1,2 @@
+[sqlalchemy.dialects]
+cubrid = sqlalchemy_cubrid.dialect:CubridDialect
