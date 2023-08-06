@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+config.ini
+pyproject.toml
+setup.cfg
+setup.py
+src/monkeypaint/__init__.py
+src/monkeypaint/__main__.py
+src/monkeypaint/colorapi.py
+src/monkeypaint/py.typed
+src/monkeypaint.egg-info/PKG-INFO
+src/monkeypaint.egg-info/SOURCES.txt
+src/monkeypaint.egg-info/dependency_links.txt
+src/monkeypaint.egg-info/entry_points.txt
+src/monkeypaint.egg-info/requires.txt
+src/monkeypaint.egg-info/top_level.txt
