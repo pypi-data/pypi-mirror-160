@@ -1,0 +1,5 @@
+setup.py
+cvit.egg-info/PKG-INFO
+cvit.egg-info/SOURCES.txt
+cvit.egg-info/dependency_links.txt
+cvit.egg-info/top_level.txt
