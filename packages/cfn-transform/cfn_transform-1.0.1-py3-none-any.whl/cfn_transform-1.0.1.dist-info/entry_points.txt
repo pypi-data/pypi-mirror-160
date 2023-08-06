@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        cfn-transform=transformation:cli
+    
