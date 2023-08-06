@@ -1,0 +1,8 @@
+torchcuts/__init__.py,sha256=8eMgK6xPGV4TY_T-XlkAUVTFXq-2l4aL_qbOpJveZFI,270
+torchcuts/_filter.py,sha256=swhmYyuAoWn--yDRrnI11ejsAVFgl4CgFT5POMOGf1w,2287
+torchcuts/_tcuts.py,sha256=61UIe0aLhwRacuB7tp7EItDgm9pmeQ_iREJHRmor9jw,11681
+torchcuts-0.0.4.dist-info/LICENSE,sha256=AnpQdXBT4dzyaHeFiOzF71jyjPbYzUCXTw-WnMQBO18,1324
+torchcuts-0.0.4.dist-info/METADATA,sha256=-AMpCw_yuT2wh3oKEEAX1XHML0g-3Q7ss5vjGnqKz60,3040
+torchcuts-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torchcuts-0.0.4.dist-info/top_level.txt,sha256=KNu1LMuIJQJPMG8MHWa5LLQBZpDbVEjGprbzqjCrpfk,10
+torchcuts-0.0.4.dist-info/RECORD,,
