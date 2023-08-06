@@ -1,0 +1,3 @@
+[console_scripts]
+iproute = windnet.iproute:main
+

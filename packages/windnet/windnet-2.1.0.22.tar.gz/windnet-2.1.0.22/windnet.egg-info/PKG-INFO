@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: windnet
+Version: 2.1.0.22
+Summary: windnet
+Home-page: http://www.bing.com
+Author: heguofeng
+Author-email: heguofeng@189.cn
+License: UNKNOWN
+Keywords: windnet
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >3
+Description-Content-Type: text/markdown
+
+ # 网络工具
+
+## 背景
+ 
+  
+
+
+
+# 主要功能：
+
+1. 消息引擎
+
+
+2. 简单路由和DHCP
+
+
+
+# Installation and Dependencies
+
+## 具备Python3 运行环境
+ 如果你已经在电脑上安装了python3，可以直接使用pip3 安装
+
+
+```
+pip3 install windnet
+```
+
+
+
+
+
+
+
+
+
+
+
+## 反馈
+有使用上问题，请发送邮件给 gonewind08@qq.com 
+
+
+## 版本更新记录
+
+1.  2022/05/24/  
+    1.  Ver 1.0.0 发布
+    2.  
+
+
+
