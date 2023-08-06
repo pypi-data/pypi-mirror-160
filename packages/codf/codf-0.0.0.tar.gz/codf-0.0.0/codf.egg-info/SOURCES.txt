@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+codf/__init__.py
+codf.egg-info/PKG-INFO
+codf.egg-info/SOURCES.txt
+codf.egg-info/dependency_links.txt
+codf.egg-info/top_level.txt
