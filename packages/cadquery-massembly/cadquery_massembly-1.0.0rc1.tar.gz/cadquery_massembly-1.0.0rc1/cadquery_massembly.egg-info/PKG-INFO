@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cadquery-massembly
+Version: 1.0.0rc1
+Summary: A manual assembly system for cadquery based on mates
+Home-page: https://github.com/bernhard-42/cadquery-massembly
+Author: Bernhard Walter
+Author-email: b_walter@arcor.de
+License: UNKNOWN
+Keywords: cadquery
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+UNKNOWN
+

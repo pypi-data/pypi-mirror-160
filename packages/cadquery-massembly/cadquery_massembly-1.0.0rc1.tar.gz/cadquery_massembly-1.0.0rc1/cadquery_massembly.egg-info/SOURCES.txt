@@ -1,0 +1,14 @@
+LICENSE
+setup.cfg
+setup.py
+cadquery_massembly/__init__.py
+cadquery_massembly/_version.py
+cadquery_massembly/cq_editor.py
+cadquery_massembly/geom.py
+cadquery_massembly/massembly.py
+cadquery_massembly/mate.py
+cadquery_massembly.egg-info/PKG-INFO
+cadquery_massembly.egg-info/SOURCES.txt
+cadquery_massembly.egg-info/dependency_links.txt
+cadquery_massembly.egg-info/not-zip-safe
+cadquery_massembly.egg-info/top_level.txt
