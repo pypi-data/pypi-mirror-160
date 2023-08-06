@@ -1,0 +1,7 @@
+README.md
+setup.py
+openKMA.egg-info/PKG-INFO
+openKMA.egg-info/SOURCES.txt
+openKMA.egg-info/dependency_links.txt
+openKMA.egg-info/requires.txt
+openKMA.egg-info/top_level.txt
