@@ -1,0 +1,12 @@
+dbrecord/__init__.py,sha256=CecZb3iIGiFTMuLcebFyj_yl4daoahTsklXpg19RrNE,252
+dbrecord/interface.py,sha256=pD7cM4Lhi3QSaVfzkDY9P4YrfxP7YQOm0Mu6fRpxIHw,8533
+dbrecord/pdict.py,sha256=HVhU8feG5ODGJSDWaepp3dXYO4RAe_JFuXXDXvwWclE,2081
+dbrecord/plist.py,sha256=SHRE9U5NFPvHLkzqrAWe1WkDfEypsjdIL4Lycx1ape8,1876
+dbrecord/serilize_backend.py,sha256=1zy6TKBwL7GddEXFX6KS6WQ3PaP7gbmP-e6mXqVrbs4,592
+dbrecord/summary.py,sha256=SIbBPzxTog9EJeMp9qmXR7Z59YkH9kyiamnHRlyK5KA,3913
+dbrecord/utils.py,sha256=Uh1df3McIh3OknyotAo3yE0fKOSCqOmQa8eG88QtbZ0,2002
+dbrecord-1.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dbrecord-1.1.4.dist-info/METADATA,sha256=x8v-bPtB6iKXy99PuSbOoV2rl_ssNgzgZ8nodI3SzdY,325
+dbrecord-1.1.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+dbrecord-1.1.4.dist-info/top_level.txt,sha256=B2vfwWsLbJTgxIgcCgaUhRALr6f5O9COEkx9guE0b4M,9
+dbrecord-1.1.4.dist-info/RECORD,,
