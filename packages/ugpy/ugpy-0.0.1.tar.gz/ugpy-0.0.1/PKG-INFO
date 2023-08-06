@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ugpy
+Version: 0.0.1
+Summary: pythonic undergrad
+Home-page: https://github.com/LemonJust/ugpy
+Author: Anna Nadtochiy
+Author-email: nadtochi@usc.edu
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# UGPy : Pythonic UnderGraduate
+A bunch of code meant to automate the analysis of the synaptic changes due to memory formation in zebrafish and make us independent of the free labor of the undergads... and switch to the free labor of the AI. Now that I wrote it down.. why bother? >_<
+<p align="center">
+  <img src="img/cover.JPG" alt="cover" width="300"/>
+</p>
+
+## Installation
+
+There's nothing yet to use. But if you really-really want to , you can use the package manager [pip](https://pip.pypa.io/en/stable/) to install ugpy.
+
+```bash
+pip install ugpy
+```
+
+## Usage
+
+Please see notebooks/examples on [github](https://github.com/LemonJust/ugpy). I mean .. see them some time later, when I actually make them ...
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
