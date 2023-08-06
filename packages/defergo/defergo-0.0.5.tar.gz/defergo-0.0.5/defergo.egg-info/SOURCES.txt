@@ -1,0 +1,6 @@
+setup.py
+defergo/__init__.py
+defergo.egg-info/PKG-INFO
+defergo.egg-info/SOURCES.txt
+defergo.egg-info/dependency_links.txt
+defergo.egg-info/top_level.txt
