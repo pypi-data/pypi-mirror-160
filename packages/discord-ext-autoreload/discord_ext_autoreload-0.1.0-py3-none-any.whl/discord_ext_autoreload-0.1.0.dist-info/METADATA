@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: discord-ext-autoreload
+Version: 0.1.0
+Summary: A discord.py extension that allows automatic hot-reloading of extensions
+Home-page: https://github.com/nerdguyahmad/discord-ext-autoreload
+Author: nerdguyahmad
+License: MIT
+Requires-Python: >=3.5.3
+License-File: LICENSE
+Requires-Dist: discord.py (>=1.7)
+
