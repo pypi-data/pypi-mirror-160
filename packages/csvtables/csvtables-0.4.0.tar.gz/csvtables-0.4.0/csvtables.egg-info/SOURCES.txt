@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+csvtables/__init__.py
+csvtables/csvtables.py
+csvtables.egg-info/PKG-INFO
+csvtables.egg-info/SOURCES.txt
+csvtables.egg-info/dependency_links.txt
+csvtables.egg-info/entry_points.txt
+csvtables.egg-info/top_level.txt
