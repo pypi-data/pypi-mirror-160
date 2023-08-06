@@ -1,0 +1,7 @@
+ipyvizzu
+
+[jupyter]
+IPython
+
+[streamlit]
+streamlit
