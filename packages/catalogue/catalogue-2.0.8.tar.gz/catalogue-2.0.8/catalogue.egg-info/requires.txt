@@ -1,0 +1,4 @@
+
+[:python_version < "3.8"]
+zipp>=0.5
+typing-extensions>=3.6.4

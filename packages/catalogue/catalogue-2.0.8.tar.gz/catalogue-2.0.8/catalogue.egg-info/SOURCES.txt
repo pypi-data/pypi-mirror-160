@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+catalogue/__init__.py
+catalogue.egg-info/PKG-INFO
+catalogue.egg-info/SOURCES.txt
+catalogue.egg-info/dependency_links.txt
+catalogue.egg-info/requires.txt
+catalogue.egg-info/top_level.txt
+catalogue.egg-info/zip-safe
+catalogue/_importlib_metadata/__init__.py
+catalogue/_importlib_metadata/_compat.py
+catalogue/tests/__init__.py
+catalogue/tests/test_catalogue.py
