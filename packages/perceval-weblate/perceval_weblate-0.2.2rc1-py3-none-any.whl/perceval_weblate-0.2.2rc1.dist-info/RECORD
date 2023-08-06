@@ -1,0 +1,7 @@
+perceval/backends/weblate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+perceval/backends/weblate/_version.py,sha256=SSdLhPC2QwkrDJuSty39wDBlW0yau8Usvb-2ueVWOqM,91
+perceval/backends/weblate/weblate.py,sha256=XIerSb482T3UDoit3Gygxwgzq4MtTK9FDqCeggbqk50,14043
+perceval_weblate-0.2.2rc1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+perceval_weblate-0.2.2rc1.dist-info/WHEEL,sha256=Jaj29f-PvHzZb5kImTcJS9QszpaO6CVzAqOolIz_WEw,90
+perceval_weblate-0.2.2rc1.dist-info/METADATA,sha256=EAuTwkl9d7dyuxCbX4RjZEkWPtq9gJxcNerQ_8f2f_o,3169
+perceval_weblate-0.2.2rc1.dist-info/RECORD,,
