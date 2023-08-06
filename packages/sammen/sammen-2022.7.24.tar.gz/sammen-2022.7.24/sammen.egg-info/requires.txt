@@ -1,0 +1,10 @@
+watchfiles>=0.16.0
+
+[dev]
+black
+coverage
+flake8
+mypy
+pytest
+pytest-cov
+pytest-flake8
