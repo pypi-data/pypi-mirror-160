@@ -1,0 +1,10 @@
+README.md
+setup.py
+mongudb/__init__.py
+mongudb/functions.py
+mongudb/sql.py
+mongudb.egg-info/PKG-INFO
+mongudb.egg-info/SOURCES.txt
+mongudb.egg-info/dependency_links.txt
+mongudb.egg-info/requires.txt
+mongudb.egg-info/top_level.txt
