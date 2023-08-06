@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+pypibatch/__init__.py
+pypibatch/__version__.py
+pypibatch/main.py
+pypibatch/py.typed
+pypibatch.egg-info/PKG-INFO
+pypibatch.egg-info/SOURCES.txt
+pypibatch.egg-info/dependency_links.txt
+pypibatch.egg-info/not-zip-safe
+pypibatch.egg-info/requires.txt
+pypibatch.egg-info/top_level.txt
