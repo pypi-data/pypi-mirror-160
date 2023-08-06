@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ferne
+Version: 0.0.1
+Summary: Compose functions using the pipe operator.
+Home-page: https://github.com/oruwmztbnz4q/ferne
+Author: Tiffany
+Author-email: oruwmztbnz4q@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: license.txt
+
