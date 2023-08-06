@@ -1,0 +1,4 @@
+[console_scripts]
+chunkadelic = shazbot.chunkadelic:main
+train_audio_algebra = shazbot.train_audio_algebra:main
+

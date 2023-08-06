@@ -1,0 +1,14 @@
+shazbot/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+shazbot/_nbdev.py,sha256=jxiDNRGVP71RBopPltO68B9S2Er27ZM0r-oYbvwn0sk,1663
+shazbot/blocks_utils.py,sha256=O1RKXfu385bSdr4zjd6hzxsz-C7jl85ke_htLAxse5g,5924
+shazbot/chunkadelic.py,sha256=RrJI9b63XrG49Yg2AmqbE9_Z_4-dBDFUMUKU_w-Ev2g,5802
+shazbot/core.py,sha256=wUe8zsrE1yp__zCq8j-M9SuoVNDMDPdRlFKE6x0jMcc,454
+shazbot/data.py,sha256=yXIc49CRwLiIVR5w0F2Y_f_XRkL1nYoaoCC0Hxwu_8A,105
+shazbot/train_audio_algebra.py,sha256=B8pvsCkMMsbZfvLJ0e4utwjN2w98MgCsxD7bBaOX7ro,4964
+shazbot/viz.py,sha256=GBCmIu_JikE-9p6ZPc-uyu234YySCRuW68YlccArHbw,4768
+shazbot-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+shazbot-0.0.1.dist-info/METADATA,sha256=PWcrdzl7b9jajjw1FhyvD3T52-8mDU9tTeI_ozpzDjk,1547
+shazbot-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shazbot-0.0.1.dist-info/entry_points.txt,sha256=r80GQY9YwJaut4D_JmdsEVD_n0xK6MRyos06mlsGkbg,113
+shazbot-0.0.1.dist-info/top_level.txt,sha256=eCC5c1Jd8zrKgEqqku5nOHZLfAIrMkthdrC3KENTBdM,8
+shazbot-0.0.1.dist-info/RECORD,,

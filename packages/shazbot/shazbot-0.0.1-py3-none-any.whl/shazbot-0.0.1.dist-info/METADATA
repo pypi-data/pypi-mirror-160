@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: shazbot
+Version: 0.0.1
+Summary: Sound Hierarchy Attribute Zeitgeist Before Oligarchy Take
+Home-page: https://github.com/drscotthawley/shazbot/tree/master/
+Author: Scott H. Hawley
+Author-email: scott.hawley@belmont.edu
+License: Apache Software License 2.0
+Keywords: MIR embeddings
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: accelerate
+Requires-Dist: audioread
+Requires-Dist: einops
+Requires-Dist: jukebox
+Requires-Dist: librosa (==0.9.1)
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: packaging
+Requires-Dist: pip
+Requires-Dist: prefigure
+Requires-Dist: resampy
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: wandb
+Provides-Extra: dev
+
+# shazbot
+> Sound Hierarchy Attribute Zeitgeist Before Oligarchy Take
+
+
+Work in progress. Do not try this.
+
+## Install
+
+```
+pip install git+https://github.com/drscotthawley/shazbot.git
+```
+(`pip install shazbot` won't work yet)
+
+## How to use
+
+Do Not attempt to use.
+
+
