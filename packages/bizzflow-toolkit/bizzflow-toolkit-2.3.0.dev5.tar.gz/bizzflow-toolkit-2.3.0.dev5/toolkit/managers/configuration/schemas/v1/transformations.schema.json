@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "type",
+      "source",
+      "id",
+      "out_kex"
+    ],
+    "properties": {
+      "component_source": {
+        "$ref": "_definitions.schema.json#/definitions/component_source"
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "sql",
+          "docker"
+        ]
+      },
+      "source": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "in_kex": {
+        "$ref": "#/definitions/in_kexes"
+      },
+      "input_kex": {
+        "$ref": "#/definitions/in_kexes"
+      },
+      "in_kexes": {
+        "$ref": "#/definitions/in_kexes"
+      },
+      "input_kexes": {
+        "type": [
+          "array",
+          "string"
+        ]
+      },
+      "out_kex": {
+        "type": "string"
+      },
+      "query_timeout": {
+        "type": "integer"
+      },
+      "transformation_service_account": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "pattern": "^tr[a-z\\d\\-]{3,27}[a-z\\d]$"
+      }
+    }
+  },
+  "definitions": {
+    "in_kexes": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "string"
+        }
+      ]
+    }
+  }
+}

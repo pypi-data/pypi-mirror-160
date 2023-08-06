@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "tasks"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "notify": {
+        "type": "boolean"
+      },
+      "schedule": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "tasks": {
+        "type": "array",
+        "items": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/base_task"
+            },
+            {
+              "$ref": "#/definitions/dummy_task"
+            },
+            {
+              "$ref": "#/definitions/sub_orchestration_task"
+            },
+            {
+              "$ref": "#/definitions/group_task"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "definitions": {
+    "base_task": {
+      "type": "object",
+      "required": [
+        "type",
+        "id"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "extractor",
+            "transformation",
+            "datamart",
+            "writer"
+          ]
+        },
+        "notify": {
+          "type": "boolean"
+        },
+        "id": {
+          "type": "string"
+        },
+        "continue_on_error": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "timeout": {
+          "type": "integer",
+          "minimum": -1
+        }
+      }
+    },
+    "dummy_task": {
+      "type": "object",
+      "required": [
+        "type",
+        "id"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "dummy"
+          ]
+        },
+        "notify": {
+          "type": "boolean"
+        },
+        "id": {
+          "type": "string"
+        },
+        "continue_on_error": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "success": {
+          "type": "boolean"
+        },
+        "duration": {
+          "type": "integer"
+        }
+      }
+    },
+    "sub_orchestration_task": {
+      "type": "object",
+      "required": [
+        "type",
+        "id",
+        "data_age"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "orchestration"
+          ]
+        },
+        "notify": {
+          "type": "boolean"
+        },
+        "id": {
+          "type": "string"
+        },
+        "continue_on_error": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "timeout": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": -1
+        },
+        "data_age": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "poke_interval": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 10
+        },
+        "dependency_mode": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "poke",
+            "reschedule"
+          ]
+        }
+      }
+    },
+    "group_task": {
+      "type": "object",
+      "required": [
+        "type",
+        "tasks"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "group"
+          ]
+        },
+        "tasks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/base_task"
+              },
+              {
+                "$ref": "#/definitions/dummy_task"
+              },
+              {
+                "$ref": "#/definitions/sub_orchestration_task"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

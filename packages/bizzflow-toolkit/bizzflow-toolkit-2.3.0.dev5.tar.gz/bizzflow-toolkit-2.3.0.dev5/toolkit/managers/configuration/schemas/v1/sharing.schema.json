@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "sources": {
+      "type": "object",
+      "minProperties": 1,
+      "patternProperties": {
+        "^.*$": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/azure_source"
+            }
+          ]
+        }
+      }
+    },
+    "destinations": {
+      "type": "object",
+      "patternProperties": {
+        "^.*$": {
+          "type": "object",
+          "properties": {
+            "tables": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "azure_source": {
+      "type": "object",
+      "required": ["hostname", "database", "username", "password"],
+      "properties": {
+        "hostname": {
+          "type": "string"
+        },
+        "database": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
+

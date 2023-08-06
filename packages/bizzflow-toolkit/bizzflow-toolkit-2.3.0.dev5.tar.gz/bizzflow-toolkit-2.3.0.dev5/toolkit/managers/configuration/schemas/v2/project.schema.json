@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "project_id",
+    "git_repository",
+    "worker_machine"
+  ],
+  "properties": {
+    "version": {
+      "type": "number"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "git_repository": {
+      "type": "string"
+    },
+    "storage": {
+      "type": "object",
+      "required": [
+        "backend"
+      ],
+      "oneOf": [
+        {
+          "required": [],
+          "properties": {
+            "backend": {
+              "type": "string",
+              "enum": [
+                "bigquery"
+              ]
+            },
+            "query_timeout": {
+              "type": "integer"
+            },
+            "dataset_location": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "required": [
+            "account",
+            "database",
+            "warehouse"
+          ],
+          "properties": {
+            "backend": {
+              "type": "string",
+              "enum": [
+                "snowflake"
+              ]
+            },
+            "account": {
+              "type": "string"
+            },
+            "database": {
+              "type": "string"
+            },
+            "warehouse": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "required": [
+            "host",
+            "database"
+          ],
+          "properties": {
+            "backend": {
+              "type": "string",
+              "enum": [
+                "azuresql"
+              ]
+            },
+            "host": {
+              "type": "string"
+            },
+            "database": {
+              "type": "string"
+            },
+            "port": {
+              "type": "integer"
+            }
+          }
+        }
+      ]
+    },
+    "file_storage": {
+      "type": "object",
+      "oneOf": [
+        {
+          "required": [
+            "type",
+            "live_bucket",
+            "archive_bucket"
+          ],
+          "properties": {
+            "platform": {
+              "type": "string",
+              "enum": [
+                "aws_s3",
+                "google_cloud_storage"
+              ]
+            },
+            "live_bucket": {
+              "type": "string"
+            },
+            "archive_bucket": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "required": [
+            "type",
+            "account_name",
+            "live_container",
+            "archive_container"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "azure_blob_storage"
+              ]
+            },
+            "account_name": {
+              "type": "string"
+            },
+            "live_container": {
+              "type": "string"
+            },
+            "archive_container": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "worker_machine": {
+      "type": "object",
+      "required": [
+        "platform",
+        "host",
+        "user",
+        "components_path",
+        "data_path",
+        "config_path"
+      ],
+      "properties": {
+        "host": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        },
+        "components_path": {
+          "type": "string"
+        },
+        "data_path": {
+          "type": "string"
+        },
+        "config_path": {
+          "type": "string"
+        },
+        "keep_running": {
+          "type": "boolean"
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "name",
+            "compute_zone"
+          ],
+          "properties": {
+            "platform": {
+              "type": "string",
+              "enum": [
+                "gcp"
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "compute_zone": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "required": [
+            "name",
+            "resource_group"
+          ],
+          "properties": {
+            "platform": {
+              "type": "string",
+              "enum": [
+                "azure"
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "resource_group": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "required": [
+            "id",
+            "region"
+          ],
+          "properties": {
+            "platform": {
+              "type": "string",
+              "enum": [
+                "aws"
+              ]
+            },
+            "id": {
+              "type": "string"
+            },
+            "region": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "notification_emails": {
+      "type": "array",
+      "itmes": {
+        "type": "string"
+      }
+    }
+  }
+}

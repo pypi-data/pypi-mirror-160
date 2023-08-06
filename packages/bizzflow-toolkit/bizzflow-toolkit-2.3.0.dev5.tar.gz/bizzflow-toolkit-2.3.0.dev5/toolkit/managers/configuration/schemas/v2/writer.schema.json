@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "config",
+    "source",
+    "input"
+  ],
+  "properties": {
+    "source": {
+      "$ref": "_definitions.schema.json#/definitions/docker_component_source"
+    },
+    "config": {
+      "type": "object"
+    },
+    "input": {
+      "type": "array"
+    }
+  }
+}
