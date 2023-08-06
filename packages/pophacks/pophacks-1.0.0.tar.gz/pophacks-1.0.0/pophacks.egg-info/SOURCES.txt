@@ -1,0 +1,9 @@
+README.rst
+setup.py
+./consts.py
+./monkeytype/__init__.py
+pophacks.egg-info/PKG-INFO
+pophacks.egg-info/SOURCES.txt
+pophacks.egg-info/dependency_links.txt
+pophacks.egg-info/top_level.txt
+scripts/pophacks

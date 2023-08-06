@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pophacks
+Version: 1.0.0
+Summary: A collection of fun hacks on popular culture
+Home-page: https://github.com/shreyass-ranganatha/pophacks.git
+Author: Shreyas Ranganatha
+Author-email: shreyass.ranganatha@gmail.com
+Maintainer: Shreyas Ranganatha
+Maintainer-email: shreyass.ranganatha@gmail.com
+Keywords: hack,popular
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Requires-Python: >=3.2
+
+Popular Hacks
+=============
+
+A collection of fun hacks on popular culture
