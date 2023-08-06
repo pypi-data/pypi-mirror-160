@@ -1,0 +1,14 @@
+bleak<1
+click<9
+
+[:python_version <= "3.6"]
+dataclasses
+
+[fake]
+
+[fake:python_version >= "3.7"]
+aiorate<2,>1
+
+[test]
+pytest<8
+pytest-cov<4
