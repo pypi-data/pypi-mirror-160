@@ -1,0 +1,4 @@
+starlette>=0.14.2
+apispec>4
+marshmallow>=3
+marshmallow-jsonapi>=0.24.0
