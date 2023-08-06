@@ -1,0 +1,2 @@
+[console_scripts]
+picSign = picsign.command_line:main
