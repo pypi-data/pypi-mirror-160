@@ -1,0 +1,7 @@
+numpy
+matplotlib
+trimesh[easy]
+pyglet
+tqdm
+pyyaml
+python-fcl
