@@ -1,0 +1,2 @@
+[prefect.collections]
+EmailServerCredentials = prefect_email.credentials
