@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hypothesis-ethereum
+Version: 0.0.1a5
+Summary: hypothesis-ethereum: Hypothesis library for ethereum projects.
+Home-page: https://github.com/fubuloubu/hypothesis-ethereum
+Author: hypothesis-ethereum-contributors
+Author-email: 
+License: MIT
+Description: UNKNOWN
+Keywords: ethereum
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6, <4
+Provides-Extra: test
+Provides-Extra: lint
+Provides-Extra: doc
+Provides-Extra: dev
