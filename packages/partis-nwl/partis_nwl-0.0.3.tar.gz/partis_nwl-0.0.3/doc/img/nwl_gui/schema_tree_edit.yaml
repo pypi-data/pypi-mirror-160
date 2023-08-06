@@ -1,0 +1,27 @@
+type: tool
+label: ''
+version:
+- 0
+- 1
+author:
+  name: ''
+  email: ''
+inputs:
+  first_input:
+    type: float
+    label: My label
+    doc: ''
+    visible: true
+    enabled: true
+    logs: []
+    default_val: 0.0
+commands: {}
+outputs:
+  new_union_prim:
+    type: bool
+    label: ''
+    doc: ''
+    enabled: true
+    logs: []
+prolog: []
+epilog: []

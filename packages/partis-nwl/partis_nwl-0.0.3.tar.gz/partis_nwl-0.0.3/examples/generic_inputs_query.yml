@@ -1,0 +1,18 @@
+# evaluate to a value stored in a YAML file
+out_file_name: $nwl+yaml:workdir/vars.yml?var=a_file_name
+a: false
+enable_it: true
+this_is_it:
+  # NOTE: Example to extract values from a the Dakota `input.js`
+  # where `x` is one of the Dakota optimization/iteration variables
+  x: $nwl+json:workdir/input.js?var=variables.x
+  # evaluate to a dakota iteration variable
+  y: 0.1
+# evaluate to an environment variable at runtime
+#coord_sys: $nwl:tool?var=runtime.env.COORD_SYS
+# evaluate to an output value from another tool
+list_input:
+  - $nwl:workdir/tmp/grep?var=data.outputs.matches.0
+  - type: second_option
+    nested_list:
+      - x: $nwl:workdir/tmp/module_example?var=data.outputs.error

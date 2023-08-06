@@ -1,0 +1,69 @@
+nwl: 1
+type: tool
+info:
+  label : Grep Example
+  doc : Interface to the grep command line interface
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+inputs:
+
+  invert_match :
+    type: bool
+    label: Invert Match
+    doc: Select non-matching lines
+    default_val: false
+
+  inclusion_mode :
+    type: string
+    label: Include filenames
+    doc: Include file name with output lines
+    selection: [ "default", "always", "never" ]
+    default_val: "default"
+
+  pattern:
+    type: string
+    label: Pattern
+    doc: Search for pattern in each file
+    default_val: ""
+
+  files:
+    type: list
+    label: "Input Files"
+    item:
+      type : file
+      label : Input File
+      content_types:
+        - text
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+outputs:
+
+  matches:
+    type : list
+    label: Main output
+    doc: File list of matches
+    item:
+      type: string
+      label: Match
+    # capture of cmd stdout
+    value: |-
+      $func:py
+
+      with open( _.data.commands.run_grep.stdout.path, 'r' ) as fp:
+        return [ l.rstrip('\n') for l in fp.readlines() ]
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+commands:
+  run_grep:
+    type: process
+    label: Run Grep
+    args:
+      - grep
+      - value: -v
+        enabled: $expr:py _.data.inputs.invert_match
+      - value: -H
+        enabled: $expr:py _.data.inputs.inclusion_mode == "always"
+      - value: -h
+        enabled: $expr:py _.data.inputs.inclusion_mode == "never"
+      - $expr:py _.data.inputs.pattern
+      - $expr:py [ f.path for f in _.data.inputs.files ]

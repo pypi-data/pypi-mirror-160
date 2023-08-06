@@ -1,0 +1,44 @@
+type: test_suite
+doc: An example test suite
+tests:
+  an_example_test:
+    type: test
+    tool: generic.yml
+    doc: An example test
+    inputs:
+      out_file_name:
+        path: out.txt
+      a: false
+      enable_it: true
+      this_is_it:
+        x: 3
+        y: 0.1
+      coord_sys: xyz
+      list_input: []
+
+    outputs:
+      rendered:
+        path: out.txt
+      parsed_output: 10
+
+    rfiles:
+      - path: out.txt
+        size: 65
+        checksum: sha1$f1c59a2ded3fe055d8fe8826f7fa2d66ad068557
+        content_mode: text
+        contents: |-
+          This was made by the template...
+
+
+          It's going to do the thing.
+
+          3
+
+    logs:
+      - level: info
+        enabled: $expr:py _.data.outputs.parsed_output == 10
+        msg: The output is correct, but no need to say this.
+
+      - level: error
+        enabled: $expr:py _.data.outputs.parsed_output != 10
+        msg: The output should have been 10, but also checked above in `outputs`

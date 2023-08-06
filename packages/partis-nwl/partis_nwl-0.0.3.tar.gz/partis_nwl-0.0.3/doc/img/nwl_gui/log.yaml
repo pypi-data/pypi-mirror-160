@@ -1,0 +1,24 @@
+type: tool
+label: ''
+version:
+- 0
+- 1
+author:
+  name: ''
+  email: ''
+inputs:
+  new_union_prim:
+    type: bool
+    label: ''
+    doc: ''
+    visible: true
+    enabled: true
+    logs:
+    - level: ERROR
+      msg: '$expr:pyf"The value must be even: {_.self}"'
+      enabled: $expr:py_.self % 2 != 0
+    default_val: false
+commands: {}
+outputs: {}
+prolog: []
+epilog: []
