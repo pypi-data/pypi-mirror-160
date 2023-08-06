@@ -1,0 +1,3 @@
+[console_scripts]
+nossl = nossl.__init__:main
+

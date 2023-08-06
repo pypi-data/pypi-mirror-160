@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: nossl
+Version: 0.0.1.6
+Summary: Change default behavior of ssl and requests library
+Home-page: UNKNOWN
+Author: Sangwon Lee
+Author-email: lsw91.main@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# NOSSL
+
+It'a simple script that manipulates default behavior of `ssl` and `requests`.
+
+It modify following lines:
+
+`ssl.py`
+
+```
+'_create_default_https_context = create_default_context'
+```
+to
+```
+'_create_default_https_context = _create_unverified_context'
+```
+
+`requests/sessions.py`
+
+```
+'self.verify = True'
+```
+to
+```
+'self.verify = False'
+```
+
+## Usage
+
+Install `nossl`.
+```
+pip install nossl
+```
+
+And run the script.
+```
+nossl off
+```
+
+Yon can recover SSL also.
+```
+nossl on
+```
+
