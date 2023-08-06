@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: matialvarezs-handlers-easy
+Version: 0.1.65
+Summary: Easy handler functions
+Author: Matias Alvarez Sabate
+Author-email: matialvarezs@gmail.com
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=3.7, <4
+License-File: LICENSE.txt
