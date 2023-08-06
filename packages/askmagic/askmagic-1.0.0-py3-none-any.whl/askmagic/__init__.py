@@ -1,0 +1,1 @@
+from askmagic.ask import question
