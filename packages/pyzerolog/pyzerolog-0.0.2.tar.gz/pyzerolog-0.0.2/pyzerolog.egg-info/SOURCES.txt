@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyzerolog.egg-info/PKG-INFO
+pyzerolog.egg-info/SOURCES.txt
+pyzerolog.egg-info/dependency_links.txt
+pyzerolog.egg-info/top_level.txt
+zlog/__init__.py
+zlog/fields.py
+zlog/formatters.py
+zlog/level.py
+zlog/main.py
