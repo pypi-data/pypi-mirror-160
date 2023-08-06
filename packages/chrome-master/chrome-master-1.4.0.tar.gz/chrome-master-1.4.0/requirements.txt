@@ -1,0 +1,4 @@
+future
+pillow
+websocket_client
+six

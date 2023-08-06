@@ -1,0 +1,7 @@
+future
+pillow
+websocket_client
+six
+
+[dom]
+py-dom-xpath-six
