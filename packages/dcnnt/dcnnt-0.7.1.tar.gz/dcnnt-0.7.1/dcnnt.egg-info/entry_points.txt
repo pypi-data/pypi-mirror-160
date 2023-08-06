@@ -1,0 +1,2 @@
+[console_scripts]
+dcnnt = dcnnt.dcnnt:main
