@@ -1,0 +1,9 @@
+README.md
+setup.py
+MacroLib/MacroLib.py
+MacroLib/__init__.py
+MacroLib.egg-info/PKG-INFO
+MacroLib.egg-info/SOURCES.txt
+MacroLib.egg-info/dependency_links.txt
+MacroLib.egg-info/requires.txt
+MacroLib.egg-info/top_level.txt
