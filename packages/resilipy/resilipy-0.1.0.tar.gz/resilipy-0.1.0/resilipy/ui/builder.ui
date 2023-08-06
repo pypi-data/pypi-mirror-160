@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ResiliPy - Builder</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+       </font>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Name:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QGroupBox" name="groupBox">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+             </font>
+            </property>
+            <property name="title">
+             <string>Description</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QTextEdit" name="textEditDescription"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;&lt;&lt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="buttonNext0">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>&gt;&gt;&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <spacer name="horizontalSpacer">
+            <property name="font">
+             <font>
+              <family>Arial Black</family>
+             </font>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1" colspan="2">
+           <widget class="QLineEdit" name="lineEditName">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+             </font>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_6">
+       <layout class="QGridLayout" name="gridLayout_12">
+        <item row="0" column="1">
+         <widget class="QPushButton" name="buttonLoadModel">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Load Classifier</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="buttonBack1">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;&lt;&lt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="buttonNext1">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&gt;&gt;&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="3">
+         <widget class="QTextBrowser" name="textBrowserModel">
+          <property name="font">
+           <font>
+            <family>Arial</family>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="buttonDeleteModel">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="3" column="1" colspan="4">
+         <widget class="QTableView" name="tableViewRaw">
+          <property name="font">
+           <font>
+            <family>Arial</family>
+           </font>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <spacer name="horizontalSpacer_2">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="1" rowspan="2" colspan="2">
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="title">
+           <string>Data type</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="0" column="0">
+            <widget class="QRadioButton" name="radioTypeRaw">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>Raw data</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QRadioButton" name="radioTypeOhe">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>Processed (one-hot-encoded) data</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QPushButton" name="buttonBack2">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;&lt;&lt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="title">
+           <string>Index Column</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="0" column="0">
+            <widget class="QLineEdit" name="lineEditIndex">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="title">
+           <string>Separator</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="0">
+            <widget class="QRadioButton" name="radioComma">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>Comma</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QRadioButton" name="radioSemicolon">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>Semicolon</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QRadioButton" name="radioSpace">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>Space</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QRadioButton" name="radioTab">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>Tab</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="5" column="4">
+         <widget class="QPushButton" name="buttonNext2">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&gt;&gt;&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="3">
+         <spacer name="horizontalSpacer_3">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="buttonLoadData">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Load dataset</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="QPushButton" name="buttonDeleteData">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Delete dataset</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="4" column="1">
+         <spacer name="horizontalSpacer_4">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="buttonBack3">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;&lt;&lt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="3">
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="title">
+           <string>Important columns</string>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_10">
+           <item row="0" column="0">
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>98</width>
+                <height>28</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_11">
+               <item row="0" column="0">
+                <layout class="QVBoxLayout" name="layoutImpCols"/>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QPushButton" name="buttonNext3">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&gt;&gt;&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="3">
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="title">
+           <string>Target column</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_7">
+           <item row="0" column="0" colspan="3">
+            <widget class="QComboBox" name="comboBoxTarget">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QPushButton" name="buttonTargetUndo">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>Undo</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" colspan="2">
+            <widget class="QPushButton" name="buttonTargetConfirm">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>Confirm</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <layout class="QGridLayout" name="gridLayout_9">
+        <item row="3" column="2" colspan="2">
+         <widget class="QPushButton" name="buttonFinish">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Confirm and finish</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="buttonBack4">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;&lt;&lt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QGroupBox" name="groupBox_7">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="title">
+           <string>Name</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_17">
+           <item row="0" column="0">
+            <widget class="QTextBrowser" name="textBrowserSumName">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <spacer name="horizontalSpacer_5">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="2">
+         <widget class="QGroupBox" name="groupBox_9">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="title">
+           <string>Classifier</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_16">
+           <item row="0" column="0">
+            <widget class="QTextBrowser" name="textBrowserSumClassifier">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="title">
+           <string>Description</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_14">
+           <item row="0" column="0">
+            <widget class="QTextBrowser" name="textBrowserSumDescr">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="4">
+         <widget class="QGroupBox" name="groupBox_11">
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="title">
+           <string>Training features</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_13">
+           <item row="0" column="0">
+            <widget class="QTableView" name="tableSumFeatures">
+             <property name="font">
+              <font>
+               <family>Arial</family>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

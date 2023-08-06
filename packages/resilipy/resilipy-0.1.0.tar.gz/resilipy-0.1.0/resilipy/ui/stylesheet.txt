@@ -1,0 +1,6 @@
+QWidget { background-color: rgb(28, 27, 34); color: rgb(255, 255, 255); }
+QPushButton, QComboBox, QTextEdit, QLineEdit { background-color: rgb(66, 65, 77); }
+QScrollArea, QTableView, QListWidget, QTextBrowser, QGroupBox { background-color: rgb(43, 42, 51); }
+QPushButton:disabled { background-color: rgb(43, 42, 51); color: rgb(146, 146, 165)}
+QHeaderView::section { background-color:#2b2a33; }
+QTableCornerButton::section { background-color:#2b2a33; }
