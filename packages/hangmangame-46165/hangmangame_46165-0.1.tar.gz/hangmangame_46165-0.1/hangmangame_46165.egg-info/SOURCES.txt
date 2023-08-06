@@ -1,0 +1,8 @@
+setup.py
+hangmangame_46165/__init__.py
+hangmangame_46165/hangman.py
+hangmangame_46165.egg-info/PKG-INFO
+hangmangame_46165.egg-info/SOURCES.txt
+hangmangame_46165.egg-info/dependency_links.txt
+hangmangame_46165.egg-info/not-zip-safe
+hangmangame_46165.egg-info/top_level.txt
