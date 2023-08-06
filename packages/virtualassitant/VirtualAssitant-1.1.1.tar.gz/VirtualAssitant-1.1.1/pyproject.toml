@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "VirtualAssitant"
+version = "1.1.1"
+description = "Agendamiento de actividades mediante comandos de voz en google calendar"
+authors = ["Danilo <drleon416@gmail.com>"]
+keywords = ["google", "calendar"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+asistente = 'src.VirtualAssitant.create_event:create_event'
