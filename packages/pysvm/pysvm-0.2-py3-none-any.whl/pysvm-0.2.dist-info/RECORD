@@ -1,0 +1,12 @@
+pysvm/__init__.py,sha256=Xi6htq91bMjEqKdYYhEm7nmFLezjH-ZLIGxQqbAMuQg,200
+pysvm/rff.py,sha256=YNVT3q1ls2d8_HlWAupsws7V1m1ywGT4ogiBG-gSFrA,752
+pysvm/solver.py,sha256=WKgOp2IXj1ib4SVYu25gKnlcdOpeol9PHf5TyYvpbBg,16299
+pysvm/svm/__init__.py,sha256=nluSaWjFrCXTX9vaNC6PYEYLAjzlWTUtHqxsX5TrQPM,125
+pysvm/svm/oc_svm.py,sha256=RkyA_xcyXETWWjGh_YNfsVdukgAOZnEY-QiroIA7oKE,4246
+pysvm/svm/svc.py,sha256=HXDDhXkx_plxCyx7tiAZWGeDyn7riyAXdGRshfj31Ng,19042
+pysvm/svm/svr.py,sha256=ZX8Su1xUKdexSv0fk8wyHxbwOQ-gjM1w68q-l2jTxn4,10936
+pysvm-0.2.dist-info/LICENSE,sha256=ztT0GOIHMQPf-1yKqyeNw9koQcf0wNcvpurRQvD6Q1o,1066
+pysvm-0.2.dist-info/METADATA,sha256=NM87s_hR-UbEm5xL8p5LgVLw8mggzhLXTnUyMLDCAyA,4274
+pysvm-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysvm-0.2.dist-info/top_level.txt,sha256=ec3cQL7zmIJKH7D0tASi8W0kc1azAC-Klcou556ptAI,16
+pysvm-0.2.dist-info/RECORD,,
