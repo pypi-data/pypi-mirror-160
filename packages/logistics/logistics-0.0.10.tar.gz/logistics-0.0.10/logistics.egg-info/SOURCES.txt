@@ -1,0 +1,16 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+_upload.txt
+setup.py
+_manifesto/Manifesto.md
+logistics/__init__.py
+logistics.egg-info/PKG-INFO
+logistics.egg-info/SOURCES.txt
+logistics.egg-info/dependency_links.txt
+logistics.egg-info/top_level.txt
+logistics/misc/__init__.py
+logistics/misc/_meta.py
+logistics/plugins/__init__.py
+logistics/plugins/metaclass.py
+logistics/plugins/types.py
