@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+proxynova_scraper/__init__.py
+proxynova_scraper/proxynova.py
+proxynova_scraper/scrapper.py
+proxynova_scraper/utils.py
+proxynova_scraper.egg-info/PKG-INFO
+proxynova_scraper.egg-info/SOURCES.txt
+proxynova_scraper.egg-info/dependency_links.txt
+proxynova_scraper.egg-info/requires.txt
+proxynova_scraper.egg-info/top_level.txt
