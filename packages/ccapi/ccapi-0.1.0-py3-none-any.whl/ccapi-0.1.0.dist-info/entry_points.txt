@@ -1,0 +1,2 @@
+[console_scripts]
+ccapi = ccapi.__main__:main

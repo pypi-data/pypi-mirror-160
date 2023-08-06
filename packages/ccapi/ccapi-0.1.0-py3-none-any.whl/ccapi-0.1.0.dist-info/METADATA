@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: ccapi
+Version: 0.1.0
+Summary: Python API for Cell Collective
+Home-page: https://github.com/cellcollective/ccapi
+Author: Achilles Rasquinha
+Author-email: achillesrasquinha@gmail.com
+License: MIT License
+Keywords: ccapi model cell collective
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: requests
+Requires-Dist: grequests
+Requires-Dist: requests-cache
+Requires-Dist: python-socketio[client]
+Requires-Dist: bpyutils
+Provides-Extra: dev
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: networkx ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: recommonmark ; extra == 'dev'
+Requires-Dist: sphinx-autobuild ; extra == 'dev'
+Requires-Dist: ipykernel ; extra == 'dev'
+Requires-Dist: nbsphinx ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: pytest-sugar ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: pluggy (<1,>=0.12.0) ; extra == 'dev'
+Requires-Dist: docstr-coverage ; extra == 'dev'
+Requires-Dist: pipenv ; extra == 'dev'
+Requires-Dist: jedi (<0.18) ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: vulture ; extra == 'dev'
+Requires-Dist: safety ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: Flask ; extra == 'dev'
+
+<div align="center">
+    <h1>
+      ccapi
+    </h1>
+    <h4>
+      A Python Library to interact with the 
+      <a href="https://cellcollective.org">Cell Collective</a> API v3
+    </h4>
+</div>
+
+<p align="center">
+  <a href="https://travis-ci.org/achillesrasquinha/ccapi">
+    <img src="https://img.shields.io/travis/achillesrasquinha/ccapi.svg?style=flat-square">
+  </a>
+  <a href="https://ci.appveyor.com/project/achillesrasquinha/ccapi">
+    <img src="https://img.shields.io/appveyor/ci/achillesrasquinha/ccapi.svg?style=flat-square&logo=appveyor">
+  </a>
+  <a href="https://coveralls.io/github/achillesrasquinha/ccapi">
+    <img src="https://img.shields.io/coveralls/github/achillesrasquinha/ccapi.svg?style=flat-square">
+  </a>
+  <a href="https://pypi.org/project/ccapi/">
+    <img src="https://img.shields.io/pypi/v/ccapi.svg?style=flat-square">
+  </a>
+  <a href="https://pypi.org/project/pipupgrade/">
+		<img src="https://img.shields.io/pypi/l/pipupgrade.svg?style=flat-square">
+	</a>
+  <a href="https://hub.docker.com/r/achillesrasquinha/ccapi">
+    <img src="https://img.shields.io/docker/build/achillesrasquinha/ccapi.svg?style=flat-square&logo=docker">
+  </a>
+  <a href="https://git.io/boilpy">
+    <img src="https://img.shields.io/badge/made%20with-boilpy-red.svg?style=flat-square">
+  </a>
+  <a href="https://saythanks.io/to/achillesrasquinha">
+    <img src="https://img.shields.io/badge/Say%20Thanks-🦉-1EAEDB.svg?style=flat-square">
+  </a>
+  <a href="https://paypal.me/achillesrasquinha">
+    <img src="https://img.shields.io/badge/donate-💵-f44336.svg?style=flat-square">
+  </a>
+</p>
+
+<div align="center">
+  <img src=".github/assets/demo.gif">
+</div>
+
+**ccapi** is a Python Package that provides a simple interface to 
+[Cell Collective](https://cellcollective.org) for modelling and analysis of 
+biological networks.
+
+### Table of Contents
+* [Features](#Features)
+* [Installation](#installation)
+* [Usage](#Documentation)
+* [License](#license)
+
+### Features
+
+**ccapi** attempts to be an all-in-one toolbox for modelling biological systems.
+
+* Reading public and private models from [Cell Collective](https://cellcollective.org).
+* A rich knowledge-base for each model species.
+* Importing models using an SBML file format.
+* Exporting models into SBML qual, Boolean Expressions, Truth Tables, Interaction Matrix and GML formats.
+* Querying for models.
+* Visualizing models graphically.
+
+**ccapi** officially supports Python 2.7+ and 3.4+.
+
+### Installation
+
+```shell
+$ pip install https://github.com/cellcollective/ccapi.git
+```
+
+### Documentation
+
+Visit [https://ccapi.readthedocs.org](https://ccapi.readthedocs.org) for documentation.
+
+#### License
+
+This repository has been released under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  Made with ❤️ using <a href="https://git.io/boilpy">boilpy</a>.
+</div>
