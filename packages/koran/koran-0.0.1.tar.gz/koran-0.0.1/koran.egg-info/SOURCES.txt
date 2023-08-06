@@ -1,0 +1,7 @@
+MANIFEST.in
+README
+setup.py
+koran.egg-info/PKG-INFO
+koran.egg-info/SOURCES.txt
+koran.egg-info/dependency_links.txt
+koran.egg-info/top_level.txt
