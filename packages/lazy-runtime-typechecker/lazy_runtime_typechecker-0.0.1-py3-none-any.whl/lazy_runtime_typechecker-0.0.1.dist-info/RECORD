@@ -1,0 +1,10 @@
+lazy_runtime_typechecker/__init__.py,sha256=EDZm6TEz0_ONduJqQybUig1FQ50hd9rCQg6sb-n_vVY,169
+lazy_runtime_typechecker/typechecker.py,sha256=RzjIQSADSqRGtdwLU2Ad5wE_ph6wDv6v6bin38_-kgs,6175
+lazy_runtime_typechecker/typechecker_errors.py,sha256=H849p_U-KjNFZNeO4aHORJ5AIwdh6NNc18iCnrt03mo,141
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_typechecker.py,sha256=DMjGccDp32zcWOekkEMDtF9yKdWNn3OtAS6qBmmKdxc,2252
+lazy_runtime_typechecker-0.0.1.dist-info/LICENSE,sha256=FYgjK3Q2TrJGLVZaUULbEU_F8ndRBgK_NVqZjZuY5yE,1061
+lazy_runtime_typechecker-0.0.1.dist-info/METADATA,sha256=1P6CN135L-hd02w0l8Fyg2ak6tRf2lOsdbpAzMZV-x4,6288
+lazy_runtime_typechecker-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lazy_runtime_typechecker-0.0.1.dist-info/top_level.txt,sha256=VxzyOIcNl-PhAP_yaV9u36z86lt4HV6naN2i06VTFgo,31
+lazy_runtime_typechecker-0.0.1.dist-info/RECORD,,
