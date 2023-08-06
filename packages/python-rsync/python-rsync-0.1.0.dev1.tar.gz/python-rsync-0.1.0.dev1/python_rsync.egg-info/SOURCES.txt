@@ -1,0 +1,11 @@
+setup.py
+pyrsync/__init__.py
+pyrsync/backends/__init__.py
+pyrsync/backends/cffi/__init__.py
+pyrsync/backends/cffi/build.py
+pyrsync/backends/cython/__init__.py
+python_rsync.egg-info/PKG-INFO
+python_rsync.egg-info/SOURCES.txt
+python_rsync.egg-info/dependency_links.txt
+python_rsync.egg-info/not-zip-safe
+python_rsync.egg-info/top_level.txt
