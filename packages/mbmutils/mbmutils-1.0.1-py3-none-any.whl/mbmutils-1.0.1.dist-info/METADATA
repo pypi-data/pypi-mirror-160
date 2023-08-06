@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mbmutils
+Version: 1.0.1
+Summary: Developers tools
+Home-page: https://github.com/bladnman/mbmutils
+Author: Matt Maher
+Author-email: matt@maher-family.net
+Project-URL: Bug Tracker, https://github.com/bladnman/mbmutils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mbmutils
+
+Simpmle common utilities.
+
+## Installation
+
+```
+pip install mbmutils
+```
+
+Example in file:
+```python
+from mbmutils import mu
+print(f"Hello {mu.f_right_back('Hello there crazy World', ' ')}!")
+
+-> Hello World!
+```
