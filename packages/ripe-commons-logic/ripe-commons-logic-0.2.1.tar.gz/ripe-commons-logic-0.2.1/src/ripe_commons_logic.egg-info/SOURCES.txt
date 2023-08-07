@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ripe_commons_logic/__init__.py
+src/ripe_commons_logic/shopify.py
+src/ripe_commons_logic/utils.py
+src/ripe_commons_logic.egg-info/PKG-INFO
+src/ripe_commons_logic.egg-info/SOURCES.txt
+src/ripe_commons_logic.egg-info/dependency_links.txt
+src/ripe_commons_logic.egg-info/not-zip-safe
+src/ripe_commons_logic.egg-info/top_level.txt
